@@ -1,5 +1,5 @@
 {
-  "status": "separate attachments; local copies retained, not uploaded",
+  "status": "YOLO11s available as a separate Release attachment; YOLO11n retained locally only",
   "models": [
     {
       "path": "formal_research/traffic_yolo_system/outputs/training/yolo11n_formal_baseline_v1/weights/best.pt",
@@ -10,7 +10,8 @@
       "role": "comparison baseline",
       "selected_epoch": "not independently extracted during packaging",
       "attachment_name": "yolo11n_comparison_best.pt",
-      "required_for_video_free_checks": false
+      "required_for_video_free_checks": false,
+      "published": false
     },
     {
       "path": "formal_research/traffic_yolo_system/outputs/training/yolo11s_formal_a100_v1/weights/best.pt",
@@ -21,8 +22,13 @@
       "role": "selected detector",
       "selected_epoch": "not independently extracted during packaging",
       "attachment_name": "yolo11s_thesis_best.pt",
-      "required_for_video_free_checks": false
+      "required_for_video_free_checks": false,
+      "published": true,
+      "release_tag": "thesis-v1.0",
+      "download_url": "https://github.com/zokiyyy/traffic-observations-thesis/releases/download/thesis-v1.0/yolo11s_thesis_best.pt",
+      "checksum_url": "https://github.com/zokiyyy/traffic-observations-thesis/releases/download/thesis-v1.0/yolo11s_thesis_best.pt.sha256",
+      "model_card": "MODEL_CARD.md"
     }
   ],
-  "download_status": "No public download URL exists yet. Do not claim these attachments have been published."
+  "download_status": "The selected YOLO11s checkpoint is attached to https://github.com/zokiyyy/traffic-observations-thesis/releases/tag/thesis-v1.0. The YOLO11n comparison checkpoint is not published."
 }

@@ -29,6 +29,6 @@ Unity case images `F0178.jpg`, `F0794.jpg`, `F1018.jpg` and their paired .meta f
 
 Raw videos, extracted dataset images and original human label files are not provided by this package. One unchanged thesis interface screenshot is included for README illustration; it is not a substitute for the dataset or Unity case images. No redistribution permission is inferred. Aggregate counts, predicted boxes, metadata and selected result records are included for local review; decide their publication scope before uploading.
 
-Model checkpoints are local attachment candidates, not yet hosted. See MODEL_MANIFEST.json. No claim is made that an original dataset URL alone provides the exact annotated split or that every omitted file is downloadable.
+The final YOLO11s checkpoint is provided as a separate Release attachment; see MODEL_CARD.md and MODEL_MANIFEST.json. The YOLO11n comparison checkpoint is not published. No claim is made that an original dataset URL alone provides the exact annotated split or that every omitted file is downloadable.
 
 Use `CONFIGURATION.md` for machine-specific detector paths. Required repository files are separate from optional model attachments; base checks do not need weights.

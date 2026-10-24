@@ -65,7 +65,9 @@ The URL was retained from the thesis; availability and exact alignment with the 
 
 ## Model checkpoints
 
-The selected YOLO11s checkpoint and YOLO11n comparison checkpoint are retained at their original `outputs/training/.../weights/best.pt` locations for local review. See `MODEL_MANIFEST.json` for hashes and sizes. These binaries are ignored by `.gitignore` and are not part of a normal Git clone. `MODEL_MANIFEST.json` gives distinct proposed attachment filenames and the exact destination paths/hashes. No model download URL has been published yet. Their absence does not prevent video-free verification. Training arguments and results are included. Do not infer the checkpoint's selected epoch from the last CSV row; that metadata has not been independently extracted here.
+The **final trained YOLO11s detector** is available from [Release thesis-v1.0](https://github.com/zokiyyy/traffic-observations-thesis/releases/tag/thesis-v1.0) as `yolo11s_thesis_best.pt`, together with its checksum file and model card. See [MODEL_CARD.md](MODEL_CARD.md) for the exact SHA-256, class mapping, verification command and destination path. Its bytes match the original selected checkpoint and the frozen Main Test model hash.
+
+The YOLO11n comparison checkpoint remains unpublished. Model binaries are excluded from normal Git commits; download the YOLO11s attachment separately. The default video-free checks do not require models. If installed at its documented path, YOLO11s is hash-checked automatically. `--require-models` additionally requires the unpublished YOLO11n comparison file, so it is not needed for this release's basic verification.
 
 ## Scope of reproducibility
 
@@ -81,4 +83,4 @@ To prepare machine-specific detector configurations without changing research re
 
 `VERIFICATION.md` reports the latest check of the actual Git-selected file set. `release_checks/run_001` is the historical full-folder check; `release_checks/run_002` is the distribution check; `release_checks/run_003` repeats verification after the README preview addition. Required repository files and optional checkpoints are intentionally separated. `SHA256SUMS.txt` covers the repository payload (excluding the checksum file itself); checkpoint hashes are in `MODEL_MANIFEST.json`.
 
-Historical machine-path strings remain in archival evidence and are listed in `LOCAL_PATH_INVENTORY.json`; they are not runnable defaults or download instructions. Authorship/third-party notices are in `ACKNOWLEDGEMENTS.md`. The source repository is public. Optional model attachments have not been published. This repository does not include raw videos or the full annotated image dataset.
+Historical machine-path strings remain in archival evidence and are listed in `LOCAL_PATH_INVENTORY.json`; they are not runnable defaults or download instructions. Authorship/third-party notices are in `ACKNOWLEDGEMENTS.md`. The source repository is public. The final YOLO11s model is available as a Release attachment; the YOLO11n comparison model remains unpublished. This repository does not include raw videos or the full annotated image dataset.

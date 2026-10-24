@@ -1,5 +1,5 @@
 {
-  "status": "initial public source publication prepared; source originals unchanged",
+  "status": "public source package with selected YOLO11s Release attachment",
   "copied_bytes": 273755551,
   "copied_MiB": 261.07,
   "source_unchanged_files_verified": 1537,
@@ -159,6 +159,11 @@
     "visibility": "public",
     "branch": "main",
     "package_version": "thesis-source-package-v1",
-    "models_published": false
+    "models_published": true,
+    "published_models": [
+      "YOLO11s"
+    ],
+    "model_release_tag": "thesis-v1.0",
+    "model_release_url": "https://github.com/zokiyyy/traffic-observations-thesis/releases/tag/thesis-v1.0"
   }
 }

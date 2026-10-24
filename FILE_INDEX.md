@@ -30,3 +30,7 @@ Release-only helpers: `tools/verify_release.py` (result checks), `tools/configur
 
 - `docs/images/prototype-replay.png`: unchanged thesis interface screenshot, used in README only.
 - `docs/media_manifest.json` and `MEDIA_NOTES.md`: image provenance and the decision to keep the three Unity case images external.
+
+## Selected detector attachment
+
+`MODEL_CARD.md` describes the published YOLO11s attachment, exact checksum, class mapping and expected local path. `MODEL_MANIFEST.json` distinguishes it from the unpublished YOLO11n comparison checkpoint. Model binaries remain outside Git source commits.
