@@ -1,0 +1,32 @@
+{
+  "duration_s": 3600.0097666666666,
+  "frames": 106460,
+  "zones": 5,
+  "windows": 361,
+  "eligible_windows": 341,
+  "held_windows": 19,
+  "held_intervals": 13,
+  "held_duration_s": 48.7011,
+  "combined_mean_count": 0.3033109302150989,
+  "state_counts": {
+    "night_no_observations": 1364,
+    "calibration_insufficient": 341,
+    "held_image_evidence_insufficient": 95,
+    "insufficient_window": 5
+  },
+  "showcases": [
+    {
+      "kind": "count_peak",
+      "start_s": 1490.0,
+      "end_s": 1500.0,
+      "combined_mean_count": 3.408957777777755
+    },
+    {
+      "kind": "held_evidence_example",
+      "start_s": 3001.0619,
+      "end_s": 3017.9623,
+      "held_duration_s": 16.9004
+    }
+  ],
+  "derivation_seconds": 2.237318875035271
+}

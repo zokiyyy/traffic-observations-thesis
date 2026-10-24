@@ -1,0 +1,216 @@
+{
+  "Newport": {
+    "duration_s": 3600.0151444444446,
+    "frames": 107932,
+    "zones": 4,
+    "windows": 361,
+    "eligible_windows": 360,
+    "held_windows": 0,
+    "held_intervals": 0,
+    "held_duration_s": 0,
+    "combined_mean_count": 12.276034557916345,
+    "state_counts": {
+      "no_persistent_signal": 1020,
+      "motion_insufficient": 230,
+      "high_count_persistent": 155,
+      "high_count_low_motion_persistent": 23,
+      "no_observed_vehicles": 12,
+      "insufficient_window": 4
+    },
+    "showcases": [
+      {
+        "zone": "road_top",
+        "kind": "joint",
+        "start_s": 20.0,
+        "end_s": 70.0,
+        "duration_s": 50.0,
+        "confirmation_available_at_s": 50.0
+      },
+      {
+        "zone": "road_right",
+        "kind": "high",
+        "start_s": 3110.0,
+        "end_s": 3280.0,
+        "duration_s": 170.0,
+        "confirmation_available_at_s": 3140.0
+      },
+      {
+        "kind": "count_peak",
+        "start_s": 10.0,
+        "end_s": 20.0,
+        "combined_mean_count": 24.586653333333334
+      }
+    ],
+    "derivation_seconds": 10.163031957985368
+  },
+  "NE12th": {
+    "duration_s": 3600.0097666666666,
+    "frames": 106460,
+    "zones": 5,
+    "windows": 361,
+    "eligible_windows": 341,
+    "held_windows": 19,
+    "held_intervals": 13,
+    "held_duration_s": 48.7011,
+    "combined_mean_count": 0.3033109302150989,
+    "state_counts": {
+      "night_no_observations": 1364,
+      "calibration_insufficient": 341,
+      "held_image_evidence_insufficient": 95,
+      "insufficient_window": 5
+    },
+    "showcases": [
+      {
+        "kind": "count_peak",
+        "start_s": 1490.0,
+        "end_s": 1500.0,
+        "combined_mean_count": 3.408957777777755
+      },
+      {
+        "kind": "held_evidence_example",
+        "start_s": 3001.0619,
+        "end_s": 3017.9623,
+        "held_duration_s": 16.9004
+      }
+    ],
+    "derivation_seconds": 2.237318875035271
+  },
+  "Eastgate": {
+    "duration_s": 3599.991,
+    "frames": 107892,
+    "zones": 5,
+    "windows": 360,
+    "eligible_windows": 359,
+    "held_windows": 0,
+    "held_intervals": 0,
+    "held_duration_s": 0,
+    "combined_mean_count": 21.7703849228759,
+    "state_counts": {
+      "motion_insufficient": 346,
+      "no_persistent_signal": 1138,
+      "no_observed_vehicles": 18,
+      "high_count_low_motion_persistent": 40,
+      "high_count_persistent": 253,
+      "insufficient_window": 5
+    },
+    "showcases": [
+      {
+        "zone": "road_upper_left",
+        "kind": "joint",
+        "start_s": 630.0,
+        "end_s": 700.0,
+        "duration_s": 70.0,
+        "confirmation_available_at_s": 660.0
+      },
+      {
+        "zone": "road_upper_left",
+        "kind": "high",
+        "start_s": 620.0,
+        "end_s": 740.0,
+        "duration_s": 120.0,
+        "confirmation_available_at_s": 650.0
+      },
+      {
+        "kind": "count_peak",
+        "start_s": 2270.0,
+        "end_s": 2280.0,
+        "combined_mean_count": 33.14735777777783
+      }
+    ],
+    "derivation_seconds": 18.63994725001976
+  },
+  "SE38th": {
+    "duration_s": 3600.0297333333333,
+    "frames": 104997,
+    "zones": 4,
+    "windows": 361,
+    "eligible_windows": 336,
+    "held_windows": 24,
+    "held_intervals": 18,
+    "held_duration_s": 98.73295555555555,
+    "combined_mean_count": 16.21386216575569,
+    "state_counts": {
+      "no_persistent_signal": 974,
+      "motion_insufficient": 199,
+      "high_count_persistent": 137,
+      "high_count_low_motion_persistent": 26,
+      "held_image_evidence_insufficient": 96,
+      "no_observed_vehicles": 8,
+      "insufficient_window": 4
+    },
+    "showcases": [
+      {
+        "zone": "road_top",
+        "kind": "joint",
+        "start_s": 1160.0,
+        "end_s": 1220.0,
+        "duration_s": 60.0,
+        "confirmation_available_at_s": 1190.0
+      },
+      {
+        "zone": "road_top",
+        "kind": "high",
+        "start_s": 670.0,
+        "end_s": 770.0,
+        "duration_s": 100.0,
+        "confirmation_available_at_s": 700.0
+      },
+      {
+        "kind": "count_peak",
+        "start_s": 750.0,
+        "end_s": 760.0,
+        "combined_mean_count": 30.050304444444443
+      },
+      {
+        "kind": "held_evidence_example",
+        "start_s": 798.1967888888889,
+        "end_s": 826.9633222222222,
+        "held_duration_s": 28.766533333333335
+      }
+    ],
+    "derivation_seconds": 12.198693124984857
+  },
+  "NE8th": {
+    "duration_s": 3600.0026666666668,
+    "frames": 107974,
+    "zones": 4,
+    "windows": 361,
+    "eligible_windows": 360,
+    "held_windows": 0,
+    "held_intervals": 0,
+    "held_duration_s": 0,
+    "combined_mean_count": 32.20967727060944,
+    "state_counts": {
+      "no_persistent_signal": 1172,
+      "motion_insufficient": 58,
+      "high_count_persistent": 182,
+      "high_count_low_motion_persistent": 28,
+      "insufficient_window": 4
+    },
+    "showcases": [
+      {
+        "zone": "road_left",
+        "kind": "joint",
+        "start_s": 2030.0,
+        "end_s": 2100.0,
+        "duration_s": 70.0,
+        "confirmation_available_at_s": 2060.0
+      },
+      {
+        "zone": "road_left",
+        "kind": "high",
+        "start_s": 2010.0,
+        "end_s": 2140.0,
+        "duration_s": 130.0,
+        "confirmation_available_at_s": 2040.0
+      },
+      {
+        "kind": "count_peak",
+        "start_s": 2600.0,
+        "end_s": 2610.0,
+        "combined_mean_count": 50.994815555555626
+      }
+    ],
+    "derivation_seconds": 23.131406500004232
+  }
+}

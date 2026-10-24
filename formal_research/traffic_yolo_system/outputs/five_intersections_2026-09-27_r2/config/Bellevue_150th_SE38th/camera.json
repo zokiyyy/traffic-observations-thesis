@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "camera_id": "Bellevue_150th_SE38th",
+  "source_ids": [
+    "Bellevue_150th_SE38th__2017-09-11_14-08-32.mp4"
+  ],
+  "roi_version": "bellevue_150th_se38th-visible-roads-v1-20260927",
+  "layout_path": "roi.json",
+  "allowed_source_intervals_seconds": [
+    [
+      0,
+      3600.0297333333333
+    ]
+  ],
+  "applicability_basis": "AI inspected sparse original frames and conservative polygons, recorded source-specific geometry screening and limitations. Full native timing audit required before inference.",
+  "applicability_evidence": [
+    {
+      "path": "applicability.json",
+      "sha256": "14757451ceefc3a803aa2837bc8334de94b40200234f5b33e57a5aafbddef597"
+    },
+    {
+      "path": "source_timing_evidence.json",
+      "sha256": "108a6e8023309a7f51045e380209b486afcd71d4253313ddc3ce7714a9ee3ac9"
+    }
+  ],
+  "status": "source_bound_cross_camera_development_trial",
+  "background_filter": {
+    "mode": "none",
+    "reason": "No source-specific background false-positive evidence is established; Newport wall polygon and 1280 confirmation rule are not transferred."
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "state": "passed",
+  "synthetic_only": true,
+  "three_exact_original_pixel_frames": [
+    2,
+    3,
+    4
+  ],
+  "scope_guards_mocked_for_generated_fixture_only": true,
+  "model_or_dataset_used": false,
+  "contact_helper_sha256": "fa947d77068cbd723b9e08293f6436ff651e02b7e6e8f391f03323f41fd4ebda"
+}

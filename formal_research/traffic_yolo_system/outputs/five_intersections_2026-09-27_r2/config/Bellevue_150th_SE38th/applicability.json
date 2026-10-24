@@ -1,0 +1,134 @@
+{
+  "camera_id": "Bellevue_150th_SE38th",
+  "source_id": "Bellevue_150th_SE38th__2017-09-11_14-08-32.mp4",
+  "source_split": "Validation",
+  "source_sha256": "64049c93fd95320ed3736c516874119f2603623541a5255f79c38df37f0faf9c",
+  "split_manifest_sha256": "8e1b8806f5a1f2f8280b71169d45ba5837bc710db26f0550610124fcc4f1f3cd",
+  "selection_sha256": "602bf905f1fd60edeb31aa482b4e48aed80057bd1b93cd5f0a68961c1e18f6c5",
+  "layout_sha256": "3d02edffc839a9af7448a40ea3a3aae9782045281610cde383d48642051c8e5a",
+  "author": "AI assistant; no new human annotations",
+  "visual_review": "抽样中建筑、道路边线和前景设备保持同一总体构图；阴影位置变化。原文件存在长帧呈现，后续必须单列真实新图像与呈现时间。",
+  "sample_count": 13,
+  "unique_original_pts_count": 13,
+  "sample_frames": [
+    {
+      "source_seconds": 0.0,
+      "original_pts_ticks": 0,
+      "path": "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/five_intersections_2026-09-27_r2/source_review/Bellevue_150th_SE38th/original_sample_00.png",
+      "sha256": "314d6746214a4ed9baca7b3b35e081f1026bd0a94d09ca609596818e469a8b6c"
+    },
+    {
+      "source_seconds": 299.93212222222223,
+      "original_pts_ticks": 26993891,
+      "path": "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/five_intersections_2026-09-27_r2/source_review/Bellevue_150th_SE38th/original_sample_01.png",
+      "sha256": "8c9130190eaa84e0b4c8229607e3eccd47991008313b3e888b3d26714f3d513c"
+    },
+    {
+      "source_seconds": 599.8642444444445,
+      "original_pts_ticks": 53987782,
+      "path": "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/five_intersections_2026-09-27_r2/source_review/Bellevue_150th_SE38th/original_sample_02.png",
+      "sha256": "e0710cc64d60937012c5597838288c0a5c952b28a1dbd9f19a4bbe7f9f7dfa6c"
+    },
+    {
+      "source_seconds": 899.7630111111112,
+      "original_pts_ticks": 80978671,
+      "path": "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/five_intersections_2026-09-27_r2/source_review/Bellevue_150th_SE38th/original_sample_03.png",
+      "sha256": "427d99b770b386f69f99a4324565c6767099bedd7b8831f9f17bd29793c43833"
+    },
+    {
+      "source_seconds": 1199.6762,
+      "original_pts_ticks": 107970858,
+      "path": "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/five_intersections_2026-09-27_r2/source_review/Bellevue_150th_SE38th/original_sample_04.png",
+      "sha256": "69ad67e2a9c32a795a3b33f7af1116815957caf207635191bb5d4dd2fe5f2b0f"
+    },
+    {
+      "source_seconds": 1499.6082444444444,
+      "original_pts_ticks": 134964742,
+      "path": "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/five_intersections_2026-09-27_r2/source_review/Bellevue_150th_SE38th/original_sample_05.png",
+      "sha256": "d08714627be3da57e5279ac6970c9a72a80bcc62d37272e849f23574f836326c"
+    },
+    {
+      "source_seconds": 1799.5070444444445,
+      "original_pts_ticks": 161955634,
+      "path": "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/five_intersections_2026-09-27_r2/source_review/Bellevue_150th_SE38th/original_sample_06.png",
+      "sha256": "99642b1ff006b01219e62901ab6b5ea1526ea112f8fa045088c33566c4951a37"
+    },
+    {
+      "source_seconds": 2099.439211111111,
+      "original_pts_ticks": 188949529,
+      "path": "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/five_intersections_2026-09-27_r2/source_review/Bellevue_150th_SE38th/original_sample_07.png",
+      "sha256": "3b98741eba409a5390a7a7259743ddf24bf6b0ad864041ef83f4c76d94ae3a8a"
+    },
+    {
+      "source_seconds": 2399.334388888889,
+      "original_pts_ticks": 215940095,
+      "path": "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/five_intersections_2026-09-27_r2/source_review/Bellevue_150th_SE38th/original_sample_08.png",
+      "sha256": "11c2d221c3476c3f2c879b127617098b2fc447971d12bf7b47a47625ace00541"
+    },
+    {
+      "source_seconds": 2699.266577777778,
+      "original_pts_ticks": 242933992,
+      "path": "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/five_intersections_2026-09-27_r2/source_review/Bellevue_150th_SE38th/original_sample_09.png",
+      "sha256": "b44a77a295f5fdac9277ed4aba505805ab01f0e16bc454fe5ca235e95ae488b0"
+    },
+    {
+      "source_seconds": 2999.165377777778,
+      "original_pts_ticks": 269924884,
+      "path": "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/five_intersections_2026-09-27_r2/source_review/Bellevue_150th_SE38th/original_sample_10.png",
+      "sha256": "68a8368d8cce2a7f49b7f65453aeb88fe93267c5bcefbf71e0739c2132d6d0e1"
+    },
+    {
+      "source_seconds": 3299.0975444444443,
+      "original_pts_ticks": 296918779,
+      "path": "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/five_intersections_2026-09-27_r2/source_review/Bellevue_150th_SE38th/original_sample_11.png",
+      "sha256": "289fbbd11f999825334286a9f78fc4d732050c7f4cc642a3cfd41f99dd4de3b5"
+    },
+    {
+      "source_seconds": 3599.029722222222,
+      "original_pts_ticks": 323912675,
+      "path": "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/five_intersections_2026-09-27_r2/source_review/Bellevue_150th_SE38th/original_sample_12.png",
+      "sha256": "eb5026a80e2bd207009ab927329e6c61fa71bbd12f10c5dc67fbd2f1c17105e1"
+    }
+  ],
+  "initial_alignment_screen": {
+    "evaluated": 12,
+    "pass": 12,
+    "flagged": 0,
+    "maximum_displacement_pixels": 2.5391757488250732,
+    "minimum_inliers": 437
+  },
+  "static_structure_followup": null,
+  "allowed_source_interval_seconds": [
+    0,
+    3600.0297333333333
+  ],
+  "original_scope_evidence": {
+    "sparse_review_sha256": "b09539e2ff9a5f89a3015630796a1b14623a28f4f09af371f4ed6c02bd5eb08b",
+    "tail_evidence_sha256": "8070954d8f1eac968c1c6d51112f5404646fe19fffcd0d4003bb1b3926d78f80"
+  },
+  "limitations": [
+    "Supports a source-bound development geometry trial, not proof of all-frame applicability or count accuracy.",
+    "Strong moving shadows and glare can change detector behavior while static geometry remains similar.",
+    "Near-camera occluded approach and unselected road margins remain outside these ROIs.",
+    "Counts describe model-estimated vehicles whose box bottom-centers fall inside the coloured selected-road ROIs; they are not all vehicles in the physical intersection. Full-frame raw detections are retained separately."
+  ],
+  "sparse_visual_review": {
+    "status": "passed_for_development",
+    "reviewers": [
+      "source_review_AI_agent",
+      "root_AI_agent_independent_review"
+    ],
+    "reviewed_artifacts": [
+      "roi_reference_overlay.png",
+      "roi_contact.jpg"
+    ],
+    "coverage": "First original frame and 13 original-PTS sampling targets; NE12th has 12 distinct sampled PTS.",
+    "decision": "Conservative selected-road geometry is acceptable for the authorized source-bound development trial.",
+    "not_claimed": [
+      "human ground-truth approval",
+      "all-frame stability",
+      "detection or count accuracy",
+      "complete physical intersection coverage"
+    ]
+  }
+}

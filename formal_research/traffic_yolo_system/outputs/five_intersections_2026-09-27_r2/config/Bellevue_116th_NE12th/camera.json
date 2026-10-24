@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "camera_id": "Bellevue_116th_NE12th",
+  "source_ids": [
+    "Bellevue_116th_NE12th__2017-09-10_23-08-29.mp4"
+  ],
+  "roi_version": "bellevue_116th_ne12th-visible-roads-night-v1-20260927-r2",
+  "layout_path": "roi.json",
+  "allowed_source_intervals_seconds": [
+    [
+      0,
+      3600.0097666666666
+    ]
+  ],
+  "applicability_basis": "AI inspected sparse original frames and conservative polygons, recorded source-specific geometry screening and limitations. Full native timing audit required before inference.",
+  "applicability_evidence": [
+    {
+      "path": "applicability.json",
+      "sha256": "26296e088332587003bfa303334e154584b8a6bfa3258900e95792cca7f86891"
+    },
+    {
+      "path": "source_timing_evidence.json",
+      "sha256": "d56d3eec193504a2d1393709219f80d23ea5eadd3ccbe58d235ba0f4112b6aa5"
+    }
+  ],
+  "status": "source_bound_cross_camera_development_trial",
+  "background_filter": {
+    "mode": "none",
+    "reason": "No source-specific background false-positive evidence is established; Newport wall polygon and 1280 confirmation rule are not transferred."
+  }
+}

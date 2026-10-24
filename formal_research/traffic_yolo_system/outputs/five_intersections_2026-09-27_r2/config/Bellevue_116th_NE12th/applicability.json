@@ -1,0 +1,132 @@
+{
+  "camera_id": "Bellevue_116th_NE12th",
+  "source_id": "Bellevue_116th_NE12th__2017-09-10_23-08-29.mp4",
+  "source_split": "Validation",
+  "source_sha256": "785fc1ed24a6a2aff94601b79474c88a63660a751a586697b6bfd9120fd371be",
+  "split_manifest_sha256": "8e1b8806f5a1f2f8280b71169d45ba5837bc710db26f0550610124fcc4f1f3cd",
+  "selection_sha256": "602bf905f1fd60edeb31aa482b4e48aed80057bd1b93cd5f0a68961c1e18f6c5",
+  "layout_sha256": "080b7379ebbf83beacf3e5aba481adc269c2e5d43c259bce27830768317a4a83",
+  "author": "AI assistant; no new human annotations",
+  "visual_review": "13个原始PTS抽样中道路、路口停止线和前景硬件构图相近；道路可见。夜间图像噪声、灯光眩光和暗部遮挡明显，车少；不能据此判断检测准确率或白天场景表现。",
+  "sample_count": 13,
+  "unique_original_pts_count": 13,
+  "sample_frames": [
+    {
+      "source_seconds": 0.0,
+      "original_pts_ticks": 0,
+      "path": "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/five_intersections_2026-09-27_r2/source_review/Bellevue_116th_NE12th/original_sample_00.png",
+      "sha256": "bc15a5cb9c32f9473c0e8b49dd4a502a838d73d5c6d533bab54940102e464b81"
+    },
+    {
+      "source_seconds": 299.9254222222222,
+      "original_pts_ticks": 26993288,
+      "path": "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/five_intersections_2026-09-27_r2/source_review/Bellevue_116th_NE12th/original_sample_01.png",
+      "sha256": "f3f265b9f71b3635de3cd48cbca494c903f84033612b83610152b558ecd25df4"
+    },
+    {
+      "source_seconds": 599.8326333333333,
+      "original_pts_ticks": 53984937,
+      "path": "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/five_intersections_2026-09-27_r2/source_review/Bellevue_116th_NE12th/original_sample_02.png",
+      "sha256": "68d0768f025c1d5a49b7429b8540562bd9a035e52daef0b3faef1eba23793c43"
+    },
+    {
+      "source_seconds": 899.7731888888889,
+      "original_pts_ticks": 80979587,
+      "path": "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/five_intersections_2026-09-27_r2/source_review/Bellevue_116th_NE12th/original_sample_03.png",
+      "sha256": "1860aa4bc1111b9a8314dfe45c376d9b6f201d6cfc2d3a074b8190ef4577677c"
+    },
+    {
+      "source_seconds": 1199.6648222222223,
+      "original_pts_ticks": 107969834,
+      "path": "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/five_intersections_2026-09-27_r2/source_review/Bellevue_116th_NE12th/original_sample_04.png",
+      "sha256": "b04ac1e6a6043e8b697cd86d70e1f710ac479b3f45df4cd05f3bea3cf27af4a5"
+    },
+    {
+      "source_seconds": 1499.605388888889,
+      "original_pts_ticks": 134964485,
+      "path": "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/five_intersections_2026-09-27_r2/source_review/Bellevue_116th_NE12th/original_sample_05.png",
+      "sha256": "348a2c13a9e419e25cba34ee35f92f5b325ae2056891a213d6a9bd6b11abcc75"
+    },
+    {
+      "source_seconds": 1799.512611111111,
+      "original_pts_ticks": 161956135,
+      "path": "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/five_intersections_2026-09-27_r2/source_review/Bellevue_116th_NE12th/original_sample_06.png",
+      "sha256": "a4868d9ab1ff411cada4bbcebf81011ef4f70c7de1970ec4161cd131cbf06157"
+    },
+    {
+      "source_seconds": 2099.4198555555554,
+      "original_pts_ticks": 188947787,
+      "path": "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/five_intersections_2026-09-27_r2/source_review/Bellevue_116th_NE12th/original_sample_07.png",
+      "sha256": "bffcc96c1678eada0c100f76f58be7003876af7159fb68d6a406b7ca19bf6c63"
+    },
+    {
+      "source_seconds": 2399.327111111111,
+      "original_pts_ticks": 215939440,
+      "path": "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/five_intersections_2026-09-27_r2/source_review/Bellevue_116th_NE12th/original_sample_08.png",
+      "sha256": "99442a8f096bef3fb4338ec53abd71db893295b167fadf593bf9c8d5d9aa627e"
+    },
+    {
+      "source_seconds": 2699.254588888889,
+      "original_pts_ticks": 242932913,
+      "path": "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/five_intersections_2026-09-27_r2/source_review/Bellevue_116th_NE12th/original_sample_09.png",
+      "sha256": "e6d2a85bb521487b53e554dbae2d57a4de442f678d2e03b2a8b405e520094daa"
+    },
+    {
+      "source_seconds": 2999.1618444444443,
+      "original_pts_ticks": 269924566,
+      "path": "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/five_intersections_2026-09-27_r2/source_review/Bellevue_116th_NE12th/original_sample_10.png",
+      "sha256": "25861074d5c5a1544f1d8cf647c1eeb62cd6960cc03b58d1b589f326ec634fe2"
+    },
+    {
+      "source_seconds": 3299.069111111111,
+      "original_pts_ticks": 296916220,
+      "path": "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/five_intersections_2026-09-27_r2/source_review/Bellevue_116th_NE12th/original_sample_11.png",
+      "sha256": "eefffd219cd6cc4bf8424e8115e4519f83a713a3b164a6ae9733d41c54622e64"
+    },
+    {
+      "source_seconds": 3599.0097444444446,
+      "original_pts_ticks": 323910877,
+      "path": "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/five_intersections_2026-09-27_r2/source_review/Bellevue_116th_NE12th/original_sample_12.png",
+      "sha256": "3f5e9bf7b113c2b46a990ad9d0bf5b9bbe8ea26ed98dcd46ecdb4d045200d93f"
+    }
+  ],
+  "initial_alignment_screen": null,
+  "static_structure_followup": null,
+  "allowed_source_interval_seconds": [
+    0,
+    3600.0097666666666
+  ],
+  "original_scope_evidence": {
+    "sparse_review_sha256": "3764f2e73637d49111266f1079603408c145c7cf13ba1dc1cb225b2ad08aaf53",
+    "local_sequential_decode_sha256": "f8efb678129c0566fd714231e640ef7b19ee4e7199c377884eef19cd5fd4a2fe"
+  },
+  "limitations": [
+    "Supports a source-bound development geometry trial, not proof of all-frame applicability or count accuracy.",
+    "Strong moving shadows and glare can change detector behavior while static geometry remains similar.",
+    "Near-camera occluded approach and unselected road margins remain outside these ROIs.",
+    "Counts describe model-estimated vehicles whose box bottom-centers fall inside the coloured selected-road ROIs; they are not all vehicles in the physical intersection. Full-frame raw detections are retained separately.",
+    "Night/Low-traffic source cannot be treated as a matched daylight comparison.",
+    "Original long-duration frames remain; maximum16.9004s is presentation of one image, not new continuous observations.",
+    "Local sequential FFprobe7.1.1 decode passed with empty error log; actual server native audit still required."
+  ],
+  "sparse_visual_review": {
+    "status": "passed_for_development",
+    "reviewers": [
+      "source_review_AI_agent",
+      "root_AI_agent_independent_review"
+    ],
+    "reviewed_artifacts": [
+      "roi_reference_overlay.png",
+      "roi_contact.jpg"
+    ],
+    "coverage": "First source frame and13distinct original-PTS sampled frames throughout the full night source.",
+    "decision": "5 provisional source-bound road regions fit visible roadway and exclude bottom camera housing; authorized for full development inference after native preflight.",
+    "not_claimed": [
+      "human ground truth",
+      "count accuracy",
+      "directional flow",
+      "all-frame visual confirmation"
+    ],
+    "limitations": "Night glare/darkness, road occlusion and selected-road-only coverage remain."
+  }
+}

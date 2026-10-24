@@ -1,0 +1,42 @@
+{
+  "version": "2026.10.09.4",
+  "scope": "Recording-range wording correction; existing Evaluation preserved",
+  "native_build": "Succeeded, 0 errors, 1 existing warning",
+  "web_build": "Succeeded, 0 errors, 1 existing warning",
+  "browser_verified": [
+    "Replay startup",
+    "Methods & Data shows ten recordings, nine Validation and one short Train",
+    "Evaluation entry opens retained detector and tracking diagnostic view"
+  ],
+  "browser_warnings_errors": [],
+  "analysis_files_unchanged": 35,
+  "native_gui_interactions_retested": false,
+  "tracking_formal_accuracy_available": false,
+  "system_check_summary_added": false,
+  "unity_play_updated": true,
+  "publication_note": "User subsequently authorized publication; existing game updated on Unity Play.",
+  "preview_url": "http://127.0.0.1:8876/",
+  "proof_images": [
+    "methods_preview.png",
+    "evaluation_preview.png",
+    "unity_play_evaluation.png",
+    "unity_play_methods.png",
+    "unity_play_thresholds.png",
+    "unity_play_cases.png",
+    "unity_play_rules.png",
+    "unity_play_replay.png"
+  ],
+  "published_url": "https://play.unity.com/en/games/9c5f58ce-768e-4850-9f1e-20947121b19f/traffic-observations-10",
+  "published_verified_at": "2026-10-09T15:48:07.863641+11:00",
+  "cloud_pages_verified": [
+    "Detection & tracking",
+    "Detection thresholds",
+    "Detection cases with F1018 image",
+    "20 / 30 / 60 s rules",
+    "Methods & Data: ten recordings, nine Validation and one short Train"
+  ],
+  "cloud_playback_verified": {
+    "source": "Newport 2017-09-11 08:08:31",
+    "observed": "Playback advanced from 00:00 to 00:11; vehicle image changed and first 10-second regional summaries appeared; then paused."
+  }
+}

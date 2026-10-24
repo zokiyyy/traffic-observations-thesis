@@ -1,0 +1,34 @@
+{
+  "status": "frozen_before_new_GPU_parity_inference",
+  "frozen_at_utc": "2026-09-24T11:51:51.125740+00:00",
+  "source_id": "Bellevue_150th_Newport__2017-09-11_08-08-31.mp4",
+  "split": "Validation",
+  "segment": {
+    "start_seconds": 1600.0067444444444,
+    "end_seconds": 1720.0070444444445
+  },
+  "frame_indices_half_open": [
+    47975,
+    51573
+  ],
+  "expected_native_frames": 3598,
+  "reason": "Prior development event region is intentional to exercise v5 branches; this is software parity, not held-out accuracy. Compare identical original pixels, never transcoded CFR output.",
+  "settings": "Frozen trained YOLO11s 640 + 1280 background confirmation, cross-class IoU .70, v5 heavy containment, ByteTrack .35/.10/.35/.8/30, unchanged ROI.",
+  "pass_gate": [
+    "Native decoded original frame SHA256 and original integer PTS/durations match live output for every selected frame.",
+    "Every filter stage and audit record matches archived v5 reference from same real GPU raw detections.",
+    "Fresh reference ByteTrack yields same current observations, geometry and consistent track-ID bijection.",
+    "All ROI assignments, current counts, duration-weighted windows and timeline rows agree.",
+    "Complete expected frame sequence and byte-unchanged source/timing."
+  ],
+  "tolerances": {
+    "source_seconds_absolute": 1e-08,
+    "track_box_pixels_absolute": 0.0001,
+    "track_confidence_absolute": 1e-06,
+    "window_numeric_absolute": 1e-07
+  },
+  "not_ground_truth_or_accuracy": true,
+  "no_new_manual_labels": true,
+  "no_main_test_media": true,
+  "no_threshold_tuning": true
+}

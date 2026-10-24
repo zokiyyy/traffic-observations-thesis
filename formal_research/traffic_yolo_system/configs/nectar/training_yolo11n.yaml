@@ -1,0 +1,24 @@
+# Optional A100 reproduction of the existing Mac baseline; not started by setup.
+# Training parameters match the original experiment, except for the device.
+experiment_name: yolo11n_formal_a100_v1
+model: /home/ubuntu/traffic_projects/weights/yolo11n.pt
+data: /home/ubuntu/traffic_projects/traffic_yolo_system/configs/nectar/data.yaml
+project: /home/ubuntu/traffic_projects/runs/training
+
+training:
+  epochs: 100
+  patience: 20
+  imgsz: 640
+  batch: 8
+  device: 0
+  workers: 2
+  seed: 42
+  deterministic: true
+  cache: false
+  plots: true
+  save: true
+  save_period: 10
+  optimizer: auto
+  val: true
+  pretrained: true
+  exist_ok: false

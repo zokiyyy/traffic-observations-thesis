@@ -1,0 +1,44 @@
+{
+  "duration_s": 3600.0151444444446,
+  "frames": 107932,
+  "zones": 4,
+  "windows": 361,
+  "eligible_windows": 360,
+  "held_windows": 0,
+  "held_intervals": 0,
+  "held_duration_s": 0,
+  "combined_mean_count": 12.276034557916345,
+  "state_counts": {
+    "no_persistent_signal": 1020,
+    "motion_insufficient": 230,
+    "high_count_persistent": 155,
+    "high_count_low_motion_persistent": 23,
+    "no_observed_vehicles": 12,
+    "insufficient_window": 4
+  },
+  "showcases": [
+    {
+      "zone": "road_top",
+      "kind": "joint",
+      "start_s": 20.0,
+      "end_s": 70.0,
+      "duration_s": 50.0,
+      "confirmation_available_at_s": 50.0
+    },
+    {
+      "zone": "road_right",
+      "kind": "high",
+      "start_s": 3110.0,
+      "end_s": 3280.0,
+      "duration_s": 170.0,
+      "confirmation_available_at_s": 3140.0
+    },
+    {
+      "kind": "count_peak",
+      "start_s": 10.0,
+      "end_s": 20.0,
+      "combined_mean_count": 24.586653333333334
+    }
+  ],
+  "derivation_seconds": 10.163031957985368
+}

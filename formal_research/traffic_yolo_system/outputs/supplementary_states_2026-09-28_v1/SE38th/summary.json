@@ -1,0 +1,223 @@
+[
+  {
+    "case": "SE38th",
+    "source_id": "Bellevue_150th_SE38th__2017-09-10_19-08-25.mp4",
+    "split": "Validation",
+    "duration_s": 3600.0105,
+    "zone_id": "road_left",
+    "count_p33": 1.1412385555555622,
+    "count_p67": 2.244082788888886,
+    "count_thresholds_distinguishable": true,
+    "motion_p25_px_s": 13.836464128350993,
+    "count_calibration_windows": 358,
+    "motion_calibration_windows": 289,
+    "all_windows": 361,
+    "temporal_eligible_windows": 358,
+    "motion_available_windows": 289,
+    "high_count_hint_windows": 30,
+    "joint_hint_windows": 4,
+    "high_count_hint_events": 17,
+    "joint_hint_events": 4,
+    "high_count_hints_with_unknown_evidence": 0,
+    "evidence_unknown_windows": 72,
+    "evidence_unknown_s": 710.0104999999999,
+    "evidence_unknown_fraction": 0.19722456365057822,
+    "evidence_state_windows": {
+      "no_persistent_hint": 259,
+      "high_count_hint": 26,
+      "unknown": 72,
+      "joint_hint": 4
+    },
+    "evidence_state_seconds": {
+      "no_persistent_hint": 2590.0,
+      "high_count_hint": 260.0,
+      "unknown": 710.0104999999999,
+      "joint_hint": 40.0
+    },
+    "unknown_reason_seconds_nonexclusive": {
+      "motion_observation_insufficient": 710.0104999999999,
+      "held_image": 20.0,
+      "incomplete_tail": 0.010499999999865395
+    },
+    "raw_count_level_windows": {
+      "medium": 122,
+      "high": 118,
+      "low": 103,
+      "empty": 15,
+      "unknown": 3
+    },
+    "frozen_rule_hint_windows": {
+      "no_persistent_signal": 259,
+      "high_count_persistent": 26,
+      "motion_insufficient": 54,
+      "no_observed_vehicles": 15,
+      "high_count_low_motion_persistent": 4,
+      "insufficient_window": 3
+    }
+  },
+  {
+    "case": "SE38th",
+    "source_id": "Bellevue_150th_SE38th__2017-09-10_19-08-25.mp4",
+    "split": "Validation",
+    "duration_s": 3600.0105,
+    "zone_id": "road_top",
+    "count_p33": 1.0,
+    "count_p67": 2.055234311111103,
+    "count_thresholds_distinguishable": true,
+    "motion_p25_px_s": 0.711282304107429,
+    "count_calibration_windows": 358,
+    "motion_calibration_windows": 268,
+    "all_windows": 361,
+    "temporal_eligible_windows": 358,
+    "motion_available_windows": 268,
+    "high_count_hint_windows": 42,
+    "joint_hint_windows": 5,
+    "high_count_hint_events": 17,
+    "joint_hint_events": 4,
+    "high_count_hints_with_unknown_evidence": 0,
+    "evidence_unknown_windows": 93,
+    "evidence_unknown_s": 920.0104999999999,
+    "evidence_unknown_fraction": 0.2555577268455189,
+    "evidence_state_windows": {
+      "no_persistent_hint": 226,
+      "unknown": 93,
+      "high_count_hint": 37,
+      "joint_hint": 5
+    },
+    "evidence_state_seconds": {
+      "no_persistent_hint": 2260.0,
+      "unknown": 920.0104999999999,
+      "high_count_hint": 370.0,
+      "joint_hint": 50.0
+    },
+    "unknown_reason_seconds_nonexclusive": {
+      "motion_observation_insufficient": 920.0104999999999,
+      "held_image": 20.0,
+      "incomplete_tail": 0.010499999999865395
+    },
+    "raw_count_level_windows": {
+      "high": 118,
+      "medium": 118,
+      "low": 96,
+      "empty": 26,
+      "unknown": 3
+    },
+    "frozen_rule_hint_windows": {
+      "no_persistent_signal": 226,
+      "motion_insufficient": 64,
+      "high_count_persistent": 37,
+      "no_observed_vehicles": 26,
+      "high_count_low_motion_persistent": 5,
+      "insufficient_window": 3
+    }
+  },
+  {
+    "case": "SE38th",
+    "source_id": "Bellevue_150th_SE38th__2017-09-10_19-08-25.mp4",
+    "split": "Validation",
+    "duration_s": 3600.0105,
+    "zone_id": "road_right",
+    "count_p33": 1.1266296444444353,
+    "count_p67": 2.696949066666635,
+    "count_thresholds_distinguishable": true,
+    "motion_p25_px_s": 14.758449898248506,
+    "count_calibration_windows": 358,
+    "motion_calibration_windows": 274,
+    "all_windows": 361,
+    "temporal_eligible_windows": 358,
+    "motion_available_windows": 274,
+    "high_count_hint_windows": 28,
+    "joint_hint_windows": 4,
+    "high_count_hint_events": 20,
+    "joint_hint_events": 4,
+    "high_count_hints_with_unknown_evidence": 0,
+    "evidence_unknown_windows": 87,
+    "evidence_unknown_s": 860.0104999999999,
+    "evidence_unknown_fraction": 0.23889110878982156,
+    "evidence_state_windows": {
+      "unknown": 87,
+      "no_persistent_hint": 246,
+      "high_count_hint": 24,
+      "joint_hint": 4
+    },
+    "evidence_state_seconds": {
+      "unknown": 860.0104999999999,
+      "no_persistent_hint": 2460.0,
+      "high_count_hint": 240.0,
+      "joint_hint": 40.0
+    },
+    "unknown_reason_seconds_nonexclusive": {
+      "motion_observation_insufficient": 860.0104999999999,
+      "held_image": 20.0,
+      "incomplete_tail": 0.010499999999865395
+    },
+    "raw_count_level_windows": {
+      "low": 110,
+      "medium": 122,
+      "high": 118,
+      "empty": 8,
+      "unknown": 3
+    },
+    "frozen_rule_hint_windows": {
+      "motion_insufficient": 76,
+      "no_persistent_signal": 246,
+      "no_observed_vehicles": 8,
+      "high_count_persistent": 24,
+      "high_count_low_motion_persistent": 4,
+      "insufficient_window": 3
+    }
+  },
+  {
+    "case": "SE38th",
+    "source_id": "Bellevue_150th_SE38th__2017-09-10_19-08-25.mp4",
+    "split": "Validation",
+    "duration_s": 3600.0105,
+    "zone_id": "junction_center",
+    "count_p33": 0.43027533333335216,
+    "count_p67": 0.9195516000000096,
+    "count_thresholds_distinguishable": true,
+    "motion_p25_px_s": 115.47441830463394,
+    "count_calibration_windows": 358,
+    "motion_calibration_windows": 127,
+    "all_windows": 361,
+    "temporal_eligible_windows": 358,
+    "motion_available_windows": 127,
+    "high_count_hint_windows": 11,
+    "joint_hint_windows": 0,
+    "high_count_hint_events": 8,
+    "joint_hint_events": 0,
+    "high_count_hints_with_unknown_evidence": 1,
+    "evidence_unknown_windows": 234,
+    "evidence_unknown_s": 2330.0105,
+    "evidence_unknown_fraction": 0.6472232511544064,
+    "evidence_state_windows": {
+      "unknown": 234,
+      "no_persistent_hint": 117,
+      "high_count_hint": 10
+    },
+    "evidence_state_seconds": {
+      "unknown": 2330.0105,
+      "no_persistent_hint": 1170.0,
+      "high_count_hint": 100.0
+    },
+    "unknown_reason_seconds_nonexclusive": {
+      "motion_observation_insufficient": 2330.0105,
+      "held_image": 20.0,
+      "incomplete_tail": 0.010499999999865395
+    },
+    "raw_count_level_windows": {
+      "medium": 122,
+      "high": 118,
+      "low": 109,
+      "empty": 9,
+      "unknown": 3
+    },
+    "frozen_rule_hint_windows": {
+      "motion_insufficient": 221,
+      "no_persistent_signal": 117,
+      "high_count_persistent": 11,
+      "no_observed_vehicles": 9,
+      "insufficient_window": 3
+    }
+  }
+]

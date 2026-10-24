@@ -1,0 +1,3774 @@
+{
+  "version": "paired-absolute-image-motion-v1",
+  "case": "NE12th",
+  "batch": "Supplementary",
+  "source": {
+    "id": "Bellevue_116th_NE12th__2017-09-11_07-08-32.mp4",
+    "split": "Train",
+    "sha256": "4dde510ff91c2ec58e1cd06e27cbd923d8976c0156905a4625097653415eca4e",
+    "duration_s": 408.57685555555554,
+    "frame_count": 11824,
+    "width": 1280,
+    "height": 720,
+    "time_base": {
+      "num": 1,
+      "den": 90000
+    }
+  },
+  "roi_sha256": "f7e46b1e0c90b152f83306b37fe3de60cd8cd96610bcfba29af1ea5c9529eedd",
+  "configuration_sha256": "767a084a4cac1f45315ecc261b8e3beb2eca19948cca2a18b5348b517e6780fc",
+  "model_sha256": "07e2280eda613c5d633196729f8716e9715000430171f49f6341afe573a2f334",
+  "zones": [
+    {
+      "id": "road_left",
+      "polygon_points": [
+        [
+          450,
+          235
+        ],
+        [
+          640,
+          670
+        ],
+        [
+          5,
+          685
+        ],
+        [
+          5,
+          495
+        ],
+        [
+          165,
+          393
+        ],
+        [
+          310,
+          306
+        ]
+      ]
+    },
+    {
+      "id": "road_top",
+      "polygon_points": [
+        [
+          450,
+          235
+        ],
+        [
+          720,
+          155
+        ],
+        [
+          638,
+          80
+        ],
+        [
+          576,
+          61
+        ],
+        [
+          462,
+          56
+        ],
+        [
+          418,
+          90
+        ],
+        [
+          427,
+          145
+        ]
+      ]
+    },
+    {
+      "id": "road_right",
+      "polygon_points": [
+        [
+          720,
+          155
+        ],
+        [
+          1050,
+          356
+        ],
+        [
+          1070,
+          285
+        ],
+        [
+          1088,
+          165
+        ],
+        [
+          1051,
+          100
+        ],
+        [
+          1000,
+          84
+        ],
+        [
+          970,
+          111
+        ],
+        [
+          889,
+          124
+        ],
+        [
+          800,
+          141
+        ]
+      ]
+    },
+    {
+      "id": "road_bottom",
+      "polygon_points": [
+        [
+          1050,
+          356
+        ],
+        [
+          936,
+          480
+        ],
+        [
+          801,
+          583
+        ],
+        [
+          640,
+          670
+        ],
+        [
+          697,
+          696
+        ],
+        [
+          820,
+          696
+        ],
+        [
+          871,
+          691
+        ],
+        [
+          909,
+          670
+        ],
+        [
+          957,
+          651
+        ],
+        [
+          998,
+          652
+        ],
+        [
+          1035,
+          670
+        ],
+        [
+          1058,
+          696
+        ],
+        [
+          1216,
+          696
+        ],
+        [
+          1258,
+          657
+        ],
+        [
+          1218,
+          573
+        ],
+        [
+          1171,
+          497
+        ],
+        [
+          1113,
+          421
+        ]
+      ]
+    },
+    {
+      "id": "junction_center",
+      "polygon_points": [
+        [
+          450,
+          235
+        ],
+        [
+          720,
+          155
+        ],
+        [
+          1050,
+          356
+        ],
+        [
+          936,
+          480
+        ],
+        [
+          801,
+          583
+        ],
+        [
+          640,
+          670
+        ]
+      ]
+    }
+  ],
+  "windows": [
+    {
+      "index": 0,
+      "start_s": 0.0,
+      "end_s": 10.0,
+      "complete": true,
+      "full_valid_window": true,
+      "held_duration_s": 0.0,
+      "start_ticks": 0,
+      "end_ticks": 900000,
+      "quality": "complete",
+      "zones": [
+        {
+          "zone_id": "road_left",
+          "count_mean": 0.0,
+          "motion_median_px_s": null,
+          "motion_available": false,
+          "motion_coverage": 0.0,
+          "motion_vehicle_seconds": 0.0,
+          "observed_vehicle_seconds": 0.0,
+          "motion_track_count": 0,
+          "valid_duration_s": 10.0,
+          "missing_duration_s": 0.0,
+          "unavailability_reasons": [
+            "no_current_observations",
+            "coverage_below_50_percent",
+            "less_than_5_motion_vehicle_seconds"
+          ]
+        },
+        {
+          "zone_id": "road_top",
+          "count_mean": 0.72668,
+          "motion_median_px_s": null,
+          "motion_available": false,
+          "motion_coverage": 0.5275254888289511,
+          "motion_vehicle_seconds": 3.833422222222222,
+          "observed_vehicle_seconds": 7.2668,
+          "motion_track_count": 3,
+          "valid_duration_s": 10.0,
+          "missing_duration_s": 0.0,
+          "unavailability_reasons": [
+            "less_than_5_motion_vehicle_seconds"
+          ]
+        },
+        {
+          "zone_id": "road_right",
+          "count_mean": 1.7233222222222224,
+          "motion_median_px_s": 0.1549791540535006,
+          "motion_available": true,
+          "motion_coverage": 0.6750546425186493,
+          "motion_vehicle_seconds": 11.633366666666667,
+          "observed_vehicle_seconds": 17.23322222222222,
+          "motion_track_count": 3,
+          "valid_duration_s": 10.0,
+          "missing_duration_s": 0.0,
+          "unavailability_reasons": []
+        },
+        {
+          "zone_id": "road_bottom",
+          "count_mean": 0.13667333333333329,
+          "motion_median_px_s": null,
+          "motion_available": false,
+          "motion_coverage": 0.0,
+          "motion_vehicle_seconds": 0.0,
+          "observed_vehicle_seconds": 1.3667333333333334,
+          "motion_track_count": 0,
+          "valid_duration_s": 10.0,
+          "missing_duration_s": 0.0,
+          "unavailability_reasons": [
+            "coverage_below_50_percent",
+            "less_than_5_motion_vehicle_seconds"
+          ]
+        },
+        {
+          "zone_id": "junction_center",
+          "count_mean": 0.6500155555555556,
+          "motion_median_px_s": null,
+          "motion_available": false,
+          "motion_coverage": 0.3743585623591914,
+          "motion_vehicle_seconds": 2.433388888888889,
+          "observed_vehicle_seconds": 6.500155555555556,
+          "motion_track_count": 4,
+          "valid_duration_s": 10.0,
+          "missing_duration_s": 0.0,
+          "unavailability_reasons": [
+            "coverage_below_50_percent",
+            "less_than_5_motion_vehicle_seconds"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "start_s": 10.0,
+      "end_s": 20.0,
+      "complete": true,
+      "full_valid_window": true,
+      "held_duration_s": 0.0,
+      "start_ticks": 900000,
+      "end_ticks": 1800000,
+      "quality": "complete",
+      "zones": [
+        {
+          "zone_id": "road_left",
+          "count_mean": 0.0,
+          "motion_median_px_s": null,
+          "motion_available": false,
+          "motion_coverage": 0.0,
+          "motion_vehicle_seconds": 0.0,
+          "observed_vehicle_seconds": 0.0,
+          "motion_track_count": 0,
+          "valid_duration_s": 10.0,
+          "missing_duration_s": 0.0,
+          "unavailability_reasons": [
+            "no_current_observations",
+            "coverage_below_50_percent",
+            "less_than_5_motion_vehicle_seconds"
+          ]
+        },
+        {
+          "zone_id": "road_top",
+          "count_mean": 1.3832722222222225,
+          "motion_median_px_s": 21.65491824279877,
+          "motion_available": true,
+          "motion_coverage": 0.7108201567137504,
+          "motion_vehicle_seconds": 9.832577777777777,
+          "observed_vehicle_seconds": 13.832722222222221,
+          "motion_track_count": 4,
+          "valid_duration_s": 10.0,
+          "missing_duration_s": 0.0,
+          "unavailability_reasons": []
+        },
+        {
+          "zone_id": "road_right",
+          "count_mean": 2.9999766666666665,
+          "motion_median_px_s": 12.055808735857473,
+          "motion_available": true,
+          "motion_coverage": 0.94110102337833,
+          "motion_vehicle_seconds": 28.23281111111111,
+          "observed_vehicle_seconds": 29.999766666666666,
+          "motion_track_count": 3,
+          "valid_duration_s": 10.0,
+          "missing_duration_s": 0.0,
+          "unavailability_reasons": []
+        },
+        {
+          "zone_id": "road_bottom",
+          "count_mean": 0.050001111111111385,
+          "motion_median_px_s": null,
+          "motion_available": false,
+          "motion_coverage": 0.0,
+          "motion_vehicle_seconds": 0.0,
+          "observed_vehicle_seconds": 0.5000111111111111,
+          "motion_track_count": 0,
+          "valid_duration_s": 10.0,
+          "missing_duration_s": 0.0,
+          "unavailability_reasons": [
+            "coverage_below_50_percent",
+            "less_than_5_motion_vehicle_seconds"
+          ]
+        },
+        {
+          "zone_id": "junction_center",
+          "count_mean": 0.2866733333333332,
+          "motion_median_px_s": null,
+          "motion_available": false,
+          "motion_coverage": 0.3023224266102339,
+          "motion_vehicle_seconds": 0.8666777777777778,
+          "observed_vehicle_seconds": 2.8667333333333334,
+          "motion_track_count": 2,
+          "valid_duration_s": 10.0,
+          "missing_duration_s": 0.0,
+          "unavailability_reasons": [
+            "coverage_below_50_percent",
+            "less_than_5_motion_vehicle_seconds"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "start_s": 20.0,
+      "end_s": 30.0,
+      "complete": true,
+      "full_valid_window": true,
+      "held_duration_s": 0.0,
+      "start_ticks": 1800000,
+      "end_ticks": 2700000,
+      "quality": "complete",
+      "zones": [
+        {
+          "zone_id": "road_left",
+          "count_mean": 0.5866800000000001,
+          "motion_median_px_s": null,
+          "motion_available": false,
+          "motion_coverage": 0.2613690597940956,
+          "motion_vehicle_seconds": 1.5334,
+          "observed_vehicle_seconds": 5.8668,
+          "motion_track_count": 3,
+          "valid_duration_s": 10.0,
+          "missing_duration_s": 0.0,
+          "unavailability_reasons": [
+            "coverage_below_50_percent",
+            "less_than_5_motion_vehicle_seconds"
+          ]
+        },
+        {
+          "zone_id": "road_top",
+          "count_mean": 3.2132899999999998,
+          "motion_median_px_s": 4.403802437249634,
+          "motion_available": true,
+          "motion_coverage": 0.9377560762403089,
+          "motion_vehicle_seconds": 30.132822222222224,
+          "observed_vehicle_seconds": 32.1329,
+          "motion_track_count": 4,
+          "valid_duration_s": 10.0,
+          "missing_duration_s": 0.0,
+          "unavailability_reasons": []
+        },
+        {
+          "zone_id": "road_right",
+          "count_mean": 1.9066344444444447,
+          "motion_median_px_s": 0.12753307418706214,
+          "motion_available": true,
+          "motion_coverage": 0.8654184715242856,
+          "motion_vehicle_seconds": 16.500366666666668,
+          "observed_vehicle_seconds": 19.066344444444443,
+          "motion_track_count": 5,
+          "valid_duration_s": 10.0,
+          "missing_duration_s": 0.0,
+          "unavailability_reasons": []
+        },
+        {
+          "zone_id": "road_bottom",
+          "count_mean": 0.14659666666666665,
+          "motion_median_px_s": null,
+          "motion_available": false,
+          "motion_coverage": 0.3178410908236507,
+          "motion_vehicle_seconds": 0.46594444444444444,
+          "observed_vehicle_seconds": 1.4659666666666666,
+          "motion_track_count": 1,
+          "valid_duration_s": 10.0,
+          "missing_duration_s": 0.0,
+          "unavailability_reasons": [
+            "coverage_below_50_percent",
+            "less_than_5_motion_vehicle_seconds"
+          ]
+        },
+        {
+          "zone_id": "junction_center",
+          "count_mean": 0.883284444444444,
+          "motion_median_px_s": null,
+          "motion_available": false,
+          "motion_coverage": 0.43391206557344053,
+          "motion_vehicle_seconds": 3.8326777777777776,
+          "observed_vehicle_seconds": 8.832844444444444,
+          "motion_track_count": 5,
+          "valid_duration_s": 10.0,
+          "missing_duration_s": 0.0,
+          "unavailability_reasons": [
+            "coverage_below_50_percent",
+            "less_than_5_motion_vehicle_seconds"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "start_s": 30.0,
+      "end_s": 40.0,
+      "complete": true,
+      "full_valid_window": true,
+      "held_duration_s": 0.0,
+      "start_ticks": 2700000,
+      "end_ticks": 3600000,
+      "quality": "complete",
+      "zones": [
+        {
+          "zone_id": "road_left",
+          "count_mean": 0.5866844444444442,
+          "motion_median_px_s": null,
+          "motion_available": false,
+          "motion_coverage": 0.28409176994636526,
+          "motion_vehicle_seconds": 1.6667222222222222,
+          "observed_vehicle_seconds": 5.866844444444444,
+          "motion_track_count": 4,
+          "valid_duration_s": 10.0,
+          "missing_duration_s": 0.0,
+          "unavailability_reasons": [
+            "coverage_below_50_percent",
+            "less_than_5_motion_vehicle_seconds"
+          ]
+        },
+        {
+          "zone_id": "road_top",
+          "count_mean": 3.0,
+          "motion_median_px_s": 0.2775096097197315,
+          "motion_available": true,
+          "motion_coverage": 1.0,
+          "motion_vehicle_seconds": 30.0,
+          "observed_vehicle_seconds": 30.0,
+          "motion_track_count": 3,
+          "valid_duration_s": 10.0,
+          "missing_duration_s": 0.0,
+          "unavailability_reasons": []
+        },
+        {
+          "zone_id": "road_right",
+          "count_mean": 3.043326666666665,
+          "motion_median_px_s": 0.17345375913028527,
+          "motion_available": true,
+          "motion_coverage": 0.62756983038298,
+          "motion_vehicle_seconds": 19.099,
+          "observed_vehicle_seconds": 30.43326666666667,
+          "motion_track_count": 7,
+          "valid_duration_s": 10.0,
+          "missing_duration_s": 0.0,
+          "unavailability_reasons": []
+        },
+        {
+          "zone_id": "road_bottom",
+          "count_mean": 1.7132522222222222,
+          "motion_median_px_s": 8.605784017815648,
+          "motion_available": true,
+          "motion_coverage": 0.9416301809359328,
+          "motion_vehicle_seconds": 16.1325,
+          "observed_vehicle_seconds": 17.13252222222222,
+          "motion_track_count": 2,
+          "valid_duration_s": 10.0,
+          "missing_duration_s": 0.0,
+          "unavailability_reasons": []
+        },
+        {
+          "zone_id": "junction_center",
+          "count_mean": 0.5466533333333352,
+          "motion_median_px_s": null,
+          "motion_available": false,
+          "motion_coverage": 0.26825857541240844,
+          "motion_vehicle_seconds": 1.4664444444444444,
+          "observed_vehicle_seconds": 5.4665333333333335,
+          "motion_track_count": 5,
+          "valid_duration_s": 10.0,
+          "missing_duration_s": 0.0,
+          "unavailability_reasons": [
+            "coverage_below_50_percent",
+            "less_than_5_motion_vehicle_seconds"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "start_s": 40.0,
+      "end_s": 50.0,
+      "complete": true,
+      "full_valid_window": true,
+      "held_duration_s": 0.0,
+      "start_ticks": 3600000,
+      "end_ticks": 4500000,
+      "quality": "complete",
+      "zones": [
+        {
+          "zone_id": "road_left",
+          "count_mean": 0.0,
+          "motion_median_px_s": null,
+          "motion_available": false,
+          "motion_coverage": 0.0,
+          "motion_vehicle_seconds": 0.0,
+          "observed_vehicle_seconds": 0.0,
+          "motion_track_count": 0,
+          "valid_duration_s": 10.0,
+          "missing_duration_s": 0.0,
+          "unavailability_reasons": [
+            "no_current_observations",
+            "coverage_below_50_percent",
+            "less_than_5_motion_vehicle_seconds"
+          ]
+        },
+        {
+          "zone_id": "road_top",
+          "count_mean": 3.0,
+          "motion_median_px_s": 0.22895110149502518,
+          "motion_available": true,
+          "motion_coverage": 1.0,
+          "motion_vehicle_seconds": 30.0,
+          "observed_vehicle_seconds": 30.0,
+          "motion_track_count": 3,
+          "valid_duration_s": 10.0,
+          "missing_duration_s": 0.0,
+          "unavailability_reasons": []
+        },
+        {
+          "zone_id": "road_right",
+          "count_mean": 2.0802288888888905,
+          "motion_median_px_s": 2.3890808600829905,
+          "motion_available": true,
+          "motion_coverage": 0.7596343564757297,
+          "motion_vehicle_seconds": 15.802133333333334,
+          "observed_vehicle_seconds": 20.80228888888889,
+          "motion_track_count": 7,
+          "valid_duration_s": 10.0,
+          "missing_duration_s": 0.0,
+          "unavailability_reasons": []
+        },
+        {
+          "zone_id": "road_bottom",
+          "count_mean": 2.1832122222222226,
+          "motion_median_px_s": 0.4995567605403233,
+          "motion_available": true,
+          "motion_coverage": 0.9541954235629355,
+          "motion_vehicle_seconds": 20.83211111111111,
+          "observed_vehicle_seconds": 21.83212222222222,
+          "motion_track_count": 3,
+          "valid_duration_s": 10.0,
+          "missing_duration_s": 0.0,
+          "unavailability_reasons": []
+        },
+        {
+          "zone_id": "junction_center",
+          "count_mean": 0.006765555555555381,
+          "motion_median_px_s": null,
+          "motion_available": false,
+          "motion_coverage": 1.0,
+          "motion_vehicle_seconds": 0.06765555555555555,
+          "observed_vehicle_seconds": 0.06765555555555555,
+          "motion_track_count": 1,
+          "valid_duration_s": 10.0,
+          "missing_duration_s": 0.0,
+          "unavailability_reasons": [
+            "less_than_5_motion_vehicle_seconds"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "start_s": 50.0,
+      "end_s": 60.0,
+      "complete": true,
+      "full_valid_window": true,
+      "held_duration_s": 0.0,
+      "start_ticks": 4500000,
+      "end_ticks": 5400000,
+      "quality": "complete",
+      "zones": [
+        {
+          "zone_id": "road_left",
+          "count_mean": 0.0,
+          "motion_median_px_s": null,
+          "motion_available": false,
+          "motion_coverage": 0.0,
+          "motion_vehicle_seconds": 0.0,
+          "observed_vehicle_seconds": 0.0,
+          "motion_track_count": 0,
+          "valid_duration_s": 10.0,
+          "missing_duration_s": 0.0,
+          "unavailability_reasons": [
+            "no_current_observations",
+            "coverage_below_50_percent",
+            "less_than_5_motion_vehicle_seconds"
+          ]
+        },
+        {
+          "zone_id": "road_top",
+          "count_mean": 3.0,
+          "motion_median_px_s": 0.2514550999482212,
+          "motion_available": true,
+          "motion_coverage": 1.0,
+          "motion_vehicle_seconds": 30.0,
+          "observed_vehicle_seconds": 30.0,
+          "motion_track_count": 3,
+          "valid_duration_s": 10.0,
+          "missing_duration_s": 0.0,
+          "unavailability_reasons": []
+        },
+        {
+          "zone_id": "road_right",
+          "count_mean": 1.3531922222222221,
+          "motion_median_px_s": 31.613918581191673,
+          "motion_available": true,
+          "motion_coverage": 0.6578124320023516,
+          "motion_vehicle_seconds": 8.901466666666666,
+          "observed_vehicle_seconds": 13.531922222222223,
+          "motion_track_count": 3,
+          "valid_duration_s": 10.0,
+          "missing_duration_s": 0.0,
+          "unavailability_reasons": []
+        },
+        {
+          "zone_id": "road_bottom",
+          "count_mean": 2.3934677777777784,
+          "motion_median_px_s": 0.4325590496586533,
+          "motion_available": true,
+          "motion_coverage": 0.9387202483054573,
+          "motion_vehicle_seconds": 22.467966666666666,
+          "observed_vehicle_seconds": 23.93467777777778,
+          "motion_track_count": 4,
+          "valid_duration_s": 10.0,
+          "missing_duration_s": 0.0,
+          "unavailability_reasons": []
+        },
+        {
+          "zone_id": "junction_center",
+          "count_mean": 0.27334222222222165,
+          "motion_median_px_s": null,
+          "motion_available": false,
+          "motion_coverage": 0.4756064843419726,
+          "motion_vehicle_seconds": 1.3000333333333334,
+          "observed_vehicle_seconds": 2.7334222222222224,
+          "motion_track_count": 1,
+          "valid_duration_s": 10.0,
+          "missing_duration_s": 0.0,
+          "unavailability_reasons": [
+            "coverage_below_50_percent",
+            "less_than_5_motion_vehicle_seconds"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "start_s": 60.0,
+      "end_s": 70.0,
+      "complete": true,
+      "full_valid_window": true,
+      "held_duration_s": 0.0,
+      "start_ticks": 5400000,
+      "end_ticks": 6300000,
+      "quality": "complete",
+      "zones": [
+        {
+          "zone_id": "road_left",
+          "count_mean": 0.21000555555555564,
+          "motion_median_px_s": null,
+          "motion_available": false,
+          "motion_coverage": 0.5238168302425862,
+          "motion_vehicle_seconds": 1.1000444444444444,
+          "observed_vehicle_seconds": 2.1000555555555556,
+          "motion_track_count": 1,
+          "valid_duration_s": 10.0,
+          "missing_duration_s": 0.0,
+          "unavailability_reasons": [
+            "less_than_5_motion_vehicle_seconds"
+          ]
+        },
+        {
+          "zone_id": "road_top",
+          "count_mean": 3.546157777777779,
+          "motion_median_px_s": 0.22525251260342777,
+          "motion_available": true,
+          "motion_coverage": 0.9154487078659783,
+          "motion_vehicle_seconds": 32.463255555555556,
+          "observed_vehicle_seconds": 35.46157777777778,
+          "motion_track_count": 5,
+          "valid_duration_s": 10.0,
+          "missing_duration_s": 0.0,
+          "unavailability_reasons": []
+        },
+        {
+          "zone_id": "road_right",
+          "count_mean": 0.2103033333333336,
+          "motion_median_px_s": null,
+          "motion_available": false,
+          "motion_coverage": 0.6498655381380334,
+          "motion_vehicle_seconds": 1.3666888888888888,
+          "observed_vehicle_seconds": 2.1030333333333333,
+          "motion_track_count": 2,
+          "valid_duration_s": 10.0,
+          "missing_duration_s": 0.0,
+          "unavailability_reasons": [
+            "less_than_5_motion_vehicle_seconds"
+          ]
+        },
+        {
+          "zone_id": "road_bottom",
+          "count_mean": 2.203509999999999,
+          "motion_median_px_s": 38.97847872419075,
+          "motion_available": true,
+          "motion_coverage": 0.7276995944349394,
+          "motion_vehicle_seconds": 16.034933333333335,
+          "observed_vehicle_seconds": 22.0351,
+          "motion_track_count": 8,
+          "valid_duration_s": 10.0,
+          "missing_duration_s": 0.0,
+          "unavailability_reasons": []
+        },
+        {
+          "zone_id": "junction_center",
+          "count_mean": 1.4795177777777753,
+          "motion_median_px_s": 142.53759508138586,
+          "motion_available": true,
+          "motion_coverage": 0.5269772583559508,
+          "motion_vehicle_seconds": 7.796722222222222,
+          "observed_vehicle_seconds": 14.795177777777777,
+          "motion_track_count": 6,
+          "valid_duration_s": 10.0,
+          "missing_duration_s": 0.0,
+          "unavailability_reasons": []
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "start_s": 70.0,
+      "end_s": 80.0,
+      "complete": true,
+      "full_valid_window": true,
+      "held_duration_s": 0.0,
+      "start_ticks": 6300000,
+      "end_ticks": 7200000,
+      "quality": "complete",
+      "zones": [
+        {
+          "zone_id": "road_left",
+          "count_mean": 0.26313999999999993,
+          "motion_median_px_s": null,
+          "motion_available": false,
+          "motion_coverage": 0.6199657132240548,
+          "motion_vehicle_seconds": 1.6313777777777778,
+          "observed_vehicle_seconds": 2.6314,
+          "motion_track_count": 1,
+          "valid_duration_s": 10.0,
+          "missing_duration_s": 0.0,
+          "unavailability_reasons": [
+            "less_than_5_motion_vehicle_seconds"
+          ]
+        },
+        {
+          "zone_id": "road_top",
+          "count_mean": 6.687284444444442,
+          "motion_median_px_s": 33.72803370540231,
+          "motion_available": true,
+          "motion_coverage": 0.880838859021998,
+          "motion_vehicle_seconds": 58.9042,
+          "observed_vehicle_seconds": 66.87284444444444,
+          "motion_track_count": 13,
+          "valid_duration_s": 10.0,
+          "missing_duration_s": 0.0,
+          "unavailability_reasons": []
+        },
+        {
+          "zone_id": "road_right",
+          "count_mean": 0.0,
+          "motion_median_px_s": null,
+          "motion_available": false,
+          "motion_coverage": 0.0,
+          "motion_vehicle_seconds": 0.0,
+          "observed_vehicle_seconds": 0.0,
+          "motion_track_count": 0,
+          "valid_duration_s": 10.0,
+          "missing_duration_s": 0.0,
+          "unavailability_reasons": [
+            "no_current_observations",
+            "coverage_below_50_percent",
+            "less_than_5_motion_vehicle_seconds"
+          ]
+        },
+        {
+          "zone_id": "road_bottom",
+          "count_mean": 0.256846666666668,
+          "motion_median_px_s": null,
+          "motion_available": false,
+          "motion_coverage": 0.1693877021309731,
+          "motion_vehicle_seconds": 0.43506666666666666,
+          "observed_vehicle_seconds": 2.5684666666666667,
+          "motion_track_count": 1,
+          "valid_duration_s": 10.0,
+          "missing_duration_s": 0.0,
+          "unavailability_reasons": [
+            "coverage_below_50_percent",
+            "less_than_5_motion_vehicle_seconds"
+          ]
+        },
+        {
+          "zone_id": "junction_center",
+          "count_mean": 1.697029999999998,
+          "motion_median_px_s": 156.94661008768935,
+          "motion_available": true,
+          "motion_coverage": 0.6463278656109661,
+          "motion_vehicle_seconds": 10.968377777777778,
+          "observed_vehicle_seconds": 16.9703,
+          "motion_track_count": 9,
+          "valid_duration_s": 10.0,
+          "missing_duration_s": 0.0,
+          "unavailability_reasons": []
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "start_s": 80.0,
+      "end_s": 90.0,
+      "complete": true,
+      "full_valid_window": true,
+      "held_duration_s": 0.0,
+      "start_ticks": 7200000,
+      "end_ticks": 8100000,
+      "quality": "complete",
+      "zones": [
+        {
+          "zone_id": "road_left",
+          "count_mean": 1.5560088888888899,
+          "motion_median_px_s": 5.62793800098131,
+          "motion_available": true,
+          "motion_coverage": 0.7430691627011556,
+          "motion_vehicle_seconds": 11.562222222222223,
+          "observed_vehicle_seconds": 15.560088888888888,
+          "motion_track_count": 3,
+          "valid_duration_s": 10.0,
+          "missing_duration_s": 0.0,
+          "unavailability_reasons": []
+        },
+        {
+          "zone_id": "road_top",
+          "count_mean": 0.4639388888888888,
+          "motion_median_px_s": null,
+          "motion_available": false,
+          "motion_coverage": 0.7844495802847598,
+          "motion_vehicle_seconds": 3.6393666666666666,
+          "observed_vehicle_seconds": 4.639388888888889,
+          "motion_track_count": 4,
+          "valid_duration_s": 10.0,
+          "missing_duration_s": 0.0,
+          "unavailability_reasons": [
+            "less_than_5_motion_vehicle_seconds"
+          ]
+        },
+        {
+          "zone_id": "road_right",
+          "count_mean": 0.8229055555555547,
+          "motion_median_px_s": 10.878005208451626,
+          "motion_available": true,
+          "motion_coverage": 0.6354300142449181,
+          "motion_vehicle_seconds": 5.228988888888889,
+          "observed_vehicle_seconds": 8.229055555555556,
+          "motion_track_count": 2,
+          "valid_duration_s": 10.0,
+          "missing_duration_s": 0.0,
+          "unavailability_reasons": []
+        },
+        {
+          "zone_id": "road_bottom",
+          "count_mean": 0.06000111111111295,
+          "motion_median_px_s": null,
+          "motion_available": false,
+          "motion_coverage": 0.0,
+          "motion_vehicle_seconds": 0.0,
+          "observed_vehicle_seconds": 0.6000111111111112,
+          "motion_track_count": 0,
+          "valid_duration_s": 10.0,
+          "missing_duration_s": 0.0,
+          "unavailability_reasons": [
+            "coverage_below_50_percent",
+            "less_than_5_motion_vehicle_seconds"
+          ]
+        },
+        {
+          "zone_id": "junction_center",
+          "count_mean": 0.263539999999999,
+          "motion_median_px_s": null,
+          "motion_available": false,
+          "motion_coverage": 0.5825934077053452,
+          "motion_vehicle_seconds": 1.5353666666666668,
+          "observed_vehicle_seconds": 2.6354,
+          "motion_track_count": 2,
+          "valid_duration_s": 10.0,
+          "missing_duration_s": 0.0,
+          "unavailability_reasons": [
+            "less_than_5_motion_vehicle_seconds"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "start_s": 90.0,
+      "end_s": 100.0,
+      "complete": true,
+      "full_valid_window": true,
+      "held_duration_s": 0.0,
+      "start_ticks": 8100000,
+      "end_ticks": 9000000,
+      "quality": "complete",
+      "zones": [
+        {
+          "zone_id": "road_left",
+          "count_mean": 2.2673666666666663,
+          "motion_median_px_s": 85.53225499242322,
+          "motion_available": true,
+          "motion_coverage": 0.8146621386532591,
+          "motion_vehicle_seconds": 18.47137777777778,
+          "observed_vehicle_seconds": 22.673666666666666,
+          "motion_track_count": 7,
+          "valid_duration_s": 10.0,
+          "missing_duration_s": 0.0,
+          "unavailability_reasons": []
+        },
+        {
+          "zone_id": "road_top",
+          "count_mean": 0.8931077777777787,
+          "motion_median_px_s": 23.839462687169956,
+          "motion_available": true,
+          "motion_coverage": 0.7760553970716487,
+          "motion_vehicle_seconds": 6.931011111111111,
+          "observed_vehicle_seconds": 8.931077777777778,
+          "motion_track_count": 2,
+          "valid_duration_s": 10.0,
+          "missing_duration_s": 0.0,
+          "unavailability_reasons": []
+        },
+        {
+          "zone_id": "road_right",
+          "count_mean": 4.579316666666666,
+          "motion_median_px_s": 11.353765424650856,
+          "motion_available": true,
+          "motion_coverage": 0.7714833727011672,
+          "motion_vehicle_seconds": 35.32866666666666,
+          "observed_vehicle_seconds": 45.793166666666664,
+          "motion_track_count": 10,
+          "valid_duration_s": 10.0,
+          "missing_duration_s": 0.0,
+          "unavailability_reasons": []
+        },
+        {
+          "zone_id": "road_bottom",
+          "count_mean": 0.0,
+          "motion_median_px_s": null,
+          "motion_available": false,
+          "motion_coverage": 0.0,
+          "motion_vehicle_seconds": 0.0,
+          "observed_vehicle_seconds": 0.0,
+          "motion_track_count": 0,
+          "valid_duration_s": 10.0,
+          "missing_duration_s": 0.0,
+          "unavailability_reasons": [
+            "no_current_observations",
+            "coverage_below_50_percent",
+            "less_than_5_motion_vehicle_seconds"
+          ]
+        },
+        {
+          "zone_id": "junction_center",
+          "count_mean": 0.8933522222222237,
+          "motion_median_px_s": null,
+          "motion_available": false,
+          "motion_coverage": 0.529848249477312,
+          "motion_vehicle_seconds": 4.733411111111111,
+          "observed_vehicle_seconds": 8.933522222222223,
+          "motion_track_count": 4,
+          "valid_duration_s": 10.0,
+          "missing_duration_s": 0.0,
+          "unavailability_reasons": [
+            "less_than_5_motion_vehicle_seconds"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "start_s": 100.0,
+      "end_s": 110.0,
+      "complete": false,
+      "full_valid_window": true,
+      "held_duration_s": 3.1000666666666667,
+      "start_ticks": 9000000,
+      "end_ticks": 9900000,
+      "quality": "held_image",
+      "zones": [
+        {
+          "zone_id": "road_left",
+          "count_mean": 0.01024888888888853,
+          "motion_median_px_s": null,
+          "motion_available": false,
+          "motion_coverage": 1.0,
+          "motion_vehicle_seconds": 0.1024888888888889,
+          "observed_vehicle_seconds": 0.1024888888888889,
+          "motion_track_count": 1,
+          "valid_duration_s": 10.0,
+          "missing_duration_s": 0.0,
+          "unavailability_reasons": [
+            "long_held_frame_overlap",
+            "less_than_5_motion_vehicle_seconds"
+          ]
+        },
+        {
+          "zone_id": "road_top",
+          "count_mean": 0.04024888888888967,
+          "motion_median_px_s": null,
+          "motion_available": false,
+          "motion_coverage": 1.0,
+          "motion_vehicle_seconds": 0.4024888888888889,
+          "observed_vehicle_seconds": 0.4024888888888889,
+          "motion_track_count": 1,
+          "valid_duration_s": 10.0,
+          "missing_duration_s": 0.0,
+          "unavailability_reasons": [
+            "long_held_frame_overlap",
+            "less_than_5_motion_vehicle_seconds"
+          ]
+        },
+        {
+          "zone_id": "road_right",
+          "count_mean": 6.916984444444442,
+          "motion_median_px_s": null,
+          "motion_available": false,
+          "motion_coverage": 0.49780700838483566,
+          "motion_vehicle_seconds": 34.433233333333334,
+          "observed_vehicle_seconds": 69.16984444444445,
+          "motion_track_count": 12,
+          "valid_duration_s": 10.0,
+          "missing_duration_s": 0.0,
+          "unavailability_reasons": [
+            "long_held_frame_overlap",
+            "coverage_below_50_percent"
+          ]
+        },
+        {
+          "zone_id": "road_bottom",
+          "count_mean": 0.0,
+          "motion_median_px_s": null,
+          "motion_available": false,
+          "motion_coverage": 0.0,
+          "motion_vehicle_seconds": 0.0,
+          "observed_vehicle_seconds": 0.0,
+          "motion_track_count": 0,
+          "valid_duration_s": 10.0,
+          "missing_duration_s": 0.0,
+          "unavailability_reasons": [
+            "long_held_frame_overlap",
+            "no_current_observations",
+            "coverage_below_50_percent",
+            "less_than_5_motion_vehicle_seconds"
+          ]
+        },
+        {
+          "zone_id": "junction_center",
+          "count_mean": 0.38306888888889007,
+          "motion_median_px_s": null,
+          "motion_available": false,
+          "motion_coverage": 0.47789199505745994,
+          "motion_vehicle_seconds": 1.8306555555555555,
+          "observed_vehicle_seconds": 3.830688888888889,
+          "motion_track_count": 2,
+          "valid_duration_s": 10.0,
+          "missing_duration_s": 0.0,
+          "unavailability_reasons": [
+            "long_held_frame_overlap",
+            "coverage_below_50_percent",
+            "less_than_5_motion_vehicle_seconds"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "start_s": 110.0,
+      "end_s": 120.0,
+      "complete": true,
+      "full_valid_window": true,
+      "held_duration_s": 0.0,
+      "start_ticks": 9900000,
+      "end_ticks": 10800000,
+      "quality": "complete",
+      "zones": [
+        {
+          "zone_id": "road_left",
+          "count_mean": 0.7730555555555554,
+          "motion_median_px_s": null,
+          "motion_available": false,
+          "motion_coverage": 0.6036852317642831,
+          "motion_vehicle_seconds": 4.666822222222223,
+          "observed_vehicle_seconds": 7.730555555555555,
+          "motion_track_count": 3,
+          "valid_duration_s": 10.0,
+          "missing_duration_s": 0.0,
+          "unavailability_reasons": [
+            "less_than_5_motion_vehicle_seconds"
+          ]
+        },
+        {
+          "zone_id": "road_top",
+          "count_mean": 0.5097111111111119,
+          "motion_median_px_s": null,
+          "motion_available": false,
+          "motion_coverage": 0.46432183807821426,
+          "motion_vehicle_seconds": 2.3667,
+          "observed_vehicle_seconds": 5.097111111111111,
+          "motion_track_count": 1,
+          "valid_duration_s": 10.0,
+          "missing_duration_s": 0.0,
+          "unavailability_reasons": [
+            "coverage_below_50_percent",
+            "less_than_5_motion_vehicle_seconds"
+          ]
+        },
+        {
+          "zone_id": "road_right",
+          "count_mean": 3.3572466666666685,
+          "motion_median_px_s": 0.5836710113128601,
+          "motion_available": true,
+          "motion_coverage": 0.8808521003653126,
+          "motion_vehicle_seconds": 29.572377777777778,
+          "observed_vehicle_seconds": 33.572466666666664,
+          "motion_track_count": 7,
+          "valid_duration_s": 10.0,
+          "missing_duration_s": 0.0,
+          "unavailability_reasons": []
+        },
+        {
+          "zone_id": "road_bottom",
+          "count_mean": 0.0,
+          "motion_median_px_s": null,
+          "motion_available": false,
+          "motion_coverage": 0.0,
+          "motion_vehicle_seconds": 0.0,
+          "observed_vehicle_seconds": 0.0,
+          "motion_track_count": 0,
+          "valid_duration_s": 10.0,
+          "missing_duration_s": 0.0,
+          "unavailability_reasons": [
+            "no_current_observations",
+            "coverage_below_50_percent",
+            "less_than_5_motion_vehicle_seconds"
+          ]
+        },
+        {
+          "zone_id": "junction_center",
+          "count_mean": 0.5469544444444452,
+          "motion_median_px_s": null,
+          "motion_available": false,
+          "motion_coverage": 0.4514980934833086,
+          "motion_vehicle_seconds": 2.469488888888889,
+          "observed_vehicle_seconds": 5.469544444444445,
+          "motion_track_count": 4,
+          "valid_duration_s": 10.0,
+          "missing_duration_s": 0.0,
+          "unavailability_reasons": [
+            "coverage_below_50_percent",
+            "less_than_5_motion_vehicle_seconds"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "start_s": 120.0,
+      "end_s": 130.0,
+      "complete": true,
+      "full_valid_window": true,
+      "held_duration_s": 0.0,
+      "start_ticks": 10800000,
+      "end_ticks": 11700000,
+      "quality": "complete",
+      "zones": [
+        {
+          "zone_id": "road_left",
+          "count_mean": 0.1569677777777784,
+          "motion_median_px_s": null,
+          "motion_available": false,
+          "motion_coverage": 0.38223697715737837,
+          "motion_vehicle_seconds": 0.5999888888888889,
+          "observed_vehicle_seconds": 1.5696777777777777,
+          "motion_track_count": 1,
+          "valid_duration_s": 10.0,
+          "missing_duration_s": 0.0,
+          "unavailability_reasons": [
+            "coverage_below_50_percent",
+            "less_than_5_motion_vehicle_seconds"
+          ]
+        },
+        {
+          "zone_id": "road_top",
+          "count_mean": 0.003632222222222481,
+          "motion_median_px_s": null,
+          "motion_available": false,
+          "motion_coverage": 0.0,
+          "motion_vehicle_seconds": 0.0,
+          "observed_vehicle_seconds": 0.03632222222222222,
+          "motion_track_count": 0,
+          "valid_duration_s": 10.0,
+          "missing_duration_s": 0.0,
+          "unavailability_reasons": [
+            "coverage_below_50_percent",
+            "less_than_5_motion_vehicle_seconds"
+          ]
+        },
+        {
+          "zone_id": "road_right",
+          "count_mean": 1.8266633333333346,
+          "motion_median_px_s": 11.273559274155105,
+          "motion_available": true,
+          "motion_coverage": 0.8560137275189675,
+          "motion_vehicle_seconds": 15.63648888888889,
+          "observed_vehicle_seconds": 18.266633333333335,
+          "motion_track_count": 4,
+          "valid_duration_s": 10.0,
+          "missing_duration_s": 0.0,
+          "unavailability_reasons": []
+        },
+        {
+          "zone_id": "road_bottom",
+          "count_mean": 0.32667111111110925,
+          "motion_median_px_s": null,
+          "motion_available": false,
+          "motion_coverage": 0.5510231153317642,
+          "motion_vehicle_seconds": 1.8000333333333334,
+          "observed_vehicle_seconds": 3.266711111111111,
+          "motion_track_count": 1,
+          "valid_duration_s": 10.0,
+          "missing_duration_s": 0.0,
+          "unavailability_reasons": [
+            "less_than_5_motion_vehicle_seconds"
+          ]
+        },
+        {
+          "zone_id": "junction_center",
+          "count_mean": 0.37635333333333276,
+          "motion_median_px_s": null,
+          "motion_available": false,
+          "motion_coverage": 0.40657420036726716,
+          "motion_vehicle_seconds": 1.5301555555555555,
+          "observed_vehicle_seconds": 3.763533333333333,
+          "motion_track_count": 2,
+          "valid_duration_s": 10.0,
+          "missing_duration_s": 0.0,
+          "unavailability_reasons": [
+            "coverage_below_50_percent",
+            "less_than_5_motion_vehicle_seconds"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 13,
+      "start_s": 130.0,
+      "end_s": 140.0,
+      "complete": true,
+      "full_valid_window": true,
+      "held_duration_s": 0.0,
+      "start_ticks": 11700000,
+      "end_ticks": 12600000,
+      "quality": "complete",
+      "zones": [
+        {
+          "zone_id": "road_left",
+          "count_mean": 0.6233477777777807,
+          "motion_median_px_s": null,
+          "motion_available": false,
+          "motion_coverage": 0.5240609397643192,
+          "motion_vehicle_seconds": 3.266722222222222,
+          "observed_vehicle_seconds": 6.233477777777778,
+          "motion_track_count": 2,
+          "valid_duration_s": 10.0,
+          "missing_duration_s": 0.0,
+          "unavailability_reasons": [
+            "less_than_5_motion_vehicle_seconds"
+          ]
+        },
+        {
+          "zone_id": "road_top",
+          "count_mean": 0.13263777777777647,
+          "motion_median_px_s": null,
+          "motion_available": false,
+          "motion_coverage": 0.022509089081374504,
+          "motion_vehicle_seconds": 0.029855555555555555,
+          "observed_vehicle_seconds": 1.3263777777777779,
+          "motion_track_count": 1,
+          "valid_duration_s": 10.0,
+          "missing_duration_s": 0.0,
+          "unavailability_reasons": [
+            "coverage_below_50_percent",
+            "less_than_5_motion_vehicle_seconds"
+          ]
+        },
+        {
+          "zone_id": "road_right",
+          "count_mean": 0.7039977777777778,
+          "motion_median_px_s": 37.4595927488617,
+          "motion_available": true,
+          "motion_coverage": 0.7485882215537296,
+          "motion_vehicle_seconds": 5.270044444444444,
+          "observed_vehicle_seconds": 7.039977777777778,
+          "motion_track_count": 3,
+          "valid_duration_s": 10.0,
+          "missing_duration_s": 0.0,
+          "unavailability_reasons": []
+        },
+        {
+          "zone_id": "road_bottom",
+          "count_mean": 0.05999999999999943,
+          "motion_median_px_s": null,
+          "motion_available": false,
+          "motion_coverage": 0.0,
+          "motion_vehicle_seconds": 0.0,
+          "observed_vehicle_seconds": 0.6,
+          "motion_track_count": 0,
+          "valid_duration_s": 10.0,
+          "missing_duration_s": 0.0,
+          "unavailability_reasons": [
+            "coverage_below_50_percent",
+            "less_than_5_motion_vehicle_seconds"
+          ]
+        },
+        {
+          "zone_id": "junction_center",
+          "count_mean": 0.3936700000000002,
+          "motion_median_px_s": null,
+          "motion_available": false,
+          "motion_coverage": 0.4919489815214661,
+          "motion_vehicle_seconds": 1.9366555555555556,
+          "observed_vehicle_seconds": 3.9367,
+          "motion_track_count": 3,
+          "valid_duration_s": 10.0,
+          "missing_duration_s": 0.0,
+          "unavailability_reasons": [
+            "coverage_below_50_percent",
+            "less_than_5_motion_vehicle_seconds"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 14,
+      "start_s": 140.0,
+      "end_s": 150.0,
+      "complete": true,
+      "full_valid_window": true,
+      "held_duration_s": 0.0,
+      "start_ticks": 12600000,
+      "end_ticks": 13500000,
+      "quality": "complete",
+      "zones": [
+        {
+          "zone_id": "road_left",
+          "count_mean": 0.10000111111110925,
+          "motion_median_px_s": null,
+          "motion_available": false,
+          "motion_coverage": 0.0,
+          "motion_vehicle_seconds": 0.0,
+          "observed_vehicle_seconds": 1.0000111111111112,
+          "motion_track_count": 0,
+          "valid_duration_s": 10.0,
+          "missing_duration_s": 0.0,
+          "unavailability_reasons": [
+            "coverage_below_50_percent",
+            "less_than_5_motion_vehicle_seconds"
+          ]
+        },
+        {
+          "zone_id": "road_top",
+          "count_mean": 1.4803599999999988,
+          "motion_median_px_s": 6.068743552624695,
+          "motion_available": true,
+          "motion_coverage": 0.9524777756761869,
+          "motion_vehicle_seconds": 14.1001,
+          "observed_vehicle_seconds": 14.8036,
+          "motion_track_count": 2,
+          "valid_duration_s": 10.0,
+          "missing_duration_s": 0.0,
+          "unavailability_reasons": []
+        },
+        {
+          "zone_id": "road_right",
+          "count_mean": 0.6659355555555522,
+          "motion_median_px_s": null,
+          "motion_available": false,
+          "motion_coverage": 0.379304303719746,
+          "motion_vehicle_seconds": 2.5259222222222224,
+          "observed_vehicle_seconds": 6.659355555555556,
+          "motion_track_count": 3,
+          "valid_duration_s": 10.0,
+          "missing_duration_s": 0.0,
+          "unavailability_reasons": [
+            "coverage_below_50_percent",
+            "less_than_5_motion_vehicle_seconds"
+          ]
+        },
+        {
+          "zone_id": "road_bottom",
+          "count_mean": 0.0,
+          "motion_median_px_s": null,
+          "motion_available": false,
+          "motion_coverage": 0.0,
+          "motion_vehicle_seconds": 0.0,
+          "observed_vehicle_seconds": 0.0,
+          "motion_track_count": 0,
+          "valid_duration_s": 10.0,
+          "missing_duration_s": 0.0,
+          "unavailability_reasons": [
+            "no_current_observations",
+            "coverage_below_50_percent",
+            "less_than_5_motion_vehicle_seconds"
+          ]
+        },
+        {
+          "zone_id": "junction_center",
+          "count_mean": 0.10667111111111467,
+          "motion_median_px_s": null,
+          "motion_available": false,
+          "motion_coverage": 0.06249739594183576,
+          "motion_vehicle_seconds": 0.06666666666666667,
+          "observed_vehicle_seconds": 1.0667111111111112,
+          "motion_track_count": 1,
+          "valid_duration_s": 10.0,
+          "missing_duration_s": 0.0,
+          "unavailability_reasons": [
+            "coverage_below_50_percent",
+            "less_than_5_motion_vehicle_seconds"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 15,
+      "start_s": 150.0,
+      "end_s": 160.0,
+      "complete": true,
+      "full_valid_window": true,
+      "held_duration_s": 0.0,
+      "start_ticks": 13500000,
+      "end_ticks": 14400000,
+      "quality": "complete",
+      "zones": [
+        {
+          "zone_id": "road_left",
+          "count_mean": 0.5396155555555566,
+          "motion_median_px_s": null,
+          "motion_available": false,
+          "motion_coverage": 0.8146746449118096,
+          "motion_vehicle_seconds": 4.396111111111111,
+          "observed_vehicle_seconds": 5.396155555555556,
+          "motion_track_count": 1,
+          "valid_duration_s": 10.0,
+          "missing_duration_s": 0.0,
+          "unavailability_reasons": [
+            "less_than_5_motion_vehicle_seconds"
+          ]
+        },
+        {
+          "zone_id": "road_top",
+          "count_mean": 0.4237177777777788,
+          "motion_median_px_s": null,
+          "motion_available": false,
+          "motion_coverage": 1.0,
+          "motion_vehicle_seconds": 4.237177777777778,
+          "observed_vehicle_seconds": 4.237177777777778,
+          "motion_track_count": 1,
+          "valid_duration_s": 10.0,
+          "missing_duration_s": 0.0,
+          "unavailability_reasons": [
+            "less_than_5_motion_vehicle_seconds"
+          ]
+        },
+        {
+          "zone_id": "road_right",
+          "count_mean": 1.3170488888888883,
+          "motion_median_px_s": 6.6508320883765295,
+          "motion_available": true,
+          "motion_coverage": 0.9240709869877436,
+          "motion_vehicle_seconds": 12.170466666666666,
+          "observed_vehicle_seconds": 13.170488888888888,
+          "motion_track_count": 3,
+          "valid_duration_s": 10.0,
+          "missing_duration_s": 0.0,
+          "unavailability_reasons": []
+        },
+        {
+          "zone_id": "road_bottom",
+          "count_mean": 0.08666666666666459,
+          "motion_median_px_s": null,
+          "motion_available": false,
+          "motion_coverage": 0.0,
+          "motion_vehicle_seconds": 0.0,
+          "observed_vehicle_seconds": 0.8666666666666667,
+          "motion_track_count": 0,
+          "valid_duration_s": 10.0,
+          "missing_duration_s": 0.0,
+          "unavailability_reasons": [
+            "coverage_below_50_percent",
+            "less_than_5_motion_vehicle_seconds"
+          ]
+        },
+        {
+          "zone_id": "junction_center",
+          "count_mean": 0.3562766666666676,
+          "motion_median_px_s": null,
+          "motion_available": false,
+          "motion_coverage": 0.5707331069175329,
+          "motion_vehicle_seconds": 2.0333888888888887,
+          "observed_vehicle_seconds": 3.5627666666666666,
+          "motion_track_count": 1,
+          "valid_duration_s": 10.0,
+          "missing_duration_s": 0.0,
+          "unavailability_reasons": [
+            "less_than_5_motion_vehicle_seconds"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 16,
+      "start_s": 160.0,
+      "end_s": 170.0,
+      "complete": true,
+      "full_valid_window": true,
+      "held_duration_s": 0.0,
+      "start_ticks": 14400000,
+      "end_ticks": 15300000,
+      "quality": "complete",
+      "zones": [
+        {
+          "zone_id": "road_left",
+          "count_mean": 1.0,
+          "motion_median_px_s": 2.4192958289559967,
+          "motion_available": true,
+          "motion_coverage": 1.0,
+          "motion_vehicle_seconds": 10.0,
+          "observed_vehicle_seconds": 10.0,
+          "motion_track_count": 1,
+          "valid_duration_s": 10.0,
+          "missing_duration_s": 0.0,
+          "unavailability_reasons": []
+        },
+        {
+          "zone_id": "road_top",
+          "count_mean": 0.280006666666668,
+          "motion_median_px_s": null,
+          "motion_available": false,
+          "motion_coverage": 0.6428497734180932,
+          "motion_vehicle_seconds": 1.8000222222222222,
+          "observed_vehicle_seconds": 2.8000666666666665,
+          "motion_track_count": 1,
+          "valid_duration_s": 10.0,
+          "missing_duration_s": 0.0,
+          "unavailability_reasons": [
+            "less_than_5_motion_vehicle_seconds"
+          ]
+        },
+        {
+          "zone_id": "road_right",
+          "count_mean": 1.86002,
+          "motion_median_px_s": 0.3478924506015924,
+          "motion_available": true,
+          "motion_coverage": 0.8924730797398833,
+          "motion_vehicle_seconds": 16.600177777777777,
+          "observed_vehicle_seconds": 18.6002,
+          "motion_track_count": 3,
+          "valid_duration_s": 10.0,
+          "missing_duration_s": 0.0,
+          "unavailability_reasons": []
+        },
+        {
+          "zone_id": "road_bottom",
+          "count_mean": 0.0,
+          "motion_median_px_s": null,
+          "motion_available": false,
+          "motion_coverage": 0.0,
+          "motion_vehicle_seconds": 0.0,
+          "observed_vehicle_seconds": 0.0,
+          "motion_track_count": 0,
+          "valid_duration_s": 10.0,
+          "missing_duration_s": 0.0,
+          "unavailability_reasons": [
+            "no_current_observations",
+            "coverage_below_50_percent",
+            "less_than_5_motion_vehicle_seconds"
+          ]
+        },
+        {
+          "zone_id": "junction_center",
+          "count_mean": 0.06330999999999846,
+          "motion_median_px_s": null,
+          "motion_available": false,
+          "motion_coverage": 0.15797048035241054,
+          "motion_vehicle_seconds": 0.1000111111111111,
+          "observed_vehicle_seconds": 0.6331,
+          "motion_track_count": 1,
+          "valid_duration_s": 10.0,
+          "missing_duration_s": 0.0,
+          "unavailability_reasons": [
+            "coverage_below_50_percent",
+            "less_than_5_motion_vehicle_seconds"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 17,
+      "start_s": 170.0,
+      "end_s": 180.0,
+      "complete": true,
+      "full_valid_window": true,
+      "held_duration_s": 0.0,
+      "start_ticks": 15300000,
+      "end_ticks": 16200000,
+      "quality": "complete",
+      "zones": [
+        {
+          "zone_id": "road_left",
+          "count_mean": 1.392894444444451,
+          "motion_median_px_s": 25.705165943468973,
+          "motion_available": true,
+          "motion_coverage": 0.758935230794389,
+          "motion_vehicle_seconds": 10.571166666666667,
+          "observed_vehicle_seconds": 13.928944444444445,
+          "motion_track_count": 3,
+          "valid_duration_s": 10.0,
+          "missing_duration_s": 0.0,
+          "unavailability_reasons": []
+        },
+        {
+          "zone_id": "road_top",
+          "count_mean": 0.0,
+          "motion_median_px_s": null,
+          "motion_available": false,
+          "motion_coverage": 0.0,
+          "motion_vehicle_seconds": 0.0,
+          "observed_vehicle_seconds": 0.0,
+          "motion_track_count": 0,
+          "valid_duration_s": 10.0,
+          "missing_duration_s": 0.0,
+          "unavailability_reasons": [
+            "no_current_observations",
+            "coverage_below_50_percent",
+            "less_than_5_motion_vehicle_seconds"
+          ]
+        },
+        {
+          "zone_id": "road_right",
+          "count_mean": 1.9562411111111118,
+          "motion_median_px_s": 0.31738827266388,
+          "motion_available": true,
+          "motion_coverage": 0.8076782173522123,
+          "motion_vehicle_seconds": 15.800133333333333,
+          "observed_vehicle_seconds": 19.56241111111111,
+          "motion_track_count": 4,
+          "valid_duration_s": 10.0,
+          "missing_duration_s": 0.0,
+          "unavailability_reasons": []
+        },
+        {
+          "zone_id": "road_bottom",
+          "count_mean": 0.0,
+          "motion_median_px_s": null,
+          "motion_available": false,
+          "motion_coverage": 0.0,
+          "motion_vehicle_seconds": 0.0,
+          "observed_vehicle_seconds": 0.0,
+          "motion_track_count": 0,
+          "valid_duration_s": 10.0,
+          "missing_duration_s": 0.0,
+          "unavailability_reasons": [
+            "no_current_observations",
+            "coverage_below_50_percent",
+            "less_than_5_motion_vehicle_seconds"
+          ]
+        },
+        {
+          "zone_id": "junction_center",
+          "count_mean": 0.43332222222222183,
+          "motion_median_px_s": null,
+          "motion_available": false,
+          "motion_coverage": 0.27694043437011207,
+          "motion_vehicle_seconds": 1.2000444444444445,
+          "observed_vehicle_seconds": 4.333222222222222,
+          "motion_track_count": 3,
+          "valid_duration_s": 10.0,
+          "missing_duration_s": 0.0,
+          "unavailability_reasons": [
+            "coverage_below_50_percent",
+            "less_than_5_motion_vehicle_seconds"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 18,
+      "start_s": 180.0,
+      "end_s": 190.0,
+      "complete": true,
+      "full_valid_window": true,
+      "held_duration_s": 0.0,
+      "start_ticks": 16200000,
+      "end_ticks": 17100000,
+      "quality": "complete",
+      "zones": [
+        {
+          "zone_id": "road_left",
+          "count_mean": 0.9575866666666656,
+          "motion_median_px_s": 49.00447956910695,
+          "motion_available": true,
+          "motion_coverage": 0.9189989185777209,
+          "motion_vehicle_seconds": 8.80021111111111,
+          "observed_vehicle_seconds": 9.575866666666666,
+          "motion_track_count": 2,
+          "valid_duration_s": 10.0,
+          "missing_duration_s": 0.0,
+          "unavailability_reasons": []
+        },
+        {
+          "zone_id": "road_top",
+          "count_mean": 1.6157655555555608,
+          "motion_median_px_s": 3.907170196262578,
+          "motion_available": true,
+          "motion_coverage": 0.7547856571601078,
+          "motion_vehicle_seconds": 12.195566666666666,
+          "observed_vehicle_seconds": 16.157655555555557,
+          "motion_track_count": 2,
+          "valid_duration_s": 10.0,
+          "missing_duration_s": 0.0,
+          "unavailability_reasons": []
+        },
+        {
+          "zone_id": "road_right",
+          "count_mean": 0.8975877777777782,
+          "motion_median_px_s": 6.927116363879344,
+          "motion_available": true,
+          "motion_coverage": 0.940080140722851,
+          "motion_vehicle_seconds": 8.438044444444444,
+          "observed_vehicle_seconds": 8.975877777777777,
+          "motion_track_count": 2,
+          "valid_duration_s": 10.0,
+          "missing_duration_s": 0.0,
+          "unavailability_reasons": []
+        },
+        {
+          "zone_id": "road_bottom",
+          "count_mean": 0.05000111111111209,
+          "motion_median_px_s": null,
+          "motion_available": false,
+          "motion_coverage": 0.0,
+          "motion_vehicle_seconds": 0.0,
+          "observed_vehicle_seconds": 0.5000111111111111,
+          "motion_track_count": 0,
+          "valid_duration_s": 10.0,
+          "missing_duration_s": 0.0,
+          "unavailability_reasons": [
+            "coverage_below_50_percent",
+            "less_than_5_motion_vehicle_seconds"
+          ]
+        },
+        {
+          "zone_id": "junction_center",
+          "count_mean": 0.586655555555555,
+          "motion_median_px_s": null,
+          "motion_available": false,
+          "motion_coverage": 0.5397943142862555,
+          "motion_vehicle_seconds": 3.166733333333333,
+          "observed_vehicle_seconds": 5.866555555555555,
+          "motion_track_count": 2,
+          "valid_duration_s": 10.0,
+          "missing_duration_s": 0.0,
+          "unavailability_reasons": [
+            "less_than_5_motion_vehicle_seconds"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 19,
+      "start_s": 190.0,
+      "end_s": 200.0,
+      "complete": true,
+      "full_valid_window": true,
+      "held_duration_s": 0.0,
+      "start_ticks": 17100000,
+      "end_ticks": 18000000,
+      "quality": "complete",
+      "zones": [
+        {
+          "zone_id": "road_left",
+          "count_mean": 0.0,
+          "motion_median_px_s": null,
+          "motion_available": false,
+          "motion_coverage": 0.0,
+          "motion_vehicle_seconds": 0.0,
+          "observed_vehicle_seconds": 0.0,
+          "motion_track_count": 0,
+          "valid_duration_s": 10.0,
+          "missing_duration_s": 0.0,
+          "unavailability_reasons": [
+            "no_current_observations",
+            "coverage_below_50_percent",
+            "less_than_5_motion_vehicle_seconds"
+          ]
+        },
+        {
+          "zone_id": "road_top",
+          "count_mean": 4.678573333333333,
+          "motion_median_px_s": 10.171317634157745,
+          "motion_available": true,
+          "motion_coverage": 0.8268712494502123,
+          "motion_vehicle_seconds": 38.68577777777778,
+          "observed_vehicle_seconds": 46.78573333333333,
+          "motion_track_count": 8,
+          "valid_duration_s": 10.0,
+          "missing_duration_s": 0.0,
+          "unavailability_reasons": []
+        },
+        {
+          "zone_id": "road_right",
+          "count_mean": 1.0523633333333322,
+          "motion_median_px_s": 16.435612245113816,
+          "motion_available": true,
+          "motion_coverage": 0.6072258524991897,
+          "motion_vehicle_seconds": 6.3902222222222225,
+          "observed_vehicle_seconds": 10.523633333333333,
+          "motion_track_count": 3,
+          "valid_duration_s": 10.0,
+          "missing_duration_s": 0.0,
+          "unavailability_reasons": []
+        },
+        {
+          "zone_id": "road_bottom",
+          "count_mean": 0.0,
+          "motion_median_px_s": null,
+          "motion_available": false,
+          "motion_coverage": 0.0,
+          "motion_vehicle_seconds": 0.0,
+          "observed_vehicle_seconds": 0.0,
+          "motion_track_count": 0,
+          "valid_duration_s": 10.0,
+          "missing_duration_s": 0.0,
+          "unavailability_reasons": [
+            "no_current_observations",
+            "coverage_below_50_percent",
+            "less_than_5_motion_vehicle_seconds"
+          ]
+        },
+        {
+          "zone_id": "junction_center",
+          "count_mean": 0.1904777777777781,
+          "motion_median_px_s": null,
+          "motion_available": false,
+          "motion_coverage": 0.9450096249197923,
+          "motion_vehicle_seconds": 1.8000333333333334,
+          "observed_vehicle_seconds": 1.9047777777777777,
+          "motion_track_count": 1,
+          "valid_duration_s": 10.0,
+          "missing_duration_s": 0.0,
+          "unavailability_reasons": [
+            "less_than_5_motion_vehicle_seconds"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 20,
+      "start_s": 200.0,
+      "end_s": 210.0,
+      "complete": true,
+      "full_valid_window": true,
+      "held_duration_s": 0.0,
+      "start_ticks": 18000000,
+      "end_ticks": 18900000,
+      "quality": "complete",
+      "zones": [
+        {
+          "zone_id": "road_left",
+          "count_mean": 0.6333455555555559,
+          "motion_median_px_s": null,
+          "motion_available": false,
+          "motion_coverage": 0.38947318560519006,
+          "motion_vehicle_seconds": 2.466711111111111,
+          "observed_vehicle_seconds": 6.333455555555555,
+          "motion_track_count": 2,
+          "valid_duration_s": 10.0,
+          "missing_duration_s": 0.0,
+          "unavailability_reasons": [
+            "coverage_below_50_percent",
+            "less_than_5_motion_vehicle_seconds"
+          ]
+        },
+        {
+          "zone_id": "road_top",
+          "count_mean": 6.398987777777776,
+          "motion_median_px_s": 3.552322787524305,
+          "motion_available": true,
+          "motion_coverage": 0.9473085066058191,
+          "motion_vehicle_seconds": 60.61815555555555,
+          "observed_vehicle_seconds": 63.98987777777778,
+          "motion_track_count": 8,
+          "valid_duration_s": 10.0,
+          "missing_duration_s": 0.0,
+          "unavailability_reasons": []
+        },
+        {
+          "zone_id": "road_right",
+          "count_mean": 4.621312222222221,
+          "motion_median_px_s": 9.462013686018423,
+          "motion_available": true,
+          "motion_coverage": 0.7518665333391358,
+          "motion_vehicle_seconds": 34.7461,
+          "observed_vehicle_seconds": 46.213122222222225,
+          "motion_track_count": 11,
+          "valid_duration_s": 10.0,
+          "missing_duration_s": 0.0,
+          "unavailability_reasons": []
+        },
+        {
+          "zone_id": "road_bottom",
+          "count_mean": 0.6994933333333279,
+          "motion_median_px_s": null,
+          "motion_available": false,
+          "motion_coverage": 0.6473574523782293,
+          "motion_vehicle_seconds": 4.528222222222222,
+          "observed_vehicle_seconds": 6.994933333333333,
+          "motion_track_count": 2,
+          "valid_duration_s": 10.0,
+          "missing_duration_s": 0.0,
+          "unavailability_reasons": [
+            "less_than_5_motion_vehicle_seconds"
+          ]
+        },
+        {
+          "zone_id": "junction_center",
+          "count_mean": 0.6094922222222238,
+          "motion_median_px_s": null,
+          "motion_available": false,
+          "motion_coverage": 0.3336183307416192,
+          "motion_vehicle_seconds": 2.033377777777778,
+          "observed_vehicle_seconds": 6.094922222222222,
+          "motion_track_count": 2,
+          "valid_duration_s": 10.0,
+          "missing_duration_s": 0.0,
+          "unavailability_reasons": [
+            "coverage_below_50_percent",
+            "less_than_5_motion_vehicle_seconds"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 21,
+      "start_s": 210.0,
+      "end_s": 220.0,
+      "complete": true,
+      "full_valid_window": true,
+      "held_duration_s": 0.0,
+      "start_ticks": 18900000,
+      "end_ticks": 19800000,
+      "quality": "complete",
+      "zones": [
+        {
+          "zone_id": "road_left",
+          "count_mean": 1.0528099999999967,
+          "motion_median_px_s": null,
+          "motion_available": false,
+          "motion_coverage": 0.42375167409124154,
+          "motion_vehicle_seconds": 4.4613,
+          "observed_vehicle_seconds": 10.5281,
+          "motion_track_count": 6,
+          "valid_duration_s": 10.0,
+          "missing_duration_s": 0.0,
+          "unavailability_reasons": [
+            "coverage_below_50_percent",
+            "less_than_5_motion_vehicle_seconds"
+          ]
+        },
+        {
+          "zone_id": "road_top",
+          "count_mean": 8.502274444444444,
+          "motion_median_px_s": 0.5480490457813636,
+          "motion_available": true,
+          "motion_coverage": 0.9572654219191283,
+          "motion_vehicle_seconds": 81.38933333333334,
+          "observed_vehicle_seconds": 85.02274444444444,
+          "motion_track_count": 9,
+          "valid_duration_s": 10.0,
+          "missing_duration_s": 0.0,
+          "unavailability_reasons": []
+        },
+        {
+          "zone_id": "road_right",
+          "count_mean": 4.01214,
+          "motion_median_px_s": 25.930031724902353,
+          "motion_available": true,
+          "motion_coverage": 0.7608574642626296,
+          "motion_vehicle_seconds": 30.526666666666667,
+          "observed_vehicle_seconds": 40.1214,
+          "motion_track_count": 10,
+          "valid_duration_s": 10.0,
+          "missing_duration_s": 0.0,
+          "unavailability_reasons": []
+        },
+        {
+          "zone_id": "road_bottom",
+          "count_mean": 1.0,
+          "motion_median_px_s": 5.734590235476144,
+          "motion_available": true,
+          "motion_coverage": 1.0,
+          "motion_vehicle_seconds": 10.0,
+          "observed_vehicle_seconds": 10.0,
+          "motion_track_count": 1,
+          "valid_duration_s": 10.0,
+          "missing_duration_s": 0.0,
+          "unavailability_reasons": []
+        },
+        {
+          "zone_id": "junction_center",
+          "count_mean": 0.9638811111111181,
+          "motion_median_px_s": null,
+          "motion_available": false,
+          "motion_coverage": 0.44266524340830415,
+          "motion_vehicle_seconds": 4.266766666666666,
+          "observed_vehicle_seconds": 9.638811111111112,
+          "motion_track_count": 6,
+          "valid_duration_s": 10.0,
+          "missing_duration_s": 0.0,
+          "unavailability_reasons": [
+            "coverage_below_50_percent",
+            "less_than_5_motion_vehicle_seconds"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 22,
+      "start_s": 220.0,
+      "end_s": 230.0,
+      "complete": true,
+      "full_valid_window": true,
+      "held_duration_s": 0.0,
+      "start_ticks": 19800000,
+      "end_ticks": 20700000,
+      "quality": "complete",
+      "zones": [
+        {
+          "zone_id": "road_left",
+          "count_mean": 0.6566599999999966,
+          "motion_median_px_s": null,
+          "motion_available": false,
+          "motion_coverage": 0.6497307925291965,
+          "motion_vehicle_seconds": 4.266522222222222,
+          "observed_vehicle_seconds": 6.5666,
+          "motion_track_count": 3,
+          "valid_duration_s": 10.0,
+          "missing_duration_s": 0.0,
+          "unavailability_reasons": [
+            "less_than_5_motion_vehicle_seconds"
+          ]
+        },
+        {
+          "zone_id": "road_top",
+          "count_mean": 8.848378888888892,
+          "motion_median_px_s": 2.8214349328523736,
+          "motion_available": true,
+          "motion_coverage": 0.9762668390857786,
+          "motion_vehicle_seconds": 86.38378888888889,
+          "observed_vehicle_seconds": 88.4837888888889,
+          "motion_track_count": 10,
+          "valid_duration_s": 10.0,
+          "missing_duration_s": 0.0,
+          "unavailability_reasons": []
+        },
+        {
+          "zone_id": "road_right",
+          "count_mean": 1.067216666666667,
+          "motion_median_px_s": 5.548755674918204,
+          "motion_available": true,
+          "motion_coverage": 0.9401402401886527,
+          "motion_vehicle_seconds": 10.033333333333333,
+          "observed_vehicle_seconds": 10.672166666666667,
+          "motion_track_count": 2,
+          "valid_duration_s": 10.0,
+          "missing_duration_s": 0.0,
+          "unavailability_reasons": []
+        },
+        {
+          "zone_id": "road_bottom",
+          "count_mean": 1.0,
+          "motion_median_px_s": 0.31858223244300615,
+          "motion_available": true,
+          "motion_coverage": 1.0,
+          "motion_vehicle_seconds": 10.0,
+          "observed_vehicle_seconds": 10.0,
+          "motion_track_count": 1,
+          "valid_duration_s": 10.0,
+          "missing_duration_s": 0.0,
+          "unavailability_reasons": []
+        },
+        {
+          "zone_id": "junction_center",
+          "count_mean": 0.41219888888888934,
+          "motion_median_px_s": null,
+          "motion_available": false,
+          "motion_coverage": 0.3301669366729653,
+          "motion_vehicle_seconds": 1.3609444444444445,
+          "observed_vehicle_seconds": 4.121988888888889,
+          "motion_track_count": 2,
+          "valid_duration_s": 10.0,
+          "missing_duration_s": 0.0,
+          "unavailability_reasons": [
+            "coverage_below_50_percent",
+            "less_than_5_motion_vehicle_seconds"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 23,
+      "start_s": 230.0,
+      "end_s": 240.0,
+      "complete": true,
+      "full_valid_window": true,
+      "held_duration_s": 0.0,
+      "start_ticks": 20700000,
+      "end_ticks": 21600000,
+      "quality": "complete",
+      "zones": [
+        {
+          "zone_id": "road_left",
+          "count_mean": 1.9654922222222269,
+          "motion_median_px_s": 1.2292792856085597,
+          "motion_available": true,
+          "motion_coverage": 0.8473625210083083,
+          "motion_vehicle_seconds": 16.654844444444443,
+          "observed_vehicle_seconds": 19.654922222222222,
+          "motion_track_count": 4,
+          "valid_duration_s": 10.0,
+          "missing_duration_s": 0.0,
+          "unavailability_reasons": []
+        },
+        {
+          "zone_id": "road_top",
+          "count_mean": 1.9901555555555546,
+          "motion_median_px_s": 30.496912468616138,
+          "motion_available": true,
+          "motion_coverage": 0.8492541063233472,
+          "motion_vehicle_seconds": 16.901477777777778,
+          "observed_vehicle_seconds": 19.901555555555557,
+          "motion_track_count": 9,
+          "valid_duration_s": 10.0,
+          "missing_duration_s": 0.0,
+          "unavailability_reasons": []
+        },
+        {
+          "zone_id": "road_right",
+          "count_mean": 2.5127688888888913,
+          "motion_median_px_s": 39.468218657284204,
+          "motion_available": true,
+          "motion_coverage": 0.8092095837615167,
+          "motion_vehicle_seconds": 20.333566666666666,
+          "observed_vehicle_seconds": 25.12768888888889,
+          "motion_track_count": 4,
+          "valid_duration_s": 10.0,
+          "missing_duration_s": 0.0,
+          "unavailability_reasons": []
+        },
+        {
+          "zone_id": "road_bottom",
+          "count_mean": 1.5560877777777846,
+          "motion_median_px_s": 0.571315279330578,
+          "motion_available": true,
+          "motion_coverage": 0.8114852132734586,
+          "motion_vehicle_seconds": 12.627422222222222,
+          "observed_vehicle_seconds": 15.560877777777778,
+          "motion_track_count": 2,
+          "valid_duration_s": 10.0,
+          "missing_duration_s": 0.0,
+          "unavailability_reasons": []
+        },
+        {
+          "zone_id": "junction_center",
+          "count_mean": 2.140604444444449,
+          "motion_median_px_s": 162.10573967860648,
+          "motion_available": true,
+          "motion_coverage": 0.5964089063109901,
+          "motion_vehicle_seconds": 12.766755555555555,
+          "observed_vehicle_seconds": 21.406044444444444,
+          "motion_track_count": 10,
+          "valid_duration_s": 10.0,
+          "missing_duration_s": 0.0,
+          "unavailability_reasons": []
+        }
+      ]
+    },
+    {
+      "index": 24,
+      "start_s": 240.0,
+      "end_s": 250.0,
+      "complete": true,
+      "full_valid_window": true,
+      "held_duration_s": 0.0,
+      "start_ticks": 21600000,
+      "end_ticks": 22500000,
+      "quality": "complete",
+      "zones": [
+        {
+          "zone_id": "road_left",
+          "count_mean": 3.0,
+          "motion_median_px_s": 0.24968431728480187,
+          "motion_available": true,
+          "motion_coverage": 1.0,
+          "motion_vehicle_seconds": 30.0,
+          "observed_vehicle_seconds": 30.0,
+          "motion_track_count": 3,
+          "valid_duration_s": 10.0,
+          "missing_duration_s": 0.0,
+          "unavailability_reasons": []
+        },
+        {
+          "zone_id": "road_top",
+          "count_mean": 0.0,
+          "motion_median_px_s": null,
+          "motion_available": false,
+          "motion_coverage": 0.0,
+          "motion_vehicle_seconds": 0.0,
+          "observed_vehicle_seconds": 0.0,
+          "motion_track_count": 0,
+          "valid_duration_s": 10.0,
+          "missing_duration_s": 0.0,
+          "unavailability_reasons": [
+            "no_current_observations",
+            "coverage_below_50_percent",
+            "less_than_5_motion_vehicle_seconds"
+          ]
+        },
+        {
+          "zone_id": "road_right",
+          "count_mean": 1.406649999999999,
+          "motion_median_px_s": 1.228243239821369,
+          "motion_available": true,
+          "motion_coverage": 0.8270255966697868,
+          "motion_vehicle_seconds": 11.633355555555555,
+          "observed_vehicle_seconds": 14.0665,
+          "motion_track_count": 3,
+          "valid_duration_s": 10.0,
+          "missing_duration_s": 0.0,
+          "unavailability_reasons": []
+        },
+        {
+          "zone_id": "road_bottom",
+          "count_mean": 2.6173044444444455,
+          "motion_median_px_s": 24.88633326109103,
+          "motion_available": true,
+          "motion_coverage": 0.9197635056253805,
+          "motion_vehicle_seconds": 24.07301111111111,
+          "observed_vehicle_seconds": 26.173044444444443,
+          "motion_track_count": 4,
+          "valid_duration_s": 10.0,
+          "missing_duration_s": 0.0,
+          "unavailability_reasons": []
+        },
+        {
+          "zone_id": "junction_center",
+          "count_mean": 0.3893611111111085,
+          "motion_median_px_s": null,
+          "motion_available": false,
+          "motion_coverage": 0.4863237497324677,
+          "motion_vehicle_seconds": 1.8935555555555557,
+          "observed_vehicle_seconds": 3.893611111111111,
+          "motion_track_count": 3,
+          "valid_duration_s": 10.0,
+          "missing_duration_s": 0.0,
+          "unavailability_reasons": [
+            "coverage_below_50_percent",
+            "less_than_5_motion_vehicle_seconds"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 25,
+      "start_s": 250.0,
+      "end_s": 260.0,
+      "complete": true,
+      "full_valid_window": true,
+      "held_duration_s": 0.0,
+      "start_ticks": 22500000,
+      "end_ticks": 23400000,
+      "quality": "complete",
+      "zones": [
+        {
+          "zone_id": "road_left",
+          "count_mean": 3.9993766666666657,
+          "motion_median_px_s": 0.2124943089045197,
+          "motion_available": true,
+          "motion_coverage": 0.9599926544108679,
+          "motion_vehicle_seconds": 38.39372222222222,
+          "observed_vehicle_seconds": 39.993766666666666,
+          "motion_track_count": 4,
+          "valid_duration_s": 10.0,
+          "missing_duration_s": 0.0,
+          "unavailability_reasons": []
+        },
+        {
+          "zone_id": "road_top",
+          "count_mean": 1.6660600000000045,
+          "motion_median_px_s": 42.63691859848107,
+          "motion_available": true,
+          "motion_coverage": 0.6718712277935835,
+          "motion_vehicle_seconds": 11.193777777777777,
+          "observed_vehicle_seconds": 16.6606,
+          "motion_track_count": 4,
+          "valid_duration_s": 10.0,
+          "missing_duration_s": 0.0,
+          "unavailability_reasons": []
+        },
+        {
+          "zone_id": "road_right",
+          "count_mean": 1.8026844444444379,
+          "motion_median_px_s": 0.25482417715253547,
+          "motion_available": true,
+          "motion_coverage": 0.7725675782290116,
+          "motion_vehicle_seconds": 13.926955555555555,
+          "observed_vehicle_seconds": 18.026844444444443,
+          "motion_track_count": 3,
+          "valid_duration_s": 10.0,
+          "missing_duration_s": 0.0,
+          "unavailability_reasons": []
+        },
+        {
+          "zone_id": "road_bottom",
+          "count_mean": 0.2672966666666639,
+          "motion_median_px_s": null,
+          "motion_available": false,
+          "motion_coverage": 0.6258755357135434,
+          "motion_vehicle_seconds": 1.6729444444444443,
+          "observed_vehicle_seconds": 2.6729666666666665,
+          "motion_track_count": 2,
+          "valid_duration_s": 10.0,
+          "missing_duration_s": 0.0,
+          "unavailability_reasons": [
+            "less_than_5_motion_vehicle_seconds"
+          ]
+        },
+        {
+          "zone_id": "junction_center",
+          "count_mean": 0.5179244444444464,
+          "motion_median_px_s": null,
+          "motion_available": false,
+          "motion_coverage": 0.7747376279680434,
+          "motion_vehicle_seconds": 4.012555555555555,
+          "observed_vehicle_seconds": 5.1792444444444445,
+          "motion_track_count": 3,
+          "valid_duration_s": 10.0,
+          "missing_duration_s": 0.0,
+          "unavailability_reasons": [
+            "less_than_5_motion_vehicle_seconds"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 26,
+      "start_s": 260.0,
+      "end_s": 270.0,
+      "complete": true,
+      "full_valid_window": true,
+      "held_duration_s": 0.0,
+      "start_ticks": 23400000,
+      "end_ticks": 24300000,
+      "quality": "complete",
+      "zones": [
+        {
+          "zone_id": "road_left",
+          "count_mean": 2.6826622222222283,
+          "motion_median_px_s": 34.02980936426328,
+          "motion_available": true,
+          "motion_coverage": 1.0,
+          "motion_vehicle_seconds": 26.826622222222223,
+          "observed_vehicle_seconds": 26.826622222222223,
+          "motion_track_count": 4,
+          "valid_duration_s": 10.0,
+          "missing_duration_s": 0.0,
+          "unavailability_reasons": []
+        },
+        {
+          "zone_id": "road_top",
+          "count_mean": 0.6793188888888835,
+          "motion_median_px_s": null,
+          "motion_available": false,
+          "motion_coverage": 0.7055792812081382,
+          "motion_vehicle_seconds": 4.7931333333333335,
+          "observed_vehicle_seconds": 6.7931888888888885,
+          "motion_track_count": 3,
+          "valid_duration_s": 10.0,
+          "missing_duration_s": 0.0,
+          "unavailability_reasons": [
+            "less_than_5_motion_vehicle_seconds"
+          ]
+        },
+        {
+          "zone_id": "road_right",
+          "count_mean": 4.159997777777778,
+          "motion_median_px_s": 10.426674726053927,
+          "motion_available": true,
+          "motion_coverage": 0.7100957318887456,
+          "motion_vehicle_seconds": 29.53996666666667,
+          "observed_vehicle_seconds": 41.59997777777778,
+          "motion_track_count": 11,
+          "valid_duration_s": 10.0,
+          "missing_duration_s": 0.0,
+          "unavailability_reasons": []
+        },
+        {
+          "zone_id": "road_bottom",
+          "count_mean": 0.8626811111111123,
+          "motion_median_px_s": 15.479830294808773,
+          "motion_available": true,
+          "motion_coverage": 0.8840810238880595,
+          "motion_vehicle_seconds": 7.6268,
+          "observed_vehicle_seconds": 8.626811111111111,
+          "motion_track_count": 1,
+          "valid_duration_s": 10.0,
+          "missing_duration_s": 0.0,
+          "unavailability_reasons": []
+        },
+        {
+          "zone_id": "junction_center",
+          "count_mean": 0.8526777777777795,
+          "motion_median_px_s": null,
+          "motion_available": false,
+          "motion_coverage": 0.5308844033828071,
+          "motion_vehicle_seconds": 4.5267333333333335,
+          "observed_vehicle_seconds": 8.526777777777777,
+          "motion_track_count": 4,
+          "valid_duration_s": 10.0,
+          "missing_duration_s": 0.0,
+          "unavailability_reasons": [
+            "less_than_5_motion_vehicle_seconds"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 27,
+      "start_s": 270.0,
+      "end_s": 280.0,
+      "complete": true,
+      "full_valid_window": true,
+      "held_duration_s": 0.0,
+      "start_ticks": 24300000,
+      "end_ticks": 25200000,
+      "quality": "complete",
+      "zones": [
+        {
+          "zone_id": "road_left",
+          "count_mean": 0.0,
+          "motion_median_px_s": null,
+          "motion_available": false,
+          "motion_coverage": 0.0,
+          "motion_vehicle_seconds": 0.0,
+          "observed_vehicle_seconds": 0.0,
+          "motion_track_count": 0,
+          "valid_duration_s": 10.0,
+          "missing_duration_s": 0.0,
+          "unavailability_reasons": [
+            "no_current_observations",
+            "coverage_below_50_percent",
+            "less_than_5_motion_vehicle_seconds"
+          ]
+        },
+        {
+          "zone_id": "road_top",
+          "count_mean": 2.0666699999999936,
+          "motion_median_px_s": 1.2629495730888374,
+          "motion_available": true,
+          "motion_coverage": 0.8919313570999616,
+          "motion_vehicle_seconds": 18.43327777777778,
+          "observed_vehicle_seconds": 20.6667,
+          "motion_track_count": 4,
+          "valid_duration_s": 10.0,
+          "missing_duration_s": 0.0,
+          "unavailability_reasons": []
+        },
+        {
+          "zone_id": "road_right",
+          "count_mean": 5.738711111111104,
+          "motion_median_px_s": 7.92285148581336,
+          "motion_available": true,
+          "motion_coverage": 0.9184429720959411,
+          "motion_vehicle_seconds": 52.70678888888889,
+          "observed_vehicle_seconds": 57.38711111111111,
+          "motion_track_count": 9,
+          "valid_duration_s": 10.0,
+          "missing_duration_s": 0.0,
+          "unavailability_reasons": []
+        },
+        {
+          "zone_id": "road_bottom",
+          "count_mean": 1.0,
+          "motion_median_px_s": 0.4773248336584436,
+          "motion_available": true,
+          "motion_coverage": 1.0,
+          "motion_vehicle_seconds": 10.0,
+          "observed_vehicle_seconds": 10.0,
+          "motion_track_count": 1,
+          "valid_duration_s": 10.0,
+          "missing_duration_s": 0.0,
+          "unavailability_reasons": []
+        },
+        {
+          "zone_id": "junction_center",
+          "count_mean": 0.01734000000000151,
+          "motion_median_px_s": null,
+          "motion_available": false,
+          "motion_coverage": 1.0,
+          "motion_vehicle_seconds": 0.1734,
+          "observed_vehicle_seconds": 0.1734,
+          "motion_track_count": 1,
+          "valid_duration_s": 10.0,
+          "missing_duration_s": 0.0,
+          "unavailability_reasons": [
+            "less_than_5_motion_vehicle_seconds"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 28,
+      "start_s": 280.0,
+      "end_s": 290.0,
+      "complete": true,
+      "full_valid_window": true,
+      "held_duration_s": 0.0,
+      "start_ticks": 25200000,
+      "end_ticks": 26100000,
+      "quality": "complete",
+      "zones": [
+        {
+          "zone_id": "road_left",
+          "count_mean": 0.7659633333333318,
+          "motion_median_px_s": null,
+          "motion_available": false,
+          "motion_coverage": 0.34720838102201007,
+          "motion_vehicle_seconds": 2.659488888888889,
+          "observed_vehicle_seconds": 7.659633333333334,
+          "motion_track_count": 5,
+          "valid_duration_s": 10.0,
+          "missing_duration_s": 0.0,
+          "unavailability_reasons": [
+            "coverage_below_50_percent",
+            "less_than_5_motion_vehicle_seconds"
+          ]
+        },
+        {
+          "zone_id": "road_top",
+          "count_mean": 2.8959666666666637,
+          "motion_median_px_s": 0.4538777045919912,
+          "motion_available": true,
+          "motion_coverage": 0.9654684484551311,
+          "motion_vehicle_seconds": 27.959644444444443,
+          "observed_vehicle_seconds": 28.959666666666667,
+          "motion_track_count": 3,
+          "valid_duration_s": 10.0,
+          "missing_duration_s": 0.0,
+          "unavailability_reasons": []
+        },
+        {
+          "zone_id": "road_right",
+          "count_mean": 3.138788888888894,
+          "motion_median_px_s": 13.492018380470478,
+          "motion_available": true,
+          "motion_coverage": 0.9681398699427592,
+          "motion_vehicle_seconds": 30.387866666666667,
+          "observed_vehicle_seconds": 31.387888888888888,
+          "motion_track_count": 6,
+          "valid_duration_s": 10.0,
+          "missing_duration_s": 0.0,
+          "unavailability_reasons": []
+        },
+        {
+          "zone_id": "road_bottom",
+          "count_mean": 1.0,
+          "motion_median_px_s": 0.3706649278481889,
+          "motion_available": true,
+          "motion_coverage": 1.0,
+          "motion_vehicle_seconds": 10.0,
+          "observed_vehicle_seconds": 10.0,
+          "motion_track_count": 1,
+          "valid_duration_s": 10.0,
+          "missing_duration_s": 0.0,
+          "unavailability_reasons": []
+        },
+        {
+          "zone_id": "junction_center",
+          "count_mean": 0.9366899999999987,
+          "motion_median_px_s": null,
+          "motion_available": false,
+          "motion_coverage": 0.46619004746026493,
+          "motion_vehicle_seconds": 4.366755555555556,
+          "observed_vehicle_seconds": 9.3669,
+          "motion_track_count": 5,
+          "valid_duration_s": 10.0,
+          "missing_duration_s": 0.0,
+          "unavailability_reasons": [
+            "coverage_below_50_percent",
+            "less_than_5_motion_vehicle_seconds"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 29,
+      "start_s": 290.0,
+      "end_s": 300.0,
+      "complete": true,
+      "full_valid_window": true,
+      "held_duration_s": 0.0,
+      "start_ticks": 26100000,
+      "end_ticks": 27000000,
+      "quality": "complete",
+      "zones": [
+        {
+          "zone_id": "road_left",
+          "count_mean": 0.9525855555555381,
+          "motion_median_px_s": 176.4538476919758,
+          "motion_available": true,
+          "motion_coverage": 0.6648478351900733,
+          "motion_vehicle_seconds": 6.3332444444444445,
+          "observed_vehicle_seconds": 9.525855555555555,
+          "motion_track_count": 3,
+          "valid_duration_s": 10.0,
+          "missing_duration_s": 0.0,
+          "unavailability_reasons": []
+        },
+        {
+          "zone_id": "road_top",
+          "count_mean": 3.209256666666664,
+          "motion_median_px_s": 0.2966532282379019,
+          "motion_available": true,
+          "motion_coverage": 0.9688394439556962,
+          "motion_vehicle_seconds": 31.092544444444446,
+          "observed_vehicle_seconds": 32.09256666666667,
+          "motion_track_count": 4,
+          "valid_duration_s": 10.0,
+          "missing_duration_s": 0.0,
+          "unavailability_reasons": []
+        },
+        {
+          "zone_id": "road_right",
+          "count_mean": 1.2673955555555552,
+          "motion_median_px_s": 0.27418154175011744,
+          "motion_available": true,
+          "motion_coverage": 0.9210971581265517,
+          "motion_vehicle_seconds": 11.673944444444444,
+          "observed_vehicle_seconds": 12.673955555555555,
+          "motion_track_count": 3,
+          "valid_duration_s": 10.0,
+          "missing_duration_s": 0.0,
+          "unavailability_reasons": []
+        },
+        {
+          "zone_id": "road_bottom",
+          "count_mean": 1.0,
+          "motion_median_px_s": 0.4190846591644374,
+          "motion_available": true,
+          "motion_coverage": 1.0,
+          "motion_vehicle_seconds": 10.0,
+          "observed_vehicle_seconds": 10.0,
+          "motion_track_count": 1,
+          "valid_duration_s": 10.0,
+          "missing_duration_s": 0.0,
+          "unavailability_reasons": []
+        },
+        {
+          "zone_id": "junction_center",
+          "count_mean": 0.23000555555556162,
+          "motion_median_px_s": null,
+          "motion_available": false,
+          "motion_coverage": 0.5652182314436849,
+          "motion_vehicle_seconds": 1.3000333333333334,
+          "observed_vehicle_seconds": 2.3000555555555557,
+          "motion_track_count": 1,
+          "valid_duration_s": 10.0,
+          "missing_duration_s": 0.0,
+          "unavailability_reasons": [
+            "less_than_5_motion_vehicle_seconds"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 30,
+      "start_s": 300.0,
+      "end_s": 310.0,
+      "complete": true,
+      "full_valid_window": true,
+      "held_duration_s": 0.0,
+      "start_ticks": 27000000,
+      "end_ticks": 27900000,
+      "quality": "complete",
+      "zones": [
+        {
+          "zone_id": "road_left",
+          "count_mean": 2.0,
+          "motion_median_px_s": 0.2955516584060856,
+          "motion_available": true,
+          "motion_coverage": 0.9812922222222222,
+          "motion_vehicle_seconds": 19.625844444444443,
+          "observed_vehicle_seconds": 20.0,
+          "motion_track_count": 2,
+          "valid_duration_s": 10.0,
+          "missing_duration_s": 0.0,
+          "unavailability_reasons": []
+        },
+        {
+          "zone_id": "road_top",
+          "count_mean": 3.367424444444441,
+          "motion_median_px_s": 0.23192726782900835,
+          "motion_available": true,
+          "motion_coverage": 1.0,
+          "motion_vehicle_seconds": 33.67424444444445,
+          "observed_vehicle_seconds": 33.67424444444445,
+          "motion_track_count": 4,
+          "valid_duration_s": 10.0,
+          "missing_duration_s": 0.0,
+          "unavailability_reasons": []
+        },
+        {
+          "zone_id": "road_right",
+          "count_mean": 0.9825611111111187,
+          "motion_median_px_s": 40.27175969968372,
+          "motion_available": true,
+          "motion_coverage": 0.6683135343574897,
+          "motion_vehicle_seconds": 6.566588888888889,
+          "observed_vehicle_seconds": 9.825611111111112,
+          "motion_track_count": 3,
+          "valid_duration_s": 10.0,
+          "missing_duration_s": 0.0,
+          "unavailability_reasons": []
+        },
+        {
+          "zone_id": "road_bottom",
+          "count_mean": 1.5633477777777842,
+          "motion_median_px_s": 0.4378744001489304,
+          "motion_available": true,
+          "motion_coverage": 0.8400817902890734,
+          "motion_vehicle_seconds": 13.1334,
+          "observed_vehicle_seconds": 15.633477777777777,
+          "motion_track_count": 3,
+          "valid_duration_s": 10.0,
+          "missing_duration_s": 0.0,
+          "unavailability_reasons": []
+        },
+        {
+          "zone_id": "junction_center",
+          "count_mean": 0.28000555555555023,
+          "motion_median_px_s": null,
+          "motion_available": false,
+          "motion_coverage": 0.45237991309696235,
+          "motion_vehicle_seconds": 1.266688888888889,
+          "observed_vehicle_seconds": 2.8000555555555557,
+          "motion_track_count": 1,
+          "valid_duration_s": 10.0,
+          "missing_duration_s": 0.0,
+          "unavailability_reasons": [
+            "coverage_below_50_percent",
+            "less_than_5_motion_vehicle_seconds"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 31,
+      "start_s": 310.0,
+      "end_s": 320.0,
+      "complete": true,
+      "full_valid_window": true,
+      "held_duration_s": 0.0,
+      "start_ticks": 27900000,
+      "end_ticks": 28800000,
+      "quality": "complete",
+      "zones": [
+        {
+          "zone_id": "road_left",
+          "count_mean": 2.2317411111111083,
+          "motion_median_px_s": 0.294365328958847,
+          "motion_available": true,
+          "motion_coverage": 0.9540553041048668,
+          "motion_vehicle_seconds": 21.292044444444443,
+          "observed_vehicle_seconds": 22.31741111111111,
+          "motion_track_count": 3,
+          "valid_duration_s": 10.0,
+          "missing_duration_s": 0.0,
+          "unavailability_reasons": []
+        },
+        {
+          "zone_id": "road_top",
+          "count_mean": 3.4133411111111114,
+          "motion_median_px_s": 10.001419100784288,
+          "motion_available": true,
+          "motion_coverage": 0.8615592347283063,
+          "motion_vehicle_seconds": 29.407955555555557,
+          "observed_vehicle_seconds": 34.13341111111111,
+          "motion_track_count": 7,
+          "valid_duration_s": 10.0,
+          "missing_duration_s": 0.0,
+          "unavailability_reasons": []
+        },
+        {
+          "zone_id": "road_right",
+          "count_mean": 1.3899866666666696,
+          "motion_median_px_s": 14.834612533304629,
+          "motion_available": true,
+          "motion_coverage": 0.7218302653582608,
+          "motion_vehicle_seconds": 10.033344444444445,
+          "observed_vehicle_seconds": 13.899866666666666,
+          "motion_track_count": 5,
+          "valid_duration_s": 10.0,
+          "missing_duration_s": 0.0,
+          "unavailability_reasons": []
+        },
+        {
+          "zone_id": "road_bottom",
+          "count_mean": 0.9199922222222255,
+          "motion_median_px_s": 24.204490229883287,
+          "motion_available": true,
+          "motion_coverage": 0.7327465328813166,
+          "motion_vehicle_seconds": 6.741211111111111,
+          "observed_vehicle_seconds": 9.199922222222222,
+          "motion_track_count": 2,
+          "valid_duration_s": 10.0,
+          "missing_duration_s": 0.0,
+          "unavailability_reasons": []
+        },
+        {
+          "zone_id": "junction_center",
+          "count_mean": 1.4992444444444402,
+          "motion_median_px_s": 154.53400761754827,
+          "motion_available": true,
+          "motion_coverage": 0.5864442830462752,
+          "motion_vehicle_seconds": 8.792233333333334,
+          "observed_vehicle_seconds": 14.992444444444445,
+          "motion_track_count": 6,
+          "valid_duration_s": 10.0,
+          "missing_duration_s": 0.0,
+          "unavailability_reasons": []
+        }
+      ]
+    },
+    {
+      "index": 32,
+      "start_s": 320.0,
+      "end_s": 330.0,
+      "complete": false,
+      "full_valid_window": true,
+      "held_duration_s": 6.266822222222222,
+      "start_ticks": 28800000,
+      "end_ticks": 29700000,
+      "quality": "held_image",
+      "zones": [
+        {
+          "zone_id": "road_left",
+          "count_mean": 4.006666666666666,
+          "motion_median_px_s": null,
+          "motion_available": false,
+          "motion_coverage": 0.2352218524681087,
+          "motion_vehicle_seconds": 9.424555555555555,
+          "observed_vehicle_seconds": 40.06666666666667,
+          "motion_track_count": 6,
+          "valid_duration_s": 10.0,
+          "missing_duration_s": 0.0,
+          "unavailability_reasons": [
+            "long_held_frame_overlap",
+            "coverage_below_50_percent"
+          ]
+        },
+        {
+          "zone_id": "road_top",
+          "count_mean": 2.5208133333333365,
+          "motion_median_px_s": null,
+          "motion_available": false,
+          "motion_coverage": 0.1550227175356102,
+          "motion_vehicle_seconds": 3.9078333333333335,
+          "observed_vehicle_seconds": 25.208133333333333,
+          "motion_track_count": 4,
+          "valid_duration_s": 10.0,
+          "missing_duration_s": 0.0,
+          "unavailability_reasons": [
+            "long_held_frame_overlap",
+            "coverage_below_50_percent",
+            "less_than_5_motion_vehicle_seconds"
+          ]
+        },
+        {
+          "zone_id": "road_right",
+          "count_mean": 1.4491633333333254,
+          "motion_median_px_s": null,
+          "motion_available": false,
+          "motion_coverage": 0.32777763721135644,
+          "motion_vehicle_seconds": 4.7500333333333336,
+          "observed_vehicle_seconds": 14.491633333333333,
+          "motion_track_count": 4,
+          "valid_duration_s": 10.0,
+          "missing_duration_s": 0.0,
+          "unavailability_reasons": [
+            "long_held_frame_overlap",
+            "coverage_below_50_percent",
+            "less_than_5_motion_vehicle_seconds"
+          ]
+        },
+        {
+          "zone_id": "road_bottom",
+          "count_mean": 0.30080666666665934,
+          "motion_median_px_s": null,
+          "motion_available": false,
+          "motion_coverage": 0.2437926168894011,
+          "motion_vehicle_seconds": 0.7333444444444445,
+          "observed_vehicle_seconds": 3.0080666666666667,
+          "motion_track_count": 1,
+          "valid_duration_s": 10.0,
+          "missing_duration_s": 0.0,
+          "unavailability_reasons": [
+            "long_held_frame_overlap",
+            "coverage_below_50_percent",
+            "less_than_5_motion_vehicle_seconds"
+          ]
+        },
+        {
+          "zone_id": "junction_center",
+          "count_mean": 0.8666611111111194,
+          "motion_median_px_s": null,
+          "motion_available": false,
+          "motion_coverage": 0.057665754267655564,
+          "motion_vehicle_seconds": 0.4997666666666667,
+          "observed_vehicle_seconds": 8.666611111111111,
+          "motion_track_count": 2,
+          "valid_duration_s": 10.0,
+          "missing_duration_s": 0.0,
+          "unavailability_reasons": [
+            "long_held_frame_overlap",
+            "coverage_below_50_percent",
+            "less_than_5_motion_vehicle_seconds"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 33,
+      "start_s": 330.0,
+      "end_s": 340.0,
+      "complete": true,
+      "full_valid_window": true,
+      "held_duration_s": 0.0,
+      "start_ticks": 29700000,
+      "end_ticks": 30600000,
+      "quality": "complete",
+      "zones": [
+        {
+          "zone_id": "road_left",
+          "count_mean": 4.0,
+          "motion_median_px_s": 0.4181347759732716,
+          "motion_available": true,
+          "motion_coverage": 1.0,
+          "motion_vehicle_seconds": 40.0,
+          "observed_vehicle_seconds": 40.0,
+          "motion_track_count": 4,
+          "valid_duration_s": 10.0,
+          "missing_duration_s": 0.0,
+          "unavailability_reasons": []
+        },
+        {
+          "zone_id": "road_top",
+          "count_mean": 0.7883288888888955,
+          "motion_median_px_s": null,
+          "motion_available": false,
+          "motion_coverage": 0.6310860103510098,
+          "motion_vehicle_seconds": 4.975033333333333,
+          "observed_vehicle_seconds": 7.883288888888889,
+          "motion_track_count": 3,
+          "valid_duration_s": 10.0,
+          "missing_duration_s": 0.0,
+          "unavailability_reasons": [
+            "less_than_5_motion_vehicle_seconds"
+          ]
+        },
+        {
+          "zone_id": "road_right",
+          "count_mean": 2.55913888888889,
+          "motion_median_px_s": 0.19658929691922963,
+          "motion_available": true,
+          "motion_coverage": 0.922178684236234,
+          "motion_vehicle_seconds": 23.599833333333333,
+          "observed_vehicle_seconds": 25.59138888888889,
+          "motion_track_count": 4,
+          "valid_duration_s": 10.0,
+          "missing_duration_s": 0.0,
+          "unavailability_reasons": []
+        },
+        {
+          "zone_id": "road_bottom",
+          "count_mean": 0.6858366666666654,
+          "motion_median_px_s": 33.61610063902085,
+          "motion_available": true,
+          "motion_coverage": 0.8541878289777449,
+          "motion_vehicle_seconds": 5.858333333333333,
+          "observed_vehicle_seconds": 6.858366666666667,
+          "motion_track_count": 1,
+          "valid_duration_s": 10.0,
+          "missing_duration_s": 0.0,
+          "unavailability_reasons": []
+        },
+        {
+          "zone_id": "junction_center",
+          "count_mean": 0.6341733333333366,
+          "motion_median_px_s": 59.077621502173635,
+          "motion_available": true,
+          "motion_coverage": 0.8423126519913938,
+          "motion_vehicle_seconds": 5.341722222222222,
+          "observed_vehicle_seconds": 6.341733333333333,
+          "motion_track_count": 2,
+          "valid_duration_s": 10.0,
+          "missing_duration_s": 0.0,
+          "unavailability_reasons": []
+        }
+      ]
+    },
+    {
+      "index": 34,
+      "start_s": 340.0,
+      "end_s": 350.0,
+      "complete": true,
+      "full_valid_window": true,
+      "held_duration_s": 0.0,
+      "start_ticks": 30600000,
+      "end_ticks": 31500000,
+      "quality": "complete",
+      "zones": [
+        {
+          "zone_id": "road_left",
+          "count_mean": 3.062596666666667,
+          "motion_median_px_s": 51.34443170044186,
+          "motion_available": true,
+          "motion_coverage": 0.9227217136366126,
+          "motion_vehicle_seconds": 28.259244444444445,
+          "observed_vehicle_seconds": 30.625966666666667,
+          "motion_track_count": 6,
+          "valid_duration_s": 10.0,
+          "missing_duration_s": 0.0,
+          "unavailability_reasons": []
+        },
+        {
+          "zone_id": "road_top",
+          "count_mean": 0.3249288888888827,
+          "motion_median_px_s": null,
+          "motion_available": false,
+          "motion_coverage": 0.38446018957994227,
+          "motion_vehicle_seconds": 1.2492222222222222,
+          "observed_vehicle_seconds": 3.2492888888888887,
+          "motion_track_count": 2,
+          "valid_duration_s": 10.0,
+          "missing_duration_s": 0.0,
+          "unavailability_reasons": [
+            "coverage_below_50_percent",
+            "less_than_5_motion_vehicle_seconds"
+          ]
+        },
+        {
+          "zone_id": "road_right",
+          "count_mean": 4.248258888888893,
+          "motion_median_px_s": 16.910732296899738,
+          "motion_available": true,
+          "motion_coverage": 0.7287210211346714,
+          "motion_vehicle_seconds": 30.957955555555557,
+          "observed_vehicle_seconds": 42.48258888888889,
+          "motion_track_count": 12,
+          "valid_duration_s": 10.0,
+          "missing_duration_s": 0.0,
+          "unavailability_reasons": []
+        },
+        {
+          "zone_id": "road_bottom",
+          "count_mean": 0.906664444444442,
+          "motion_median_px_s": 14.467189839115,
+          "motion_available": true,
+          "motion_coverage": 0.8897031610371594,
+          "motion_vehicle_seconds": 8.066622222222222,
+          "observed_vehicle_seconds": 9.066644444444444,
+          "motion_track_count": 2,
+          "valid_duration_s": 10.0,
+          "missing_duration_s": 0.0,
+          "unavailability_reasons": []
+        },
+        {
+          "zone_id": "junction_center",
+          "count_mean": 1.2633633333333365,
+          "motion_median_px_s": 177.41386262719018,
+          "motion_available": true,
+          "motion_coverage": 0.5778306056056717,
+          "motion_vehicle_seconds": 7.3001,
+          "observed_vehicle_seconds": 12.633633333333334,
+          "motion_track_count": 5,
+          "valid_duration_s": 10.0,
+          "missing_duration_s": 0.0,
+          "unavailability_reasons": []
+        }
+      ]
+    },
+    {
+      "index": 35,
+      "start_s": 350.0,
+      "end_s": 360.0,
+      "complete": true,
+      "full_valid_window": true,
+      "held_duration_s": 0.0,
+      "start_ticks": 31500000,
+      "end_ticks": 32400000,
+      "quality": "complete",
+      "zones": [
+        {
+          "zone_id": "road_left",
+          "count_mean": 0.6008900000000097,
+          "motion_median_px_s": null,
+          "motion_available": false,
+          "motion_coverage": 0.5007257752851788,
+          "motion_vehicle_seconds": 3.008811111111111,
+          "observed_vehicle_seconds": 6.0089,
+          "motion_track_count": 4,
+          "valid_duration_s": 10.0,
+          "missing_duration_s": 0.0,
+          "unavailability_reasons": [
+            "less_than_5_motion_vehicle_seconds"
+          ]
+        },
+        {
+          "zone_id": "road_top",
+          "count_mean": 2.1066688888888963,
+          "motion_median_px_s": 32.732350059536394,
+          "motion_available": true,
+          "motion_coverage": 0.8247892143573688,
+          "motion_vehicle_seconds": 17.375577777777778,
+          "observed_vehicle_seconds": 21.06668888888889,
+          "motion_track_count": 4,
+          "valid_duration_s": 10.0,
+          "missing_duration_s": 0.0,
+          "unavailability_reasons": []
+        },
+        {
+          "zone_id": "road_right",
+          "count_mean": 3.2235244444444446,
+          "motion_median_px_s": 19.720821713752038,
+          "motion_available": true,
+          "motion_coverage": 0.7047431176090214,
+          "motion_vehicle_seconds": 22.717566666666666,
+          "observed_vehicle_seconds": 32.23524444444445,
+          "motion_track_count": 9,
+          "valid_duration_s": 10.0,
+          "missing_duration_s": 0.0,
+          "unavailability_reasons": []
+        },
+        {
+          "zone_id": "road_bottom",
+          "count_mean": 1.985792222222227,
+          "motion_median_px_s": 0.3796867745768351,
+          "motion_available": true,
+          "motion_coverage": 0.9496417047100709,
+          "motion_vehicle_seconds": 18.85791111111111,
+          "observed_vehicle_seconds": 19.85792222222222,
+          "motion_track_count": 2,
+          "valid_duration_s": 10.0,
+          "missing_duration_s": 0.0,
+          "unavailability_reasons": []
+        },
+        {
+          "zone_id": "junction_center",
+          "count_mean": 0.9124577777777858,
+          "motion_median_px_s": null,
+          "motion_available": false,
+          "motion_coverage": 0.5433469067670711,
+          "motion_vehicle_seconds": 4.957811111111111,
+          "observed_vehicle_seconds": 9.124577777777779,
+          "motion_track_count": 4,
+          "valid_duration_s": 10.0,
+          "missing_duration_s": 0.0,
+          "unavailability_reasons": [
+            "less_than_5_motion_vehicle_seconds"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 36,
+      "start_s": 360.0,
+      "end_s": 370.0,
+      "complete": false,
+      "full_valid_window": true,
+      "held_duration_s": 1.1574666666666666,
+      "start_ticks": 32400000,
+      "end_ticks": 33300000,
+      "quality": "held_image",
+      "zones": [
+        {
+          "zone_id": "road_left",
+          "count_mean": 1.2681822222222308,
+          "motion_median_px_s": null,
+          "motion_available": false,
+          "motion_coverage": 0.36536021812498026,
+          "motion_vehicle_seconds": 4.6334333333333335,
+          "observed_vehicle_seconds": 12.681822222222221,
+          "motion_track_count": 4,
+          "valid_duration_s": 10.0,
+          "missing_duration_s": 0.0,
+          "unavailability_reasons": [
+            "long_held_frame_overlap",
+            "coverage_below_50_percent",
+            "less_than_5_motion_vehicle_seconds"
+          ]
+        },
+        {
+          "zone_id": "road_top",
+          "count_mean": 1.3975766666666687,
+          "motion_median_px_s": null,
+          "motion_available": false,
+          "motion_coverage": 0.725725243457127,
+          "motion_vehicle_seconds": 10.142566666666667,
+          "observed_vehicle_seconds": 13.975766666666667,
+          "motion_track_count": 4,
+          "valid_duration_s": 10.0,
+          "missing_duration_s": 0.0,
+          "unavailability_reasons": [
+            "long_held_frame_overlap"
+          ]
+        },
+        {
+          "zone_id": "road_right",
+          "count_mean": 2.0233344444444525,
+          "motion_median_px_s": null,
+          "motion_available": false,
+          "motion_coverage": 0.6203428773515226,
+          "motion_vehicle_seconds": 12.55161111111111,
+          "observed_vehicle_seconds": 20.233344444444445,
+          "motion_track_count": 5,
+          "valid_duration_s": 10.0,
+          "missing_duration_s": 0.0,
+          "unavailability_reasons": [
+            "long_held_frame_overlap"
+          ]
+        },
+        {
+          "zone_id": "road_bottom",
+          "count_mean": 2.0,
+          "motion_median_px_s": null,
+          "motion_available": false,
+          "motion_coverage": 0.8842533333333333,
+          "motion_vehicle_seconds": 17.685066666666668,
+          "observed_vehicle_seconds": 20.0,
+          "motion_track_count": 2,
+          "valid_duration_s": 10.0,
+          "missing_duration_s": 0.0,
+          "unavailability_reasons": [
+            "long_held_frame_overlap"
+          ]
+        },
+        {
+          "zone_id": "junction_center",
+          "count_mean": 0.8066577777777809,
+          "motion_median_px_s": null,
+          "motion_available": false,
+          "motion_coverage": 0.23665550033609187,
+          "motion_vehicle_seconds": 1.909,
+          "observed_vehicle_seconds": 8.066577777777777,
+          "motion_track_count": 6,
+          "valid_duration_s": 10.0,
+          "missing_duration_s": 0.0,
+          "unavailability_reasons": [
+            "long_held_frame_overlap",
+            "coverage_below_50_percent",
+            "less_than_5_motion_vehicle_seconds"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 37,
+      "start_s": 370.0,
+      "end_s": 380.0,
+      "complete": false,
+      "full_valid_window": true,
+      "held_duration_s": 3.6759666666666666,
+      "start_ticks": 33300000,
+      "end_ticks": 34200000,
+      "quality": "held_image",
+      "zones": [
+        {
+          "zone_id": "road_left",
+          "count_mean": 1.7957122222222153,
+          "motion_median_px_s": null,
+          "motion_available": false,
+          "motion_coverage": 0.39248370037020286,
+          "motion_vehicle_seconds": 7.047877777777778,
+          "observed_vehicle_seconds": 17.95712222222222,
+          "motion_track_count": 3,
+          "valid_duration_s": 10.0,
+          "missing_duration_s": 0.0,
+          "unavailability_reasons": [
+            "long_held_frame_overlap",
+            "coverage_below_50_percent"
+          ]
+        },
+        {
+          "zone_id": "road_top",
+          "count_mean": 2.517191111111117,
+          "motion_median_px_s": null,
+          "motion_available": false,
+          "motion_coverage": 0.5613051055144358,
+          "motion_vehicle_seconds": 14.129122222222222,
+          "observed_vehicle_seconds": 25.17191111111111,
+          "motion_track_count": 5,
+          "valid_duration_s": 10.0,
+          "missing_duration_s": 0.0,
+          "unavailability_reasons": [
+            "long_held_frame_overlap"
+          ]
+        },
+        {
+          "zone_id": "road_right",
+          "count_mean": 1.595215555555552,
+          "motion_median_px_s": null,
+          "motion_available": false,
+          "motion_coverage": 0.22985886964771043,
+          "motion_vehicle_seconds": 3.6667444444444444,
+          "observed_vehicle_seconds": 15.952155555555555,
+          "motion_track_count": 3,
+          "valid_duration_s": 10.0,
+          "missing_duration_s": 0.0,
+          "unavailability_reasons": [
+            "long_held_frame_overlap",
+            "coverage_below_50_percent",
+            "less_than_5_motion_vehicle_seconds"
+          ]
+        },
+        {
+          "zone_id": "road_bottom",
+          "count_mean": 2.0666711111111113,
+          "motion_median_px_s": null,
+          "motion_available": false,
+          "motion_coverage": 0.48941615179322195,
+          "motion_vehicle_seconds": 10.114622222222222,
+          "observed_vehicle_seconds": 20.666711111111113,
+          "motion_track_count": 2,
+          "valid_duration_s": 10.0,
+          "missing_duration_s": 0.0,
+          "unavailability_reasons": [
+            "long_held_frame_overlap",
+            "coverage_below_50_percent"
+          ]
+        },
+        {
+          "zone_id": "junction_center",
+          "count_mean": 0.6466566666666722,
+          "motion_median_px_s": null,
+          "motion_available": false,
+          "motion_coverage": 0.128869690424766,
+          "motion_vehicle_seconds": 0.8333444444444444,
+          "observed_vehicle_seconds": 6.466566666666667,
+          "motion_track_count": 1,
+          "valid_duration_s": 10.0,
+          "missing_duration_s": 0.0,
+          "unavailability_reasons": [
+            "long_held_frame_overlap",
+            "coverage_below_50_percent",
+            "less_than_5_motion_vehicle_seconds"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 38,
+      "start_s": 380.0,
+      "end_s": 390.0,
+      "complete": true,
+      "full_valid_window": true,
+      "held_duration_s": 0.0,
+      "start_ticks": 34200000,
+      "end_ticks": 35100000,
+      "quality": "complete",
+      "zones": [
+        {
+          "zone_id": "road_left",
+          "count_mean": 2.6942977777777686,
+          "motion_median_px_s": 0.760456310151687,
+          "motion_available": true,
+          "motion_coverage": 0.8957225712904785,
+          "motion_vehicle_seconds": 24.133433333333333,
+          "observed_vehicle_seconds": 26.942977777777777,
+          "motion_track_count": 5,
+          "valid_duration_s": 10.0,
+          "missing_duration_s": 0.0,
+          "unavailability_reasons": []
+        },
+        {
+          "zone_id": "road_top",
+          "count_mean": 4.962382222222226,
+          "motion_median_px_s": 5.9425236673702075,
+          "motion_available": true,
+          "motion_coverage": 0.9005831428632843,
+          "motion_vehicle_seconds": 44.690377777777776,
+          "observed_vehicle_seconds": 49.62382222222222,
+          "motion_track_count": 8,
+          "valid_duration_s": 10.0,
+          "missing_duration_s": 0.0,
+          "unavailability_reasons": []
+        },
+        {
+          "zone_id": "road_right",
+          "count_mean": 0.0,
+          "motion_median_px_s": null,
+          "motion_available": false,
+          "motion_coverage": 0.0,
+          "motion_vehicle_seconds": 0.0,
+          "observed_vehicle_seconds": 0.0,
+          "motion_track_count": 0,
+          "valid_duration_s": 10.0,
+          "missing_duration_s": 0.0,
+          "unavailability_reasons": [
+            "no_current_observations",
+            "coverage_below_50_percent",
+            "less_than_5_motion_vehicle_seconds"
+          ]
+        },
+        {
+          "zone_id": "road_bottom",
+          "count_mean": 1.9443044444444468,
+          "motion_median_px_s": 6.961547423803969,
+          "motion_available": true,
+          "motion_coverage": 1.0,
+          "motion_vehicle_seconds": 19.443044444444446,
+          "observed_vehicle_seconds": 19.443044444444446,
+          "motion_track_count": 2,
+          "valid_duration_s": 10.0,
+          "missing_duration_s": 0.0,
+          "unavailability_reasons": []
+        },
+        {
+          "zone_id": "junction_center",
+          "count_mean": 0.3813744444444353,
+          "motion_median_px_s": null,
+          "motion_available": false,
+          "motion_coverage": 0.3645498591352331,
+          "motion_vehicle_seconds": 1.3903,
+          "observed_vehicle_seconds": 3.8137444444444446,
+          "motion_track_count": 2,
+          "valid_duration_s": 10.0,
+          "missing_duration_s": 0.0,
+          "unavailability_reasons": [
+            "coverage_below_50_percent",
+            "less_than_5_motion_vehicle_seconds"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 39,
+      "start_s": 390.0,
+      "end_s": 400.0,
+      "complete": true,
+      "full_valid_window": true,
+      "held_duration_s": 0.0,
+      "start_ticks": 35100000,
+      "end_ticks": 36000000,
+      "quality": "complete",
+      "zones": [
+        {
+          "zone_id": "road_left",
+          "count_mean": 2.3933455555555496,
+          "motion_median_px_s": 0.2750549112732869,
+          "motion_available": true,
+          "motion_coverage": 0.9415021557457227,
+          "motion_vehicle_seconds": 22.5334,
+          "observed_vehicle_seconds": 23.933455555555554,
+          "motion_track_count": 3,
+          "valid_duration_s": 10.0,
+          "missing_duration_s": 0.0,
+          "unavailability_reasons": []
+        },
+        {
+          "zone_id": "road_top",
+          "count_mean": 4.257647777777777,
+          "motion_median_px_s": 24.70967874285737,
+          "motion_available": true,
+          "motion_coverage": 0.7964395050683959,
+          "motion_vehicle_seconds": 33.90958888888889,
+          "observed_vehicle_seconds": 42.576477777777775,
+          "motion_track_count": 13,
+          "valid_duration_s": 10.0,
+          "missing_duration_s": 0.0,
+          "unavailability_reasons": []
+        },
+        {
+          "zone_id": "road_right",
+          "count_mean": 0.9513577777777755,
+          "motion_median_px_s": 38.50679621560362,
+          "motion_available": true,
+          "motion_coverage": 0.6846577172742583,
+          "motion_vehicle_seconds": 6.513544444444444,
+          "observed_vehicle_seconds": 9.513577777777778,
+          "motion_track_count": 3,
+          "valid_duration_s": 10.0,
+          "missing_duration_s": 0.0,
+          "unavailability_reasons": []
+        },
+        {
+          "zone_id": "road_bottom",
+          "count_mean": 1.447674444444442,
+          "motion_median_px_s": 157.0287067277828,
+          "motion_available": true,
+          "motion_coverage": 0.5348770096407495,
+          "motion_vehicle_seconds": 7.743277777777778,
+          "observed_vehicle_seconds": 14.476744444444444,
+          "motion_track_count": 6,
+          "valid_duration_s": 10.0,
+          "missing_duration_s": 0.0,
+          "unavailability_reasons": []
+        },
+        {
+          "zone_id": "junction_center",
+          "count_mean": 2.5466533333333414,
+          "motion_median_px_s": 177.10873103118902,
+          "motion_available": true,
+          "motion_coverage": 0.5519692947781577,
+          "motion_vehicle_seconds": 14.056744444444444,
+          "observed_vehicle_seconds": 25.466533333333334,
+          "motion_track_count": 12,
+          "valid_duration_s": 10.0,
+          "missing_duration_s": 0.0,
+          "unavailability_reasons": []
+        }
+      ]
+    },
+    {
+      "index": 40,
+      "start_s": 400.0,
+      "end_s": 408.57685555555554,
+      "complete": false,
+      "full_valid_window": false,
+      "held_duration_s": 0.0,
+      "start_ticks": 36000000,
+      "end_ticks": 36771917,
+      "quality": "incomplete_or_missing",
+      "zones": [
+        {
+          "zone_id": "road_left",
+          "count_mean": 2.0,
+          "motion_median_px_s": null,
+          "motion_available": false,
+          "motion_coverage": 1.0,
+          "motion_vehicle_seconds": 17.15371111111111,
+          "observed_vehicle_seconds": 17.15371111111111,
+          "motion_track_count": 2,
+          "valid_duration_s": 8.576855555555555,
+          "missing_duration_s": 0.0,
+          "unavailability_reasons": [
+            "short_tail"
+          ]
+        },
+        {
+          "zone_id": "road_top",
+          "count_mean": 2.0217601115145833,
+          "motion_median_px_s": null,
+          "motion_available": false,
+          "motion_coverage": 0.7078034461701709,
+          "motion_vehicle_seconds": 12.273555555555555,
+          "observed_vehicle_seconds": 17.340344444444444,
+          "motion_track_count": 7,
+          "valid_duration_s": 8.576855555555555,
+          "missing_duration_s": 0.0,
+          "unavailability_reasons": [
+            "short_tail"
+          ]
+        },
+        {
+          "zone_id": "road_right",
+          "count_mean": 1.280987463678092,
+          "motion_median_px_s": null,
+          "motion_available": false,
+          "motion_coverage": 0.648057879322341,
+          "motion_vehicle_seconds": 7.120111111111111,
+          "observed_vehicle_seconds": 10.986844444444445,
+          "motion_track_count": 4,
+          "valid_duration_s": 8.576855555555555,
+          "missing_duration_s": 0.0,
+          "unavailability_reasons": [
+            "short_tail"
+          ]
+        },
+        {
+          "zone_id": "road_bottom",
+          "count_mean": 0.15935132922319453,
+          "motion_median_px_s": null,
+          "motion_available": false,
+          "motion_coverage": 0.0,
+          "motion_vehicle_seconds": 0.0,
+          "observed_vehicle_seconds": 1.3667333333333334,
+          "motion_track_count": 0,
+          "valid_duration_s": 8.576855555555555,
+          "missing_duration_s": 0.0,
+          "unavailability_reasons": [
+            "short_tail",
+            "coverage_below_50_percent",
+            "less_than_5_motion_vehicle_seconds"
+          ]
+        },
+        {
+          "zone_id": "junction_center",
+          "count_mean": 1.006209216794053,
+          "motion_median_px_s": null,
+          "motion_available": false,
+          "motion_coverage": 0.49285190096689885,
+          "motion_vehicle_seconds": 4.2533666666666665,
+          "observed_vehicle_seconds": 8.63011111111111,
+          "motion_track_count": 7,
+          "valid_duration_s": 8.576855555555555,
+          "missing_duration_s": 0.0,
+          "unavailability_reasons": [
+            "short_tail",
+            "coverage_below_50_percent",
+            "less_than_5_motion_vehicle_seconds"
+          ]
+        }
+      ]
+    }
+  ],
+  "held_intervals": [
+    {
+      "frame_index": 3139,
+      "start_ticks": 9414234,
+      "end_ticks": 9693240,
+      "duration_s": 3.1000666666666667
+    },
+    {
+      "frame_index": 9523,
+      "start_ticks": 28842720,
+      "end_ticks": 29406734,
+      "duration_s": 6.266822222222222
+    },
+    {
+      "frame_index": 10787,
+      "start_ticks": 33195828,
+      "end_ticks": 33630837,
+      "duration_s": 4.833433333333334
+    }
+  ],
+  "derivation": "frozen engine aggregate_frames and build_windows only",
+  "checks": {
+    "passed": true,
+    "original_frame_sha_verified": true,
+    "PTS_rowwise_match": true,
+    "source_split_checked_every_frame": true,
+    "ROI_and_configuration_checked_every_frame": true,
+    "original_10s_count_means_recomputed": true,
+    "held_intervals_match_PTS_gaps": true,
+    "missing_duration_s": 0.0
+  }
+}

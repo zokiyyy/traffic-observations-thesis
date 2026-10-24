@@ -1,0 +1,66 @@
+{
+  "all_8_standalone_figures_visually_reviewed": true,
+  "review_type": "AI visual inspection; not manual vehicle ground truth",
+  "output_files": [
+    {
+      "path": "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/paired_case_comparison_2026-09-28_v1/evidence/build_evidence.py",
+      "bytes": 15688,
+      "sha256": "9bde2a3c7673a357c651b8426cfe9d3f3ffd87817c5b978a8c577483932bf4dc"
+    },
+    {
+      "path": "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/paired_case_comparison_2026-09-28_v1/evidence/evidence_metadata.json",
+      "bytes": 101390,
+      "sha256": "042c1456aab9f8d38dbfca3407efcf8d4d76e1c63f80e02a76e5b74de286ab0d"
+    },
+    {
+      "path": "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/paired_case_comparison_2026-09-28_v1/evidence/视觉证据与解释边界.md",
+      "bytes": 7990,
+      "sha256": "09f5103ea20a689e7c311cb99ad55c39357b801af4dfe9edbeb9829fc369c5e2"
+    },
+    {
+      "path": "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/paired_case_comparison_2026-09-28_v1/evidence/Eastgate_analysis_interval_context.png",
+      "bytes": 1936553,
+      "sha256": "9117e54579d72fb6ccc04291402cfc20994d85ab06a0928538b009b6d41e5045"
+    },
+    {
+      "path": "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/paired_case_comparison_2026-09-28_v1/evidence/Eastgate_light_change.png",
+      "bytes": 1993504,
+      "sha256": "55171c1b66806f16e5493937fa5141f7809290731b1c4666daefc7e65004d19c"
+    },
+    {
+      "path": "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/paired_case_comparison_2026-09-28_v1/evidence/Eastgate_pair.png",
+      "bytes": 2159916,
+      "sha256": "f1f403c4c5e5cd154410215bc5665678319a2ff780c83fc649a9cee77e445319"
+    },
+    {
+      "path": "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/paired_case_comparison_2026-09-28_v1/evidence/NE12th_pair.png",
+      "bytes": 2299596,
+      "sha256": "9f74c86619333cb08c3618cd4637a923bc60e1494e67f05c679d72a6183222c0"
+    },
+    {
+      "path": "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/paired_case_comparison_2026-09-28_v1/evidence/NE8th_pair.png",
+      "bytes": 2314193,
+      "sha256": "0264081cb3711507d3fca82fdce7f87838a69ed6f929e049b5f84b3b090295c6"
+    },
+    {
+      "path": "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/paired_case_comparison_2026-09-28_v1/evidence/Newport_pair.png",
+      "bytes": 3065915,
+      "sha256": "d0a1d5704ff2d752f36313e2154dfc2e5794c1668e716dff766dc52bfc27917a"
+    },
+    {
+      "path": "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/paired_case_comparison_2026-09-28_v1/evidence/SE38th_light_change.png",
+      "bytes": 1868754,
+      "sha256": "cbda163455e550733e95b01786ddbd72bc31c51a95ed244a551450b02c4cad08"
+    },
+    {
+      "path": "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/paired_case_comparison_2026-09-28_v1/evidence/SE38th_pair.png",
+      "bytes": 2248498,
+      "sha256": "fca562c8d0d16c705f6056a05811ead448b072965ea1b078a34237a951790e5a"
+    },
+    {
+      "path": "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/paired_case_comparison_2026-09-28_v1/evidence/five_pairs_overview.jpg",
+      "bytes": 2079987,
+      "sha256": "7558f9b4b8cd28f35756755a1295c42da2d995cbc5a651a964bdf5a96c278778"
+    }
+  ]
+}

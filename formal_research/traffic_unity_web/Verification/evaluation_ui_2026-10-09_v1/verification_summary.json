@@ -1,0 +1,30 @@
+{
+  "checked_at_utc": "2026-10-09T03:12:02.905720+00:00",
+  "final_builds": {
+    "desktop": "succeeded",
+    "web": "succeeded",
+    "errors_each": 0,
+    "existing_warning_each": 1
+  },
+  "browser_checks": {
+    "evaluation_page_and_saved_values": "passed",
+    "return_to_replay": "passed",
+    "play_pause_and_10_second_seek": "passed on initial revision; final revision only changed recording-picker navigation",
+    "hover_state_text_without_white_popup": "passed",
+    "evaluation_to_recording_picker": "passed on final revision",
+    "newport_recording_selection": "selection observed; followed by camera-switch check",
+    "camera_switch_to_ne12th": "passed: first decoded night frame visible",
+    "evaluation_after_camera_switch": "passed: same saved test values with explicit camera-independent scope",
+    "browser_console_errors_and_warnings": []
+  },
+  "desktop_checks": {
+    "startup_and_first_frame": "observed",
+    "coordinate_clicks": "attempted without visible UI response through native automation; not marked passed",
+    "note": "Interactive checks were completed in the browser using the same shared dashboard code."
+  },
+  "data_integrity": "35 existing analysis files unchanged; detector and tracker snapshots verified against original outputs",
+  "online_updated": false,
+  "screenshot": "evaluation_preview.jpg",
+  "desktop_launch": "../traffic_unity_demo/Open_Evaluation_Unity.command",
+  "new_web_package": "Builds/Evaluation_2026-10-09_v1/TrafficObservationsEvaluation_UnityPlay.zip"
+}

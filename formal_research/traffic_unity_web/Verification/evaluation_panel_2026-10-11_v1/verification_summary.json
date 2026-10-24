@@ -1,0 +1,35 @@
+{
+  "version": "2026.10.11.1",
+  "scope": "Evaluation moved into right-hand panel; video, controls and timeline remain visible; saved results unchanged",
+  "mac_build": "UTC: 2026-10-11T05:17:52.7629790Z\nResult: Succeeded\nErrors: 0\nWarnings: 1\nOutput: /Users/zoki/Desktop/traffic_projects/formal_research/traffic_unity_demo/Builds/EvaluationPanel_2026-10-11_v1/TrafficObservationsEvaluationPanel.app\n",
+  "web_build": "UTC: 2026-10-11T05:18:12.7439250Z\nResult: Succeeded\nErrors: 0\nWarnings: 1\nOutput: /Users/zoki/Desktop/traffic_projects/formal_research/traffic_unity_web/Builds/EvaluationPanel_2026-10-11_v1/Web\n",
+  "data_and_case_images_unchanged": 43,
+  "browser_verified": [
+    "Open Evaluation during playback: time advanced from 00:08 to 00:27",
+    "Pause at 00:34 with panel open",
+    "Panel scrolling to tracking diagnostics and limitations",
+    "Four evaluation tabs",
+    "Threshold table values and layout",
+    "F1018 image zoom to 3x",
+    "Switch to F0178 and Fit",
+    "Persistence table: 1279/844/233 and joint subset 270/117/8",
+    "Back to regions restores cards for [20,30)"
+  ],
+  "native_interactions_verified": false,
+  "published": false,
+  "publication_status": "New package ready; prior browser upload chooser was unavailable. No new online update claimed.",
+  "zip": "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_unity_web/Builds/EvaluationPanel_2026-10-11_v1/TrafficObservationsEvaluationPanel_UnityPlay.zip",
+  "zip_bytes": 38528932,
+  "zip_sha256": "4774d05b630cf238007fa4243fe2db34d2623448d29e4f0c50ffb00f49794d22",
+  "preview_url": "http://127.0.0.1:8878/",
+  "screenshots": [
+    "web_persistence.png",
+    "web_thresholds.png",
+    "web_case_f0178.png",
+    "web_detection_playing.png",
+    "web_tracking_scrolled.png",
+    "web_back_to_regions.png",
+    "web_case_zoom.png"
+  ],
+  "native_interaction_limitation": "Attempted native Evaluation click returned noWindowsAvailable; native build passed but new panel interactions not verified."
+}

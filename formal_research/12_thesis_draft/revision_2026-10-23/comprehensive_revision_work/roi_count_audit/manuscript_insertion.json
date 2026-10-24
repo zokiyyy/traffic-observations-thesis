@@ -1,0 +1,136 @@
+{
+  "methods": "A retrospective image-level regional-count diagnostic was added using all 197 Validation images and all 184 Main Test images with their existing human-corrected boxes and saved detector outputs. The previously selected model, confidence threshold of 0.35 and 22 fixed camera-specific ROI polygons were unchanged. Predicted and annotated boxes were assigned by the same bottom-centre and boundary-order rules, with four vehicle classes pooled. Every image–ROI pair, including empty regions, received equal weight; MAE, RMSE and signed bias (prediction minus annotation) were calculated. The completed Main Test run processed the exact 184-image manifest with text export enabled; its 10 absent TXT files were reconstructed as zero predictions using the recorded nonempty-only export behaviour. Independent geometry and export-rounding checks confirmed the assignments. This analysis evaluates saved raw detector counts, before application filters and tracking; Validation results are diagnostic because that split was reused for development.",
+  "results": "On Main Test, the 796 image–ROI pairs gave MAE 0.229 vehicles, RMSE 0.638 and bias −0.030; camera-level MAE ranged from 0.167 to 0.363 (Table X). Counts agreed exactly in 661 pairs, but 344 pairs contained no annotated vehicles, so this proportion is not presented as general traffic accuracy. The selected regions contained 1,672 annotated and 1,648 predicted boxes; 380 annotated boxes lay outside them. Validation yielded MAE 0.212 and bias +0.054 across 865 pairs, including 442 empty annotated regions. These results provide limited image-level evidence for regional counts; cancelling false detections and misses, fixed-camera sampling, and the absence of annotated tracks or continuous windows prevent conclusions about tracking, 10-second aggregates or traffic-state accuracy.",
+  "table_caption": "Retrospective Main Test raw-detector regional-count diagnostic at confidence 0.35. Error units are vehicles per image–ROI pair; all fixed ROIs and all images are included. Bias = prediction − annotation.",
+  "table_header": [
+    "Camera",
+    "Images",
+    "ROI–image pairs",
+    "MAE",
+    "Bias",
+    "RMSE"
+  ],
+  "table_rows": [
+    [
+      "NE12th",
+      36,
+      180,
+      0.206,
+      -0.028,
+      0.601
+    ],
+    [
+      "Eastgate",
+      24,
+      120,
+      0.167,
+      -0.033,
+      0.516
+    ],
+    [
+      "Newport",
+      36,
+      144,
+      0.222,
+      -0.153,
+      0.553
+    ],
+    [
+      "SE38th",
+      40,
+      160,
+      0.362,
+      0.025,
+      0.915
+    ],
+    [
+      "NE8th",
+      48,
+      192,
+      0.182,
+      0.016,
+      0.505
+    ],
+    [
+      "Total",
+      184,
+      796,
+      0.229,
+      -0.03,
+      0.638
+    ]
+  ],
+  "example": "For supplementary Newport road_left, the complete interval [410,420) s contained 12.633 vehicle-seconds of current tracked observations, giving a mean count of 1.263. The count exceeded the source-specific P67 of 0.975. Its motion statistic was 0.247 pixels/s, below P25 = 0.403 pixels/s, with 11.600 motion vehicle-seconds and coverage 11.600/12.633 = 91.8%, satisfying the ≥5 vehicle-seconds and ≥50% gates. The preceding [390,400) and [400,410) s intervals also satisfied the joint condition; persistence therefore reached 30 s and joint_hint was first confirmed at 420 s. This is a retrospective rule illustration, since the thresholds use the full recording, and is not a ground-truth congestion label.",
+  "cautions": [
+    "Describe the regional diagnostic as post-hoc reuse of original model outputs; avoid saying Main Test has never been analysed beyond the original AP evaluation.",
+    "The Main Test native evaluator retained batch=8 rect-shaped inputs (effective 384×672); the older Validation confidence diagnostic used its recorded settings. Do not attribute cross-split differences solely to sampling or compare as a controlled input-shape experiment.",
+    "Main Test zero-output reconstruction relies on completed manifest, retained exports and matched-version export semantics; no separate historical per-image empty-export manifest exists.",
+    "Do not compare ROI MAE with whole-image MAE as an improvement because both denominator and scope differ."
+  ],
+  "secondary_nonempty_result": "Because 344 of the 796 Main Test image–ROI pairs were empty in the annotations, a secondary occupied-region analysis is also reported. Among the 452 pairs with at least one annotated vehicle, MAE was 0.394, RMSE 0.839 and bias −0.062 vehicles; empty-region MAE was 0.012. The all-region analysis remains the primary result.",
+  "table_header_with_occupied": [
+    "Camera",
+    "Images",
+    "All pairs",
+    "All MAE",
+    "Bias",
+    "Occupied pairs",
+    "Occupied MAE"
+  ],
+  "table_rows_with_occupied": [
+    [
+      "NE12th",
+      36,
+      180,
+      0.206,
+      -0.028,
+      78,
+      0.436
+    ],
+    [
+      "Eastgate",
+      24,
+      120,
+      0.167,
+      -0.033,
+      66,
+      0.288
+    ],
+    [
+      "Newport",
+      36,
+      144,
+      0.222,
+      -0.153,
+      78,
+      0.41
+    ],
+    [
+      "SE38th",
+      40,
+      160,
+      0.362,
+      0.025,
+      125,
+      0.464
+    ],
+    [
+      "NE8th",
+      48,
+      192,
+      0.182,
+      0.016,
+      105,
+      0.333
+    ],
+    [
+      "Total",
+      184,
+      796,
+      0.229,
+      -0.03,
+      452,
+      0.394
+    ]
+  ]
+}

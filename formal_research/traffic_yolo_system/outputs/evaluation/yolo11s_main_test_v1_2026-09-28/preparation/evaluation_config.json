@@ -1,0 +1,32 @@
+{
+  "model": "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/training/yolo11s_formal_a100_v1/weights/best.pt",
+  "data": "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/evaluation/yolo11s_main_test_v1_2026-09-28/preparation/data_test.yaml",
+  "expected_model_sha256": "07e2280eda613c5d633196729f8716e9715000430171f49f6341afe573a2f334",
+  "dataset_manifest": "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/evaluation/yolo11s_main_test_v1_2026-09-28/preparation/dataset_manifest.json",
+  "output_dir": "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/evaluation/yolo11s_main_test_v1_2026-09-28/run",
+  "device": "cpu",
+  "num_threads": 4,
+  "expected_ultralytics_version": "8.4.115",
+  "expected_torch_version": "2.13.0",
+  "evaluation": {
+    "imgsz": 640,
+    "batch": 8,
+    "conf": 0.001,
+    "iou": 0.7,
+    "max_det": 300,
+    "half": false,
+    "rect": true,
+    "augment": false,
+    "workers": 0,
+    "split": "test",
+    "single_cls": false,
+    "agnostic_nms": false,
+    "save_json": false,
+    "plots": true,
+    "save_txt": true,
+    "save_conf": true,
+    "verbose": true
+  },
+  "expected_manifest_sha256": "3ecbf8799274183ee46674298ea0cb968470d998b487106a83934e752660b12c",
+  "expected_data_sha256": "51b85a4c6af42a24dfaf95a687901ae870d351bf75e4e8429741a586625a4215"
+}

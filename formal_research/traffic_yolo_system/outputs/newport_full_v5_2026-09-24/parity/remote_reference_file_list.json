@@ -1,0 +1,64 @@
+{
+  "created_at_utc": "2026-09-24T12:49:08.594468+00:00",
+  "purpose": "Exact minimal archived v5 reference required by remote same-original-frame parity gate. Preserve each relative path under remote --reference-root.",
+  "p5_local_root": "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/video_pipeline/yolo11s_newport_val_120s_dedup_v5_2026-09-24",
+  "files": [
+    {
+      "local_path": "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/video_pipeline/yolo11s_newport_val_120s_dedup_v5_2026-09-24/job/src/confirm_background_candidates.py",
+      "relative_under_p5_root": "job/src/confirm_background_candidates.py",
+      "sha256": "d1bf9aa1ccfc2f786f10bf2208ced458b9dd9f21a3ee64b8b907bd4da1987867",
+      "size_bytes": 17854
+    },
+    {
+      "local_path": "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/video_pipeline/yolo11s_newport_val_120s_dedup_v5_2026-09-24/job/src/replay_vehicle_tracking_pilot.py",
+      "relative_under_p5_root": "job/src/replay_vehicle_tracking_pilot.py",
+      "sha256": "7f646ab68ba67da96ebf0ef72e37a8b5fdadb846f2e93c4e4aedfff0f426e005",
+      "size_bytes": 21260
+    },
+    {
+      "local_path": "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/video_pipeline/yolo11s_newport_val_120s_dedup_v5_2026-09-24/job/src/vehicle_containment.py",
+      "relative_under_p5_root": "job/src/vehicle_containment.py",
+      "sha256": "dfebe89cd7334d11d30d60ae60d608d2a4dd4a27fd120e9bf8a008dd5390f8aa",
+      "size_bytes": 12007
+    },
+    {
+      "local_path": "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/video_pipeline/yolo11s_newport_val_120s_dedup_v5_2026-09-24/job/src/run_video_tracking_pilot.py",
+      "relative_under_p5_root": "job/src/run_video_tracking_pilot.py",
+      "sha256": "5e10aac08184ba36a542b77ccfc5710a425c304ff36bd28e3b7ef90a1dc41b7e",
+      "size_bytes": 20714
+    },
+    {
+      "local_path": "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/video_pipeline/yolo11s_newport_val_120s_dedup_v5_2026-09-24/job/src/roi_geometry.py",
+      "relative_under_p5_root": "job/src/roi_geometry.py",
+      "sha256": "6c79df2f5fd104c294f81a1b2351dde6a2190fa825412bb1e4b0ef949837da95",
+      "size_bytes": 10999
+    },
+    {
+      "local_path": "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/video_pipeline/yolo11s_newport_val_120s_dedup_v5_2026-09-24/input/background_policy.json",
+      "relative_under_p5_root": "input/background_policy.json",
+      "sha256": "9344d23ccfa7a90537448a9e051e45bfb245d1058eec888ad165454c5974362a",
+      "size_bytes": 1888
+    },
+    {
+      "local_path": "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/video_pipeline/yolo11s_newport_val_120s_dedup_v5_2026-09-24/input/containment_policy.json",
+      "relative_under_p5_root": "input/containment_policy.json",
+      "sha256": "b299d573ecfcf8e609fc216f29b65ebcb288347def0e520cda404b29dcbf0ff6",
+      "size_bytes": 1157
+    },
+    {
+      "local_path": "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/video_pipeline/yolo11s_newport_val_120s_dedup_v5_2026-09-24/input/zones.json",
+      "relative_under_p5_root": "input/zones.json",
+      "sha256": "622ce53579ec8ca304dd715f4987bf1412e146bd0a051739e1c5807e7efd51aa",
+      "size_bytes": 8910
+    },
+    {
+      "local_path": "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/video_pipeline/yolo11s_newport_val_120s_dedup_v5_2026-09-24/results/config.json",
+      "relative_under_p5_root": "results/config.json",
+      "sha256": "95ae04b296dce2fb03ed0484c08a728557d5e36328c628f07a49b0799ae618bf",
+      "size_bytes": 8554
+    }
+  ],
+  "total_bytes": 103343,
+  "script_local_path": "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/newport_full_v5_2026-09-24/parity/audit_same_original_frames.py",
+  "actual_gpu_parity_has_passed": false
+}

@@ -1,0 +1,11 @@
+# Supplementary five-source validation adapters
+
+This isolated batch accepts only the five file identities and SHA-256 values in `selection_binding.py`. NE12th retains its frozen **Train** membership; the other four retain **Validation**. The previous completed five sources, all other development sources and Main Test are excluded before media access.
+
+`prepare_selected_time_audit.py` retains the previous full sequential FFprobe and OpenCV comparison, original integer PTS/duration, exact EOF, error rejection, evidence hashes and no-overwrite checks. It imports only this batch's `../code/src` snapshot. The snapshot contains the final Eastgate container-count audit fix; raw decode/PTS requirements are preserved. A `--src-root` override must resolve to that same isolated snapshot.
+
+`audit_selected_output.py` independently checks full or declared short `[60,120)` source intervals, original timing, frame/window accounting, current road counts, duplicate/containment policy, track diagnostics and completion evidence. It reads each source's real split. Only Newport uses the frozen source-bound wall policy with 1280-pixel secondary confirmation, confidence 0.35 and IoU 0.5; the other four require background mode `none`. The Newport polygon and policy SHA are fixed in this adapter. This is consistency verification, not detector or counting accuracy evaluation.
+
+`test_selected_adapters.py` uses synthetic records through the actual stream writer. Its 11 tests cover genuine Train retention, scope/hash rejection, Newport background boundaries and removals, deliberate output corruption, original PTS intervals and source-tail validation. `software_readiness.json` records the completed local tests and the configuration receipt. These synthetic checks do not mark any server native audit or video analysis completed.
+
+The configuration generator `../prepare_source_config.py` copies the already reviewed screening evidence, rebinds only source/layout provenance, preserves all numeric processing parameters and time caps, and performs structure-only camera/ROI checks without opening a model or running inference. The source list and background policy are frozen; if they change, this adapter and the sealed runtime package must be reviewed together.

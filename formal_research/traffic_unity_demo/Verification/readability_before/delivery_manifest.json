@@ -1,0 +1,59 @@
+{
+  "status": "complete",
+  "scope": "One-hour Newport Validation offline English demonstration in the Unity Editor on this Mac",
+  "editor_version": "6000.6.3f1",
+  "data_sha256": "63e22138694531226fc4cd2fc31be104ab8a806f3bfc65c29f786dcc424ccd41",
+  "video_sha256": "ed38390a0b2c3f55146755b2f80767bcde33685f9a6f91b502b9422ee446acab",
+  "source_frame_count": 107932,
+  "window_count": 361,
+  "region_window_records": 1444,
+  "state_software_tests_passed": 18,
+  "real_player_checks_passed": 11,
+  "natural_eof_source_last_frame_visually_confirmed": true,
+  "standalone_application_built": false,
+  "traffic_state_accuracy_evaluated": false,
+  "english_artifacts": [
+    "START_HERE.md",
+    "README_Unity.md",
+    "Demo_Preview.png",
+    "../traffic_yolo_system/outputs/traffic_state_demo_newport_2026-09-27/traffic_state_overview.png",
+    "../traffic_yolo_system/outputs/traffic_state_demo_newport_2026-09-27/TRAFFIC_STATE_DEMO_REPORT.md"
+  ],
+  "verification": [
+    "Verification/runtime_verification.json",
+    "Verification/visual_review.json"
+  ],
+  "limitation": "End seeking can show the penultimate source frame; natural EOF shows source frame107931. Unity navigation time is not an exact source-PTS readout. State summaries follow reported presentation seconds, with possible frame-level boundary quantization.",
+  "design_revision": "state_insights_2026-09-27",
+  "ui_language": "English",
+  "chart_language": "English",
+  "user_guide_language": "Chinese",
+  "analysis_explanation_language": "Chinese",
+  "rendering_resolution": [
+    2400,
+    1334
+  ],
+  "last_runtime_verification_finished_utc": "2026-09-27T07:20:52.9913410Z",
+  "preview_file": "Demo_Preview.png",
+  "preview_sha256": "e21fde82b5c66048390ac822d35795ac7957e99cb8a485445af74c3f8929865f",
+  "chinese_reading_entries": [
+    "交通状态展示怎么看.md",
+    "这一版怎么查看.md",
+    "../traffic_yolo_system/outputs/traffic_state_demo_newport_2026-09-27/一小时交通状态分析说明.md",
+    "../traffic_yolo_system/outputs/traffic_state_demo_newport_2026-09-27/图表怎么看.md"
+  ],
+  "presentation_feature_checks_passed": 8,
+  "plot_sha256": "945834a18c40ee608720b613c9e3979a740ca10e4d0684459dff3280abe8c21a",
+  "state_details_preview": "State_Details_Preview.png",
+  "motion_evidence_preview": "Motion_Evidence_Preview.png",
+  "examples_preview": "Examples_Preview.png",
+  "targeted_physical_ui_clicks_verified": true,
+  "exhaustive_ui_testing": false,
+  "new_features": [
+    "region selection and correctly scaled video outline",
+    "state evidence and persistence details",
+    "count and motion trends with missing-data gaps",
+    "existing example-window navigation",
+    "state-colour consistency with static overview"
+  ]
+}

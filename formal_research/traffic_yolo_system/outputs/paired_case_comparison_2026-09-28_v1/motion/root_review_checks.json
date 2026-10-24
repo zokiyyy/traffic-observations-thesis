@@ -1,0 +1,123 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "check": "region_count_summary.csv CSV/JSON equality",
+      "rows": 54,
+      "passed": true
+    },
+    {
+      "check": "window_counts_recomputed.csv CSV/JSON equality",
+      "rows": 17568,
+      "passed": true
+    },
+    {
+      "check": "quarter_trends.csv CSV/JSON equality",
+      "rows": 216,
+      "passed": true
+    },
+    {
+      "check": "histogram/window/quarter/mean/quantile/hold/motion arithmetic",
+      "case": "Newport",
+      "batch": "Original",
+      "passed": true
+    },
+    {
+      "check": "histogram/window/quarter/mean/quantile/hold/motion arithmetic",
+      "case": "Newport",
+      "batch": "Supplementary",
+      "passed": true
+    },
+    {
+      "check": "histogram/window/quarter/mean/quantile/hold/motion arithmetic",
+      "case": "NE12th",
+      "batch": "Original",
+      "passed": true
+    },
+    {
+      "check": "histogram/window/quarter/mean/quantile/hold/motion arithmetic",
+      "case": "NE12th",
+      "batch": "Supplementary",
+      "passed": true
+    },
+    {
+      "check": "histogram/window/quarter/mean/quantile/hold/motion arithmetic",
+      "case": "Eastgate",
+      "batch": "Original",
+      "passed": true
+    },
+    {
+      "check": "histogram/window/quarter/mean/quantile/hold/motion arithmetic",
+      "case": "Eastgate",
+      "batch": "Supplementary",
+      "passed": true
+    },
+    {
+      "check": "histogram/window/quarter/mean/quantile/hold/motion arithmetic",
+      "case": "SE38th",
+      "batch": "Original",
+      "passed": true
+    },
+    {
+      "check": "histogram/window/quarter/mean/quantile/hold/motion arithmetic",
+      "case": "SE38th",
+      "batch": "Supplementary",
+      "passed": true
+    },
+    {
+      "check": "histogram/window/quarter/mean/quantile/hold/motion arithmetic",
+      "case": "NE8th",
+      "batch": "Original",
+      "passed": true
+    },
+    {
+      "check": "histogram/window/quarter/mean/quantile/hold/motion arithmetic",
+      "case": "NE8th",
+      "batch": "Supplementary",
+      "passed": true
+    },
+    {
+      "check": "report count/motion/representative table numerical strings",
+      "case": "Newport",
+      "passed": true
+    },
+    {
+      "check": "report count/motion/representative table numerical strings",
+      "case": "NE12th",
+      "passed": true
+    },
+    {
+      "check": "report count/motion/representative table numerical strings",
+      "case": "Eastgate",
+      "passed": true
+    },
+    {
+      "check": "report count/motion/representative table numerical strings",
+      "case": "SE38th",
+      "passed": true
+    },
+    {
+      "check": "report count/motion/representative table numerical strings",
+      "case": "NE8th",
+      "passed": true
+    }
+  ],
+  "findings": [],
+  "snapshot_sha256": {
+    "五路口原案例与补充时段独立对比总报告.md": "587cc65e19e1cc733be6ffa79ea0b681e4445d16aa04502851eaebdbd610e099",
+    "count_analysis.json": "6a8b10e6d34936f84933bd026b0680be16904ea90a87e1d5f3308ca271be7186",
+    "tables/quarter_trends.csv": "ad8bbeb3375b031faf9f7acbfbdc0dfa04de79504f385060ebba05f922b43cfd",
+    "tables/region_count_summary.csv": "4b9b7be36a568c32ea581d02c984d719c24e5091cfc8bae51083817fc63d27f5",
+    "tables/window_counts_recomputed.csv": "b034c75412e4deb5eddd94a26e0611048db0cfb0376b543fa6645ac81e576f09",
+    "figures/Eastgate_motion_evidence.png": "7b9b5d77625ca3aeb0bc59bb60ef8bd58a4ba08150b1bbf41f350f7e69d70db0",
+    "figures/NE12th_motion_evidence.png": "98f895f14a0df1f5790f9888d4c82dd77d623d72e3cd936d2dedf1dbfa6418e0",
+    "figures/NE8th_motion_evidence.png": "7222ba3a0d65bf6a54f1dccbd081b62ebb6ed3600774bf8fa22c294c71d7bb21",
+    "figures/Newport_motion_evidence.png": "2f2dc271f0d437e11f83cf042b030bb708694d224e6164ef2e8c9a6067699b54",
+    "figures/SE38th_motion_evidence.png": "09dc5cf79036b244f645dc1634473ea73d861d6102d34df1dd71840428e29b8b"
+  },
+  "five_motion_figures_visually_reviewed": true,
+  "relative_states_not_compared": true,
+  "motion_described_as_conditional_pixel_evidence": true,
+  "Train_identity_preserved_in_report_and_motion_figures": true,
+  "review_script_sha256": "b814917adac6355a6b8390c635cb1b728bc25bb320fb5c58d33afb44e231fce8"
+}

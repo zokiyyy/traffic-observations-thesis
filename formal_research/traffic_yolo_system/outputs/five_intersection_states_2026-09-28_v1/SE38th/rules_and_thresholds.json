@@ -1,0 +1,76 @@
+{
+  "version": "five-intersection-relative-state-v1",
+  "parameters": {
+    "window_seconds": 10,
+    "motion_history_min_seconds": 1.0,
+    "motion_history_max_seconds": 1.2,
+    "motion_min_coverage": 0.5,
+    "motion_min_vehicle_seconds": 5.0,
+    "density_quantiles": [
+      0.33,
+      0.67
+    ],
+    "motion_low_quantile": 0.25,
+    "motion_min_calibration_windows": 30,
+    "persistent_seconds": 30.0,
+    "quantile_method": "linear interpolation at (n-1)*q",
+    "weighted_median_method": "smallest ordered value whose cumulative duration reaches half the total",
+    "calibration_scope": "same-source offline development; not held-out evaluation or road capacity",
+    "motion_history_reset": "missing observation, different assigned zone, invalid frame or nonconsecutive frame index",
+    "motion_unit": "source-image pixels per second; not km/h"
+  },
+  "long_hold_seconds": 0.5,
+  "hold_policy": "any overlap invalidates whole state window; original count retained; exclude calibration and reset motion history/persistence",
+  "thresholds": {
+    "road_left": {
+      "motion_low_upper": 1.7976672962010927,
+      "motion_calibration_windows": 316,
+      "count_p33": 2.7385295555555706,
+      "count_p67": 5.119757388888876,
+      "count_calibration_windows": 336
+    },
+    "road_top": {
+      "motion_low_upper": 0.5079640425342784,
+      "motion_calibration_windows": 321,
+      "count_p33": 3.9315305555556486,
+      "count_p67": 7.646443666666703,
+      "count_calibration_windows": 336
+    },
+    "road_right": {
+      "motion_low_upper": 3.47507815737835,
+      "motion_calibration_windows": 320,
+      "count_p33": 2.463200944444431,
+      "count_p67": 5.373040944444405,
+      "count_calibration_windows": 336
+    },
+    "junction_center": {
+      "motion_low_upper": 106.05547502272415,
+      "motion_calibration_windows": 179,
+      "count_p33": 0.8389899444444496,
+      "count_p67": 1.5835415555554664,
+      "count_calibration_windows": 336
+    }
+  },
+  "source": {
+    "id": "Bellevue_150th_SE38th__2017-09-11_14-08-32.mp4",
+    "sha256": "64049c93fd95320ed3736c516874119f2603623541a5255f79c38df37f0faf9c",
+    "split": "Validation",
+    "duration_s": 3600.0297333333333,
+    "frame_count": 104997,
+    "video_path": "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/five_intersections_2026-09-27_r2/delivery/Bellevue_150th_SE38th/annotated.mp4",
+    "video_sha256": "634a551c6cbf7d66c13d2f40fd06eda70cceeea33a775c216ad6903e020f089f",
+    "width": 1280,
+    "height": 720,
+    "video_width": 1280,
+    "video_height": 870,
+    "content_x": 0,
+    "content_y": 150,
+    "content_width": 1280,
+    "content_height": 720,
+    "time_base": {
+      "num": 1,
+      "den": 90000
+    }
+  },
+  "night_case": false
+}

@@ -1,0 +1,28 @@
+{
+  "status": "separate attachments; local copies retained, not uploaded",
+  "models": [
+    {
+      "path": "formal_research/traffic_yolo_system/outputs/training/yolo11n_formal_baseline_v1/weights/best.pt",
+      "bytes": 5456154,
+      "source_sha256": "d8f1df37bbba910dc8c55eaf660d800f4b8e649e86d4559d9a10a0e8621b9df6",
+      "copied_sha256": "d8f1df37bbba910dc8c55eaf660d800f4b8e649e86d4559d9a10a0e8621b9df6",
+      "category": "model checkpoint; local Release attachment candidate",
+      "role": "comparison baseline",
+      "selected_epoch": "not independently extracted during packaging",
+      "attachment_name": "yolo11n_comparison_best.pt",
+      "required_for_video_free_checks": false
+    },
+    {
+      "path": "formal_research/traffic_yolo_system/outputs/training/yolo11s_formal_a100_v1/weights/best.pt",
+      "bytes": 19160602,
+      "source_sha256": "07e2280eda613c5d633196729f8716e9715000430171f49f6341afe573a2f334",
+      "copied_sha256": "07e2280eda613c5d633196729f8716e9715000430171f49f6341afe573a2f334",
+      "category": "model checkpoint; local Release attachment candidate",
+      "role": "selected detector",
+      "selected_epoch": "not independently extracted during packaging",
+      "attachment_name": "yolo11s_thesis_best.pt",
+      "required_for_video_free_checks": false
+    }
+  ],
+  "download_status": "No public download URL exists yet. Do not claim these attachments have been published."
+}

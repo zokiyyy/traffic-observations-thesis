@@ -1,0 +1,677 @@
+{
+  "camera_id": "Bellevue_150th_SE38th",
+  "source_id": "Bellevue_150th_SE38th__2017-09-11_14-08-32.mp4",
+  "split": "Validation",
+  "source_sha256": "64049c93fd95320ed3736c516874119f2603623541a5255f79c38df37f0faf9c",
+  "tail_probe": {
+    "source_id": "Bellevue_150th_SE38th__2017-09-11_14-08-32.mp4",
+    "camera_id": "Bellevue_150th_SE38th",
+    "split": "Validation",
+    "source_sha256": "64049c93fd95320ed3736c516874119f2603623541a5255f79c38df37f0faf9c",
+    "method": "ffprobe original tail sequential decoded frames; full-source audit remains separate",
+    "probe_start_seconds": 3597.9964,
+    "tail_frame_count": 81,
+    "last_frame": {
+      "pts": 323999676,
+      "duration": 3000,
+      "width": 1280,
+      "height": 720
+    },
+    "time_base": "1/90000",
+    "source_end_seconds_exclusive": 3600.0297333333333,
+    "ffprobe_stderr": "",
+    "frames": [
+      {
+        "pts": 323759676,
+        "duration": 3000,
+        "width": 1280,
+        "height": 720
+      },
+      {
+        "pts": 323762676,
+        "duration": 3000,
+        "width": 1280,
+        "height": 720
+      },
+      {
+        "pts": 323765676,
+        "duration": 2999,
+        "width": 1280,
+        "height": 720
+      },
+      {
+        "pts": 323768675,
+        "duration": 3001,
+        "width": 1280,
+        "height": 720
+      },
+      {
+        "pts": 323771676,
+        "duration": 2999,
+        "width": 1280,
+        "height": 720
+      },
+      {
+        "pts": 323774675,
+        "duration": 3001,
+        "width": 1280,
+        "height": 720
+      },
+      {
+        "pts": 323777676,
+        "duration": 2999,
+        "width": 1280,
+        "height": 720
+      },
+      {
+        "pts": 323780675,
+        "duration": 3000,
+        "width": 1280,
+        "height": 720
+      },
+      {
+        "pts": 323783675,
+        "duration": 3001,
+        "width": 1280,
+        "height": 720
+      },
+      {
+        "pts": 323786676,
+        "duration": 3000,
+        "width": 1280,
+        "height": 720
+      },
+      {
+        "pts": 323789676,
+        "duration": 2999,
+        "width": 1280,
+        "height": 720
+      },
+      {
+        "pts": 323792675,
+        "duration": 3001,
+        "width": 1280,
+        "height": 720
+      },
+      {
+        "pts": 323795676,
+        "duration": 3000,
+        "width": 1280,
+        "height": 720
+      },
+      {
+        "pts": 323798676,
+        "duration": 2999,
+        "width": 1280,
+        "height": 720
+      },
+      {
+        "pts": 323801675,
+        "duration": 3001,
+        "width": 1280,
+        "height": 720
+      },
+      {
+        "pts": 323804676,
+        "duration": 2999,
+        "width": 1280,
+        "height": 720
+      },
+      {
+        "pts": 323807675,
+        "duration": 3001,
+        "width": 1280,
+        "height": 720
+      },
+      {
+        "pts": 323810676,
+        "duration": 3000,
+        "width": 1280,
+        "height": 720
+      },
+      {
+        "pts": 323813676,
+        "duration": 3000,
+        "width": 1280,
+        "height": 720
+      },
+      {
+        "pts": 323816676,
+        "duration": 2999,
+        "width": 1280,
+        "height": 720
+      },
+      {
+        "pts": 323819675,
+        "duration": 3001,
+        "width": 1280,
+        "height": 720
+      },
+      {
+        "pts": 323822676,
+        "duration": 2998,
+        "width": 1280,
+        "height": 720
+      },
+      {
+        "pts": 323825674,
+        "duration": 3002,
+        "width": 1280,
+        "height": 720
+      },
+      {
+        "pts": 323828676,
+        "duration": 2999,
+        "width": 1280,
+        "height": 720
+      },
+      {
+        "pts": 323831675,
+        "duration": 3000,
+        "width": 1280,
+        "height": 720
+      },
+      {
+        "pts": 323834675,
+        "duration": 3000,
+        "width": 1280,
+        "height": 720
+      },
+      {
+        "pts": 323837675,
+        "duration": 3000,
+        "width": 1280,
+        "height": 720
+      },
+      {
+        "pts": 323840675,
+        "duration": 3000,
+        "width": 1280,
+        "height": 720
+      },
+      {
+        "pts": 323843675,
+        "duration": 3000,
+        "width": 1280,
+        "height": 720
+      },
+      {
+        "pts": 323846675,
+        "duration": 2999,
+        "width": 1280,
+        "height": 720
+      },
+      {
+        "pts": 323849674,
+        "duration": 3001,
+        "width": 1280,
+        "height": 720
+      },
+      {
+        "pts": 323852675,
+        "duration": 3000,
+        "width": 1280,
+        "height": 720
+      },
+      {
+        "pts": 323855675,
+        "duration": 2999,
+        "width": 1280,
+        "height": 720
+      },
+      {
+        "pts": 323858674,
+        "duration": 3000,
+        "width": 1280,
+        "height": 720
+      },
+      {
+        "pts": 323861674,
+        "duration": 3002,
+        "width": 1280,
+        "height": 720
+      },
+      {
+        "pts": 323864676,
+        "duration": 2999,
+        "width": 1280,
+        "height": 720
+      },
+      {
+        "pts": 323867675,
+        "duration": 3001,
+        "width": 1280,
+        "height": 720
+      },
+      {
+        "pts": 323870676,
+        "duration": 3000,
+        "width": 1280,
+        "height": 720
+      },
+      {
+        "pts": 323873676,
+        "duration": 2998,
+        "width": 1280,
+        "height": 720
+      },
+      {
+        "pts": 323876674,
+        "duration": 3002,
+        "width": 1280,
+        "height": 720
+      },
+      {
+        "pts": 323879676,
+        "duration": 2999,
+        "width": 1280,
+        "height": 720
+      },
+      {
+        "pts": 323882675,
+        "duration": 2999,
+        "width": 1280,
+        "height": 720
+      },
+      {
+        "pts": 323885674,
+        "duration": 3002,
+        "width": 1280,
+        "height": 720
+      },
+      {
+        "pts": 323888676,
+        "duration": 2999,
+        "width": 1280,
+        "height": 720
+      },
+      {
+        "pts": 323891675,
+        "duration": 3000,
+        "width": 1280,
+        "height": 720
+      },
+      {
+        "pts": 323894675,
+        "duration": 3001,
+        "width": 1280,
+        "height": 720
+      },
+      {
+        "pts": 323897676,
+        "duration": 2999,
+        "width": 1280,
+        "height": 720
+      },
+      {
+        "pts": 323900675,
+        "duration": 2999,
+        "width": 1280,
+        "height": 720
+      },
+      {
+        "pts": 323903674,
+        "duration": 3001,
+        "width": 1280,
+        "height": 720
+      },
+      {
+        "pts": 323906675,
+        "duration": 3000,
+        "width": 1280,
+        "height": 720
+      },
+      {
+        "pts": 323909675,
+        "duration": 3000,
+        "width": 1280,
+        "height": 720
+      },
+      {
+        "pts": 323912675,
+        "duration": 3001,
+        "width": 1280,
+        "height": 720
+      },
+      {
+        "pts": 323915676,
+        "duration": 2998,
+        "width": 1280,
+        "height": 720
+      },
+      {
+        "pts": 323918674,
+        "duration": 3002,
+        "width": 1280,
+        "height": 720
+      },
+      {
+        "pts": 323921676,
+        "duration": 2999,
+        "width": 1280,
+        "height": 720
+      },
+      {
+        "pts": 323924675,
+        "duration": 2999,
+        "width": 1280,
+        "height": 720
+      },
+      {
+        "pts": 323927674,
+        "duration": 3001,
+        "width": 1280,
+        "height": 720
+      },
+      {
+        "pts": 323930675,
+        "duration": 3000,
+        "width": 1280,
+        "height": 720
+      },
+      {
+        "pts": 323933675,
+        "duration": 3000,
+        "width": 1280,
+        "height": 720
+      },
+      {
+        "pts": 323936675,
+        "duration": 3001,
+        "width": 1280,
+        "height": 720
+      },
+      {
+        "pts": 323939676,
+        "duration": 3000,
+        "width": 1280,
+        "height": 720
+      },
+      {
+        "pts": 323942676,
+        "duration": 2998,
+        "width": 1280,
+        "height": 720
+      },
+      {
+        "pts": 323945674,
+        "duration": 3000,
+        "width": 1280,
+        "height": 720
+      },
+      {
+        "pts": 323948674,
+        "duration": 3000,
+        "width": 1280,
+        "height": 720
+      },
+      {
+        "pts": 323951674,
+        "duration": 3000,
+        "width": 1280,
+        "height": 720
+      },
+      {
+        "pts": 323954674,
+        "duration": 3002,
+        "width": 1280,
+        "height": 720
+      },
+      {
+        "pts": 323957676,
+        "duration": 2998,
+        "width": 1280,
+        "height": 720
+      },
+      {
+        "pts": 323960674,
+        "duration": 3001,
+        "width": 1280,
+        "height": 720
+      },
+      {
+        "pts": 323963675,
+        "duration": 3000,
+        "width": 1280,
+        "height": 720
+      },
+      {
+        "pts": 323966675,
+        "duration": 3000,
+        "width": 1280,
+        "height": 720
+      },
+      {
+        "pts": 323969675,
+        "duration": 3000,
+        "width": 1280,
+        "height": 720
+      },
+      {
+        "pts": 323972675,
+        "duration": 3000,
+        "width": 1280,
+        "height": 720
+      },
+      {
+        "pts": 323975675,
+        "duration": 2999,
+        "width": 1280,
+        "height": 720
+      },
+      {
+        "pts": 323978674,
+        "duration": 3001,
+        "width": 1280,
+        "height": 720
+      },
+      {
+        "pts": 323981675,
+        "duration": 3000,
+        "width": 1280,
+        "height": 720
+      },
+      {
+        "pts": 323984675,
+        "duration": 2999,
+        "width": 1280,
+        "height": 720
+      },
+      {
+        "pts": 323987674,
+        "duration": 3001,
+        "width": 1280,
+        "height": 720
+      },
+      {
+        "pts": 323990675,
+        "duration": 2999,
+        "width": 1280,
+        "height": 720
+      },
+      {
+        "pts": 323993674,
+        "duration": 3001,
+        "width": 1280,
+        "height": 720
+      },
+      {
+        "pts": 323996675,
+        "duration": 3001,
+        "width": 1280,
+        "height": 720
+      },
+      {
+        "pts": 323999676,
+        "duration": 3000,
+        "width": 1280,
+        "height": 720
+      }
+    ]
+  },
+  "packet_metadata_screen": {
+    "camera_id": "Bellevue_150th_SE38th",
+    "source_id": "Bellevue_150th_SE38th__2017-09-11_14-08-32.mp4",
+    "split": "Validation",
+    "source_sha256": "64049c93fd95320ed3736c516874119f2603623541a5255f79c38df37f0faf9c",
+    "method": "ffprobe video packet metadata only; decoded native timing audit remains required",
+    "packet_count": 104997,
+    "max_packet_duration_seconds": 28.766533333333335,
+    "packet_duration_over_0_11_seconds": [
+      {
+        "pts_ticks": 71837711,
+        "source_seconds": 798.1967888888889,
+        "duration_ticks": 2588988,
+        "duration_seconds": 28.766533333333335
+      },
+      {
+        "pts_ticks": 74477698,
+        "source_seconds": 827.5299777777777,
+        "duration_ticks": 45000,
+        "duration_seconds": 0.5
+      },
+      {
+        "pts_ticks": 83648661,
+        "source_seconds": 929.4295666666667,
+        "duration_ticks": 473999,
+        "duration_seconds": 5.266655555555555
+      },
+      {
+        "pts_ticks": 124647786,
+        "source_seconds": 1384.9754,
+        "duration_ticks": 1142995,
+        "duration_seconds": 12.699944444444444
+      },
+      {
+        "pts_ticks": 129738765,
+        "source_seconds": 1441.5418333333334,
+        "duration_ticks": 371998,
+        "duration_seconds": 4.133311111111111
+      },
+      {
+        "pts_ticks": 130146763,
+        "source_seconds": 1446.0751444444445,
+        "duration_ticks": 59999,
+        "duration_seconds": 0.6666555555555556
+      },
+      {
+        "pts_ticks": 130284763,
+        "source_seconds": 1447.6084777777778,
+        "duration_ticks": 17999,
+        "duration_seconds": 0.19998888888888888
+      },
+      {
+        "pts_ticks": 130386761,
+        "source_seconds": 1448.7417888888888,
+        "duration_ticks": 12000,
+        "duration_seconds": 0.13333333333333333
+      },
+      {
+        "pts_ticks": 130848759,
+        "source_seconds": 1453.8751,
+        "duration_ticks": 30001,
+        "duration_seconds": 0.33334444444444444
+      },
+      {
+        "pts_ticks": 130878760,
+        "source_seconds": 1454.2084444444445,
+        "duration_ticks": 95999,
+        "duration_seconds": 1.0666555555555555
+      },
+      {
+        "pts_ticks": 217689089,
+        "source_seconds": 2418.7676555555554,
+        "duration_ticks": 275999,
+        "duration_seconds": 3.0666555555555557
+      },
+      {
+        "pts_ticks": 217965088,
+        "source_seconds": 2421.834311111111,
+        "duration_ticks": 96000,
+        "duration_seconds": 1.0666666666666667
+      },
+      {
+        "pts_ticks": 224853061,
+        "source_seconds": 2498.3673444444444,
+        "duration_ticks": 791997,
+        "duration_seconds": 8.799966666666666
+      },
+      {
+        "pts_ticks": 225711059,
+        "source_seconds": 2507.9006555555557,
+        "duration_ticks": 29998,
+        "duration_seconds": 0.3333111111111111
+      },
+      {
+        "pts_ticks": 244637986,
+        "source_seconds": 2718.1998444444444,
+        "duration_ticks": 1262994,
+        "duration_seconds": 14.033266666666666
+      },
+      {
+        "pts_ticks": 255032943,
+        "source_seconds": 2833.6993666666667,
+        "duration_ticks": 275999,
+        "duration_seconds": 3.0666555555555557
+      },
+      {
+        "pts_ticks": 259448926,
+        "source_seconds": 2882.7658444444446,
+        "duration_ticks": 179999,
+        "duration_seconds": 1.9999888888888888
+      },
+      {
+        "pts_ticks": 259637925,
+        "source_seconds": 2884.8658333333333,
+        "duration_ticks": 87000,
+        "duration_seconds": 0.9666666666666667
+      },
+      {
+        "pts_ticks": 283448831,
+        "source_seconds": 3149.4314555555557,
+        "duration_ticks": 563998,
+        "duration_seconds": 6.266644444444444
+      },
+      {
+        "pts_ticks": 314243712,
+        "source_seconds": 3491.5968,
+        "duration_ticks": 12000,
+        "duration_seconds": 0.13333333333333333
+      },
+      {
+        "pts_ticks": 314333712,
+        "source_seconds": 3492.5968,
+        "duration_ticks": 18000,
+        "duration_seconds": 0.2
+      },
+      {
+        "pts_ticks": 314489710,
+        "source_seconds": 3494.330111111111,
+        "duration_ticks": 150002,
+        "duration_seconds": 1.6666888888888889
+      },
+      {
+        "pts_ticks": 321947682,
+        "source_seconds": 3577.1964666666668,
+        "duration_ticks": 84000,
+        "duration_seconds": 0.9333333333333333
+      },
+      {
+        "pts_ticks": 322298680,
+        "source_seconds": 3581.0964444444444,
+        "duration_ticks": 309000,
+        "duration_seconds": 3.433333333333333
+      },
+      {
+        "pts_ticks": 322628680,
+        "source_seconds": 3584.763111111111,
+        "duration_ticks": 75000,
+        "duration_seconds": 0.8333333333333334
+      }
+    ],
+    "stderr": ""
+  },
+  "declared_max_frame_duration_seconds": 30.0,
+  "duration_limit_basis": "Predeclared source-specific upper bound above observed original packet durations; native decoded per-frame audit must still confirm. No input durations are changed.",
+  "original_hold_warning": "A long frame duration is one observed frame presented for longer, not continuing new observations. Duration-weighted count/statistics over such spans have limited temporal evidence."
+}

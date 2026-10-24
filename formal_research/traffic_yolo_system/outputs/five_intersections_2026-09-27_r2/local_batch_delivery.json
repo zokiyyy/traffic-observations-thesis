@@ -1,0 +1,13 @@
+{
+  "at": "2026-09-27T18:36:31.330060+00:00",
+  "completed": true,
+  "new_local_verified_count": 4,
+  "cameras": [
+    "Bellevue_116th_NE12th",
+    "Bellevue_150th_Eastgate",
+    "Bellevue_150th_SE38th",
+    "Bellevue_Bellevue_NE8th"
+  ],
+  "newport_reuse_receipt": "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/five_intersections_2026-09-27_r2/reuse/newport_verified.json",
+  "newport_rerun": false
+}

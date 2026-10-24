@@ -1,0 +1,68 @@
+{
+  "created_at_utc": "2026-09-23T11:23:08.513691+00:00",
+  "split": "Validation",
+  "image_count": 197,
+  "model": {
+    "path": "/home/ubuntu/traffic_projects/runs/training/yolo11s_formal_a100_v1/weights/best.pt",
+    "bytes": 19160602,
+    "sha256": "07e2280eda613c5d633196729f8716e9715000430171f49f6341afe573a2f334"
+  },
+  "manifest": {
+    "path": "/home/ubuntu/traffic_projects/runs/validation_tuning/yolo11s_confidence_val_v1_2026-09-23/input/validation_manifest.json",
+    "bytes": 138074,
+    "sha256": "d2bdca67c700de3be89417e48f4c7bb0eff88cdd3c89121c5ce90f7ab798bf5c"
+  },
+  "scripts": {
+    "compare_validation_confidence.py": {
+      "path": "/home/ubuntu/traffic_projects/runs/validation_tuning/yolo11s_confidence_val_v1_2026-09-23/job/compare_validation_confidence.py",
+      "bytes": 12070,
+      "sha256": "0d5b794a299189375cfc5f8bcb7997429368412b681d407e13e2d5d08059e352"
+    },
+    "check_comparison_reference.py": {
+      "path": "/home/ubuntu/traffic_projects/runs/validation_tuning/yolo11s_confidence_val_v1_2026-09-23/job/check_comparison_reference.py",
+      "bytes": 11665,
+      "sha256": "4aeb5edd9c52585124bd8796bdf98ec03f0a35a01a82760eb3b13f818a648107"
+    }
+  },
+  "thresholds": [
+    0.2,
+    0.25,
+    0.35
+  ],
+  "predict_settings": {
+    "device": 0,
+    "imgsz": 640,
+    "iou": 0.7,
+    "half": false,
+    "augment": false,
+    "rect": true,
+    "batch": 1,
+    "max_det": 300,
+    "agnostic_nms": false,
+    "classes": null,
+    "save": false,
+    "verbose": false
+  },
+  "matching": {
+    "class_aware": true,
+    "match_iou": 0.5,
+    "method": "Descending-IoU greedy one-to-one matching within each image, same class; ties GT index then prediction index",
+    "averaging": "Object-level micro: sum TP/FP/FN across all 197 images before calculating P/R/F1",
+    "not_ap": "Not AP/mAP and not Ultralytics max-F1 operating point or class-mean P/R",
+    "nms_iou_is_different": "0.7 is prediction NMS; 0.5 is GT matching"
+  },
+  "scope": {
+    "training": false,
+    "main_test": false,
+    "tracking": false,
+    "spatial_filter": "None; full-image predictions, existing roadway-only labels remain unchanged",
+    "fp_interpretation": "Unmatched predictions relative to existing labels; includes possible out-of-scope real vehicles, duplicates, class/localization errors"
+  },
+  "environment": {
+    "python": "3.10.12 (main, Aug 31 2026, 10:18:17) [GCC 11.4.0]",
+    "torch": "2.13.0+cu130",
+    "ultralytics": "8.4.115",
+    "opencv": "5.0.0",
+    "gpu": "GRID A100D-40C"
+  }
+}

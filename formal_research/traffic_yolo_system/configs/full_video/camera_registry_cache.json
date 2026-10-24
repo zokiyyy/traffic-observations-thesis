@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "cameras": {
+    "Bellevue_116th_NE12th": {
+      "config_path": null,
+      "status": "missing_camera_configuration",
+      "todo": "用开发来源准备本机位ROI与构图适用范围，保留AI来源，不新增人工标注。"
+    },
+    "Bellevue_150th_Eastgate": {
+      "config_path": null,
+      "status": "missing_camera_configuration",
+      "todo": "用开发来源准备本机位ROI与构图适用范围，保留AI来源，不新增人工标注。"
+    },
+    "Bellevue_150th_Newport": {
+      "config_path": "newport_cache_camera.json",
+      "status": "provisional_one_source_120s",
+      "todo": "完整来源适用性和背景规则范围尚未验证；不得自动推广其他Newport来源。"
+    },
+    "Bellevue_150th_SE38th": {
+      "config_path": null,
+      "status": "missing_camera_configuration",
+      "todo": "用开发来源准备本机位ROI与构图适用范围，保留AI来源，不新增人工标注。"
+    },
+    "Bellevue_Bellevue_NE8th": {
+      "config_path": null,
+      "status": "missing_camera_configuration",
+      "todo": "用开发来源准备本机位ROI与构图适用范围，保留AI来源，不新增人工标注。"
+    }
+  }
+}

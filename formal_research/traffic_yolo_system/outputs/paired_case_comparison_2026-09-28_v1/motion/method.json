@@ -1,0 +1,13 @@
+{
+  "version": "paired-absolute-image-motion-v1",
+  "engine_origin": "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/five_intersection_states_2026-09-28_v1/code/engine.py",
+  "motion_unit": "source-image pixels per second, not km/h",
+  "history": "same ID and same assigned zone, consecutive observed frames; bottom-center displacement over 1.0 to 1.2 s original PTS",
+  "window_statistic": "Within each 10 s window, each ID rate is averaged using its valid motion durations; these ID averages are combined by a median weighted by valid motion durations.",
+  "history_reset": "missing observation, zone change, invalid frame, nonconsecutive frame index, and before/after any presentation duration >0.5 s",
+  "availability": "complete valid 10 s window, no overlap with presentation duration >0.5 s, motion vehicle-seconds / observed vehicle-seconds >=0.5, motion vehicle-seconds >=5",
+  "unknown": "null, never filled with zero",
+  "summary_statistic": "Duration-weighted P25/P50/P75 of available 10 s motion medians; lower inverse-CDF weighted quantiles. All available windows are 10 s.",
+  "calibration": "none; no P25 low-motion threshold, count-level or 30 s traffic state is newly calculated",
+  "caution": "Compare only same ROI after reviewing acquisition/configuration comparability. Image motion is perspective-dependent; evidence selection, box jitter, occlusion and tracking fragmentation affect these values. No congestion, flow or accuracy claims."
+}

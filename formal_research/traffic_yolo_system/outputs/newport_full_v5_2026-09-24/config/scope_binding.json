@@ -1,0 +1,399 @@
+{
+  "camera_id": "Bellevue_150th_Newport",
+  "source_id": "Bellevue_150th_Newport__2017-09-11_08-08-31.mp4",
+  "source_split": "Validation",
+  "scope_report_sha256": "5edc4a9f9d047fd7dcecbc8e58538fb6bea09ef6df153eb9eef8daf7b4a961b2",
+  "scope_review": {
+    "schema_version": "single_full_source_frozen_v5_scope_review_v1",
+    "created_at": "2026-09-24T11:41:20.737810+00:00",
+    "status": "supports_single_source_engineering_trial_with_unchanged_geometry_and_rules_not_accuracy_certification",
+    "reviewer": "AI assistant",
+    "authorization_scope": "User requested frozen rule integration, automatic equivalence verification and one prepared full Validation source run; no 115-video batch, no Unity, no new manual labels.",
+    "source": {
+      "path": "/Users/zoki/Desktop/traffic_projects/videos/original/Bellevue_150th_Newport/Bellevue_150th_Newport__2017-09-11_08-08-31.mp4",
+      "filename": "Bellevue_150th_Newport__2017-09-11_08-08-31.mp4",
+      "sha256": "969af533145e1a1afaa8fb4afa754205c338171760ff02b97e2aef4f04094c93",
+      "size_bytes": 922656811,
+      "source_sha256_recomputed_in_this_review": true,
+      "camera_id": "Bellevue_150th_Newport",
+      "formal_split": "Validation",
+      "frozen_manifest_sha256": "8e1b8806f5a1f2f8280b71169d45ba5837bc710db26f0550610124fcc4f1f3cd",
+      "manifest_row": {
+        "Source Video Filename": "Bellevue_150th_Newport__2017-09-11_08-08-31.mp4",
+        "Intersection": "Bellevue_150th_Newport",
+        "Duration": "01:00:00",
+        "Lighting": "Day",
+        "Traffic Level": "Medium",
+        "Deep-reviewed Status": "No",
+        "Pilot-source Status": "No",
+        "Formal Split": "Validation",
+        "Split Version": "Formal Split v1",
+        "Approval Status": "Approved and Frozen",
+        "Notes": "Approved without reassignment from B Refined v2; Main Test membership is frozen."
+      }
+    },
+    "full_source_time_scope": {
+      "interval_semantics": "half_open_source_presentation_time_seconds",
+      "allowed_source_intervals_seconds": [
+        [
+          0.0,
+          3600.0151444444446
+        ]
+      ],
+      "first_pts_ticks": 0,
+      "last_pts_ticks": 323998363,
+      "last_frame_duration_ticks": 3000,
+      "time_base": "1/90000",
+      "original_frame_count": 107932,
+      "dimensions": [
+        1280,
+        720
+      ],
+      "time_policy": "Use each original PTS and explicit frame duration; do not replace by frame_index/30.",
+      "original_cfr_demonstrated": false,
+      "prior_full_frame_decode_matches_pts": true,
+      "timestamp_mismatch_frames": 0,
+      "full_decode_not_repeated_in_this_scope_review": true
+    },
+    "frozen_background_rule": {
+      "original_policy_path": "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/video_pipeline/yolo11s_newport_val_120s_dedup_v5_2026-09-24/input/background_policy.json",
+      "original_policy_sha256": "9344d23ccfa7a90537448a9e051e45bfb245d1058eec888ad165454c5974362a",
+      "original_policy_clip_sha256": "fb0cb02738b94277b2f0394f1c24dc667b378550821ff02bacc3db66e601ae42",
+      "original_clip_interval_seconds": [
+        1600,
+        1720
+      ],
+      "original_clip_binding_is_not_itself_full_source_authorization": true,
+      "reviewed_background_polygon_xy": [
+        [
+          841,
+          64
+        ],
+        [
+          865,
+          61
+        ],
+        [
+          901,
+          61
+        ],
+        [
+          912,
+          66
+        ],
+        [
+          911,
+          76
+        ],
+        [
+          897,
+          82
+        ],
+        [
+          881,
+          85
+        ],
+        [
+          863,
+          89
+        ],
+        [
+          841,
+          89
+        ]
+      ],
+      "polygon_changed": false,
+      "coordinate_system": "original 1280x720 pixels",
+      "confirmation_iou": 0.5,
+      "confirm_min_confidence": 0.35,
+      "candidate_condition": "640px raw detection box center strictly inside the frozen polygon",
+      "keep_condition": "a same-frame 1280px detection has confidence >= 0.35 and IoU >= 0.5, without class restriction",
+      "not_an_unconditional_mask": true,
+      "permitted_scope_extension": "Rebind only provenance to this exact original source SHA and full PTS interval; preserve numeric and logical rule parameters."
+    },
+    "frozen_containment_rule": {
+      "policy_path": "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/video_pipeline/yolo11s_newport_val_120s_dedup_v5_2026-09-24/input/containment_policy.json",
+      "policy_sha256": "b299d573ecfcf8e609fc216f29b65ebcb288347def0e520cda404b29dcbf0ff6",
+      "policy_fields": {
+        "schema_version": 2,
+        "representative_policy": "confident_same_class_outer_then_low_confidence",
+        "heavy_classes": [
+          2,
+          3
+        ],
+        "min_containment": 0.9,
+        "min_area_ratio": 1.2,
+        "max_bottom_gap_fraction": 0.15,
+        "min_keeper_confidence": 0.35,
+        "ambiguity_min_containment": 0.5
+      },
+      "parameters_changed": false,
+      "application_extension": "Only this authorized full-source trial; no automatic applicability to all other videos."
+    },
+    "road_roi": {
+      "original_p5_layout_sha256": "622ce53579ec8ca304dd715f4987bf1412e146bd0a051739e1c5807e7efd51aa",
+      "full_source_candidate_layout_sha256": "8c3ea8b4206497e0e155aeff851093290952a83fa0c0ada70edeacf83376669a",
+      "zone_order": [
+        "road_left",
+        "road_top",
+        "road_right",
+        "junction_center"
+      ],
+      "zones_and_assignment_semantically_identical": true,
+      "reference_clip_timing_not_used_as_full_source_timing": true
+    },
+    "sparse_wall_visual_review": {
+      "reviewed_original_and_overlay_crop_sheet_count": 3,
+      "reviewed_sample_count": 13,
+      "samples": [
+        {
+          "sample_index": 0,
+          "requested_source_seconds": 0.0,
+          "actual_source_seconds": 0.0,
+          "decoded_frame_index": 0,
+          "original_image": "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/full_video_preparation_newport_2026-09-24/roi_review/sample_00_original.png",
+          "original_image_sha256": "234f63de25fdfef4ad177feafbc0e176789c30e69617795db513435dcab63cfd",
+          "decoded_pixels_sha256_verified": true,
+          "AI_wall_position_review": "same fixed fence/wall segment; lighting and foreground objects vary"
+        },
+        {
+          "sample_index": 1,
+          "requested_source_seconds": 300.0,
+          "actual_source_seconds": 300.0007111111111,
+          "decoded_frame_index": 8994,
+          "original_image": "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/full_video_preparation_newport_2026-09-24/roi_review/sample_01_original.png",
+          "original_image_sha256": "44cf33a0918b28b8bfa682f198ba48be07321d86234ce39c51c2c2b9da7241b1",
+          "decoded_pixels_sha256_verified": true,
+          "AI_wall_position_review": "same fixed fence/wall segment; lighting and foreground objects vary"
+        },
+        {
+          "sample_index": 2,
+          "requested_source_seconds": 600.0,
+          "actual_source_seconds": 600.0043555555555,
+          "decoded_frame_index": 17989,
+          "original_image": "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/full_video_preparation_newport_2026-09-24/roi_review/sample_02_original.png",
+          "original_image_sha256": "f2e80e3fcdc7c0243dfa041b86054ceb228b88f375f0ad9931f509f24565eb28",
+          "decoded_pixels_sha256_verified": true,
+          "AI_wall_position_review": "same fixed fence/wall segment; lighting and foreground objects vary"
+        },
+        {
+          "sample_index": 3,
+          "requested_source_seconds": 900.0,
+          "actual_source_seconds": 900.0050777777778,
+          "decoded_frame_index": 26983,
+          "original_image": "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/full_video_preparation_newport_2026-09-24/roi_review/sample_03_original.png",
+          "original_image_sha256": "e0c8c191befc42695547aad368d39e4e8c3c63cd0a01001b5b3411cefe654c9c",
+          "decoded_pixels_sha256_verified": true,
+          "AI_wall_position_review": "same fixed fence/wall segment; lighting and foreground objects vary"
+        },
+        {
+          "sample_index": 4,
+          "requested_source_seconds": 1200.0,
+          "actual_source_seconds": 1200.0058000000001,
+          "decoded_frame_index": 35978,
+          "original_image": "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/full_video_preparation_newport_2026-09-24/roi_review/sample_04_original.png",
+          "original_image_sha256": "57b3b177b9571771e721c3006e9595fb265f6b19d57cf18131eb44639791fe3d",
+          "decoded_pixels_sha256_verified": true,
+          "AI_wall_position_review": "same fixed fence/wall segment; lighting and foreground objects vary"
+        },
+        {
+          "sample_index": 5,
+          "requested_source_seconds": 1500.0,
+          "actual_source_seconds": 1500.0065222222222,
+          "decoded_frame_index": 44972,
+          "original_image": "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/full_video_preparation_newport_2026-09-24/roi_review/sample_05_original.png",
+          "original_image_sha256": "f17b6643a70d632835f94b15c7cfb7c1336c5362328712e51468552596f574ce",
+          "decoded_pixels_sha256_verified": true,
+          "AI_wall_position_review": "same fixed fence/wall segment; lighting and foreground objects vary"
+        },
+        {
+          "sample_index": 6,
+          "requested_source_seconds": 1800.0,
+          "actual_source_seconds": 1799.9739111111112,
+          "decoded_frame_index": 53966,
+          "original_image": "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/full_video_preparation_newport_2026-09-24/roi_review/sample_06_original.png",
+          "original_image_sha256": "e5fa93bf52ba93391e1d86b6ac154623a96ce21b850cfd857f1b1f8168bf0a6f",
+          "decoded_pixels_sha256_verified": true,
+          "AI_wall_position_review": "same fixed fence/wall segment; lighting and foreground objects vary"
+        },
+        {
+          "sample_index": 7,
+          "requested_source_seconds": 2100.0,
+          "actual_source_seconds": 2100.0079333333333,
+          "decoded_frame_index": 62961,
+          "original_image": "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/full_video_preparation_newport_2026-09-24/roi_review/sample_07_original.png",
+          "original_image_sha256": "f388df493bd347e23ed5e4e4d670ee1f8b4eb059d71b9ad58ae03d30720e1674",
+          "decoded_pixels_sha256_verified": true,
+          "AI_wall_position_review": "same fixed fence/wall segment; lighting and foreground objects vary"
+        },
+        {
+          "sample_index": 8,
+          "requested_source_seconds": 2400.0,
+          "actual_source_seconds": 2400.0123333333336,
+          "decoded_frame_index": 71955,
+          "original_image": "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/full_video_preparation_newport_2026-09-24/roi_review/sample_08_original.png",
+          "original_image_sha256": "b218f0c401ced3a688c7cd3668606cd7ebb1408f8a9d9c1eeff7ee5a2a18b94e",
+          "decoded_pixels_sha256_verified": true,
+          "AI_wall_position_review": "same fixed fence/wall segment; lighting and foreground objects vary"
+        },
+        {
+          "sample_index": 9,
+          "requested_source_seconds": 2700.0,
+          "actual_source_seconds": 2699.979688888889,
+          "decoded_frame_index": 80949,
+          "original_image": "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/full_video_preparation_newport_2026-09-24/roi_review/sample_09_original.png",
+          "original_image_sha256": "38b10d3dbd6159efb4fbb31a8fd7f9709954459a083366e3713ffa6cea250680",
+          "decoded_pixels_sha256_verified": true,
+          "AI_wall_position_review": "same fixed fence/wall segment; lighting and foreground objects vary"
+        },
+        {
+          "sample_index": 10,
+          "requested_source_seconds": 3000.0,
+          "actual_source_seconds": 3000.0137555555557,
+          "decoded_frame_index": 89944,
+          "original_image": "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/full_video_preparation_newport_2026-09-24/roi_review/sample_10_original.png",
+          "original_image_sha256": "15103498475173310f626b375ddb68bf940bd0e79cbf9a12a3b53cbc4c7fd1fb",
+          "decoded_pixels_sha256_verified": true,
+          "AI_wall_position_review": "same fixed fence/wall segment; lighting and foreground objects vary"
+        },
+        {
+          "sample_index": 11,
+          "requested_source_seconds": 3300.0,
+          "actual_source_seconds": 3299.981111111111,
+          "decoded_frame_index": 98938,
+          "original_image": "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/full_video_preparation_newport_2026-09-24/roi_review/sample_11_original.png",
+          "original_image_sha256": "185dac2614786eb1c28fa1fa28463c0942b5f3e64a02fb800579ca07d5ba2121",
+          "decoded_pixels_sha256_verified": true,
+          "AI_wall_position_review": "same fixed fence/wall segment; lighting and foreground objects vary"
+        },
+        {
+          "sample_index": 12,
+          "requested_source_seconds": 3598.98,
+          "actual_source_seconds": 3598.9818111111113,
+          "decoded_frame_index": 107902,
+          "original_image": "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/full_video_preparation_newport_2026-09-24/roi_review/sample_12_original.png",
+          "original_image_sha256": "2e546d96fbf462843cac17c69495b736f8c056d4812b2f97e9b55008f3343d38",
+          "decoded_pixels_sha256_verified": true,
+          "AI_wall_position_review": "same fixed fence/wall segment; lighting and foreground objects vary"
+        }
+      ],
+      "viewed_contact_sheets": [
+        {
+          "path": "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/newport_full_v5_2026-09-24/scope/wall_scope_contact_01.jpg",
+          "sha256": "76d4bb961768021ac334d5af34b99b7c2c9820e4c78b9eb2aa3b0681797da8b5"
+        },
+        {
+          "path": "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/newport_full_v5_2026-09-24/scope/wall_scope_contact_02.jpg",
+          "sha256": "9f7dd6724c60b01edbcbb25bc59123dfffb6e2c78669c375b3c62a41c2da524e"
+        },
+        {
+          "path": "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/newport_full_v5_2026-09-24/scope/wall_scope_contact_03.jpg",
+          "sha256": "4b6aa1d6dd013f501f3d813dd2fc2af4afc1a97df701e3bac8213ce4c17cacff"
+        }
+      ],
+      "observations": [
+        "The frozen polygon stays on the same fence/wall plane in all 13 fixed-time samples; no visible global camera shift or cut is apparent.",
+        "The fence changes from shadow to bright sunlight over the hour; rule geometry is retained despite this appearance change.",
+        "Real vehicles can pass in front of and partly occlude the fence footprint (for example the white van at about 2400 seconds). This supports retaining conditional second-resolution confirmation and recording uncertainty; it does not prove every rejected detection is false.",
+        "The existing road ROI geometry, boundaries and excluded lower approach are unchanged."
+      ],
+      "new_image_annotations_created": false,
+      "overlay_kind": "Display of pre-existing fixed polygon and ROI coordinates, not new truth labels"
+    },
+    "prior_static_alignment_evidence": {
+      "sample_count": 61,
+      "flagged_count": 0,
+      "minimum_inlier_count": 152,
+      "maximum_fitted_corner_displacement_pixels": 0.5472221905750201,
+      "evidence_reused_not_new_61_frame_review": true,
+      "interpretation": "Heuristic camera-position screen, not a detector or count accuracy measurement."
+    },
+    "evidence_files": [
+      {
+        "path": "/Users/zoki/Desktop/traffic_projects/formal_research/03_full_dataset_design/splits/formal_source_video_split_manifest_v1_2026-08-24.csv",
+        "sha256": "8e1b8806f5a1f2f8280b71169d45ba5837bc710db26f0550610124fcc4f1f3cd"
+      },
+      {
+        "path": "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/full_video_preparation_newport_2026-09-24/time_audit/identity.json",
+        "sha256": "7c6a1b31251f85e819be54f4435d0ce0842a6671be8ae49253334d29aaeec648"
+      },
+      {
+        "path": "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/full_video_preparation_newport_2026-09-24/time_audit/audit_runtime_envelope.json",
+        "sha256": "a75e4cde70996762281cf3d92faf04d0c943dec29892a16040e9a58878390d36"
+      },
+      {
+        "path": "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/full_video_preparation_newport_2026-09-24/time_audit/audit_report.json",
+        "sha256": "b14d85da2e8e921d52fb1ec14a9424c20ac664fb7148edc3a47f0ab298b9e8a7"
+      },
+      {
+        "path": "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/full_video_preparation_newport_2026-09-24/time_audit/timing_frames.jsonl",
+        "sha256": "dfa6d3043e14afffcbd19d139db58a0d614185e26ee219508434ce3c1ee8984d"
+      },
+      {
+        "path": "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/full_video_preparation_newport_2026-09-24/roi_review/sample_plan.json",
+        "sha256": "6d7914aca1e4f4a8d9f9c963c54b90f126b8894f6496bc14dcb30d74eda957c8"
+      },
+      {
+        "path": "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/full_video_preparation_newport_2026-09-24/roi_review/extraction_evidence.json",
+        "sha256": "c06172d0947d08c6354a4e158b1c9b297aa22cba788da225aa7aa01b369143f7"
+      },
+      {
+        "path": "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/full_video_preparation_newport_2026-09-24/roi_review/AI稀疏构图核查.json",
+        "sha256": "8b7b0c6983ee6fbb4da1a91cacb1a9ac66e68b4688dc9350523fe8d2bb5c41d2"
+      },
+      {
+        "path": "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/full_video_preparation_newport_2026-09-24/roi_review/alignment_screen/screen_evidence.json",
+        "sha256": "539056967baaca47d1f3e4c1cb002b81c0bcf9f7d978824075cd5ad251a93974"
+      },
+      {
+        "path": "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/video_pipeline/yolo11s_newport_val_120s_dedup_v5_2026-09-24/input/zones.json",
+        "sha256": "622ce53579ec8ca304dd715f4987bf1412e146bd0a051739e1c5807e7efd51aa"
+      },
+      {
+        "path": "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/video_pipeline/yolo11s_newport_val_120s_dedup_v5_2026-09-24/input/background_policy.json",
+        "sha256": "9344d23ccfa7a90537448a9e051e45bfb245d1058eec888ad165454c5974362a"
+      },
+      {
+        "path": "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/video_pipeline/yolo11s_newport_val_120s_dedup_v5_2026-09-24/input/containment_policy.json",
+        "sha256": "b299d573ecfcf8e609fc216f29b65ebcb288347def0e520cda404b29dcbf0ff6"
+      },
+      {
+        "path": "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/configs/full_video/newport_full_source_preparation_20260924/camera_candidate.json",
+        "sha256": "b54b51dcbc11123d9e76b12288d17dbfab47664f7d86df1a017e7c8e9253431e"
+      },
+      {
+        "path": "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/configs/full_video/newport_full_source_preparation_20260924/roi_candidate.json",
+        "sha256": "8c3ea8b4206497e0e155aeff851093290952a83fa0c0ada70edeacf83376669a"
+      }
+    ],
+    "checks": {
+      "source_file_sha_matches_audit": true,
+      "frozen_manifest_sha_matches": true,
+      "unique_source_row_is_Validation": true,
+      "original_and_roi_overlay_sample_hashes_verified": 26,
+      "decoded_sample_pixel_hashes_verified": 13,
+      "runtime_envelope_linked_evidence_hashes_verified": 7,
+      "timing_stream_sha_verified": true,
+      "roi_geometry_and_assignment_match_p5": true,
+      "background_and_containment_not_modified": true
+    },
+    "limits": [
+      "This is a bounded same-camera full-source engineering trial, not an independent final test set evaluation.",
+      "Sparse samples cannot exclude a brief camera disturbance or temporary background occlusion between samples.",
+      "The same YOLO model at two image sizes gives correlated evidence, not independent truth.",
+      "Real vehicles whose centers fall on the fence area can be rejected if the secondary detector misses them.",
+      "Overlapping heavy vehicles can represent distinct objects; frozen duplicate filtering cannot establish physical object identity.",
+      "Instantaneous visible tracked counts remain model estimates; no speed, queue length, density, traffic flow or congestion ground truth is established.",
+      "No generalization claim applies to other sources, other intersections, or all 115 videos."
+    ],
+    "main_test_media_accessed": false,
+    "new_human_annotations": false,
+    "detector_inference_executed_in_this_scope_review": false,
+    "old_outputs_modified": false,
+    "remaining_requirements_before_full_run": [
+      "Validate integrated filtering and tracker outputs against frozen reference processing on identical original pixels.",
+      "Bind runtime config to exact source/model/policies/PTS evidence and reject scope mismatch.",
+      "Retain full-source audit trail, warning candidates and result limitations."
+    ]
+  }
+}

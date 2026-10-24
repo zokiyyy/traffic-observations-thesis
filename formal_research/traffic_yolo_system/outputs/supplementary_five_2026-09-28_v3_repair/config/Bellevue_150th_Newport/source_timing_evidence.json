@@ -1,0 +1,57 @@
+{
+  "camera_id": "Bellevue_150th_Newport",
+  "source_id": "Bellevue_150th_Newport__2017-09-10_18-08-24.mp4",
+  "split": "Validation",
+  "source_sha256": "5d7eff08712d5750a018b4fa82be85754d47c777a07754d54b3d54cb2dd3c587",
+  "local_full_sequential_decoded_evidence": {
+    "source_id": "Bellevue_150th_Newport__2017-09-10_18-08-24.mp4",
+    "split": "Validation",
+    "source_path": "/Users/zoki/Desktop/traffic_projects/videos/original/Bellevue_150th_Newport/Bellevue_150th_Newport__2017-09-10_18-08-24.mp4",
+    "source_bytes": 725653754,
+    "source_sha256": "5d7eff08712d5750a018b4fa82be85754d47c777a07754d54b3d54cb2dd3c587",
+    "source_unchanged_stat": true,
+    "full_sequential_decode": true,
+    "command_finished": true,
+    "returncode": 0,
+    "stderr_lines": 0,
+    "stderr_excerpt": "",
+    "clean_local_decode": true,
+    "decoded_frames": 107977,
+    "container_frames": "107977",
+    "dimensions": {
+      "1280x720": 107977
+    },
+    "time_base": "1/90000",
+    "first_pts": 0,
+    "last_pts": 323999756,
+    "last_duration": 3000,
+    "presentation_duration_seconds": 3600.030622222222,
+    "max_frame_duration_seconds": 0.1,
+    "long_frame_count_gt_0_5s": 0,
+    "long_frame_total_seconds": 0,
+    "pts_nonmonotonic_count": 0,
+    "pts_discontinuity_count": 0,
+    "missing_duration_count": 0,
+    "decode_error_flags": {},
+    "elapsed_seconds": 73.592972708,
+    "started_at": "2026-09-27T21:37:28.733246+00:00",
+    "finished_at": "2026-09-27T21:38:42.325049+00:00",
+    "limits": [
+      "Local FFprobe decode only; cloud environment not checked.",
+      "Full decode is not full visual/ROI review; duplicate-image freeze detection not performed.",
+      "Filename civil time zone is not independently verified."
+    ],
+    "model_inference": false,
+    "remote_access": false,
+    "main_test_media_read": false
+  },
+  "local_summary_sha256": "01d55c4ef8e386545f4952c67ef21bff7c3cca0f7cdaa9d2d1cf3c7752b688a2",
+  "declared_max_frame_duration_seconds": 0.11,
+  "duration_limit_basis": "Unchanged preceding camera-specific cap; actual screened native frame maximum is within it.",
+  "full_time_range_seconds": [
+    0,
+    3600.030622222222
+  ],
+  "remote_native_audit_complete": false,
+  "original_timestamps_and_durations_must_be_preserved": true
+}

@@ -1,0 +1,16 @@
+{
+  "verified_at_utc": "2026-10-11T06:06:42.778284+00:00",
+  "url": "https://play.unity.com/en/games/9c5f58ce-768e-4850-9f1e-20947121b19f/traffic-observations-10",
+  "package": "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_unity_web/Builds/EvaluationPanel_2026-10-11_v1/TrafficObservationsEvaluationPanel_UnityPlay.zip",
+  "package_sha256": "c84a9d1e51fd16bca30011f76cd77c9a7daa682911a880f32bd89b91b81ea3e8",
+  "upload_status": "Uploaded successfully",
+  "save_status": "Success; redirected to game page",
+  "visibility_at_submission": "Unlisted",
+  "online_verified": [
+    "Experiment Evaluation title",
+    "right-side panel with video remaining visible",
+    "original rule notice",
+    "hosted Newport video plays from 00:00 to 00:12"
+  ],
+  "screenshot": "unity_play_updated.png"
+}

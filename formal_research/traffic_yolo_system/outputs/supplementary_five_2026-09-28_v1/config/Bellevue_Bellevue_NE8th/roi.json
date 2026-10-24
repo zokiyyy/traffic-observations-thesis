@@ -1,0 +1,259 @@
+{
+  "schema_version": 2,
+  "camera_id": "Bellevue_Bellevue_NE8th",
+  "source_video": "Bellevue_Bellevue_NE8th__2017-09-11_02-08-29.mp4",
+  "source_split": "Validation",
+  "source_sha256": "f4492d61971979f21f7f09a5a90b0ed458ea7c4a9dd6fbe1ae30831c951fa5fb",
+  "split_manifest_sha256": "8e1b8806f5a1f2f8280b71169d45ba5837bc710db26f0550610124fcc4f1f3cd",
+  "frame_width": 1280,
+  "frame_height": 720,
+  "assignment_point": "bottom_center",
+  "boundary_tie_break": "zone_order",
+  "zones": [
+    {
+      "zone_name": "road_left",
+      "polygon_points": [
+        [
+          465,
+          247
+        ],
+        [
+          424,
+          584
+        ],
+        [
+          328,
+          572
+        ],
+        [
+          248,
+          568
+        ],
+        [
+          162,
+          541
+        ],
+        [
+          105,
+          493
+        ],
+        [
+          34,
+          480
+        ],
+        [
+          5,
+          451
+        ],
+        [
+          5,
+          362
+        ],
+        [
+          199,
+          304
+        ],
+        [
+          329,
+          279
+        ]
+      ],
+      "color_bgr": [
+        0,
+        215,
+        255
+      ],
+      "label_anchor": [
+        107,
+        419
+      ],
+      "description": "Visible image-space road area; both travel directions may be present. Geographic direction is not assigned.",
+      "status": "provisional_AI_geometry",
+      "direction": "not_assigned"
+    },
+    {
+      "zone_name": "road_top",
+      "polygon_points": [
+        [
+          465,
+          247
+        ],
+        [
+          867,
+          226
+        ],
+        [
+          796,
+          181
+        ],
+        [
+          729,
+          157
+        ],
+        [
+          671,
+          119
+        ],
+        [
+          636,
+          87
+        ],
+        [
+          594,
+          68
+        ],
+        [
+          549,
+          65
+        ],
+        [
+          515,
+          94
+        ],
+        [
+          504,
+          137
+        ],
+        [
+          487,
+          190
+        ]
+      ],
+      "color_bgr": [
+        80,
+        220,
+        90
+      ],
+      "label_anchor": [
+        545,
+        165
+      ],
+      "description": "Visible image-space road area; both travel directions may be present. Geographic direction is not assigned.",
+      "status": "provisional_AI_geometry",
+      "direction": "not_assigned"
+    },
+    {
+      "zone_name": "road_right",
+      "polygon_points": [
+        [
+          867,
+          226
+        ],
+        [
+          1070,
+          412
+        ],
+        [
+          1148,
+          491
+        ],
+        [
+          1183,
+          435
+        ],
+        [
+          1221,
+          365
+        ],
+        [
+          1202,
+          321
+        ],
+        [
+          1223,
+          284
+        ],
+        [
+          1165,
+          269
+        ],
+        [
+          1084,
+          250
+        ],
+        [
+          1004,
+          237
+        ]
+      ],
+      "color_bgr": [
+        255,
+        150,
+        65
+      ],
+      "label_anchor": [
+        1040,
+        331
+      ],
+      "description": "Visible image-space road area; both travel directions may be present. Geographic direction is not assigned.",
+      "status": "provisional_AI_geometry",
+      "direction": "not_assigned"
+    },
+    {
+      "zone_name": "junction_center",
+      "polygon_points": [
+        [
+          465,
+          247
+        ],
+        [
+          867,
+          226
+        ],
+        [
+          1070,
+          412
+        ],
+        [
+          1078,
+          542
+        ],
+        [
+          901,
+          612
+        ],
+        [
+          690,
+          657
+        ],
+        [
+          563,
+          674
+        ],
+        [
+          424,
+          584
+        ]
+      ],
+      "color_bgr": [
+        230,
+        90,
+        210
+      ],
+      "label_anchor": [
+        642,
+        420
+      ],
+      "description": "Visible image-space road area; both travel directions may be present. Geographic direction is not assigned.",
+      "status": "provisional_AI_geometry",
+      "direction": "not_assigned"
+    }
+  ],
+  "layout_version": "bellevue_bellevue_ne8th-supplementary-source-v1-20260928",
+  "status": "sparse_AI_reviewed_development_candidate",
+  "purpose": "Model-estimated instantaneous visible vehicles in selected image-space road areas; no calibrated density, flow, speed, queue or congestion labels.",
+  "limitations": [
+    "Outer bounds intentionally exclude sidewalks, buildings, vegetation and near-camera hardware/occluded road portions; this is not complete physical intersection coverage.",
+    "Box bottom-center can be displaced by occlusion, oversized detections and perspective.",
+    "No new human ground truth or exhaustive frame review. Cross-camera counts cover different image-space areas.",
+    "Newport wall background filter is not applicable here and is disabled. Frozen heavy-vehicle rules are a cross-camera development trial, not validated accuracy.",
+    "6点夜间构图稳定，原4区总体对齐；远处目标小、灯光高亮，部分道路靠近画面边缘。"
+  ],
+  "assignment_policy": "Shared edges have identical endpoints; boundary ties choose the first zone in the zones list, with road approaches before center. Polygon interiors do not overlap; outside stays outside.",
+  "review_basis": "Six predetermined actual-PTS source frames reviewed during screening; no full-frame visual or 60-second registration audit was performed on this supplementary source.",
+  "supplementary_provenance": {
+    "reference_layout_sha256": "f392319397b2718736ac2b73fe7f0e927ba368a36ab729b48a0fe6d5f89bd97a",
+    "coordinate_and_assignment_changes": false,
+    "scope": "Six screened actual-PTS frames reviewed by root and independent AI; source-specific engineering trial only."
+  }
+}

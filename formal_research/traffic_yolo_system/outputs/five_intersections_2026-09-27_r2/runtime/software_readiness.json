@@ -1,0 +1,118 @@
+{
+  "status": "passed",
+  "frozen_for_packaging": true,
+  "revision": "r2",
+  "old_job_outputs_untouched": true,
+  "replacement_source": "Bellevue_116th_NE12th__2017-09-10_23-08-29.mp4",
+  "replacement_source_sha256": "785fc1ed24a6a2aff94601b79474c88a63660a751a586697b6bfd9120fd371be",
+  "approved_duration_limits_seconds": {
+    "Bellevue_116th_NE12th": 17.0,
+    "Bellevue_150th_Eastgate": 0.2,
+    "Bellevue_150th_SE38th": 30.0,
+    "Bellevue_Bellevue_NE8th": 0.11
+  },
+  "planned_short_interval_seconds": [
+    60,
+    120
+  ],
+  "candidate_local_evidence": {
+    "reported_by": "source review agent with full original sequential ffprobe decode",
+    "decoded_frames": 106460,
+    "error_log_empty": true,
+    "presentation_eof_seconds": 3600.0097666666666,
+    "maximum_original_frame_duration_seconds": 16.9004,
+    "server_native_audit_still_required": true
+  },
+  "runtime_tests": {
+    "count": 21,
+    "status": "passed",
+    "command": "python -m unittest discover -s formal_research/traffic_yolo_system/outputs/five_intersections_2026-09-27_r2/runtime -p test_server_pipeline.py -v",
+    "coverage": [
+      "exact four source scope",
+      "old failed daytime NE12 source rejected",
+      "Main Test and Newport rejected",
+      "native PTS short boundaries",
+      "stage hash inventory",
+      "bounded retry and dead/live owners",
+      "immutable resume completion",
+      "archive content integrity"
+    ]
+  },
+  "local_codec_smoke": {
+    "state": "passed",
+    "synthetic": true,
+    "pyav_version": "17.1.0",
+    "source_pts_ticks": [
+      0,
+      1,
+      3000,
+      5999,
+      11000,
+      1067025
+    ],
+    "source_duration_ticks": [
+      1,
+      2999,
+      2999,
+      5001,
+      1056025,
+      2588988
+    ],
+    "time_base": "1/90000",
+    "original_check": {
+      "decoded_frames": 6,
+      "packets": 6,
+      "every_pts_exact": true,
+      "every_packet_duration_exact_including_final_frame": true
+    },
+    "annotated_output_check": {
+      "decoded_frames": 6,
+      "packets": 6,
+      "every_pts_exact": true,
+      "every_packet_duration_exact_including_final_frame": true
+    },
+    "source_pixel_checks": true,
+    "native_video_dimensions": [
+      1280,
+      720
+    ],
+    "annotated_dimensions": [
+      1280,
+      870
+    ],
+    "model_or_dataset_used": false,
+    "scope_guards_mocked_for_generated_fixture_only": true,
+    "long_original_presentation_intervals_included_seconds": [
+      11.733611111111111,
+      28.766533333333335
+    ],
+    "elapsed_render_seconds": 0.09959670796524733,
+    "renderer_sha256": "089cc3654d52423a405a959cad065f8dd589be3be9a274591a2da6930baccc72",
+    "render_receipt_sha256": "7183601f0ebc581a6d2034ec908121cf3890e081d8d7be95941f0daa2dec5e9d"
+  },
+  "local_contact_smoke": {
+    "state": "passed",
+    "synthetic_only": true,
+    "three_exact_original_pixel_frames": [
+      2,
+      3,
+      4
+    ],
+    "scope_guards_mocked_for_generated_fixture_only": true,
+    "model_or_dataset_used": false,
+    "contact_helper_sha256": "fa947d77068cbd723b9e08293f6436ff651e02b7e6e8f391f03323f41fd4ebda"
+  },
+  "core_changes_this_revision": false,
+  "server_launch_or_new_research_inference_by_this_agent": false,
+  "code_sha256": {
+    "server_pipeline.py": "6eced6cfff009a898dee482d19651d159774a6b20b17fb5281d2d0f0297d6025",
+    "test_server_pipeline.py": "72f4c2cc2f8246d700bc840d7f31084288636d2f2e8021fd01878bf1d7013774",
+    "smoke_short_contacts.py": "c7dfdf9e833617d5d3537c93e64c083f3b2dfa44ee9deeb5fd182c37333e39ef",
+    "short_contacts.py": "fa947d77068cbd723b9e08293f6436ff651e02b7e6e8f391f03323f41fd4ebda"
+  },
+  "limitations": [
+    "All original PTS/held intervals remain unchanged; duration bound is not interpolation or repair.",
+    "Local replacement-source decoding does not waive the server strict native audit.",
+    "Synthetic rendering verifies implementation, not road-scene model accuracy."
+  ]
+}

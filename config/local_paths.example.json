@@ -1,0 +1,9 @@
+{
+  "trainval_root": "external_data/formal_yolo_trainval_v1",
+  "main_test_root": "external_data/formal_yolo_main_test_v1",
+  "yolo11n_initial_weights": "external_models/yolo11n.pt",
+  "yolo11s_initial_weights": "external_models/yolo11s.pt",
+  "main_test_model": "formal_research/traffic_yolo_system/outputs/training/yolo11s_formal_a100_v1/weights/best.pt",
+  "output_root": "rerun_outputs",
+  "main_test_device": "mps"
+}

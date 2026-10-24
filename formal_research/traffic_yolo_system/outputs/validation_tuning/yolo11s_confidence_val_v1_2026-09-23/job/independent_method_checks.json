@@ -1,0 +1,98 @@
+{
+  "status": "passed",
+  "created_at_utc": "2026-09-23T11:23:42.062482+00:00",
+  "scope": "Independent read-only static review and synthetic matching/aggregation checks; no model loading, inference, training, remote connection or Main Test access.",
+  "scripts": {
+    "compare_validation_confidence.py": {
+      "path": "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/src/compare_validation_confidence.py",
+      "sha256": "0d5b794a299189375cfc5f8bcb7997429368412b681d407e13e2d5d08059e352"
+    },
+    "check_comparison_reference.py": {
+      "path": "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/src/check_comparison_reference.py",
+      "sha256": "4aeb5edd9c52585124bd8796bdf98ec03f0a35a01a82760eb3b13f818a648107"
+    }
+  },
+  "checks": [
+    {
+      "name": "AST parse",
+      "result": "passed"
+    },
+    {
+      "name": "Manual matching cases",
+      "cases": 7,
+      "result": "passed",
+      "coverage": [
+        "duplicate detections and deterministic ties",
+        "wrong class exact overlap",
+        "inclusive IoU 0.5 boundary",
+        "empty GT",
+        "empty predictions",
+        "both empty",
+        "ambiguous graph where descending-IoU greedy is intentionally not maximum-cardinality"
+      ]
+    },
+    {
+      "name": "Independent NumPy broadcast IoU",
+      "scenes": 100,
+      "pairs": 5400,
+      "absolute_tolerance": 1e-12,
+      "result": "passed"
+    },
+    {
+      "name": "Independent class-aware and class-agnostic greedy correspondence",
+      "scenes": 100,
+      "result": "passed"
+    },
+    {
+      "name": "Aggregation golden example",
+      "images": 3,
+      "expected": {
+        "gt": 2,
+        "predictions": 5,
+        "tp": 1,
+        "fp": 4,
+        "fn": 1,
+        "precision": 0.2,
+        "recall": 0.5,
+        "f1": 0.2857142857142857,
+        "empty_gt_images": 2,
+        "predictions_on_empty_gt_images": 2,
+        "empty_gt_images_with_predictions": 1,
+        "count_mae_per_image": 1.0,
+        "count_mean_signed_error": 1.0
+      },
+      "result": "passed"
+    },
+    {
+      "name": "Undefined metric handling",
+      "result": "passed",
+      "details": "P/R/F1 are null when denominator is zero; absent GT but nonzero predictions yields P=0,R=null,F1=0."
+    },
+    {
+      "name": "Grouped summaries and per-class conservation",
+      "result": "passed"
+    },
+    {
+      "name": "Float32 threshold boundary",
+      "result": "parent_fix_verified",
+      "details": "float32(0.35)=0.3499999940395355; final source uses 1e-7 assertion tolerance."
+    }
+  ],
+  "static_review": {
+    "validation_only": "197-entry Validation manifest, validation filename markers, fixed images/val+labels/val paths, full file inventories and SHA256 checks",
+    "thresholds": [
+      0.2,
+      0.25,
+      0.35
+    ],
+    "training": false,
+    "main_test": false,
+    "aggregation": "sum TP/FP/FN before P/R/F1; all images included in count MAE and signed bias",
+    "failure_protection": "existing output rejected; preflight before output; inference failures write failed status and re-raise"
+  },
+  "known_interpretation_limits": [
+    "Full-image predictions against roadway-only labels may count out-of-scope real vehicles as unmatched predictions.",
+    "Fixed-threshold IoU0.5 greedy micro metrics differ from Ultralytics max-F1 class-mean P/R and AP.",
+    "IoU greedy matching does not guarantee maximum cardinality in ambiguous overlaps."
+  ]
+}

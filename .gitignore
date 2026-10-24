@@ -1,0 +1,39 @@
+# Generated caches and environments
+**/__pycache__/
+*.py[cod]
+.DS_Store
+.venv/
+venv/
+.env
+.env.*
+# Unity generated state
+/formal_research/traffic_unity_demo/Library/
+/formal_research/traffic_unity_demo/Temp/
+/formal_research/traffic_unity_demo/Obj/
+/formal_research/traffic_unity_demo/Logs/
+/formal_research/traffic_unity_demo/Builds/
+/formal_research/traffic_unity_demo/UserSettings/
+/formal_research/traffic_unity_web/Library/
+/formal_research/traffic_unity_web/Temp/
+/formal_research/traffic_unity_web/Obj/
+/formal_research/traffic_unity_web/Logs/
+/formal_research/traffic_unity_web/Builds/
+/formal_research/traffic_unity_web/UserSettings/
+# Models are local release-attachment candidates, not ordinary source commits
+*.pt
+*.onnx
+# New verification runs; retain run_001 as the reviewed evidence
+release_checks/*/
+!release_checks/run_001/
+!release_checks/run_001/**
+!release_checks/run_002/
+!release_checks/run_002/**
+!release_checks/run_003/
+!release_checks/run_003/**
+# Machine-specific generated configuration, external inputs and new run outputs
+/config/local_paths.json
+/local_configs/
+/external_data/
+/external_models/
+/rerun_outputs/
+# Never blanket-ignore .meta, JSON/CSV results or all outputs: some are required.

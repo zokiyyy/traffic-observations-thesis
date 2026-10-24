@@ -1,0 +1,21 @@
+{
+  "reviewed_at_utc": "2026-09-24T12:04:24.000925+00:00",
+  "scope": "Bounded read-only review of current live v5 adapter source binding, rule order, original indices and output parity schema",
+  "status": "No blocking issue found in inspected implementation; integration tests and real GPU parity still required",
+  "checks": [
+    "Development split guard runs before input/media/model access",
+    "Source filename, camera, dimensions, source SHA256 and model SHA256 bind live background policy",
+    "Loaded policy hash and optional embedded content equality are checked before inference",
+    "Background second-resolution confirmation precedes cross-class dedup which precedes heavy containment and tracking",
+    "Cross-class local indices are remapped to original raw640 indices",
+    "Containment and trackers retain original raw640 detection identities",
+    "Every selected decoded frame supplies same underlying BGR pixels to640 and1280 predictions",
+    "Per-frame pixel SHA, raw640/raw1280 and allstage audit fields are available for independent archived-pilot reference check",
+    "Source/video EOF checked when selected end equals full source frame count; segmented native PTS tail evidence still fully checked"
+  ],
+  "source_snapshots": {
+    "formal_research/traffic_yolo_system/src/full_video/video.py": "0a8d2e549b9b85efdcc7d6c9ae7a58bddf81f6f908c76b242b0e6ac7559d3db8",
+    "formal_research/traffic_yolo_system/src/full_video/configuration.py": "47bdb564b22150aeb91306cc45ae06bfcef034ba1c06af53d123caf2adfdf2d4",
+    "formal_research/traffic_yolo_system/src/full_video/pts_timing.py": "1b80549b6edf3059276c54d9a91ebbd330a46ad39753c749b3730679b63f1539"
+  }
+}

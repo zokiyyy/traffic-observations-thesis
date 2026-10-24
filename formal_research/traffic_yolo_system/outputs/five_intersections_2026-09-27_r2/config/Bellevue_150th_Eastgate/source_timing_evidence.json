@@ -1,0 +1,569 @@
+{
+  "camera_id": "Bellevue_150th_Eastgate",
+  "source_id": "Bellevue_150th_Eastgate__2017-09-11_17-08-33.mp4",
+  "split": "Validation",
+  "source_sha256": "8b5c1a2d013339b680362d17ce5e59bc7167c72d08e800556318947927ec07cd",
+  "tail_probe": {
+    "source_id": "Bellevue_150th_Eastgate__2017-09-11_17-08-33.mp4",
+    "camera_id": "Bellevue_150th_Eastgate",
+    "split": "Validation",
+    "source_sha256": "8b5c1a2d013339b680362d17ce5e59bc7167c72d08e800556318947927ec07cd",
+    "method": "ffprobe original tail sequential decoded frames; full-source audit remains separate",
+    "probe_start_seconds": 3597.991,
+    "tail_frame_count": 86,
+    "last_frame": {
+      "pts": 323996190,
+      "duration": 3000,
+      "width": 1280,
+      "height": 720
+    },
+    "time_base": "1/90000",
+    "source_end_seconds_exclusive": 3599.991,
+    "ffprobe_stderr": "",
+    "frames": [
+      {
+        "pts": 323741189,
+        "duration": 3002,
+        "width": 1280,
+        "height": 720
+      },
+      {
+        "pts": 323744191,
+        "duration": 3000,
+        "width": 1280,
+        "height": 720
+      },
+      {
+        "pts": 323747191,
+        "duration": 3000,
+        "width": 1280,
+        "height": 720
+      },
+      {
+        "pts": 323750191,
+        "duration": 3000,
+        "width": 1280,
+        "height": 720
+      },
+      {
+        "pts": 323753191,
+        "duration": 2999,
+        "width": 1280,
+        "height": 720
+      },
+      {
+        "pts": 323756190,
+        "duration": 3000,
+        "width": 1280,
+        "height": 720
+      },
+      {
+        "pts": 323759190,
+        "duration": 3001,
+        "width": 1280,
+        "height": 720
+      },
+      {
+        "pts": 323762191,
+        "duration": 2999,
+        "width": 1280,
+        "height": 720
+      },
+      {
+        "pts": 323765190,
+        "duration": 3000,
+        "width": 1280,
+        "height": 720
+      },
+      {
+        "pts": 323768190,
+        "duration": 3000,
+        "width": 1280,
+        "height": 720
+      },
+      {
+        "pts": 323771190,
+        "duration": 3000,
+        "width": 1280,
+        "height": 720
+      },
+      {
+        "pts": 323774190,
+        "duration": 3000,
+        "width": 1280,
+        "height": 720
+      },
+      {
+        "pts": 323777190,
+        "duration": 3000,
+        "width": 1280,
+        "height": 720
+      },
+      {
+        "pts": 323780190,
+        "duration": 3000,
+        "width": 1280,
+        "height": 720
+      },
+      {
+        "pts": 323783190,
+        "duration": 3001,
+        "width": 1280,
+        "height": 720
+      },
+      {
+        "pts": 323786191,
+        "duration": 3000,
+        "width": 1280,
+        "height": 720
+      },
+      {
+        "pts": 323789191,
+        "duration": 2999,
+        "width": 1280,
+        "height": 720
+      },
+      {
+        "pts": 323792190,
+        "duration": 3000,
+        "width": 1280,
+        "height": 720
+      },
+      {
+        "pts": 323795190,
+        "duration": 3000,
+        "width": 1280,
+        "height": 720
+      },
+      {
+        "pts": 323798190,
+        "duration": 3000,
+        "width": 1280,
+        "height": 720
+      },
+      {
+        "pts": 323801190,
+        "duration": 3000,
+        "width": 1280,
+        "height": 720
+      },
+      {
+        "pts": 323804190,
+        "duration": 3001,
+        "width": 1280,
+        "height": 720
+      },
+      {
+        "pts": 323807191,
+        "duration": 2999,
+        "width": 1280,
+        "height": 720
+      },
+      {
+        "pts": 323810190,
+        "duration": 3001,
+        "width": 1280,
+        "height": 720
+      },
+      {
+        "pts": 323813191,
+        "duration": 2999,
+        "width": 1280,
+        "height": 720
+      },
+      {
+        "pts": 323816190,
+        "duration": 3000,
+        "width": 1280,
+        "height": 720
+      },
+      {
+        "pts": 323819190,
+        "duration": 3000,
+        "width": 1280,
+        "height": 720
+      },
+      {
+        "pts": 323822190,
+        "duration": 3000,
+        "width": 1280,
+        "height": 720
+      },
+      {
+        "pts": 323825190,
+        "duration": 3001,
+        "width": 1280,
+        "height": 720
+      },
+      {
+        "pts": 323828191,
+        "duration": 2999,
+        "width": 1280,
+        "height": 720
+      },
+      {
+        "pts": 323831190,
+        "duration": 3000,
+        "width": 1280,
+        "height": 720
+      },
+      {
+        "pts": 323834190,
+        "duration": 3000,
+        "width": 1280,
+        "height": 720
+      },
+      {
+        "pts": 323837190,
+        "duration": 3000,
+        "width": 1280,
+        "height": 720
+      },
+      {
+        "pts": 323840190,
+        "duration": 3000,
+        "width": 1280,
+        "height": 720
+      },
+      {
+        "pts": 323843190,
+        "duration": 3000,
+        "width": 1280,
+        "height": 720
+      },
+      {
+        "pts": 323846190,
+        "duration": 3000,
+        "width": 1280,
+        "height": 720
+      },
+      {
+        "pts": 323849190,
+        "duration": 3000,
+        "width": 1280,
+        "height": 720
+      },
+      {
+        "pts": 323852190,
+        "duration": 3000,
+        "width": 1280,
+        "height": 720
+      },
+      {
+        "pts": 323855190,
+        "duration": 3000,
+        "width": 1280,
+        "height": 720
+      },
+      {
+        "pts": 323858190,
+        "duration": 3001,
+        "width": 1280,
+        "height": 720
+      },
+      {
+        "pts": 323861191,
+        "duration": 3000,
+        "width": 1280,
+        "height": 720
+      },
+      {
+        "pts": 323864191,
+        "duration": 2999,
+        "width": 1280,
+        "height": 720
+      },
+      {
+        "pts": 323867190,
+        "duration": 3001,
+        "width": 1280,
+        "height": 720
+      },
+      {
+        "pts": 323870191,
+        "duration": 2999,
+        "width": 1280,
+        "height": 720
+      },
+      {
+        "pts": 323873190,
+        "duration": 2999,
+        "width": 1280,
+        "height": 720
+      },
+      {
+        "pts": 323876189,
+        "duration": 3002,
+        "width": 1280,
+        "height": 720
+      },
+      {
+        "pts": 323879191,
+        "duration": 2999,
+        "width": 1280,
+        "height": 720
+      },
+      {
+        "pts": 323882190,
+        "duration": 3000,
+        "width": 1280,
+        "height": 720
+      },
+      {
+        "pts": 323885190,
+        "duration": 3001,
+        "width": 1280,
+        "height": 720
+      },
+      {
+        "pts": 323888191,
+        "duration": 2998,
+        "width": 1280,
+        "height": 720
+      },
+      {
+        "pts": 323891189,
+        "duration": 3000,
+        "width": 1280,
+        "height": 720
+      },
+      {
+        "pts": 323894189,
+        "duration": 3001,
+        "width": 1280,
+        "height": 720
+      },
+      {
+        "pts": 323897190,
+        "duration": 2999,
+        "width": 1280,
+        "height": 720
+      },
+      {
+        "pts": 323900189,
+        "duration": 3001,
+        "width": 1280,
+        "height": 720
+      },
+      {
+        "pts": 323903190,
+        "duration": 3001,
+        "width": 1280,
+        "height": 720
+      },
+      {
+        "pts": 323906191,
+        "duration": 2999,
+        "width": 1280,
+        "height": 720
+      },
+      {
+        "pts": 323909190,
+        "duration": 3001,
+        "width": 1280,
+        "height": 720
+      },
+      {
+        "pts": 323912191,
+        "duration": 3000,
+        "width": 1280,
+        "height": 720
+      },
+      {
+        "pts": 323915191,
+        "duration": 2998,
+        "width": 1280,
+        "height": 720
+      },
+      {
+        "pts": 323918189,
+        "duration": 3001,
+        "width": 1280,
+        "height": 720
+      },
+      {
+        "pts": 323921190,
+        "duration": 3000,
+        "width": 1280,
+        "height": 720
+      },
+      {
+        "pts": 323924190,
+        "duration": 3000,
+        "width": 1280,
+        "height": 720
+      },
+      {
+        "pts": 323927190,
+        "duration": 3000,
+        "width": 1280,
+        "height": 720
+      },
+      {
+        "pts": 323930190,
+        "duration": 3001,
+        "width": 1280,
+        "height": 720
+      },
+      {
+        "pts": 323933191,
+        "duration": 2999,
+        "width": 1280,
+        "height": 720
+      },
+      {
+        "pts": 323936190,
+        "duration": 3001,
+        "width": 1280,
+        "height": 720
+      },
+      {
+        "pts": 323939191,
+        "duration": 2998,
+        "width": 1280,
+        "height": 720
+      },
+      {
+        "pts": 323942189,
+        "duration": 3001,
+        "width": 1280,
+        "height": 720
+      },
+      {
+        "pts": 323945190,
+        "duration": 3000,
+        "width": 1280,
+        "height": 720
+      },
+      {
+        "pts": 323948190,
+        "duration": 2999,
+        "width": 1280,
+        "height": 720
+      },
+      {
+        "pts": 323951189,
+        "duration": 3002,
+        "width": 1280,
+        "height": 720
+      },
+      {
+        "pts": 323954191,
+        "duration": 3000,
+        "width": 1280,
+        "height": 720
+      },
+      {
+        "pts": 323957191,
+        "duration": 2999,
+        "width": 1280,
+        "height": 720
+      },
+      {
+        "pts": 323960190,
+        "duration": 3001,
+        "width": 1280,
+        "height": 720
+      },
+      {
+        "pts": 323963191,
+        "duration": 2998,
+        "width": 1280,
+        "height": 720
+      },
+      {
+        "pts": 323966189,
+        "duration": 3000,
+        "width": 1280,
+        "height": 720
+      },
+      {
+        "pts": 323969189,
+        "duration": 3001,
+        "width": 1280,
+        "height": 720
+      },
+      {
+        "pts": 323972190,
+        "duration": 3000,
+        "width": 1280,
+        "height": 720
+      },
+      {
+        "pts": 323975190,
+        "duration": 3000,
+        "width": 1280,
+        "height": 720
+      },
+      {
+        "pts": 323978190,
+        "duration": 3000,
+        "width": 1280,
+        "height": 720
+      },
+      {
+        "pts": 323981190,
+        "duration": 2999,
+        "width": 1280,
+        "height": 720
+      },
+      {
+        "pts": 323984189,
+        "duration": 3000,
+        "width": 1280,
+        "height": 720
+      },
+      {
+        "pts": 323987189,
+        "duration": 3001,
+        "width": 1280,
+        "height": 720
+      },
+      {
+        "pts": 323990190,
+        "duration": 2999,
+        "width": 1280,
+        "height": 720
+      },
+      {
+        "pts": 323993189,
+        "duration": 3001,
+        "width": 1280,
+        "height": 720
+      },
+      {
+        "pts": 323996190,
+        "duration": 3000,
+        "width": 1280,
+        "height": 720
+      }
+    ]
+  },
+  "packet_metadata_screen": {
+    "camera_id": "Bellevue_150th_Eastgate",
+    "source_id": "Bellevue_150th_Eastgate__2017-09-11_17-08-33.mp4",
+    "split": "Validation",
+    "source_sha256": "8b5c1a2d013339b680362d17ce5e59bc7167c72d08e800556318947927ec07cd",
+    "method": "ffprobe video packet metadata only; decoded native timing audit remains required",
+    "packet_count": 107893,
+    "max_packet_duration_seconds": 0.16665555555555556,
+    "packet_duration_over_0_11_seconds": [
+      {
+        "pts_ticks": 56513863,
+        "source_seconds": 627.9318111111111,
+        "duration_ticks": 14999,
+        "duration_seconds": 0.16665555555555556
+      },
+      {
+        "pts_ticks": 61904851,
+        "source_seconds": 687.8316777777778,
+        "duration_ticks": 11998,
+        "duration_seconds": 0.1333111111111111
+      }
+    ],
+    "stderr": ""
+  },
+  "declared_max_frame_duration_seconds": 0.2,
+  "duration_limit_basis": "Predeclared source-specific upper bound above observed original packet durations; native decoded per-frame audit must still confirm. No input durations are changed.",
+  "original_hold_warning": "A long frame duration is one observed frame presented for longer, not continuing new observations. Duration-weighted count/statistics over such spans have limited temporal evidence."
+}

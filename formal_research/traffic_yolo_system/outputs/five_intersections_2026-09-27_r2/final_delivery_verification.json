@@ -1,0 +1,74 @@
+{
+  "checked_at": "2026-09-27T19:04:39.729156+00:00",
+  "completed": true,
+  "local_verified_count": 5,
+  "cameras": [
+    {
+      "camera": "Bellevue_116th_NE12th",
+      "source_id": "Bellevue_116th_NE12th__2017-09-10_23-08-29.mp4",
+      "completed": true,
+      "video_verified": true,
+      "four_files_rehashed": true,
+      "pts_sidecar_verified": true,
+      "video_sha256": "ea4ca5863d37797646b5c3d5f9af5d8d366e176d2fc416a7ee91473b40859b2b",
+      "video_path": "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/five_intersections_2026-09-27_r2/delivery/Bellevue_116th_NE12th/annotated.mp4"
+    },
+    {
+      "camera": "Bellevue_150th_Eastgate",
+      "source_id": "Bellevue_150th_Eastgate__2017-09-11_17-08-33.mp4",
+      "completed": true,
+      "video_verified": true,
+      "four_files_rehashed": true,
+      "pts_sidecar_verified": true,
+      "video_sha256": "469e58ab43343e87b4d06bd61e5a910802a79ff71f9ed97af398041a1c334c8f",
+      "video_path": "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/five_intersections_2026-09-27_r2/delivery/Bellevue_150th_Eastgate/annotated.mp4"
+    },
+    {
+      "camera": "Bellevue_150th_SE38th",
+      "source_id": "Bellevue_150th_SE38th__2017-09-11_14-08-32.mp4",
+      "completed": true,
+      "video_verified": true,
+      "four_files_rehashed": true,
+      "pts_sidecar_verified": true,
+      "video_sha256": "634a551c6cbf7d66c13d2f40fd06eda70cceeea33a775c216ad6903e020f089f",
+      "video_path": "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/five_intersections_2026-09-27_r2/delivery/Bellevue_150th_SE38th/annotated.mp4"
+    },
+    {
+      "camera": "Bellevue_Bellevue_NE8th",
+      "source_id": "Bellevue_Bellevue_NE8th__2017-09-11_12-08-31.mp4",
+      "completed": true,
+      "video_verified": true,
+      "four_files_rehashed": true,
+      "pts_sidecar_verified": true,
+      "video_sha256": "fe833fe4a337bdbff2ac9f1cc0a590a1d8bffb348af4fb42478e301958e4552b",
+      "video_path": "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/five_intersections_2026-09-27_r2/delivery/Bellevue_Bellevue_NE8th/annotated.mp4"
+    },
+    {
+      "camera": "Bellevue_150th_Newport",
+      "completed": true,
+      "video_verified": true,
+      "reused": true,
+      "files": [
+        {
+          "artifact": "summary_archive",
+          "path": "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/newport_full_v5_2026-09-24/newport_full_v5_summary.tar.gz",
+          "sha256": "ca13484578d1696d838675f114f4f7b88d9090ef1159f95dcbed135cad6381de",
+          "bytes": 5661875
+        },
+        {
+          "artifact": "full_data_archive",
+          "path": "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/newport_full_v5_2026-09-24/newport_full_v5_data.tar.gz",
+          "sha256": "d8ac1cedc80688f4427d7035ae7716f745239dfc6d84c2fe6d06c875e2578b66",
+          "bytes": 341304586
+        },
+        {
+          "artifact": "rendered_video",
+          "path": "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/newport_full_v5_2026-09-24/presentation/complete_validation_v5.mp4",
+          "sha256": "ed38390a0b2c3f55146755b2f80767bcde33685f9a6f91b502b9422ee446acab",
+          "bytes": 1431780108
+        }
+      ]
+    }
+  ],
+  "accuracy_claimed": false
+}

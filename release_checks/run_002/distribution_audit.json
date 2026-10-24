@@ -1,0 +1,19 @@
+{
+  "repository_payload_check_passed": true,
+  "required_files": 1535,
+  "missing_required_files": [],
+  "extraction_records_included": 12,
+  "optional_models_excluded_from_git": 2,
+  "strict_missing_model_rejected": true,
+  "corrupt_present_model_rejected": true,
+  "local_models_strict_check_passed": true,
+  "unity_missing_image_folders_preserved": true,
+  "config_generation_passed": true,
+  "image_label_files_present": 0,
+  "image_label_files_required": 368,
+  "generated_configs_preserve_original_hashes_and_training_parameters": true,
+  "overwrite_refused": true,
+  "git_selected_files_at_test": 1561,
+  "git_selected_bytes_at_test": 250313638,
+  "no_remote_or_upload": true
+}

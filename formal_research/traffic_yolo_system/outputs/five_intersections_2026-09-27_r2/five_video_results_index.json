@@ -1,0 +1,56 @@
+{
+  "completed": true,
+  "count": 5,
+  "results": [
+    {
+      "intersection": "Newport",
+      "video": "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/newport_full_v5_2026-09-24/presentation/complete_validation_v5.mp4",
+      "data": "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/newport_full_v5_2026-09-24/newport_full_v5_data.tar.gz",
+      "report": "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/newport_full_v5_2026-09-24/一小时验证结果详解.md",
+      "frames": 107932,
+      "duration_seconds": 3600.0151444444446,
+      "analysis_minutes": 61.94,
+      "render_minutes": 42.4
+    },
+    {
+      "intersection": "NE12th",
+      "video": "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/five_intersections_2026-09-27_r2/delivery/Bellevue_116th_NE12th/annotated.mp4",
+      "data": "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/five_intersections_2026-09-27_r2/delivery/Bellevue_116th_NE12th/data.tar.gz",
+      "report": "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/five_intersections_2026-09-27_r2/delivery/Bellevue_116th_NE12th/NE12th结果说明.md",
+      "frames": 106460,
+      "duration_seconds": 3600.0097666666666,
+      "analysis_minutes": 25.275723782916128,
+      "render_minutes": 39.13031256808317
+    },
+    {
+      "intersection": "Eastgate",
+      "video": "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/five_intersections_2026-09-27_r2/delivery/Bellevue_150th_Eastgate/annotated.mp4",
+      "data": "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/five_intersections_2026-09-27_r2/delivery/Bellevue_150th_Eastgate/data.tar.gz",
+      "report": "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/five_intersections_2026-09-27_r2/delivery/Bellevue_150th_Eastgate/Eastgate结果说明.md",
+      "frames": 107892,
+      "duration_seconds": 3599.991,
+      "analysis_minutes": 43.64119973169969,
+      "render_minutes": 50.25880721920014
+    },
+    {
+      "intersection": "SE38th",
+      "video": "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/five_intersections_2026-09-27_r2/delivery/Bellevue_150th_SE38th/annotated.mp4",
+      "data": "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/five_intersections_2026-09-27_r2/delivery/Bellevue_150th_SE38th/data.tar.gz",
+      "report": "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/five_intersections_2026-09-27_r2/delivery/Bellevue_150th_SE38th/SE38th结果说明.md",
+      "frames": 104997,
+      "duration_seconds": 3600.0297333333333,
+      "analysis_minutes": 35.3420651002496,
+      "render_minutes": 43.191532030249554
+    },
+    {
+      "intersection": "NE8th",
+      "video": "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/five_intersections_2026-09-27_r2/delivery/Bellevue_Bellevue_NE8th/annotated.mp4",
+      "data": "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/five_intersections_2026-09-27_r2/delivery/Bellevue_Bellevue_NE8th/data.tar.gz",
+      "report": "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/five_intersections_2026-09-27_r2/delivery/Bellevue_Bellevue_NE8th/NE8th结果说明.md",
+      "frames": 107974,
+      "duration_seconds": 3600.0026666666668,
+      "analysis_minutes": 45.95499162648339,
+      "render_minutes": 53.47879998508336
+    }
+  ]
+}

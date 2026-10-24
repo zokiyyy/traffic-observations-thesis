@@ -1,0 +1,57 @@
+{
+  "status": "PASS",
+  "reviewed_with": "view_image on every final chart/sample",
+  "chart_layout": "Initial footer overlapped x labels; fixed and re-rendered. Final labels, counts and notes clear.",
+  "scope": "Only saved Validation predictions were visualized; no model inference, source edits, GT edits or Main Test access.",
+  "visual_observations": {
+    "F0480": "Many small/distant objects in a busy day scene. Several orange boxes disappear at 0.35; one matched car box with score 0.34 disappears on the right approach. The metrics show FP -6 and TP -1.",
+    "F0178": "Motorcycle next to a silver car is annotated. A green motorcycle prediction with confidence 0.27 is visible at 0.25; no motorcycle box is visible there at 0.35. Neighboring car boxes remain.",
+    "F0794": "At the lower right vehicle, the matched truck box with score 0.28 disappears at 0.35, while orange car 0.73 remains at the same vehicle. Loss is correct-class match, not complete loss of a vehicle box.",
+    "F0226": "Near the upper-left annotated vehicle, an orange car 0.28 box disappears while all four matched boxes remain.",
+    "F1018": "The left approach contains orange low-confidence boxes at 0.25; at 0.35 the 18 matched boxes remain and the three unmatched boxes are absent."
+  },
+  "files": [
+    {
+      "filename": "confidence_micro_metrics.png",
+      "width": 2124,
+      "height": 1206,
+      "bytes": 146351
+    },
+    {
+      "filename": "01_maximum_fp_reduction.jpg",
+      "width": 2968,
+      "height": 777,
+      "bytes": 1083494
+    },
+    {
+      "filename": "02_motorcycle_tradeoff.jpg",
+      "width": 2968,
+      "height": 777,
+      "bytes": 1105573
+    },
+    {
+      "filename": "03_truck_tradeoff.jpg",
+      "width": 2968,
+      "height": 777,
+      "bytes": 789198
+    },
+    {
+      "filename": "04_night_change.jpg",
+      "width": 2968,
+      "height": 777,
+      "bytes": 834844
+    },
+    {
+      "filename": "05_reduction_without_tp_loss.jpg",
+      "width": 2968,
+      "height": 777,
+      "bytes": 998337
+    },
+    {
+      "filename": "06_motorcycle_crop.jpg",
+      "width": 2968,
+      "height": 949,
+      "bytes": 732917
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "completed": true,
+  "scope": "Added saved 20/30/60-second rule sensitivity to Evaluation; replay rule unchanged.",
+  "builds": {
+    "mac": "Succeeded, 0 errors, 1 pre-existing warning",
+    "web": "Succeeded, 0 errors, 1 pre-existing warning"
+  },
+  "browser_checks": {
+    "evaluation_opens": true,
+    "saved_rule_counts_and_changes_visible": true,
+    "both_tabs_switch": true,
+    "back_to_replay": true,
+    "narrow_viewport_entire_canvas_visible": true,
+    "console_warnings_or_errors": []
+  },
+  "source_inputs_sha256_verified": 5,
+  "existing_analysis_files_unchanged": 35,
+  "proof_screenshot": "rules_preview.jpg",
+  "native_gui_checks": "Not repeated for this revision; native compilation passed.",
+  "external_publication": "Not performed",
+  "preview_url": "http://127.0.0.1:8876/"
+}

@@ -1,0 +1,5 @@
+# Versions recorded from the traffic-yolo environment on 2026-08-31.
+ultralytics==8.4.115
+torch==2.13.0
+PyYAML==6.0.3
+Pillow==12.3.0

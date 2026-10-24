@@ -1,0 +1,51 @@
+{
+  "passed": true,
+  "note": "full_valid_window is coverage; effective eligibility also requires complete and zero held duration. All original flags remain untouched.",
+  "results": [
+    {
+      "camera": "Newport",
+      "zone_count": 4,
+      "window_count": 361,
+      "all_source_observations_and_thresholds_unchanged": true,
+      "null_observation_fields_preserved": 496,
+      "half_open_confirmation_checks": 1446,
+      "passed": true
+    },
+    {
+      "camera": "NE12th",
+      "zone_count": 5,
+      "window_count": 361,
+      "all_source_observations_and_thresholds_unchanged": true,
+      "null_observation_fields_preserved": 3571,
+      "half_open_confirmation_checks": 1446,
+      "passed": true
+    },
+    {
+      "camera": "Eastgate",
+      "zone_count": 5,
+      "window_count": 360,
+      "all_source_observations_and_thresholds_unchanged": true,
+      "null_observation_fields_preserved": 738,
+      "half_open_confirmation_checks": 1442,
+      "passed": true
+    },
+    {
+      "camera": "SE38th",
+      "zone_count": 4,
+      "window_count": 361,
+      "all_source_observations_and_thresholds_unchanged": true,
+      "null_observation_fields_preserved": 616,
+      "half_open_confirmation_checks": 1446,
+      "passed": true
+    },
+    {
+      "camera": "NE8th",
+      "zone_count": 4,
+      "window_count": 361,
+      "all_source_observations_and_thresholds_unchanged": true,
+      "null_observation_fields_preserved": 126,
+      "half_open_confirmation_checks": 1446,
+      "passed": true
+    }
+  ]
+}

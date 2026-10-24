@@ -1,0 +1,44 @@
+{
+  "status": "complete",
+  "scope": "One-hour Newport Validation offline English demonstration in the Unity Editor on this Mac",
+  "editor_version": "6000.6.3f1",
+  "data_sha256": "63e22138694531226fc4cd2fc31be104ab8a806f3bfc65c29f786dcc424ccd41",
+  "video_sha256": "ed38390a0b2c3f55146755b2f80767bcde33685f9a6f91b502b9422ee446acab",
+  "source_frame_count": 107932,
+  "window_count": 361,
+  "region_window_records": 1444,
+  "state_software_tests_passed": 18,
+  "real_player_checks_passed": 11,
+  "natural_eof_source_last_frame_visually_confirmed": true,
+  "standalone_application_built": false,
+  "traffic_state_accuracy_evaluated": false,
+  "english_artifacts": [
+    "START_HERE.md",
+    "README_Unity.md",
+    "Demo_Preview.png",
+    "../traffic_yolo_system/outputs/traffic_state_demo_newport_2026-09-27/traffic_state_overview.png",
+    "../traffic_yolo_system/outputs/traffic_state_demo_newport_2026-09-27/TRAFFIC_STATE_DEMO_REPORT.md"
+  ],
+  "verification": [
+    "Verification/runtime_verification.json",
+    "Verification/visual_review.json"
+  ],
+  "limitation": "End seeking can show the penultimate source frame; natural EOF shows source frame107931. Unity navigation time is not an exact source-PTS readout. State summaries follow reported presentation seconds, with possible frame-level boundary quantization.",
+  "design_revision": "light_video_focused_2026-09-27",
+  "ui_language": "English",
+  "chart_language": "English",
+  "user_guide_language": "Chinese",
+  "analysis_explanation_language": "Chinese",
+  "rendering_resolution": [
+    2400,
+    1334
+  ],
+  "last_runtime_verification_finished_utc": "2026-09-27T06:30:43.0754240Z",
+  "preview_file": "Demo_Preview.png",
+  "preview_sha256": "fe97f11c48de32f71d1a0ad2504b769c78cc5718463b2e2860bdd24d844f8063",
+  "chinese_reading_entries": [
+    "这一版怎么查看.md",
+    "../traffic_yolo_system/outputs/traffic_state_demo_newport_2026-09-27/一小时交通状态分析说明.md",
+    "../traffic_yolo_system/outputs/traffic_state_demo_newport_2026-09-27/图表怎么看.md"
+  ]
+}

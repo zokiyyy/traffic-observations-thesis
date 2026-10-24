@@ -1,0 +1,39 @@
+{
+  "schema_version": 1,
+  "camera_id": "Bellevue_150th_Newport",
+  "source_ids": [
+    "Bellevue_150th_Newport__2017-09-11_08-08-31.mp4"
+  ],
+  "roi_version": "newport-v2-full-source-candidate-20260924",
+  "layout_path": "roi_candidate.json",
+  "allowed_source_intervals_seconds": [
+    [
+      0,
+      3600.0151444444446
+    ]
+  ],
+  "applicability_basis": "预先固定13个原图/ROI抽样时点并由AI核查，辅以61个每分钟静态纹理配准样本；支持该完整来源同一v2几何候选，不排除稀疏样本之间短暂变化；非人工标注。时域由全帧PTS+解码审计限定。",
+  "applicability_evidence": [
+    {
+      "path": "../../../outputs/full_video_preparation_newport_2026-09-24/roi_review/sample_plan.json",
+      "sha256": "6d7914aca1e4f4a8d9f9c963c54b90f126b8894f6496bc14dcb30d74eda957c8"
+    },
+    {
+      "path": "../../../outputs/full_video_preparation_newport_2026-09-24/roi_review/extraction_evidence.json",
+      "sha256": "c06172d0947d08c6354a4e158b1c9b297aa22cba788da225aa7aa01b369143f7"
+    },
+    {
+      "path": "../../../outputs/full_video_preparation_newport_2026-09-24/roi_review/AI稀疏构图核查.json",
+      "sha256": "8b7b0c6983ee6fbb4da1a91cacb1a9ac66e68b4688dc9350523fe8d2bb5c41d2"
+    },
+    {
+      "path": "../../../outputs/full_video_preparation_newport_2026-09-24/time_audit/audit_runtime_envelope.json",
+      "sha256": "a75e4cde70996762281cf3d92faf04d0c943dec29892a16040e9a58878390d36"
+    }
+  ],
+  "status": "full_source_geometry_candidate_method_pending",
+  "background_filter": {
+    "mode": "none"
+  },
+  "background_status": "Engineering placeholder only: clip-bound v4 policy is not extrapolated; definitive full-source strategy must be integrated and verified in a new run version."
+}

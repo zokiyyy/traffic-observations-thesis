@@ -1,0 +1,90 @@
+{
+  "passed": true,
+  "check_count": 19,
+  "checks": [
+    {
+      "name": "linear_interpolation_P33_P67_P25",
+      "passed": true
+    },
+    {
+      "name": "29_motion_calibration_windows_keep_P25_unavailable",
+      "passed": true
+    },
+    {
+      "name": "30_motion_calibration_windows_enable_P25",
+      "passed": true
+    },
+    {
+      "name": "held_missing_tail_excluded_from_calibration",
+      "passed": true
+    },
+    {
+      "name": "equal_count_thresholds_positive_count_unknown",
+      "passed": true
+    },
+    {
+      "name": "equal_count_thresholds_zero_observation_keeps_frozen_empty",
+      "passed": true
+    },
+    {
+      "name": "count_threshold_boundary_inclusive_low_and_middle",
+      "passed": true
+    },
+    {
+      "name": "20_seconds_not_persistent_30_seconds_persistent",
+      "passed": true
+    },
+    {
+      "name": "motion_P25_equality_counts_as_relative_low",
+      "passed": true
+    },
+    {
+      "name": "held_resets_both_persistence_clocks",
+      "passed": true
+    },
+    {
+      "name": "missing_resets_both_persistence_clocks",
+      "passed": true
+    },
+    {
+      "name": "tail_resets_both_persistence_clocks",
+      "passed": true
+    },
+    {
+      "name": "noncontiguous_PTS_resets_both_clocks",
+      "passed": true
+    },
+    {
+      "name": "motion_missing_only_resets_joint_clock_count_only_can_persist",
+      "passed": true
+    },
+    {
+      "name": "motion_above_P25_breaks_joint_not_count_clock",
+      "passed": true
+    },
+    {
+      "name": "absent_P25_blocks_joint_but_frozen_count_only_can_persist",
+      "passed": true
+    },
+    {
+      "name": "no_observation_resets_clocks_and_is_not_free_flow",
+      "passed": true
+    },
+    {
+      "name": "count_at_P67_is_not_high_and_breaks_both_clocks",
+      "passed": true
+    },
+    {
+      "name": "supplementary_NE12th_Train_short_source_identity",
+      "passed": true
+    }
+  ],
+  "engine_path": "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/five_intersection_states_2026-09-28_v1/code/engine.py",
+  "engine_sha256": "1ca1c8f7eb024e99b78e96cb72c2adbd545ba61635c950f7d70fdf0da5062390",
+  "input_motion_path": "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/paired_case_comparison_2026-09-28_v1/motion/Supplementary/NE12th/motion_10s.json",
+  "input_motion_sha256": "94bfa0490c242bf834026c00490c9e30b64cf038cb2483d0c0c2994a4dcdde1b",
+  "test_script_sha256": "57d9d44c639d260a1e0da5394adb6ec874a785a24011ba389f0baa6bd0ec1663",
+  "scope": "frozen engine boundary behavior and input identity; production evidence_state overlay checked independently after outputs land",
+  "no_raw_frames_read": true,
+  "synthetic_cases_are_software_tests_not_traffic_accuracy": true
+}

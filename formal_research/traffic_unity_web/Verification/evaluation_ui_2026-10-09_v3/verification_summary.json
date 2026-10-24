@@ -1,0 +1,38 @@
+{
+  "completed": true,
+  "changes": [
+    "Saved Validation detection threshold comparison",
+    "Three saved detection comparison cases",
+    "Four Evaluation tabs"
+  ],
+  "builds": {
+    "mac": "Succeeded, 0 errors, 1 pre-existing warning",
+    "web": "Succeeded, 0 errors, 1 pre-existing warning"
+  },
+  "browser_checks": {
+    "threshold_table_and_scope_visible": true,
+    "F1018_image_and_caption_visible": true,
+    "F0178_cropped_image_and_scope_visible": true,
+    "F0794_image_and_class_loss_caption_visible": true,
+    "existing_detection_and_tracking_tab_visible": true,
+    "existing_persistence_comparison_visible": true,
+    "back_to_replay": true,
+    "console_warnings_or_errors": []
+  },
+  "source_checks": {
+    "validation_statistics_verified": true,
+    "selected_case_metrics_match_saved_predictions": true,
+    "case_image_hashes_match_originals_in_both_projects": true,
+    "existing_analysis_files_unchanged": 35
+  },
+  "tracking_accuracy": "Not independently evaluated; no new trajectory reference labels",
+  "native_gui_checks": "Not repeated in this revision; native compilation succeeded",
+  "screenshots": [
+    "thresholds_preview.jpg",
+    "case_F1018_preview.jpg",
+    "case_F0178_preview.jpg",
+    "case_F0794_preview.jpg"
+  ],
+  "external_publication": "Not performed",
+  "preview_url": "http://127.0.0.1:8876/"
+}

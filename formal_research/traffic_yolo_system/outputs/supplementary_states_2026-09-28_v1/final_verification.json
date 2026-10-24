@@ -1,0 +1,630 @@
+{
+  "completed": true,
+  "created_at": "2026-09-28T11:32:39.751043+00:00",
+  "version": "supplementary-source-relative-states-v1",
+  "cases": 5,
+  "source_windows": 1485,
+  "region_windows": 6342,
+  "threshold_regions": 22,
+  "direct_input_hashes_rechecked": 36,
+  "final_checks": 234,
+  "report_links_checked": 77,
+  "boundary_tests": 30,
+  "independent_numeric_verification_passed": true,
+  "figures_visually_reviewed": 10,
+  "png_pdf_pairs": 10,
+  "source_local_calibration_only": true,
+  "fixed_baseline_transfer_performed": false,
+  "cached_observations_preserved": true,
+  "original_outputs_unchanged": true,
+  "main_test_images_labels_read": false,
+  "unity_modified": false,
+  "no_new_inference_or_full_frame_pass": true,
+  "accuracy_evaluated": false,
+  "checks": [
+    "unchanged source /Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/five_intersection_states_2026-09-28_v1/final_state_verification.json",
+    "input bytes /Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/five_intersection_states_2026-09-28_v1/final_state_verification.json",
+    "unchanged source /Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/supplementary_five_2026-09-28_v3_repair/final_delivery_verification.json",
+    "input bytes /Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/supplementary_five_2026-09-28_v3_repair/final_delivery_verification.json",
+    "unchanged source /Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/supplementary_five_2026-09-28_v3_repair/supplementary_results_index.json",
+    "input bytes /Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/supplementary_five_2026-09-28_v3_repair/supplementary_results_index.json",
+    "unchanged source /Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/paired_case_comparison_2026-09-28_v1/final_verification.json",
+    "input bytes /Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/paired_case_comparison_2026-09-28_v1/final_verification.json",
+    "unchanged source /Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/paired_case_comparison_2026-09-28_v1/motion/verification.json",
+    "input bytes /Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/paired_case_comparison_2026-09-28_v1/motion/verification.json",
+    "unchanged source /Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/paired_case_comparison_2026-09-28_v1/motion/independent_verification.json",
+    "input bytes /Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/paired_case_comparison_2026-09-28_v1/motion/independent_verification.json",
+    "unchanged source /Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/paired_case_comparison_2026-09-28_v1/motion/input_manifest.json",
+    "input bytes /Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/paired_case_comparison_2026-09-28_v1/motion/input_manifest.json",
+    "unchanged source /Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/paired_case_comparison_2026-09-28_v1/audit/comparability_audit.json",
+    "input bytes /Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/paired_case_comparison_2026-09-28_v1/audit/comparability_audit.json",
+    "unchanged source /Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/supplementary_five_2026-09-28_v3_repair/补充批次完整结果与说明.md",
+    "input bytes /Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/supplementary_five_2026-09-28_v3_repair/补充批次完整结果与说明.md",
+    "unchanged source /Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/five_intersection_states_2026-09-28_v1/五路口交通状态分析总报告.md",
+    "input bytes /Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/five_intersection_states_2026-09-28_v1/五路口交通状态分析总报告.md",
+    "unchanged source /Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/paired_case_comparison_2026-09-28_v1/五路口原案例与补充时段独立对比总报告.md",
+    "input bytes /Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/paired_case_comparison_2026-09-28_v1/五路口原案例与补充时段独立对比总报告.md",
+    "unchanged source /Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/paired_case_comparison_2026-09-28_v1/motion/Supplementary/Newport/motion_10s.json",
+    "input bytes /Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/paired_case_comparison_2026-09-28_v1/motion/Supplementary/Newport/motion_10s.json",
+    "unchanged source /Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/supplementary_five_2026-09-28_v3_repair/delivery/Bellevue_150th_Newport/full_data_archive/attempt-000001/completion.json",
+    "input bytes /Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/supplementary_five_2026-09-28_v3_repair/delivery/Bellevue_150th_Newport/full_data_archive/attempt-000001/completion.json",
+    "unchanged source /Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/supplementary_five_2026-09-28_v3_repair/delivery/Bellevue_150th_Newport/summary_archive/output/qc_summary.json",
+    "input bytes /Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/supplementary_five_2026-09-28_v3_repair/delivery/Bellevue_150th_Newport/summary_archive/output/qc_summary.json",
+    "unchanged source /Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/supplementary_five_2026-09-28_v3_repair/config/Bellevue_150th_Newport/roi.json",
+    "input bytes /Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/supplementary_five_2026-09-28_v3_repair/config/Bellevue_150th_Newport/roi.json",
+    "unchanged source /Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/supplementary_five_2026-09-28_v3_repair/delivery/Bellevue_150th_Newport/full_data_archive/attempt-000001/windows.jsonl",
+    "input bytes /Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/supplementary_five_2026-09-28_v3_repair/delivery/Bellevue_150th_Newport/full_data_archive/attempt-000001/windows.jsonl",
+    "unchanged source /Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/paired_case_comparison_2026-09-28_v1/motion/Supplementary/NE12th/motion_10s.json",
+    "input bytes /Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/paired_case_comparison_2026-09-28_v1/motion/Supplementary/NE12th/motion_10s.json",
+    "unchanged source /Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/supplementary_five_2026-09-28_v3_repair/delivery/Bellevue_116th_NE12th/full_data_archive/attempt-000001/completion.json",
+    "input bytes /Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/supplementary_five_2026-09-28_v3_repair/delivery/Bellevue_116th_NE12th/full_data_archive/attempt-000001/completion.json",
+    "unchanged source /Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/supplementary_five_2026-09-28_v3_repair/delivery/Bellevue_116th_NE12th/summary_archive/output/qc_summary.json",
+    "input bytes /Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/supplementary_five_2026-09-28_v3_repair/delivery/Bellevue_116th_NE12th/summary_archive/output/qc_summary.json",
+    "unchanged source /Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/supplementary_five_2026-09-28_v3_repair/config/Bellevue_116th_NE12th/roi.json",
+    "input bytes /Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/supplementary_five_2026-09-28_v3_repair/config/Bellevue_116th_NE12th/roi.json",
+    "unchanged source /Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/supplementary_five_2026-09-28_v3_repair/delivery/Bellevue_116th_NE12th/full_data_archive/attempt-000001/windows.jsonl",
+    "input bytes /Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/supplementary_five_2026-09-28_v3_repair/delivery/Bellevue_116th_NE12th/full_data_archive/attempt-000001/windows.jsonl",
+    "unchanged source /Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/paired_case_comparison_2026-09-28_v1/motion/Supplementary/Eastgate/motion_10s.json",
+    "input bytes /Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/paired_case_comparison_2026-09-28_v1/motion/Supplementary/Eastgate/motion_10s.json",
+    "unchanged source /Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/supplementary_five_2026-09-28_v3_repair/delivery/Bellevue_150th_Eastgate/full_data_archive/attempt-000001/completion.json",
+    "input bytes /Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/supplementary_five_2026-09-28_v3_repair/delivery/Bellevue_150th_Eastgate/full_data_archive/attempt-000001/completion.json",
+    "unchanged source /Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/supplementary_five_2026-09-28_v3_repair/delivery/Bellevue_150th_Eastgate/summary_archive/output/qc_summary.json",
+    "input bytes /Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/supplementary_five_2026-09-28_v3_repair/delivery/Bellevue_150th_Eastgate/summary_archive/output/qc_summary.json",
+    "unchanged source /Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/supplementary_five_2026-09-28_v3_repair/config/Bellevue_150th_Eastgate/roi.json",
+    "input bytes /Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/supplementary_five_2026-09-28_v3_repair/config/Bellevue_150th_Eastgate/roi.json",
+    "unchanged source /Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/supplementary_five_2026-09-28_v3_repair/delivery/Bellevue_150th_Eastgate/full_data_archive/attempt-000001/windows.jsonl",
+    "input bytes /Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/supplementary_five_2026-09-28_v3_repair/delivery/Bellevue_150th_Eastgate/full_data_archive/attempt-000001/windows.jsonl",
+    "unchanged source /Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/paired_case_comparison_2026-09-28_v1/motion/Supplementary/SE38th/motion_10s.json",
+    "input bytes /Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/paired_case_comparison_2026-09-28_v1/motion/Supplementary/SE38th/motion_10s.json",
+    "unchanged source /Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/supplementary_five_2026-09-28_v3_repair/delivery/Bellevue_150th_SE38th/full_data_archive/attempt-000001/completion.json",
+    "input bytes /Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/supplementary_five_2026-09-28_v3_repair/delivery/Bellevue_150th_SE38th/full_data_archive/attempt-000001/completion.json",
+    "unchanged source /Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/supplementary_five_2026-09-28_v3_repair/delivery/Bellevue_150th_SE38th/summary_archive/output/qc_summary.json",
+    "input bytes /Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/supplementary_five_2026-09-28_v3_repair/delivery/Bellevue_150th_SE38th/summary_archive/output/qc_summary.json",
+    "unchanged source /Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/supplementary_five_2026-09-28_v3_repair/config/Bellevue_150th_SE38th/roi.json",
+    "input bytes /Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/supplementary_five_2026-09-28_v3_repair/config/Bellevue_150th_SE38th/roi.json",
+    "unchanged source /Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/supplementary_five_2026-09-28_v3_repair/delivery/Bellevue_150th_SE38th/full_data_archive/attempt-000001/windows.jsonl",
+    "input bytes /Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/supplementary_five_2026-09-28_v3_repair/delivery/Bellevue_150th_SE38th/full_data_archive/attempt-000001/windows.jsonl",
+    "unchanged source /Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/paired_case_comparison_2026-09-28_v1/motion/Supplementary/NE8th/motion_10s.json",
+    "input bytes /Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/paired_case_comparison_2026-09-28_v1/motion/Supplementary/NE8th/motion_10s.json",
+    "unchanged source /Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/supplementary_five_2026-09-28_v3_repair/delivery/Bellevue_Bellevue_NE8th/full_data_archive/attempt-000001/completion.json",
+    "input bytes /Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/supplementary_five_2026-09-28_v3_repair/delivery/Bellevue_Bellevue_NE8th/full_data_archive/attempt-000001/completion.json",
+    "unchanged source /Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/supplementary_five_2026-09-28_v3_repair/delivery/Bellevue_Bellevue_NE8th/summary_archive/output/qc_summary.json",
+    "input bytes /Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/supplementary_five_2026-09-28_v3_repair/delivery/Bellevue_Bellevue_NE8th/summary_archive/output/qc_summary.json",
+    "unchanged source /Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/supplementary_five_2026-09-28_v3_repair/config/Bellevue_Bellevue_NE8th/roi.json",
+    "input bytes /Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/supplementary_five_2026-09-28_v3_repair/config/Bellevue_Bellevue_NE8th/roi.json",
+    "unchanged source /Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/supplementary_five_2026-09-28_v3_repair/delivery/Bellevue_Bellevue_NE8th/full_data_archive/attempt-000001/windows.jsonl",
+    "input bytes /Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/supplementary_five_2026-09-28_v3_repair/delivery/Bellevue_Bellevue_NE8th/full_data_archive/attempt-000001/windows.jsonl",
+    "independent numerical verification passed",
+    "numerical-review input /Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/supplementary_states_2026-09-28_v1/Newport/states_10s.json",
+    "numerical-review input /Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/paired_case_comparison_2026-09-28_v1/motion/Supplementary/Newport/motion_10s.json",
+    "numerical-review input /Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/supplementary_states_2026-09-28_v1/Newport/hint_events.json",
+    "numerical-review input /Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/supplementary_states_2026-09-28_v1/Newport/summary.json",
+    "numerical-review input /Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/supplementary_states_2026-09-28_v1/Newport/examples.json",
+    "numerical-review input /Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/supplementary_states_2026-09-28_v1/NE12th/states_10s.json",
+    "numerical-review input /Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/paired_case_comparison_2026-09-28_v1/motion/Supplementary/NE12th/motion_10s.json",
+    "numerical-review input /Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/supplementary_states_2026-09-28_v1/NE12th/hint_events.json",
+    "numerical-review input /Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/supplementary_states_2026-09-28_v1/NE12th/summary.json",
+    "numerical-review input /Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/supplementary_states_2026-09-28_v1/NE12th/examples.json",
+    "numerical-review input /Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/supplementary_states_2026-09-28_v1/Eastgate/states_10s.json",
+    "numerical-review input /Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/paired_case_comparison_2026-09-28_v1/motion/Supplementary/Eastgate/motion_10s.json",
+    "numerical-review input /Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/supplementary_states_2026-09-28_v1/Eastgate/hint_events.json",
+    "numerical-review input /Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/supplementary_states_2026-09-28_v1/Eastgate/summary.json",
+    "numerical-review input /Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/supplementary_states_2026-09-28_v1/Eastgate/examples.json",
+    "numerical-review input /Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/supplementary_states_2026-09-28_v1/SE38th/states_10s.json",
+    "numerical-review input /Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/paired_case_comparison_2026-09-28_v1/motion/Supplementary/SE38th/motion_10s.json",
+    "numerical-review input /Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/supplementary_states_2026-09-28_v1/SE38th/hint_events.json",
+    "numerical-review input /Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/supplementary_states_2026-09-28_v1/SE38th/summary.json",
+    "numerical-review input /Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/supplementary_states_2026-09-28_v1/SE38th/examples.json",
+    "numerical-review input /Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/supplementary_states_2026-09-28_v1/NE8th/states_10s.json",
+    "numerical-review input /Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/paired_case_comparison_2026-09-28_v1/motion/Supplementary/NE8th/motion_10s.json",
+    "numerical-review input /Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/supplementary_states_2026-09-28_v1/NE8th/hint_events.json",
+    "numerical-review input /Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/supplementary_states_2026-09-28_v1/NE8th/summary.json",
+    "numerical-review input /Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/supplementary_states_2026-09-28_v1/NE8th/examples.json",
+    "numerical-review input /Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/supplementary_states_2026-09-28_v1/region_summary.json",
+    "numerical-review input /Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/supplementary_states_2026-09-28_v1/hint_events.json",
+    "numerical-review input /Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/supplementary_states_2026-09-28_v1/results_index.json",
+    "boundary check boundary_tests.json",
+    "boundary check display_boundary_tests.json",
+    "display test exact implementation",
+    "independent research interpretation relationships",
+    "independent report review passed",
+    "independent review binds final report",
+    "figure binding /Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/supplementary_states_2026-09-28_v1/Newport/states_10s.json",
+    "figure binding /Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/supplementary_states_2026-09-28_v1/Newport/rules_and_thresholds.json",
+    "figure binding /Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/supplementary_states_2026-09-28_v1/NE12th/states_10s.json",
+    "figure binding /Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/supplementary_states_2026-09-28_v1/NE12th/rules_and_thresholds.json",
+    "figure binding /Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/supplementary_states_2026-09-28_v1/Eastgate/states_10s.json",
+    "figure binding /Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/supplementary_states_2026-09-28_v1/Eastgate/rules_and_thresholds.json",
+    "figure binding /Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/supplementary_states_2026-09-28_v1/SE38th/states_10s.json",
+    "figure binding /Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/supplementary_states_2026-09-28_v1/SE38th/rules_and_thresholds.json",
+    "figure binding /Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/supplementary_states_2026-09-28_v1/NE8th/states_10s.json",
+    "figure binding /Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/supplementary_states_2026-09-28_v1/NE8th/rules_and_thresholds.json",
+    "figure binding /Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/supplementary_states_2026-09-28_v1/figures/Newport_counts_motion.png",
+    "figure binding /Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/supplementary_states_2026-09-28_v1/figures/Newport_counts_motion.pdf",
+    "figure binding /Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/supplementary_states_2026-09-28_v1/figures/Newport_state_timeline.png",
+    "figure binding /Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/supplementary_states_2026-09-28_v1/figures/Newport_state_timeline.pdf",
+    "figure binding /Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/supplementary_states_2026-09-28_v1/figures/NE12th_counts_motion.png",
+    "figure binding /Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/supplementary_states_2026-09-28_v1/figures/NE12th_counts_motion.pdf",
+    "figure binding /Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/supplementary_states_2026-09-28_v1/figures/NE12th_state_timeline.png",
+    "figure binding /Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/supplementary_states_2026-09-28_v1/figures/NE12th_state_timeline.pdf",
+    "figure binding /Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/supplementary_states_2026-09-28_v1/figures/Eastgate_counts_motion.png",
+    "figure binding /Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/supplementary_states_2026-09-28_v1/figures/Eastgate_counts_motion.pdf",
+    "figure binding /Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/supplementary_states_2026-09-28_v1/figures/Eastgate_state_timeline.png",
+    "figure binding /Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/supplementary_states_2026-09-28_v1/figures/Eastgate_state_timeline.pdf",
+    "figure binding /Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/supplementary_states_2026-09-28_v1/figures/SE38th_counts_motion.png",
+    "figure binding /Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/supplementary_states_2026-09-28_v1/figures/SE38th_counts_motion.pdf",
+    "figure binding /Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/supplementary_states_2026-09-28_v1/figures/SE38th_state_timeline.png",
+    "figure binding /Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/supplementary_states_2026-09-28_v1/figures/SE38th_state_timeline.pdf",
+    "figure binding /Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/supplementary_states_2026-09-28_v1/figures/NE8th_counts_motion.png",
+    "figure binding /Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/supplementary_states_2026-09-28_v1/figures/NE8th_counts_motion.pdf",
+    "figure binding /Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/supplementary_states_2026-09-28_v1/figures/NE8th_state_timeline.png",
+    "figure binding /Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/supplementary_states_2026-09-28_v1/figures/NE8th_state_timeline.pdf",
+    "all 10 PNGs visually inspected",
+    "10 English PNG/PDF figure pairs",
+    "5 sources and 22 region summaries",
+    "6342 region windows",
+    "472 count-only criterion hint windows",
+    "52 joint subset hint windows",
+    "41 count-hint windows keep unknown evidence",
+    "3798 unknown-evidence region windows",
+    "NE8th all regions fully unknown",
+    "NE12th Train identity",
+    "report link /Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/paired_case_comparison_2026-09-28_v1/五路口原案例与补充时段独立对比总报告.md",
+    "report link /Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/paired_case_comparison_2026-09-28_v1/audit/两批来源可比性审计.md",
+    "report link /Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/supplementary_states_2026-09-28_v1/figures/Newport_counts_motion.png",
+    "report link /Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/supplementary_states_2026-09-28_v1/figures/Newport_state_timeline.png",
+    "report link /Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/supplementary_states_2026-09-28_v1/Newport/states_10s.json",
+    "report link /Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/supplementary_states_2026-09-28_v1/Newport/states_10s.csv",
+    "report link /Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/supplementary_states_2026-09-28_v1/Newport/rules_and_thresholds.json",
+    "report link /Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/supplementary_states_2026-09-28_v1/Newport/hint_events.json",
+    "report link /Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/paired_case_comparison_2026-09-28_v1/evidence/Newport_pair.png",
+    "report link /Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/supplementary_states_2026-09-28_v1/figures/NE12th_counts_motion.png",
+    "report link /Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/supplementary_states_2026-09-28_v1/figures/NE12th_state_timeline.png",
+    "report link /Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/supplementary_states_2026-09-28_v1/NE12th/states_10s.json",
+    "report link /Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/supplementary_states_2026-09-28_v1/NE12th/states_10s.csv",
+    "report link /Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/supplementary_states_2026-09-28_v1/NE12th/rules_and_thresholds.json",
+    "report link /Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/supplementary_states_2026-09-28_v1/NE12th/hint_events.json",
+    "report link /Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/paired_case_comparison_2026-09-28_v1/evidence/NE12th_pair.png",
+    "report link /Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/supplementary_states_2026-09-28_v1/figures/Eastgate_counts_motion.png",
+    "report link /Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/supplementary_states_2026-09-28_v1/figures/Eastgate_state_timeline.png",
+    "report link /Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/supplementary_states_2026-09-28_v1/Eastgate/states_10s.json",
+    "report link /Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/supplementary_states_2026-09-28_v1/Eastgate/states_10s.csv",
+    "report link /Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/supplementary_states_2026-09-28_v1/Eastgate/rules_and_thresholds.json",
+    "report link /Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/supplementary_states_2026-09-28_v1/Eastgate/hint_events.json",
+    "report link /Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/paired_case_comparison_2026-09-28_v1/evidence/Eastgate_pair.png",
+    "report link /Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/supplementary_states_2026-09-28_v1/figures/SE38th_counts_motion.png",
+    "report link /Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/supplementary_states_2026-09-28_v1/figures/SE38th_state_timeline.png",
+    "report link /Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/supplementary_states_2026-09-28_v1/SE38th/states_10s.json",
+    "report link /Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/supplementary_states_2026-09-28_v1/SE38th/states_10s.csv",
+    "report link /Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/supplementary_states_2026-09-28_v1/SE38th/rules_and_thresholds.json",
+    "report link /Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/supplementary_states_2026-09-28_v1/SE38th/hint_events.json",
+    "report link /Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/paired_case_comparison_2026-09-28_v1/evidence/SE38th_pair.png",
+    "report link /Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/supplementary_states_2026-09-28_v1/figures/NE8th_counts_motion.png",
+    "report link /Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/supplementary_states_2026-09-28_v1/figures/NE8th_state_timeline.png",
+    "report link /Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/supplementary_states_2026-09-28_v1/NE8th/states_10s.json",
+    "report link /Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/supplementary_states_2026-09-28_v1/NE8th/states_10s.csv",
+    "report link /Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/supplementary_states_2026-09-28_v1/NE8th/rules_and_thresholds.json",
+    "report link /Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/supplementary_states_2026-09-28_v1/NE8th/hint_events.json",
+    "report link /Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/paired_case_comparison_2026-09-28_v1/evidence/NE8th_pair.png",
+    "report link /Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/supplementary_states_2026-09-28_v1/derivation_completion.json",
+    "report link /Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/supplementary_states_2026-09-28_v1/verification/README.md",
+    "report link /Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/supplementary_states_2026-09-28_v1/input_manifest.json",
+    "report link /Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/supplementary_states_2026-09-28_v1/README.md",
+    "report link /Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/supplementary_states_2026-09-28_v1/补充五路口交通状态与证据不足研究报告.md",
+    "report link /Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/supplementary_states_2026-09-28_v1/figures/Newport_counts_motion.png",
+    "report link /Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/supplementary_states_2026-09-28_v1/figures/Newport_state_timeline.png",
+    "report link /Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/supplementary_states_2026-09-28_v1/Newport/states_10s.json",
+    "report link /Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/supplementary_states_2026-09-28_v1/Newport/states_10s.csv",
+    "report link /Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/supplementary_states_2026-09-28_v1/Newport/rules_and_thresholds.json",
+    "report link /Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/supplementary_states_2026-09-28_v1/Newport/hint_events.json",
+    "report link /Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/paired_case_comparison_2026-09-28_v1/evidence/Newport_pair.png",
+    "report link /Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/supplementary_states_2026-09-28_v1/figures/SE38th_counts_motion.png",
+    "report link /Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/supplementary_states_2026-09-28_v1/figures/SE38th_state_timeline.png",
+    "report link /Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/supplementary_states_2026-09-28_v1/SE38th/states_10s.json",
+    "report link /Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/supplementary_states_2026-09-28_v1/SE38th/states_10s.csv",
+    "report link /Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/supplementary_states_2026-09-28_v1/SE38th/rules_and_thresholds.json",
+    "report link /Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/supplementary_states_2026-09-28_v1/SE38th/hint_events.json",
+    "report link /Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/paired_case_comparison_2026-09-28_v1/evidence/SE38th_pair.png",
+    "report link /Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/supplementary_states_2026-09-28_v1/figures/Eastgate_counts_motion.png",
+    "report link /Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/supplementary_states_2026-09-28_v1/figures/Eastgate_state_timeline.png",
+    "report link /Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/supplementary_states_2026-09-28_v1/Eastgate/states_10s.json",
+    "report link /Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/supplementary_states_2026-09-28_v1/Eastgate/states_10s.csv",
+    "report link /Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/supplementary_states_2026-09-28_v1/Eastgate/rules_and_thresholds.json",
+    "report link /Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/supplementary_states_2026-09-28_v1/Eastgate/hint_events.json",
+    "report link /Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/paired_case_comparison_2026-09-28_v1/evidence/Eastgate_pair.png",
+    "report link /Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/supplementary_states_2026-09-28_v1/figures/NE12th_counts_motion.png",
+    "report link /Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/supplementary_states_2026-09-28_v1/figures/NE12th_state_timeline.png",
+    "report link /Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/supplementary_states_2026-09-28_v1/NE12th/states_10s.json",
+    "report link /Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/supplementary_states_2026-09-28_v1/NE12th/states_10s.csv",
+    "report link /Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/supplementary_states_2026-09-28_v1/NE12th/rules_and_thresholds.json",
+    "report link /Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/supplementary_states_2026-09-28_v1/NE12th/hint_events.json",
+    "report link /Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/paired_case_comparison_2026-09-28_v1/evidence/NE12th_pair.png",
+    "report link /Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/supplementary_states_2026-09-28_v1/figures/NE8th_counts_motion.png",
+    "report link /Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/supplementary_states_2026-09-28_v1/figures/NE8th_state_timeline.png",
+    "report link /Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/supplementary_states_2026-09-28_v1/NE8th/states_10s.json",
+    "report link /Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/supplementary_states_2026-09-28_v1/NE8th/states_10s.csv",
+    "report link /Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/supplementary_states_2026-09-28_v1/NE8th/rules_and_thresholds.json",
+    "report link /Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/supplementary_states_2026-09-28_v1/NE8th/hint_events.json",
+    "report link /Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/paired_case_comparison_2026-09-28_v1/evidence/NE8th_pair.png",
+    "CSV length Newport",
+    "CSV source binding Newport",
+    "CSV length NE12th",
+    "CSV source binding NE12th",
+    "CSV length Eastgate",
+    "CSV source binding Eastgate",
+    "CSV length SE38th",
+    "CSV source binding SE38th",
+    "CSV length NE8th",
+    "CSV source binding NE8th"
+  ],
+  "output_files": {
+    "Eastgate/examples.json": {
+      "sha256": "4dd1ac245b64c2ac5859f43ef70c74af34ab871162a3b30e2510b2b4023034b0",
+      "bytes": 8270
+    },
+    "Eastgate/hint_events.json": {
+      "sha256": "5cff3ec6ddcbc994c73f7e3337466302be8debaaf28989c539be747dd050cc33",
+      "bytes": 36108
+    },
+    "Eastgate/rules_and_thresholds.json": {
+      "sha256": "6d7ff170e974be5c553102d6ae7aee77f96773324031aba57613537aa4d6b0e4",
+      "bytes": 39312
+    },
+    "Eastgate/states_10s.csv": {
+      "sha256": "43f88fa6d14f896803882ea8223460e54978b82a107009b74b072a8c64c30637",
+      "bytes": 993476
+    },
+    "Eastgate/states_10s.json": {
+      "sha256": "13294db71c434eb94cbbb69ff0a6d6d17e38c1d4d4d73eeaeda3b029b3378d5f",
+      "bytes": 2544039
+    },
+    "Eastgate/summary.json": {
+      "sha256": "0bc24be2fa0bc7191241cf466d34f62912d174cc12ddeb1e228ff7d7a0cfafbe",
+      "bytes": 8192
+    },
+    "Eastgate/中文结果说明.md": {
+      "sha256": "58a964bc18bb52a0688ac55e406781ff2bff0b0bbc9e848b6ab50bc944be8461",
+      "bytes": 3844
+    },
+    "NE12th/examples.json": {
+      "sha256": "18f12618bec96c54c8202dc78a40e33de9b5a3b9d321173d6cb3e65dcf60135a",
+      "bytes": 8039
+    },
+    "NE12th/hint_events.json": {
+      "sha256": "ac4e971b1efa3edc55830af09d4f7c137c4ac07960dcc41ce49311903c5454e5",
+      "bytes": 2586
+    },
+    "NE12th/rules_and_thresholds.json": {
+      "sha256": "a748e99d2cfa0b12421b2f9059c1ae5bfe62aa25b8d2a36c4b656d56222893d0",
+      "bytes": 9807
+    },
+    "NE12th/states_10s.csv": {
+      "sha256": "2179693f48abc86922b04743586cad5900f83667fc95799a7707e99cea142d7b",
+      "bytes": 118548
+    },
+    "NE12th/states_10s.json": {
+      "sha256": "10715ae23c63604b825948f45863cfb4c4383f5586ab09e8edfba83da2de260a",
+      "bytes": 307310
+    },
+    "NE12th/summary.json": {
+      "sha256": "954ae01889d9f5f04441dbf119db622914c4fb370e055970d687ae0ebcccafa8",
+      "bytes": 7420
+    },
+    "NE12th/中文结果说明.md": {
+      "sha256": "635b74becba1bba95236fce9a3b36712c396da88598c590b018420aa079b11e2",
+      "bytes": 3820
+    },
+    "NE8th/examples.json": {
+      "sha256": "2ea3d9d6f45b555baaff70239c4e7996a0be1324c2677e2fe8f6eb190f3e5ced",
+      "bytes": 5405
+    },
+    "NE8th/hint_events.json": {
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+      "bytes": 3
+    },
+    "NE8th/rules_and_thresholds.json": {
+      "sha256": "b6c7434a1bdd58ab1548beeca07c2772d587ee7dc22df5dbfaaa4d1ea5817470",
+      "bytes": 24843
+    },
+    "NE8th/states_10s.csv": {
+      "sha256": "f4342127229990cb85d1855cc68cfc176bfc7448c85914feaadf065a4dbe980e",
+      "bytes": 874540
+    },
+    "NE8th/states_10s.json": {
+      "sha256": "87dec7f9fc363696d7fbc5d2bc623013176023c5c14394b1c1f2b2af6111f14c",
+      "bytes": 2204012
+    },
+    "NE8th/summary.json": {
+      "sha256": "4761b9d15e67fa579b61f51fadfe1ea93593d8c3c3d99a6b20c20edda656575c",
+      "bytes": 5603
+    },
+    "NE8th/中文结果说明.md": {
+      "sha256": "24dd80eb779b46931676a00435689a32fcd7493487f3287c7e14fe5aa4646654",
+      "bytes": 3488
+    },
+    "Newport/examples.json": {
+      "sha256": "f2ebc9db1a9bbb9cce984a74c30eb0331d0d94931c9a6e1f6e60e293518474d8",
+      "bytes": 8081
+    },
+    "Newport/hint_events.json": {
+      "sha256": "c2bf1f15f28c15b7fb65ef5a65452dbf3ddd2fdfd95205a4ed981d6c1ef20892",
+      "bytes": 37908
+    },
+    "Newport/rules_and_thresholds.json": {
+      "sha256": "781371d5ae4ccaa543baf07b2b10eba9637e617bda55ffb69349ca009e82197b",
+      "bytes": 34223
+    },
+    "Newport/states_10s.csv": {
+      "sha256": "cfea88645b04695463124fd4b333bb714003cdec3c7e25fd632625c7290c5f55",
+      "bytes": 762773
+    },
+    "Newport/states_10s.json": {
+      "sha256": "e43a1108cff23a889b5eaf016a24a52a90f31d223c6e852619336155dc0d0513",
+      "bytes": 2018968
+    },
+    "Newport/summary.json": {
+      "sha256": "333cc7daf68a7b4b98c702bd8ed0d97b92ebb92bd60fce4a57e20622d0de9cdc",
+      "bytes": 6710
+    },
+    "Newport/中文结果说明.md": {
+      "sha256": "f6934f61f55f405fa1aa5ed5dc106fcdd4ff0beac73fd5f2e06520bbdb3a4df0",
+      "bytes": 3686
+    },
+    "README.md": {
+      "sha256": "52aa25a1df1d796d12b0203421b2df8dde453a9ca2fbdfd708f9a54df5969256",
+      "bytes": 3946
+    },
+    "SE38th/examples.json": {
+      "sha256": "d7a33adbef1f4d43d732cabfae385918d0a8764ef353f6820fb063ea432dbe62",
+      "bytes": 9545
+    },
+    "SE38th/hint_events.json": {
+      "sha256": "13f5c8541d0f1fef228a845ff94adbfa8edbaee4c568506c65d3020397f3af08",
+      "bytes": 32479
+    },
+    "SE38th/rules_and_thresholds.json": {
+      "sha256": "a5021bcda24d643366bba5e1e253d42b57a1dfbd8cfd458d84a14eba80cef9ce",
+      "bytes": 36273
+    },
+    "SE38th/states_10s.csv": {
+      "sha256": "854b403ab7f4752f7283419af751b05c1b33a55b1d451f1139b75bd1f5e2f3a1",
+      "bytes": 738365
+    },
+    "SE38th/states_10s.json": {
+      "sha256": "371d37ab2efda4b563d9d35deb29d55e74cac4cd376432fdd6b6efa5daaf6f0c",
+      "bytes": 1989136
+    },
+    "SE38th/summary.json": {
+      "sha256": "d3079065232fa2263c36359bb56f090c74c1b5ea0fba9ed7d8c3e4ce59161c52",
+      "bytes": 6732
+    },
+    "SE38th/中文结果说明.md": {
+      "sha256": "c059f4ea7a3a4ae377d57f89bd7ed74a4575f3e99810d9e5df5f8a0dd4ce9993",
+      "bytes": 3793
+    },
+    "code/build_report.py": {
+      "sha256": "6d6d47693cd1f7421038a8c25b77f2e6f387693ac27d8914066f91cddbb659ec",
+      "bytes": 17280
+    },
+    "code/derive_states.py": {
+      "sha256": "f388f6a15e5d9bc308ffca9a7ae19258bedf8f63a9af8ca2496f30f51fd1d4f6",
+      "bytes": 17802
+    },
+    "code/final_checks.py": {
+      "sha256": "aba105aa8af14914dc57fec748a72653edf7e180f9423a0eb1df81ed97077e25",
+      "bytes": 5016
+    },
+    "code/frozen_engine.py": {
+      "sha256": "1ca1c8f7eb024e99b78e96cb72c2adbd545ba61635c950f7d70fdf0da5062390",
+      "bytes": 18778
+    },
+    "derivation_completion.json": {
+      "sha256": "d2ef47b1fd328506487517748bd3c0b64dfcedd78c0ebd9912f254bc7f4caa41",
+      "bytes": 1054
+    },
+    "figures/Eastgate_counts_motion.pdf": {
+      "sha256": "38ad911689377cfb0498736a51a60b6854b9a6ebc030cf3f9edfcf9e786f7a3e",
+      "bytes": 75402
+    },
+    "figures/Eastgate_counts_motion.png": {
+      "sha256": "3348ef099fd2ab98868166507e09454e6f622e1ff84d70369fb07bf3a681cef1",
+      "bytes": 707857
+    },
+    "figures/Eastgate_state_timeline.pdf": {
+      "sha256": "3209966af3bde1b5ee6b27011aa86780def1ea90c79f1c20ca7fd1cd62365b5e",
+      "bytes": 41609
+    },
+    "figures/Eastgate_state_timeline.png": {
+      "sha256": "7f74a2bfc6c3e2aa51c60d5e748c9eb7985c09acc05fe9bb1975a59183d190c5",
+      "bytes": 299500
+    },
+    "figures/NE12th_counts_motion.pdf": {
+      "sha256": "aa11c8c634884116f1d2ed64fdc4860f302632bad727138badbadd03140aa4eb",
+      "bytes": 43227
+    },
+    "figures/NE12th_counts_motion.png": {
+      "sha256": "e3e6416d18b505ff99e0369b37e558f7d216eb944220d25ec68a6313c055dacf",
+      "bytes": 552559
+    },
+    "figures/NE12th_state_timeline.pdf": {
+      "sha256": "790347f4bb7448fb14065c43f0a7e6c24167a76e31ae8c5e5f9f5916b2f084d8",
+      "bytes": 35081
+    },
+    "figures/NE12th_state_timeline.png": {
+      "sha256": "a18aa8665b422f2f55f8178ff89d8083b0c1fcbb8819c5f626395f8584000b51",
+      "bytes": 287593
+    },
+    "figures/NE8th_counts_motion.pdf": {
+      "sha256": "80cfcf39b83ff62cf072f072eb262d64c552bc10915ee2f2463544c9357a6410",
+      "bytes": 41591
+    },
+    "figures/NE8th_counts_motion.png": {
+      "sha256": "a503680c5d16b5aac1735b79e72412dc20adce1e6e10a544032fb1a305e0f7bf",
+      "bytes": 396328
+    },
+    "figures/NE8th_state_timeline.pdf": {
+      "sha256": "5ae1efb0665404841cbf50ee3708214ef9c2b488d3aade12e6764e3471baecc8",
+      "bytes": 33465
+    },
+    "figures/NE8th_state_timeline.png": {
+      "sha256": "9911383362d8986c08d9c90f4ae2de8d60bc9966b7d0fe151ca9f21f1510a008",
+      "bytes": 277346
+    },
+    "figures/Newport_counts_motion.pdf": {
+      "sha256": "8ae903246cf563d147eaf7c2bf6f957e7b336f8885c97e52dad060731bb65f49",
+      "bytes": 72086
+    },
+    "figures/Newport_counts_motion.png": {
+      "sha256": "5a43edd96312855761ae67da4ce9e066a7154c066e49a43ba1b824958805c5d0",
+      "bytes": 588091
+    },
+    "figures/Newport_state_timeline.pdf": {
+      "sha256": "1841e391ab30b5694c8b5d72d3ee7231bb92f52981ef2c9ee30612b0fc8acd01",
+      "bytes": 40354
+    },
+    "figures/Newport_state_timeline.png": {
+      "sha256": "eaa7628bc532128539bcdd8912bdd08e9c548c7e2214b25bfc59932177eb9b86",
+      "bytes": 265569
+    },
+    "figures/SE38th_counts_motion.pdf": {
+      "sha256": "a0c49e38991f4b729ef5ada762cbeb35617148230745f64813f914cb10d75019",
+      "bytes": 76308
+    },
+    "figures/SE38th_counts_motion.png": {
+      "sha256": "ff1b6716657ed38b1b4c1b8b0798613cc271e22ec1438ec3c55f3507fb7b7407",
+      "bytes": 642056
+    },
+    "figures/SE38th_state_timeline.pdf": {
+      "sha256": "7611c681f31d86e131d2ac80aadb0c8c90cb96cbba7995672b96cb9e1d6b4d76",
+      "bytes": 40941
+    },
+    "figures/SE38th_state_timeline.png": {
+      "sha256": "ffcfe03ae0ab22e5b8425b33e6d1f969e23e58b8567237925a8fca9bec740270",
+      "bytes": 262933
+    },
+    "figures/figure_manifest.json": {
+      "sha256": "9b41965529219d0972a9ba90ddf9e7f042a0ff5e2fb6e977f54631055620f7b6",
+      "bytes": 11748
+    },
+    "figures/plot_states.py": {
+      "sha256": "3bae92364f6cf9865a2ab73e8eec591d97d50812a380edf2261c8f8af0d121e8",
+      "bytes": 11691
+    },
+    "figures/visual_qa.json": {
+      "sha256": "e85880fd62fe5eb7df461489290426ca5049618e5ba785e9c91a7a45ed1f4518",
+      "bytes": 6757
+    },
+    "hint_events.csv": {
+      "sha256": "2da2eef27798432cd09ec1d0557b284b8b1e7b9883ec65fc0e56081b1f90a0b2",
+      "bytes": 29991
+    },
+    "hint_events.json": {
+      "sha256": "908cfc902ac8c2b90174992ffc6c13259865f5a4457e8442e2d1ae830482deb9",
+      "bytes": 109072
+    },
+    "input_manifest.json": {
+      "sha256": "ec111885d333dcf5856dea881558927ccbc4a4cf45bcf210a93364c20d0203bf",
+      "bytes": 11670
+    },
+    "method.json": {
+      "sha256": "bcf243393307e8c4125969030d11534856c40df001d580bdbfc54033b1d32f43",
+      "bytes": 2753
+    },
+    "region_summary.csv": {
+      "sha256": "2213061fcc7c6a174597660c3f8f3704d78d66b31aa4f9f8e8a7c836b8827bf3",
+      "bytes": 16044
+    },
+    "region_summary.json": {
+      "sha256": "44c02da91268c8d40440ce5d8b0eb35973fad82f4f4abc03ceaa8bc3721e914d",
+      "bytes": 34645
+    },
+    "research_notes/calibration_scope_probe.json": {
+      "sha256": "760b9f0539c0fea5a78bee0678a927308936e2c839582c800f2998862efda103",
+      "bytes": 13092
+    },
+    "research_notes/derived_output_research_review.json": {
+      "sha256": "b4abb9a0b2c6cf8b7c139451a66556290830e892cbd539feb0c99412f03aa07f",
+      "bytes": 3257
+    },
+    "research_notes/probe_calibration.py": {
+      "sha256": "325f71239015a487bc2536af1817c1b34b0ca127abf5d9243ebd03d679413c6f",
+      "bytes": 6033
+    },
+    "research_notes/research_checks.json": {
+      "sha256": "dc4d05a3340edd78ebc695b5759c1d760dfbe531110e7d35d1f3e00c6e0bd181",
+      "bytes": 6914
+    },
+    "research_notes/research_input_hashes.json": {
+      "sha256": "e66e97f27f7abc6708964193439b3aae459bae20c01954c77d24c055e70f3743",
+      "bytes": 7154
+    },
+    "research_notes/review_derived_outputs.py": {
+      "sha256": "9e95cba23c9fdb0806922ed3b3a10af6b47fdf24d777eb79578c2f5a3308ed6e",
+      "bytes": 5444
+    },
+    "research_notes/补充状态解释边界与Unity建议.md": {
+      "sha256": "9020eca4ad18dd9c3db985d81f4d10e1cdff4e01f7d3c831084a5155248b1e65",
+      "bytes": 13545
+    },
+    "results_index.json": {
+      "sha256": "10bcd9517ff9193eb4f61a4af1ad2bf3466cac499ddc29edf9646c1a401bd65e",
+      "bytes": 4001
+    },
+    "verification/README.md": {
+      "sha256": "271a2b87161e6ac56b3b9b2b99ff6c6cf1837a6cf9729dcce286a1b08b0074ba",
+      "bytes": 3518
+    },
+    "verification/boundary_tests.json": {
+      "sha256": "f894f822d3f36b1889a4ad0b9f04716dedb5b7155b1f046a65966cba91f75f91",
+      "bytes": 2758
+    },
+    "verification/display_boundary_tests.json": {
+      "sha256": "eb933ccbacb77db9e1033c58ce371cdc33976ac4b568390a747a03cfbea1354a",
+      "bytes": 1566
+    },
+    "verification/expected_thresholds.json": {
+      "sha256": "dab66ba8fe901d834543489c48fd1dce7eb08a4fe9be0e065de29dbe59fe5b6c",
+      "bytes": 141227
+    },
+    "verification/independent_verification.json": {
+      "sha256": "dc349a8728cf41e45ede64135030307a7d6797c4e0d99d5452c22c2f9b4eba5d",
+      "bytes": 10191
+    },
+    "verification/method_review.md": {
+      "sha256": "42ed814d3817e06d6ce1dcc0df8d2ba550a4e11ededc01b8172064575a70c645",
+      "bytes": 3101
+    },
+    "verification/report_review.json": {
+      "sha256": "4a3e0a8631c347c7ffcef9b86a65a043f7e7066e8d372cb064ec050a4193ed8a",
+      "bytes": 528
+    },
+    "verification/review_findings.md": {
+      "sha256": "ae03f9d97b3a695530487e27daab01ccbf5216ae75da393dc4b5884fbfa2f686",
+      "bytes": 3251
+    },
+    "verification/review_report.py": {
+      "sha256": "506c544cc50957c36bf72c8b50639865fb8eabddfe8a9c44ea72d70edfc69090",
+      "bytes": 3770
+    },
+    "verification/test_display_boundaries.py": {
+      "sha256": "2fd8cfcec83c82685977cc2e507e73351a596437d09a9488d06a4616c6adb48b",
+      "bytes": 5167
+    },
+    "verification/test_frozen_boundaries.py": {
+      "sha256": "57d9d44c639d260a1e0da5394adb6ec874a785a24011ba389f0baa6bd0ec1663",
+      "bytes": 7062
+    },
+    "verification/verification_manifest.json": {
+      "sha256": "d0ef893f2c9d8ef7045a6533207835a297decffab1e686b7c0c54cb2831af22d",
+      "bytes": 1820
+    },
+    "verification/verify_derived.py": {
+      "sha256": "6742ecf00d7a37818e48989202bd4c50f16bb0175b7c3be9b5ec645c92e5931a",
+      "bytes": 13625
+    },
+    "补充五路口交通状态与证据不足研究报告.md": {
+      "sha256": "c2efb6d9e3ca3a8ce3d3c5db6f2a6674abb41d21630a0a135ff4918934410070",
+      "bytes": 28839
+    }
+  }
+}

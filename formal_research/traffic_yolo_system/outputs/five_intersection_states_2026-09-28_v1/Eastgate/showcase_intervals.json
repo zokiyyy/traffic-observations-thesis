@@ -1,0 +1,24 @@
+[
+  {
+    "zone": "road_upper_left",
+    "kind": "joint",
+    "start_s": 630.0,
+    "end_s": 700.0,
+    "duration_s": 70.0,
+    "confirmation_available_at_s": 660.0
+  },
+  {
+    "zone": "road_upper_left",
+    "kind": "high",
+    "start_s": 620.0,
+    "end_s": 740.0,
+    "duration_s": 120.0,
+    "confirmation_available_at_s": 650.0
+  },
+  {
+    "kind": "count_peak",
+    "start_s": 2270.0,
+    "end_s": 2280.0,
+    "combined_mean_count": 33.14735777777783
+  }
+]

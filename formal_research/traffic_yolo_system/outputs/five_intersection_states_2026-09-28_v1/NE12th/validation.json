@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "zone_window_rows": 1805,
+  "coverage_ticks": 324000879,
+  "count_means_exactly_reused": true,
+  "time_boundaries_match_authoritative": true,
+  "persistence_independently_recomputed": true,
+  "null_motion_not_zero": true,
+  "accuracy_evaluated": false,
+  "frame_pts_checked_against_audit": true,
+  "original_frame_hash_verified": true,
+  "hold_intervals_match_audit": true,
+  "missing_duration_s": 0.0
+}

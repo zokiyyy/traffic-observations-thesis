@@ -1,0 +1,24 @@
+{
+  "source_id": "Bellevue_150th_Newport__2017-09-11_08-08-31.mp4",
+  "source_sha256": "969af533145e1a1afaa8fb4afa754205c338171760ff02b97e2aef4f04094c93",
+  "split": "Validation",
+  "full_frame_count": 107932,
+  "full_interval_seconds": [
+    0,
+    3600.0151444444446
+  ],
+  "parity_required": true,
+  "full_run_after_parity_pass": true,
+  "model_and_detector_and_tracker_parameters_changed": false,
+  "manual_annotations_required": false,
+  "main_test_media_access": false,
+  "new_training": false,
+  "unity_work": false,
+  "automatic_qc_flags": {
+    "per_zone_adjacent_frame_jump_at_least": 3,
+    "all_road_zones_zero_at_least_seconds": 1,
+    "max_det": 300,
+    "unresolved_heavy_overlap": "frozen containment policy ambiguity threshold 0.5"
+  },
+  "interpretation": "Current visible tracked vehicle counts, not unique passage count, flow, calibrated density or validated congestion."
+}

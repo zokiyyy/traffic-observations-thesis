@@ -1,0 +1,54 @@
+{
+  "passed": true,
+  "check_count": 11,
+  "checks": [
+    {
+      "name": "equal_zero_thresholds_frozen_empty_but_composite_unknown",
+      "passed": true
+    },
+    {
+      "name": "equal_thresholds_override_otherwise_available_motion",
+      "passed": true
+    },
+    {
+      "name": "motion_missing_keeps_count_only_hint_but_unknown_composite",
+      "passed": true
+    },
+    {
+      "name": "29_calibration_samples_keep_absolute_motion_but_relative_null_and_unknown",
+      "passed": true
+    },
+    {
+      "name": "20_30_seconds_first_confirmation_and_joint_subset",
+      "passed": true
+    },
+    {
+      "name": "available_high_motion_allows_count_hint_without_joint_claim",
+      "passed": true
+    },
+    {
+      "name": "held_unknown_and_both_clocks_reset",
+      "passed": true
+    },
+    {
+      "name": "missing_unknown_and_both_clocks_reset",
+      "passed": true
+    },
+    {
+      "name": "tail_unknown_and_both_clocks_reset",
+      "passed": true
+    },
+    {
+      "name": "zero_observed_count_never_composite_free_flow",
+      "passed": true
+    },
+    {
+      "name": "retrospective_confirmation_time_is_window_end",
+      "passed": true
+    }
+  ],
+  "production_script_sha256": "f388f6a15e5d9bc308ffca9a7ae19258bedf8f63a9af8ca2496f30f51fd1d4f6",
+  "frozen_engine_sha256": "1ca1c8f7eb024e99b78e96cb72c2adbd545ba61635c950f7d70fdf0da5062390",
+  "test_script_sha256": "2fd8cfcec83c82685977cc2e507e73351a596437d09a9488d06a4616c6adb48b",
+  "scope": "actual production add_display boundary cases; synthetic software checks, not traffic accuracy"
+}

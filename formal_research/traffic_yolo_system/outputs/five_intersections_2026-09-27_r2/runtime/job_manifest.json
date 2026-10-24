@@ -1,0 +1,777 @@
+{
+  "schema_version": "five_intersections_server_job_v1",
+  "job_id": "five_intersections_20260927_r2",
+  "selection": {
+    "path": "formal_research/traffic_yolo_system/outputs/five_intersections_2026-09-27_r2/selection/selected_sources.json",
+    "sha256": "602bf905f1fd60edeb31aa482b4e48aed80057bd1b93cd5f0a68961c1e18f6c5"
+  },
+  "split_manifest": {
+    "path": "formal_research/03_full_dataset_design/splits/formal_source_video_split_manifest_v1_2026-08-24.csv",
+    "sha256": "8e1b8806f5a1f2f8280b71169d45ba5837bc710db26f0550610124fcc4f1f3cd"
+  },
+  "inputs": [
+    {
+      "path": "formal_research/00_project_admin/five_video_scope_2026-09-27_chinese.md",
+      "sha256": "91b6acbeb32b87912f5032ccf89de581eb1b13c02958520505373e9dc06e86f4",
+      "roles": [
+        "runtime"
+      ]
+    },
+    {
+      "path": "formal_research/03_full_dataset_design/splits/formal_source_video_split_manifest_v1_2026-08-24.csv",
+      "sha256": "8e1b8806f5a1f2f8280b71169d45ba5837bc710db26f0550610124fcc4f1f3cd",
+      "roles": [
+        "runtime"
+      ]
+    },
+    {
+      "path": "formal_research/traffic_yolo_system/outputs/five_intersections_2026-09-27_r2/config/Bellevue_116th_NE12th/applicability.json",
+      "sha256": "26296e088332587003bfa303334e154584b8a6bfa3258900e95792cca7f86891",
+      "roles": [
+        "inference",
+        "qc",
+        "render"
+      ]
+    },
+    {
+      "path": "formal_research/traffic_yolo_system/outputs/five_intersections_2026-09-27_r2/config/Bellevue_116th_NE12th/camera.json",
+      "sha256": "e8333e68f8268e85b70e89b264f20d45393399543f6530c20aac698071c733f7",
+      "roles": [
+        "inference",
+        "qc",
+        "render"
+      ]
+    },
+    {
+      "path": "formal_research/traffic_yolo_system/outputs/five_intersections_2026-09-27_r2/config/Bellevue_116th_NE12th/camera_registry.json",
+      "sha256": "c6057088228e258570f79b66029443c150822574d91be0b1a0e5a0173f9e3cd2",
+      "roles": [
+        "inference",
+        "qc",
+        "render"
+      ]
+    },
+    {
+      "path": "formal_research/traffic_yolo_system/outputs/five_intersections_2026-09-27_r2/config/Bellevue_116th_NE12th/full_remote.json",
+      "sha256": "67619ef55d66bc27a539b53dbee25e3e37183b393b27e6804e9445d78923da19",
+      "roles": [
+        "inference",
+        "qc",
+        "render"
+      ]
+    },
+    {
+      "path": "formal_research/traffic_yolo_system/outputs/five_intersections_2026-09-27_r2/config/Bellevue_116th_NE12th/roi.json",
+      "sha256": "080b7379ebbf83beacf3e5aba481adc269c2e5d43c259bce27830768317a4a83",
+      "roles": [
+        "inference",
+        "qc",
+        "render"
+      ]
+    },
+    {
+      "path": "formal_research/traffic_yolo_system/outputs/five_intersections_2026-09-27_r2/config/Bellevue_116th_NE12th/source_timing_evidence.json",
+      "sha256": "d56d3eec193504a2d1393709219f80d23ea5eadd3ccbe58d235ba0f4112b6aa5",
+      "roles": [
+        "inference",
+        "qc",
+        "render"
+      ]
+    },
+    {
+      "path": "formal_research/traffic_yolo_system/outputs/five_intersections_2026-09-27_r2/config/Bellevue_150th_Eastgate/applicability.json",
+      "sha256": "9c917cb7fa91d68088f788fc287c5dc48d0970de14852923b0c6f36e77f19f7c",
+      "roles": [
+        "inference",
+        "qc",
+        "render"
+      ]
+    },
+    {
+      "path": "formal_research/traffic_yolo_system/outputs/five_intersections_2026-09-27_r2/config/Bellevue_150th_Eastgate/camera.json",
+      "sha256": "cf24890bbfd0d1d146662d71befe6a7c063a7ff040615f2e8f6941b756397571",
+      "roles": [
+        "inference",
+        "qc",
+        "render"
+      ]
+    },
+    {
+      "path": "formal_research/traffic_yolo_system/outputs/five_intersections_2026-09-27_r2/config/Bellevue_150th_Eastgate/camera_registry.json",
+      "sha256": "9eacdef079033afb7d6fb57c2c3ec6109244a13ee0e2e4a3e365207ff1f8c627",
+      "roles": [
+        "inference",
+        "qc",
+        "render"
+      ]
+    },
+    {
+      "path": "formal_research/traffic_yolo_system/outputs/five_intersections_2026-09-27_r2/config/Bellevue_150th_Eastgate/full_remote.json",
+      "sha256": "441d5e65b3228071a4783feebfd5845f62e07024897c7b59fe038adde1ccc372",
+      "roles": [
+        "inference",
+        "qc",
+        "render"
+      ]
+    },
+    {
+      "path": "formal_research/traffic_yolo_system/outputs/five_intersections_2026-09-27_r2/config/Bellevue_150th_Eastgate/roi.json",
+      "sha256": "3fa231b5f7c9922e1332bd31ba24e8eb0fb10f7ab0e5d42a1223b5c8986d45b1",
+      "roles": [
+        "inference",
+        "qc",
+        "render"
+      ]
+    },
+    {
+      "path": "formal_research/traffic_yolo_system/outputs/five_intersections_2026-09-27_r2/config/Bellevue_150th_Eastgate/source_timing_evidence.json",
+      "sha256": "ddb39b95830fd3cd0cede8f09ba153219a36cac889d81d61a379d6a8656b5100",
+      "roles": [
+        "inference",
+        "qc",
+        "render"
+      ]
+    },
+    {
+      "path": "formal_research/traffic_yolo_system/outputs/five_intersections_2026-09-27_r2/config/Bellevue_150th_SE38th/applicability.json",
+      "sha256": "14757451ceefc3a803aa2837bc8334de94b40200234f5b33e57a5aafbddef597",
+      "roles": [
+        "inference",
+        "qc",
+        "render"
+      ]
+    },
+    {
+      "path": "formal_research/traffic_yolo_system/outputs/five_intersections_2026-09-27_r2/config/Bellevue_150th_SE38th/camera.json",
+      "sha256": "16ea522e43e1db068a10f9b54984b37fc1f0cd2a7159f6e207092419709d6654",
+      "roles": [
+        "inference",
+        "qc",
+        "render"
+      ]
+    },
+    {
+      "path": "formal_research/traffic_yolo_system/outputs/five_intersections_2026-09-27_r2/config/Bellevue_150th_SE38th/camera_registry.json",
+      "sha256": "e6dd533bad0da4e7f58bfd0025aa2f0657c40ee835345c220a349c561da2ae7e",
+      "roles": [
+        "inference",
+        "qc",
+        "render"
+      ]
+    },
+    {
+      "path": "formal_research/traffic_yolo_system/outputs/five_intersections_2026-09-27_r2/config/Bellevue_150th_SE38th/full_remote.json",
+      "sha256": "103e17ca420c203851c69d791df0ec7df336f9a422bc1a6d23e3dd7f39b87f06",
+      "roles": [
+        "inference",
+        "qc",
+        "render"
+      ]
+    },
+    {
+      "path": "formal_research/traffic_yolo_system/outputs/five_intersections_2026-09-27_r2/config/Bellevue_150th_SE38th/roi.json",
+      "sha256": "3d02edffc839a9af7448a40ea3a3aae9782045281610cde383d48642051c8e5a",
+      "roles": [
+        "inference",
+        "qc",
+        "render"
+      ]
+    },
+    {
+      "path": "formal_research/traffic_yolo_system/outputs/five_intersections_2026-09-27_r2/config/Bellevue_150th_SE38th/source_timing_evidence.json",
+      "sha256": "108a6e8023309a7f51045e380209b486afcd71d4253313ddc3ce7714a9ee3ac9",
+      "roles": [
+        "inference",
+        "qc",
+        "render"
+      ]
+    },
+    {
+      "path": "formal_research/traffic_yolo_system/outputs/five_intersections_2026-09-27_r2/config/Bellevue_Bellevue_NE8th/applicability.json",
+      "sha256": "6d73b796c23b5bb8aa2532db1b56c28883aba436539a49e7806184d5712ac3a1",
+      "roles": [
+        "inference",
+        "qc",
+        "render"
+      ]
+    },
+    {
+      "path": "formal_research/traffic_yolo_system/outputs/five_intersections_2026-09-27_r2/config/Bellevue_Bellevue_NE8th/camera.json",
+      "sha256": "46834e5fdd9b0ee66f4366446cec1963e95184898998763c5c5ddeef83224731",
+      "roles": [
+        "inference",
+        "qc",
+        "render"
+      ]
+    },
+    {
+      "path": "formal_research/traffic_yolo_system/outputs/five_intersections_2026-09-27_r2/config/Bellevue_Bellevue_NE8th/camera_registry.json",
+      "sha256": "cb42aab1554091087e23f27264e96bd123067f046327b889e587aa8d848116dc",
+      "roles": [
+        "inference",
+        "qc",
+        "render"
+      ]
+    },
+    {
+      "path": "formal_research/traffic_yolo_system/outputs/five_intersections_2026-09-27_r2/config/Bellevue_Bellevue_NE8th/full_remote.json",
+      "sha256": "70a1af8c22b045eebd7b0f3ae76782e1d4b72307f0bc1ca8a228e4dbed62c44e",
+      "roles": [
+        "inference",
+        "qc",
+        "render"
+      ]
+    },
+    {
+      "path": "formal_research/traffic_yolo_system/outputs/five_intersections_2026-09-27_r2/config/Bellevue_Bellevue_NE8th/roi.json",
+      "sha256": "f392319397b2718736ac2b73fe7f0e927ba368a36ab729b48a0fe6d5f89bd97a",
+      "roles": [
+        "inference",
+        "qc",
+        "render"
+      ]
+    },
+    {
+      "path": "formal_research/traffic_yolo_system/outputs/five_intersections_2026-09-27_r2/config/Bellevue_Bellevue_NE8th/source_timing_evidence.json",
+      "sha256": "2a1168c3a2a697446a9bc0b1141e106f72c8e58cc0e1aa56dae58dc82d29ca3c",
+      "roles": [
+        "inference",
+        "qc",
+        "render"
+      ]
+    },
+    {
+      "path": "formal_research/traffic_yolo_system/outputs/five_intersections_2026-09-27_r2/config/config_preparation_receipt.json",
+      "sha256": "2543d0164bbd9eae002c8a9ab01ec9d7aaaa5d9c25d240c41656c8e358ce111d",
+      "roles": [
+        "inference",
+        "qc",
+        "render"
+      ]
+    },
+    {
+      "path": "formal_research/traffic_yolo_system/outputs/five_intersections_2026-09-27_r2/config/containment_policy.json",
+      "sha256": "b299d573ecfcf8e609fc216f29b65ebcb288347def0e520cda404b29dcbf0ff6",
+      "roles": [
+        "inference",
+        "qc",
+        "render"
+      ]
+    },
+    {
+      "path": "formal_research/traffic_yolo_system/outputs/five_intersections_2026-09-27_r2/config/frozen_inputs_manifest.json",
+      "sha256": "47ffcc3d4de2ddf26ab895f80150bdb945642fa52abe33259711b120777b902f",
+      "roles": [
+        "inference",
+        "qc",
+        "render"
+      ]
+    },
+    {
+      "path": "formal_research/traffic_yolo_system/outputs/five_intersections_2026-09-27_r2/presentation/render_selected_pts.py",
+      "sha256": "089cc3654d52423a405a959cad065f8dd589be3be9a274591a2da6930baccc72",
+      "roles": [
+        "render"
+      ]
+    },
+    {
+      "path": "formal_research/traffic_yolo_system/outputs/five_intersections_2026-09-27_r2/presentation/smoke_generated_pts.py",
+      "sha256": "513f92829359b8e630e1a07274272e1854acdf8af3b2c1f5ed10648f65101150",
+      "roles": [
+        "render"
+      ]
+    },
+    {
+      "path": "formal_research/traffic_yolo_system/outputs/five_intersections_2026-09-27_r2/reuse/newport_verified.json",
+      "sha256": "6aa88a89d12a2361dad598d600f4fb9c23b86b8fce9f990f923b9d84d2535f12",
+      "roles": [
+        "runtime"
+      ]
+    },
+    {
+      "path": "formal_research/traffic_yolo_system/outputs/five_intersections_2026-09-27_r2/runtime/server_pipeline.py",
+      "sha256": "6eced6cfff009a898dee482d19651d159774a6b20b17fb5281d2d0f0297d6025",
+      "roles": [
+        "runtime"
+      ]
+    },
+    {
+      "path": "formal_research/traffic_yolo_system/outputs/five_intersections_2026-09-27_r2/runtime/short_contacts.py",
+      "sha256": "fa947d77068cbd723b9e08293f6436ff651e02b7e6e8f391f03323f41fd4ebda",
+      "roles": [
+        "render"
+      ]
+    },
+    {
+      "path": "formal_research/traffic_yolo_system/outputs/five_intersections_2026-09-27_r2/selection/selected_sources.json",
+      "sha256": "602bf905f1fd60edeb31aa482b4e48aed80057bd1b93cd5f0a68961c1e18f6c5",
+      "roles": [
+        "runtime"
+      ]
+    },
+    {
+      "path": "formal_research/traffic_yolo_system/outputs/five_intersections_2026-09-27_r2/source_review/Bellevue_116th_NE12th/original_samples_contact.jpg",
+      "sha256": "0d085089bb4506ca0feb6c4c26b428a9053ab47ba97fde951b90c64cee2c91a6",
+      "roles": [
+        "runtime"
+      ]
+    },
+    {
+      "path": "formal_research/traffic_yolo_system/outputs/five_intersections_2026-09-27_r2/source_review/Bellevue_116th_NE12th/reference_original_first_frame.png",
+      "sha256": "bc15a5cb9c32f9473c0e8b49dd4a502a838d73d5c6d533bab54940102e464b81",
+      "roles": [
+        "runtime"
+      ]
+    },
+    {
+      "path": "formal_research/traffic_yolo_system/outputs/five_intersections_2026-09-27_r2/source_review/Bellevue_116th_NE12th/sequential_decode_report.json",
+      "sha256": "f8efb678129c0566fd714231e640ef7b19ee4e7199c377884eef19cd5fd4a2fe",
+      "roles": [
+        "runtime"
+      ]
+    },
+    {
+      "path": "formal_research/traffic_yolo_system/outputs/five_intersections_2026-09-27_r2/source_review/Bellevue_116th_NE12th/sequential_frames.json",
+      "sha256": "15ba71515066edbae02a2c967c52d5e329b20e2d615ead59c23a0f77e493ecdb",
+      "roles": [
+        "runtime"
+      ]
+    },
+    {
+      "path": "formal_research/traffic_yolo_system/outputs/five_intersections_2026-09-27_r2/source_review/Bellevue_116th_NE12th/sparse_review.json",
+      "sha256": "3764f2e73637d49111266f1079603408c145c7cf13ba1dc1cb225b2ad08aaf53",
+      "roles": [
+        "runtime"
+      ]
+    },
+    {
+      "path": "formal_research/traffic_yolo_system/outputs/five_intersections_2026-09-27_r2/source_review/Bellevue_116th_NE12th/sparse_samples.json",
+      "sha256": "d5480b5603dcb8a627bc506cd022799d64ea8b2a88dd2c495ec63d69ba8c600f",
+      "roles": [
+        "runtime"
+      ]
+    },
+    {
+      "path": "formal_research/traffic_yolo_system/outputs/five_intersections_2026-09-27_r2/source_review/Bellevue_116th_NE12th/stream_metadata.json",
+      "sha256": "e569c7764b741582284f7b4c7078b7c06de2d0271b6ba68ea0ed0a18ef404243",
+      "roles": [
+        "runtime"
+      ]
+    },
+    {
+      "path": "formal_research/traffic_yolo_system/outputs/five_intersections_2026-09-27_r2/source_review/Bellevue_150th_Eastgate/original_samples_contact.jpg",
+      "sha256": "ba5c60c19667b2753fdaa86c0cd45813efdd8ef4ae7fbe6c887c81ddeefbd405",
+      "roles": [
+        "runtime"
+      ]
+    },
+    {
+      "path": "formal_research/traffic_yolo_system/outputs/five_intersections_2026-09-27_r2/source_review/Bellevue_150th_Eastgate/packet_duration_screen.json",
+      "sha256": "c48a6f65690b83027ed95ef6fbb38c832b4e9d344421c481a66488ab9a8c8e5f",
+      "roles": [
+        "runtime"
+      ]
+    },
+    {
+      "path": "formal_research/traffic_yolo_system/outputs/five_intersections_2026-09-27_r2/source_review/Bellevue_150th_Eastgate/reference_evidence.json",
+      "sha256": "1376e46e4c9ff97f51687f2a896eca85351240a31cb02c28669a480eeaf4df5b",
+      "roles": [
+        "runtime"
+      ]
+    },
+    {
+      "path": "formal_research/traffic_yolo_system/outputs/five_intersections_2026-09-27_r2/source_review/Bellevue_150th_Eastgate/reference_original_first_frame.png",
+      "sha256": "4c8bfbbd590989e54dbb29cd709ff18f40d8e52ad04b2b074965093666408051",
+      "roles": [
+        "runtime"
+      ]
+    },
+    {
+      "path": "formal_research/traffic_yolo_system/outputs/five_intersections_2026-09-27_r2/source_review/Bellevue_150th_Eastgate/sparse_review.json",
+      "sha256": "5cba005a41f94ef76ce1d5e3b63c993bc13dc19f72af96408a7adcf9134ca93c",
+      "roles": [
+        "runtime"
+      ]
+    },
+    {
+      "path": "formal_research/traffic_yolo_system/outputs/five_intersections_2026-09-27_r2/source_review/Bellevue_150th_Eastgate/sparse_review_policy.json",
+      "sha256": "50b962d50119abd143cf369e826d5be8932b0532c672beb5a191b856e14d0f8a",
+      "roles": [
+        "runtime"
+      ]
+    },
+    {
+      "path": "formal_research/traffic_yolo_system/outputs/five_intersections_2026-09-27_r2/source_review/Bellevue_150th_Eastgate/static_structure_followup.json",
+      "sha256": "d7007b6f5a1f1fbe494e897b0b76ecff7ad36818bcfe2e5be107c3ba450b1fc6",
+      "roles": [
+        "runtime"
+      ]
+    },
+    {
+      "path": "formal_research/traffic_yolo_system/outputs/five_intersections_2026-09-27_r2/source_review/Bellevue_150th_Eastgate/stream_metadata.json",
+      "sha256": "231f35239fd00864d48b30b13f21db376a279d7517e34c487ea4d401cda4f455",
+      "roles": [
+        "runtime"
+      ]
+    },
+    {
+      "path": "formal_research/traffic_yolo_system/outputs/five_intersections_2026-09-27_r2/source_review/Bellevue_150th_Eastgate/tail_pts_evidence.json",
+      "sha256": "8aa1ab7a7408a5d4c550e045aeae829c3803ac9638b4bacd7f64dc147cbc1c7b",
+      "roles": [
+        "runtime"
+      ]
+    },
+    {
+      "path": "formal_research/traffic_yolo_system/outputs/five_intersections_2026-09-27_r2/source_review/Bellevue_150th_SE38th/original_samples_contact.jpg",
+      "sha256": "3f59f7828ff68a48674d678eae01ec54f7d3b89b29e90e5823461286b9b23a69",
+      "roles": [
+        "runtime"
+      ]
+    },
+    {
+      "path": "formal_research/traffic_yolo_system/outputs/five_intersections_2026-09-27_r2/source_review/Bellevue_150th_SE38th/packet_duration_screen.json",
+      "sha256": "b70a9fda67116e524d5052fc300fa9bd052311fcb44c46c8497db723715a9913",
+      "roles": [
+        "runtime"
+      ]
+    },
+    {
+      "path": "formal_research/traffic_yolo_system/outputs/five_intersections_2026-09-27_r2/source_review/Bellevue_150th_SE38th/reference_evidence.json",
+      "sha256": "aa838d4cdc94623e9ffb8e32270c93278d7ecc53fb3e4db75eabf1088ebb319f",
+      "roles": [
+        "runtime"
+      ]
+    },
+    {
+      "path": "formal_research/traffic_yolo_system/outputs/five_intersections_2026-09-27_r2/source_review/Bellevue_150th_SE38th/reference_original_first_frame.png",
+      "sha256": "1928d0030f394d84c9e4486bfbeea49d26dc2f14ea79ffae66985b73118350b1",
+      "roles": [
+        "runtime"
+      ]
+    },
+    {
+      "path": "formal_research/traffic_yolo_system/outputs/five_intersections_2026-09-27_r2/source_review/Bellevue_150th_SE38th/sparse_review.json",
+      "sha256": "b09539e2ff9a5f89a3015630796a1b14623a28f4f09af371f4ed6c02bd5eb08b",
+      "roles": [
+        "runtime"
+      ]
+    },
+    {
+      "path": "formal_research/traffic_yolo_system/outputs/five_intersections_2026-09-27_r2/source_review/Bellevue_150th_SE38th/sparse_review_policy.json",
+      "sha256": "04f3adbf643d571cce7d9ad80e410604fbbc73043c70aedd9060ac475e197a8f",
+      "roles": [
+        "runtime"
+      ]
+    },
+    {
+      "path": "formal_research/traffic_yolo_system/outputs/five_intersections_2026-09-27_r2/source_review/Bellevue_150th_SE38th/stream_metadata.json",
+      "sha256": "f55578707d07ef873c1395355d4097530b290fac2adb6d2fc7cec60d2bb5f5f5",
+      "roles": [
+        "runtime"
+      ]
+    },
+    {
+      "path": "formal_research/traffic_yolo_system/outputs/five_intersections_2026-09-27_r2/source_review/Bellevue_150th_SE38th/tail_pts_evidence.json",
+      "sha256": "8070954d8f1eac968c1c6d51112f5404646fe19fffcd0d4003bb1b3926d78f80",
+      "roles": [
+        "runtime"
+      ]
+    },
+    {
+      "path": "formal_research/traffic_yolo_system/outputs/five_intersections_2026-09-27_r2/source_review/Bellevue_Bellevue_NE8th/original_samples_contact.jpg",
+      "sha256": "9c379c8112efb7f9f8b82346540e4ca33dac8bfea653e29fc04664136209b08e",
+      "roles": [
+        "runtime"
+      ]
+    },
+    {
+      "path": "formal_research/traffic_yolo_system/outputs/five_intersections_2026-09-27_r2/source_review/Bellevue_Bellevue_NE8th/packet_duration_screen.json",
+      "sha256": "d5e34c73a18dce2934f065667ff39843d349de352ec038a3b1e10d55d592220a",
+      "roles": [
+        "runtime"
+      ]
+    },
+    {
+      "path": "formal_research/traffic_yolo_system/outputs/five_intersections_2026-09-27_r2/source_review/Bellevue_Bellevue_NE8th/reference_evidence.json",
+      "sha256": "037aba818273d8f1526a2930110a00a08905d549156a4ac29080d68295452e55",
+      "roles": [
+        "runtime"
+      ]
+    },
+    {
+      "path": "formal_research/traffic_yolo_system/outputs/five_intersections_2026-09-27_r2/source_review/Bellevue_Bellevue_NE8th/reference_original_first_frame.png",
+      "sha256": "551038939412d9239b9749f5a5fcd22b6e49a4236f49e5a4d7431b369797fa70",
+      "roles": [
+        "runtime"
+      ]
+    },
+    {
+      "path": "formal_research/traffic_yolo_system/outputs/five_intersections_2026-09-27_r2/source_review/Bellevue_Bellevue_NE8th/sparse_review.json",
+      "sha256": "5f5316f51b8b4986149ca804afd18e1d1c96758a7f40172109aa7a378fefb217",
+      "roles": [
+        "runtime"
+      ]
+    },
+    {
+      "path": "formal_research/traffic_yolo_system/outputs/five_intersections_2026-09-27_r2/source_review/Bellevue_Bellevue_NE8th/sparse_review_policy.json",
+      "sha256": "1b3fde471b5f8398a83e0b9d233991dab83a437e0160ec56f9bb4c9dd810741d",
+      "roles": [
+        "runtime"
+      ]
+    },
+    {
+      "path": "formal_research/traffic_yolo_system/outputs/five_intersections_2026-09-27_r2/source_review/Bellevue_Bellevue_NE8th/static_structure_followup.json",
+      "sha256": "8c1072ba3e1ca9b0ad6a072e5dc86eb2bfde5e368a004731a541930b45d27dfa",
+      "roles": [
+        "runtime"
+      ]
+    },
+    {
+      "path": "formal_research/traffic_yolo_system/outputs/five_intersections_2026-09-27_r2/source_review/Bellevue_Bellevue_NE8th/stream_metadata.json",
+      "sha256": "6653dba363789d09e1c769a8f9b8c02a0f14ced26821e9991ad01cfa6dc2dbc8",
+      "roles": [
+        "runtime"
+      ]
+    },
+    {
+      "path": "formal_research/traffic_yolo_system/outputs/five_intersections_2026-09-27_r2/source_review/Bellevue_Bellevue_NE8th/tail_pts_evidence.json",
+      "sha256": "15ee73f88ef45450695fee4b0c35501bd0aa2c39c744a6fd48f4dc6325a5eaf8",
+      "roles": [
+        "runtime"
+      ]
+    },
+    {
+      "path": "formal_research/traffic_yolo_system/outputs/five_intersections_2026-09-27_r2/validation/audit_selected_output.py",
+      "sha256": "ac1fd92a3f1d6251bfe3bab393ebc905c91e1574aa29a8e6b950bbda94e34c45",
+      "roles": [
+        "qc"
+      ]
+    },
+    {
+      "path": "formal_research/traffic_yolo_system/outputs/five_intersections_2026-09-27_r2/validation/prepare_selected_time_audit.py",
+      "sha256": "563f79ef49e96bbd4987b1e92c530af6742a5c01506501a0bfb052a51f84b0bc",
+      "roles": [
+        "native"
+      ]
+    },
+    {
+      "path": "formal_research/traffic_yolo_system/outputs/five_intersections_2026-09-27_r2/validation/selection_binding.py",
+      "sha256": "63564e21cb43a3b7aab0ff6eb040b09474d6c6b9f33797bdc0b2166dfd6ff8ee",
+      "roles": [
+        "native",
+        "qc",
+        "render"
+      ]
+    },
+    {
+      "path": "formal_research/traffic_yolo_system/outputs/five_intersections_2026-09-27_r2/运行清单与恢复说明.md",
+      "sha256": "3e1885487d0571ad7c362973fe9e918d7345f5870c09f888f65b4ebd400cefb1",
+      "roles": [
+        "runtime"
+      ]
+    },
+    {
+      "path": "formal_research/traffic_yolo_system/src/__init__.py",
+      "sha256": "cfdb10c7c01341b4afa96b4acbcff09949cf0c512b10ad0a0e51278d6581ef70",
+      "roles": [
+        "runtime"
+      ]
+    },
+    {
+      "path": "formal_research/traffic_yolo_system/src/confirm_background_candidates.py",
+      "sha256": "d1bf9aa1ccfc2f786f10bf2208ced458b9dd9f21a3ee64b8b907bd4da1987867",
+      "roles": [
+        "native",
+        "inference",
+        "render"
+      ]
+    },
+    {
+      "path": "formal_research/traffic_yolo_system/src/full_video/__init__.py",
+      "sha256": "9f3bd5a8a94e9f0dd4d971307c68facb09e671809377b769ddd45adc346e8a33",
+      "roles": [
+        "native",
+        "inference",
+        "render"
+      ]
+    },
+    {
+      "path": "formal_research/traffic_yolo_system/src/full_video/__main__.py",
+      "sha256": "d980d72ac3a1802c257479b3e8f618bb76eb7802bf1450f00c2aeead4211d474",
+      "roles": [
+        "native",
+        "inference",
+        "render"
+      ]
+    },
+    {
+      "path": "formal_research/traffic_yolo_system/src/full_video/batch.py",
+      "sha256": "08f3229106790c3578e6d1ac77ab4aa7ac0f18c3fc566a26966870c9e907f3fb",
+      "roles": [
+        "native",
+        "inference",
+        "render"
+      ]
+    },
+    {
+      "path": "formal_research/traffic_yolo_system/src/full_video/cache.py",
+      "sha256": "4b3d2f0596bc55629a1af832578e19661ce581475868ae51e37d6aad4f861df6",
+      "roles": [
+        "native",
+        "inference",
+        "render"
+      ]
+    },
+    {
+      "path": "formal_research/traffic_yolo_system/src/full_video/common.py",
+      "sha256": "466e2c7f96e22020281255154b44206ae9fcc89332f621808684e0be21f40229",
+      "roles": [
+        "native",
+        "inference",
+        "render"
+      ]
+    },
+    {
+      "path": "formal_research/traffic_yolo_system/src/full_video/configuration.py",
+      "sha256": "47bdb564b22150aeb91306cc45ae06bfcef034ba1c06af53d123caf2adfdf2d4",
+      "roles": [
+        "native",
+        "inference",
+        "render"
+      ]
+    },
+    {
+      "path": "formal_research/traffic_yolo_system/src/full_video/pts_timing.py",
+      "sha256": "1b80549b6edf3059276c54d9a91ebbd330a46ad39753c749b3730679b63f1539",
+      "roles": [
+        "native",
+        "inference",
+        "render"
+      ]
+    },
+    {
+      "path": "formal_research/traffic_yolo_system/src/full_video/runner.py",
+      "sha256": "b9da068e46629cb5f0fac25c6dcc04d4d5565e5d0f1d67322361aac9fc959cf8",
+      "roles": [
+        "native",
+        "inference",
+        "render"
+      ]
+    },
+    {
+      "path": "formal_research/traffic_yolo_system/src/full_video/streaming.py",
+      "sha256": "a790714763571ba0c483b6ccf5594ab51876033a67a182932276ea561fed6d49",
+      "roles": [
+        "native",
+        "inference",
+        "render"
+      ]
+    },
+    {
+      "path": "formal_research/traffic_yolo_system/src/full_video/video.py",
+      "sha256": "a0b436e4aa3fe0b8da9213877e5e802e7e7ab9985a847aff927a82ac8b481fc7",
+      "roles": [
+        "native",
+        "inference",
+        "render"
+      ]
+    },
+    {
+      "path": "formal_research/traffic_yolo_system/src/render_video_tracking_pilot.py",
+      "sha256": "0eb58bfb05d0bbaca7f5b461c65681302442755cfab4107e62ad03f7ccddfc9b",
+      "roles": [
+        "render"
+      ]
+    },
+    {
+      "path": "formal_research/traffic_yolo_system/src/replay_vehicle_tracking_pilot.py",
+      "sha256": "7f646ab68ba67da96ebf0ef72e37a8b5fdadb846f2e93c4e4aedfff0f426e005",
+      "roles": [
+        "native",
+        "inference",
+        "render"
+      ]
+    },
+    {
+      "path": "formal_research/traffic_yolo_system/src/roi_geometry.py",
+      "sha256": "6c79df2f5fd104c294f81a1b2351dde6a2190fa825412bb1e4b0ef949837da95",
+      "roles": [
+        "native",
+        "inference",
+        "render"
+      ]
+    },
+    {
+      "path": "formal_research/traffic_yolo_system/src/run_video_tracking_pilot.py",
+      "sha256": "a08c5bb722985559bd107bd5e8389d2be9f48937b9e283e0f619ca0df60f1ad1",
+      "roles": [
+        "native",
+        "inference",
+        "render"
+      ]
+    },
+    {
+      "path": "formal_research/traffic_yolo_system/src/vehicle_containment.py",
+      "sha256": "dfebe89cd7334d11d30d60ae60d608d2a4dd4a27fd120e9bf8a008dd5390f8aa",
+      "roles": [
+        "native",
+        "inference",
+        "render"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "Bellevue_116th_NE12th__2017-09-10_23-08-29.mp4",
+      "camera_id": "Bellevue_116th_NE12th",
+      "split": "Validation",
+      "source_sha256": "785fc1ed24a6a2aff94601b79474c88a63660a751a586697b6bfd9120fd371be",
+      "source_bytes": 708631365,
+      "full_config": {
+        "path": "formal_research/traffic_yolo_system/outputs/five_intersections_2026-09-27_r2/config/Bellevue_116th_NE12th/full_remote.json",
+        "sha256": "67619ef55d66bc27a539b53dbee25e3e37183b393b27e6804e9445d78923da19"
+      },
+      "short_start_seconds": 60.0,
+      "short_target_seconds": 60.0
+    },
+    {
+      "source_id": "Bellevue_150th_Eastgate__2017-09-11_17-08-33.mp4",
+      "camera_id": "Bellevue_150th_Eastgate",
+      "split": "Validation",
+      "source_sha256": "8b5c1a2d013339b680362d17ce5e59bc7167c72d08e800556318947927ec07cd",
+      "source_bytes": 670193912,
+      "full_config": {
+        "path": "formal_research/traffic_yolo_system/outputs/five_intersections_2026-09-27_r2/config/Bellevue_150th_Eastgate/full_remote.json",
+        "sha256": "441d5e65b3228071a4783feebfd5845f62e07024897c7b59fe038adde1ccc372"
+      },
+      "short_start_seconds": 60.0,
+      "short_target_seconds": 60.0
+    },
+    {
+      "source_id": "Bellevue_150th_SE38th__2017-09-11_14-08-32.mp4",
+      "camera_id": "Bellevue_150th_SE38th",
+      "split": "Validation",
+      "source_sha256": "64049c93fd95320ed3736c516874119f2603623541a5255f79c38df37f0faf9c",
+      "source_bytes": 598888513,
+      "full_config": {
+        "path": "formal_research/traffic_yolo_system/outputs/five_intersections_2026-09-27_r2/config/Bellevue_150th_SE38th/full_remote.json",
+        "sha256": "103e17ca420c203851c69d791df0ec7df336f9a422bc1a6d23e3dd7f39b87f06"
+      },
+      "short_start_seconds": 60.0,
+      "short_target_seconds": 60.0
+    },
+    {
+      "source_id": "Bellevue_Bellevue_NE8th__2017-09-11_12-08-31.mp4",
+      "camera_id": "Bellevue_Bellevue_NE8th",
+      "split": "Validation",
+      "source_sha256": "15c9b8478b0897f935ecd0d05d5e5407f771e05c7d2f70801180ff24a4d56a60",
+      "source_bytes": 986047389,
+      "full_config": {
+        "path": "formal_research/traffic_yolo_system/outputs/five_intersections_2026-09-27_r2/config/Bellevue_Bellevue_NE8th/full_remote.json",
+        "sha256": "70a1af8c22b045eebd7b0f3ae76782e1d4b72307f0bc1ca8a228e4dbed62c44e"
+      },
+      "short_start_seconds": 60.0,
+      "short_target_seconds": 60.0
+    }
+  ]
+}

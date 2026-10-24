@@ -1,0 +1,266 @@
+[
+  {
+    "case": "Eastgate",
+    "source_id": "Bellevue_150th_Eastgate__2017-09-11_06-08-30.mp4",
+    "split": "Validation",
+    "duration_s": 3600.0039555555554,
+    "zone_id": "road_left",
+    "count_p33": 0.0,
+    "count_p67": 0.14999843333331592,
+    "count_thresholds_distinguishable": true,
+    "motion_p25_px_s": null,
+    "count_calibration_windows": 360,
+    "motion_calibration_windows": 0,
+    "all_windows": 361,
+    "temporal_eligible_windows": 360,
+    "motion_available_windows": 0,
+    "high_count_hint_windows": 18,
+    "joint_hint_windows": 0,
+    "high_count_hint_events": 11,
+    "joint_hint_events": 0,
+    "high_count_hints_with_unknown_evidence": 18,
+    "evidence_unknown_windows": 361,
+    "evidence_unknown_s": 3600.0039555555554,
+    "evidence_unknown_fraction": 1.0,
+    "evidence_state_windows": {
+      "unknown": 361
+    },
+    "evidence_state_seconds": {
+      "unknown": 3600.0039555555554
+    },
+    "unknown_reason_seconds_nonexclusive": {
+      "motion_observation_insufficient": 3600.0039555555554,
+      "motion_calibration_insufficient": 3600.0039555555554,
+      "incomplete_tail": 0.003955555555421597
+    },
+    "raw_count_level_windows": {
+      "empty": 182,
+      "medium": 59,
+      "high": 119,
+      "unknown": 1
+    },
+    "frozen_rule_hint_windows": {
+      "no_observed_vehicles": 182,
+      "motion_insufficient": 160,
+      "high_count_persistent": 18,
+      "insufficient_window": 1
+    }
+  },
+  {
+    "case": "Eastgate",
+    "source_id": "Bellevue_150th_Eastgate__2017-09-11_06-08-30.mp4",
+    "split": "Validation",
+    "duration_s": 3600.0039555555554,
+    "zone_id": "road_upper_left",
+    "count_p33": 0.3749812000000004,
+    "count_p67": 1.3859607222221566,
+    "count_thresholds_distinguishable": true,
+    "motion_p25_px_s": 0.37515218743670375,
+    "count_calibration_windows": 360,
+    "motion_calibration_windows": 199,
+    "all_windows": 361,
+    "temporal_eligible_windows": 360,
+    "motion_available_windows": 199,
+    "high_count_hint_windows": 70,
+    "joint_hint_windows": 7,
+    "high_count_hint_events": 12,
+    "joint_hint_events": 4,
+    "high_count_hints_with_unknown_evidence": 0,
+    "evidence_unknown_windows": 162,
+    "evidence_unknown_s": 1610.0039555555554,
+    "evidence_unknown_fraction": 0.4472228295946687,
+    "evidence_state_windows": {
+      "unknown": 162,
+      "no_persistent_hint": 129,
+      "high_count_hint": 63,
+      "joint_hint": 7
+    },
+    "evidence_state_seconds": {
+      "unknown": 1610.0039555555554,
+      "no_persistent_hint": 1290.0,
+      "high_count_hint": 630.0,
+      "joint_hint": 70.0
+    },
+    "unknown_reason_seconds_nonexclusive": {
+      "motion_observation_insufficient": 1610.0039555555554,
+      "incomplete_tail": 0.003955555555421597
+    },
+    "raw_count_level_windows": {
+      "empty": 31,
+      "low": 88,
+      "medium": 122,
+      "high": 119,
+      "unknown": 1
+    },
+    "frozen_rule_hint_windows": {
+      "no_observed_vehicles": 31,
+      "motion_insufficient": 130,
+      "no_persistent_signal": 129,
+      "high_count_persistent": 63,
+      "high_count_low_motion_persistent": 7,
+      "insufficient_window": 1
+    }
+  },
+  {
+    "case": "Eastgate",
+    "source_id": "Bellevue_150th_Eastgate__2017-09-11_06-08-30.mp4",
+    "split": "Validation",
+    "duration_s": 3600.0039555555554,
+    "zone_id": "road_top",
+    "count_p33": 0.9160001333333425,
+    "count_p67": 2.0970861888888934,
+    "count_thresholds_distinguishable": true,
+    "motion_p25_px_s": 1.1861593186051285,
+    "count_calibration_windows": 360,
+    "motion_calibration_windows": 256,
+    "all_windows": 361,
+    "temporal_eligible_windows": 360,
+    "motion_available_windows": 256,
+    "high_count_hint_windows": 51,
+    "joint_hint_windows": 9,
+    "high_count_hint_events": 18,
+    "joint_hint_events": 5,
+    "high_count_hints_with_unknown_evidence": 0,
+    "evidence_unknown_windows": 105,
+    "evidence_unknown_s": 1040.0039555555554,
+    "evidence_unknown_fraction": 0.28888967023233764,
+    "evidence_state_windows": {
+      "no_persistent_hint": 205,
+      "unknown": 105,
+      "high_count_hint": 42,
+      "joint_hint": 9
+    },
+    "evidence_state_seconds": {
+      "no_persistent_hint": 2050.0,
+      "unknown": 1040.0039555555554,
+      "high_count_hint": 420.0,
+      "joint_hint": 90.0
+    },
+    "unknown_reason_seconds_nonexclusive": {
+      "motion_observation_insufficient": 1040.0039555555554,
+      "incomplete_tail": 0.003955555555421597
+    },
+    "raw_count_level_windows": {
+      "medium": 122,
+      "low": 88,
+      "empty": 31,
+      "high": 119,
+      "unknown": 1
+    },
+    "frozen_rule_hint_windows": {
+      "no_persistent_signal": 205,
+      "motion_insufficient": 73,
+      "no_observed_vehicles": 31,
+      "high_count_persistent": 42,
+      "high_count_low_motion_persistent": 9,
+      "insufficient_window": 1
+    }
+  },
+  {
+    "case": "Eastgate",
+    "source_id": "Bellevue_150th_Eastgate__2017-09-11_06-08-30.mp4",
+    "split": "Validation",
+    "duration_s": 3600.0039555555554,
+    "zone_id": "road_right",
+    "count_p33": 0.6934344888889076,
+    "count_p67": 1.3174075888888863,
+    "count_thresholds_distinguishable": true,
+    "motion_p25_px_s": 0.5570966761622553,
+    "count_calibration_windows": 360,
+    "motion_calibration_windows": 226,
+    "all_windows": 361,
+    "temporal_eligible_windows": 360,
+    "motion_available_windows": 226,
+    "high_count_hint_windows": 49,
+    "joint_hint_windows": 2,
+    "high_count_hint_events": 18,
+    "joint_hint_events": 2,
+    "high_count_hints_with_unknown_evidence": 1,
+    "evidence_unknown_windows": 135,
+    "evidence_unknown_s": 1340.0039555555554,
+    "evidence_unknown_fraction": 0.37222291200198554,
+    "evidence_state_windows": {
+      "unknown": 135,
+      "no_persistent_hint": 178,
+      "high_count_hint": 46,
+      "joint_hint": 2
+    },
+    "evidence_state_seconds": {
+      "unknown": 1340.0039555555554,
+      "no_persistent_hint": 1780.0,
+      "high_count_hint": 460.0,
+      "joint_hint": 20.0
+    },
+    "unknown_reason_seconds_nonexclusive": {
+      "motion_observation_insufficient": 1340.0039555555554,
+      "incomplete_tail": 0.003955555555421597
+    },
+    "raw_count_level_windows": {
+      "empty": 59,
+      "medium": 122,
+      "high": 119,
+      "low": 60,
+      "unknown": 1
+    },
+    "frozen_rule_hint_windows": {
+      "no_observed_vehicles": 59,
+      "no_persistent_signal": 178,
+      "motion_insufficient": 74,
+      "high_count_persistent": 47,
+      "high_count_low_motion_persistent": 2,
+      "insufficient_window": 1
+    }
+  },
+  {
+    "case": "Eastgate",
+    "source_id": "Bellevue_150th_Eastgate__2017-09-11_06-08-30.mp4",
+    "split": "Validation",
+    "duration_s": 3600.0039555555554,
+    "zone_id": "junction_center",
+    "count_p33": 0.33027455555552104,
+    "count_p67": 0.7318606666666704,
+    "count_thresholds_distinguishable": true,
+    "motion_p25_px_s": 118.87078321173044,
+    "count_calibration_windows": 360,
+    "motion_calibration_windows": 88,
+    "all_windows": 361,
+    "temporal_eligible_windows": 360,
+    "motion_available_windows": 88,
+    "high_count_hint_windows": 24,
+    "joint_hint_windows": 0,
+    "high_count_hint_events": 11,
+    "joint_hint_events": 0,
+    "high_count_hints_with_unknown_evidence": 9,
+    "evidence_unknown_windows": 273,
+    "evidence_unknown_s": 2720.0039555555554,
+    "evidence_unknown_fraction": 0.7555558241423661,
+    "evidence_state_windows": {
+      "unknown": 273,
+      "no_persistent_hint": 73,
+      "high_count_hint": 15
+    },
+    "evidence_state_seconds": {
+      "unknown": 2720.0039555555554,
+      "no_persistent_hint": 730.0,
+      "high_count_hint": 150.0
+    },
+    "unknown_reason_seconds_nonexclusive": {
+      "motion_observation_insufficient": 2720.0039555555554,
+      "incomplete_tail": 0.003955555555421597
+    },
+    "raw_count_level_windows": {
+      "medium": 122,
+      "high": 119,
+      "low": 112,
+      "empty": 7,
+      "unknown": 1
+    },
+    "frozen_rule_hint_windows": {
+      "motion_insufficient": 256,
+      "no_persistent_signal": 73,
+      "no_observed_vehicles": 7,
+      "high_count_persistent": 24,
+      "insufficient_window": 1
+    }
+  }
+]

@@ -1,0 +1,286 @@
+{
+  "created_at": "2026-09-23T23:17:45.992389+12:00",
+  "scope": "Read-only Validation audit. No Main Test images or labels opened.",
+  "image_dir": "/Users/zoki/Desktop/traffic_projects/formal_research/05_full_dataset/formal_yolo_trainval_v1/images/val",
+  "label_dir": "/Users/zoki/Desktop/traffic_projects/formal_research/05_full_dataset/formal_yolo_trainval_v1/labels/val",
+  "annotation_manifest": "/Users/zoki/Desktop/traffic_projects/formal_research/03_full_dataset_design/annotation_preparation_v1_1/formal_annotation_frame_manifest_v1_2026-08-25.csv",
+  "source_split_manifest": "/Users/zoki/Desktop/traffic_projects/formal_research/03_full_dataset_design/splits/formal_source_video_split_manifest_v1_2026-08-24.csv",
+  "images": 197,
+  "labels": 197,
+  "manifest_validation_rows": 197,
+  "image_label_stem_mismatch": 0,
+  "image_manifest_filename_mismatch": 0,
+  "empty_images": 46,
+  "objects": 1736,
+  "class_counts": {
+    "car": 1621,
+    "truck": 85,
+    "bus": 22,
+    "motorcycle": 8
+  },
+  "source_count": 17,
+  "source_matches_frozen_validation": true,
+  "source_intersection_with_other_splits": 0,
+  "review_status": {
+    "HUMAN_REVIEW_COMPLETED": 197
+  },
+  "qa_status": {
+    "QA_PASSED": 197
+  },
+  "frame_qa_status": {
+    "QA_ACCEPTED": 195,
+    "QA_ACCEPTED_WITH_TIMESTAMP_LIMITATION": 2
+  },
+  "groups": {
+    "Lighting": {
+      "Day": {
+        "images": 77,
+        "empty_images": 0,
+        "objects": 1422,
+        "class_counts": {
+          "car": 1337,
+          "motorcycle": 8,
+          "bus": 18,
+          "truck": 59
+        },
+        "source_count": 7
+      },
+      "Night": {
+        "images": 96,
+        "empty_images": 46,
+        "objects": 154,
+        "class_counts": {
+          "car": 146,
+          "motorcycle": 0,
+          "bus": 1,
+          "truck": 7
+        },
+        "source_count": 8
+      },
+      "Dawn/Dusk": {
+        "images": 24,
+        "empty_images": 0,
+        "objects": 160,
+        "class_counts": {
+          "car": 138,
+          "motorcycle": 0,
+          "bus": 3,
+          "truck": 19
+        },
+        "source_count": 2
+      }
+    },
+    "Intersection": {
+      "Bellevue_150th_Newport": {
+        "images": 36,
+        "empty_images": 0,
+        "objects": 354,
+        "class_counts": {
+          "car": 335,
+          "motorcycle": 0,
+          "bus": 10,
+          "truck": 9
+        },
+        "source_count": 3
+      },
+      "Bellevue_150th_SE38th": {
+        "images": 48,
+        "empty_images": 10,
+        "objects": 345,
+        "class_counts": {
+          "car": 319,
+          "motorcycle": 0,
+          "bus": 0,
+          "truck": 26
+        },
+        "source_count": 4
+      },
+      "Bellevue_Bellevue_NE8th": {
+        "images": 36,
+        "empty_images": 16,
+        "objects": 384,
+        "class_counts": {
+          "car": 361,
+          "motorcycle": 1,
+          "bus": 0,
+          "truck": 22
+        },
+        "source_count": 3
+      },
+      "Bellevue_116th_NE12th": {
+        "images": 41,
+        "empty_images": 20,
+        "objects": 138,
+        "class_counts": {
+          "car": 125,
+          "motorcycle": 5,
+          "bus": 3,
+          "truck": 5
+        },
+        "source_count": 4
+      },
+      "Bellevue_150th_Eastgate": {
+        "images": 36,
+        "empty_images": 0,
+        "objects": 515,
+        "class_counts": {
+          "car": 481,
+          "motorcycle": 2,
+          "bus": 9,
+          "truck": 23
+        },
+        "source_count": 3
+      }
+    },
+    "Traffic Level": {
+      "Medium": {
+        "images": 65,
+        "empty_images": 0,
+        "objects": 764,
+        "class_counts": {
+          "car": 696,
+          "motorcycle": 5,
+          "bus": 16,
+          "truck": 47
+        },
+        "source_count": 6
+      },
+      "Low": {
+        "images": 108,
+        "empty_images": 46,
+        "objects": 211,
+        "class_counts": {
+          "car": 203,
+          "motorcycle": 0,
+          "bus": 1,
+          "truck": 7
+        },
+        "source_count": 9
+      },
+      "High": {
+        "images": 24,
+        "empty_images": 0,
+        "objects": 761,
+        "class_counts": {
+          "car": 722,
+          "motorcycle": 3,
+          "bus": 5,
+          "truck": 31
+        },
+        "source_count": 2
+      }
+    }
+  },
+  "sources": {
+    "Bellevue_150th_Newport__2017-09-11_15-08-32.mp4": {
+      "images": 12,
+      "lighting": "Day",
+      "intersection": "Bellevue_150th_Newport",
+      "traffic_level": "Medium"
+    },
+    "Bellevue_150th_SE38th__2017-09-10_20-08-25.mp4": {
+      "images": 12,
+      "lighting": "Night",
+      "intersection": "Bellevue_150th_SE38th",
+      "traffic_level": "Low"
+    },
+    "Bellevue_Bellevue_NE8th__2017-09-11_12-08-31.mp4": {
+      "images": 12,
+      "lighting": "Day",
+      "intersection": "Bellevue_Bellevue_NE8th",
+      "traffic_level": "High"
+    },
+    "Bellevue_150th_SE38th__2017-09-11_14-08-32.mp4": {
+      "images": 12,
+      "lighting": "Day",
+      "intersection": "Bellevue_150th_SE38th",
+      "traffic_level": "Medium"
+    },
+    "Bellevue_Bellevue_NE8th__2017-09-11_01-08-29.mp4": {
+      "images": 12,
+      "lighting": "Night",
+      "intersection": "Bellevue_Bellevue_NE8th",
+      "traffic_level": "Low"
+    },
+    "Bellevue_116th_NE12th__2017-09-10_21-08-54.mp4": {
+      "images": 12,
+      "lighting": "Night",
+      "intersection": "Bellevue_116th_NE12th",
+      "traffic_level": "Low"
+    },
+    "Bellevue_116th_NE12th__2017-09-10_23-08-29.mp4": {
+      "images": 12,
+      "lighting": "Night",
+      "intersection": "Bellevue_116th_NE12th",
+      "traffic_level": "Low"
+    },
+    "Bellevue_150th_SE38th__2017-09-10_19-08-25.mp4": {
+      "images": 12,
+      "lighting": "Dawn/Dusk",
+      "intersection": "Bellevue_150th_SE38th",
+      "traffic_level": "Medium"
+    },
+    "Bellevue_150th_Eastgate__2017-09-11_17-08-33.mp4": {
+      "images": 12,
+      "lighting": "Day",
+      "intersection": "Bellevue_150th_Eastgate",
+      "traffic_level": "High"
+    },
+    "Bellevue_116th_NE12th__2017-09-11_02-08-32.mp4": {
+      "images": 12,
+      "lighting": "Night",
+      "intersection": "Bellevue_116th_NE12th",
+      "traffic_level": "Low"
+    },
+    "Bellevue_150th_Eastgate__2017-09-10_20-08-25.mp4": {
+      "images": 12,
+      "lighting": "Night",
+      "intersection": "Bellevue_150th_Eastgate",
+      "traffic_level": "Low"
+    },
+    "Bellevue_150th_Eastgate__2017-09-11_06-08-30.mp4": {
+      "images": 12,
+      "lighting": "Dawn/Dusk",
+      "intersection": "Bellevue_150th_Eastgate",
+      "traffic_level": "Medium"
+    },
+    "Bellevue_150th_SE38th__2017-09-11_01-08-30.mp4": {
+      "images": 12,
+      "lighting": "Night",
+      "intersection": "Bellevue_150th_SE38th",
+      "traffic_level": "Low"
+    },
+    "Bellevue_150th_Newport__2017-09-10_18-08-24.mp4": {
+      "images": 12,
+      "lighting": "Day",
+      "intersection": "Bellevue_150th_Newport",
+      "traffic_level": "Low"
+    },
+    "Bellevue_150th_Newport__2017-09-11_08-08-31.mp4": {
+      "images": 12,
+      "lighting": "Day",
+      "intersection": "Bellevue_150th_Newport",
+      "traffic_level": "Medium"
+    },
+    "Bellevue_116th_NE12th__2017-09-11_15-08-36.mp4": {
+      "images": 5,
+      "lighting": "Day",
+      "intersection": "Bellevue_116th_NE12th",
+      "traffic_level": "Medium"
+    },
+    "Bellevue_Bellevue_NE8th__2017-09-11_02-08-29.mp4": {
+      "images": 12,
+      "lighting": "Night",
+      "intersection": "Bellevue_Bellevue_NE8th",
+      "traffic_level": "Low"
+    }
+  },
+  "errors": [],
+  "interpretation": [
+    "Labels use roadway-only scope; predictions are not spatially masked by the labels.",
+    "Unmatched predictions are FP relative to existing labels, not automatically non-existent vehicles.",
+    "Small/occluded/truncated vehicles are included when class reliably identifiable; no blanket ignore rule.",
+    "Do not change ground truth separately for each confidence; investigate label concerns separately and version any future approved corrections.",
+    "Per-source lighting and traffic-level values are metadata, not frame-by-frame state ground truth."
+  ]
+}

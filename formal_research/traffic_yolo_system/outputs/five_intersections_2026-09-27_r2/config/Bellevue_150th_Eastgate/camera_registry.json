@@ -1,0 +1,8 @@
+{
+  "schema_version": 1,
+  "cameras": {
+    "Bellevue_150th_Eastgate": {
+      "config_path": "camera.json"
+    }
+  }
+}

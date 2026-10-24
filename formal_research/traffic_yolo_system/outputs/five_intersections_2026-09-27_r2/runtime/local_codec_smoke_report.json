@@ -1,0 +1,52 @@
+{
+  "state": "passed",
+  "synthetic": true,
+  "pyav_version": "17.1.0",
+  "source_pts_ticks": [
+    0,
+    1,
+    3000,
+    5999,
+    11000,
+    1067025
+  ],
+  "source_duration_ticks": [
+    1,
+    2999,
+    2999,
+    5001,
+    1056025,
+    2588988
+  ],
+  "time_base": "1/90000",
+  "original_check": {
+    "decoded_frames": 6,
+    "packets": 6,
+    "every_pts_exact": true,
+    "every_packet_duration_exact_including_final_frame": true
+  },
+  "annotated_output_check": {
+    "decoded_frames": 6,
+    "packets": 6,
+    "every_pts_exact": true,
+    "every_packet_duration_exact_including_final_frame": true
+  },
+  "source_pixel_checks": true,
+  "native_video_dimensions": [
+    1280,
+    720
+  ],
+  "annotated_dimensions": [
+    1280,
+    870
+  ],
+  "model_or_dataset_used": false,
+  "scope_guards_mocked_for_generated_fixture_only": true,
+  "long_original_presentation_intervals_included_seconds": [
+    11.733611111111111,
+    28.766533333333335
+  ],
+  "elapsed_render_seconds": 0.09959670796524733,
+  "renderer_sha256": "089cc3654d52423a405a959cad065f8dd589be3be9a274591a2da6930baccc72",
+  "render_receipt_sha256": "7183601f0ebc581a6d2034ec908121cf3890e081d8d7be95941f0daa2dec5e9d"
+}

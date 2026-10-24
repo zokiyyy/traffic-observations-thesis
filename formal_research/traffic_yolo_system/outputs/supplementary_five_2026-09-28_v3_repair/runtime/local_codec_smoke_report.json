@@ -1,0 +1,58 @@
+{
+  "state": "passed",
+  "synthetic": true,
+  "pyav_version": "17.1.0",
+  "source_pts_ticks": [
+    0,
+    1,
+    3000,
+    5999,
+    11000,
+    1067025
+  ],
+  "source_duration_ticks": [
+    1,
+    2999,
+    2999,
+    5001,
+    1056025,
+    2588988
+  ],
+  "time_base": "1/90000",
+  "original_check": {
+    "all_frames_decoded": true,
+    "decoded_frames": 6,
+    "packets": 6,
+    "every_pts_exact": true,
+    "every_packet_duration_exact_including_final_frame": true,
+    "stream_duration_exact": true,
+    "duration_seconds": 40.622366666666665
+  },
+  "annotated_output_check": {
+    "all_frames_decoded": true,
+    "decoded_frames": 6,
+    "packets": 6,
+    "every_pts_exact": true,
+    "every_packet_duration_exact_including_final_frame": true,
+    "stream_duration_exact": true,
+    "duration_seconds": 40.622366666666665
+  },
+  "source_pixel_checks": true,
+  "native_video_dimensions": [
+    1280,
+    720
+  ],
+  "annotated_dimensions": [
+    1280,
+    870
+  ],
+  "model_or_dataset_used": false,
+  "scope_guards_mocked_for_generated_fixture_only": true,
+  "long_original_presentation_intervals_included_seconds": [
+    11.733611111111111,
+    28.766533333333335
+  ],
+  "elapsed_render_seconds": 0.0955900420085527,
+  "renderer_sha256": "824cb968c5df2d77d47b9ecda4843c43846edb4bb4135490e4a27200292fdb43",
+  "render_receipt_sha256": "c5200ca0a901d667f72d46408ec237c7a5a2864bcf22e30cff94b00ded9ae89f"
+}

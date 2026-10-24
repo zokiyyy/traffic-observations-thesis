@@ -1,0 +1,13 @@
+{
+  "scope": "Git-selected file verification after README preview addition",
+  "passed": true,
+  "preview_included": true,
+  "preview_source_unchanged": true,
+  "readme_and_media_links_resolve": true,
+  "original_research_and_checkpoint_hashes_verified": 1537,
+  "unity_case_images_external": 3,
+  "case_source_hashes_verified_in_both_original_projects": true,
+  "models_not_in_git_payload": true,
+  "no_upload": true,
+  "note": "Final report/docs/checksum additions were checked separately after functional verification; original code and numerical evidence were unchanged."
+}

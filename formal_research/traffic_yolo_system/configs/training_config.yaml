@@ -1,0 +1,22 @@
+experiment_name: yolo11n_formal_baseline_v1
+model: /Users/zoki/yolo11n.pt
+data: /Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/configs/data.yaml
+project: /Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/training
+
+training:
+  epochs: 100
+  patience: 20
+  imgsz: 640
+  batch: 8
+  device: mps
+  workers: 2
+  seed: 42
+  deterministic: true
+  cache: false
+  plots: true
+  save: true
+  save_period: 10
+  optimizer: auto
+  val: true
+  pretrained: true
+  exist_ok: false

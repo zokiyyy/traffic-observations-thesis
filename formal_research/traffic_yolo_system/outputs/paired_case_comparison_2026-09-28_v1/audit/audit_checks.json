@@ -1,0 +1,1757 @@
+{
+  "passed": true,
+  "check_count": 350,
+  "failed_count": 0,
+  "checks": [
+    {
+      "check": "five_intersections_2026-09-27_r2: delivery completed",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "supplementary_five_2026-09-28_v3_repair: delivery completed",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "original/Bellevue_150th_Newport: implementation snapshot confirm_background_candidates.py",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "original/Bellevue_150th_Newport: implementation snapshot full_video/__init__.py",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "original/Bellevue_150th_Newport: implementation snapshot full_video/__main__.py",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "original/Bellevue_150th_Newport: implementation snapshot full_video/batch.py",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "original/Bellevue_150th_Newport: implementation snapshot full_video/cache.py",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "original/Bellevue_150th_Newport: implementation snapshot full_video/common.py",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "original/Bellevue_150th_Newport: implementation snapshot full_video/configuration.py",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "original/Bellevue_150th_Newport: implementation snapshot full_video/pts_timing.py",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "original/Bellevue_150th_Newport: implementation snapshot full_video/runner.py",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "original/Bellevue_150th_Newport: implementation snapshot full_video/streaming.py",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "original/Bellevue_150th_Newport: implementation snapshot full_video/video.py",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "original/Bellevue_150th_Newport: implementation snapshot replay_vehicle_tracking_pilot.py",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "original/Bellevue_150th_Newport: implementation snapshot roi_geometry.py",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "original/Bellevue_150th_Newport: implementation snapshot run_video_tracking_pilot.py",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "original/Bellevue_150th_Newport: implementation snapshot vehicle_containment.py",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "original/Bellevue_150th_Newport: source identity and SHA",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "original/Bellevue_150th_Newport: split identity",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "original/Bellevue_150th_Newport: frozen split manifest SHA",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "original/Bellevue_150th_Newport: ROI bound to recorded run",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "original/Bellevue_150th_Newport: timing SHA bound to QC",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "original/Bellevue_150th_Newport: model bound to QC",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "original/Bellevue_150th_Newport: frame counts agree",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "original/Bellevue_150th_Newport: QC passed without missing output",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "original/Bellevue_150th_Newport: decoder and PTS integrity",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "original/Bellevue_150th_Newport: durations agree",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "original/Bellevue_150th_Newport: background policy bound to run",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "original/Bellevue_150th_Newport: all source images match ROI dimensions",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "supplementary/Bellevue_150th_Newport: implementation snapshot confirm_background_candidates.py",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "supplementary/Bellevue_150th_Newport: implementation snapshot full_video/__init__.py",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "supplementary/Bellevue_150th_Newport: implementation snapshot full_video/__main__.py",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "supplementary/Bellevue_150th_Newport: implementation snapshot full_video/batch.py",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "supplementary/Bellevue_150th_Newport: implementation snapshot full_video/cache.py",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "supplementary/Bellevue_150th_Newport: implementation snapshot full_video/common.py",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "supplementary/Bellevue_150th_Newport: implementation snapshot full_video/configuration.py",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "supplementary/Bellevue_150th_Newport: implementation snapshot full_video/pts_timing.py",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "supplementary/Bellevue_150th_Newport: implementation snapshot full_video/runner.py",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "supplementary/Bellevue_150th_Newport: implementation snapshot full_video/streaming.py",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "supplementary/Bellevue_150th_Newport: implementation snapshot full_video/video.py",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "supplementary/Bellevue_150th_Newport: implementation snapshot replay_vehicle_tracking_pilot.py",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "supplementary/Bellevue_150th_Newport: implementation snapshot roi_geometry.py",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "supplementary/Bellevue_150th_Newport: implementation snapshot run_video_tracking_pilot.py",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "supplementary/Bellevue_150th_Newport: implementation snapshot vehicle_containment.py",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "supplementary/Bellevue_150th_Newport: source identity and SHA",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "supplementary/Bellevue_150th_Newport: split identity",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "supplementary/Bellevue_150th_Newport: frozen split manifest SHA",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "supplementary/Bellevue_150th_Newport: ROI bound to recorded run",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "supplementary/Bellevue_150th_Newport: timing SHA bound to QC",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "supplementary/Bellevue_150th_Newport: model bound to QC",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "supplementary/Bellevue_150th_Newport: frame counts agree",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "supplementary/Bellevue_150th_Newport: QC passed without missing output",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "supplementary/Bellevue_150th_Newport: decoder and PTS integrity",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "supplementary/Bellevue_150th_Newport: holds agree with QC",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "supplementary/Bellevue_150th_Newport: durations agree",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "supplementary/Bellevue_150th_Newport: background policy bound to run",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "supplementary/Bellevue_150th_Newport: all source images match ROI dimensions",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Bellevue_150th_Newport: paired model equivalence",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Bellevue_150th_Newport: paired detector equivalence",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Bellevue_150th_Newport: paired tracker equivalence",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Bellevue_150th_Newport: paired dedup equivalence",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Bellevue_150th_Newport: paired aggregation equivalence",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Bellevue_150th_Newport: paired time_mode equivalence",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Bellevue_150th_Newport: paired configured_device equivalence",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Bellevue_150th_Newport: paired audited_decoder equivalence",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Bellevue_150th_Newport: paired decoder_timestamp_tolerance_seconds equivalence",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Bellevue_150th_Newport: paired time_base equivalence",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Bellevue_150th_Newport: paired max_allowed_frame_duration_seconds equivalence",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Bellevue_150th_Newport: paired runtime equivalence",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Bellevue_150th_Newport: paired roi_geometry_and_assignment equivalence",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Bellevue_150th_Newport: paired background_filter_numeric_policy equivalence",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Bellevue_150th_Newport: source interval labels nonoverlapping",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "original/Bellevue_116th_NE12th: implementation snapshot confirm_background_candidates.py",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "original/Bellevue_116th_NE12th: implementation snapshot full_video/__init__.py",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "original/Bellevue_116th_NE12th: implementation snapshot full_video/__main__.py",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "original/Bellevue_116th_NE12th: implementation snapshot full_video/batch.py",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "original/Bellevue_116th_NE12th: implementation snapshot full_video/cache.py",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "original/Bellevue_116th_NE12th: implementation snapshot full_video/common.py",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "original/Bellevue_116th_NE12th: implementation snapshot full_video/configuration.py",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "original/Bellevue_116th_NE12th: implementation snapshot full_video/pts_timing.py",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "original/Bellevue_116th_NE12th: implementation snapshot full_video/runner.py",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "original/Bellevue_116th_NE12th: implementation snapshot full_video/streaming.py",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "original/Bellevue_116th_NE12th: implementation snapshot full_video/video.py",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "original/Bellevue_116th_NE12th: implementation snapshot replay_vehicle_tracking_pilot.py",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "original/Bellevue_116th_NE12th: implementation snapshot roi_geometry.py",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "original/Bellevue_116th_NE12th: implementation snapshot run_video_tracking_pilot.py",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "original/Bellevue_116th_NE12th: implementation snapshot vehicle_containment.py",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "original/Bellevue_116th_NE12th: source identity and SHA",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "original/Bellevue_116th_NE12th: split identity",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "original/Bellevue_116th_NE12th: frozen split manifest SHA",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "original/Bellevue_116th_NE12th: ROI bound to recorded run",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "original/Bellevue_116th_NE12th: timing SHA bound to QC",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "original/Bellevue_116th_NE12th: model bound to QC",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "original/Bellevue_116th_NE12th: frame counts agree",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "original/Bellevue_116th_NE12th: QC passed without missing output",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "original/Bellevue_116th_NE12th: decoder and PTS integrity",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "original/Bellevue_116th_NE12th: holds agree with QC",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "original/Bellevue_116th_NE12th: durations agree",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "original/Bellevue_116th_NE12th: all source images match ROI dimensions",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "supplementary/Bellevue_116th_NE12th: implementation snapshot confirm_background_candidates.py",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "supplementary/Bellevue_116th_NE12th: implementation snapshot full_video/__init__.py",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "supplementary/Bellevue_116th_NE12th: implementation snapshot full_video/__main__.py",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "supplementary/Bellevue_116th_NE12th: implementation snapshot full_video/batch.py",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "supplementary/Bellevue_116th_NE12th: implementation snapshot full_video/cache.py",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "supplementary/Bellevue_116th_NE12th: implementation snapshot full_video/common.py",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "supplementary/Bellevue_116th_NE12th: implementation snapshot full_video/configuration.py",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "supplementary/Bellevue_116th_NE12th: implementation snapshot full_video/pts_timing.py",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "supplementary/Bellevue_116th_NE12th: implementation snapshot full_video/runner.py",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "supplementary/Bellevue_116th_NE12th: implementation snapshot full_video/streaming.py",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "supplementary/Bellevue_116th_NE12th: implementation snapshot full_video/video.py",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "supplementary/Bellevue_116th_NE12th: implementation snapshot replay_vehicle_tracking_pilot.py",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "supplementary/Bellevue_116th_NE12th: implementation snapshot roi_geometry.py",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "supplementary/Bellevue_116th_NE12th: implementation snapshot run_video_tracking_pilot.py",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "supplementary/Bellevue_116th_NE12th: implementation snapshot vehicle_containment.py",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "supplementary/Bellevue_116th_NE12th: source identity and SHA",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "supplementary/Bellevue_116th_NE12th: split identity",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "supplementary/Bellevue_116th_NE12th: frozen split manifest SHA",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "supplementary/Bellevue_116th_NE12th: ROI bound to recorded run",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "supplementary/Bellevue_116th_NE12th: timing SHA bound to QC",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "supplementary/Bellevue_116th_NE12th: model bound to QC",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "supplementary/Bellevue_116th_NE12th: frame counts agree",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "supplementary/Bellevue_116th_NE12th: QC passed without missing output",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "supplementary/Bellevue_116th_NE12th: decoder and PTS integrity",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "supplementary/Bellevue_116th_NE12th: holds agree with QC",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "supplementary/Bellevue_116th_NE12th: durations agree",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "supplementary/Bellevue_116th_NE12th: all source images match ROI dimensions",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Bellevue_116th_NE12th: paired model equivalence",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Bellevue_116th_NE12th: paired detector equivalence",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Bellevue_116th_NE12th: paired tracker equivalence",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Bellevue_116th_NE12th: paired dedup equivalence",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Bellevue_116th_NE12th: paired aggregation equivalence",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Bellevue_116th_NE12th: paired time_mode equivalence",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Bellevue_116th_NE12th: paired configured_device equivalence",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Bellevue_116th_NE12th: paired audited_decoder equivalence",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Bellevue_116th_NE12th: paired decoder_timestamp_tolerance_seconds equivalence",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Bellevue_116th_NE12th: paired time_base equivalence",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Bellevue_116th_NE12th: paired max_allowed_frame_duration_seconds equivalence",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Bellevue_116th_NE12th: paired runtime equivalence",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Bellevue_116th_NE12th: paired roi_geometry_and_assignment equivalence",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Bellevue_116th_NE12th: paired background_filter_numeric_policy equivalence",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Bellevue_116th_NE12th: source interval labels nonoverlapping",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "original/Bellevue_150th_Eastgate: implementation snapshot confirm_background_candidates.py",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "original/Bellevue_150th_Eastgate: implementation snapshot full_video/__init__.py",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "original/Bellevue_150th_Eastgate: implementation snapshot full_video/__main__.py",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "original/Bellevue_150th_Eastgate: implementation snapshot full_video/batch.py",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "original/Bellevue_150th_Eastgate: implementation snapshot full_video/cache.py",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "original/Bellevue_150th_Eastgate: implementation snapshot full_video/common.py",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "original/Bellevue_150th_Eastgate: implementation snapshot full_video/configuration.py",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "original/Bellevue_150th_Eastgate: implementation snapshot full_video/pts_timing.py",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "original/Bellevue_150th_Eastgate: implementation snapshot full_video/runner.py",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "original/Bellevue_150th_Eastgate: implementation snapshot full_video/streaming.py",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "original/Bellevue_150th_Eastgate: implementation snapshot full_video/video.py",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "original/Bellevue_150th_Eastgate: implementation snapshot replay_vehicle_tracking_pilot.py",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "original/Bellevue_150th_Eastgate: implementation snapshot roi_geometry.py",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "original/Bellevue_150th_Eastgate: implementation snapshot run_video_tracking_pilot.py",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "original/Bellevue_150th_Eastgate: implementation snapshot vehicle_containment.py",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "original/Bellevue_150th_Eastgate: source identity and SHA",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "original/Bellevue_150th_Eastgate: split identity",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "original/Bellevue_150th_Eastgate: frozen split manifest SHA",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "original/Bellevue_150th_Eastgate: ROI bound to recorded run",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "original/Bellevue_150th_Eastgate: timing SHA bound to QC",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "original/Bellevue_150th_Eastgate: model bound to QC",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "original/Bellevue_150th_Eastgate: frame counts agree",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "original/Bellevue_150th_Eastgate: QC passed without missing output",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "original/Bellevue_150th_Eastgate: decoder and PTS integrity",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "original/Bellevue_150th_Eastgate: holds agree with QC",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "original/Bellevue_150th_Eastgate: durations agree",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "original/Bellevue_150th_Eastgate: all source images match ROI dimensions",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "supplementary/Bellevue_150th_Eastgate: implementation snapshot confirm_background_candidates.py",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "supplementary/Bellevue_150th_Eastgate: implementation snapshot full_video/__init__.py",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "supplementary/Bellevue_150th_Eastgate: implementation snapshot full_video/__main__.py",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "supplementary/Bellevue_150th_Eastgate: implementation snapshot full_video/batch.py",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "supplementary/Bellevue_150th_Eastgate: implementation snapshot full_video/cache.py",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "supplementary/Bellevue_150th_Eastgate: implementation snapshot full_video/common.py",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "supplementary/Bellevue_150th_Eastgate: implementation snapshot full_video/configuration.py",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "supplementary/Bellevue_150th_Eastgate: implementation snapshot full_video/pts_timing.py",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "supplementary/Bellevue_150th_Eastgate: implementation snapshot full_video/runner.py",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "supplementary/Bellevue_150th_Eastgate: implementation snapshot full_video/streaming.py",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "supplementary/Bellevue_150th_Eastgate: implementation snapshot full_video/video.py",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "supplementary/Bellevue_150th_Eastgate: implementation snapshot replay_vehicle_tracking_pilot.py",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "supplementary/Bellevue_150th_Eastgate: implementation snapshot roi_geometry.py",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "supplementary/Bellevue_150th_Eastgate: implementation snapshot run_video_tracking_pilot.py",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "supplementary/Bellevue_150th_Eastgate: implementation snapshot vehicle_containment.py",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "supplementary/Bellevue_150th_Eastgate: source identity and SHA",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "supplementary/Bellevue_150th_Eastgate: split identity",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "supplementary/Bellevue_150th_Eastgate: frozen split manifest SHA",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "supplementary/Bellevue_150th_Eastgate: ROI bound to recorded run",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "supplementary/Bellevue_150th_Eastgate: timing SHA bound to QC",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "supplementary/Bellevue_150th_Eastgate: model bound to QC",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "supplementary/Bellevue_150th_Eastgate: frame counts agree",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "supplementary/Bellevue_150th_Eastgate: QC passed without missing output",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "supplementary/Bellevue_150th_Eastgate: decoder and PTS integrity",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "supplementary/Bellevue_150th_Eastgate: holds agree with QC",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "supplementary/Bellevue_150th_Eastgate: durations agree",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "supplementary/Bellevue_150th_Eastgate: all source images match ROI dimensions",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Bellevue_150th_Eastgate: paired model equivalence",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Bellevue_150th_Eastgate: paired detector equivalence",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Bellevue_150th_Eastgate: paired tracker equivalence",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Bellevue_150th_Eastgate: paired dedup equivalence",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Bellevue_150th_Eastgate: paired aggregation equivalence",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Bellevue_150th_Eastgate: paired time_mode equivalence",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Bellevue_150th_Eastgate: paired configured_device equivalence",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Bellevue_150th_Eastgate: paired audited_decoder equivalence",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Bellevue_150th_Eastgate: paired decoder_timestamp_tolerance_seconds equivalence",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Bellevue_150th_Eastgate: paired time_base equivalence",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Bellevue_150th_Eastgate: paired max_allowed_frame_duration_seconds equivalence",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Bellevue_150th_Eastgate: paired runtime equivalence",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Bellevue_150th_Eastgate: paired roi_geometry_and_assignment equivalence",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Bellevue_150th_Eastgate: paired background_filter_numeric_policy equivalence",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Bellevue_150th_Eastgate: source interval labels nonoverlapping",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "original/Bellevue_150th_SE38th: implementation snapshot confirm_background_candidates.py",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "original/Bellevue_150th_SE38th: implementation snapshot full_video/__init__.py",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "original/Bellevue_150th_SE38th: implementation snapshot full_video/__main__.py",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "original/Bellevue_150th_SE38th: implementation snapshot full_video/batch.py",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "original/Bellevue_150th_SE38th: implementation snapshot full_video/cache.py",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "original/Bellevue_150th_SE38th: implementation snapshot full_video/common.py",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "original/Bellevue_150th_SE38th: implementation snapshot full_video/configuration.py",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "original/Bellevue_150th_SE38th: implementation snapshot full_video/pts_timing.py",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "original/Bellevue_150th_SE38th: implementation snapshot full_video/runner.py",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "original/Bellevue_150th_SE38th: implementation snapshot full_video/streaming.py",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "original/Bellevue_150th_SE38th: implementation snapshot full_video/video.py",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "original/Bellevue_150th_SE38th: implementation snapshot replay_vehicle_tracking_pilot.py",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "original/Bellevue_150th_SE38th: implementation snapshot roi_geometry.py",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "original/Bellevue_150th_SE38th: implementation snapshot run_video_tracking_pilot.py",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "original/Bellevue_150th_SE38th: implementation snapshot vehicle_containment.py",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "original/Bellevue_150th_SE38th: source identity and SHA",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "original/Bellevue_150th_SE38th: split identity",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "original/Bellevue_150th_SE38th: frozen split manifest SHA",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "original/Bellevue_150th_SE38th: ROI bound to recorded run",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "original/Bellevue_150th_SE38th: timing SHA bound to QC",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "original/Bellevue_150th_SE38th: model bound to QC",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "original/Bellevue_150th_SE38th: frame counts agree",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "original/Bellevue_150th_SE38th: QC passed without missing output",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "original/Bellevue_150th_SE38th: decoder and PTS integrity",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "original/Bellevue_150th_SE38th: holds agree with QC",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "original/Bellevue_150th_SE38th: durations agree",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "original/Bellevue_150th_SE38th: all source images match ROI dimensions",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "supplementary/Bellevue_150th_SE38th: implementation snapshot confirm_background_candidates.py",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "supplementary/Bellevue_150th_SE38th: implementation snapshot full_video/__init__.py",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "supplementary/Bellevue_150th_SE38th: implementation snapshot full_video/__main__.py",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "supplementary/Bellevue_150th_SE38th: implementation snapshot full_video/batch.py",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "supplementary/Bellevue_150th_SE38th: implementation snapshot full_video/cache.py",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "supplementary/Bellevue_150th_SE38th: implementation snapshot full_video/common.py",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "supplementary/Bellevue_150th_SE38th: implementation snapshot full_video/configuration.py",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "supplementary/Bellevue_150th_SE38th: implementation snapshot full_video/pts_timing.py",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "supplementary/Bellevue_150th_SE38th: implementation snapshot full_video/runner.py",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "supplementary/Bellevue_150th_SE38th: implementation snapshot full_video/streaming.py",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "supplementary/Bellevue_150th_SE38th: implementation snapshot full_video/video.py",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "supplementary/Bellevue_150th_SE38th: implementation snapshot replay_vehicle_tracking_pilot.py",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "supplementary/Bellevue_150th_SE38th: implementation snapshot roi_geometry.py",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "supplementary/Bellevue_150th_SE38th: implementation snapshot run_video_tracking_pilot.py",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "supplementary/Bellevue_150th_SE38th: implementation snapshot vehicle_containment.py",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "supplementary/Bellevue_150th_SE38th: source identity and SHA",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "supplementary/Bellevue_150th_SE38th: split identity",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "supplementary/Bellevue_150th_SE38th: frozen split manifest SHA",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "supplementary/Bellevue_150th_SE38th: ROI bound to recorded run",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "supplementary/Bellevue_150th_SE38th: timing SHA bound to QC",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "supplementary/Bellevue_150th_SE38th: model bound to QC",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "supplementary/Bellevue_150th_SE38th: frame counts agree",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "supplementary/Bellevue_150th_SE38th: QC passed without missing output",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "supplementary/Bellevue_150th_SE38th: decoder and PTS integrity",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "supplementary/Bellevue_150th_SE38th: holds agree with QC",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "supplementary/Bellevue_150th_SE38th: durations agree",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "supplementary/Bellevue_150th_SE38th: all source images match ROI dimensions",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Bellevue_150th_SE38th: paired model equivalence",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Bellevue_150th_SE38th: paired detector equivalence",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Bellevue_150th_SE38th: paired tracker equivalence",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Bellevue_150th_SE38th: paired dedup equivalence",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Bellevue_150th_SE38th: paired aggregation equivalence",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Bellevue_150th_SE38th: paired time_mode equivalence",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Bellevue_150th_SE38th: paired configured_device equivalence",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Bellevue_150th_SE38th: paired audited_decoder equivalence",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Bellevue_150th_SE38th: paired decoder_timestamp_tolerance_seconds equivalence",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Bellevue_150th_SE38th: paired time_base equivalence",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Bellevue_150th_SE38th: paired max_allowed_frame_duration_seconds equivalence",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Bellevue_150th_SE38th: paired runtime equivalence",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Bellevue_150th_SE38th: paired roi_geometry_and_assignment equivalence",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Bellevue_150th_SE38th: paired background_filter_numeric_policy equivalence",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Bellevue_150th_SE38th: source interval labels nonoverlapping",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "original/Bellevue_Bellevue_NE8th: implementation snapshot confirm_background_candidates.py",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "original/Bellevue_Bellevue_NE8th: implementation snapshot full_video/__init__.py",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "original/Bellevue_Bellevue_NE8th: implementation snapshot full_video/__main__.py",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "original/Bellevue_Bellevue_NE8th: implementation snapshot full_video/batch.py",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "original/Bellevue_Bellevue_NE8th: implementation snapshot full_video/cache.py",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "original/Bellevue_Bellevue_NE8th: implementation snapshot full_video/common.py",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "original/Bellevue_Bellevue_NE8th: implementation snapshot full_video/configuration.py",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "original/Bellevue_Bellevue_NE8th: implementation snapshot full_video/pts_timing.py",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "original/Bellevue_Bellevue_NE8th: implementation snapshot full_video/runner.py",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "original/Bellevue_Bellevue_NE8th: implementation snapshot full_video/streaming.py",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "original/Bellevue_Bellevue_NE8th: implementation snapshot full_video/video.py",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "original/Bellevue_Bellevue_NE8th: implementation snapshot replay_vehicle_tracking_pilot.py",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "original/Bellevue_Bellevue_NE8th: implementation snapshot roi_geometry.py",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "original/Bellevue_Bellevue_NE8th: implementation snapshot run_video_tracking_pilot.py",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "original/Bellevue_Bellevue_NE8th: implementation snapshot vehicle_containment.py",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "original/Bellevue_Bellevue_NE8th: source identity and SHA",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "original/Bellevue_Bellevue_NE8th: split identity",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "original/Bellevue_Bellevue_NE8th: frozen split manifest SHA",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "original/Bellevue_Bellevue_NE8th: ROI bound to recorded run",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "original/Bellevue_Bellevue_NE8th: timing SHA bound to QC",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "original/Bellevue_Bellevue_NE8th: model bound to QC",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "original/Bellevue_Bellevue_NE8th: frame counts agree",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "original/Bellevue_Bellevue_NE8th: QC passed without missing output",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "original/Bellevue_Bellevue_NE8th: decoder and PTS integrity",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "original/Bellevue_Bellevue_NE8th: holds agree with QC",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "original/Bellevue_Bellevue_NE8th: durations agree",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "original/Bellevue_Bellevue_NE8th: all source images match ROI dimensions",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "supplementary/Bellevue_Bellevue_NE8th: implementation snapshot confirm_background_candidates.py",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "supplementary/Bellevue_Bellevue_NE8th: implementation snapshot full_video/__init__.py",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "supplementary/Bellevue_Bellevue_NE8th: implementation snapshot full_video/__main__.py",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "supplementary/Bellevue_Bellevue_NE8th: implementation snapshot full_video/batch.py",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "supplementary/Bellevue_Bellevue_NE8th: implementation snapshot full_video/cache.py",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "supplementary/Bellevue_Bellevue_NE8th: implementation snapshot full_video/common.py",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "supplementary/Bellevue_Bellevue_NE8th: implementation snapshot full_video/configuration.py",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "supplementary/Bellevue_Bellevue_NE8th: implementation snapshot full_video/pts_timing.py",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "supplementary/Bellevue_Bellevue_NE8th: implementation snapshot full_video/runner.py",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "supplementary/Bellevue_Bellevue_NE8th: implementation snapshot full_video/streaming.py",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "supplementary/Bellevue_Bellevue_NE8th: implementation snapshot full_video/video.py",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "supplementary/Bellevue_Bellevue_NE8th: implementation snapshot replay_vehicle_tracking_pilot.py",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "supplementary/Bellevue_Bellevue_NE8th: implementation snapshot roi_geometry.py",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "supplementary/Bellevue_Bellevue_NE8th: implementation snapshot run_video_tracking_pilot.py",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "supplementary/Bellevue_Bellevue_NE8th: implementation snapshot vehicle_containment.py",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "supplementary/Bellevue_Bellevue_NE8th: source identity and SHA",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "supplementary/Bellevue_Bellevue_NE8th: split identity",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "supplementary/Bellevue_Bellevue_NE8th: frozen split manifest SHA",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "supplementary/Bellevue_Bellevue_NE8th: ROI bound to recorded run",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "supplementary/Bellevue_Bellevue_NE8th: timing SHA bound to QC",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "supplementary/Bellevue_Bellevue_NE8th: model bound to QC",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "supplementary/Bellevue_Bellevue_NE8th: frame counts agree",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "supplementary/Bellevue_Bellevue_NE8th: QC passed without missing output",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "supplementary/Bellevue_Bellevue_NE8th: decoder and PTS integrity",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "supplementary/Bellevue_Bellevue_NE8th: holds agree with QC",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "supplementary/Bellevue_Bellevue_NE8th: durations agree",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "supplementary/Bellevue_Bellevue_NE8th: all source images match ROI dimensions",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Bellevue_Bellevue_NE8th: paired model equivalence",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Bellevue_Bellevue_NE8th: paired detector equivalence",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Bellevue_Bellevue_NE8th: paired tracker equivalence",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Bellevue_Bellevue_NE8th: paired dedup equivalence",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Bellevue_Bellevue_NE8th: paired aggregation equivalence",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Bellevue_Bellevue_NE8th: paired time_mode equivalence",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Bellevue_Bellevue_NE8th: paired configured_device equivalence",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Bellevue_Bellevue_NE8th: paired audited_decoder equivalence",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Bellevue_Bellevue_NE8th: paired decoder_timestamp_tolerance_seconds equivalence",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Bellevue_Bellevue_NE8th: paired time_base equivalence",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Bellevue_Bellevue_NE8th: paired max_allowed_frame_duration_seconds equivalence",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Bellevue_Bellevue_NE8th: paired runtime equivalence",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Bellevue_Bellevue_NE8th: paired roi_geometry_and_assignment equivalence",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Bellevue_Bellevue_NE8th: paired background_filter_numeric_policy equivalence",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Bellevue_Bellevue_NE8th: source interval labels nonoverlapping",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Newport archived implementation matches run hash",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Original pts_timing local snapshot matches original run",
+      "passed": true,
+      "details": null
+    }
+  ]
+}

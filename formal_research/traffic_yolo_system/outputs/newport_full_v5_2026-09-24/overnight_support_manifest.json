@@ -1,0 +1,102 @@
+[
+  {
+    "path": "formal_research/traffic_yolo_system/outputs/newport_full_v5_2026-09-24/overnight_pipeline.py",
+    "sha256": "e239b70413756289f574f83e88c46db480d195c8d60e555263e5efbba5e194bf"
+  },
+  {
+    "path": "formal_research/traffic_yolo_system/outputs/newport_full_v5_2026-09-24/integration_verification.json",
+    "sha256": "18204f78661ba73c8f8500d41d5062e11547f67fa4633b7229991c6248b7c5a9"
+  },
+  {
+    "path": "formal_research/traffic_yolo_system/src/render_video_tracking_pilot.py",
+    "sha256": "0eb58bfb05d0bbaca7f5b461c65681302442755cfab4107e62ad03f7ccddfc9b"
+  },
+  {
+    "path": "formal_research/traffic_yolo_system/outputs/newport_full_v5_2026-09-24/parity/local_dryrun_report.json",
+    "sha256": "7ecb9ba48619befcd37d64a809ab88a858e71ce58fc4a4afaa330716d950dc49"
+  },
+  {
+    "path": "formal_research/traffic_yolo_system/outputs/newport_full_v5_2026-09-24/parity/frozen_parity_plan.json",
+    "sha256": "8ab59605bf5671d8fddb23aec53fc447fd0b33ec89a83561d11b695e1fe35d26"
+  },
+  {
+    "path": "formal_research/traffic_yolo_system/outputs/newport_full_v5_2026-09-24/parity/pts_segment_software_tests.json",
+    "sha256": "960c41472c46acde947ec9071299600f058ea91742d3e1c40ed58869e0242d82"
+  },
+  {
+    "path": "formal_research/traffic_yolo_system/outputs/newport_full_v5_2026-09-24/parity/integration_readonly_review.json",
+    "sha256": "a32bb32d00cf881b8a94baef1f3d08413a4e148d8d7b75fa01e56c2cce790eb9"
+  },
+  {
+    "path": "formal_research/traffic_yolo_system/outputs/newport_full_v5_2026-09-24/parity/remote_reference_file_list.json",
+    "sha256": "ee2f75d3163b408dbaab1ccc4819fe06b4815cd5cf81ee869251d8a573971a3b"
+  },
+  {
+    "path": "formal_research/traffic_yolo_system/outputs/newport_full_v5_2026-09-24/parity/audit_same_original_frames.py",
+    "sha256": "e8965362c03b50f2d809f25d17651102a9bbf650a317fe458667630060444280"
+  },
+  {
+    "path": "formal_research/traffic_yolo_system/outputs/newport_full_v5_2026-09-24/analysis/QC预先固定说明.md",
+    "sha256": "a13e316b3aef3f1fadbc3cd9e390a0cfd93921c16fcae35b7a5b3e593b91af74"
+  },
+  {
+    "path": "formal_research/traffic_yolo_system/outputs/newport_full_v5_2026-09-24/analysis/helper_software_validation.json",
+    "sha256": "e0c6b73a9c7c7c4358a58d5981759fe5beaac9d083b5370f3e678876349801ec"
+  },
+  {
+    "path": "formal_research/traffic_yolo_system/outputs/newport_full_v5_2026-09-24/analysis/helper_software_validation_v2.json",
+    "sha256": "65e53aeb974ace359ebe14291d7b7bc9f9306fdcd5d2e03493c8dfbe9b62ec6b"
+  },
+  {
+    "path": "formal_research/traffic_yolo_system/outputs/newport_full_v5_2026-09-24/analysis/test_audit_helpers.py",
+    "sha256": "9c2123ac72a512ae4d245120c8775f7a70adb51991f0a0955cf6d375e7fd63d9"
+  },
+  {
+    "path": "formal_research/traffic_yolo_system/outputs/newport_full_v5_2026-09-24/analysis/audit_full_output.py",
+    "sha256": "52f86ba3e11d2f2234f3e318bf70243c1d0b34e1b289a780c8866d33649d27c9"
+  },
+  {
+    "path": "formal_research/traffic_yolo_system/outputs/newport_full_v5_2026-09-24/analysis/remote_invocation.md",
+    "sha256": "715d4364d224945532cd8ab826a9f404966aea36879d56938427012c1ca2141e"
+  },
+  {
+    "path": "formal_research/traffic_yolo_system/outputs/newport_full_v5_2026-09-24/scope/scope_report.json",
+    "sha256": "5edc4a9f9d047fd7dcecbc8e58538fb6bea09ef6df153eb9eef8daf7b4a961b2"
+  },
+  {
+    "path": "formal_research/traffic_yolo_system/outputs/newport_full_v5_2026-09-24/scope/适用范围核查说明.md",
+    "sha256": "aa6511d458305b8aeb4fd15862bd503a1f5de85aa35a791ffe94e6a42145bd88"
+  },
+  {
+    "path": "formal_research/traffic_yolo_system/outputs/newport_full_v5_2026-09-24/presentation/render_completed_run.py",
+    "sha256": "0f0993f1d353e289e9a377f8f4648dcbb3e93133b31f35643deb218fd80da367"
+  },
+  {
+    "path": "formal_research/traffic_yolo_system/outputs/newport_full_v5_2026-09-24/presentation/render_full_pts.py",
+    "sha256": "33a59656091a30c66a4f1f4c87e5d32fdd4fa69df9ca411cae3cbee761d55c44"
+  },
+  {
+    "path": "formal_research/traffic_yolo_system/outputs/newport_full_v5_2026-09-24/presentation/renderer_readiness.json",
+    "sha256": "fbf1b0008eaa648c20fbc054e591f2d1cd4eca34cc824b1d12e2d0b46b016894"
+  },
+  {
+    "path": "formal_research/traffic_yolo_system/outputs/newport_full_v5_2026-09-24/presentation/opencv_renderer_prefix_verification.json",
+    "sha256": "b0d494209f0c96860780c86035aaeb107f618e1751dfef620d94cc4f154a8c68"
+  },
+  {
+    "path": "formal_research/traffic_yolo_system/outputs/newport_full_v5_2026-09-24/presentation/test_render_full_pts.py",
+    "sha256": "2a799b5c10e6a4412a4a923d1a9b28a9092daa979afe4d91211277d778a19a3f"
+  },
+  {
+    "path": "formal_research/traffic_yolo_system/outputs/newport_full_v5_2026-09-24/presentation/smoke_render_full_pts.py",
+    "sha256": "3f8c2646a2590fa38005020c0025d9bbdef1f190fe851b4a3a16428e550d7b72"
+  },
+  {
+    "path": "formal_research/traffic_yolo_system/outputs/newport_full_v5_2026-09-24/presentation/original_prefix_decoder_comparison.json",
+    "sha256": "bd993385f43ab601de8f84dc98ebaa4945d9ae84e0ed616f3cea9d87ccda216c"
+  },
+  {
+    "path": "formal_research/traffic_yolo_system/outputs/newport_full_v5_2026-09-24/presentation/remote_render_bundle.json",
+    "sha256": "e229adfcffb6ab41c66478e7c304d943136f8c0ca0ace16ced19ccf9b799de5a"
+  }
+]

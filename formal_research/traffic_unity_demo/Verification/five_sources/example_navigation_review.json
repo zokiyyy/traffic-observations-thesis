@@ -1,0 +1,186 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "source": "Newport",
+      "label": "Start: collect the first 10-second window",
+      "saved_time_s": 0.0,
+      "target_s": 0,
+      "pts_s": 0.0,
+      "confirmed_end_s": null,
+      "passed": true
+    },
+    {
+      "source": "Newport",
+      "label": "Upper road: confirmed high count + relatively low motion",
+      "saved_time_s": 50.0,
+      "target_s": 50.2,
+      "pts_s": 50.16678888888889,
+      "confirmed_end_s": 50.0,
+      "passed": true
+    },
+    {
+      "source": "Newport",
+      "label": "Right road: confirmed persistent high count",
+      "saved_time_s": 3140.0,
+      "target_s": 3140.2,
+      "pts_s": 3140.180733333333,
+      "confirmed_end_s": 3140.0,
+      "passed": true
+    },
+    {
+      "source": "Newport",
+      "label": "Count-peak window has ended (model observations)",
+      "saved_time_s": 20.0,
+      "target_s": 20.2,
+      "pts_s": 20.166711111111113,
+      "confirmed_end_s": 20.0,
+      "passed": true
+    },
+    {
+      "source": "SE38th",
+      "label": "Start: collect the first 10-second window",
+      "saved_time_s": 0.0,
+      "target_s": 0,
+      "pts_s": 0.0,
+      "confirmed_end_s": null,
+      "passed": true
+    },
+    {
+      "source": "SE38th",
+      "label": "Upper road: confirmed high count + relatively low motion",
+      "saved_time_s": 1190.0,
+      "target_s": 1190.2,
+      "pts_s": 1190.1762333333334,
+      "confirmed_end_s": 1190.0,
+      "passed": true
+    },
+    {
+      "source": "SE38th",
+      "label": "Upper road: confirmed persistent high count",
+      "saved_time_s": 700.0,
+      "target_s": 700.2,
+      "pts_s": 700.1971666666667,
+      "confirmed_end_s": 700.0,
+      "passed": true
+    },
+    {
+      "source": "SE38th",
+      "label": "Count-peak window has ended (model observations)",
+      "saved_time_s": 760.0,
+      "target_s": 760.2,
+      "pts_s": 760.1969222222223,
+      "confirmed_end_s": 760.0,
+      "passed": true
+    },
+    {
+      "source": "SE38th",
+      "label": "Held image: evidence insufficient",
+      "saved_time_s": 798.1967888888889,
+      "target_s": 798.396788888889,
+      "pts_s": 798.1967888888889,
+      "confirmed_end_s": null,
+      "passed": true
+    },
+    {
+      "source": "Eastgate",
+      "label": "Start: collect the first 10-second window",
+      "saved_time_s": 0.0,
+      "target_s": 0,
+      "pts_s": 0.0,
+      "confirmed_end_s": null,
+      "passed": true
+    },
+    {
+      "source": "Eastgate",
+      "label": "Upper-left road: confirmed high count + relatively low motion",
+      "saved_time_s": 660.0,
+      "target_s": 660.2,
+      "pts_s": 660.1983888888889,
+      "confirmed_end_s": 660.0,
+      "passed": true
+    },
+    {
+      "source": "Eastgate",
+      "label": "Upper-left road: confirmed persistent high count",
+      "saved_time_s": 650.0,
+      "target_s": 650.2,
+      "pts_s": 650.1984111111111,
+      "confirmed_end_s": 650.0,
+      "passed": true
+    },
+    {
+      "source": "Eastgate",
+      "label": "Count-peak window has ended (model observations)",
+      "saved_time_s": 2280.0,
+      "target_s": 2280.2,
+      "pts_s": 2280.193111111111,
+      "confirmed_end_s": 2280.0,
+      "passed": true
+    },
+    {
+      "source": "NE12th",
+      "label": "Start: collect the first 10-second window",
+      "saved_time_s": 0.0,
+      "target_s": 0,
+      "pts_s": 0.0,
+      "confirmed_end_s": null,
+      "passed": true
+    },
+    {
+      "source": "NE12th",
+      "label": "Count-peak window has ended (model observations)",
+      "saved_time_s": 1500.0,
+      "target_s": 1500.2,
+      "pts_s": 1500.1720555555555,
+      "confirmed_end_s": 1500.0,
+      "passed": true
+    },
+    {
+      "source": "NE12th",
+      "label": "Held image: evidence insufficient",
+      "saved_time_s": 3001.0619,
+      "target_s": 3001.2619,
+      "pts_s": 3001.0619,
+      "confirmed_end_s": null,
+      "passed": true
+    },
+    {
+      "source": "NE8th",
+      "label": "Start: collect the first 10-second window",
+      "saved_time_s": 0.0,
+      "target_s": 0,
+      "pts_s": 0.0,
+      "confirmed_end_s": null,
+      "passed": true
+    },
+    {
+      "source": "NE8th",
+      "label": "Left road: confirmed high count + relatively low motion",
+      "saved_time_s": 2060.0,
+      "target_s": 2060.2,
+      "pts_s": 2060.1869444444446,
+      "confirmed_end_s": 2060.0,
+      "passed": true
+    },
+    {
+      "source": "NE8th",
+      "label": "Left road: confirmed persistent high count",
+      "saved_time_s": 2040.0,
+      "target_s": 2040.2,
+      "pts_s": 2040.1867333333332,
+      "confirmed_end_s": 2040.0,
+      "passed": true
+    },
+    {
+      "source": "NE8th",
+      "label": "Count-peak window has ended (model observations)",
+      "saved_time_s": 2610.0,
+      "target_s": 2610.2,
+      "pts_s": 2610.192811111111,
+      "confirmed_end_s": 2610.0,
+      "passed": true
+    }
+  ],
+  "scope": "Independent regression check: new-schema example landmarks already encode confirmation time; no extra 10-second offset."
+}

@@ -1,0 +1,189 @@
+{
+  "schema_version": "source-config-freeze-v1",
+  "frozen": true,
+  "revision": "r2",
+  "freeze_date": "2026-09-27",
+  "selection_sha256": "602bf905f1fd60edeb31aa482b4e48aed80057bd1b93cd5f0a68961c1e18f6c5",
+  "files": [
+    {
+      "path": "selection/selected_sources.json",
+      "sha256": "602bf905f1fd60edeb31aa482b4e48aed80057bd1b93cd5f0a68961c1e18f6c5",
+      "bytes": 11487
+    },
+    {
+      "path": "config/Bellevue_116th_NE12th/applicability.json",
+      "sha256": "26296e088332587003bfa303334e154584b8a6bfa3258900e95792cca7f86891",
+      "bytes": 7708
+    },
+    {
+      "path": "config/Bellevue_116th_NE12th/camera.json",
+      "sha256": "e8333e68f8268e85b70e89b264f20d45393399543f6530c20aac698071c733f7",
+      "bytes": 1114
+    },
+    {
+      "path": "config/Bellevue_116th_NE12th/camera_registry.json",
+      "sha256": "c6057088228e258570f79b66029443c150822574d91be0b1a0e5a0173f9e3cd2",
+      "bytes": 118
+    },
+    {
+      "path": "config/Bellevue_116th_NE12th/full_remote.json",
+      "sha256": "67619ef55d66bc27a539b53dbee25e3e37183b393b27e6804e9445d78923da19",
+      "bytes": 2632
+    },
+    {
+      "path": "config/Bellevue_116th_NE12th/roi.json",
+      "sha256": "080b7379ebbf83beacf3e5aba481adc269c2e5d43c259bce27830768317a4a83",
+      "bytes": 6042
+    },
+    {
+      "path": "config/Bellevue_116th_NE12th/roi_contact.jpg",
+      "sha256": "4d00ed680f2ee2cb6c165832ca3f33609a97ff0e1430b2471322d12b9f961f01",
+      "bytes": 841457
+    },
+    {
+      "path": "config/Bellevue_116th_NE12th/roi_reference_overlay.png",
+      "sha256": "c0cfaddb6d90089763645405a30520bf166c33c5a17ed77ab1cdfb69ad34fad5",
+      "bytes": 1193724
+    },
+    {
+      "path": "config/Bellevue_116th_NE12th/source_timing_evidence.json",
+      "sha256": "d56d3eec193504a2d1393709219f80d23ea5eadd3ccbe58d235ba0f4112b6aa5",
+      "bytes": 2451
+    },
+    {
+      "path": "config/Bellevue_150th_Eastgate/applicability.json",
+      "sha256": "9c917cb7fa91d68088f788fc287c5dc48d0970de14852923b0c6f36e77f19f7c",
+      "bytes": 15570
+    },
+    {
+      "path": "config/Bellevue_150th_Eastgate/camera.json",
+      "sha256": "cf24890bbfd0d1d146662d71befe6a7c063a7ff040615f2e8f6941b756397571",
+      "bytes": 1101
+    },
+    {
+      "path": "config/Bellevue_150th_Eastgate/camera_registry.json",
+      "sha256": "9eacdef079033afb7d6fb57c2c3ec6109244a13ee0e2e4a3e365207ff1f8c627",
+      "bytes": 120
+    },
+    {
+      "path": "config/Bellevue_150th_Eastgate/full_remote.json",
+      "sha256": "441d5e65b3228071a4783feebfd5845f62e07024897c7b59fe038adde1ccc372",
+      "bytes": 2639
+    },
+    {
+      "path": "config/Bellevue_150th_Eastgate/roi.json",
+      "sha256": "3fa231b5f7c9922e1332bd31ba24e8eb0fb10f7ab0e5d42a1223b5c8986d45b1",
+      "bytes": 5796
+    },
+    {
+      "path": "config/Bellevue_150th_Eastgate/roi_contact.jpg",
+      "sha256": "f3a3ae10ab27351b8f2590f9a2c60beadf72d05fbbba34b5fbb2ec09349cf5d3",
+      "bytes": 988462
+    },
+    {
+      "path": "config/Bellevue_150th_Eastgate/roi_reference_overlay.png",
+      "sha256": "a867b9d63078e3a8b19fd2533b4a5e92d7d68f1103de4cd5a7abb11752149029",
+      "bytes": 1360433
+    },
+    {
+      "path": "config/Bellevue_150th_Eastgate/source_timing_evidence.json",
+      "sha256": "ddb39b95830fd3cd0cede8f09ba153219a36cac889d81d61a379d6a8656b5100",
+      "bytes": 11994
+    },
+    {
+      "path": "config/Bellevue_150th_SE38th/applicability.json",
+      "sha256": "14757451ceefc3a803aa2837bc8334de94b40200234f5b33e57a5aafbddef597",
+      "bytes": 7339
+    },
+    {
+      "path": "config/Bellevue_150th_SE38th/camera.json",
+      "sha256": "16ea522e43e1db068a10f9b54984b37fc1f0cd2a7159f6e207092419709d6654",
+      "bytes": 1105
+    },
+    {
+      "path": "config/Bellevue_150th_SE38th/camera_registry.json",
+      "sha256": "e6dd533bad0da4e7f58bfd0025aa2f0657c40ee835345c220a349c561da2ae7e",
+      "bytes": 118
+    },
+    {
+      "path": "config/Bellevue_150th_SE38th/full_remote.json",
+      "sha256": "103e17ca420c203851c69d791df0ec7df336f9a422bc1a6d23e3dd7f39b87f06",
+      "bytes": 2632
+    },
+    {
+      "path": "config/Bellevue_150th_SE38th/roi.json",
+      "sha256": "3d02edffc839a9af7448a40ea3a3aae9782045281610cde383d48642051c8e5a",
+      "bytes": 5223
+    },
+    {
+      "path": "config/Bellevue_150th_SE38th/roi_contact.jpg",
+      "sha256": "63f44c4fbbbd8e815722b2258039244fe7fa00fdbf63a17c8aa4fb0b352830e3",
+      "bytes": 977317
+    },
+    {
+      "path": "config/Bellevue_150th_SE38th/roi_reference_overlay.png",
+      "sha256": "8e23500a12d0928e36cf9b5531c830bbe864d4695bd6c8315a5542016c4c08d3",
+      "bytes": 1379279
+    },
+    {
+      "path": "config/Bellevue_150th_SE38th/source_timing_evidence.json",
+      "sha256": "108a6e8023309a7f51045e380209b486afcd71d4253313ddc3ce7714a9ee3ac9",
+      "bytes": 15390
+    },
+    {
+      "path": "config/Bellevue_Bellevue_NE8th/applicability.json",
+      "sha256": "6d73b796c23b5bb8aa2532db1b56c28883aba436539a49e7806184d5712ac3a1",
+      "bytes": 15752
+    },
+    {
+      "path": "config/Bellevue_Bellevue_NE8th/camera.json",
+      "sha256": "46834e5fdd9b0ee66f4366446cec1963e95184898998763c5c5ddeef83224731",
+      "bytes": 1111
+    },
+    {
+      "path": "config/Bellevue_Bellevue_NE8th/camera_registry.json",
+      "sha256": "cb42aab1554091087e23f27264e96bd123067f046327b889e587aa8d848116dc",
+      "bytes": 120
+    },
+    {
+      "path": "config/Bellevue_Bellevue_NE8th/full_remote.json",
+      "sha256": "70a1af8c22b045eebd7b0f3ae76782e1d4b72307f0bc1ca8a228e4dbed62c44e",
+      "bytes": 2640
+    },
+    {
+      "path": "config/Bellevue_Bellevue_NE8th/roi.json",
+      "sha256": "f392319397b2718736ac2b73fe7f0e927ba368a36ab729b48a0fe6d5f89bd97a",
+      "bytes": 5233
+    },
+    {
+      "path": "config/Bellevue_Bellevue_NE8th/roi_contact.jpg",
+      "sha256": "1f6d19bf5e5fd9b87056852fcdd7767c07a690afcc936a209374876b538d87d3",
+      "bytes": 1058763
+    },
+    {
+      "path": "config/Bellevue_Bellevue_NE8th/roi_reference_overlay.png",
+      "sha256": "4e879f72104b5e0d813f7a2f3280974f84d0e6963f14450015312e417368d5ce",
+      "bytes": 1531718
+    },
+    {
+      "path": "config/Bellevue_Bellevue_NE8th/source_timing_evidence.json",
+      "sha256": "2a1168c3a2a697446a9bc0b1141e106f72c8e58cc0e1aa56dae58dc82d29ca3c",
+      "bytes": 12226
+    },
+    {
+      "path": "config/config_preparation_receipt.json",
+      "sha256": "2543d0164bbd9eae002c8a9ab01ec9d7aaaa5d9c25d240c41656c8e358ce111d",
+      "bytes": 6167
+    },
+    {
+      "path": "config/containment_policy.json",
+      "sha256": "b299d573ecfcf8e609fc216f29b65ebcb288347def0e520cda404b29dcbf0ff6",
+      "bytes": 1157
+    },
+    {
+      "path": "reuse/newport_verified.json",
+      "sha256": "6aa88a89d12a2361dad598d600f4fb9c23b86b8fce9f990f923b9d84d2535f12",
+      "bytes": 1679
+    }
+  ]
+}

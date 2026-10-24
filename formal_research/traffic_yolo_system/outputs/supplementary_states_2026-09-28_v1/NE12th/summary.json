@@ -1,0 +1,248 @@
+[
+  {
+    "case": "NE12th",
+    "source_id": "Bellevue_116th_NE12th__2017-09-11_07-08-32.mp4",
+    "split": "Train",
+    "duration_s": 408.57685555555554,
+    "zone_id": "road_left",
+    "count_p33": 0.5866824444444444,
+    "count_p67": 1.466295944444449,
+    "count_thresholds_distinguishable": true,
+    "motion_p25_px_s": null,
+    "count_calibration_windows": 36,
+    "motion_calibration_windows": 16,
+    "all_windows": 41,
+    "temporal_eligible_windows": 36,
+    "motion_available_windows": 16,
+    "high_count_hint_windows": 2,
+    "joint_hint_windows": 0,
+    "high_count_hint_events": 1,
+    "joint_hint_events": 0,
+    "high_count_hints_with_unknown_evidence": 2,
+    "evidence_unknown_windows": 41,
+    "evidence_unknown_s": 408.57685555555554,
+    "evidence_unknown_fraction": 1.0,
+    "evidence_state_windows": {
+      "unknown": 41
+    },
+    "evidence_state_seconds": {
+      "unknown": 408.57685555555554
+    },
+    "unknown_reason_seconds_nonexclusive": {
+      "motion_observation_insufficient": 248.57685555555554,
+      "motion_calibration_insufficient": 408.57685555555554,
+      "held_image": 40.0,
+      "incomplete_tail": 8.57685555555554
+    },
+    "raw_count_level_windows": {
+      "empty": 6,
+      "low": 6,
+      "medium": 12,
+      "high": 12,
+      "unknown": 5
+    },
+    "frozen_rule_hint_windows": {
+      "no_observed_vehicles": 6,
+      "motion_insufficient": 28,
+      "insufficient_window": 5,
+      "high_count_persistent": 2
+    }
+  },
+  {
+    "case": "NE12th",
+    "source_id": "Bellevue_116th_NE12th__2017-09-11_07-08-32.mp4",
+    "split": "Train",
+    "duration_s": 408.57685555555554,
+    "zone_id": "road_top",
+    "count_p33": 0.8459572777777814,
+    "count_p67": 3.0941654999999995,
+    "count_thresholds_distinguishable": true,
+    "motion_p25_px_s": null,
+    "count_calibration_windows": 36,
+    "motion_calibration_windows": 24,
+    "all_windows": 41,
+    "temporal_eligible_windows": 36,
+    "motion_available_windows": 24,
+    "high_count_hint_windows": 3,
+    "joint_hint_windows": 0,
+    "high_count_hint_events": 2,
+    "joint_hint_events": 0,
+    "high_count_hints_with_unknown_evidence": 3,
+    "evidence_unknown_windows": 41,
+    "evidence_unknown_s": 408.57685555555554,
+    "evidence_unknown_fraction": 1.0,
+    "evidence_state_windows": {
+      "unknown": 41
+    },
+    "evidence_state_seconds": {
+      "unknown": 408.57685555555554
+    },
+    "unknown_reason_seconds_nonexclusive": {
+      "motion_observation_insufficient": 168.57685555555554,
+      "motion_calibration_insufficient": 408.57685555555554,
+      "held_image": 40.0,
+      "incomplete_tail": 8.57685555555554
+    },
+    "raw_count_level_windows": {
+      "low": 10,
+      "medium": 12,
+      "high": 12,
+      "unknown": 5,
+      "empty": 2
+    },
+    "frozen_rule_hint_windows": {
+      "motion_insufficient": 31,
+      "insufficient_window": 5,
+      "no_observed_vehicles": 2,
+      "high_count_persistent": 3
+    }
+  },
+  {
+    "case": "NE12th",
+    "source_id": "Bellevue_116th_NE12th__2017-09-11_07-08-32.mp4",
+    "split": "Train",
+    "duration_s": 408.57685555555554,
+    "zone_id": "road_right",
+    "count_p33": 1.2947048888888883,
+    "count_p67": 2.5336353888888907,
+    "count_thresholds_distinguishable": true,
+    "motion_p25_px_s": 0.5247263711350432,
+    "count_calibration_windows": 36,
+    "motion_calibration_windows": 32,
+    "all_windows": 41,
+    "temporal_eligible_windows": 36,
+    "motion_available_windows": 32,
+    "high_count_hint_windows": 2,
+    "joint_hint_windows": 0,
+    "high_count_hint_events": 2,
+    "joint_hint_events": 0,
+    "high_count_hints_with_unknown_evidence": 0,
+    "evidence_unknown_windows": 9,
+    "evidence_unknown_s": 88.57685555555554,
+    "evidence_unknown_fraction": 0.2167936199790726,
+    "evidence_state_windows": {
+      "no_persistent_hint": 30,
+      "unknown": 9,
+      "high_count_hint": 2
+    },
+    "evidence_state_seconds": {
+      "no_persistent_hint": 300.0,
+      "unknown": 88.57685555555554,
+      "high_count_hint": 20.0
+    },
+    "unknown_reason_seconds_nonexclusive": {
+      "motion_observation_insufficient": 88.57685555555554,
+      "held_image": 40.0,
+      "incomplete_tail": 8.57685555555554
+    },
+    "raw_count_level_windows": {
+      "medium": 12,
+      "high": 12,
+      "low": 10,
+      "empty": 2,
+      "unknown": 5
+    },
+    "frozen_rule_hint_windows": {
+      "no_persistent_signal": 30,
+      "motion_insufficient": 2,
+      "no_observed_vehicles": 2,
+      "insufficient_window": 5,
+      "high_count_persistent": 2
+    }
+  },
+  {
+    "case": "NE12th",
+    "source_id": "Bellevue_116th_NE12th__2017-09-11_07-08-32.mp4",
+    "split": "Train",
+    "duration_s": 408.57685555555554,
+    "zone_id": "road_bottom",
+    "count_p33": 0.14213116666666664,
+    "count_p67": 1.0,
+    "count_thresholds_distinguishable": true,
+    "motion_p25_px_s": null,
+    "count_calibration_windows": 36,
+    "motion_calibration_windows": 19,
+    "all_windows": 41,
+    "temporal_eligible_windows": 36,
+    "motion_available_windows": 19,
+    "high_count_hint_windows": 2,
+    "joint_hint_windows": 0,
+    "high_count_hint_events": 1,
+    "joint_hint_events": 0,
+    "high_count_hints_with_unknown_evidence": 2,
+    "evidence_unknown_windows": 41,
+    "evidence_unknown_s": 408.57685555555554,
+    "evidence_unknown_fraction": 1.0,
+    "evidence_state_windows": {
+      "unknown": 41
+    },
+    "evidence_state_seconds": {
+      "unknown": 408.57685555555554
+    },
+    "unknown_reason_seconds_nonexclusive": {
+      "motion_observation_insufficient": 218.57685555555554,
+      "motion_calibration_insufficient": 408.57685555555554,
+      "held_image": 40.0,
+      "incomplete_tail": 8.57685555555554
+    },
+    "raw_count_level_windows": {
+      "low": 6,
+      "medium": 14,
+      "high": 10,
+      "empty": 6,
+      "unknown": 5
+    },
+    "frozen_rule_hint_windows": {
+      "motion_insufficient": 28,
+      "high_count_persistent": 2,
+      "no_observed_vehicles": 6,
+      "insufficient_window": 5
+    }
+  },
+  {
+    "case": "NE12th",
+    "source_id": "Bellevue_116th_NE12th__2017-09-11_07-08-32.mp4",
+    "split": "Train",
+    "duration_s": 408.57685555555554,
+    "zone_id": "junction_center",
+    "count_p33": 0.37911494444443916,
+    "count_p67": 0.7412135555555569,
+    "count_thresholds_distinguishable": true,
+    "motion_p25_px_s": null,
+    "count_calibration_windows": 36,
+    "motion_calibration_windows": 7,
+    "all_windows": 41,
+    "temporal_eligible_windows": 36,
+    "motion_available_windows": 7,
+    "high_count_hint_windows": 0,
+    "joint_hint_windows": 0,
+    "high_count_hint_events": 0,
+    "joint_hint_events": 0,
+    "high_count_hints_with_unknown_evidence": 0,
+    "evidence_unknown_windows": 41,
+    "evidence_unknown_s": 408.57685555555554,
+    "evidence_unknown_fraction": 1.0,
+    "evidence_state_windows": {
+      "unknown": 41
+    },
+    "evidence_state_seconds": {
+      "unknown": 408.57685555555554
+    },
+    "unknown_reason_seconds_nonexclusive": {
+      "motion_observation_insufficient": 338.57685555555554,
+      "motion_calibration_insufficient": 408.57685555555554,
+      "held_image": 40.0,
+      "incomplete_tail": 8.57685555555554
+    },
+    "raw_count_level_windows": {
+      "medium": 12,
+      "low": 12,
+      "high": 12,
+      "unknown": 5
+    },
+    "frozen_rule_hint_windows": {
+      "motion_insufficient": 36,
+      "insufficient_window": 5
+    }
+  }
+]

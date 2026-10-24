@@ -1,0 +1,70 @@
+{
+  "scope": "Local release checks, not original model evaluation or traffic accuracy",
+  "checks": {
+    "retained_file_hashes": {
+      "passed": true,
+      "files": 1537
+    },
+    "python_syntax": {
+      "passed": true,
+      "files": 175,
+      "note": "Syntax only; does not establish dependency availability."
+    },
+    "main_test_csv_reaggregation": {
+      "passed": true,
+      "overall": {
+        "n": 796,
+        "MAE": 0.228643216080402,
+        "bias": -0.03015075376884422,
+        "RMSE": 0.6379930845075023
+      },
+      "groups": {
+        "GT_nonzero": {
+          "n": 452,
+          "MAE": 0.3938053097345133,
+          "bias": -0.061946902654867256,
+          "RMSE": 0.8387728077428652
+        },
+        "GT_zero": {
+          "n": 344,
+          "MAE": 0.011627906976744186,
+          "bias": 0.011627906976744186,
+          "RMSE": 0.13206763594884358
+        }
+      },
+      "limitation": "Does not reopen images/labels, reassign boxes to ROIs or rerun detection."
+    },
+    "test_frozen_boundaries.py": {
+      "passed": true,
+      "check_count": 19
+    },
+    "test_display_boundaries.py": {
+      "passed": true,
+      "check_count": 11
+    },
+    "persistence_recalculation": {
+      "passed": true,
+      "region_threshold_rows": 66,
+      "thresholds_s": [
+        20,
+        30,
+        60
+      ]
+    },
+    "supplementary_production_rule_recalculation": {
+      "passed": true,
+      "region_windows": 6342,
+      "state_counts": {
+        "unknown": 3798,
+        "no_persistent_hint": 2113,
+        "high_count_hint": 379,
+        "joint_hint": 52
+      },
+      "unknown_persistent_high_count": 41,
+      "unknown_current_high_count": 230,
+      "limitation": "Uses retained count/motion observations; does not rerun raw video aggregation or validate traffic states."
+    }
+  },
+  "retained_records_unchanged": true,
+  "passed": true
+}

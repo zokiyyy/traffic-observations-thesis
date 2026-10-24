@@ -1,0 +1,15 @@
+{
+  "reviewed_utc": "2026-09-28T05:49:06.768571+00:00",
+  "rendered_screenshots_reviewed": [
+    "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_unity_demo/Verification/five_sources/run_006/Bellevue_150th_Newport__2017-09-11_08-08-31.mp4_initial_overview_20260928_054455_630.png",
+    "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_unity_demo/Verification/five_sources/run_006/Bellevue_116th_NE12th__2017-09-10_23-08-29.mp4_count_details_20260928_054535_030.png",
+    "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_unity_demo/Verification/five_sources/run_006/Bellevue_150th_Eastgate__2017-09-11_17-08-33.mp4_count_details_20260928_054558_097.png",
+    "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_unity_demo/Verification/five_sources/run_006/Bellevue_150th_SE38th__2017-09-11_14-08-32.mp4_held_window_20260928_054619_880.png",
+    "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_unity_demo/Verification/five_sources/run_006/Bellevue_Bellevue_NE8th__2017-09-11_12-08-31.mp4_motion_details_20260928_054643_664.png"
+  ],
+  "findings": "Five-source layouts, dynamic regions, source ROI alignment, completed-window labels, night/held unknown evidence, chart axes/units/legends visually reviewed. No visible overlaps in reviewed final views.",
+  "complete_png_files": 42,
+  "physical_clicks_tested": false,
+  "physical_click_blocker": "Computer Use repeatedly returned noWindowsAvailable; reconnection and normal app relaunch did not resolve it.",
+  "exact_decoded_source_frame_identity_verified": false
+}

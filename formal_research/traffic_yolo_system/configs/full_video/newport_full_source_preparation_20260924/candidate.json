@@ -1,0 +1,70 @@
+{
+  "schema_version": 1,
+  "development_only": true,
+  "run_version": "newport-full-source-preparation-20260924",
+  "rules_version": "engineering-legacy-dedup-placeholder-final-pending-20260924",
+  "method_status": "input_and_geometry_candidate_only_final_dedup_and_background_pending",
+  "split_manifest": "../../../../03_full_dataset_design/splits/formal_source_video_split_manifest_v1_2026-08-24.csv",
+  "source_root": "../../../../../videos/original",
+  "camera_registry": "camera_registry.json",
+  "output_root": "../../../outputs/full_video_preparation_newport_2026-09-24/candidate_runs",
+  "model": {
+    "path": "../../../outputs/training/yolo11s_formal_a100_v1/weights/best.pt",
+    "sha256": "07e2280eda613c5d633196729f8716e9715000430171f49f6341afe573a2f334",
+    "version": "yolo11s_formal_a100_v1_07e2280e"
+  },
+  "input": {
+    "kind": "video",
+    "source_offset_seconds": 0,
+    "source_id": "Bellevue_150th_Newport__2017-09-11_08-08-31.mp4",
+    "sha256": "969af533145e1a1afaa8fb4afa754205c338171760ff02b97e2aef4f04094c93"
+  },
+  "detector": {
+    "conf": 0.1,
+    "imgsz": 640,
+    "iou": 0.7,
+    "half": false,
+    "agnostic_nms": false,
+    "max_det": 300,
+    "augment": false,
+    "rect": true,
+    "batch": 1,
+    "classes": null
+  },
+  "tracker": {
+    "tracker_type": "bytetrack",
+    "track_high_thresh": 0.35,
+    "track_low_thresh": 0.1,
+    "new_track_thresh": 0.35,
+    "track_buffer": 30,
+    "match_thresh": 0.8,
+    "fuse_score": true
+  },
+  "dedup": {
+    "mode": "cross_class_greedy_iou",
+    "iou_threshold": 0.7
+  },
+  "aggregation": {
+    "window_seconds": 10,
+    "chunk_frames": 900
+  },
+  "progress_every_frames": 300,
+  "device": "cpu",
+  "time": {
+    "mode": "audited_pts",
+    "ffprobe_path": "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/tools/full_video/ffprobe_7_1_1_arm64/ffprobe",
+    "audit_summary_path": "../../../outputs/full_video_preparation_newport_2026-09-24/time_audit/audit_runtime_envelope.json",
+    "frame_timing_path": "../../../outputs/full_video_preparation_newport_2026-09-24/time_audit/timing_frames.jsonl",
+    "max_frame_duration_seconds": 0.11
+  },
+  "inference_enabled": false,
+  "segment": null,
+  "preparation_notes": {
+    "scope": "Only the explicitly bound Validation source; full input, no segment",
+    "inference": "Disabled until definitive pilot duplicate suppression and background handling are integrated and checked on identical original PTS/frames in a separate version.",
+    "dedup": "Existing cross_class_greedy_iou is a legacy engineering placeholder; no new suppression rule was created. It is not the final bus-head/whole-bus method.",
+    "detector_tracker": "Existing engineering parameters only; no tuning or whole-video performance conclusion from this dry-run.",
+    "time": "PTS and packet/frame duration authority; avg/r_frame_rate are descriptive only. 0.11-second upper bound is an explicit engineering discontinuity guard covering measured max 9002/90000, not model tuning.",
+    "metadata": "Old reference clip fps/frame_count are nested provenance only. Full-source geometry dimensions are validated against all decoded frames."
+  }
+}

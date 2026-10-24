@@ -1,0 +1,75 @@
+{
+  "status": "candidate_geometry_supported_by_sparse_AI_review_not_exhaustive_certification",
+  "created_date": "2026-09-24",
+  "camera_id": "Bellevue_150th_Newport",
+  "source": "/Users/zoki/Desktop/traffic_projects/videos/original/Bellevue_150th_Newport/Bellevue_150th_Newport__2017-09-11_08-08-31.mp4",
+  "split": "Validation",
+  "layout_version": "newport_v2_shared_internal_boundaries_2026-09-24",
+  "layout_sha256": "622ce53579ec8ca304dd715f4987bf1412e146bd0a051739e1c5807e7efd51aa",
+  "geometry_changed": false,
+  "manual_labels_created": false,
+  "detector_inference_executed": false,
+  "visual_review": {
+    "reviewer": "AI assistant",
+    "full_resolution_sample_count": 13,
+    "original_and_overlay_contact_sheets_reviewed": [
+      "contact_original_01.jpg",
+      "contact_original_02.jpg",
+      "contact_original_03.jpg",
+      "contact_overlay_01.jpg",
+      "contact_overlay_02.jpg",
+      "contact_overlay_03.jpg"
+    ],
+    "additional_full_resolution_review": "sample_12_overlay.png",
+    "additional_screen_contact_sheets_reviewed": [
+      "alignment_screen/contact_thumbnail_05.jpg",
+      "alignment_screen/contact_thumbnail_10.jpg"
+    ],
+    "observations": [
+      "道路边缘、停线、人行道及固定信号设施在开头、中间、结尾样本中位置一致；未见可见的整体平移、缩放或镜头切换。",
+      "阴影随时间移动、车辆临时遮挡变化；初始大巴占据左下方道路，属于场景物体遮挡，不构成镜头变化。",
+      "前景大型信号设施始终遮挡下方入口；既有 ROI 排除该入口的范围与理由仍成立。",
+      "road_left / road_top / road_right / junction_center 的原始多边形保持不变；未按车辆位置改区。"
+    ]
+  },
+  "alignment_screen": {
+    "sample_count": 61,
+    "interval_seconds": 60,
+    "flagged_count": 0,
+    "minimum_inlier_count": 152,
+    "maximum_fitted_corner_displacement_pixels": 0.5472221905750201,
+    "review_trigger": {
+      "minimum_inliers": 20,
+      "maximum_fitted_corner_displacement_pixels": 12
+    },
+    "meaning": "启发式静态纹理配准定位工具，不是几何精度评分或检测性能成绩。"
+  },
+  "validation": {
+    "geometry": "passed",
+    "all_dimensions": [
+      1280,
+      720
+    ],
+    "image_file_hashes_checked": 26,
+    "max_requested_vs_decoder_time_difference_seconds": 0.02608888888880756
+  },
+  "resources": {
+    "device": "CPU only, existing traffic-yolo OpenCV; cv2 threads limited to 1",
+    "extraction_elapsed_seconds": 1.1873590420000255,
+    "alignment_screen_elapsed_seconds": 4.262557084031869,
+    "new_dependencies": false
+  },
+  "time_scope": {
+    "requested_start_seconds": 0,
+    "requested_last_seconds": 3598.98,
+    "actual_last_decoder_seconds": 3598.9818111111113,
+    "duration_provisional_from_container_seconds": 3599.98,
+    "authoritative_full_PTS_audit": "Root task separate evidence; do not substitute this sparse decoder-time record for audit."
+  },
+  "limitations": [
+    "仅 AI 辅助稀疏构图检查；未穷尽每帧，不排除每60秒样本之间的短暂变化。",
+    "这些证据支持将同一 Newport v2 几何列为该完整来源的候选配置，不能证明最终检测/去重/背景策略已适用。",
+    "ROI 旧 fps=30、frame_count=3600、reference_frame_index=1595、reference_time_seconds=53.1666666667 描述两分钟片段，不是完整来源的属性。",
+    "背景遮挡、光照和真实静止车辆在全时段的差异尚需最终规则接入后验证；本任务未另建去重规则。"
+  ]
+}

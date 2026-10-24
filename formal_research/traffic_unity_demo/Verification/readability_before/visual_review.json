@@ -1,0 +1,126 @@
+{
+  "review_scope": "Current light English overview, state details, count/motion trends, examples, cropped/full-video region alignment; targeted real CUA clicks plus separate engine/helper checks",
+  "language": "English",
+  "visual_status": "passed",
+  "reviewed_game_capture": "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_unity_demo/Verification/runtime_game_20260927_072052_911.png",
+  "observations": [
+    "Count and motion trends have English labels, units, ticks, threshold lines and a teal video-time cursor; rendered lines now connect the plotted points inside their chart bounds.",
+    "Upper road window 0 visibly shows high count 10.3, saved thresholds P33 4.16/P67 6.26, high-count duration 10/30s, and No sustained signal.",
+    "Junction center window 0 visibly shows unavailable motion, coverage 48%, and interrupted motion-series segments rather than zero-valued missing samples.",
+    "Selected-region outlines align with original ROI boundaries both in cropped Road view and the full exported Source header view.",
+    "Examples contains the nine existing milestones as offline summary navigation; its modal blocks the background controls.",
+    "Actual CUA clicks opened Upper road Details, switched Count trend to Motion trend, returned to All regions, opened Examples and selected Right road at 00:20. The resulting 00:20–00:30 detail showed mean 7.6, motion 0.9px/s, coverage 93%, high/joint duration 30/30s and the persistent joint state. The player was paused.",
+    "Saved verification screenshots suppress hover tooltip overlays only while capture is running. Ordinary tooltip behavior remains enabled.",
+    "Initial attempt 001 had a 2x-rate failure and misaligned rotated line geometry. Evidence retained. Final run after coordinate and style-allocation fixes passed at approximately 1.996x; the first rate shortfall was not isolated to a single confirmed cause."
+  ],
+  "runtime_report_is_separate": true,
+  "data_sha256": "63e22138694531226fc4cd2fc31be104ab8a806f3bfc65c29f786dcc424ccd41",
+  "source_frame_diagnostics": [
+    {
+      "capture": "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_unity_demo/Verification/decoded_seek_930.2_20260927_060236_968.png",
+      "burned_in_source_time_s": 930.172,
+      "burned_in_source_frame": 27887,
+      "unity_reported_time_s": 930.1794521972716,
+      "same_ten_second_window": true
+    },
+    {
+      "capture": "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_unity_demo/Verification/decoded_strict_source_last_pts_diagnostic_20260927_060237_298.png",
+      "burned_in_source_time_s": 3599.948,
+      "burned_in_source_frame": 107930,
+      "unity_reported_time_s": 3599.965032889677,
+      "same_ten_second_window": true,
+      "is_source_last_frame": false
+    }
+  ],
+  "end_seek_limitation": "End seeks to the final segment and may land one source frame before the last frame. Unity navigation frame numbers are not source frame indices, and its time is not an exact source-PTS readout.",
+  "runtime_status": "passed",
+  "runtime_steps_passed": 11,
+  "final_frame_capture": "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_unity_demo/Verification/decoded_natural_eof_20260927_060726_784.png",
+  "natural_eof_burned_in_source_frame": 107931,
+  "natural_eof_burned_in_source_time_s": 3599.982,
+  "natural_eof_source_frame_identity_visually_verified": true,
+  "reviewed_utc": "2026-09-27T07:23:49.973434+00:00",
+  "rendering_resolution": [
+    2400,
+    1334
+  ],
+  "reference_canvas": [
+    1800,
+    1000
+  ],
+  "previous_ui_observations": [
+    "English headings, four region cards, controls, state bands and legend visible without clipping in the actual maximised Unity Game view.",
+    "Counts and states at windows 0, 324 and 325 matched the JSON when checked against live screenshots.",
+    "A real CUA click on Play advanced the video and changed the displayed window from 324 to 325. A later Pause click could not be confirmed because the UI automation tool reported noWindowsAvailable; pause itself was verified by the engine integration check."
+  ],
+  "reviewed_feature_captures": {
+    "details_count": {
+      "kind": "details_count",
+      "status": "captured_not_visually_reviewed",
+      "path": "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_unity_demo/Verification/view_details_count_20260927_072052_542.png",
+      "error": "",
+      "trend_mode": "count",
+      "details_open": true,
+      "examples_open": false,
+      "source_header_visible": false,
+      "physical_ui_clicks_tested": false,
+      "selected_region_index": 1,
+      "current_window_index": 0,
+      "reported_time_s": 0.0
+    },
+    "details_motion_unavailable": {
+      "kind": "details_motion_unavailable",
+      "status": "captured_not_visually_reviewed",
+      "path": "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_unity_demo/Verification/view_details_motion_unavailable_20260927_072052_646.png",
+      "error": "",
+      "trend_mode": "motion",
+      "details_open": true,
+      "examples_open": false,
+      "source_header_visible": false,
+      "physical_ui_clicks_tested": false,
+      "selected_region_index": 3,
+      "current_window_index": 0,
+      "reported_time_s": 0.0
+    },
+    "examples": {
+      "kind": "examples",
+      "status": "captured_not_visually_reviewed",
+      "path": "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_unity_demo/Verification/view_examples_20260927_072052_743.png",
+      "error": "",
+      "trend_mode": "",
+      "details_open": false,
+      "examples_open": true,
+      "source_header_visible": false,
+      "physical_ui_clicks_tested": false,
+      "selected_region_index": 3,
+      "current_window_index": 0,
+      "reported_time_s": 0.0
+    },
+    "source_header_selected_region": {
+      "kind": "source_header_selected_region",
+      "status": "captured_not_visually_reviewed",
+      "path": "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_unity_demo/Verification/view_source_header_selected_region_20260927_072052_823.png",
+      "error": "",
+      "trend_mode": "count",
+      "details_open": true,
+      "examples_open": false,
+      "source_header_visible": true,
+      "physical_ui_clicks_tested": false,
+      "selected_region_index": 1,
+      "current_window_index": 0,
+      "reported_time_s": 0.0
+    }
+  },
+  "feature_checks_passed": 8,
+  "targeted_physical_ui_checks": {
+    "verified": [
+      "Upper road Details",
+      "Motion trend",
+      "All regions",
+      "Examples",
+      "Open Right road 00:20 example"
+    ],
+    "exhaustive": false,
+    "observation_source": "CUA live state and screenshots in this task"
+  }
+}

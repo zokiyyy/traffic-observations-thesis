@@ -1,0 +1,41 @@
+{
+  "created_at_utc": "2026-09-23T11:32:38.216232+00:00",
+  "status": "validation_based_detection_candidate_for_next_video_integration",
+  "model_sha256": "07e2280eda613c5d633196729f8716e9715000430171f49f6341afe573a2f334",
+  "recommended_detection_settings": {
+    "conf": 0.35,
+    "imgsz": 640,
+    "iou": 0.7,
+    "half": false,
+    "agnostic_nms": false,
+    "max_det": 300
+  },
+  "baseline_conf_retained_for_reference": 0.25,
+  "reason": "Among only the three evaluated settings, 0.35 has the highest aggregate object-micro F1 and the lowest whole-image count MAE; all five intersection-group F1 values increase versus 0.25.",
+  "tradeoffs_vs_0_25": {
+    "matched_gt_lost_net": 34,
+    "unmatched_predictions_removed_net": 139,
+    "motorcycle_matched_gt": [
+      6,
+      4
+    ],
+    "motorcycle_gt": 8,
+    "truck_matched_gt": [
+      44,
+      41
+    ],
+    "truck_gt": 85,
+    "macro_class_f1": [
+      0.6890718455973426,
+      0.6703270268792249
+    ]
+  },
+  "limits": [
+    "Only Validation; no Main Test evaluation or training.",
+    "No independent generalisation or statistical significance claim.",
+    "Whole-image predictions compared with existing roadway-only labels; no ROI or ignore mask added.",
+    "Count MAE does not measure unique flow, road-zone density or congestion and can hide cancelling errors.",
+    "Not a tracking-input threshold: ByteTrack may need lower-score detections; no tracker was evaluated.",
+    "No historical training or operational configuration was overwritten."
+  ]
+}

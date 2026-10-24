@@ -1,0 +1,65 @@
+{
+  "schema_version": 1,
+  "camera_id": "Bellevue_150th_Newport",
+  "source_clip_sha256": "969af533145e1a1afaa8fb4afa754205c338171760ff02b97e2aef4f04094c93",
+  "source_video_filename": "Bellevue_150th_Newport__2017-09-11_08-08-31.mp4",
+  "frame_width": 1280,
+  "frame_height": 720,
+  "reviewed_background_polygon_xy": [
+    [
+      841,
+      64
+    ],
+    [
+      865,
+      61
+    ],
+    [
+      901,
+      61
+    ],
+    [
+      912,
+      66
+    ],
+    [
+      911,
+      76
+    ],
+    [
+      897,
+      82
+    ],
+    [
+      881,
+      85
+    ],
+    [
+      863,
+      89
+    ],
+    [
+      841,
+      89
+    ]
+  ],
+  "confirmation_iou": 0.5,
+  "confirm_min_confidence": 0.35,
+  "development_only": true,
+  "selection_basis": "Visible pale wall/fence plane independently marked from source pixels; excludes road and sidewalk below. Same polygon as prior candidate. High confirmation revision frozen before candidate replay and extra Newport36 recheck. No IDs, timestamps, class restriction, or stationarity criterion.",
+  "purpose": "Experimental camera-specific multi-resolution confirmation of detections centered over reviewed background; not an unconditional image mask or proof of false positives.",
+  "limitations": [
+    "Unconfirmed detections can still be real vehicles occluding the wall.",
+    "Same model at two sizes provides correlated evidence, not an independent verifier.",
+    "No automatic deployment to other cameras or all115videos."
+  ],
+  "revision_basis": "One explicit revision after .10 secondary evidence confirmed a known wall false positive through a .10189 score. Use previously selected .35 validation detection/new-track threshold for positive secondary confirmation. No changes to .10 tracking input, polygon, or IoU; not a fresh independent validation.",
+  "prior_policy_sha256": "d01172928d0bfae2adc6cbd1b37a70d4c7bcdaa490e8ab27f592468c66eaed77",
+  "model_sha256": "07e2280eda613c5d633196729f8716e9715000430171f49f6341afe573a2f334",
+  "full_source_extension_provenance": {
+    "previous_policy_sha256": "9344d23ccfa7a90537448a9e051e45bfb245d1058eec888ad165454c5974362a",
+    "scope_report_sha256": "5edc4a9f9d047fd7dcecbc8e58538fb6bea09ef6df153eb9eef8daf7b4a961b2",
+    "geometry_and_thresholds_unchanged": true,
+    "scope": "Only exact morning Validation full source; native original PTS"
+  }
+}

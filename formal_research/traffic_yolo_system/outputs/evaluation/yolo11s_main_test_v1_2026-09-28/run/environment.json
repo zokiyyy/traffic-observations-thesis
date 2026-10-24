@@ -1,0 +1,11 @@
+{
+  "python": "3.10.20 (main, Jun 11 2026, 15:14:28) [Clang 20.1.8 ]",
+  "platform": "macOS-15.5-arm64-arm-64bit",
+  "torch": "2.13.0",
+  "ultralytics": "8.4.115",
+  "cuda_runtime": null,
+  "requested_device": "cpu",
+  "device": "cpu",
+  "torch_num_threads": 4,
+  "gpu": null
+}

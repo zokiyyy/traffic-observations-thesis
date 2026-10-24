@@ -1,0 +1,132 @@
+{
+  "schema_version": "traffic_evaluation_v2",
+  "test_date": "2026-09-28",
+  "detector": "YOLO11s",
+  "images": 184,
+  "objects": 2052,
+  "source_videos": 17,
+  "model_sha256": "07e2280eda613c5d633196729f8716e9715000430171f49f6341afe573a2f334",
+  "precision": 0.749077947878599,
+  "recall": 0.5311160880120624,
+  "map50": 0.6169054590770298,
+  "map50_95": 0.4527271275407966,
+  "classes": [
+    {
+      "name": "car",
+      "objects": 1946,
+      "precision": 0.9482299474254502,
+      "recall": 0.7906268412444472,
+      "ap50": 0.9108880061930548,
+      "ap50_95": 0.6257536275815496
+    },
+    {
+      "name": "motorcycle",
+      "objects": 4,
+      "precision": 0.8534557994855319,
+      "recall": 0.25,
+      "ap50": 0.345,
+      "ap50_95": 0.315
+    },
+    {
+      "name": "bus",
+      "objects": 13,
+      "precision": 0.6543441061970435,
+      "recall": 0.7692307692307693,
+      "ap50": 0.7913761904761902,
+      "ap50_95": 0.5607647619047618
+    },
+    {
+      "name": "truck",
+      "objects": 89,
+      "precision": 0.5402819384063705,
+      "recall": 0.3146067415730337,
+      "ap50": 0.4203576396388743,
+      "ap50_95": 0.30939012067687505
+    }
+  ],
+  "tracking_clip": "SE38th",
+  "tracking_seconds": 60,
+  "tracking_frames": 1798,
+  "tracking_detector": "Pretrained YOLO11n",
+  "short_track_max_frames": 10,
+  "tracking": [
+    {
+      "label": "ByteTrack + cross-class filter",
+      "ids": 160,
+      "short_tracks": 62,
+      "source": "outputs/tracking/SE38th_baseline_60s_yolo11n_bytetrack_v2/tracking_results.csv",
+      "sha256": "f42c19e3fd04c9ec368cdf1e6fb6ff2a56d93edfc92ea2f1e8b8a96b7344897b"
+    },
+    {
+      "label": "BoT-SORT + ReID",
+      "ids": 213,
+      "short_tracks": 108,
+      "source": "outputs/tracking/SE38th_baseline_60s_yolo11n_botsort_reid_v3/tracking_results.csv",
+      "sha256": "72352824302389796c6654615e1cc32bb1f290b0da2fc1a73596378caa1bff23"
+    }
+  ],
+  "detector_source": "formal_research/traffic_yolo_system/outputs/evaluation/yolo11s_main_test_v1_2026-09-28/run/metrics.json",
+  "detector_source_sha256": "30cbee6c19f185ef5cecd5e92d6c6a5a5daf925d0e93958178f1280b3ea29043",
+  "persistence": {
+    "test_date": "2026-09-28",
+    "recordings": 5,
+    "regions": 22,
+    "window_seconds": 10,
+    "region_windows": 7937,
+    "eligible_windows": 7724,
+    "excluded_windows": 213,
+    "reference_seconds": 30,
+    "reference_matches_saved": true,
+    "rows": [
+      {
+        "seconds": 20,
+        "high_windows": 1279,
+        "joint_windows": 270
+      },
+      {
+        "seconds": 30,
+        "high_windows": 844,
+        "joint_windows": 117
+      },
+      {
+        "seconds": 60,
+        "high_windows": 233,
+        "joint_windows": 8
+      }
+    ],
+    "source": "formal_research/traffic_yolo_system/outputs/persistence_sensitivity_2026-09-28/results.json",
+    "source_sha256": "ed9608dbb639034e28b0274517b2ca8b7d9c3c1b423369c1c4f0d2a73a01d30a",
+    "source_recordings": [
+      {
+        "camera": "Newport",
+        "path": "formal_research/traffic_yolo_system/outputs/five_intersection_states_2026-09-28_v1/Newport/states_10s.json",
+        "sha256": "a38834445fe880039db607c793889363ec625d03be80f82d16f6b69ddcd56ca9",
+        "source_id": "Bellevue_150th_Newport__2017-09-11_08-08-31.mp4"
+      },
+      {
+        "camera": "NE12th",
+        "path": "formal_research/traffic_yolo_system/outputs/five_intersection_states_2026-09-28_v1/NE12th/states_10s.json",
+        "sha256": "21781c7d1f7e0d0ef92ec8548aa21cb1144bc98761975f38c41c887539570189",
+        "source_id": "Bellevue_116th_NE12th__2017-09-10_23-08-29.mp4"
+      },
+      {
+        "camera": "Eastgate",
+        "path": "formal_research/traffic_yolo_system/outputs/five_intersection_states_2026-09-28_v1/Eastgate/states_10s.json",
+        "sha256": "8c96ff63abbc128272b55bb95db172afc81672cda8836d13ad4a0918305044e8",
+        "source_id": "Bellevue_150th_Eastgate__2017-09-11_17-08-33.mp4"
+      },
+      {
+        "camera": "SE38th",
+        "path": "formal_research/traffic_yolo_system/outputs/five_intersection_states_2026-09-28_v1/SE38th/states_10s.json",
+        "sha256": "24845f7991342e6e871d0df7745ee253fe449eeb029efd8967ca16e511a93df0",
+        "source_id": "Bellevue_150th_SE38th__2017-09-11_14-08-32.mp4"
+      },
+      {
+        "camera": "NE8th",
+        "path": "formal_research/traffic_yolo_system/outputs/five_intersection_states_2026-09-28_v1/NE8th/states_10s.json",
+        "sha256": "3c80788fe7e643c4489f2cfe3ae8ce1958275d1f3bdf2b5c51fe9fc3698ef46d",
+        "source_id": "Bellevue_Bellevue_NE8th__2017-09-11_12-08-31.mp4"
+      }
+    ]
+  }
+}

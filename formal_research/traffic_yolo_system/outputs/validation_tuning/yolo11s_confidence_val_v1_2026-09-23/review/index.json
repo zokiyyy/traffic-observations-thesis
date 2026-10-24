@@ -1,0 +1,120 @@
+{
+  "scope": "Validation only; rendered from saved results; no inference or test-set access",
+  "chart": "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/validation_tuning/yolo11s_confidence_val_v1_2026-09-23/review/confidence_micro_metrics.png",
+  "matching": "fixed-confidence class-aware IoU >= 0.5, one-to-one; not mAP",
+  "artifacts": [
+    {
+      "annotation_id": "F0480",
+      "lighting": "Day",
+      "filename": "Bellevue_150th_Eastgate__2017-09-11_17-08-33__validation__slot_09__p_0.704545__t_2536.792667.jpg",
+      "selection_reason": "Maximum FP reduction from 0.25 to 0.35 across 197 validation images (6); TP decreases by 1.",
+      "path": "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/validation_tuning/yolo11s_confidence_val_v1_2026-09-23/review/01_maximum_fp_reduction.jpg",
+      "crop_xyxy": null,
+      "metrics_025": {
+        "tp": 34,
+        "fp": 10,
+        "fn": 6
+      },
+      "metrics_035": {
+        "tp": 33,
+        "fp": 4,
+        "fn": 7
+      }
+    },
+    {
+      "annotation_id": "F0178",
+      "lighting": "Day",
+      "filename": "Bellevue_116th_NE12th__2017-09-11_15-08-36__validation__slot_01__p_0.050000__t_4.233444.jpg",
+      "selection_reason": "One of two images losing a motorcycle TP from 0.25 to 0.35; selected earliest annotation_id.",
+      "path": "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/validation_tuning/yolo11s_confidence_val_v1_2026-09-23/review/02_motorcycle_tradeoff.jpg",
+      "crop_xyxy": null,
+      "metrics_025": {
+        "tp": 25,
+        "fp": 7,
+        "fn": 4
+      },
+      "metrics_035": {
+        "tp": 24,
+        "fp": 5,
+        "fn": 5
+      }
+    },
+    {
+      "annotation_id": "F0794",
+      "lighting": "Dawn/Dusk",
+      "filename": "Bellevue_150th_SE38th__2017-09-10_19-08-25__validation__slot_11__p_0.868182__t_3125.504733.jpg",
+      "selection_reason": "Truck TP falls by 1 from 0.25 to 0.35, while FP count stays at 1; Dawn/Dusk contrast.",
+      "path": "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/validation_tuning/yolo11s_confidence_val_v1_2026-09-23/review/03_truck_tradeoff.jpg",
+      "crop_xyxy": null,
+      "metrics_025": {
+        "tp": 4,
+        "fp": 1,
+        "fn": 0
+      },
+      "metrics_035": {
+        "tp": 3,
+        "fp": 1,
+        "fn": 1
+      }
+    },
+    {
+      "annotation_id": "F0226",
+      "lighting": "Night",
+      "filename": "Bellevue_150th_Eastgate__2017-09-10_20-08-25__validation__slot_07__p_0.540909__t_1946.956511.jpg",
+      "selection_reason": "Night image with FP 1 to 0 and unchanged TP 4; illustrates a beneficial change without a simultaneous TP loss.",
+      "path": "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/validation_tuning/yolo11s_confidence_val_v1_2026-09-23/review/04_night_change.jpg",
+      "crop_xyxy": null,
+      "metrics_025": {
+        "tp": 4,
+        "fp": 1,
+        "fn": 0
+      },
+      "metrics_035": {
+        "tp": 4,
+        "fp": 0,
+        "fn": 0
+      }
+    },
+    {
+      "annotation_id": "F1018",
+      "lighting": "Day",
+      "filename": "Bellevue_150th_SE38th__2017-09-11_14-08-32__validation__slot_11__p_0.868182__t_3125.831544.jpg",
+      "selection_reason": "Contrasting benefit: FP 3 to 0 with TP 18 retained at 0.35.",
+      "path": "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/validation_tuning/yolo11s_confidence_val_v1_2026-09-23/review/05_reduction_without_tp_loss.jpg",
+      "crop_xyxy": null,
+      "metrics_025": {
+        "tp": 18,
+        "fp": 3,
+        "fn": 1
+      },
+      "metrics_035": {
+        "tp": 18,
+        "fp": 0,
+        "fn": 1
+      }
+    },
+    {
+      "annotation_id": "F0178",
+      "lighting": "Day",
+      "filename": "Bellevue_116th_NE12th__2017-09-11_15-08-36__validation__slot_01__p_0.050000__t_4.233444.jpg",
+      "selection_reason": "Detail of F0178 motorcycle removed at 0.35; only crop changes, no predictions re-run.",
+      "path": "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/validation_tuning/yolo11s_confidence_val_v1_2026-09-23/review/06_motorcycle_crop.jpg",
+      "crop_xyxy": [
+        902,
+        425,
+        1212,
+        655
+      ],
+      "metrics_025": {
+        "tp": 25,
+        "fp": 7,
+        "fn": 4
+      },
+      "metrics_035": {
+        "tp": 24,
+        "fp": 5,
+        "fn": 5
+      }
+    }
+  ]
+}

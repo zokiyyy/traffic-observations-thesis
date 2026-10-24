@@ -1,0 +1,37 @@
+{
+  "review_scope": "English Game view and selected decoded texture captures; not an exhaustive control or accuracy evaluation",
+  "language": "English",
+  "visual_status": "passed",
+  "reviewed_game_capture": "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_unity_demo/Verification/runtime_game_20260927_060726_864.png",
+  "observations": [
+    "English headings, four region cards, controls, state bands and legend visible without clipping in the actual maximised Unity Game view.",
+    "Counts and states at windows 0, 324 and 325 matched the JSON when checked against live screenshots.",
+    "A real CUA click on Play advanced the video and changed the displayed window from 324 to 325. A later Pause click could not be confirmed because the UI automation tool reported noWindowsAvailable; pause itself was verified by the engine integration check."
+  ],
+  "runtime_report_is_separate": true,
+  "data_sha256": "63e22138694531226fc4cd2fc31be104ab8a806f3bfc65c29f786dcc424ccd41",
+  "source_frame_diagnostics": [
+    {
+      "capture": "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_unity_demo/Verification/decoded_seek_930.2_20260927_060236_968.png",
+      "burned_in_source_time_s": 930.172,
+      "burned_in_source_frame": 27887,
+      "unity_reported_time_s": 930.1794521972716,
+      "same_ten_second_window": true
+    },
+    {
+      "capture": "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_unity_demo/Verification/decoded_strict_source_last_pts_diagnostic_20260927_060237_298.png",
+      "burned_in_source_time_s": 3599.948,
+      "burned_in_source_frame": 107930,
+      "unity_reported_time_s": 3599.965032889677,
+      "same_ten_second_window": true,
+      "is_source_last_frame": false
+    }
+  ],
+  "end_seek_limitation": "End seeks to the final segment and may land one source frame before the last frame. Unity navigation frame numbers are not source frame indices, and its time is not an exact source-PTS readout.",
+  "runtime_status": "passed",
+  "runtime_steps_passed": 11,
+  "final_frame_capture": "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_unity_demo/Verification/decoded_natural_eof_20260927_060726_784.png",
+  "natural_eof_burned_in_source_frame": 107931,
+  "natural_eof_burned_in_source_time_s": 3599.982,
+  "natural_eof_source_frame_identity_visually_verified": true
+}

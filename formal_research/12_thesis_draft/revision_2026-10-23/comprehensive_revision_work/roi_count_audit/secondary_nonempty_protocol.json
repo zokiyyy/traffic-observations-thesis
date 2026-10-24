@@ -1,0 +1,17 @@
+{
+  "created_at": "2026-10-23T04:46:18.409026+00:00",
+  "requested_secondary_stratification": "User requested occupied-ROI error check after reviewing primary all-ROI results",
+  "primary_analysis_unchanged": true,
+  "strata": "gt_count>0 versus gt_count==0; both strata fully retained, no prediction-based selection",
+  "metrics": [
+    "n",
+    "MAE",
+    "bias",
+    "RMSE"
+  ],
+  "report_both_splits": true,
+  "source_hashes": {
+    "/Users/zoki/Desktop/traffic_projects/formal_research/12_thesis_draft/revision_2026-10-23/comprehensive_revision_work/roi_count_audit/roi_image_errors.csv": "4f79b7f5fa7680e26e8d7d086947591e2d9a9da7fd7acda1586d52517e33fabb",
+    "/Users/zoki/Desktop/traffic_projects/formal_research/12_thesis_draft/revision_2026-10-23/comprehensive_revision_work/roi_count_audit/main_test/roi_image_errors.csv": "e0ea6b2c3a7ee494b061ca189d833473c3758210eba2e84a5521b0860265035c"
+  }
+}

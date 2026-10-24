@@ -1,0 +1,31 @@
+{
+  "kind": "AI_assisted_sparse_composition_check_no_manual_annotation",
+  "source": "/Users/zoki/Desktop/traffic_projects/videos/original/Bellevue_150th_Newport/Bellevue_150th_Newport__2017-09-11_08-08-31.mp4",
+  "source_split": "Validation",
+  "camera_id": "Bellevue_150th_Newport",
+  "manifest_sha256": "8e1b8806f5a1f2f8280b71169d45ba5837bc710db26f0550610124fcc4f1f3cd",
+  "layout": "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/configs/full_video/newport_roi_v2_snapshot.json",
+  "layout_sha256": "622ce53579ec8ca304dd715f4987bf1412e146bd0a051739e1c5807e7efd51aa",
+  "layout_version": "newport_v2_shared_internal_boundaries_2026-09-24",
+  "requested_source_seconds": [
+    0.0,
+    300.0,
+    600.0,
+    900.0,
+    1200.0,
+    1500.0,
+    1800.0,
+    2100.0,
+    2400.0,
+    2700.0,
+    3000.0,
+    3300.0,
+    3598.98
+  ],
+  "plan_order": "persisted before reading or viewing sampled frames",
+  "duration_seconds": 3599.98,
+  "duration_evidence": "Existing isolated ffmpeg 7.1 container header Duration 00:59:59.98; provisional pending full PTS audit; rounded header is not evidence of CFR.",
+  "time_warning": "Decoder positions are reported, not inferred from nominal 30 FPS; root full PTS audit independently verifies time.",
+  "no_inference": true,
+  "no_ground_truth_created": true
+}

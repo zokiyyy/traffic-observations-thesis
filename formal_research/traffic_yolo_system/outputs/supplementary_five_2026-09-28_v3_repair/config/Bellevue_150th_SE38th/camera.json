@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "camera_id": "Bellevue_150th_SE38th",
+  "source_ids": [
+    "Bellevue_150th_SE38th__2017-09-10_19-08-25.mp4"
+  ],
+  "roi_version": "bellevue_150th_se38th-supplementary-source-v1-20260928",
+  "layout_path": "roi.json",
+  "allowed_source_intervals_seconds": [
+    [
+      0,
+      3600.0105
+    ]
+  ],
+  "applicability_basis": "Six fixed actual-PTS screening samples independently reviewed; unchanged road coordinates. Local full decode supports time scope; native execution environment audit and short QC still required.",
+  "applicability_evidence": [
+    {
+      "path": "applicability.json",
+      "sha256": "46ff6ece51d554ff7987651855dc0066abc4565ec1ae57026d888d56135eaf60"
+    },
+    {
+      "path": "source_timing_evidence.json",
+      "sha256": "1497a72069eee6767c75157b541ce3c7b87ac3b94cdab35cf1d909e8bdfc0e49"
+    }
+  ],
+  "status": "supplementary_source_bound_engineering_trial",
+  "background_filter": {
+    "mode": "none",
+    "reason": "No source-specific background false-positive evidence is established; Newport wall polygon and 1280 confirmation rule are not transferred."
+  }
+}

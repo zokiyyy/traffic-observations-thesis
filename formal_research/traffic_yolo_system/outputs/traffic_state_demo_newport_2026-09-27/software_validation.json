@@ -1,0 +1,18 @@
+{
+  "command": [
+    "/Users/zoki/anaconda3/envs/traffic-yolo/bin/python",
+    "-m",
+    "unittest",
+    "discover",
+    "-s",
+    "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/tests",
+    "-p",
+    "test_traffic_state_demo.py",
+    "-v"
+  ],
+  "exit_code": 0,
+  "stdout": "",
+  "stderr": "test_calibration_excludes_tail_and_requires_thirty_motion_windows (test_traffic_state_demo.ClassificationTests) ... ok\ntest_collapsed_calibration_is_explicitly_unknown_with_no_streak (test_traffic_state_demo.ClassificationTests) ... ok\ntest_equal_quantiles_do_not_invent_three_levels (test_traffic_state_demo.ClassificationTests) ... ok\ntest_low_coverage_is_unknown_motion_not_zero (test_traffic_state_demo.ClassificationTests) ... ok\ntest_missing_window_breaks_persistence (test_traffic_state_demo.ClassificationTests) ... ok\ntest_only_explicit_approved_validation_source (test_traffic_state_demo.ClassificationTests) ... ok\ntest_tail_window_not_classified_and_resets_duration (test_traffic_state_demo.ClassificationTests) ... ok\ntest_thirty_second_high_and_joint_persistence (test_traffic_state_demo.ClassificationTests) ... ok\ntest_window_builder_requires_coverage_and_crosschecks_original_mean (test_traffic_state_demo.ClassificationTests) ... ok\ntest_aggregate_vfr_count_duration_and_tail (test_traffic_state_demo.TimingAndHistoryTests) ... ok\ntest_duplicate_id_and_time_gap_fail (test_traffic_state_demo.TimingAndHistoryTests) ... ok\ntest_historical_point_older_than_maximum_span_is_not_used (test_traffic_state_demo.TimingAndHistoryTests) ... ok\ntest_missing_observation_and_invalid_frame_reset_history (test_traffic_state_demo.TimingAndHistoryTests) ... ok\ntest_motion_histories_do_not_retain_disappeared_ids (test_traffic_state_demo.TimingAndHistoryTests) ... ok\ntest_one_tick_and_vfr_cross_window_preserve_every_tick (test_traffic_state_demo.TimingAndHistoryTests) ... ok\ntest_one_tick_motion_is_unknown_until_one_second (test_traffic_state_demo.TimingAndHistoryTests) ... ok\ntest_weighted_median_uses_duration_not_number_of_tracks (test_traffic_state_demo.TimingAndHistoryTests) ... ok\ntest_zone_change_and_nonconsecutive_frame_reset_history (test_traffic_state_demo.TimingAndHistoryTests) ... ok\n\n----------------------------------------------------------------------\nRan 18 tests in 0.001s\n\nOK\n",
+  "implementation_sha256": "4ebd158f871642115b906f30adc02216c8d81f3608942b379fce5743210429b0",
+  "test_sha256": "7310ff42308772ecc47d73d029887f652e2a0a764340c39f67c617184327fc84"
+}

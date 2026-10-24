@@ -1,0 +1,83 @@
+{
+  "at": "2026-09-27T19:07:20.276257+00:00",
+  "newport_reused": true,
+  "local_completed_total": 5,
+  "new_local_completed": [
+    "Bellevue_Bellevue_NE8th"
+  ],
+  "original_job_sha256": "519c92b2fc97af9ef8a2d910552cda5ad5f2755d9908f6170c5ac0c74225bcb7",
+  "repair_manifest_sha256": "6c486cd1b92a7d1aa79df6011ac56ba3496676afdb7feed081128f294c49a7f1",
+  "snapshot": "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/five_intersections_2026-09-27_r2/repairs/eastgate_frame_count_20260927_v2/status_snapshot.json",
+  "server_stage": "completed",
+  "current_source": "Bellevue_Bellevue_NE8th__2017-09-11_12-08-31.mp4",
+  "live_server_pids": [],
+  "repair_launch": {
+    "status": "started",
+    "at": "2026-09-27T13:10:55.237859+00:00",
+    "pid": 46098,
+    "proc_start_token": "43942824",
+    "session_id": 46098,
+    "original_job_manifest_sha256": "519c92b2fc97af9ef8a2d910552cda5ad5f2755d9908f6170c5ac0c74225bcb7",
+    "repair_manifest_sha256": "6c486cd1b92a7d1aa79df6011ac56ba3496676afdb7feed081128f294c49a7f1",
+    "argv": [
+      "/home/ubuntu/venvs/traffic-yolo/bin/python",
+      "/home/ubuntu/traffic_projects/five_intersections_20260927_r2/formal_research/traffic_yolo_system/outputs/five_intersections_2026-09-27_r2/repairs/eastgate_frame_count_20260927_v2/repair_runner.py",
+      "--expected-job-sha256",
+      "519c92b2fc97af9ef8a2d910552cda5ad5f2755d9908f6170c5ac0c74225bcb7",
+      "--expected-repair-sha256",
+      "6c486cd1b92a7d1aa79df6011ac56ba3496676afdb7feed081128f294c49a7f1"
+    ]
+  },
+  "repair_log": {
+    "path": "/home/ubuntu/traffic_projects/five_intersections_20260927_r2/formal_research/traffic_yolo_system/outputs/five_intersections_2026-09-27_r2/repairs/eastgate_frame_count_20260927_v2/server_pipeline.log",
+    "bytes": 1069899,
+    "mtime": 1790532236.307956
+  },
+  "completion_claimed": true,
+  "progress": null,
+  "resume_verification": "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/five_intersections_2026-09-27_r2/repairs/eastgate_frame_count_20260927_v2/resume_verification.json",
+  "previous_progress": {
+    "rendered_frames": 45000,
+    "expected_frames": 107974,
+    "elapsed_seconds": 1225.805230029975
+  },
+  "previous_log_bytes": 966389,
+  "normal_progress": true,
+  "new_completion_available": true,
+  "action": "all_five_verified_reviewed_and_reported",
+  "eastgate_full_qc": {
+    "status": "passed",
+    "check_count": 46385768,
+    "error_count": 0,
+    "totals": {
+      "frames": 107892,
+      "valid_frames": 107892,
+      "raw_detections": 4449499,
+      "second_resolution_raw_detections": 0,
+      "background_candidates": 0,
+      "background_removed": 0,
+      "cross_class_removed": 96920,
+      "containment_removed": 6255,
+      "final_tracker_input": 4346324,
+      "current_track_observations": 3397684,
+      "unresolved_pair_observations": 24905,
+      "frames_with_background_candidates": 0,
+      "frames_with_containment_removals": 5467,
+      "frames_with_unresolved_pairs": 17304,
+      "containment_stage_A_removed": 1826,
+      "containment_stage_B_removed": 4429,
+      "frames_with_no_tracks": 0,
+      "frames_with_no_in_zone_tracks": 0
+    },
+    "flags": {
+      "unresolved_heavy_overlap": 17304,
+      "adjacent_count_jump": 87
+    }
+  },
+  "eastgate_full_execution_seconds": 2618.4719839019817,
+  "cloud_completed_total": 5,
+  "download_pid": 46005,
+  "eastgate_review_pending": false,
+  "download_complete": true,
+  "final_report": "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/five_intersections_2026-09-27_r2/五路口完整结果与说明.md"
+}

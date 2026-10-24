@@ -1,0 +1,26 @@
+{
+  "review_scope": "Readability revision of region details; current screenshots inspected separately from engine/helper checks",
+  "visual_status": "passed",
+  "reviewed_utc": "2026-09-27T08:19:17.462350+00:00",
+  "reviewed_captures": {
+    "details_count": "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_unity_demo/Verification/view_details_count_20260927_081818_356.png",
+    "calculation_details": "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_unity_demo/Verification/view_calculation_details_20260927_081818_468.png",
+    "details_motion_unavailable": "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_unity_demo/Verification/view_details_motion_unavailable_20260927_081818_571.png"
+  },
+  "observations": [
+    "Default view presents average count, relative count/motion comparisons and explicit elapsed/required seconds without P33/P67 or coverage jargon.",
+    "English count/motion axes, units, ticks and readable threshold descriptions remain visible; no overlap in the inspected 2400x1334 views.",
+    "Calculation details render as a separate scrollable panel; count/motion tabs provide the return path. Top of calculation panel and lower content were visually inspected in saved/live views.",
+    "Unavailable motion is displayed explicitly; the motion chart retains gaps and selected-region alignment is preserved."
+  ],
+  "real_player_checks_passed": 11,
+  "feature_checks_passed": 8,
+  "data_sha256": "63e22138694531226fc4cd2fc31be104ab8a806f3bfc65c29f786dcc424ccd41",
+  "new_tab_physical_clicks_verified_by_agent": false,
+  "physical_click_limitation": "Native coordinate clicks returned noWindowsAvailable. Menu actions successfully launched verification; calculation and trend views were captured through actual project presentation state. This is not an exhaustive physical-click test.",
+  "previous_revision_evidence": "readability_before/visual_review.json",
+  "unchanged_limits": [
+    "Offline full-window estimates, not real-time causal inference or validated congestion labels.",
+    "This presentation revision does not address the previously reported intermittent seek timeout."
+  ]
+}

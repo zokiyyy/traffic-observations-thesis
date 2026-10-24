@@ -1,0 +1,377 @@
+{
+  "method": "Independent linear P33/P67/P25 from existing complete no-hold 10-second summaries; not an independent traffic-state evaluation.",
+  "full_video_or_frame_logs_read": false,
+  "YOLO_rerun": false,
+  "fixed_threshold_transfer_performed": false,
+  "cases": [
+    {
+      "case": "Newport",
+      "source": {
+        "id": "Bellevue_150th_Newport__2017-09-10_18-08-24.mp4",
+        "split": "Validation",
+        "sha256": "5d7eff08712d5750a018b4fa82be85754d47c777a07754d54b3d54cb2dd3c587",
+        "duration_s": 3600.030622222222,
+        "frame_count": 107977,
+        "width": 1280,
+        "height": 720,
+        "time_base": {
+          "num": 1,
+          "den": 90000
+        }
+      },
+      "total_windows": 361,
+      "complete_no_hold_windows": 360,
+      "hold_intersecting_windows": 0,
+      "zones": [
+        {
+          "zone_id": "road_left",
+          "count_calibration_windows": 360,
+          "zero_count_windows": 73,
+          "zero_count_window_fraction": 0.20277777777777778,
+          "count_p33": 0.22980052222222366,
+          "count_p67": 0.9748842777777667,
+          "count_thresholds_distinguishable": true,
+          "motion_calibration_windows": 150,
+          "motion_p25_available": true,
+          "motion_p25_px_s": 0.4025083286629313
+        },
+        {
+          "zone_id": "road_top",
+          "count_calibration_windows": 360,
+          "zero_count_windows": 2,
+          "zero_count_window_fraction": 0.005555555555555556,
+          "count_p33": 2.017535966666663,
+          "count_p67": 3.82238003333333,
+          "count_thresholds_distinguishable": true,
+          "motion_calibration_windows": 325,
+          "motion_p25_available": true,
+          "motion_p25_px_s": 4.058084172604334
+        },
+        {
+          "zone_id": "road_right",
+          "count_calibration_windows": 360,
+          "zero_count_windows": 46,
+          "zero_count_window_fraction": 0.12777777777777777,
+          "count_p33": 0.42803496666666385,
+          "count_p67": 1.1912648444444067,
+          "count_thresholds_distinguishable": true,
+          "motion_calibration_windows": 173,
+          "motion_p25_available": true,
+          "motion_p25_px_s": 1.823994604134805
+        },
+        {
+          "zone_id": "junction_center",
+          "count_calibration_windows": 360,
+          "zero_count_windows": 12,
+          "zero_count_window_fraction": 0.03333333333333333,
+          "count_p33": 0.5090058222222396,
+          "count_p67": 0.998165500000016,
+          "count_thresholds_distinguishable": true,
+          "motion_calibration_windows": 137,
+          "motion_p25_available": true,
+          "motion_p25_px_s": 79.28410104075418
+        }
+      ]
+    },
+    {
+      "case": "NE12th",
+      "source": {
+        "id": "Bellevue_116th_NE12th__2017-09-11_07-08-32.mp4",
+        "split": "Train",
+        "sha256": "4dde510ff91c2ec58e1cd06e27cbd923d8976c0156905a4625097653415eca4e",
+        "duration_s": 408.57685555555554,
+        "frame_count": 11824,
+        "width": 1280,
+        "height": 720,
+        "time_base": {
+          "num": 1,
+          "den": 90000
+        }
+      },
+      "total_windows": 41,
+      "complete_no_hold_windows": 36,
+      "hold_intersecting_windows": 4,
+      "zones": [
+        {
+          "zone_id": "road_left",
+          "count_calibration_windows": 36,
+          "zero_count_windows": 6,
+          "zero_count_window_fraction": 0.16666666666666666,
+          "count_p33": 0.5866824444444444,
+          "count_p67": 1.466295944444449,
+          "count_thresholds_distinguishable": true,
+          "motion_calibration_windows": 16,
+          "motion_p25_available": false,
+          "motion_p25_px_s": null
+        },
+        {
+          "zone_id": "road_top",
+          "count_calibration_windows": 36,
+          "zero_count_windows": 2,
+          "zero_count_window_fraction": 0.05555555555555555,
+          "count_p33": 0.8459572777777814,
+          "count_p67": 3.0941654999999995,
+          "count_thresholds_distinguishable": true,
+          "motion_calibration_windows": 24,
+          "motion_p25_available": false,
+          "motion_p25_px_s": null
+        },
+        {
+          "zone_id": "road_right",
+          "count_calibration_windows": 36,
+          "zero_count_windows": 2,
+          "zero_count_window_fraction": 0.05555555555555555,
+          "count_p33": 1.2947048888888886,
+          "count_p67": 2.5336353888888907,
+          "count_thresholds_distinguishable": true,
+          "motion_calibration_windows": 32,
+          "motion_p25_available": true,
+          "motion_p25_px_s": 0.5247263711350432
+        },
+        {
+          "zone_id": "road_bottom",
+          "count_calibration_windows": 36,
+          "zero_count_windows": 6,
+          "zero_count_window_fraction": 0.16666666666666666,
+          "count_p33": 0.14213116666666664,
+          "count_p67": 1.0,
+          "count_thresholds_distinguishable": true,
+          "motion_calibration_windows": 19,
+          "motion_p25_available": false,
+          "motion_p25_px_s": null
+        },
+        {
+          "zone_id": "junction_center",
+          "count_calibration_windows": 36,
+          "zero_count_windows": 0,
+          "zero_count_window_fraction": 0.0,
+          "count_p33": 0.37911494444443916,
+          "count_p67": 0.741213555555557,
+          "count_thresholds_distinguishable": true,
+          "motion_calibration_windows": 7,
+          "motion_p25_available": false,
+          "motion_p25_px_s": null
+        }
+      ]
+    },
+    {
+      "case": "Eastgate",
+      "source": {
+        "id": "Bellevue_150th_Eastgate__2017-09-11_06-08-30.mp4",
+        "split": "Validation",
+        "sha256": "5c101e5e3cb6f64e2304f9666337b9b3e3f46330ce5300c474c73f6a94dd6647",
+        "duration_s": 3600.0039555555554,
+        "frame_count": 107863,
+        "width": 1280,
+        "height": 720,
+        "time_base": {
+          "num": 1,
+          "den": 90000
+        }
+      },
+      "total_windows": 361,
+      "complete_no_hold_windows": 360,
+      "hold_intersecting_windows": 0,
+      "zones": [
+        {
+          "zone_id": "road_left",
+          "count_calibration_windows": 360,
+          "zero_count_windows": 182,
+          "zero_count_window_fraction": 0.5055555555555555,
+          "count_p33": 0.0,
+          "count_p67": 0.14999843333331592,
+          "count_thresholds_distinguishable": true,
+          "motion_calibration_windows": 0,
+          "motion_p25_available": false,
+          "motion_p25_px_s": null
+        },
+        {
+          "zone_id": "road_upper_left",
+          "count_calibration_windows": 360,
+          "zero_count_windows": 31,
+          "zero_count_window_fraction": 0.08611111111111111,
+          "count_p33": 0.3749812000000004,
+          "count_p67": 1.3859607222221566,
+          "count_thresholds_distinguishable": true,
+          "motion_calibration_windows": 199,
+          "motion_p25_available": true,
+          "motion_p25_px_s": 0.37515218743670375
+        },
+        {
+          "zone_id": "road_top",
+          "count_calibration_windows": 360,
+          "zero_count_windows": 31,
+          "zero_count_window_fraction": 0.08611111111111111,
+          "count_p33": 0.9160001333333425,
+          "count_p67": 2.0970861888888934,
+          "count_thresholds_distinguishable": true,
+          "motion_calibration_windows": 256,
+          "motion_p25_available": true,
+          "motion_p25_px_s": 1.1861593186051285
+        },
+        {
+          "zone_id": "road_right",
+          "count_calibration_windows": 360,
+          "zero_count_windows": 59,
+          "zero_count_window_fraction": 0.1638888888888889,
+          "count_p33": 0.6934344888889075,
+          "count_p67": 1.3174075888888863,
+          "count_thresholds_distinguishable": true,
+          "motion_calibration_windows": 226,
+          "motion_p25_available": true,
+          "motion_p25_px_s": 0.5570966761622553
+        },
+        {
+          "zone_id": "junction_center",
+          "count_calibration_windows": 360,
+          "zero_count_windows": 7,
+          "zero_count_window_fraction": 0.019444444444444445,
+          "count_p33": 0.33027455555552104,
+          "count_p67": 0.7318606666666704,
+          "count_thresholds_distinguishable": true,
+          "motion_calibration_windows": 88,
+          "motion_p25_available": true,
+          "motion_p25_px_s": 118.87078321173044
+        }
+      ]
+    },
+    {
+      "case": "SE38th",
+      "source": {
+        "id": "Bellevue_150th_SE38th__2017-09-10_19-08-25.mp4",
+        "split": "Validation",
+        "sha256": "e0e4d9d1e69c2f8b2ef356bdfb99c0e37baafb96db0645952bab4bc7b40e09c4",
+        "duration_s": 3600.0105,
+        "frame_count": 107851,
+        "width": 1280,
+        "height": 720,
+        "time_base": {
+          "num": 1,
+          "den": 90000
+        }
+      },
+      "total_windows": 361,
+      "complete_no_hold_windows": 358,
+      "hold_intersecting_windows": 2,
+      "zones": [
+        {
+          "zone_id": "road_left",
+          "count_calibration_windows": 358,
+          "zero_count_windows": 15,
+          "zero_count_window_fraction": 0.04189944134078212,
+          "count_p33": 1.1412385555555622,
+          "count_p67": 2.244082788888886,
+          "count_thresholds_distinguishable": true,
+          "motion_calibration_windows": 289,
+          "motion_p25_available": true,
+          "motion_p25_px_s": 13.836464128350993
+        },
+        {
+          "zone_id": "road_top",
+          "count_calibration_windows": 358,
+          "zero_count_windows": 26,
+          "zero_count_window_fraction": 0.07262569832402235,
+          "count_p33": 1.0,
+          "count_p67": 2.055234311111103,
+          "count_thresholds_distinguishable": true,
+          "motion_calibration_windows": 268,
+          "motion_p25_available": true,
+          "motion_p25_px_s": 0.711282304107429
+        },
+        {
+          "zone_id": "road_right",
+          "count_calibration_windows": 358,
+          "zero_count_windows": 8,
+          "zero_count_window_fraction": 0.0223463687150838,
+          "count_p33": 1.1266296444444353,
+          "count_p67": 2.696949066666635,
+          "count_thresholds_distinguishable": true,
+          "motion_calibration_windows": 274,
+          "motion_p25_available": true,
+          "motion_p25_px_s": 14.758449898248504
+        },
+        {
+          "zone_id": "junction_center",
+          "count_calibration_windows": 358,
+          "zero_count_windows": 9,
+          "zero_count_window_fraction": 0.025139664804469275,
+          "count_p33": 0.4302753333333521,
+          "count_p67": 0.9195516000000096,
+          "count_thresholds_distinguishable": true,
+          "motion_calibration_windows": 127,
+          "motion_p25_available": true,
+          "motion_p25_px_s": 115.47441830463394
+        }
+      ]
+    },
+    {
+      "case": "NE8th",
+      "source": {
+        "id": "Bellevue_Bellevue_NE8th__2017-09-11_02-08-29.mp4",
+        "split": "Validation",
+        "sha256": "f4492d61971979f21f7f09a5a90b0ed458ea7c4a9dd6fbe1ae30831c951fa5fb",
+        "duration_s": 3600.016977777778,
+        "frame_count": 107993,
+        "width": 1280,
+        "height": 720,
+        "time_base": {
+          "num": 1,
+          "den": 90000
+        }
+      },
+      "total_windows": 361,
+      "complete_no_hold_windows": 360,
+      "hold_intersecting_windows": 0,
+      "zones": [
+        {
+          "zone_id": "road_left",
+          "count_calibration_windows": 360,
+          "zero_count_windows": 315,
+          "zero_count_window_fraction": 0.875,
+          "count_p33": 0.0,
+          "count_p67": 0.0,
+          "count_thresholds_distinguishable": false,
+          "motion_calibration_windows": 17,
+          "motion_p25_available": false,
+          "motion_p25_px_s": null
+        },
+        {
+          "zone_id": "road_top",
+          "count_calibration_windows": 360,
+          "zero_count_windows": 265,
+          "zero_count_window_fraction": 0.7361111111111112,
+          "count_p33": 0.0,
+          "count_p67": 0.0,
+          "count_thresholds_distinguishable": false,
+          "motion_calibration_windows": 34,
+          "motion_p25_available": true,
+          "motion_p25_px_s": 11.473872652566753
+        },
+        {
+          "zone_id": "road_right",
+          "count_calibration_windows": 360,
+          "zero_count_windows": 326,
+          "zero_count_window_fraction": 0.9055555555555556,
+          "count_p33": 0.0,
+          "count_p67": 0.0,
+          "count_thresholds_distinguishable": false,
+          "motion_calibration_windows": 7,
+          "motion_p25_available": false,
+          "motion_p25_px_s": null
+        },
+        {
+          "zone_id": "junction_center",
+          "count_calibration_windows": 360,
+          "zero_count_windows": 292,
+          "zero_count_window_fraction": 0.8111111111111111,
+          "count_p33": 0.0,
+          "count_p67": 0.0,
+          "count_thresholds_distinguishable": false,
+          "motion_calibration_windows": 0,
+          "motion_p25_available": false,
+          "motion_p25_px_s": null
+        }
+      ]
+    }
+  ]
+}

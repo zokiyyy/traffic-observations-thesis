@@ -1,0 +1,80 @@
+{
+  "version": "2026.10.09.5",
+  "scope": "English per-recording rule notice and reserved display row only",
+  "mac_build": "UTC: 2026-10-09T08:18:20.2458890Z\nResult: Succeeded\nErrors: 0\nWarnings: 1\nOutput: /Users/zoki/Desktop/traffic_projects/formal_research/traffic_unity_demo/Builds/RuleNotice_2026-10-09_v1/TrafficObservationsRuleNotice.app\n",
+  "web_build": "UTC: 2026-10-09T08:20:49.1768230Z\nResult: Succeeded\nErrors: 0\nWarnings: 1\nOutput: /Users/zoki/Desktop/traffic_projects/formal_research/traffic_unity_web/Builds/RuleNotice_2026-10-09_v1/Web\n",
+  "unchanged_analysis_and_evaluation_files": 37,
+  "recording_rules": [
+    {
+      "id": "Bellevue_150th_Newport__2017-09-11_08-08-31.mp4",
+      "rule": "original"
+    },
+    {
+      "id": "Bellevue_116th_NE12th__2017-09-10_23-08-29.mp4",
+      "rule": "original"
+    },
+    {
+      "id": "Bellevue_150th_Eastgate__2017-09-11_17-08-33.mp4",
+      "rule": "original"
+    },
+    {
+      "id": "Bellevue_150th_SE38th__2017-09-11_14-08-32.mp4",
+      "rule": "original"
+    },
+    {
+      "id": "Bellevue_Bellevue_NE8th__2017-09-11_12-08-31.mp4",
+      "rule": "original"
+    },
+    {
+      "id": "Bellevue_150th_Newport__2017-09-10_18-08-24.mp4",
+      "rule": "stricter"
+    },
+    {
+      "id": "Bellevue_116th_NE12th__2017-09-11_07-08-32.mp4",
+      "rule": "stricter"
+    },
+    {
+      "id": "Bellevue_150th_Eastgate__2017-09-11_06-08-30.mp4",
+      "rule": "stricter"
+    },
+    {
+      "id": "Bellevue_150th_SE38th__2017-09-10_19-08-25.mp4",
+      "rule": "stricter"
+    },
+    {
+      "id": "Bellevue_Bellevue_NE8th__2017-09-11_02-08-29.mp4",
+      "rule": "stricter"
+    }
+  ],
+  "web_verified": [
+    "Original notice",
+    "Stricter notice after recording switch",
+    "Notice remains in details",
+    "Timeline seek",
+    "Supplementary Newport [20,30): main Unknown and separate sustained count-only hint",
+    "Five-region NE12th layout"
+  ],
+  "native_verified": [
+    "Build",
+    "Startup and original-rule notice, visual layout"
+  ],
+  "native_interaction_limitation": "Native control could read the window but click failed with noWindowsAvailable; native switching not verified.",
+  "zip": "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_unity_web/Builds/RuleNotice_2026-10-09_v1/TrafficObservationsRuleNotice_UnityPlay.zip",
+  "zip_bytes": 38530519,
+  "zip_sha256": "093b5a07febfdd2a622db5545fc5b832aeef927777c55de6a300d195e8df37c4",
+  "published": false,
+  "verified_local_date": "2026-10-11",
+  "publication_status": "Not uploaded. Existing Unity Play account session restored, but filechooser timed out twice. No Update submitted; existing public build unchanged.",
+  "preview_url": "http://127.0.0.1:8877/",
+  "screenshots": [
+    "web_five_regions.png",
+    "web_stricter_cards.png",
+    "native_original.png",
+    "web_stricter_details.png",
+    "web_original_details.png"
+  ],
+  "source_hashes": {
+    "traffic_unity_demo": "a8e996a97c9583e3cbd3e99bb9f1358f45095466dd35cd8e854706422eec0a4a",
+    "traffic_unity_web": "1d52f59f562a0e2663f6896e5805eb8ef06e9f003c2aa4e604eeb4b080ade358"
+  }
+}

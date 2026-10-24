@@ -1,0 +1,38 @@
+{
+  "checked_at": "2026-09-28T05:25:20.082296+00:00",
+  "status": "remote_queue_running",
+  "client_offline_tests_passed": 28,
+  "runtime_offline_tests_passed": 30,
+  "validation_synthetic_tests_passed": 11,
+  "native_self_test_passed": true,
+  "local_synthetic_pts_codec_smoke": "runtime/local_codec_smoke_report.json",
+  "real_model_inference_in_local_tests": false,
+  "remote_readonly_preflight": {
+    "at": "2026-09-28T05:12:30+00:00",
+    "gpu": "GRID A100D-40C",
+    "memory_used_MiB": 0,
+    "compute_processes": [],
+    "free_disk_GiB_approx": 236
+  },
+  "client_worker_pid": 13570,
+  "job_manifest_sha256": "fde3db889dd3ec61e8038dfb2defefddfedb0ceabb08ec1274a685eef3732aab",
+  "seal_sha256": "44f5029b6339b842bb7dead246308c6af02703ddf2e1966d33dd5501f26871ee",
+  "notes": [
+    "Source and model parameter bindings retained.",
+    "Source uploads and cloud native audit still need completion.",
+    "Full-length annotated output is disabled; previews only."
+  ],
+  "confirmed_at": "2026-09-28T05:27:17.855874+00:00",
+  "server_stage": "running_native",
+  "server_source": "Bellevue_150th_Newport__2017-09-10_18-08-24.mp4",
+  "remote_processes": [
+    {
+      "pid": 53226,
+      "alive": true,
+      "command": "/home/ubuntu/venvs/traffic-yolo/bin/python /home/ubuntu/traffic_projects/supplementary_five_20260928_v1/formal_research/traffic_yolo_system/outputs/supplementary_five_2026-09-28_v1/runtime/server_pipeline.py --expected-job-sha256 fde3db889dd3ec61e8038dfb2defefddfedb0ceabb08ec1274a685eef3732aab",
+      "start_token": "49798886",
+      "session_id": 53226
+    }
+  ],
+  "all_five_uploads_verified": true
+}

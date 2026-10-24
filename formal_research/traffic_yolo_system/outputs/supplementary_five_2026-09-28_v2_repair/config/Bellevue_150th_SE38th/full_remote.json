@@ -1,0 +1,64 @@
+{
+  "schema_version": 1,
+  "development_only": true,
+  "run_version": "bellevue_150th_se38th-supplementary-full-v1-20260928",
+  "rules_version": "fixed-v5-containment-no-background-20260927",
+  "method_status": "source_bound_supplementary_observation_native_and_short_preflight_required",
+  "split_manifest": "/home/ubuntu/traffic_projects/supplementary_five_20260928_v2_repair/formal_research/03_full_dataset_design/splits/formal_source_video_split_manifest_v1_2026-08-24.csv",
+  "source_root": "/home/ubuntu/traffic_projects/supplementary_five_20260928_v2_repair/videos/original",
+  "camera_registry": "camera_registry.json",
+  "output_root": "/home/ubuntu/traffic_projects/supplementary_five_20260928_v2_repair/formal_research/traffic_yolo_system/outputs/supplementary_five_2026-09-28_v2_repair/full_runs",
+  "model": {
+    "path": "/home/ubuntu/traffic_projects/runs/training/yolo11s_formal_a100_v1/weights/best.pt",
+    "sha256": "07e2280eda613c5d633196729f8716e9715000430171f49f6341afe573a2f334",
+    "version": "yolo11s_formal_a100_v1_07e2280e"
+  },
+  "input": {
+    "kind": "video",
+    "source_offset_seconds": 0,
+    "source_id": "Bellevue_150th_SE38th__2017-09-10_19-08-25.mp4",
+    "sha256": "e0e4d9d1e69c2f8b2ef356bdfb99c0e37baafb96db0645952bab4bc7b40e09c4"
+  },
+  "detector": {
+    "conf": 0.1,
+    "imgsz": 640,
+    "iou": 0.7,
+    "half": false,
+    "agnostic_nms": false,
+    "max_det": 300,
+    "augment": false,
+    "rect": true,
+    "batch": 1,
+    "classes": null
+  },
+  "tracker": {
+    "tracker_type": "bytetrack",
+    "track_high_thresh": 0.35,
+    "track_low_thresh": 0.1,
+    "new_track_thresh": 0.35,
+    "track_buffer": 30,
+    "match_thresh": 0.8,
+    "fuse_score": true
+  },
+  "dedup": {
+    "mode": "cross_class_greedy_iou",
+    "iou_threshold": 0.7,
+    "containment_policy_path": "../containment_policy.json",
+    "containment_policy_sha256": "b299d573ecfcf8e609fc216f29b65ebcb288347def0e520cda404b29dcbf0ff6"
+  },
+  "aggregation": {
+    "window_seconds": 10,
+    "chunk_frames": 900
+  },
+  "progress_every_frames": 300,
+  "device": "0",
+  "time": {
+    "mode": "audited_pts",
+    "ffprobe_path": "/usr/bin/ffprobe",
+    "audit_summary_path": "/home/ubuntu/traffic_projects/supplementary_five_20260928_v2_repair/formal_research/traffic_yolo_system/outputs/supplementary_five_2026-09-28_v2_repair/time_audit/Bellevue_150th_SE38th/audit_runtime_envelope.json",
+    "frame_timing_path": "/home/ubuntu/traffic_projects/supplementary_five_20260928_v2_repair/formal_research/traffic_yolo_system/outputs/supplementary_five_2026-09-28_v2_repair/time_audit/Bellevue_150th_SE38th/timing_frames.jsonl",
+    "max_frame_duration_seconds": 30.0
+  },
+  "inference_enabled": true,
+  "segment": null
+}

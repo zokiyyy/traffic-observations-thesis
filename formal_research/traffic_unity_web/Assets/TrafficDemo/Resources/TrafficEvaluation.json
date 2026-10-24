@@ -1,0 +1,287 @@
+{
+  "schema_version": "traffic_evaluation_v3",
+  "test_date": "2026-09-28",
+  "detector": "YOLO11s",
+  "images": 184,
+  "objects": 2052,
+  "source_videos": 17,
+  "model_sha256": "07e2280eda613c5d633196729f8716e9715000430171f49f6341afe573a2f334",
+  "precision": 0.749077947878599,
+  "recall": 0.5311160880120624,
+  "map50": 0.6169054590770298,
+  "map50_95": 0.4527271275407966,
+  "classes": [
+    {
+      "name": "car",
+      "objects": 1946,
+      "precision": 0.9482299474254502,
+      "recall": 0.7906268412444472,
+      "ap50": 0.9108880061930548,
+      "ap50_95": 0.6257536275815496
+    },
+    {
+      "name": "motorcycle",
+      "objects": 4,
+      "precision": 0.8534557994855319,
+      "recall": 0.25,
+      "ap50": 0.345,
+      "ap50_95": 0.315
+    },
+    {
+      "name": "bus",
+      "objects": 13,
+      "precision": 0.6543441061970435,
+      "recall": 0.7692307692307693,
+      "ap50": 0.7913761904761902,
+      "ap50_95": 0.5607647619047618
+    },
+    {
+      "name": "truck",
+      "objects": 89,
+      "precision": 0.5402819384063705,
+      "recall": 0.3146067415730337,
+      "ap50": 0.4203576396388743,
+      "ap50_95": 0.30939012067687505
+    }
+  ],
+  "tracking_clip": "SE38th",
+  "tracking_seconds": 60,
+  "tracking_frames": 1798,
+  "tracking_detector": "Pretrained YOLO11n",
+  "short_track_max_frames": 10,
+  "tracking": [
+    {
+      "label": "ByteTrack + cross-class filter",
+      "ids": 160,
+      "short_tracks": 62,
+      "source": "outputs/tracking/SE38th_baseline_60s_yolo11n_bytetrack_v2/tracking_results.csv",
+      "sha256": "f42c19e3fd04c9ec368cdf1e6fb6ff2a56d93edfc92ea2f1e8b8a96b7344897b"
+    },
+    {
+      "label": "BoT-SORT + ReID",
+      "ids": 213,
+      "short_tracks": 108,
+      "source": "outputs/tracking/SE38th_baseline_60s_yolo11n_botsort_reid_v3/tracking_results.csv",
+      "sha256": "72352824302389796c6654615e1cc32bb1f290b0da2fc1a73596378caa1bff23"
+    }
+  ],
+  "detector_source": "formal_research/traffic_yolo_system/outputs/evaluation/yolo11s_main_test_v1_2026-09-28/run/metrics.json",
+  "detector_source_sha256": "30cbee6c19f185ef5cecd5e92d6c6a5a5daf925d0e93958178f1280b3ea29043",
+  "persistence": {
+    "test_date": "2026-09-28",
+    "recordings": 5,
+    "regions": 22,
+    "window_seconds": 10,
+    "region_windows": 7937,
+    "eligible_windows": 7724,
+    "excluded_windows": 213,
+    "reference_seconds": 30,
+    "reference_matches_saved": true,
+    "rows": [
+      {
+        "seconds": 20,
+        "high_windows": 1279,
+        "joint_windows": 270
+      },
+      {
+        "seconds": 30,
+        "high_windows": 844,
+        "joint_windows": 117
+      },
+      {
+        "seconds": 60,
+        "high_windows": 233,
+        "joint_windows": 8
+      }
+    ],
+    "source": "formal_research/traffic_yolo_system/outputs/persistence_sensitivity_2026-09-28/results.json",
+    "source_sha256": "ed9608dbb639034e28b0274517b2ca8b7d9c3c1b423369c1c4f0d2a73a01d30a",
+    "source_recordings": [
+      {
+        "camera": "Newport",
+        "path": "formal_research/traffic_yolo_system/outputs/five_intersection_states_2026-09-28_v1/Newport/states_10s.json",
+        "sha256": "a38834445fe880039db607c793889363ec625d03be80f82d16f6b69ddcd56ca9",
+        "source_id": "Bellevue_150th_Newport__2017-09-11_08-08-31.mp4"
+      },
+      {
+        "camera": "NE12th",
+        "path": "formal_research/traffic_yolo_system/outputs/five_intersection_states_2026-09-28_v1/NE12th/states_10s.json",
+        "sha256": "21781c7d1f7e0d0ef92ec8548aa21cb1144bc98761975f38c41c887539570189",
+        "source_id": "Bellevue_116th_NE12th__2017-09-10_23-08-29.mp4"
+      },
+      {
+        "camera": "Eastgate",
+        "path": "formal_research/traffic_yolo_system/outputs/five_intersection_states_2026-09-28_v1/Eastgate/states_10s.json",
+        "sha256": "8c96ff63abbc128272b55bb95db172afc81672cda8836d13ad4a0918305044e8",
+        "source_id": "Bellevue_150th_Eastgate__2017-09-11_17-08-33.mp4"
+      },
+      {
+        "camera": "SE38th",
+        "path": "formal_research/traffic_yolo_system/outputs/five_intersection_states_2026-09-28_v1/SE38th/states_10s.json",
+        "sha256": "24845f7991342e6e871d0df7745ee253fe449eeb029efd8967ca16e511a93df0",
+        "source_id": "Bellevue_150th_SE38th__2017-09-11_14-08-32.mp4"
+      },
+      {
+        "camera": "NE8th",
+        "path": "formal_research/traffic_yolo_system/outputs/five_intersection_states_2026-09-28_v1/NE8th/states_10s.json",
+        "sha256": "3c80788fe7e643c4489f2cfe3ae8ce1958275d1f3bdf2b5c51fe9fc3698ef46d",
+        "source_id": "Bellevue_Bellevue_NE8th__2017-09-11_12-08-31.mp4"
+      }
+    ]
+  },
+  "threshold_study": {
+    "test_date": "2026-09-23",
+    "detector": "YOLO11s",
+    "images": 197,
+    "objects": 1736,
+    "source_videos": 17,
+    "empty_label_images": 46,
+    "image_size": 640,
+    "nms_iou": 0.7,
+    "match_iou": 0.5,
+    "car_label_share": 0.9337557603686636,
+    "rows": [
+      {
+        "confidence": 0.2,
+        "predictions": 2058,
+        "tp": 1544,
+        "fp": 514,
+        "fn": 192,
+        "precision": 0.750242954324587,
+        "recall": 0.8894009216589862,
+        "f1": 0.8139167105956774,
+        "count_mae": 1.8071065989847717,
+        "class_mean_f1": 0.6814133240005333,
+        "night_f1": 0.8867313915857605
+      },
+      {
+        "confidence": 0.25,
+        "predictions": 1973,
+        "tp": 1529,
+        "fp": 444,
+        "fn": 207,
+        "precision": 0.7749619868220984,
+        "recall": 0.8807603686635944,
+        "f1": 0.8244809921811809,
+        "count_mae": 1.4263959390862944,
+        "class_mean_f1": 0.6890718455973426,
+        "night_f1": 0.8794788273615635
+      },
+      {
+        "confidence": 0.35,
+        "predictions": 1800,
+        "tp": 1495,
+        "fp": 305,
+        "fn": 241,
+        "precision": 0.8305555555555556,
+        "recall": 0.8611751152073732,
+        "f1": 0.8455882352941176,
+        "count_mae": 0.9137055837563451,
+        "class_mean_f1": 0.6703270268792249,
+        "night_f1": 0.8770764119601329
+      }
+    ],
+    "source": "formal_research/traffic_yolo_system/outputs/validation_tuning/yolo11s_confidence_val_v1_2026-09-23/results/summary.json",
+    "source_sha256": "c06b18bd6a5436308a174a6670bf9bd3249bae71d2e9f268756786bf026fc48c",
+    "config_source": "formal_research/traffic_yolo_system/outputs/validation_tuning/yolo11s_confidence_val_v1_2026-09-23/results/config.json",
+    "config_sha256": "49af29eb146942730ebef4ef1805db332f815967dca5259e7c49e830fd4cad3a",
+    "model_sha256": "07e2280eda613c5d633196729f8716e9715000430171f49f6341afe573a2f334",
+    "matching": {
+      "class_aware": true,
+      "match_iou": 0.5,
+      "method": "Descending-IoU greedy one-to-one matching within each image, same class; ties GT index then prediction index",
+      "averaging": "Object-level micro: sum TP/FP/FN across all 197 images before calculating P/R/F1",
+      "not_ap": "Not AP/mAP and not Ultralytics max-F1 operating point or class-mean P/R",
+      "nms_iou_is_different": "0.7 is prediction NMS; 0.5 is GT matching"
+    },
+    "scope": {
+      "training": false,
+      "main_test": false,
+      "tracking": false,
+      "spatial_filter": "None; full-image predictions, existing roadway-only labels remain unchanged",
+      "fp_interpretation": "Unmatched predictions relative to existing labels; includes possible out-of-scope real vehicles, duplicates, class/localization errors"
+    }
+  },
+  "detection_cases": [
+    {
+      "id": "F1018",
+      "selector": "Correct matches retained",
+      "title": "Correct matches retained",
+      "resource": "TrafficEvaluationCases/F1018",
+      "camera": "SE38th",
+      "lighting": "Day",
+      "cropped": false,
+      "caption": "All 18 same-class matches remain at 0.35, while unmatched predictions fall from 3 to 0. One annotation is still unmatched.",
+      "original_filename": "Bellevue_150th_SE38th__2017-09-11_14-08-32__validation__slot_11__p_0.868182__t_3125.831544.jpg",
+      "source": "formal_research/traffic_yolo_system/outputs/validation_tuning/yolo11s_confidence_val_v1_2026-09-23/review/05_reduction_without_tp_loss.jpg",
+      "source_sha256": "c5edfbdde98a2bbcaf107c371e67c29944e9fe5a8d7adfc3d1f8dd66ecbeee29",
+      "crop_xyxy": null,
+      "selection_reason": "Contrasting benefit: FP 3 to 0 with TP 18 retained at 0.35.",
+      "metrics_025": {
+        "tp": 18,
+        "fp": 3,
+        "fn": 1
+      },
+      "metrics_035": {
+        "tp": 18,
+        "fp": 0,
+        "fn": 1
+      }
+    },
+    {
+      "id": "F0178",
+      "selector": "Motorcycle filtered",
+      "title": "Motorcycle filtered at 0.35",
+      "resource": "TrafficEvaluationCases/F0178",
+      "camera": "NE12th",
+      "lighting": "Day",
+      "cropped": true,
+      "caption": "The motorcycle prediction (about 0.27) is removed at 0.35. The image is a crop; its printed TP / FP / FN counts summarize the full image.",
+      "original_filename": "Bellevue_116th_NE12th__2017-09-11_15-08-36__validation__slot_01__p_0.050000__t_4.233444.jpg",
+      "source": "formal_research/traffic_yolo_system/outputs/validation_tuning/yolo11s_confidence_val_v1_2026-09-23/review/06_motorcycle_crop.jpg",
+      "source_sha256": "93972384aed806af361e931f4311f36725ad7e728f93734903d2cf89f52cdebf",
+      "crop_xyxy": [
+        902,
+        425,
+        1212,
+        655
+      ],
+      "selection_reason": "Detail of F0178 motorcycle removed at 0.35; only crop changes, no predictions re-run.",
+      "metrics_025": {
+        "tp": 25,
+        "fp": 7,
+        "fn": 4
+      },
+      "metrics_035": {
+        "tp": 24,
+        "fp": 5,
+        "fn": 5
+      }
+    },
+    {
+      "id": "F0794",
+      "selector": "Truck classification error",
+      "title": "Correct truck class lost",
+      "resource": "TrafficEvaluationCases/F0794",
+      "camera": "SE38th",
+      "lighting": "Dawn/Dusk",
+      "cropped": false,
+      "caption": "The correct truck prediction (about 0.28) is removed, while an incorrect car prediction (about 0.73) remains. This is a class-matching loss; the vehicle still has a predicted box.",
+      "original_filename": "Bellevue_150th_SE38th__2017-09-10_19-08-25__validation__slot_11__p_0.868182__t_3125.504733.jpg",
+      "source": "formal_research/traffic_yolo_system/outputs/validation_tuning/yolo11s_confidence_val_v1_2026-09-23/review/03_truck_tradeoff.jpg",
+      "source_sha256": "397ead007eb2679e1d0bbfac157a90705ae914c98301fe6bb19fb962cbe92308",
+      "crop_xyxy": null,
+      "selection_reason": "Truck TP falls by 1 from 0.25 to 0.35, while FP count stays at 1; Dawn/Dusk contrast.",
+      "metrics_025": {
+        "tp": 4,
+        "fp": 1,
+        "fn": 0
+      },
+      "metrics_035": {
+        "tp": 3,
+        "fp": 1,
+        "fn": 1
+      }
+    }
+  ]
+}

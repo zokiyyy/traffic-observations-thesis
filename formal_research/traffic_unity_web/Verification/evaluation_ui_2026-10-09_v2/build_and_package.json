@@ -1,0 +1,10 @@
+{
+  "web_build": "UTC: 2026-10-09T03:22:51.0342000Z\nResult: Succeeded\nErrors: 0\nWarnings: 1\nOutput: /Users/zoki/Desktop/traffic_projects/formal_research/traffic_unity_web/Builds/Evaluation_2026-10-09_v2/Web\n",
+  "mac_build": "UTC: 2026-10-09T03:22:35.4285140Z\nResult: Succeeded\nErrors: 0\nWarnings: 1\nOutput: /Users/zoki/Desktop/traffic_projects/formal_research/traffic_unity_demo/Builds/Evaluation_2026-10-09_v2/TrafficObservationsEvaluation.app\n",
+  "zip_bytes": 34224625,
+  "zip_sha256": "328b6f95d9d287dbce367d8a21169b04d0c998d59e87caf2f79ae8681b8c60d3",
+  "recordings": 10,
+  "online_updated": false,
+  "sensitivity_scope": "initial five recordings",
+  "narrow_viewport_min_width": 280
+}

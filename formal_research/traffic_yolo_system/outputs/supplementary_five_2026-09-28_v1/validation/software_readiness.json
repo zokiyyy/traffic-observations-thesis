@@ -1,0 +1,56 @@
+{
+  "status": "passed_local_structure_and_synthetic_validation",
+  "test_scope": "Synthetic software fixtures only; no new decode, model, dataset inference, or remote command.",
+  "adapter_tests": {
+    "command": "/Users/zoki/anaconda3/envs/traffic-yolo/bin/python -B -m unittest discover -s formal_research/traffic_yolo_system/outputs/supplementary_five_2026-09-28_v1/validation -p test_selected_adapters.py -v",
+    "tests": 11,
+    "exit_code": 0,
+    "passed": true,
+    "covered": [
+      "preserve Train split and reject Validation relabelling",
+      "frozen exact source/SHA and camera binding",
+      "Newport fixed background thresholds and unconfirmed removal audit",
+      "detect background result corruption",
+      "camera-none filter retention",
+      "full/short original-PTS coverage and tail rejection",
+      "count corruption with rebuilt completion receipt"
+    ]
+  },
+  "native_self_test": {
+    "command": "/Users/zoki/anaconda3/envs/traffic-yolo/bin/python -B formal_research/traffic_yolo_system/outputs/supplementary_five_2026-09-28_v1/validation/prepare_selected_time_audit.py --self-test",
+    "exit_code": 0,
+    "passed": true,
+    "covered": [
+      "synthetic native envelope strict reader round-trip",
+      "incomplete/mismatch/error/no-overwrite rejection",
+      "compact fields",
+      "rounded CFR",
+      "real gap",
+      "unknown tail"
+    ]
+  },
+  "isolated_core_path": "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/supplementary_five_2026-09-28_v1/code/src",
+  "generic_core_already_allows_train": true,
+  "isolation_changes": [
+    "native helper only imports batch-local code/src",
+    "selected_entry exactly binds the five source ids, true split, SHA",
+    "QC reads true split and supports only frozen Newport live background policy"
+  ],
+  "selection_sha256": "bb1609ef303f99114154fe5634acc5e1e857bf6d4abf8e935b9fa80212e2cde6",
+  "newport_background_policy_sha256": "5f86b6c25bb693ad07330c826cfea879a3eb4a39c40b170e8792751e20b00fb4",
+  "helpers": {
+    "audit_selected_output.py": "693d2827a032fce3b116a5c66d60094880e52dafcd3aaf8db722a29de3e7b0b8",
+    "prepare_selected_time_audit.py": "6bea3bfccde943e13c267f358f783d26ca13aaf50289b6caea4d23a4e0c45d18",
+    "selection_binding.py": "e32e1643fdac4fbc97bbee604b9782b7215a03262aaf49fdf6c517e2c2e52737",
+    "test_selected_adapters.py": "51fe1fdffae3cec7e12e4baad8cf4c57eaa41b648ec694427f6a9cae784764ee"
+  },
+  "configuration_receipt_sha256": "43ae3daad7fe34e313e19ec57ed5c9e108c911f0e619555ecfb66ff1f8c275f5",
+  "production_preflight_completed": false,
+  "server_native_audit_required": true,
+  "final_eastgate_pts_timing_fix": {
+    "source": "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/five_intersections_2026-09-27_r2/repairs/eastgate_frame_count_20260927_v2/code/src/full_video/pts_timing.py",
+    "source_sha256": "da1de76faea72ddcf6fd3c159baf7dfce9fcc86f354aa08dedd8925fe9840b41",
+    "local_batch_sha256": "da1de76faea72ddcf6fd3c159baf7dfce9fcc86f354aa08dedd8925fe9840b41",
+    "identical": true
+  }
+}

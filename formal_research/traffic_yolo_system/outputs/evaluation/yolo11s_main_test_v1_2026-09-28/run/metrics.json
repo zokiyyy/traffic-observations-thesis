@@ -1,0 +1,132 @@
+{
+  "overall": {
+    "precision_class_mean_at_evaluator_operating_point": 0.749077947878599,
+    "recall_class_mean_at_evaluator_operating_point": 0.5311160880120624,
+    "map50": 0.6169054590770298,
+    "map50_95": 0.4527271275407966
+  },
+  "per_class": [
+    {
+      "class_id": 0,
+      "class_name": "car",
+      "ground_truth_objects": 1946,
+      "precision_at_evaluator_operating_point": 0.9482299474254502,
+      "recall_at_evaluator_operating_point": 0.7906268412444472,
+      "f1_at_evaluator_operating_point": 0.8622861330401297,
+      "ap50": 0.9108880061930548,
+      "ap50_95": 0.6257536275815496,
+      "ap_by_iou_50_to_95": [
+        0.9108880061930548,
+        0.895697095197252,
+        0.8682791198737865,
+        0.8229453948799319,
+        0.7776815296295949,
+        0.6899938520097686,
+        0.5660253415776154,
+        0.42685479638036317,
+        0.24589858191903136,
+        0.0532725581550966
+      ]
+    },
+    {
+      "class_id": 1,
+      "class_name": "motorcycle",
+      "ground_truth_objects": 4,
+      "precision_at_evaluator_operating_point": 0.8534557994855319,
+      "recall_at_evaluator_operating_point": 0.25,
+      "f1_at_evaluator_operating_point": 0.38671952237844126,
+      "ap50": 0.345,
+      "ap50_95": 0.315,
+      "ap_by_iou_50_to_95": [
+        0.345,
+        0.345,
+        0.345,
+        0.345,
+        0.345,
+        0.345,
+        0.345,
+        0.245,
+        0.245,
+        0.245
+      ]
+    },
+    {
+      "class_id": 2,
+      "class_name": "bus",
+      "ground_truth_objects": 13,
+      "precision_at_evaluator_operating_point": 0.6543441061970435,
+      "recall_at_evaluator_operating_point": 0.7692307692307693,
+      "f1_at_evaluator_operating_point": 0.7071515925712131,
+      "ap50": 0.7913761904761902,
+      "ap50_95": 0.5607647619047618,
+      "ap_by_iou_50_to_95": [
+        0.7913761904761902,
+        0.7913761904761902,
+        0.7913761904761902,
+        0.7822761904761903,
+        0.6951071428571429,
+        0.5907142857142857,
+        0.4556,
+        0.43,
+        0.2798214285714286,
+        0.0
+      ]
+    },
+    {
+      "class_id": 3,
+      "class_name": "truck",
+      "ground_truth_objects": 89,
+      "precision_at_evaluator_operating_point": 0.5402819384063705,
+      "recall_at_evaluator_operating_point": 0.3146067415730337,
+      "f1_at_evaluator_operating_point": 0.3976572486066508,
+      "ap50": 0.4203576396388743,
+      "ap50_95": 0.30939012067687505,
+      "ap_by_iou_50_to_95": [
+        0.4203576396388743,
+        0.41448951893211816,
+        0.4071974261546977,
+        0.39931590791345506,
+        0.3771975044979999,
+        0.33951207952033013,
+        0.2927096726368401,
+        0.2617597504608262,
+        0.13033946638532906,
+        0.051022240628279654
+      ]
+    }
+  ],
+  "native_results_dict": {
+    "metrics/precision(B)": 0.749077947878599,
+    "metrics/recall(B)": 0.5311160880120624,
+    "metrics/mAP50(B)": 0.6169054590770298,
+    "metrics/mAP50-95(B)": 0.4527271275407966,
+    "fitness": 0.4527271275407966
+  },
+  "speed_ms_per_image": {
+    "preprocess": 0.31286253879838827,
+    "inference": 46.048254767652985,
+    "loss": 0.00011390290202815896,
+    "postprocess": 0.28721558729834534
+  },
+  "precision_recall_definition": "Ultralytics AP evaluator class-mean P/R at its selected operating point; not fixed-confidence micro P/R.",
+  "scope": "Full-image detector versus existing roadway-only annotations; no ROI/tracking/application suppression. Unmatched predictions may include out-of-annotation-scope real vehicles.",
+  "inference_confidence_floor": 0.001,
+  "not_evaluated": [
+    "tracking",
+    "region counts",
+    "traffic-state accuracy",
+    "fixed-conf 0.35 micro metrics"
+  ],
+  "started_at_utc": "2026-09-28T07:00:17.999321+00:00",
+  "finished_at_utc": "2026-09-28T07:00:38.861602+00:00",
+  "elapsed_seconds": 20.862131666042842,
+  "model_sha256": "07e2280eda613c5d633196729f8716e9715000430171f49f6341afe573a2f334",
+  "dataset_manifest_sha256": "3ecbf8799274183ee46674298ea0cb968470d998b487106a83934e752660b12c",
+  "split": "test",
+  "images": 184,
+  "objects": 2052,
+  "empty_labels": 23,
+  "native_output": "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/evaluation/yolo11s_main_test_v1_2026-09-28/run/raw",
+  "original_inputs_unchanged": true,
+  "prediction_exports": "Native raw/labels/*.txt: class cx cy w h confidence. Images with zero retained predictions may have no TXT; this is not a complete empty-image manifest."
+}

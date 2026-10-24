@@ -1,0 +1,53 @@
+{
+  "source": "formal_research/traffic_yolo_system/outputs/persistence_sensitivity_2026-09-28/results.json",
+  "sha256": "ed9608dbb639034e28b0274517b2ca8b7d9c3c1b423369c1c4f0d2a73a01d30a",
+  "input_hashes": [
+    {
+      "camera": "Newport",
+      "path": "formal_research/traffic_yolo_system/outputs/five_intersection_states_2026-09-28_v1/Newport/states_10s.json",
+      "sha256": "a38834445fe880039db607c793889363ec625d03be80f82d16f6b69ddcd56ca9",
+      "source_id": "Bellevue_150th_Newport__2017-09-11_08-08-31.mp4"
+    },
+    {
+      "camera": "NE12th",
+      "path": "formal_research/traffic_yolo_system/outputs/five_intersection_states_2026-09-28_v1/NE12th/states_10s.json",
+      "sha256": "21781c7d1f7e0d0ef92ec8548aa21cb1144bc98761975f38c41c887539570189",
+      "source_id": "Bellevue_116th_NE12th__2017-09-10_23-08-29.mp4"
+    },
+    {
+      "camera": "Eastgate",
+      "path": "formal_research/traffic_yolo_system/outputs/five_intersection_states_2026-09-28_v1/Eastgate/states_10s.json",
+      "sha256": "8c96ff63abbc128272b55bb95db172afc81672cda8836d13ad4a0918305044e8",
+      "source_id": "Bellevue_150th_Eastgate__2017-09-11_17-08-33.mp4"
+    },
+    {
+      "camera": "SE38th",
+      "path": "formal_research/traffic_yolo_system/outputs/five_intersection_states_2026-09-28_v1/SE38th/states_10s.json",
+      "sha256": "24845f7991342e6e871d0df7745ee253fe449eeb029efd8967ca16e511a93df0",
+      "source_id": "Bellevue_150th_SE38th__2017-09-11_14-08-32.mp4"
+    },
+    {
+      "camera": "NE8th",
+      "path": "formal_research/traffic_yolo_system/outputs/five_intersection_states_2026-09-28_v1/NE8th/states_10s.json",
+      "sha256": "3c80788fe7e643c4489f2cfe3ae8ce1958275d1f3bdf2b5c51fe9fc3698ef46d",
+      "source_id": "Bellevue_Bellevue_NE8th__2017-09-11_12-08-31.mp4"
+    }
+  ],
+  "rows": [
+    {
+      "seconds": 20,
+      "high_windows": 1279,
+      "joint_windows": 270
+    },
+    {
+      "seconds": 30,
+      "high_windows": 844,
+      "joint_windows": 117
+    },
+    {
+      "seconds": 60,
+      "high_windows": 233,
+      "joint_windows": 8
+    }
+  ]
+}

@@ -1,0 +1,451 @@
+{
+  "schema_version": 2,
+  "source_split": "Validation",
+  "source_video": "Bellevue_150th_Newport__2017-09-11_08-08-31.mp4",
+  "clip_file": "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/video_comparison/yolo11n_vs_yolo11s_newport_val_v1/input/newport_validation_26m40s_28m40s.mp4",
+  "clip_sha256": "fb0cb02738b94277b2f0394f1c24dc667b378550821ff02bacc3db66e601ae42",
+  "split_manifest_sha256": "8e1b8806f5a1f2f8280b71169d45ba5837bc710db26f0550610124fcc4f1f3cd",
+  "frame_width": 1280,
+  "frame_height": 720,
+  "fps": 30.0,
+  "frame_count": 3600,
+  "reference_frame_index": 1595,
+  "reference_time_seconds": 53.166666666666664,
+  "assignment_point": "bottom_center",
+  "assignment_policy": "Use the tracked box bottom-center. Polygon interiors must be disjoint. A point exactly on a shared edge/vertex belongs to the first zone in the zones list (road approaches before junction_center), counted once. Points outside the selected road surface remain outside_roi.",
+  "purpose": "Prototype instantaneous visible-vehicle counts per image-space road area. Not traffic flow, road density, queue length, speed or congestion ground truth.",
+  "status": "provisional_shared_boundary_revision",
+  "review_basis": [
+    "AI visual review of original source frames, road edges and existing internal gaps.",
+    "Keep road_left, road_top and road_right geometry unchanged; extend only junction_center.",
+    "Share the full junction-facing polylines; do not fit polygon coordinates to one vehicle.",
+    "Keep outer road margins, traffic islands, footpaths and the foreground-obscured approach excluded."
+  ],
+  "limitations": [
+    "No geographic travel direction or inbound/outbound direction is assigned.",
+    "Lower approach is excluded because a large foreground signal unit obscures most of it; visible lower-edge vehicles are therefore outside these ROIs.",
+    "Bounding-box bottom-center can be biased by occlusion or oversized boxes.",
+    "The visual layout is a development prototype and needs user/supervisor review before deployment or scientific traffic-state conclusions.",
+    "Internal shared borders replace the old excluded bands; counts cover a slightly larger visible road surface.",
+    "Count increases from this layout revision are changes of counting coverage, not evidence of detector accuracy improvement.",
+    "Outer-border jitter, false vehicle detections and untracked distant detections remain separate issues."
+  ],
+  "zones": [
+    {
+      "zone_name": "road_left",
+      "polygon_points": [
+        [
+          8,
+          394
+        ],
+        [
+          101,
+          336
+        ],
+        [
+          222,
+          271
+        ],
+        [
+          353,
+          214
+        ],
+        [
+          375,
+          214
+        ],
+        [
+          335,
+          266
+        ],
+        [
+          270,
+          358
+        ],
+        [
+          203,
+          463
+        ],
+        [
+          177,
+          482
+        ],
+        [
+          115,
+          456
+        ],
+        [
+          81,
+          426
+        ],
+        [
+          29,
+          445
+        ],
+        [
+          8,
+          426
+        ]
+      ],
+      "color_bgr": [
+        0,
+        215,
+        255
+      ],
+      "label_anchor": [
+        114,
+        322
+      ],
+      "description": "Image-left visible road segment outside the junction. Both travel directions may be present; no flow direction is assumed.",
+      "status": "provisional",
+      "direction": "not_assigned"
+    },
+    {
+      "zone_name": "road_top",
+      "polygon_points": [
+        [
+          518,
+          121
+        ],
+        [
+          545,
+          90
+        ],
+        [
+          569,
+          49
+        ],
+        [
+          585,
+          29
+        ],
+        [
+          638,
+          29
+        ],
+        [
+          659,
+          52
+        ],
+        [
+          688,
+          77
+        ],
+        [
+          728,
+          90
+        ],
+        [
+          748,
+          94
+        ],
+        [
+          673,
+          110
+        ],
+        [
+          592,
+          126
+        ],
+        [
+          533,
+          139
+        ]
+      ],
+      "color_bgr": [
+        80,
+        220,
+        90
+      ],
+      "label_anchor": [
+        552,
+        76
+      ],
+      "description": "Image-top visible road segment ending before the junction boundary. Distant small vehicles remain difficult to observe.",
+      "status": "provisional",
+      "direction": "not_assigned"
+    },
+    {
+      "zone_name": "road_right",
+      "polygon_points": [
+        [
+          783,
+          108
+        ],
+        [
+          806,
+          97
+        ],
+        [
+          853,
+          96
+        ],
+        [
+          906,
+          80
+        ],
+        [
+          937,
+          52
+        ],
+        [
+          962,
+          53
+        ],
+        [
+          983,
+          70
+        ],
+        [
+          1008,
+          92
+        ],
+        [
+          1022,
+          120
+        ],
+        [
+          1014,
+          154
+        ],
+        [
+          977,
+          176
+        ],
+        [
+          917,
+          197
+        ],
+        [
+          903,
+          205
+        ],
+        [
+          871,
+          168
+        ],
+        [
+          842,
+          137
+        ]
+      ],
+      "color_bgr": [
+        255,
+        150,
+        65
+      ],
+      "label_anchor": [
+        884,
+        127
+      ],
+      "description": "Image-upper-right visible road segment, excluding the right sidewalk, fenced properties and driveway.",
+      "status": "provisional",
+      "direction": "not_assigned"
+    },
+    {
+      "zone_name": "junction_center",
+      "polygon_points": [
+        [
+          375,
+          214
+        ],
+        [
+          407,
+          207
+        ],
+        [
+          528,
+          150
+        ],
+        [
+          533,
+          139
+        ],
+        [
+          592,
+          126
+        ],
+        [
+          673,
+          110
+        ],
+        [
+          748,
+          94
+        ],
+        [
+          783,
+          108
+        ],
+        [
+          842,
+          137
+        ],
+        [
+          871,
+          168
+        ],
+        [
+          903,
+          205
+        ],
+        [
+          882,
+          263
+        ],
+        [
+          878,
+          273
+        ],
+        [
+          240,
+          526
+        ],
+        [
+          220,
+          498
+        ],
+        [
+          177,
+          482
+        ],
+        [
+          203,
+          463
+        ],
+        [
+          270,
+          358
+        ],
+        [
+          335,
+          266
+        ]
+      ],
+      "color_bgr": [
+        230,
+        90,
+        210
+      ],
+      "label_anchor": [
+        512,
+        278
+      ],
+      "description": "Visible central junction surface, extended to the unchanged approach boundaries. Shared borders have one counting owner. Not a queue or calibrated lane.",
+      "status": "provisional",
+      "direction": "not_assigned"
+    }
+  ],
+  "layout_version": "newport_v2_shared_internal_boundaries_2026-09-24",
+  "boundary_tie_break": "zone_order",
+  "revision": {
+    "previous_layout": "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/video_pipeline/yolo11s_newport_val_120s_v1_2026-09-23/input/zones.json",
+    "previous_layout_sha256": "2de2e9e7b37846683499a3433d4fb3226ec5705c17c14d3c1726fef2e78b33f4",
+    "changed_zone": "junction_center",
+    "unchanged_zones": [
+      "road_left",
+      "road_top",
+      "road_right"
+    ],
+    "shared_internal_polylines": {
+      "road_left": [
+        [
+          375,
+          214
+        ],
+        [
+          335,
+          266
+        ],
+        [
+          270,
+          358
+        ],
+        [
+          203,
+          463
+        ],
+        [
+          177,
+          482
+        ]
+      ],
+      "road_top": [
+        [
+          533,
+          139
+        ],
+        [
+          592,
+          126
+        ],
+        [
+          673,
+          110
+        ],
+        [
+          748,
+          94
+        ]
+      ],
+      "road_right": [
+        [
+          783,
+          108
+        ],
+        [
+          842,
+          137
+        ],
+        [
+          871,
+          168
+        ],
+        [
+          903,
+          205
+        ]
+      ]
+    },
+    "old_center_polygon_points": [
+      [
+        407,
+        207
+      ],
+      [
+        528,
+        150
+      ],
+      [
+        752,
+        112
+      ],
+      [
+        882,
+        263
+      ],
+      [
+        878,
+        273
+      ],
+      [
+        240,
+        526
+      ],
+      [
+        220,
+        498
+      ],
+      [
+        282,
+        376
+      ],
+      [
+        348,
+        276
+      ]
+    ],
+    "detector_or_tracker_changes": false,
+    "human_ground_truth_created": false
+  }
+}

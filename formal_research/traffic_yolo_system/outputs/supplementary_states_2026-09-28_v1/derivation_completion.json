@@ -1,0 +1,22 @@
+{
+  "completed": true,
+  "created_at": "2026-09-28T11:23:58.272106+00:00",
+  "version": "supplementary-source-relative-states-v1",
+  "elapsed_s": 0.3690519999945536,
+  "sources": 5,
+  "region_windows": 6342,
+  "inputs_unchanged": true,
+  "cached_count_motion_reused": true,
+  "full_frame_logs_reread": false,
+  "video_read": false,
+  "new_inference": false,
+  "main_test_images_labels_read": false,
+  "unity_modified": false,
+  "numerical_method_unchanged": true,
+  "conservative_evidence_display_added": true,
+  "transfer_experiment_performed": false,
+  "script_sha256": "f388f6a15e5d9bc308ffca9a7ae19258bedf8f63a9af8ca2496f30f51fd1d4f6",
+  "frozen_engine_sha256": "1ca1c8f7eb024e99b78e96cb72c2adbd545ba61635c950f7d70fdf0da5062390",
+  "initial_script_sha256": "b92691b45a5ad4d656b108d89cbe458b2f675becc5c6d4777d64f58506d887fc",
+  "example_selection_revision": "Renamed unknown example to evidence-insufficient-with-positive-count; count-only unknown examples may occur later in a continuing high-count run. Numerical states and thresholds unchanged."
+}

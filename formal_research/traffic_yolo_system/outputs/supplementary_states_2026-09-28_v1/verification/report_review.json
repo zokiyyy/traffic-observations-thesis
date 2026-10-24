@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "overview_rows": 5,
+  "threshold_and_hint_summary_rows": 22,
+  "example_rows": 24,
+  "reported_aggregate_totals_checked": true,
+  "first_joint_confirmation_and_condition_intervals_checked": true,
+  "SE38th_exact_held_intervals_checked": true,
+  "unknown_vs_frozen_state_and_no_cross_source_claim_reviewed": true,
+  "findings": [],
+  "report_sha256": "c2efb6d9e3ca3a8ce3d3c5db6f2a6674abb41d21630a0a135ff4918934410070",
+  "script_sha256": "506c544cc50957c36bf72c8b50639865fb8eabddfe8a9c44ea72d70edfc69090"
+}

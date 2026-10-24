@@ -1,0 +1,62 @@
+{
+  "parameters": {
+    "window_seconds": 10,
+    "motion_history_min_seconds": 1.0,
+    "motion_history_max_seconds": 1.2,
+    "motion_min_coverage": 0.5,
+    "motion_min_vehicle_seconds": 5.0,
+    "density_quantiles": [
+      0.33,
+      0.67
+    ],
+    "motion_low_quantile": 0.25,
+    "motion_min_calibration_windows": 30,
+    "persistent_seconds": 30.0,
+    "quantile_method": "linear interpolation at (n-1)*q",
+    "weighted_median_method": "smallest ordered value whose cumulative duration reaches half the total",
+    "calibration_scope": "same-source offline development; not held-out evaluation or road capacity",
+    "motion_history_reset": "missing observation, different assigned zone, invalid frame or nonconsecutive frame index",
+    "motion_unit": "source-image pixels per second; not km/h"
+  },
+  "zones": {
+    "road_left": {
+      "density_low_upper": 1.249679355555545,
+      "density_high_lower": 2.2220317000000094,
+      "motion_low_upper": 0.5943304497029738,
+      "density_calibration_windows": 360,
+      "motion_calibration_windows": 287
+    },
+    "road_top": {
+      "density_low_upper": 4.161960644444586,
+      "density_high_lower": 6.256275955555574,
+      "motion_low_upper": 3.5603719650633625,
+      "density_calibration_windows": 360,
+      "motion_calibration_windows": 356
+    },
+    "road_right": {
+      "density_low_upper": 2.549655222222158,
+      "density_high_lower": 4.498805666666638,
+      "motion_low_upper": 1.0728215918106878,
+      "density_calibration_windows": 360,
+      "motion_calibration_windows": 336
+    },
+    "junction_center": {
+      "density_low_upper": 1.0651303222222146,
+      "density_high_lower": 1.6602895666666933,
+      "motion_low_upper": 85.27310812279478,
+      "density_calibration_windows": 360,
+      "motion_calibration_windows": 217
+    }
+  },
+  "notes": [
+    "Offline 10-second summaries use all observations within each window; they are not instantaneous or causal real-time decisions.",
+    "Count levels compare the same road region within this hour only; actual road density and capacity are not calibrated.",
+    "Image motion uses bottom-center displacement over about one second of continuously observed tracks, measured in pixels/second, not km/h.",
+    "Relatively low image motion means at or below the 25th percentile of valid motion windows in this region and hour; it does not mean stopped or nearly stationary. Pixels/second cannot be compared directly across regions.",
+    "Persistent high count and relatively low image motion may include normal signal waiting; this is not a congestion conclusion validated against ground truth.",
+    "Track fragmentation, box jitter, occlusion and perspective affect these proxies. Insufficient evidence remains unknown and is not replaced by zero.",
+    "Thresholds are calibrated for development on this same Validation hour; no new manual annotations or Main Test data are used.",
+    "The final window shorter than 10 seconds retains count data but is not classified, used for calibration, or included in persistence durations.",
+    "No persistent signal does not imply free flow; no observed vehicles does not prove that the road is empty."
+  ]
+}

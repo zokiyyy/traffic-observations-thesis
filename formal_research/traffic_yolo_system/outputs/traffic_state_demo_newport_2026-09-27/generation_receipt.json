@@ -1,0 +1,145 @@
+{
+  "status": "completed",
+  "created_at_utc": "2026-09-27T06:01:00.599599+00:00",
+  "source_id": "Bellevue_150th_Newport__2017-09-11_08-08-31.mp4",
+  "split": "Validation",
+  "source_video_sha256": "969af533145e1a1afaa8fb4afa754205c338171760ff02b97e2aef4f04094c93",
+  "input_paths": {
+    "frames": "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/newport_full_v5_2026-09-24/downloaded_server_results/full_runs/Bellevue_150th_Newport__2017-09-11_08-08-31.mp4/f979f0ea2ee5e16055e8b16108f71f776745083cace40096860d5f33684e8827/attempt-000001/frames.jsonl",
+    "windows": "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/newport_full_v5_2026-09-24/downloaded_server_results/full_runs/Bellevue_150th_Newport__2017-09-11_08-08-31.mp4/f979f0ea2ee5e16055e8b16108f71f776745083cace40096860d5f33684e8827/attempt-000001/windows.jsonl",
+    "summary": "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/newport_full_v5_2026-09-24/downloaded_server_results/full_runs/Bellevue_150th_Newport__2017-09-11_08-08-31.mp4/f979f0ea2ee5e16055e8b16108f71f776745083cace40096860d5f33684e8827/attempt-000001/run_summary.json",
+    "completion": "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/newport_full_v5_2026-09-24/downloaded_server_results/full_runs/Bellevue_150th_Newport__2017-09-11_08-08-31.mp4/f979f0ea2ee5e16055e8b16108f71f776745083cace40096860d5f33684e8827/attempt-000001/completion.json",
+    "provenance": "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/newport_full_v5_2026-09-24/downloaded_server_results/full_runs/Bellevue_150th_Newport__2017-09-11_08-08-31.mp4/f979f0ea2ee5e16055e8b16108f71f776745083cace40096860d5f33684e8827/attempt-000001/provenance.json",
+    "roi": "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/newport_full_v5_2026-09-24/downloaded_server_results/config/roi.json",
+    "render_receipt": "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/newport_full_v5_2026-09-24/downloaded_server_results/presentation/render_receipt.json",
+    "local_delivery": "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/newport_full_v5_2026-09-24/local_delivery_completion.json",
+    "video": "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/newport_full_v5_2026-09-24/presentation/complete_validation_v5.mp4",
+    "implementation": "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/src/traffic_state_demo.py",
+    "software_tests": "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/tests/test_traffic_state_demo.py"
+  },
+  "input_stats_before": {
+    "frames": {
+      "size_bytes": 1423751611,
+      "mtime_ns": 1790334483402682852
+    },
+    "windows": {
+      "size_bytes": 2293370,
+      "mtime_ns": 1790334483577912204
+    },
+    "summary": {
+      "size_bytes": 4544,
+      "mtime_ns": 1790334483409959812
+    },
+    "completion": {
+      "size_bytes": 19536,
+      "mtime_ns": 1790334481130324962
+    },
+    "provenance": {
+      "size_bytes": 38748,
+      "mtime_ns": 1790334483409124506
+    },
+    "roi": {
+      "size_bytes": 9310,
+      "mtime_ns": 1790245001564124584
+    },
+    "render_receipt": {
+      "size_bytes": 1435,
+      "mtime_ns": 1790280622240291118
+    },
+    "local_delivery": {
+      "size_bytes": 3230,
+      "mtime_ns": 1790425963083618044
+    },
+    "video": {
+      "size_bytes": 1431780108,
+      "mtime_ns": 1790425947547529608
+    },
+    "implementation": {
+      "size_bytes": 34997,
+      "mtime_ns": 1790488800052121785
+    },
+    "software_tests": {
+      "size_bytes": 9281,
+      "mtime_ns": 1790487462798623099
+    }
+  },
+  "input_stats_after": {
+    "frames": {
+      "size_bytes": 1423751611,
+      "mtime_ns": 1790334483402682852
+    },
+    "windows": {
+      "size_bytes": 2293370,
+      "mtime_ns": 1790334483577912204
+    },
+    "summary": {
+      "size_bytes": 4544,
+      "mtime_ns": 1790334483409959812
+    },
+    "completion": {
+      "size_bytes": 19536,
+      "mtime_ns": 1790334481130324962
+    },
+    "provenance": {
+      "size_bytes": 38748,
+      "mtime_ns": 1790334483409124506
+    },
+    "roi": {
+      "size_bytes": 9310,
+      "mtime_ns": 1790245001564124584
+    },
+    "render_receipt": {
+      "size_bytes": 1435,
+      "mtime_ns": 1790280622240291118
+    },
+    "local_delivery": {
+      "size_bytes": 3230,
+      "mtime_ns": 1790425963083618044
+    },
+    "video": {
+      "size_bytes": 1431780108,
+      "mtime_ns": 1790425947547529608
+    },
+    "implementation": {
+      "size_bytes": 34997,
+      "mtime_ns": 1790488800052121785
+    },
+    "software_tests": {
+      "size_bytes": 9281,
+      "mtime_ns": 1790487462798623099
+    }
+  },
+  "all_input_stats_unchanged": true,
+  "verified_hashes": {
+    "frames_stream_sha256": "158a0dc853b00a14edea483a8e001805cf64d98546822f65ab6fd6eb8038479e",
+    "render_records_sha256": "158a0dc853b00a14edea483a8e001805cf64d98546822f65ab6fd6eb8038479e",
+    "roi_sha256": "8c3ea8b4206497e0e155aeff851093290952a83fa0c0ada70edeacf83376669a",
+    "windows_sha256": "59c03f59fc8c2da81fa28ba564ec884d041802397d69d8d0d0edae805e9add2f",
+    "run_summary_sha256": "74e2bfd5d1056ab1298d1997966fae4188520ff92147572c8abc9a4a00b0c742",
+    "completion_sha256": "41e6323d749d2a0b183020a42ee3b8b03ca2f4308a2bddf79b7ca5fa72f86811",
+    "provenance_sha256": "853577c447e4e551f03050032d26430e5e43334833e21d5b08a6a73a4f8923ef",
+    "render_receipt_sha256": "f1303fbe75cb11ef58fede8f2fecf70240bb46366f80ea0867993286a5cdee3d",
+    "delivery_receipt_sha256": "ca5ab5f5f47ab338f4bff8af5e0f2f6b189a4283f688d77b633862ad43ce9e93",
+    "video_sha256_from_verified_delivery": "ed38390a0b2c3f55146755b2f80767bcde33685f9a6f91b502b9422ee446acab"
+  },
+  "output_sha256": "63e22138694531226fc4cd2fc31be104ab8a806f3bfc65c29f786dcc424ccd41",
+  "unity_json_path": "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_unity_demo/Assets/StreamingAssets/traffic_demo.json",
+  "unity_json_sha256": "63e22138694531226fc4cd2fc31be104ab8a806f3bfc65c29f786dcc424ccd41",
+  "frame_count": 107932,
+  "window_count": 361,
+  "zone_window_count": 1444,
+  "state_counts": {
+    "no_persistent_signal": 1020,
+    "motion_insufficient": 230,
+    "high_count_persistent": 155,
+    "high_count_low_motion_persistent": 23,
+    "no_observed_vehicles": 12,
+    "insufficient_window": 4
+  },
+  "elapsed_seconds": 12.247865249984898,
+  "peak_history_points": 969,
+  "peak_process_rss_bytes": 50675712,
+  "main_test_read": false,
+  "new_inference": false,
+  "original_outputs_modified": false
+}

@@ -1,0 +1,8 @@
+{
+  "schema_version": 1,
+  "cameras": {
+    "Bellevue_116th_NE12th": {
+      "config_path": "camera.json"
+    }
+  }
+}

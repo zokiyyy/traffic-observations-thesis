@@ -1,0 +1,9 @@
+path: /Users/zoki/Desktop/traffic_projects/formal_research/05_full_dataset/formal_yolo_trainval_v1
+train: images/train
+val: images/val
+
+names:
+  0: car
+  1: motorcycle
+  2: bus
+  3: truck

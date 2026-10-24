@@ -1,0 +1,23 @@
+{
+  "completed": true,
+  "version": "five-intersection-relative-state-v1",
+  "at": "2026-09-27T21:34:55.538052+00:00",
+  "elapsed_seconds": 66.56475604104344,
+  "cameras": [
+    "Newport",
+    "NE12th",
+    "Eastgate",
+    "SE38th",
+    "NE8th"
+  ],
+  "all_inputs_unchanged": true,
+  "new_yolo": false,
+  "main_test_read": false,
+  "unity_modified": false,
+  "video_exported": false,
+  "implementation_sha256": {
+    "test_states.py": "5d4cb7ff39c76077326773b0b2796e89e527386c8752d2e9511a18047318c326",
+    "engine.py": "1ca1c8f7eb024e99b78e96cb72c2adbd545ba61635c950f7d70fdf0da5062390",
+    "derive_states.py": "adb4ff5c01043bcee4f80c95c62f60a56857d9f23d2e5e84c6cb45c582b54ae6"
+  }
+}

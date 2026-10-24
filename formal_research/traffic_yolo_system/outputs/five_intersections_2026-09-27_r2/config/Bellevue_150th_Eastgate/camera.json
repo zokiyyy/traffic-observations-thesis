@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "camera_id": "Bellevue_150th_Eastgate",
+  "source_ids": [
+    "Bellevue_150th_Eastgate__2017-09-11_17-08-33.mp4"
+  ],
+  "roi_version": "bellevue_150th_eastgate-visible-roads-v1-20260927",
+  "layout_path": "roi.json",
+  "allowed_source_intervals_seconds": [
+    [
+      0,
+      3599.991
+    ]
+  ],
+  "applicability_basis": "AI inspected sparse original frames and conservative polygons, recorded source-specific geometry screening and limitations. Full native timing audit required before inference.",
+  "applicability_evidence": [
+    {
+      "path": "applicability.json",
+      "sha256": "9c917cb7fa91d68088f788fc287c5dc48d0970de14852923b0c6f36e77f19f7c"
+    },
+    {
+      "path": "source_timing_evidence.json",
+      "sha256": "ddb39b95830fd3cd0cede8f09ba153219a36cac889d81d61a379d6a8656b5100"
+    }
+  ],
+  "status": "source_bound_cross_camera_development_trial",
+  "background_filter": {
+    "mode": "none",
+    "reason": "No source-specific background false-positive evidence is established; Newport wall polygon and 1280 confirmation rule are not transferred."
+  }
+}

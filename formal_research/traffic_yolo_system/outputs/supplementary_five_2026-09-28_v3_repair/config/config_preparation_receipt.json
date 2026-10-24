@@ -1,0 +1,125 @@
+{
+  "schema_version": "supplementary-config-preparation-v1",
+  "selection_sha256": "5c12b09365207677efca4814ef5cddd1414cc4cd71946038b067dbaf0eb441ce",
+  "source_split_manifest_sha256": "8e1b8806f5a1f2f8280b71169d45ba5837bc710db26f0550610124fcc4f1f3cd",
+  "entries": [
+    {
+      "camera_id": "Bellevue_150th_Newport",
+      "source_id": "Bellevue_150th_Newport__2017-09-10_18-08-24.mp4",
+      "split": "Validation",
+      "source_sha256": "5d7eff08712d5750a018b4fa82be85754d47c777a07754d54b3d54cb2dd3c587",
+      "full_config": "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/supplementary_five_2026-09-28_v3_repair/config/Bellevue_150th_Newport/full_remote.json",
+      "full_config_sha256": "65c38c317b57bf34d802eb4c0188100b8456c23452a6fb889171b46b0f7ee329",
+      "roi_sha256": "3b3585da967732f4c45dfb014cf6aa26e92c5d1c996091ab231ef3e0b90467c7",
+      "camera_sha256": "f86e2ff4fbde34e49e5e11e9bba7502336bb5d238ce75d6cd2934897369644b6",
+      "applicability_sha256": "11ac01d69b525551689617e2099e4a0099ee1ee1caeb915af1f7bddfcf425e90",
+      "max_frame_duration_seconds": 0.11,
+      "geometry_and_assignment_unchanged": true,
+      "model_detector_tracker_aggregation_containment_parameters_unchanged": true,
+      "background_mode": "live_second_resolution",
+      "structure_dryrun": "passed_without_source_or_model_open",
+      "camera_layout_identity": {
+        "camera_id": "Bellevue_150th_Newport",
+        "reference_source_id": "Bellevue_150th_Newport__2017-09-10_18-08-24.mp4",
+        "basis": "explicit_camera_id_and_frozen_reference",
+        "reference_media_opened": false
+      }
+    },
+    {
+      "camera_id": "Bellevue_116th_NE12th",
+      "source_id": "Bellevue_116th_NE12th__2017-09-11_07-08-32.mp4",
+      "split": "Train",
+      "source_sha256": "4dde510ff91c2ec58e1cd06e27cbd923d8976c0156905a4625097653415eca4e",
+      "full_config": "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/supplementary_five_2026-09-28_v3_repair/config/Bellevue_116th_NE12th/full_remote.json",
+      "full_config_sha256": "8baeb759ee2e481c859dd0f68e531dbeab7007f00e61da37262c48f8579ef496",
+      "roi_sha256": "f7e46b1e0c90b152f83306b37fe3de60cd8cd96610bcfba29af1ea5c9529eedd",
+      "camera_sha256": "04a0503d402830b63d015583cbdf5d926ccf521dd11a81799a2ab7c415d75da1",
+      "applicability_sha256": "b397ce1a96ced1dcf1864da9437b0ba9e44c38cebd499bcdb614c2109df3e67c",
+      "max_frame_duration_seconds": 17.0,
+      "geometry_and_assignment_unchanged": true,
+      "model_detector_tracker_aggregation_containment_parameters_unchanged": true,
+      "background_mode": "none",
+      "structure_dryrun": "passed_without_source_or_model_open",
+      "camera_layout_identity": {
+        "camera_id": "Bellevue_116th_NE12th",
+        "reference_source_id": "Bellevue_116th_NE12th__2017-09-11_07-08-32.mp4",
+        "basis": "explicit_camera_id_and_frozen_reference",
+        "reference_media_opened": false
+      }
+    },
+    {
+      "camera_id": "Bellevue_150th_Eastgate",
+      "source_id": "Bellevue_150th_Eastgate__2017-09-11_06-08-30.mp4",
+      "split": "Validation",
+      "source_sha256": "5c101e5e3cb6f64e2304f9666337b9b3e3f46330ce5300c474c73f6a94dd6647",
+      "full_config": "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/supplementary_five_2026-09-28_v3_repair/config/Bellevue_150th_Eastgate/full_remote.json",
+      "full_config_sha256": "69dbb35a65132cb8495073632c868d156e4b00448e53bd863214060319fa3caa",
+      "roi_sha256": "9ff53089c1c15d7df150e575f6921405e06f25a390801224d9682ca2145c80b9",
+      "camera_sha256": "3d9adb8c0d60605cf401771a1d8f5a1c5b96ce6ee3205822e17f4ca86596d316",
+      "applicability_sha256": "cb5077dd9d29915e2d422467774e799a28c64f6038f5edb80a656dc8d41cf037",
+      "max_frame_duration_seconds": 0.2,
+      "geometry_and_assignment_unchanged": true,
+      "model_detector_tracker_aggregation_containment_parameters_unchanged": true,
+      "background_mode": "none",
+      "structure_dryrun": "passed_without_source_or_model_open",
+      "camera_layout_identity": {
+        "camera_id": "Bellevue_150th_Eastgate",
+        "reference_source_id": "Bellevue_150th_Eastgate__2017-09-11_06-08-30.mp4",
+        "basis": "explicit_camera_id_and_frozen_reference",
+        "reference_media_opened": false
+      }
+    },
+    {
+      "camera_id": "Bellevue_150th_SE38th",
+      "source_id": "Bellevue_150th_SE38th__2017-09-10_19-08-25.mp4",
+      "split": "Validation",
+      "source_sha256": "e0e4d9d1e69c2f8b2ef356bdfb99c0e37baafb96db0645952bab4bc7b40e09c4",
+      "full_config": "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/supplementary_five_2026-09-28_v3_repair/config/Bellevue_150th_SE38th/full_remote.json",
+      "full_config_sha256": "c281a6e40ba34fac8f9bf3b0e54f1e1a89321603723194188b78c7bfa9fc46c2",
+      "roi_sha256": "5af1f249174f67a239496ca095a8c10617e8fabe5d7b92df42ed7ef3f5f28c27",
+      "camera_sha256": "c4555d5ddc9b5b5c4f5e78ec4340594ebc4239ec71ab5a1d64fd5225f5e63570",
+      "applicability_sha256": "46ff6ece51d554ff7987651855dc0066abc4565ec1ae57026d888d56135eaf60",
+      "max_frame_duration_seconds": 30.0,
+      "geometry_and_assignment_unchanged": true,
+      "model_detector_tracker_aggregation_containment_parameters_unchanged": true,
+      "background_mode": "none",
+      "structure_dryrun": "passed_without_source_or_model_open",
+      "camera_layout_identity": {
+        "camera_id": "Bellevue_150th_SE38th",
+        "reference_source_id": "Bellevue_150th_SE38th__2017-09-10_19-08-25.mp4",
+        "basis": "explicit_camera_id_and_frozen_reference",
+        "reference_media_opened": false
+      }
+    },
+    {
+      "camera_id": "Bellevue_Bellevue_NE8th",
+      "source_id": "Bellevue_Bellevue_NE8th__2017-09-11_02-08-29.mp4",
+      "split": "Validation",
+      "source_sha256": "f4492d61971979f21f7f09a5a90b0ed458ea7c4a9dd6fbe1ae30831c951fa5fb",
+      "full_config": "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/supplementary_five_2026-09-28_v3_repair/config/Bellevue_Bellevue_NE8th/full_remote.json",
+      "full_config_sha256": "f4409110819a76fa954680801c970fb6124d5f668349982eda4fe109cbc46999",
+      "roi_sha256": "32a664036d57f9fc42511f20ae00e5e903278fa1a674fe875c5ec74df5f53614",
+      "camera_sha256": "26af4d74288efe0d30a1164074c35b7d770e70afe8816a551438a1a19ac068df",
+      "applicability_sha256": "405e9ebcc1df85d77326fd77559216e2dcee0420b24e71664a53477a7e7ec5e0",
+      "max_frame_duration_seconds": 0.11,
+      "geometry_and_assignment_unchanged": true,
+      "model_detector_tracker_aggregation_containment_parameters_unchanged": true,
+      "background_mode": "none",
+      "structure_dryrun": "passed_without_source_or_model_open",
+      "camera_layout_identity": {
+        "camera_id": "Bellevue_Bellevue_NE8th",
+        "reference_source_id": "Bellevue_Bellevue_NE8th__2017-09-11_02-08-29.mp4",
+        "basis": "explicit_camera_id_and_frozen_reference",
+        "reference_media_opened": false
+      }
+    }
+  ],
+  "dryrun_import_root": "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/supplementary_five_2026-09-28_v2_repair/code/src",
+  "model_inference_performed": false,
+  "remote_native_audit_required": true,
+  "short_original_interval_seconds": [
+    60,
+    120
+  ],
+  "shared_source_or_existing_config_modified": false
+}

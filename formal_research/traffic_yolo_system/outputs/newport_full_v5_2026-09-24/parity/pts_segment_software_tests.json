@@ -1,0 +1,19 @@
+{
+  "command": "/Users/zoki/anaconda3/envs/traffic-yolo/bin/python -m unittest discover -s formal_research/traffic_yolo_system/tests/full_video -p test_pts*.py -v",
+  "result": "PASS",
+  "tests_run": 38,
+  "new_exact_segment_tests": 11,
+  "existing_pts_tests": 27,
+  "coverage": [
+    "exact native frame boundary selection",
+    "original irregular PTS and per-frame duration preservation",
+    "unchanged full-input provenance",
+    "sequential decode prefix semantics",
+    "unused sidecar tail validated",
+    "malformed/tampered boundary rejection",
+    "Main Test blocked before media reads"
+  ],
+  "source_sha256": "1b80549b6edf3059276c54d9a91ebbd330a46ad39753c749b3730679b63f1539",
+  "new_test_sha256": "beed88127476ac6b763a775b1d1a7fb60814817d373efc87e1272f179d9bc43b",
+  "not_real_inference_evidence": true
+}

@@ -1,0 +1,43 @@
+{
+  "duration_s": 3600.0026666666668,
+  "frames": 107974,
+  "zones": 4,
+  "windows": 361,
+  "eligible_windows": 360,
+  "held_windows": 0,
+  "held_intervals": 0,
+  "held_duration_s": 0,
+  "combined_mean_count": 32.20967727060944,
+  "state_counts": {
+    "no_persistent_signal": 1172,
+    "motion_insufficient": 58,
+    "high_count_persistent": 182,
+    "high_count_low_motion_persistent": 28,
+    "insufficient_window": 4
+  },
+  "showcases": [
+    {
+      "zone": "road_left",
+      "kind": "joint",
+      "start_s": 2030.0,
+      "end_s": 2100.0,
+      "duration_s": 70.0,
+      "confirmation_available_at_s": 2060.0
+    },
+    {
+      "zone": "road_left",
+      "kind": "high",
+      "start_s": 2010.0,
+      "end_s": 2140.0,
+      "duration_s": 130.0,
+      "confirmation_available_at_s": 2040.0
+    },
+    {
+      "kind": "count_peak",
+      "start_s": 2600.0,
+      "end_s": 2610.0,
+      "combined_mean_count": 50.994815555555626
+    }
+  ],
+  "derivation_seconds": 23.131406500004232
+}

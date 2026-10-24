@@ -1,0 +1,219 @@
+[
+  {
+    "case": "Newport",
+    "source_id": "Bellevue_150th_Newport__2017-09-10_18-08-24.mp4",
+    "split": "Validation",
+    "duration_s": 3600.030622222222,
+    "zone_id": "road_left",
+    "count_p33": 0.22980052222222366,
+    "count_p67": 0.9748842777777668,
+    "count_thresholds_distinguishable": true,
+    "motion_p25_px_s": 0.40250832866293135,
+    "count_calibration_windows": 360,
+    "motion_calibration_windows": 150,
+    "all_windows": 361,
+    "temporal_eligible_windows": 360,
+    "motion_available_windows": 150,
+    "high_count_hint_windows": 43,
+    "joint_hint_windows": 6,
+    "high_count_hint_events": 25,
+    "joint_hint_events": 3,
+    "high_count_hints_with_unknown_evidence": 1,
+    "evidence_unknown_windows": 211,
+    "evidence_unknown_s": 2100.030622222222,
+    "evidence_unknown_fraction": 0.5833368775418688,
+    "evidence_state_windows": {
+      "unknown": 211,
+      "no_persistent_hint": 108,
+      "high_count_hint": 36,
+      "joint_hint": 6
+    },
+    "evidence_state_seconds": {
+      "unknown": 2100.030622222222,
+      "no_persistent_hint": 1080.0,
+      "high_count_hint": 360.0,
+      "joint_hint": 60.0
+    },
+    "unknown_reason_seconds_nonexclusive": {
+      "motion_observation_insufficient": 2100.030622222222,
+      "incomplete_tail": 0.03062222222206401
+    },
+    "raw_count_level_windows": {
+      "empty": 73,
+      "low": 46,
+      "high": 119,
+      "medium": 122,
+      "unknown": 1
+    },
+    "frozen_rule_hint_windows": {
+      "no_observed_vehicles": 73,
+      "motion_insufficient": 136,
+      "no_persistent_signal": 108,
+      "high_count_persistent": 37,
+      "high_count_low_motion_persistent": 6,
+      "insufficient_window": 1
+    }
+  },
+  {
+    "case": "Newport",
+    "source_id": "Bellevue_150th_Newport__2017-09-10_18-08-24.mp4",
+    "split": "Validation",
+    "duration_s": 3600.030622222222,
+    "zone_id": "road_top",
+    "count_p33": 2.0175359666666632,
+    "count_p67": 3.82238003333333,
+    "count_thresholds_distinguishable": true,
+    "motion_p25_px_s": 4.058084172604334,
+    "count_calibration_windows": 360,
+    "motion_calibration_windows": 325,
+    "all_windows": 361,
+    "temporal_eligible_windows": 360,
+    "motion_available_windows": 325,
+    "high_count_hint_windows": 40,
+    "joint_hint_windows": 6,
+    "high_count_hint_events": 25,
+    "joint_hint_events": 5,
+    "high_count_hints_with_unknown_evidence": 0,
+    "evidence_unknown_windows": 36,
+    "evidence_unknown_s": 350.03062222222206,
+    "evidence_unknown_fraction": 0.09722990134071571,
+    "evidence_state_windows": {
+      "no_persistent_hint": 285,
+      "high_count_hint": 34,
+      "unknown": 36,
+      "joint_hint": 6
+    },
+    "evidence_state_seconds": {
+      "no_persistent_hint": 2850.0,
+      "high_count_hint": 340.0,
+      "unknown": 350.03062222222206,
+      "joint_hint": 60.0
+    },
+    "unknown_reason_seconds_nonexclusive": {
+      "motion_observation_insufficient": 350.03062222222206,
+      "incomplete_tail": 0.03062222222206401
+    },
+    "raw_count_level_windows": {
+      "high": 119,
+      "medium": 122,
+      "low": 117,
+      "empty": 2,
+      "unknown": 1
+    },
+    "frozen_rule_hint_windows": {
+      "no_persistent_signal": 285,
+      "high_count_persistent": 34,
+      "motion_insufficient": 33,
+      "high_count_low_motion_persistent": 6,
+      "no_observed_vehicles": 2,
+      "insufficient_window": 1
+    }
+  },
+  {
+    "case": "Newport",
+    "source_id": "Bellevue_150th_Newport__2017-09-10_18-08-24.mp4",
+    "split": "Validation",
+    "duration_s": 3600.030622222222,
+    "zone_id": "road_right",
+    "count_p33": 0.42803496666666385,
+    "count_p67": 1.1912648444444067,
+    "count_thresholds_distinguishable": true,
+    "motion_p25_px_s": 1.823994604134805,
+    "count_calibration_windows": 360,
+    "motion_calibration_windows": 173,
+    "all_windows": 361,
+    "temporal_eligible_windows": 360,
+    "motion_available_windows": 173,
+    "high_count_hint_windows": 44,
+    "joint_hint_windows": 9,
+    "high_count_hint_events": 15,
+    "joint_hint_events": 4,
+    "high_count_hints_with_unknown_evidence": 0,
+    "evidence_unknown_windows": 188,
+    "evidence_unknown_s": 1870.030622222222,
+    "evidence_unknown_fraction": 0.5194485320982887,
+    "evidence_state_windows": {
+      "unknown": 188,
+      "no_persistent_hint": 129,
+      "high_count_hint": 35,
+      "joint_hint": 9
+    },
+    "evidence_state_seconds": {
+      "unknown": 1870.030622222222,
+      "no_persistent_hint": 1290.0,
+      "high_count_hint": 350.0,
+      "joint_hint": 90.0
+    },
+    "unknown_reason_seconds_nonexclusive": {
+      "motion_observation_insufficient": 1870.030622222222,
+      "incomplete_tail": 0.03062222222206401
+    },
+    "raw_count_level_windows": {
+      "empty": 46,
+      "high": 119,
+      "medium": 122,
+      "low": 73,
+      "unknown": 1
+    },
+    "frozen_rule_hint_windows": {
+      "no_observed_vehicles": 46,
+      "no_persistent_signal": 129,
+      "motion_insufficient": 141,
+      "high_count_persistent": 35,
+      "high_count_low_motion_persistent": 9,
+      "insufficient_window": 1
+    }
+  },
+  {
+    "case": "Newport",
+    "source_id": "Bellevue_150th_Newport__2017-09-10_18-08-24.mp4",
+    "split": "Validation",
+    "duration_s": 3600.030622222222,
+    "zone_id": "junction_center",
+    "count_p33": 0.5090058222222396,
+    "count_p67": 0.998165500000016,
+    "count_thresholds_distinguishable": true,
+    "motion_p25_px_s": 79.28410104075418,
+    "count_calibration_windows": 360,
+    "motion_calibration_windows": 137,
+    "all_windows": 361,
+    "temporal_eligible_windows": 360,
+    "motion_available_windows": 137,
+    "high_count_hint_windows": 13,
+    "joint_hint_windows": 0,
+    "high_count_hint_events": 9,
+    "joint_hint_events": 0,
+    "high_count_hints_with_unknown_evidence": 4,
+    "evidence_unknown_windows": 224,
+    "evidence_unknown_s": 2230.030622222222,
+    "evidence_unknown_fraction": 0.6194476814882401,
+    "evidence_state_windows": {
+      "no_persistent_hint": 128,
+      "unknown": 224,
+      "high_count_hint": 9
+    },
+    "evidence_state_seconds": {
+      "no_persistent_hint": 1280.0,
+      "unknown": 2230.030622222222,
+      "high_count_hint": 90.0
+    },
+    "unknown_reason_seconds_nonexclusive": {
+      "motion_observation_insufficient": 2230.030622222222,
+      "incomplete_tail": 0.03062222222206401
+    },
+    "raw_count_level_windows": {
+      "high": 119,
+      "medium": 122,
+      "low": 107,
+      "empty": 12,
+      "unknown": 1
+    },
+    "frozen_rule_hint_windows": {
+      "no_persistent_signal": 128,
+      "high_count_persistent": 13,
+      "motion_insufficient": 207,
+      "no_observed_vehicles": 12,
+      "insufficient_window": 1
+    }
+  }
+]

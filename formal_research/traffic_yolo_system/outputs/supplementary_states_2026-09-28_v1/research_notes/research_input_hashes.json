@@ -1,0 +1,107 @@
+{
+  "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/five_intersection_states_2026-09-28_v1/final_state_verification.json": {
+    "sha256": "78fbaaf15588c42a9b3d3a8d0b17423141883b1a37d844169f5f5dc42a38e447",
+    "bytes": 8029,
+    "expected_sha256": null
+  },
+  "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/five_intersection_states_2026-09-28_v1/五路口交通状态分析总报告.md": {
+    "sha256": "eec87f2bfb44edcead60b7bc329d5b016296f26df0e639c55617f2b7f9eb56fd",
+    "bytes": 8207,
+    "expected_sha256": "eec87f2bfb44edcead60b7bc329d5b016296f26df0e639c55617f2b7f9eb56fd"
+  },
+  "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/five_intersection_states_2026-09-28_v1/code/engine.py": {
+    "sha256": "1ca1c8f7eb024e99b78e96cb72c2adbd545ba61635c950f7d70fdf0da5062390",
+    "bytes": 18778,
+    "expected_sha256": "1ca1c8f7eb024e99b78e96cb72c2adbd545ba61635c950f7d70fdf0da5062390"
+  },
+  "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/five_intersection_states_2026-09-28_v1/code/derive_states.py": {
+    "sha256": "adb4ff5c01043bcee4f80c95c62f60a56857d9f23d2e5e84c6cb45c582b54ae6",
+    "bytes": 14001,
+    "expected_sha256": "adb4ff5c01043bcee4f80c95c62f60a56857d9f23d2e5e84c6cb45c582b54ae6"
+  },
+  "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/paired_case_comparison_2026-09-28_v1/final_verification.json": {
+    "sha256": "da45516b65ebde76c098a47c1939f02d45e21619d2bcce2cc4b82e50ed0ce6f1",
+    "bytes": 404265,
+    "expected_sha256": null
+  },
+  "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/paired_case_comparison_2026-09-28_v1/五路口原案例与补充时段独立对比总报告.md": {
+    "sha256": "587cc65e19e1cc733be6ffa79ea0b681e4445d16aa04502851eaebdbd610e099",
+    "bytes": 37222,
+    "expected_sha256": "587cc65e19e1cc733be6ffa79ea0b681e4445d16aa04502851eaebdbd610e099"
+  },
+  "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/paired_case_comparison_2026-09-28_v1/motion/verification.json": {
+    "sha256": "ba605ecaa10985741555aeb9a4dd8ba8c15546c3c85516a360007fa26ef43523",
+    "bytes": 3696,
+    "expected_sha256": "ba605ecaa10985741555aeb9a4dd8ba8c15546c3c85516a360007fa26ef43523"
+  },
+  "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/paired_case_comparison_2026-09-28_v1/motion/independent_verification.json": {
+    "sha256": "c17c33d27c4363a00b76a7069c6e3f20599de39b718783dd16d169654d46502b",
+    "bytes": 2606,
+    "expected_sha256": "c17c33d27c4363a00b76a7069c6e3f20599de39b718783dd16d169654d46502b"
+  },
+  "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/persistence_sensitivity_2026-09-28/持续时间门槛敏感性分析.md": {
+    "sha256": "74057c0c3246882d5dc45698a45f6e99c1a2ab51812d1f4664a328c10204bbb5",
+    "bytes": 4059,
+    "expected_sha256": null
+  },
+  "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/persistence_sensitivity_2026-09-28/results.json": {
+    "sha256": "ed9608dbb639034e28b0274517b2ca8b7d9c3c1b423369c1c4f0d2a73a01d30a",
+    "bytes": 31439,
+    "expected_sha256": null
+  },
+  "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/five_intersection_states_2026-09-28_v1/Newport/states_10s.json": {
+    "sha256": "a38834445fe880039db607c793889363ec625d03be80f82d16f6b69ddcd56ca9",
+    "bytes": 1435569,
+    "expected_sha256": "a38834445fe880039db607c793889363ec625d03be80f82d16f6b69ddcd56ca9"
+  },
+  "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/five_intersection_states_2026-09-28_v1/NE12th/states_10s.json": {
+    "sha256": "21781c7d1f7e0d0ef92ec8548aa21cb1144bc98761975f38c41c887539570189",
+    "bytes": 1949333,
+    "expected_sha256": "21781c7d1f7e0d0ef92ec8548aa21cb1144bc98761975f38c41c887539570189"
+  },
+  "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/five_intersection_states_2026-09-28_v1/Eastgate/states_10s.json": {
+    "sha256": "8c96ff63abbc128272b55bb95db172afc81672cda8836d13ad4a0918305044e8",
+    "bytes": 1753979,
+    "expected_sha256": "8c96ff63abbc128272b55bb95db172afc81672cda8836d13ad4a0918305044e8"
+  },
+  "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/five_intersection_states_2026-09-28_v1/SE38th/states_10s.json": {
+    "sha256": "24845f7991342e6e871d0df7745ee253fe449eeb029efd8967ca16e511a93df0",
+    "bytes": 1436182,
+    "expected_sha256": "24845f7991342e6e871d0df7745ee253fe449eeb029efd8967ca16e511a93df0"
+  },
+  "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/five_intersection_states_2026-09-28_v1/NE8th/states_10s.json": {
+    "sha256": "3c80788fe7e643c4489f2cfe3ae8ce1958275d1f3bdf2b5c51fe9fc3698ef46d",
+    "bytes": 1419019,
+    "expected_sha256": "3c80788fe7e643c4489f2cfe3ae8ce1958275d1f3bdf2b5c51fe9fc3698ef46d"
+  },
+  "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/paired_case_comparison_2026-09-28_v1/motion/Supplementary/Newport/motion_10s.json": {
+    "sha256": "1cd788b0fd2f77c03dc5c06b023c350821828a5fe5d39b35a10f51c70a5eb070",
+    "bytes": 858081,
+    "expected_sha256": "1cd788b0fd2f77c03dc5c06b023c350821828a5fe5d39b35a10f51c70a5eb070"
+  },
+  "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/paired_case_comparison_2026-09-28_v1/motion/Supplementary/NE12th/motion_10s.json": {
+    "sha256": "94bfa0490c242bf834026c00490c9e30b64cf038cb2483d0c0c2994a4dcdde1b",
+    "bytes": 124115,
+    "expected_sha256": "94bfa0490c242bf834026c00490c9e30b64cf038cb2483d0c0c2994a4dcdde1b"
+  },
+  "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/paired_case_comparison_2026-09-28_v1/motion/Supplementary/Eastgate/motion_10s.json": {
+    "sha256": "be542b6e63e466313e0bf34a5a236a9b38c6a76c9ecc0808aa89dc41d1bc87c6",
+    "bytes": 1065491,
+    "expected_sha256": "be542b6e63e466313e0bf34a5a236a9b38c6a76c9ecc0808aa89dc41d1bc87c6"
+  },
+  "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/paired_case_comparison_2026-09-28_v1/motion/Supplementary/SE38th/motion_10s.json": {
+    "sha256": "c3f8767b46a960ba0143827fae8f00a163e06090f6c85311d8a189c736accddf",
+    "bytes": 847039,
+    "expected_sha256": "c3f8767b46a960ba0143827fae8f00a163e06090f6c85311d8a189c736accddf"
+  },
+  "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/paired_case_comparison_2026-09-28_v1/motion/Supplementary/NE8th/motion_10s.json": {
+    "sha256": "c2c9a0492110b8e7068afb98bd97aa03e4259378124d04fe77fc37305f76609d",
+    "bytes": 914581,
+    "expected_sha256": "c2c9a0492110b8e7068afb98bd97aa03e4259378124d04fe77fc37305f76609d"
+  },
+  "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/supplementary_states_2026-09-28_v1/research_notes/probe_calibration.py": {
+    "sha256": "325f71239015a487bc2536af1817c1b34b0ca127abf5d9243ebd03d679413c6f",
+    "bytes": 6033,
+    "expected_sha256": null
+  }
+}

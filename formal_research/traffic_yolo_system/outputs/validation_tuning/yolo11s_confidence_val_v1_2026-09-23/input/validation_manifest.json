@@ -1,0 +1,3560 @@
+{
+  "split": "Validation",
+  "scope": "All 197 Validation images only; no Main Test images or labels read.",
+  "expected_gt_counts": {
+    "car": 1621,
+    "motorcycle": 8,
+    "bus": 22,
+    "truck": 85
+  },
+  "model_sha256": "07e2280eda613c5d633196729f8716e9715000430171f49f6341afe573a2f334",
+  "source_manifest_sha256": "1bed24655a6fcc29fbf8430dbaa123a597e5a7a6ac009a5a3d783e0eb436dc08",
+  "images": [
+    {
+      "filename": "Bellevue_116th_NE12th__2017-09-10_21-08-54__validation__slot_01__p_0.050000__t_154.637033.jpg",
+      "annotation_id": "F0023",
+      "split": "Validation",
+      "source_video": "Bellevue_116th_NE12th__2017-09-10_21-08-54.mp4",
+      "intersection": "Bellevue_116th_NE12th",
+      "lighting": "Night",
+      "traffic_level": "Low",
+      "frame_qa_status": "QA_ACCEPTED",
+      "image_sha256": "05bbcbbfd4d49049e0b0671cf85f4c8cb9920d1e7a34aa668ab9d94effaf5e2a",
+      "label_sha256": "d01a2f027ee7a4938eee3473a842682f85ddbb5528d5310477a0b7ea8dae544b",
+      "gt_counts": {
+        "car": 2,
+        "motorcycle": 0,
+        "bus": 0,
+        "truck": 0
+      }
+    },
+    {
+      "filename": "Bellevue_116th_NE12th__2017-09-10_21-08-54__validation__slot_02__p_0.131818__t_406.376433.jpg",
+      "annotation_id": "F0024",
+      "split": "Validation",
+      "source_video": "Bellevue_116th_NE12th__2017-09-10_21-08-54.mp4",
+      "intersection": "Bellevue_116th_NE12th",
+      "lighting": "Night",
+      "traffic_level": "Low",
+      "frame_qa_status": "QA_ACCEPTED",
+      "image_sha256": "d19e79c77c1b64a4d85bc24fe097951ac688c58d93136ea6737917a8835618dc",
+      "label_sha256": "9b7dcf1379f587b47611c36379f27c0e5870eb171a2ab1416a1b90ebb0be2d1c",
+      "gt_counts": {
+        "car": 1,
+        "motorcycle": 0,
+        "bus": 0,
+        "truck": 0
+      }
+    },
+    {
+      "filename": "Bellevue_116th_NE12th__2017-09-10_21-08-54__validation__slot_03__p_0.213636__t_659.182500.jpg",
+      "annotation_id": "F0025",
+      "split": "Validation",
+      "source_video": "Bellevue_116th_NE12th__2017-09-10_21-08-54.mp4",
+      "intersection": "Bellevue_116th_NE12th",
+      "lighting": "Night",
+      "traffic_level": "Low",
+      "frame_qa_status": "QA_ACCEPTED",
+      "image_sha256": "563de187a4e0dda85e8994561038e2e3b24462bce9cc4d60dba846eebb81c248",
+      "label_sha256": "16d3cf3ff760db2fd84ef93d40d54c6be89bd9a1f9e6933acb95d2ee1029834c",
+      "gt_counts": {
+        "car": 1,
+        "motorcycle": 0,
+        "bus": 0,
+        "truck": 0
+      }
+    },
+    {
+      "filename": "Bellevue_116th_NE12th__2017-09-10_21-08-54__validation__slot_04__p_0.295455__t_910.921889.jpg",
+      "annotation_id": "F0026",
+      "split": "Validation",
+      "source_video": "Bellevue_116th_NE12th__2017-09-10_21-08-54.mp4",
+      "intersection": "Bellevue_116th_NE12th",
+      "lighting": "Night",
+      "traffic_level": "Low",
+      "frame_qa_status": "QA_ACCEPTED",
+      "image_sha256": "5e1619ce7ddd9f8652f856d3149a9f7881b6d10916233ff6af1ea9564265c033",
+      "label_sha256": "c15a68437d0036cbd55d77c2f27ad25f75ffb8fe9d553dd020da8f341be60116",
+      "gt_counts": {
+        "car": 1,
+        "motorcycle": 0,
+        "bus": 0,
+        "truck": 0
+      }
+    },
+    {
+      "filename": "Bellevue_116th_NE12th__2017-09-10_21-08-54__validation__slot_05__p_0.377273__t_1163.727956.jpg",
+      "annotation_id": "F0027",
+      "split": "Validation",
+      "source_video": "Bellevue_116th_NE12th__2017-09-10_21-08-54.mp4",
+      "intersection": "Bellevue_116th_NE12th",
+      "lighting": "Night",
+      "traffic_level": "Low",
+      "frame_qa_status": "QA_ACCEPTED",
+      "image_sha256": "ee2c55a2c61309b5e5cc15778731d2867361cc437447135c170434b8efa89ce4",
+      "label_sha256": "61a265b1289d2595128bc6e4f7a3bd5096cc76de5c84d16310d108d9ceca66a2",
+      "gt_counts": {
+        "car": 1,
+        "motorcycle": 0,
+        "bus": 0,
+        "truck": 0
+      }
+    },
+    {
+      "filename": "Bellevue_116th_NE12th__2017-09-10_21-08-54__validation__slot_06__p_0.459091__t_1415.734022.jpg",
+      "annotation_id": "F0028",
+      "split": "Validation",
+      "source_video": "Bellevue_116th_NE12th__2017-09-10_21-08-54.mp4",
+      "intersection": "Bellevue_116th_NE12th",
+      "lighting": "Night",
+      "traffic_level": "Low",
+      "frame_qa_status": "QA_ACCEPTED",
+      "image_sha256": "f716dfd3f934013960b6b5cb57704decc06bccc42b24e724fda8dab54fc6eb7c",
+      "label_sha256": "f0b7724c6fdde3c9abbab983fda57f56ac7258e5efd92ee2d9b8157f07057940",
+      "gt_counts": {
+        "car": 1,
+        "motorcycle": 0,
+        "bus": 0,
+        "truck": 0
+      }
+    },
+    {
+      "filename": "Bellevue_116th_NE12th__2017-09-10_21-08-54__validation__slot_07__p_0.540909__t_1668.006744.jpg",
+      "annotation_id": "F0029",
+      "split": "Validation",
+      "source_video": "Bellevue_116th_NE12th__2017-09-10_21-08-54.mp4",
+      "intersection": "Bellevue_116th_NE12th",
+      "lighting": "Night",
+      "traffic_level": "Low",
+      "frame_qa_status": "QA_ACCEPTED",
+      "image_sha256": "a1442458971d1c2e3e4488b4dbe98537a536d9057fe72293a8628a581d30de2c",
+      "label_sha256": "4c4b52dcb9b35f18d75d93ecc0a082955c5e43d8e7736296436f18e3d164c29e",
+      "gt_counts": {
+        "car": 2,
+        "motorcycle": 0,
+        "bus": 0,
+        "truck": 0
+      }
+    },
+    {
+      "filename": "Bellevue_116th_NE12th__2017-09-10_21-08-54__validation__slot_08__p_0.622727__t_1920.146156.jpg",
+      "annotation_id": "F0030",
+      "split": "Validation",
+      "source_video": "Bellevue_116th_NE12th__2017-09-10_21-08-54.mp4",
+      "intersection": "Bellevue_116th_NE12th",
+      "lighting": "Night",
+      "traffic_level": "Low",
+      "frame_qa_status": "QA_ACCEPTED",
+      "image_sha256": "f64edc1769ed49cee0694eac3953cd41dbe79ed6def1ac6e76bc0caeab754f5f",
+      "label_sha256": "17e451e46b09e2f2d55be20f81d195ce23c3966e0e025de5c979524971bf4ebd",
+      "gt_counts": {
+        "car": 3,
+        "motorcycle": 0,
+        "bus": 0,
+        "truck": 0
+      }
+    },
+    {
+      "filename": "Bellevue_116th_NE12th__2017-09-10_21-08-54__validation__slot_09__p_0.704545__t_2172.650222.jpg",
+      "annotation_id": "F0031",
+      "split": "Validation",
+      "source_video": "Bellevue_116th_NE12th__2017-09-10_21-08-54.mp4",
+      "intersection": "Bellevue_116th_NE12th",
+      "lighting": "Night",
+      "traffic_level": "Low",
+      "frame_qa_status": "QA_ACCEPTED",
+      "image_sha256": "201f90ede11185f2f78fe24c27299cd69b62866506239ffb7c08c389d666da23",
+      "label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "gt_counts": {
+        "car": 0,
+        "motorcycle": 0,
+        "bus": 0,
+        "truck": 0
+      }
+    },
+    {
+      "filename": "Bellevue_116th_NE12th__2017-09-10_21-08-54__validation__slot_10__p_0.786364__t_2425.456311.jpg",
+      "annotation_id": "F0032",
+      "split": "Validation",
+      "source_video": "Bellevue_116th_NE12th__2017-09-10_21-08-54.mp4",
+      "intersection": "Bellevue_116th_NE12th",
+      "lighting": "Night",
+      "traffic_level": "Low",
+      "frame_qa_status": "QA_ACCEPTED",
+      "image_sha256": "331e66e9d609efec155e699d062c72290b1ddfec6543f7252ba05089ea771966",
+      "label_sha256": "a22862fe387f4779a00ae25b66fb5cb3b89982dd6bac9e38bea1f8dffeab3700",
+      "gt_counts": {
+        "car": 2,
+        "motorcycle": 0,
+        "bus": 0,
+        "truck": 0
+      }
+    },
+    {
+      "filename": "Bellevue_116th_NE12th__2017-09-10_21-08-54__validation__slot_11__p_0.868182__t_2677.195678.jpg",
+      "annotation_id": "F0033",
+      "split": "Validation",
+      "source_video": "Bellevue_116th_NE12th__2017-09-10_21-08-54.mp4",
+      "intersection": "Bellevue_116th_NE12th",
+      "lighting": "Night",
+      "traffic_level": "Low",
+      "frame_qa_status": "QA_ACCEPTED",
+      "image_sha256": "cee6d3defbf779fcecadea364eadd3aea5e32ea3f3ce8b2d96fbe78b45728c27",
+      "label_sha256": "b71d1b62ffbf8123efaaea58aeea44ac9e05df3967ed832759772a63dc2a3bda",
+      "gt_counts": {
+        "car": 1,
+        "motorcycle": 0,
+        "bus": 0,
+        "truck": 0
+      }
+    },
+    {
+      "filename": "Bellevue_116th_NE12th__2017-09-10_21-08-54__validation__slot_12__p_0.950000__t_2924.901656.jpg",
+      "annotation_id": "F0034",
+      "split": "Validation",
+      "source_video": "Bellevue_116th_NE12th__2017-09-10_21-08-54.mp4",
+      "intersection": "Bellevue_116th_NE12th",
+      "lighting": "Night",
+      "traffic_level": "Low",
+      "frame_qa_status": "QA_ACCEPTED_WITH_TIMESTAMP_LIMITATION",
+      "image_sha256": "9fbcce6ebabb15025ebc99d25b20ecf6e51ecef101a4f828e4f4c8f4cb1f2512",
+      "label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "gt_counts": {
+        "car": 0,
+        "motorcycle": 0,
+        "bus": 0,
+        "truck": 0
+      }
+    },
+    {
+      "filename": "Bellevue_116th_NE12th__2017-09-10_23-08-29__validation__slot_01__p_0.050000__t_180.155867.jpg",
+      "annotation_id": "F0043",
+      "split": "Validation",
+      "source_video": "Bellevue_116th_NE12th__2017-09-10_23-08-29.mp4",
+      "intersection": "Bellevue_116th_NE12th",
+      "lighting": "Night",
+      "traffic_level": "Low",
+      "frame_qa_status": "QA_ACCEPTED",
+      "image_sha256": "ece756d13730048e8a3b8edf55d563bbdfbd5554191f12b7c9de539d11d80e6b",
+      "label_sha256": "0ab3feb0e6900e32709d8aeec7180507f2e68cbe785f6e0fdf293f2360f00bb2",
+      "gt_counts": {
+        "car": 1,
+        "motorcycle": 0,
+        "bus": 0,
+        "truck": 0
+      }
+    },
+    {
+      "filename": "Bellevue_116th_NE12th__2017-09-10_23-08-29__validation__slot_02__p_0.131818__t_474.629600.jpg",
+      "annotation_id": "F0044",
+      "split": "Validation",
+      "source_video": "Bellevue_116th_NE12th__2017-09-10_23-08-29.mp4",
+      "intersection": "Bellevue_116th_NE12th",
+      "lighting": "Night",
+      "traffic_level": "Low",
+      "frame_qa_status": "QA_ACCEPTED",
+      "image_sha256": "1b0ce384d3236658886b91038ac650153917e829572d8a97bb3a7b8ef999c88b",
+      "label_sha256": "5dd6360352765fbe7cb021f3ad4af4acf7e7fa61e7b83ab714d60ac5bbd6b51e",
+      "gt_counts": {
+        "car": 1,
+        "motorcycle": 0,
+        "bus": 0,
+        "truck": 0
+      }
+    },
+    {
+      "filename": "Bellevue_116th_NE12th__2017-09-10_23-08-29__validation__slot_03__p_0.213636__t_769.036700.jpg",
+      "annotation_id": "F0045",
+      "split": "Validation",
+      "source_video": "Bellevue_116th_NE12th__2017-09-10_23-08-29.mp4",
+      "intersection": "Bellevue_116th_NE12th",
+      "lighting": "Night",
+      "traffic_level": "Low",
+      "frame_qa_status": "QA_ACCEPTED",
+      "image_sha256": "ba55550962d816aac6e6392e599fba7e134e293bf49df5eee025df086f822d9d",
+      "label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "gt_counts": {
+        "car": 0,
+        "motorcycle": 0,
+        "bus": 0,
+        "truck": 0
+      }
+    },
+    {
+      "filename": "Bellevue_116th_NE12th__2017-09-10_23-08-29__validation__slot_04__p_0.295455__t_1063.505156.jpg",
+      "annotation_id": "F0046",
+      "split": "Validation",
+      "source_video": "Bellevue_116th_NE12th__2017-09-10_23-08-29.mp4",
+      "intersection": "Bellevue_116th_NE12th",
+      "lighting": "Night",
+      "traffic_level": "Low",
+      "frame_qa_status": "QA_ACCEPTED",
+      "image_sha256": "564d529ae878652e4bbe2cd1d6a5a7c2c7fab5a17d07755eaeb1303e7f6edfc0",
+      "label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "gt_counts": {
+        "car": 0,
+        "motorcycle": 0,
+        "bus": 0,
+        "truck": 0
+      }
+    },
+    {
+      "filename": "Bellevue_116th_NE12th__2017-09-10_23-08-29__validation__slot_05__p_0.377273__t_1357.901956.jpg",
+      "annotation_id": "F0047",
+      "split": "Validation",
+      "source_video": "Bellevue_116th_NE12th__2017-09-10_23-08-29.mp4",
+      "intersection": "Bellevue_116th_NE12th",
+      "lighting": "Night",
+      "traffic_level": "Low",
+      "frame_qa_status": "QA_ACCEPTED",
+      "image_sha256": "7adec8b223e53d08566f029673e0a82924c851156d0979745540264a5ae1ec9b",
+      "label_sha256": "cf814a912aaa2b79a096b8d43cc61cc364f7702adcfc1989b87acf5d68407333",
+      "gt_counts": {
+        "car": 1,
+        "motorcycle": 0,
+        "bus": 0,
+        "truck": 0
+      }
+    },
+    {
+      "filename": "Bellevue_116th_NE12th__2017-09-10_23-08-29__validation__slot_06__p_0.459091__t_1652.609056.jpg",
+      "annotation_id": "F0048",
+      "split": "Validation",
+      "source_video": "Bellevue_116th_NE12th__2017-09-10_23-08-29.mp4",
+      "intersection": "Bellevue_116th_NE12th",
+      "lighting": "Night",
+      "traffic_level": "Low",
+      "frame_qa_status": "QA_ACCEPTED",
+      "image_sha256": "38b4e5b939000084ebc64fc8315ab9b5484e9603830a4d10c7de46cfa6cbe24b",
+      "label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "gt_counts": {
+        "car": 0,
+        "motorcycle": 0,
+        "bus": 0,
+        "truck": 0
+      }
+    },
+    {
+      "filename": "Bellevue_116th_NE12th__2017-09-10_23-08-29__validation__slot_07__p_0.540909__t_1947.016178.jpg",
+      "annotation_id": "F0049",
+      "split": "Validation",
+      "source_video": "Bellevue_116th_NE12th__2017-09-10_23-08-29.mp4",
+      "intersection": "Bellevue_116th_NE12th",
+      "lighting": "Night",
+      "traffic_level": "Low",
+      "frame_qa_status": "QA_ACCEPTED",
+      "image_sha256": "46591671258cbbba80c92b682fb2dd0a7fe744d2e3037fe09c84e27b3b035840",
+      "label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "gt_counts": {
+        "car": 0,
+        "motorcycle": 0,
+        "bus": 0,
+        "truck": 0
+      }
+    },
+    {
+      "filename": "Bellevue_116th_NE12th__2017-09-10_23-08-29__validation__slot_08__p_0.622727__t_2241.423278.jpg",
+      "annotation_id": "F0050",
+      "split": "Validation",
+      "source_video": "Bellevue_116th_NE12th__2017-09-10_23-08-29.mp4",
+      "intersection": "Bellevue_116th_NE12th",
+      "lighting": "Night",
+      "traffic_level": "Low",
+      "frame_qa_status": "QA_ACCEPTED",
+      "image_sha256": "1d056a819cc9b74492c7d5629755c3244bb8bc3de5d1739d5e5bd4915993bdcd",
+      "label_sha256": "c46580f6bbc018d8e90ad1f6f5367fca3177ec50338fc3f9814e198c9b7862e3",
+      "gt_counts": {
+        "car": 0,
+        "motorcycle": 0,
+        "bus": 0,
+        "truck": 1
+      }
+    },
+    {
+      "filename": "Bellevue_116th_NE12th__2017-09-10_23-08-29__validation__slot_09__p_0.704545__t_2536.330411.jpg",
+      "annotation_id": "F0051",
+      "split": "Validation",
+      "source_video": "Bellevue_116th_NE12th__2017-09-10_23-08-29.mp4",
+      "intersection": "Bellevue_116th_NE12th",
+      "lighting": "Night",
+      "traffic_level": "Low",
+      "frame_qa_status": "QA_ACCEPTED",
+      "image_sha256": "0f2aa334ddc2f6135c7df548bb5cdc3bc4f545b70838686d14617e29b46f4146",
+      "label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "gt_counts": {
+        "car": 0,
+        "motorcycle": 0,
+        "bus": 0,
+        "truck": 0
+      }
+    },
+    {
+      "filename": "Bellevue_116th_NE12th__2017-09-10_23-08-29__validation__slot_10__p_0.786364__t_2831.291111.jpg",
+      "annotation_id": "F0052",
+      "split": "Validation",
+      "source_video": "Bellevue_116th_NE12th__2017-09-10_23-08-29.mp4",
+      "intersection": "Bellevue_116th_NE12th",
+      "lighting": "Night",
+      "traffic_level": "Low",
+      "frame_qa_status": "QA_ACCEPTED",
+      "image_sha256": "268095e95421101649779aa6a142749c86cc1fdb21f0480efda84e3fff51b4e3",
+      "label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "gt_counts": {
+        "car": 0,
+        "motorcycle": 0,
+        "bus": 0,
+        "truck": 0
+      }
+    },
+    {
+      "filename": "Bellevue_116th_NE12th__2017-09-10_23-08-29__validation__slot_11__p_0.868182__t_3125.698256.jpg",
+      "annotation_id": "F0053",
+      "split": "Validation",
+      "source_video": "Bellevue_116th_NE12th__2017-09-10_23-08-29.mp4",
+      "intersection": "Bellevue_116th_NE12th",
+      "lighting": "Night",
+      "traffic_level": "Low",
+      "frame_qa_status": "QA_ACCEPTED",
+      "image_sha256": "cabf7126734011e15478010d83a7b5baf028276bbc9d7868ebe50d5827d0a0a2",
+      "label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "gt_counts": {
+        "car": 0,
+        "motorcycle": 0,
+        "bus": 0,
+        "truck": 0
+      }
+    },
+    {
+      "filename": "Bellevue_116th_NE12th__2017-09-10_23-08-29__validation__slot_12__p_0.950000__t_3420.105389.jpg",
+      "annotation_id": "F0054",
+      "split": "Validation",
+      "source_video": "Bellevue_116th_NE12th__2017-09-10_23-08-29.mp4",
+      "intersection": "Bellevue_116th_NE12th",
+      "lighting": "Night",
+      "traffic_level": "Low",
+      "frame_qa_status": "QA_ACCEPTED",
+      "image_sha256": "0dcb5d327f0ce8e65f4ca92e3632fc55a2d226193503ccd208ecedee10e6a890",
+      "label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "gt_counts": {
+        "car": 0,
+        "motorcycle": 0,
+        "bus": 0,
+        "truck": 0
+      }
+    },
+    {
+      "filename": "Bellevue_116th_NE12th__2017-09-11_02-08-32__validation__slot_01__p_0.050000__t_180.237778.jpg",
+      "annotation_id": "F0077",
+      "split": "Validation",
+      "source_video": "Bellevue_116th_NE12th__2017-09-11_02-08-32.mp4",
+      "intersection": "Bellevue_116th_NE12th",
+      "lighting": "Night",
+      "traffic_level": "Low",
+      "frame_qa_status": "QA_ACCEPTED",
+      "image_sha256": "c864f9b2c075cfeb151792e9c69bafdc38b7abe519dc9e58cbf4fbf9e523ec7e",
+      "label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "gt_counts": {
+        "car": 0,
+        "motorcycle": 0,
+        "bus": 0,
+        "truck": 0
+      }
+    },
+    {
+      "filename": "Bellevue_116th_NE12th__2017-09-11_02-08-32__validation__slot_02__p_0.131818__t_474.678322.jpg",
+      "annotation_id": "F0078",
+      "split": "Validation",
+      "source_video": "Bellevue_116th_NE12th__2017-09-11_02-08-32.mp4",
+      "intersection": "Bellevue_116th_NE12th",
+      "lighting": "Night",
+      "traffic_level": "Low",
+      "frame_qa_status": "QA_ACCEPTED",
+      "image_sha256": "8f20970d001a4d2b387c6651877d375b80f500e38fe9978883a4b11a129961bc",
+      "label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "gt_counts": {
+        "car": 0,
+        "motorcycle": 0,
+        "bus": 0,
+        "truck": 0
+      }
+    },
+    {
+      "filename": "Bellevue_116th_NE12th__2017-09-11_02-08-32__validation__slot_03__p_0.213636__t_769.318867.jpg",
+      "annotation_id": "F0079",
+      "split": "Validation",
+      "source_video": "Bellevue_116th_NE12th__2017-09-11_02-08-32.mp4",
+      "intersection": "Bellevue_116th_NE12th",
+      "lighting": "Night",
+      "traffic_level": "Low",
+      "frame_qa_status": "QA_ACCEPTED",
+      "image_sha256": "1c742e7d834fdc885d48ce9b018146c8682aa583c7b85aa02ad8aef6472303af",
+      "label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "gt_counts": {
+        "car": 0,
+        "motorcycle": 0,
+        "bus": 0,
+        "truck": 0
+      }
+    },
+    {
+      "filename": "Bellevue_116th_NE12th__2017-09-11_02-08-32__validation__slot_04__p_0.295455__t_1064.092767.jpg",
+      "annotation_id": "F0080",
+      "split": "Validation",
+      "source_video": "Bellevue_116th_NE12th__2017-09-11_02-08-32.mp4",
+      "intersection": "Bellevue_116th_NE12th",
+      "lighting": "Night",
+      "traffic_level": "Low",
+      "frame_qa_status": "QA_ACCEPTED",
+      "image_sha256": "b5db1d875ae387c34648004e4f549af73c40962dda599547145f1d23d6f8602e",
+      "label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "gt_counts": {
+        "car": 0,
+        "motorcycle": 0,
+        "bus": 0,
+        "truck": 0
+      }
+    },
+    {
+      "filename": "Bellevue_116th_NE12th__2017-09-11_02-08-32__validation__slot_05__p_0.377273__t_1358.452589.jpg",
+      "annotation_id": "F0081",
+      "split": "Validation",
+      "source_video": "Bellevue_116th_NE12th__2017-09-11_02-08-32.mp4",
+      "intersection": "Bellevue_116th_NE12th",
+      "lighting": "Night",
+      "traffic_level": "Low",
+      "frame_qa_status": "QA_ACCEPTED",
+      "image_sha256": "4a6bd50a81d951199512ee859b84359718dc08bf44aa5486dfe3cd02b05c8ba1",
+      "label_sha256": "4072692c38a6e5e7ded24e84fc46a15a46326dff276020b90e6f47d7e49fe858",
+      "gt_counts": {
+        "car": 1,
+        "motorcycle": 0,
+        "bus": 0,
+        "truck": 0
+      }
+    },
+    {
+      "filename": "Bellevue_116th_NE12th__2017-09-11_02-08-32__validation__slot_06__p_0.459091__t_1652.726456.jpg",
+      "annotation_id": "F0082",
+      "split": "Validation",
+      "source_video": "Bellevue_116th_NE12th__2017-09-11_02-08-32.mp4",
+      "intersection": "Bellevue_116th_NE12th",
+      "lighting": "Night",
+      "traffic_level": "Low",
+      "frame_qa_status": "QA_ACCEPTED",
+      "image_sha256": "2c07a7d9560687ddc149e1b3021d04d9f9aa36d43124290b583ac19cc535b50a",
+      "label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "gt_counts": {
+        "car": 0,
+        "motorcycle": 0,
+        "bus": 0,
+        "truck": 0
+      }
+    },
+    {
+      "filename": "Bellevue_116th_NE12th__2017-09-11_02-08-32__validation__slot_07__p_0.540909__t_1947.000322.jpg",
+      "annotation_id": "F0083",
+      "split": "Validation",
+      "source_video": "Bellevue_116th_NE12th__2017-09-11_02-08-32.mp4",
+      "intersection": "Bellevue_116th_NE12th",
+      "lighting": "Night",
+      "traffic_level": "Low",
+      "frame_qa_status": "QA_ACCEPTED",
+      "image_sha256": "09fa23fad9ca23ce149d77fa9d48209c771030c42f4bea17b65a8bbab72a929a",
+      "label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "gt_counts": {
+        "car": 0,
+        "motorcycle": 0,
+        "bus": 0,
+        "truck": 0
+      }
+    },
+    {
+      "filename": "Bellevue_116th_NE12th__2017-09-11_02-08-32__validation__slot_08__p_0.622727__t_2241.407533.jpg",
+      "annotation_id": "F0084",
+      "split": "Validation",
+      "source_video": "Bellevue_116th_NE12th__2017-09-11_02-08-32.mp4",
+      "intersection": "Bellevue_116th_NE12th",
+      "lighting": "Night",
+      "traffic_level": "Low",
+      "frame_qa_status": "QA_ACCEPTED",
+      "image_sha256": "392e0e3d7b0934f033802b21b916a9bc4ea7845f5bfe5d1e4851b531443d402d",
+      "label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "gt_counts": {
+        "car": 0,
+        "motorcycle": 0,
+        "bus": 0,
+        "truck": 0
+      }
+    },
+    {
+      "filename": "Bellevue_116th_NE12th__2017-09-11_02-08-32__validation__slot_09__p_0.704545__t_2535.848089.jpg",
+      "annotation_id": "F0085",
+      "split": "Validation",
+      "source_video": "Bellevue_116th_NE12th__2017-09-11_02-08-32.mp4",
+      "intersection": "Bellevue_116th_NE12th",
+      "lighting": "Night",
+      "traffic_level": "Low",
+      "frame_qa_status": "QA_ACCEPTED",
+      "image_sha256": "e0a22e8f1be1a1ce7cb3f364daa672d588d4a2bda678fac41f248d634aba4840",
+      "label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "gt_counts": {
+        "car": 0,
+        "motorcycle": 0,
+        "bus": 0,
+        "truck": 0
+      }
+    },
+    {
+      "filename": "Bellevue_116th_NE12th__2017-09-11_02-08-32__validation__slot_10__p_0.786364__t_2831.321989.jpg",
+      "annotation_id": "F0086",
+      "split": "Validation",
+      "source_video": "Bellevue_116th_NE12th__2017-09-11_02-08-32.mp4",
+      "intersection": "Bellevue_116th_NE12th",
+      "lighting": "Night",
+      "traffic_level": "Low",
+      "frame_qa_status": "QA_ACCEPTED",
+      "image_sha256": "1565a7f7af40c279444a09bff3dedfe97841b3aa9b0011435eebfbafdc265ef8",
+      "label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "gt_counts": {
+        "car": 0,
+        "motorcycle": 0,
+        "bus": 0,
+        "truck": 0
+      }
+    },
+    {
+      "filename": "Bellevue_116th_NE12th__2017-09-11_02-08-32__validation__slot_11__p_0.868182__t_3125.195844.jpg",
+      "annotation_id": "F0087",
+      "split": "Validation",
+      "source_video": "Bellevue_116th_NE12th__2017-09-11_02-08-32.mp4",
+      "intersection": "Bellevue_116th_NE12th",
+      "lighting": "Night",
+      "traffic_level": "Low",
+      "frame_qa_status": "QA_ACCEPTED",
+      "image_sha256": "cc91d720c5cb84dc3d1f4aca5b5aa6dfdf3b9c2157357c288df4b3b00550e42c",
+      "label_sha256": "f05b60bcacb099ad4a9c7746e4b4800db9b839440f30037908da3e52c873d3b5",
+      "gt_counts": {
+        "car": 1,
+        "motorcycle": 0,
+        "bus": 0,
+        "truck": 0
+      }
+    },
+    {
+      "filename": "Bellevue_116th_NE12th__2017-09-11_02-08-32__validation__slot_12__p_0.950000__t_3419.603078.jpg",
+      "annotation_id": "F0088",
+      "split": "Validation",
+      "source_video": "Bellevue_116th_NE12th__2017-09-11_02-08-32.mp4",
+      "intersection": "Bellevue_116th_NE12th",
+      "lighting": "Night",
+      "traffic_level": "Low",
+      "frame_qa_status": "QA_ACCEPTED",
+      "image_sha256": "839557fd7b67d3a54ab98b3b9a9a0a253d73297a2dab9574bf2b96b76dbb8b74",
+      "label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "gt_counts": {
+        "car": 0,
+        "motorcycle": 0,
+        "bus": 0,
+        "truck": 0
+      }
+    },
+    {
+      "filename": "Bellevue_116th_NE12th__2017-09-11_15-08-36__validation__slot_01__p_0.050000__t_4.233444.jpg",
+      "annotation_id": "F0178",
+      "split": "Validation",
+      "source_video": "Bellevue_116th_NE12th__2017-09-11_15-08-36.mp4",
+      "intersection": "Bellevue_116th_NE12th",
+      "lighting": "Day",
+      "traffic_level": "Medium",
+      "frame_qa_status": "QA_ACCEPTED",
+      "image_sha256": "83b3f20042df20657b219dd20ac86e27223f8d5719effe576b53aa8d52fefd62",
+      "label_sha256": "00fe4c4ab6f9db6186c8feeab4a1e155bba8196df8583c961992690fe47d4ba9",
+      "gt_counts": {
+        "car": 27,
+        "motorcycle": 1,
+        "bus": 0,
+        "truck": 1
+      }
+    },
+    {
+      "filename": "Bellevue_116th_NE12th__2017-09-11_15-08-36__validation__slot_02__p_0.275000__t_22.367178.jpg",
+      "annotation_id": "F0179",
+      "split": "Validation",
+      "source_video": "Bellevue_116th_NE12th__2017-09-11_15-08-36.mp4",
+      "intersection": "Bellevue_116th_NE12th",
+      "lighting": "Day",
+      "traffic_level": "Medium",
+      "frame_qa_status": "QA_ACCEPTED",
+      "image_sha256": "27312da7a4b66f765d5b8df3684459d821f8c1342e89b98d1d709f38c36814e7",
+      "label_sha256": "591c572f8db513b4c48701f92082ba58ee0574107cfbec19efff6df4611cb6b7",
+      "gt_counts": {
+        "car": 24,
+        "motorcycle": 1,
+        "bus": 0,
+        "truck": 0
+      }
+    },
+    {
+      "filename": "Bellevue_116th_NE12th__2017-09-11_15-08-36__validation__slot_03__p_0.500000__t_41.000944.jpg",
+      "annotation_id": "F0180",
+      "split": "Validation",
+      "source_video": "Bellevue_116th_NE12th__2017-09-11_15-08-36.mp4",
+      "intersection": "Bellevue_116th_NE12th",
+      "lighting": "Day",
+      "traffic_level": "Medium",
+      "frame_qa_status": "QA_ACCEPTED",
+      "image_sha256": "b7b05d8d668f48b15438cdfe8dd3d7c787806ec3f652747222b21ddde806ac4f",
+      "label_sha256": "add4f733587cd6abd597d29cbe50a85ffc97c917a7bc64517c51676bd8f63bbe",
+      "gt_counts": {
+        "car": 20,
+        "motorcycle": 1,
+        "bus": 1,
+        "truck": 1
+      }
+    },
+    {
+      "filename": "Bellevue_116th_NE12th__2017-09-11_15-08-36__validation__slot_04__p_0.725000__t_59.701356.jpg",
+      "annotation_id": "F0181",
+      "split": "Validation",
+      "source_video": "Bellevue_116th_NE12th__2017-09-11_15-08-36.mp4",
+      "intersection": "Bellevue_116th_NE12th",
+      "lighting": "Day",
+      "traffic_level": "Medium",
+      "frame_qa_status": "QA_ACCEPTED",
+      "image_sha256": "5289cb2269c8e819fc80bf945c50ba8b0d0275f3a6362bd0c81bf44b7b857cc2",
+      "label_sha256": "140efdacb7c724bf2512b0834d4540619b864b399cfc0aa9f5e6ab556b1f52bf",
+      "gt_counts": {
+        "car": 17,
+        "motorcycle": 1,
+        "bus": 1,
+        "truck": 1
+      }
+    },
+    {
+      "filename": "Bellevue_116th_NE12th__2017-09-11_15-08-36__validation__slot_05__p_0.950000__t_77.835111.jpg",
+      "annotation_id": "F0182",
+      "split": "Validation",
+      "source_video": "Bellevue_116th_NE12th__2017-09-11_15-08-36.mp4",
+      "intersection": "Bellevue_116th_NE12th",
+      "lighting": "Day",
+      "traffic_level": "Medium",
+      "frame_qa_status": "QA_ACCEPTED",
+      "image_sha256": "acddab893a3a7d141bddf4d32749e3782f63bca0e24a45a4376f8d01d0440b35",
+      "label_sha256": "7bb1e041b681b214e95c946d34ec149e789a11629e5316785af4b48bd390725b",
+      "gt_counts": {
+        "car": 17,
+        "motorcycle": 1,
+        "bus": 1,
+        "truck": 1
+      }
+    },
+    {
+      "filename": "Bellevue_150th_Eastgate__2017-09-10_20-08-25__validation__slot_01__p_0.050000__t_180.299489.jpg",
+      "annotation_id": "F0220",
+      "split": "Validation",
+      "source_video": "Bellevue_150th_Eastgate__2017-09-10_20-08-25.mp4",
+      "intersection": "Bellevue_150th_Eastgate",
+      "lighting": "Night",
+      "traffic_level": "Low",
+      "frame_qa_status": "QA_ACCEPTED",
+      "image_sha256": "022579d96520a736c35abe333f0fce056884c27f83a1aefca4968c930e3ff395",
+      "label_sha256": "5ca7c9ee12d601da4ed20d7258f637736ed87a01e323834a9110ea145bb6f668",
+      "gt_counts": {
+        "car": 1,
+        "motorcycle": 0,
+        "bus": 0,
+        "truck": 0
+      }
+    },
+    {
+      "filename": "Bellevue_150th_Eastgate__2017-09-10_20-08-25__validation__slot_02__p_0.131818__t_474.932022.jpg",
+      "annotation_id": "F0221",
+      "split": "Validation",
+      "source_video": "Bellevue_150th_Eastgate__2017-09-10_20-08-25.mp4",
+      "intersection": "Bellevue_150th_Eastgate",
+      "lighting": "Night",
+      "traffic_level": "Low",
+      "frame_qa_status": "QA_ACCEPTED",
+      "image_sha256": "a3527e4158c7ab376011ce00d205b338a56904dcc582994a6cbec1d6e02301ce",
+      "label_sha256": "689c4e827caa4b87624e8a51f6fd5c04cab5edb099a37bd5efa6e616e4e1d2ce",
+      "gt_counts": {
+        "car": 4,
+        "motorcycle": 0,
+        "bus": 0,
+        "truck": 1
+      }
+    },
+    {
+      "filename": "Bellevue_150th_Eastgate__2017-09-10_20-08-25__validation__slot_03__p_0.213636__t_769.531211.jpg",
+      "annotation_id": "F0222",
+      "split": "Validation",
+      "source_video": "Bellevue_150th_Eastgate__2017-09-10_20-08-25.mp4",
+      "intersection": "Bellevue_150th_Eastgate",
+      "lighting": "Night",
+      "traffic_level": "Low",
+      "frame_qa_status": "QA_ACCEPTED",
+      "image_sha256": "eb7bbe978822d581e0e48b6acd7c6f3e9711749c699cba5d2a2f63acb57547de",
+      "label_sha256": "b021b80460cad904b53421bc103792998f1af7ca75ea7366f8a8b278c34db437",
+      "gt_counts": {
+        "car": 6,
+        "motorcycle": 0,
+        "bus": 0,
+        "truck": 0
+      }
+    },
+    {
+      "filename": "Bellevue_150th_Eastgate__2017-09-10_20-08-25__validation__slot_04__p_0.295455__t_1063.216744.jpg",
+      "annotation_id": "F0223",
+      "split": "Validation",
+      "source_video": "Bellevue_150th_Eastgate__2017-09-10_20-08-25.mp4",
+      "intersection": "Bellevue_150th_Eastgate",
+      "lighting": "Night",
+      "traffic_level": "Low",
+      "frame_qa_status": "QA_ACCEPTED",
+      "image_sha256": "b0886cff8cdc879e6671d88f333e12ee441ef93c8fbdd8c85fc2a13c44da5af1",
+      "label_sha256": "c367aa055cfc553673944e00f0accbcb3f16e05f6a410886d766e26567922960",
+      "gt_counts": {
+        "car": 2,
+        "motorcycle": 0,
+        "bus": 0,
+        "truck": 0
+      }
+    },
+    {
+      "filename": "Bellevue_150th_Eastgate__2017-09-10_20-08-25__validation__slot_05__p_0.377273__t_1357.715956.jpg",
+      "annotation_id": "F0224",
+      "split": "Validation",
+      "source_video": "Bellevue_150th_Eastgate__2017-09-10_20-08-25.mp4",
+      "intersection": "Bellevue_150th_Eastgate",
+      "lighting": "Night",
+      "traffic_level": "Low",
+      "frame_qa_status": "QA_ACCEPTED",
+      "image_sha256": "5c94231785cecf77c651f581fc5963076926fd2c66d58fd40b5b1af9ee0b0efa",
+      "label_sha256": "fd5267d448b726744a524af322dc22d1bd200dfb116de93801f6aecbaa7011c2",
+      "gt_counts": {
+        "car": 6,
+        "motorcycle": 0,
+        "bus": 0,
+        "truck": 0
+      }
+    },
+    {
+      "filename": "Bellevue_150th_Eastgate__2017-09-10_20-08-25__validation__slot_06__p_0.459091__t_1652.390644.jpg",
+      "annotation_id": "F0225",
+      "split": "Validation",
+      "source_video": "Bellevue_150th_Eastgate__2017-09-10_20-08-25.mp4",
+      "intersection": "Bellevue_150th_Eastgate",
+      "lighting": "Night",
+      "traffic_level": "Low",
+      "frame_qa_status": "QA_ACCEPTED",
+      "image_sha256": "67d40358a48ef47b6050c00dd80d7fa54ef9eeb2e72a75577c71507f0267336f",
+      "label_sha256": "a2623c895a001723cd76fcdc29ce5ca66aee3c4509fe0fb353cef80048254980",
+      "gt_counts": {
+        "car": 7,
+        "motorcycle": 0,
+        "bus": 0,
+        "truck": 0
+      }
+    },
+    {
+      "filename": "Bellevue_150th_Eastgate__2017-09-10_20-08-25__validation__slot_07__p_0.540909__t_1946.956511.jpg",
+      "annotation_id": "F0226",
+      "split": "Validation",
+      "source_video": "Bellevue_150th_Eastgate__2017-09-10_20-08-25.mp4",
+      "intersection": "Bellevue_150th_Eastgate",
+      "lighting": "Night",
+      "traffic_level": "Low",
+      "frame_qa_status": "QA_ACCEPTED",
+      "image_sha256": "b057d943c38f8295107f9b39e8d8e2ef5907b0661fb83317b0c43ccfd715a8a3",
+      "label_sha256": "74d54fb123dcfc4695e0fcc0d0af50bc441acc010ddb671c5e8ca7dbf4f3b703",
+      "gt_counts": {
+        "car": 4,
+        "motorcycle": 0,
+        "bus": 0,
+        "truck": 0
+      }
+    },
+    {
+      "filename": "Bellevue_150th_Eastgate__2017-09-10_20-08-25__validation__slot_08__p_0.622727__t_2241.622378.jpg",
+      "annotation_id": "F0227",
+      "split": "Validation",
+      "source_video": "Bellevue_150th_Eastgate__2017-09-10_20-08-25.mp4",
+      "intersection": "Bellevue_150th_Eastgate",
+      "lighting": "Night",
+      "traffic_level": "Low",
+      "frame_qa_status": "QA_ACCEPTED",
+      "image_sha256": "c6d7715b8e5a25053cc2facad9da87e6b8c2b36fed201d5f17790f3603fbd17e",
+      "label_sha256": "75d4881e0493a1f7543e64ef1c8326db5ade867f685efd2e104556ca26c9c3d6",
+      "gt_counts": {
+        "car": 6,
+        "motorcycle": 0,
+        "bus": 1,
+        "truck": 0
+      }
+    },
+    {
+      "filename": "Bellevue_150th_Eastgate__2017-09-10_20-08-25__validation__slot_09__p_0.704545__t_2536.154933.jpg",
+      "annotation_id": "F0228",
+      "split": "Validation",
+      "source_video": "Bellevue_150th_Eastgate__2017-09-10_20-08-25.mp4",
+      "intersection": "Bellevue_150th_Eastgate",
+      "lighting": "Night",
+      "traffic_level": "Low",
+      "frame_qa_status": "QA_ACCEPTED",
+      "image_sha256": "8de12f2cd67f041ee551b582c331030f39bace36ed3754dfd1b8f76eb993e487",
+      "label_sha256": "9845588fe059ba1f66e0f7726b923990455d2910ea092cf5fd9ef38ab792afa1",
+      "gt_counts": {
+        "car": 2,
+        "motorcycle": 0,
+        "bus": 0,
+        "truck": 0
+      }
+    },
+    {
+      "filename": "Bellevue_150th_Eastgate__2017-09-10_20-08-25__validation__slot_10__p_0.786364__t_2830.754133.jpg",
+      "annotation_id": "F0229",
+      "split": "Validation",
+      "source_video": "Bellevue_150th_Eastgate__2017-09-10_20-08-25.mp4",
+      "intersection": "Bellevue_150th_Eastgate",
+      "lighting": "Night",
+      "traffic_level": "Low",
+      "frame_qa_status": "QA_ACCEPTED",
+      "image_sha256": "53df9fa502ed80008caf9e3a00dc8745840aab7304fd41027d28cfc989826e67",
+      "label_sha256": "1a1c371838a8c1164a7194e807bd333bd5309bd9c185080a57ed1a3dacdfb233",
+      "gt_counts": {
+        "car": 4,
+        "motorcycle": 0,
+        "bus": 0,
+        "truck": 0
+      }
+    },
+    {
+      "filename": "Bellevue_150th_Eastgate__2017-09-10_20-08-25__validation__slot_11__p_0.868182__t_3125.386689.jpg",
+      "annotation_id": "F0230",
+      "split": "Validation",
+      "source_video": "Bellevue_150th_Eastgate__2017-09-10_20-08-25.mp4",
+      "intersection": "Bellevue_150th_Eastgate",
+      "lighting": "Night",
+      "traffic_level": "Low",
+      "frame_qa_status": "QA_ACCEPTED",
+      "image_sha256": "f175930c178857f496a7379409af5d60e1a3153c0cccc56fe9de9ef5f7c15f71",
+      "label_sha256": "09ac7473d5fa0af823fbf4c66393da43eed71a35b28551c60a0528e24e35b897",
+      "gt_counts": {
+        "car": 8,
+        "motorcycle": 0,
+        "bus": 0,
+        "truck": 1
+      }
+    },
+    {
+      "filename": "Bellevue_150th_Eastgate__2017-09-10_20-08-25__validation__slot_12__p_0.950000__t_3419.985911.jpg",
+      "annotation_id": "F0231",
+      "split": "Validation",
+      "source_video": "Bellevue_150th_Eastgate__2017-09-10_20-08-25.mp4",
+      "intersection": "Bellevue_150th_Eastgate",
+      "lighting": "Night",
+      "traffic_level": "Low",
+      "frame_qa_status": "QA_ACCEPTED",
+      "image_sha256": "d32f74ae12323686d3e2558496c98f8d06130dcec90cd4c7719e101b5c3c3ebd",
+      "label_sha256": "308465cf49adec878fe01f3decd96575cd754b6572e4e5b8d9486b292b54a9aa",
+      "gt_counts": {
+        "car": 4,
+        "motorcycle": 0,
+        "bus": 0,
+        "truck": 0
+      }
+    },
+    {
+      "filename": "Bellevue_150th_Eastgate__2017-09-11_06-08-30__validation__slot_01__p_0.050000__t_180.366344.jpg",
+      "annotation_id": "F0340",
+      "split": "Validation",
+      "source_video": "Bellevue_150th_Eastgate__2017-09-11_06-08-30.mp4",
+      "intersection": "Bellevue_150th_Eastgate",
+      "lighting": "Dawn/Dusk",
+      "traffic_level": "Medium",
+      "frame_qa_status": "QA_ACCEPTED",
+      "image_sha256": "a8d515762d80aa95cb18202cbd3a8ff4db3316e2658faabf90e5240cc32a4654",
+      "label_sha256": "a3ef068c1999a097be3beeea987c396d0d54c638f1172e918863fcc2e73c4f5c",
+      "gt_counts": {
+        "car": 3,
+        "motorcycle": 0,
+        "bus": 0,
+        "truck": 1
+      }
+    },
+    {
+      "filename": "Bellevue_150th_Eastgate__2017-09-11_06-08-30__validation__slot_02__p_0.131818__t_474.899156.jpg",
+      "annotation_id": "F0341",
+      "split": "Validation",
+      "source_video": "Bellevue_150th_Eastgate__2017-09-11_06-08-30.mp4",
+      "intersection": "Bellevue_150th_Eastgate",
+      "lighting": "Dawn/Dusk",
+      "traffic_level": "Medium",
+      "frame_qa_status": "QA_ACCEPTED",
+      "image_sha256": "0799037dcb4435777bb2cef4d001675465edbcb0b7bd75c5808d77151ea841f3",
+      "label_sha256": "e4739c9ec5ba39a5d00d25a6ec9998e188eab75a12bafdfcc5fcc278b169ae21",
+      "gt_counts": {
+        "car": 1,
+        "motorcycle": 0,
+        "bus": 0,
+        "truck": 1
+      }
+    },
+    {
+      "filename": "Bellevue_150th_Eastgate__2017-09-11_06-08-30__validation__slot_03__p_0.213636__t_769.531978.jpg",
+      "annotation_id": "F0342",
+      "split": "Validation",
+      "source_video": "Bellevue_150th_Eastgate__2017-09-11_06-08-30.mp4",
+      "intersection": "Bellevue_150th_Eastgate",
+      "lighting": "Dawn/Dusk",
+      "traffic_level": "Medium",
+      "frame_qa_status": "QA_ACCEPTED",
+      "image_sha256": "846bfc09e15137c1b65026e1a2b77498669888b2e4fcf7eaea183fe9e121dd77",
+      "label_sha256": "87f1f45401335ce55465c9e61391fc42d9d285a5140ee2588b0da4c2f6bf1b8b",
+      "gt_counts": {
+        "car": 5,
+        "motorcycle": 0,
+        "bus": 1,
+        "truck": 0
+      }
+    },
+    {
+      "filename": "Bellevue_150th_Eastgate__2017-09-11_06-08-30__validation__slot_04__p_0.295455__t_1063.598133.jpg",
+      "annotation_id": "F0343",
+      "split": "Validation",
+      "source_video": "Bellevue_150th_Eastgate__2017-09-11_06-08-30.mp4",
+      "intersection": "Bellevue_150th_Eastgate",
+      "lighting": "Dawn/Dusk",
+      "traffic_level": "Medium",
+      "frame_qa_status": "QA_ACCEPTED",
+      "image_sha256": "98dfa920d89c6086d4ed5481c8a8e1b48773f1ffec53157c423c9d5aac17b8e0",
+      "label_sha256": "8c938e686ba4bc8d88e5891551c51d5abceffac41735ab99b2699476c9eebb5b",
+      "gt_counts": {
+        "car": 5,
+        "motorcycle": 0,
+        "bus": 0,
+        "truck": 1
+      }
+    },
+    {
+      "filename": "Bellevue_150th_Eastgate__2017-09-11_06-08-30__validation__slot_05__p_0.377273__t_1357.897611.jpg",
+      "annotation_id": "F0344",
+      "split": "Validation",
+      "source_video": "Bellevue_150th_Eastgate__2017-09-11_06-08-30.mp4",
+      "intersection": "Bellevue_150th_Eastgate",
+      "lighting": "Dawn/Dusk",
+      "traffic_level": "Medium",
+      "frame_qa_status": "QA_ACCEPTED",
+      "image_sha256": "eddf36614f4028f321e74e1d4b6d4e96ff7c8e94ae69d28b42c7340022262318",
+      "label_sha256": "ee356239a34719b18bb8ea999867c892e34a9a21c99af7fc8fd0c84c7fc985f0",
+      "gt_counts": {
+        "car": 3,
+        "motorcycle": 0,
+        "bus": 0,
+        "truck": 0
+      }
+    },
+    {
+      "filename": "Bellevue_150th_Eastgate__2017-09-11_06-08-30__validation__slot_06__p_0.459091__t_1652.397122.jpg",
+      "annotation_id": "F0345",
+      "split": "Validation",
+      "source_video": "Bellevue_150th_Eastgate__2017-09-11_06-08-30.mp4",
+      "intersection": "Bellevue_150th_Eastgate",
+      "lighting": "Dawn/Dusk",
+      "traffic_level": "Medium",
+      "frame_qa_status": "QA_ACCEPTED",
+      "image_sha256": "4ff2f672cdd82e223ff39ebe2caadca288f4e0ebd44c0a2348e75bc109693e97",
+      "label_sha256": "4d5a38492121d2924a3c66196aec9d6aa46e6b1cfe972b484ffc6022f0b0d676",
+      "gt_counts": {
+        "car": 4,
+        "motorcycle": 0,
+        "bus": 1,
+        "truck": 1
+      }
+    },
+    {
+      "filename": "Bellevue_150th_Eastgate__2017-09-11_06-08-30__validation__slot_07__p_0.540909__t_1947.229967.jpg",
+      "annotation_id": "F0346",
+      "split": "Validation",
+      "source_video": "Bellevue_150th_Eastgate__2017-09-11_06-08-30.mp4",
+      "intersection": "Bellevue_150th_Eastgate",
+      "lighting": "Dawn/Dusk",
+      "traffic_level": "Medium",
+      "frame_qa_status": "QA_ACCEPTED",
+      "image_sha256": "fbfe518271479792b8b97c8c784343341bf68e222e952f8c5faeea38df7309d2",
+      "label_sha256": "4dddc99a2d6424189f966d8006123221af3c164b284d248a0493f982496c2a66",
+      "gt_counts": {
+        "car": 5,
+        "motorcycle": 0,
+        "bus": 0,
+        "truck": 2
+      }
+    },
+    {
+      "filename": "Bellevue_150th_Eastgate__2017-09-11_06-08-30__validation__slot_08__p_0.622727__t_2241.805944.jpg",
+      "annotation_id": "F0347",
+      "split": "Validation",
+      "source_video": "Bellevue_150th_Eastgate__2017-09-11_06-08-30.mp4",
+      "intersection": "Bellevue_150th_Eastgate",
+      "lighting": "Dawn/Dusk",
+      "traffic_level": "Medium",
+      "frame_qa_status": "QA_ACCEPTED",
+      "image_sha256": "1ed53398284077db384924f085873d11e47602052aad9c971a115447bbcc082d",
+      "label_sha256": "69a1c2252aaaf8b0e0c2b445c153db6bff0e21011bf1bd5af36cb13b2e0ce5f9",
+      "gt_counts": {
+        "car": 7,
+        "motorcycle": 0,
+        "bus": 0,
+        "truck": 2
+      }
+    },
+    {
+      "filename": "Bellevue_150th_Eastgate__2017-09-11_06-08-30__validation__slot_09__p_0.704545__t_2536.572178.jpg",
+      "annotation_id": "F0348",
+      "split": "Validation",
+      "source_video": "Bellevue_150th_Eastgate__2017-09-11_06-08-30.mp4",
+      "intersection": "Bellevue_150th_Eastgate",
+      "lighting": "Dawn/Dusk",
+      "traffic_level": "Medium",
+      "frame_qa_status": "QA_ACCEPTED",
+      "image_sha256": "5860ec331c98d4ea893a68f41b15ba0e79ad5d2bda7b06ef0481b0752957721c",
+      "label_sha256": "e75d8fb098dc5050e07434bf9c77dc1b5a028deab98f3fb7d91d75ac144839bf",
+      "gt_counts": {
+        "car": 3,
+        "motorcycle": 0,
+        "bus": 0,
+        "truck": 2
+      }
+    },
+    {
+      "filename": "Bellevue_150th_Eastgate__2017-09-11_06-08-30__validation__slot_10__p_0.786364__t_2831.338444.jpg",
+      "annotation_id": "F0349",
+      "split": "Validation",
+      "source_video": "Bellevue_150th_Eastgate__2017-09-11_06-08-30.mp4",
+      "intersection": "Bellevue_150th_Eastgate",
+      "lighting": "Dawn/Dusk",
+      "traffic_level": "Medium",
+      "frame_qa_status": "QA_ACCEPTED",
+      "image_sha256": "66b36004ad178db1bde43539ab5145f0d9a5f13fba06b223839c755d0c1ac8a4",
+      "label_sha256": "00991cd66582c5844cf13b9d094c40018c925873d6ced981b7c87357dc1b91a8",
+      "gt_counts": {
+        "car": 6,
+        "motorcycle": 0,
+        "bus": 0,
+        "truck": 0
+      }
+    },
+    {
+      "filename": "Bellevue_150th_Eastgate__2017-09-11_06-08-30__validation__slot_11__p_0.868182__t_3125.404700.jpg",
+      "annotation_id": "F0350",
+      "split": "Validation",
+      "source_video": "Bellevue_150th_Eastgate__2017-09-11_06-08-30.mp4",
+      "intersection": "Bellevue_150th_Eastgate",
+      "lighting": "Dawn/Dusk",
+      "traffic_level": "Medium",
+      "frame_qa_status": "QA_ACCEPTED",
+      "image_sha256": "6e806f89f8734315b950ce763f3c87b758e92c4b3d3c810c6650095e62894afa",
+      "label_sha256": "9ccf65635a2025795c136599cbd2fe2f1529be4e6b7d1e306cb6710900195556",
+      "gt_counts": {
+        "car": 8,
+        "motorcycle": 0,
+        "bus": 0,
+        "truck": 1
+      }
+    },
+    {
+      "filename": "Bellevue_150th_Eastgate__2017-09-11_06-08-30__validation__slot_12__p_0.950000__t_3419.770911.jpg",
+      "annotation_id": "F0351",
+      "split": "Validation",
+      "source_video": "Bellevue_150th_Eastgate__2017-09-11_06-08-30.mp4",
+      "intersection": "Bellevue_150th_Eastgate",
+      "lighting": "Dawn/Dusk",
+      "traffic_level": "Medium",
+      "frame_qa_status": "QA_ACCEPTED",
+      "image_sha256": "1ea1aa3eeef55a7b72467bb785603607006ee1f3ea60416d99818f3b229993f7",
+      "label_sha256": "916f112b558f5e3633fc81fbecfc770bebef7c2d5cbffe57e9c74492b3cbaa1a",
+      "gt_counts": {
+        "car": 7,
+        "motorcycle": 0,
+        "bus": 1,
+        "truck": 1
+      }
+    },
+    {
+      "filename": "Bellevue_150th_Eastgate__2017-09-11_17-08-33__validation__slot_01__p_0.050000__t_180.399556.jpg",
+      "annotation_id": "F0472",
+      "split": "Validation",
+      "source_video": "Bellevue_150th_Eastgate__2017-09-11_17-08-33.mp4",
+      "intersection": "Bellevue_150th_Eastgate",
+      "lighting": "Day",
+      "traffic_level": "High",
+      "frame_qa_status": "QA_ACCEPTED",
+      "image_sha256": "09004d1f26caa6d1300c06968c46df4e8fa4d22e8f6f55bd63d88b311fd0d5a5",
+      "label_sha256": "2bd77f2cf96f7dba5d53addf7cf0f2d6dc2726736613a79a796d32aee5eec03f",
+      "gt_counts": {
+        "car": 33,
+        "motorcycle": 0,
+        "bus": 2,
+        "truck": 1
+      }
+    },
+    {
+      "filename": "Bellevue_150th_Eastgate__2017-09-11_17-08-33__validation__slot_02__p_0.131818__t_474.532167.jpg",
+      "annotation_id": "F0473",
+      "split": "Validation",
+      "source_video": "Bellevue_150th_Eastgate__2017-09-11_17-08-33.mp4",
+      "intersection": "Bellevue_150th_Eastgate",
+      "lighting": "Day",
+      "traffic_level": "High",
+      "frame_qa_status": "QA_ACCEPTED",
+      "image_sha256": "0947682c5eb666a230a8f5bedcf67dd097fef4e276b8d8deb7df504229f9130e",
+      "label_sha256": "aa20134f56dc67aa0adb936d73d967e12c0cf68e0663c23a51c6163d3e9f1302",
+      "gt_counts": {
+        "car": 36,
+        "motorcycle": 0,
+        "bus": 0,
+        "truck": 0
+      }
+    },
+    {
+      "filename": "Bellevue_150th_Eastgate__2017-09-11_17-08-33__validation__slot_03__p_0.213636__t_768.931467.jpg",
+      "annotation_id": "F0474",
+      "split": "Validation",
+      "source_video": "Bellevue_150th_Eastgate__2017-09-11_17-08-33.mp4",
+      "intersection": "Bellevue_150th_Eastgate",
+      "lighting": "Day",
+      "traffic_level": "High",
+      "frame_qa_status": "QA_ACCEPTED",
+      "image_sha256": "954461093538a809e39c77fc17b38c77212932819cd64e046887a7e009fff9ea",
+      "label_sha256": "1439f1968089b3465d03ae0cce288de91f2937068bf268531ce944997a25e135",
+      "gt_counts": {
+        "car": 39,
+        "motorcycle": 0,
+        "bus": 0,
+        "truck": 1
+      }
+    },
+    {
+      "filename": "Bellevue_150th_Eastgate__2017-09-11_17-08-33__validation__slot_04__p_0.295455__t_1063.730822.jpg",
+      "annotation_id": "F0475",
+      "split": "Validation",
+      "source_video": "Bellevue_150th_Eastgate__2017-09-11_17-08-33.mp4",
+      "intersection": "Bellevue_150th_Eastgate",
+      "lighting": "Day",
+      "traffic_level": "High",
+      "frame_qa_status": "QA_ACCEPTED",
+      "image_sha256": "b115826c848b94d80cfdb8e009b5900a7f92f9fa1ae07a1fdc878a629d4d3587",
+      "label_sha256": "65465e983f39a846d20f82c93ca26be048ed14de2a3e6d99d6b92b2c951d5a2f",
+      "gt_counts": {
+        "car": 29,
+        "motorcycle": 0,
+        "bus": 1,
+        "truck": 1
+      }
+    },
+    {
+      "filename": "Bellevue_150th_Eastgate__2017-09-11_17-08-33__validation__slot_05__p_0.377273__t_1358.563533.jpg",
+      "annotation_id": "F0476",
+      "split": "Validation",
+      "source_video": "Bellevue_150th_Eastgate__2017-09-11_17-08-33.mp4",
+      "intersection": "Bellevue_150th_Eastgate",
+      "lighting": "Day",
+      "traffic_level": "High",
+      "frame_qa_status": "QA_ACCEPTED",
+      "image_sha256": "93177ab92481e101a763683b70272df461ea7609368b44521e818b951c3c3008",
+      "label_sha256": "de60eb860291a3c3394f23079f06e3303fa57d06fe5850f1d7e1da62ec062629",
+      "gt_counts": {
+        "car": 34,
+        "motorcycle": 0,
+        "bus": 0,
+        "truck": 1
+      }
+    },
+    {
+      "filename": "Bellevue_150th_Eastgate__2017-09-11_17-08-33__validation__slot_06__p_0.459091__t_1653.196311.jpg",
+      "annotation_id": "F0477",
+      "split": "Validation",
+      "source_video": "Bellevue_150th_Eastgate__2017-09-11_17-08-33.mp4",
+      "intersection": "Bellevue_150th_Eastgate",
+      "lighting": "Day",
+      "traffic_level": "High",
+      "frame_qa_status": "QA_ACCEPTED",
+      "image_sha256": "246066475c1bc065994b3d02eeddd389e708e8bad6146b00c64e5973341811f9",
+      "label_sha256": "0627eff3e87a9de2ce06f3b96da2e6d8f95ddd8aaa4760e4a375b07b6513baa5",
+      "gt_counts": {
+        "car": 23,
+        "motorcycle": 0,
+        "bus": 0,
+        "truck": 1
+      }
+    },
+    {
+      "filename": "Bellevue_150th_Eastgate__2017-09-11_17-08-33__validation__slot_07__p_0.540909__t_1947.747844.jpg",
+      "annotation_id": "F0478",
+      "split": "Validation",
+      "source_video": "Bellevue_150th_Eastgate__2017-09-11_17-08-33.mp4",
+      "intersection": "Bellevue_150th_Eastgate",
+      "lighting": "Day",
+      "traffic_level": "High",
+      "frame_qa_status": "QA_ACCEPTED",
+      "image_sha256": "f700305fcff3dceead10a054190b70295c90baefd76e6fbfd2929761d362416d",
+      "label_sha256": "efddad97759541d9518265a0b366ceecc6f6af701dd60270b7e79e7ef3efc306",
+      "gt_counts": {
+        "car": 20,
+        "motorcycle": 1,
+        "bus": 1,
+        "truck": 1
+      }
+    },
+    {
+      "filename": "Bellevue_150th_Eastgate__2017-09-11_17-08-33__validation__slot_08__p_0.622727__t_2241.793200.jpg",
+      "annotation_id": "F0479",
+      "split": "Validation",
+      "source_video": "Bellevue_150th_Eastgate__2017-09-11_17-08-33.mp4",
+      "intersection": "Bellevue_150th_Eastgate",
+      "lighting": "Day",
+      "traffic_level": "High",
+      "frame_qa_status": "QA_ACCEPTED",
+      "image_sha256": "10ca091c336e0ddfe1eb34b2528b476e95e5647880f8cdb5872fe18bc52c9659",
+      "label_sha256": "48a8ca4f9fc8638af1f3e736780e6e49c5b027d052f66ecf3b6062bc5e6e6d3a",
+      "gt_counts": {
+        "car": 33,
+        "motorcycle": 0,
+        "bus": 0,
+        "truck": 2
+      }
+    },
+    {
+      "filename": "Bellevue_150th_Eastgate__2017-09-11_17-08-33__validation__slot_09__p_0.704545__t_2536.792667.jpg",
+      "annotation_id": "F0480",
+      "split": "Validation",
+      "source_video": "Bellevue_150th_Eastgate__2017-09-11_17-08-33.mp4",
+      "intersection": "Bellevue_150th_Eastgate",
+      "lighting": "Day",
+      "traffic_level": "High",
+      "frame_qa_status": "QA_ACCEPTED",
+      "image_sha256": "77eac2b5ab42300adb144772912c7434e1f0a7441aee7df7720c7f017c99979e",
+      "label_sha256": "7017cafbbd2d12fb381a81247af984d8a8267628d347191e049bb27bb9b13432",
+      "gt_counts": {
+        "car": 38,
+        "motorcycle": 0,
+        "bus": 1,
+        "truck": 1
+      }
+    },
+    {
+      "filename": "Bellevue_150th_Eastgate__2017-09-11_17-08-33__validation__slot_10__p_0.786364__t_2830.425522.jpg",
+      "annotation_id": "F0481",
+      "split": "Validation",
+      "source_video": "Bellevue_150th_Eastgate__2017-09-11_17-08-33.mp4",
+      "intersection": "Bellevue_150th_Eastgate",
+      "lighting": "Day",
+      "traffic_level": "High",
+      "frame_qa_status": "QA_ACCEPTED",
+      "image_sha256": "9c66b67f3f0887d93218b7ec27983891b1a626537670fbb3d0aad32dd1f424cb",
+      "label_sha256": "8528c48247b034363c28892aee140edffd833fae10aafb1961123e730e7104a0",
+      "gt_counts": {
+        "car": 25,
+        "motorcycle": 0,
+        "bus": 0,
+        "truck": 0
+      }
+    },
+    {
+      "filename": "Bellevue_150th_Eastgate__2017-09-11_17-08-33__validation__slot_11__p_0.868182__t_3125.125056.jpg",
+      "annotation_id": "F0482",
+      "split": "Validation",
+      "source_video": "Bellevue_150th_Eastgate__2017-09-11_17-08-33.mp4",
+      "intersection": "Bellevue_150th_Eastgate",
+      "lighting": "Day",
+      "traffic_level": "High",
+      "frame_qa_status": "QA_ACCEPTED",
+      "image_sha256": "c9f3fc67b2e9aa7118d08b1c998080187f2dadbe306c1b515dfd3e7701eb8720",
+      "label_sha256": "1c457ec58ed844daf9d8d42e5e4e755380a65e8640a2c2bc9a346026e748cf98",
+      "gt_counts": {
+        "car": 29,
+        "motorcycle": 0,
+        "bus": 0,
+        "truck": 0
+      }
+    },
+    {
+      "filename": "Bellevue_150th_Eastgate__2017-09-11_17-08-33__validation__slot_12__p_0.950000__t_3419.891256.jpg",
+      "annotation_id": "F0483",
+      "split": "Validation",
+      "source_video": "Bellevue_150th_Eastgate__2017-09-11_17-08-33.mp4",
+      "intersection": "Bellevue_150th_Eastgate",
+      "lighting": "Day",
+      "traffic_level": "High",
+      "frame_qa_status": "QA_ACCEPTED",
+      "image_sha256": "616a33bc1cbc588f763a6a83ede4410ad63bf5ed2e7056e75dc7cf9456682000",
+      "label_sha256": "7128d8348e8039b7f0fa5b4e0dc9ac882ce7711d1d181db1d956a8659261119b",
+      "gt_counts": {
+        "car": 31,
+        "motorcycle": 1,
+        "bus": 0,
+        "truck": 0
+      }
+    },
+    {
+      "filename": "Bellevue_150th_Newport__2017-09-10_18-08-24__validation__slot_01__p_0.050000__t_180.267122.jpg",
+      "annotation_id": "F0484",
+      "split": "Validation",
+      "source_video": "Bellevue_150th_Newport__2017-09-10_18-08-24.mp4",
+      "intersection": "Bellevue_150th_Newport",
+      "lighting": "Day",
+      "traffic_level": "Low",
+      "frame_qa_status": "QA_ACCEPTED",
+      "image_sha256": "581fdb8b6efc5fe407b5bb501a15bd3bc1d2b4e8cae57581ef7111019c971cd5",
+      "label_sha256": "20454a4a3531122f27f390a737fb7648b3d64bca089dc8ca44cea29d2cdba8e6",
+      "gt_counts": {
+        "car": 6,
+        "motorcycle": 0,
+        "bus": 0,
+        "truck": 0
+      }
+    },
+    {
+      "filename": "Bellevue_150th_Newport__2017-09-10_18-08-24__validation__slot_02__p_0.131818__t_474.734522.jpg",
+      "annotation_id": "F0485",
+      "split": "Validation",
+      "source_video": "Bellevue_150th_Newport__2017-09-10_18-08-24.mp4",
+      "intersection": "Bellevue_150th_Newport",
+      "lighting": "Day",
+      "traffic_level": "Low",
+      "frame_qa_status": "QA_ACCEPTED",
+      "image_sha256": "0214bbe7fdb9e44dd72b594c57023ce8ba13496c65a3bf445b52eb031763899b",
+      "label_sha256": "1b6934365e228cb042f58460935a3cad62f22c9474a0a593df839e815bc26d3a",
+      "gt_counts": {
+        "car": 9,
+        "motorcycle": 0,
+        "bus": 0,
+        "truck": 0
+      }
+    },
+    {
+      "filename": "Bellevue_150th_Newport__2017-09-10_18-08-24__validation__slot_03__p_0.213636__t_769.179156.jpg",
+      "annotation_id": "F0486",
+      "split": "Validation",
+      "source_video": "Bellevue_150th_Newport__2017-09-10_18-08-24.mp4",
+      "intersection": "Bellevue_150th_Newport",
+      "lighting": "Day",
+      "traffic_level": "Low",
+      "frame_qa_status": "QA_ACCEPTED",
+      "image_sha256": "555ee54f1f03110f4d5762c06edadbb740f7d0b8e3d17a1ec4a1be01886941ff",
+      "label_sha256": "3f8a639736e3c3ab103c58931a637b2a13ea163e81dde25d732162f7cea2639c",
+      "gt_counts": {
+        "car": 3,
+        "motorcycle": 0,
+        "bus": 0,
+        "truck": 0
+      }
+    },
+    {
+      "filename": "Bellevue_150th_Newport__2017-09-10_18-08-24__validation__slot_04__p_0.295455__t_1063.679889.jpg",
+      "annotation_id": "F0487",
+      "split": "Validation",
+      "source_video": "Bellevue_150th_Newport__2017-09-10_18-08-24.mp4",
+      "intersection": "Bellevue_150th_Newport",
+      "lighting": "Day",
+      "traffic_level": "Low",
+      "frame_qa_status": "QA_ACCEPTED",
+      "image_sha256": "47e001e4eac7debca00465bdd13cd9ef2ae81abc90894078e98bb3ee46ba2ca5",
+      "label_sha256": "c0ba3f01cd36c4abcd1678806ca2a70583cb78609889eaff083c797269906b0b",
+      "gt_counts": {
+        "car": 8,
+        "motorcycle": 0,
+        "bus": 0,
+        "truck": 0
+      }
+    },
+    {
+      "filename": "Bellevue_150th_Newport__2017-09-10_18-08-24__validation__slot_05__p_0.377273__t_1358.180589.jpg",
+      "annotation_id": "F0488",
+      "split": "Validation",
+      "source_video": "Bellevue_150th_Newport__2017-09-10_18-08-24.mp4",
+      "intersection": "Bellevue_150th_Newport",
+      "lighting": "Day",
+      "traffic_level": "Low",
+      "frame_qa_status": "QA_ACCEPTED",
+      "image_sha256": "9d50c3a9b115c82533a12ca336f62e9571f98e4ef2eb85532dfbaee9d90d097f",
+      "label_sha256": "4327787828acb4e102ce1f5acde9e11b318cdb2351599a0191fbe39fc4c2d650",
+      "gt_counts": {
+        "car": 2,
+        "motorcycle": 0,
+        "bus": 0,
+        "truck": 0
+      }
+    },
+    {
+      "filename": "Bellevue_150th_Newport__2017-09-10_18-08-24__validation__slot_06__p_0.459091__t_1652.614611.jpg",
+      "annotation_id": "F0489",
+      "split": "Validation",
+      "source_video": "Bellevue_150th_Newport__2017-09-10_18-08-24.mp4",
+      "intersection": "Bellevue_150th_Newport",
+      "lighting": "Day",
+      "traffic_level": "Low",
+      "frame_qa_status": "QA_ACCEPTED",
+      "image_sha256": "96d1594f48d443c477a45ccc067eec590627e30135c1c875e3949990ab3d8e32",
+      "label_sha256": "8742de59014cc2463c4e228445ce811fbb2022eebaaf70bae286e89bff7295f2",
+      "gt_counts": {
+        "car": 1,
+        "motorcycle": 0,
+        "bus": 0,
+        "truck": 0
+      }
+    },
+    {
+      "filename": "Bellevue_150th_Newport__2017-09-10_18-08-24__validation__slot_07__p_0.540909__t_1947.015322.jpg",
+      "annotation_id": "F0490",
+      "split": "Validation",
+      "source_video": "Bellevue_150th_Newport__2017-09-10_18-08-24.mp4",
+      "intersection": "Bellevue_150th_Newport",
+      "lighting": "Day",
+      "traffic_level": "Low",
+      "frame_qa_status": "QA_ACCEPTED",
+      "image_sha256": "4466062562c45e812209f5581fda2875a32b9154e69e718c8ff18b08834be450",
+      "label_sha256": "120e0079240295ee81380776bf6120a9146df23524726beaf9ebeff3fe608f62",
+      "gt_counts": {
+        "car": 6,
+        "motorcycle": 0,
+        "bus": 0,
+        "truck": 0
+      }
+    },
+    {
+      "filename": "Bellevue_150th_Newport__2017-09-10_18-08-24__validation__slot_08__p_0.622727__t_2241.482689.jpg",
+      "annotation_id": "F0491",
+      "split": "Validation",
+      "source_video": "Bellevue_150th_Newport__2017-09-10_18-08-24.mp4",
+      "intersection": "Bellevue_150th_Newport",
+      "lighting": "Day",
+      "traffic_level": "Low",
+      "frame_qa_status": "QA_ACCEPTED",
+      "image_sha256": "b94b8ce42b892eadc97f88d3b2b076a892a79993a4cb0faeaa22723d46e51629",
+      "label_sha256": "b2f3cd277b57e388c1c24b767819a43dd69975da860dd8c4d0b6a92db8d9a905",
+      "gt_counts": {
+        "car": 5,
+        "motorcycle": 0,
+        "bus": 0,
+        "truck": 0
+      }
+    },
+    {
+      "filename": "Bellevue_150th_Newport__2017-09-10_18-08-24__validation__slot_09__p_0.704545__t_2535.894778.jpg",
+      "annotation_id": "F0492",
+      "split": "Validation",
+      "source_video": "Bellevue_150th_Newport__2017-09-10_18-08-24.mp4",
+      "intersection": "Bellevue_150th_Newport",
+      "lighting": "Day",
+      "traffic_level": "Low",
+      "frame_qa_status": "QA_ACCEPTED",
+      "image_sha256": "c38fab9e55c03b935e530e89f1b96b6d6c56b119897cef0a71e4e3b2339c7458",
+      "label_sha256": "d9d416f25a2a15c7b86e5a0da08b7ec09bc1174e480ddf55b7439a839d289718",
+      "gt_counts": {
+        "car": 1,
+        "motorcycle": 0,
+        "bus": 0,
+        "truck": 0
+      }
+    },
+    {
+      "filename": "Bellevue_150th_Newport__2017-09-10_18-08-24__validation__slot_10__p_0.786364__t_2830.895467.jpg",
+      "annotation_id": "F0493",
+      "split": "Validation",
+      "source_video": "Bellevue_150th_Newport__2017-09-10_18-08-24.mp4",
+      "intersection": "Bellevue_150th_Newport",
+      "lighting": "Day",
+      "traffic_level": "Low",
+      "frame_qa_status": "QA_ACCEPTED",
+      "image_sha256": "524e8e8dbea4dae427411277d6d5faf6e68853076ac7b95b50f6133b45f0f7fc",
+      "label_sha256": "3b373a06f7ea7d9721a4178fa6ca4458180d3df9581a65b3f18e6ef7299b561c",
+      "gt_counts": {
+        "car": 6,
+        "motorcycle": 0,
+        "bus": 0,
+        "truck": 0
+      }
+    },
+    {
+      "filename": "Bellevue_150th_Newport__2017-09-10_18-08-24__validation__slot_11__p_0.868182__t_3125.929511.jpg",
+      "annotation_id": "F0494",
+      "split": "Validation",
+      "source_video": "Bellevue_150th_Newport__2017-09-10_18-08-24.mp4",
+      "intersection": "Bellevue_150th_Newport",
+      "lighting": "Day",
+      "traffic_level": "Low",
+      "frame_qa_status": "QA_ACCEPTED",
+      "image_sha256": "63db756f44b10e9b1043f6a2203a7bffd779e64e930103dcc35a67b9266a3c5b",
+      "label_sha256": "aa9dfef1e26a0a48de1a5b6a619b86f84244690ded05ae6bc42d84755d4c0a9e",
+      "gt_counts": {
+        "car": 6,
+        "motorcycle": 0,
+        "bus": 0,
+        "truck": 0
+      }
+    },
+    {
+      "filename": "Bellevue_150th_Newport__2017-09-10_18-08-24__validation__slot_12__p_0.950000__t_3420.396856.jpg",
+      "annotation_id": "F0495",
+      "split": "Validation",
+      "source_video": "Bellevue_150th_Newport__2017-09-10_18-08-24.mp4",
+      "intersection": "Bellevue_150th_Newport",
+      "lighting": "Day",
+      "traffic_level": "Low",
+      "frame_qa_status": "QA_ACCEPTED",
+      "image_sha256": "ad6001dce700166eedf93ba089057a9eaa1d6e594665aa428d380021e95ce6dc",
+      "label_sha256": "2e64d159fc37ac0a02bdfd492cfd73b1d2d83a266572312813b0033c48cda86f",
+      "gt_counts": {
+        "car": 4,
+        "motorcycle": 0,
+        "bus": 0,
+        "truck": 0
+      }
+    },
+    {
+      "filename": "Bellevue_150th_Newport__2017-09-11_08-08-31__validation__slot_01__p_0.050000__t_180.400433.jpg",
+      "annotation_id": "F0652",
+      "split": "Validation",
+      "source_video": "Bellevue_150th_Newport__2017-09-11_08-08-31.mp4",
+      "intersection": "Bellevue_150th_Newport",
+      "lighting": "Day",
+      "traffic_level": "Medium",
+      "frame_qa_status": "QA_ACCEPTED",
+      "image_sha256": "28a3063b97d4deb28b46dcf7c575787b6b84fe9fec22852c832b3969a57494ed",
+      "label_sha256": "ffb86669c61fed5b4da0245c317b47e9aaf7490368965f2e3922295a68f7ed96",
+      "gt_counts": {
+        "car": 18,
+        "motorcycle": 0,
+        "bus": 0,
+        "truck": 0
+      }
+    },
+    {
+      "filename": "Bellevue_150th_Newport__2017-09-11_08-08-31__validation__slot_02__p_0.131818__t_474.534478.jpg",
+      "annotation_id": "F0653",
+      "split": "Validation",
+      "source_video": "Bellevue_150th_Newport__2017-09-11_08-08-31.mp4",
+      "intersection": "Bellevue_150th_Newport",
+      "lighting": "Day",
+      "traffic_level": "Medium",
+      "frame_qa_status": "QA_ACCEPTED",
+      "image_sha256": "ff1c53f5bac85de2b473a3999c9c5846492918a2c8137c75b1aff22cd2f421b8",
+      "label_sha256": "265cd7facfcc2829ccd318e851b3abe6dd9070b9e2c8b378cc70b0e219dd2a6f",
+      "gt_counts": {
+        "car": 13,
+        "motorcycle": 0,
+        "bus": 0,
+        "truck": 1
+      }
+    },
+    {
+      "filename": "Bellevue_150th_Newport__2017-09-11_08-08-31__validation__slot_03__p_0.213636__t_769.071433.jpg",
+      "annotation_id": "F0654",
+      "split": "Validation",
+      "source_video": "Bellevue_150th_Newport__2017-09-11_08-08-31.mp4",
+      "intersection": "Bellevue_150th_Newport",
+      "lighting": "Day",
+      "traffic_level": "Medium",
+      "frame_qa_status": "QA_ACCEPTED",
+      "image_sha256": "5ab10a6731ea69fe207ca688aac2abca7e84e7d659a51d6fba9799907de8158f",
+      "label_sha256": "5528b53ca8a0e119327dc4f1bbd9a7a330ba461efae18c57a39e3eb1afad687d",
+      "gt_counts": {
+        "car": 10,
+        "motorcycle": 0,
+        "bus": 0,
+        "truck": 1
+      }
+    },
+    {
+      "filename": "Bellevue_150th_Newport__2017-09-11_08-08-31__validation__slot_04__p_0.295455__t_1064.072144.jpg",
+      "annotation_id": "F0655",
+      "split": "Validation",
+      "source_video": "Bellevue_150th_Newport__2017-09-11_08-08-31.mp4",
+      "intersection": "Bellevue_150th_Newport",
+      "lighting": "Day",
+      "traffic_level": "Medium",
+      "frame_qa_status": "QA_ACCEPTED",
+      "image_sha256": "7efa06e7584e2fa3b1de57714885c496eab37ae18722c9df087af37c20346cf6",
+      "label_sha256": "69b98ca4c925fe573a8ae714ee3a9fa4c4c932f5fdd6382f56d9ecd70668738e",
+      "gt_counts": {
+        "car": 7,
+        "motorcycle": 0,
+        "bus": 0,
+        "truck": 0
+      }
+    },
+    {
+      "filename": "Bellevue_150th_Newport__2017-09-11_08-08-31__validation__slot_05__p_0.377273__t_1358.639522.jpg",
+      "annotation_id": "F0656",
+      "split": "Validation",
+      "source_video": "Bellevue_150th_Newport__2017-09-11_08-08-31.mp4",
+      "intersection": "Bellevue_150th_Newport",
+      "lighting": "Day",
+      "traffic_level": "Medium",
+      "frame_qa_status": "QA_ACCEPTED",
+      "image_sha256": "ac079e123eff9aec87ecabc54a8c3413b44ed442a8b36ae5831f524c9f6e495b",
+      "label_sha256": "76fb224da73894e6ff62c0077e920df80bf51ca0f8404ed2fb87c2060edb95b4",
+      "gt_counts": {
+        "car": 7,
+        "motorcycle": 0,
+        "bus": 0,
+        "truck": 0
+      }
+    },
+    {
+      "filename": "Bellevue_150th_Newport__2017-09-11_08-08-31__validation__slot_06__p_0.459091__t_1653.173544.jpg",
+      "annotation_id": "F0657",
+      "split": "Validation",
+      "source_video": "Bellevue_150th_Newport__2017-09-11_08-08-31.mp4",
+      "intersection": "Bellevue_150th_Newport",
+      "lighting": "Day",
+      "traffic_level": "Medium",
+      "frame_qa_status": "QA_ACCEPTED",
+      "image_sha256": "88d80261f900ffb0469d8cae2a964beea0fb69789b22123fd68bbc0b57166b18",
+      "label_sha256": "90810927720cf241d59b76a9cd4d8986c759c710f6b3cb260c5cbb5ef3c5fe0b",
+      "gt_counts": {
+        "car": 6,
+        "motorcycle": 0,
+        "bus": 1,
+        "truck": 3
+      }
+    },
+    {
+      "filename": "Bellevue_150th_Newport__2017-09-11_08-08-31__validation__slot_07__p_0.540909__t_1947.707589.jpg",
+      "annotation_id": "F0658",
+      "split": "Validation",
+      "source_video": "Bellevue_150th_Newport__2017-09-11_08-08-31.mp4",
+      "intersection": "Bellevue_150th_Newport",
+      "lighting": "Day",
+      "traffic_level": "Medium",
+      "frame_qa_status": "QA_ACCEPTED",
+      "image_sha256": "5b69f752d8e20f496887bddb580195d0c9bf2b5edcc3ce6f8bf665017715a876",
+      "label_sha256": "ce2beeb713c6563bf979139eda281b8dfd424581090f3057be13378af331c598",
+      "gt_counts": {
+        "car": 8,
+        "motorcycle": 0,
+        "bus": 0,
+        "truck": 1
+      }
+    },
+    {
+      "filename": "Bellevue_150th_Newport__2017-09-11_08-08-31__validation__slot_08__p_0.622727__t_2242.274933.jpg",
+      "annotation_id": "F0659",
+      "split": "Validation",
+      "source_video": "Bellevue_150th_Newport__2017-09-11_08-08-31.mp4",
+      "intersection": "Bellevue_150th_Newport",
+      "lighting": "Day",
+      "traffic_level": "Medium",
+      "frame_qa_status": "QA_ACCEPTED",
+      "image_sha256": "34802265791d7b55ed87a43e646e385008663fec6eaab36b3d6f1f7645fc9bb4",
+      "label_sha256": "d4de8081650052226e9100768588f692d96053064acff309e0833c53284fa0f7",
+      "gt_counts": {
+        "car": 14,
+        "motorcycle": 0,
+        "bus": 0,
+        "truck": 0
+      }
+    },
+    {
+      "filename": "Bellevue_150th_Newport__2017-09-11_08-08-31__validation__slot_09__p_0.704545__t_2535.912656.jpg",
+      "annotation_id": "F0660",
+      "split": "Validation",
+      "source_video": "Bellevue_150th_Newport__2017-09-11_08-08-31.mp4",
+      "intersection": "Bellevue_150th_Newport",
+      "lighting": "Day",
+      "traffic_level": "Medium",
+      "frame_qa_status": "QA_ACCEPTED",
+      "image_sha256": "55be72ef4e744d4680c5774c52c0f04b0fe6f5e42446aa551b5d7030d1e91841",
+      "label_sha256": "400f1ba825034eb8364bed072a549726e1f39e5f7014104812b9f7db1f0d78a1",
+      "gt_counts": {
+        "car": 20,
+        "motorcycle": 0,
+        "bus": 0,
+        "truck": 0
+      }
+    },
+    {
+      "filename": "Bellevue_150th_Newport__2017-09-11_08-08-31__validation__slot_10__p_0.786364__t_2830.613344.jpg",
+      "annotation_id": "F0661",
+      "split": "Validation",
+      "source_video": "Bellevue_150th_Newport__2017-09-11_08-08-31.mp4",
+      "intersection": "Bellevue_150th_Newport",
+      "lighting": "Day",
+      "traffic_level": "Medium",
+      "frame_qa_status": "QA_ACCEPTED",
+      "image_sha256": "69e47369ae69d33f0bfbf67f747dd8f6bf99daf0e56c2fd9d13da33b526cb161",
+      "label_sha256": "f43485ea0ad51b1c055a4fcd4501cc7746dbf36bdd54458d54c082c6bc82660c",
+      "gt_counts": {
+        "car": 16,
+        "motorcycle": 0,
+        "bus": 0,
+        "truck": 0
+      }
+    },
+    {
+      "filename": "Bellevue_150th_Newport__2017-09-11_08-08-31__validation__slot_11__p_0.868182__t_3125.180700.jpg",
+      "annotation_id": "F0662",
+      "split": "Validation",
+      "source_video": "Bellevue_150th_Newport__2017-09-11_08-08-31.mp4",
+      "intersection": "Bellevue_150th_Newport",
+      "lighting": "Day",
+      "traffic_level": "Medium",
+      "frame_qa_status": "QA_ACCEPTED",
+      "image_sha256": "a04ac6455bb994370b69fecab896c398de8b3a9f25914a664bccb8eaab44081c",
+      "label_sha256": "224a44067a3c8ab671c5e9f0e38032fbbe7e0441a3448a7eed1a00d73930ba1e",
+      "gt_counts": {
+        "car": 12,
+        "motorcycle": 0,
+        "bus": 0,
+        "truck": 0
+      }
+    },
+    {
+      "filename": "Bellevue_150th_Newport__2017-09-11_08-08-31__validation__slot_12__p_0.950000__t_3419.881389.jpg",
+      "annotation_id": "F0663",
+      "split": "Validation",
+      "source_video": "Bellevue_150th_Newport__2017-09-11_08-08-31.mp4",
+      "intersection": "Bellevue_150th_Newport",
+      "lighting": "Day",
+      "traffic_level": "Medium",
+      "frame_qa_status": "QA_ACCEPTED",
+      "image_sha256": "f14572b1b649f3950cbcb6ccf09566b9ee72cc864d0a1ad16c49fa2d0ef26bf2",
+      "label_sha256": "6c50ddf1f002b08e5f66e8f7fff9df6186a9a4a01d15211f7593f4f12c7d3796",
+      "gt_counts": {
+        "car": 8,
+        "motorcycle": 0,
+        "bus": 0,
+        "truck": 0
+      }
+    },
+    {
+      "filename": "Bellevue_150th_Newport__2017-09-11_15-08-32__validation__slot_01__p_0.050000__t_179.967067.jpg",
+      "annotation_id": "F0736",
+      "split": "Validation",
+      "source_video": "Bellevue_150th_Newport__2017-09-11_15-08-32.mp4",
+      "intersection": "Bellevue_150th_Newport",
+      "lighting": "Day",
+      "traffic_level": "Medium",
+      "frame_qa_status": "QA_ACCEPTED",
+      "image_sha256": "81301611e9bc71bfa246c112ccfc13f3fbc2ed7945507167bb4a5e0f3b398566",
+      "label_sha256": "5dc7f56ed8234ab858ec891e60a812e9f4af94c102dbfff1053752979fa8364a",
+      "gt_counts": {
+        "car": 17,
+        "motorcycle": 0,
+        "bus": 1,
+        "truck": 1
+      }
+    },
+    {
+      "filename": "Bellevue_150th_Newport__2017-09-11_15-08-32__validation__slot_02__p_0.131818__t_474.153300.jpg",
+      "annotation_id": "F0737",
+      "split": "Validation",
+      "source_video": "Bellevue_150th_Newport__2017-09-11_15-08-32.mp4",
+      "intersection": "Bellevue_150th_Newport",
+      "lighting": "Day",
+      "traffic_level": "Medium",
+      "frame_qa_status": "QA_ACCEPTED",
+      "image_sha256": "99d5e0a0b5f63a6523b51c6c58ad3608570e6fb50dd0796c0918c97aa904d8ff",
+      "label_sha256": "c5c8e811364bd737554971a41ee2c02264093cb531a0c0b24c270b4734a090ba",
+      "gt_counts": {
+        "car": 10,
+        "motorcycle": 0,
+        "bus": 0,
+        "truck": 0
+      }
+    },
+    {
+      "filename": "Bellevue_150th_Newport__2017-09-11_15-08-32__validation__slot_03__p_0.213636__t_768.787289.jpg",
+      "annotation_id": "F0738",
+      "split": "Validation",
+      "source_video": "Bellevue_150th_Newport__2017-09-11_15-08-32.mp4",
+      "intersection": "Bellevue_150th_Newport",
+      "lighting": "Day",
+      "traffic_level": "Medium",
+      "frame_qa_status": "QA_ACCEPTED",
+      "image_sha256": "00e9a68fb3f9f1ce0db315fa60178eff2bafc5e2898545869c43d20e843ddd01",
+      "label_sha256": "011caa991c9f78d461c6070e9be250856da51a24e49abdaffac4af11f17d12ef",
+      "gt_counts": {
+        "car": 10,
+        "motorcycle": 0,
+        "bus": 0,
+        "truck": 0
+      }
+    },
+    {
+      "filename": "Bellevue_150th_Newport__2017-09-11_15-08-32__validation__slot_04__p_0.295455__t_1063.454611.jpg",
+      "annotation_id": "F0739",
+      "split": "Validation",
+      "source_video": "Bellevue_150th_Newport__2017-09-11_15-08-32.mp4",
+      "intersection": "Bellevue_150th_Newport",
+      "lighting": "Day",
+      "traffic_level": "Medium",
+      "frame_qa_status": "QA_ACCEPTED",
+      "image_sha256": "349b5f3692c6965f4ad22a44dcb51343cbddfcf160eb10762c592d1ac35cee79",
+      "label_sha256": "ecb4d0f0cf8354d3c04e98274344d39acb2739fd6db2dcc62872e87934806bb4",
+      "gt_counts": {
+        "car": 11,
+        "motorcycle": 0,
+        "bus": 0,
+        "truck": 0
+      }
+    },
+    {
+      "filename": "Bellevue_150th_Newport__2017-09-11_15-08-32__validation__slot_05__p_0.377273__t_1358.155267.jpg",
+      "annotation_id": "F0740",
+      "split": "Validation",
+      "source_video": "Bellevue_150th_Newport__2017-09-11_15-08-32.mp4",
+      "intersection": "Bellevue_150th_Newport",
+      "lighting": "Day",
+      "traffic_level": "Medium",
+      "frame_qa_status": "QA_ACCEPTED",
+      "image_sha256": "ea2ceccc80e05c7ba279a07cbe42ac8fdee0d3428c71eeef7ec0d13949091e1c",
+      "label_sha256": "1cdc8b6a9164fd7c790adcb45392c516cfcaf876dbb9f94d132f3da63f9e5d93",
+      "gt_counts": {
+        "car": 13,
+        "motorcycle": 0,
+        "bus": 0,
+        "truck": 0
+      }
+    },
+    {
+      "filename": "Bellevue_150th_Newport__2017-09-11_15-08-32__validation__slot_06__p_0.459091__t_1652.655889.jpg",
+      "annotation_id": "F0741",
+      "split": "Validation",
+      "source_video": "Bellevue_150th_Newport__2017-09-11_15-08-32.mp4",
+      "intersection": "Bellevue_150th_Newport",
+      "lighting": "Day",
+      "traffic_level": "Medium",
+      "frame_qa_status": "QA_ACCEPTED",
+      "image_sha256": "7db3291b4d6f877ee77f7c677944006688b66eaf80f075acd65e4bebc4b3fe6e",
+      "label_sha256": "048c3b733bd3e3518b469d78c31df293090f9cc146598c14786e746f60d2b1b2",
+      "gt_counts": {
+        "car": 8,
+        "motorcycle": 0,
+        "bus": 0,
+        "truck": 0
+      }
+    },
+    {
+      "filename": "Bellevue_150th_Newport__2017-09-11_15-08-32__validation__slot_07__p_0.540909__t_1947.423100.jpg",
+      "annotation_id": "F0742",
+      "split": "Validation",
+      "source_video": "Bellevue_150th_Newport__2017-09-11_15-08-32.mp4",
+      "intersection": "Bellevue_150th_Newport",
+      "lighting": "Day",
+      "traffic_level": "Medium",
+      "frame_qa_status": "QA_ACCEPTED",
+      "image_sha256": "1aa2342b2f47a6f76e20ba419671e50481a3e83e17ca2e1caf9b5fa786d5b883",
+      "label_sha256": "3460008e425667e46a4cc584cd67777fd4c89f60d6b164a4d8eea8d74e0b7271",
+      "gt_counts": {
+        "car": 10,
+        "motorcycle": 0,
+        "bus": 0,
+        "truck": 0
+      }
+    },
+    {
+      "filename": "Bellevue_150th_Newport__2017-09-11_15-08-32__validation__slot_08__p_0.622727__t_2242.256833.jpg",
+      "annotation_id": "F0743",
+      "split": "Validation",
+      "source_video": "Bellevue_150th_Newport__2017-09-11_15-08-32.mp4",
+      "intersection": "Bellevue_150th_Newport",
+      "lighting": "Day",
+      "traffic_level": "Medium",
+      "frame_qa_status": "QA_ACCEPTED",
+      "image_sha256": "6ca1010f614332e4aff15e789227729da6c7e8741740c76c50e259e5f9c8c093",
+      "label_sha256": "2576a9309e45394d3e6056a58631a8b81f7d68200f6383ac926de134b6a39e6f",
+      "gt_counts": {
+        "car": 12,
+        "motorcycle": 0,
+        "bus": 3,
+        "truck": 0
+      }
+    },
+    {
+      "filename": "Bellevue_150th_Newport__2017-09-11_15-08-32__validation__slot_09__p_0.704545__t_2536.823811.jpg",
+      "annotation_id": "F0744",
+      "split": "Validation",
+      "source_video": "Bellevue_150th_Newport__2017-09-11_15-08-32.mp4",
+      "intersection": "Bellevue_150th_Newport",
+      "lighting": "Day",
+      "traffic_level": "Medium",
+      "frame_qa_status": "QA_ACCEPTED",
+      "image_sha256": "c124daffcb2569848b633e3bff6a2f9f6b5c7571dc9ab9bf9cc2109fa97343a0",
+      "label_sha256": "65b2318f5b2c27818cfad3abbc7c2d15c05d79c9274eee1035c14b08b4839e18",
+      "gt_counts": {
+        "car": 13,
+        "motorcycle": 0,
+        "bus": 1,
+        "truck": 1
+      }
+    },
+    {
+      "filename": "Bellevue_150th_Newport__2017-09-11_15-08-32__validation__slot_10__p_0.786364__t_2830.457500.jpg",
+      "annotation_id": "F0745",
+      "split": "Validation",
+      "source_video": "Bellevue_150th_Newport__2017-09-11_15-08-32.mp4",
+      "intersection": "Bellevue_150th_Newport",
+      "lighting": "Day",
+      "traffic_level": "Medium",
+      "frame_qa_status": "QA_ACCEPTED",
+      "image_sha256": "41a1b9675ba4a821db136813e80831915908dd18d30e94d9fcd3eddbd8b2f30a",
+      "label_sha256": "66d31a06041d8309a3787492a6eae6c91794ec06a8a3781161e99d93ae40f037",
+      "gt_counts": {
+        "car": 17,
+        "motorcycle": 0,
+        "bus": 2,
+        "truck": 0
+      }
+    },
+    {
+      "filename": "Bellevue_150th_Newport__2017-09-11_15-08-32__validation__slot_11__p_0.868182__t_3124.941411.jpg",
+      "annotation_id": "F0746",
+      "split": "Validation",
+      "source_video": "Bellevue_150th_Newport__2017-09-11_15-08-32.mp4",
+      "intersection": "Bellevue_150th_Newport",
+      "lighting": "Day",
+      "traffic_level": "Medium",
+      "frame_qa_status": "QA_ACCEPTED",
+      "image_sha256": "d136c7432755712b790d095bc0d92c9ecded895e0c40dd8943eab3d139f5bc78",
+      "label_sha256": "fe03cdeef5893ff8475f4e840284de1133b2dc1ef7a262287faf454966306e9f",
+      "gt_counts": {
+        "car": 8,
+        "motorcycle": 0,
+        "bus": 2,
+        "truck": 0
+      }
+    },
+    {
+      "filename": "Bellevue_150th_Newport__2017-09-11_15-08-32__validation__slot_12__p_0.950000__t_3420.441889.jpg",
+      "annotation_id": "F0747",
+      "split": "Validation",
+      "source_video": "Bellevue_150th_Newport__2017-09-11_15-08-32.mp4",
+      "intersection": "Bellevue_150th_Newport",
+      "lighting": "Day",
+      "traffic_level": "Medium",
+      "frame_qa_status": "QA_ACCEPTED",
+      "image_sha256": "fa5b2de68ba37941ffd6e7dfa2c82fbb88c4e0e97441cb7a856d6f716a0fb692",
+      "label_sha256": "ba1356d8fa5b7b1a4639dfae1aed0ed8efe982b02391d07dee0aeb0a6c1887a2",
+      "gt_counts": {
+        "car": 10,
+        "motorcycle": 0,
+        "bus": 0,
+        "truck": 1
+      }
+    },
+    {
+      "filename": "Bellevue_150th_SE38th__2017-09-10_19-08-25__validation__slot_01__p_0.050000__t_180.232833.jpg",
+      "annotation_id": "F0784",
+      "split": "Validation",
+      "source_video": "Bellevue_150th_SE38th__2017-09-10_19-08-25.mp4",
+      "intersection": "Bellevue_150th_SE38th",
+      "lighting": "Dawn/Dusk",
+      "traffic_level": "Medium",
+      "frame_qa_status": "QA_ACCEPTED",
+      "image_sha256": "e4686579f9aaf1ba766c42e72c5294870c9b424d2aa562e53368696d2cc51c93",
+      "label_sha256": "c27fc51a19704bbd9d4d400de8a90ddf1dc844d44b0dbbcdd1abaeead9900f9d",
+      "gt_counts": {
+        "car": 4,
+        "motorcycle": 0,
+        "bus": 0,
+        "truck": 1
+      }
+    },
+    {
+      "filename": "Bellevue_150th_SE38th__2017-09-10_19-08-25__validation__slot_02__p_0.131818__t_474.631967.jpg",
+      "annotation_id": "F0785",
+      "split": "Validation",
+      "source_video": "Bellevue_150th_SE38th__2017-09-10_19-08-25.mp4",
+      "intersection": "Bellevue_150th_SE38th",
+      "lighting": "Dawn/Dusk",
+      "traffic_level": "Medium",
+      "frame_qa_status": "QA_ACCEPTED",
+      "image_sha256": "30d3772fe638775f2c4a138e900e140c662faafdd68b8624679447492edf597a",
+      "label_sha256": "6bcf8f71cfae814e9a791cf65c4a7ec8ead450b5c54f5c603d375423c7c41faa",
+      "gt_counts": {
+        "car": 5,
+        "motorcycle": 0,
+        "bus": 0,
+        "truck": 1
+      }
+    },
+    {
+      "filename": "Bellevue_150th_SE38th__2017-09-10_19-08-25__validation__slot_03__p_0.213636__t_769.031100.jpg",
+      "annotation_id": "F0786",
+      "split": "Validation",
+      "source_video": "Bellevue_150th_SE38th__2017-09-10_19-08-25.mp4",
+      "intersection": "Bellevue_150th_SE38th",
+      "lighting": "Dawn/Dusk",
+      "traffic_level": "Medium",
+      "frame_qa_status": "QA_ACCEPTED",
+      "image_sha256": "5dfb457da04cf70682bd86229d657909389a1c6d404503c1d52ebca92d40a246",
+      "label_sha256": "a43636e525f9569a6473d1815a9c4e2058ab0e1a334f98cb9b29bc187a94034d",
+      "gt_counts": {
+        "car": 6,
+        "motorcycle": 0,
+        "bus": 0,
+        "truck": 0
+      }
+    },
+    {
+      "filename": "Bellevue_150th_SE38th__2017-09-10_19-08-25__validation__slot_04__p_0.295455__t_1063.430200.jpg",
+      "annotation_id": "F0787",
+      "split": "Validation",
+      "source_video": "Bellevue_150th_SE38th__2017-09-10_19-08-25.mp4",
+      "intersection": "Bellevue_150th_SE38th",
+      "lighting": "Dawn/Dusk",
+      "traffic_level": "Medium",
+      "frame_qa_status": "QA_ACCEPTED",
+      "image_sha256": "54de4b69d6de37611b7310b72d385952c0ab4e9d207bda56aee3b0735409c8bf",
+      "label_sha256": "a4399c41b32e42878a86d2271eb23a13db98f0054ea0a58343aa5f63ca15b722",
+      "gt_counts": {
+        "car": 11,
+        "motorcycle": 0,
+        "bus": 0,
+        "truck": 1
+      }
+    },
+    {
+      "filename": "Bellevue_150th_SE38th__2017-09-10_19-08-25__validation__slot_05__p_0.377273__t_1357.829300.jpg",
+      "annotation_id": "F0788",
+      "split": "Validation",
+      "source_video": "Bellevue_150th_SE38th__2017-09-10_19-08-25.mp4",
+      "intersection": "Bellevue_150th_SE38th",
+      "lighting": "Dawn/Dusk",
+      "traffic_level": "Medium",
+      "frame_qa_status": "QA_ACCEPTED",
+      "image_sha256": "69042c4635ed1edab28a37b7d48e23ccc5285db2a3e9f87b6631a9ca8ce21ded",
+      "label_sha256": "c5636a224304bbdbf9663a874c5d3e55c0158ef121a6d29795b33be94c669d7b",
+      "gt_counts": {
+        "car": 7,
+        "motorcycle": 0,
+        "bus": 0,
+        "truck": 0
+      }
+    },
+    {
+      "filename": "Bellevue_150th_SE38th__2017-09-10_19-08-25__validation__slot_06__p_0.459091__t_1652.243133.jpg",
+      "annotation_id": "F0789",
+      "split": "Validation",
+      "source_video": "Bellevue_150th_SE38th__2017-09-10_19-08-25.mp4",
+      "intersection": "Bellevue_150th_SE38th",
+      "lighting": "Dawn/Dusk",
+      "traffic_level": "Medium",
+      "frame_qa_status": "QA_ACCEPTED",
+      "image_sha256": "8a5608ec7789945da6d761a6ece0bd5dbfc0e4878d3237eb5461670f1267ed10",
+      "label_sha256": "9a2f2f9a2c849f60d78b7141984a41fd6287e6f107ea4d3b6eda9c216299ce70",
+      "gt_counts": {
+        "car": 9,
+        "motorcycle": 0,
+        "bus": 0,
+        "truck": 1
+      }
+    },
+    {
+      "filename": "Bellevue_150th_SE38th__2017-09-10_19-08-25__validation__slot_07__p_0.540909__t_1947.708833.jpg",
+      "annotation_id": "F0790",
+      "split": "Validation",
+      "source_video": "Bellevue_150th_SE38th__2017-09-10_19-08-25.mp4",
+      "intersection": "Bellevue_150th_SE38th",
+      "lighting": "Dawn/Dusk",
+      "traffic_level": "Medium",
+      "frame_qa_status": "QA_ACCEPTED",
+      "image_sha256": "bdb93ea6f6d5ab75cd1d1990ce9dc0b8bcb7d31374bce8d69b815cca7134b65b",
+      "label_sha256": "fa9a2df1e2c3b1c0568c1b00eac4ad5568bfaebbecd3e18ae18e0ac8ec6403d4",
+      "gt_counts": {
+        "car": 5,
+        "motorcycle": 0,
+        "bus": 0,
+        "truck": 0
+      }
+    },
+    {
+      "filename": "Bellevue_150th_SE38th__2017-09-10_19-08-25__validation__slot_08__p_0.622727__t_2242.107822.jpg",
+      "annotation_id": "F0791",
+      "split": "Validation",
+      "source_video": "Bellevue_150th_SE38th__2017-09-10_19-08-25.mp4",
+      "intersection": "Bellevue_150th_SE38th",
+      "lighting": "Dawn/Dusk",
+      "traffic_level": "Medium",
+      "frame_qa_status": "QA_ACCEPTED",
+      "image_sha256": "05bcb40ea2e90d93275e22fb46f475479dfd04c785f76a92f61b777f24a6b38e",
+      "label_sha256": "75998d1ea1b4b8739b3dcc1900c0aa92b1821c5df4bc781517ec5fa0b16e4c5d",
+      "gt_counts": {
+        "car": 8,
+        "motorcycle": 0,
+        "bus": 0,
+        "truck": 0
+      }
+    },
+    {
+      "filename": "Bellevue_150th_SE38th__2017-09-10_19-08-25__validation__slot_09__p_0.704545__t_2536.706789.jpg",
+      "annotation_id": "F0792",
+      "split": "Validation",
+      "source_video": "Bellevue_150th_SE38th__2017-09-10_19-08-25.mp4",
+      "intersection": "Bellevue_150th_SE38th",
+      "lighting": "Dawn/Dusk",
+      "traffic_level": "Medium",
+      "frame_qa_status": "QA_ACCEPTED",
+      "image_sha256": "715e16973591c8e04379423960296fa5f70c147a342f1109ee6e344ce02b597e",
+      "label_sha256": "10ec48fa9e6521cb2a0890700ec116e45c13183a728031eabd643158f3751e5f",
+      "gt_counts": {
+        "car": 11,
+        "motorcycle": 0,
+        "bus": 0,
+        "truck": 1
+      }
+    },
+    {
+      "filename": "Bellevue_150th_SE38th__2017-09-10_19-08-25__validation__slot_10__p_0.786364__t_2831.105778.jpg",
+      "annotation_id": "F0793",
+      "split": "Validation",
+      "source_video": "Bellevue_150th_SE38th__2017-09-10_19-08-25.mp4",
+      "intersection": "Bellevue_150th_SE38th",
+      "lighting": "Dawn/Dusk",
+      "traffic_level": "Medium",
+      "frame_qa_status": "QA_ACCEPTED",
+      "image_sha256": "d4488f0a7877bfb9ef8e70335a743f32b983104ffc1f437e946f5b855a653b16",
+      "label_sha256": "ef1be997d614f3ad890bb3ed424c6b65f12c986df093b39a96c243ac7a5de4b8",
+      "gt_counts": {
+        "car": 8,
+        "motorcycle": 0,
+        "bus": 0,
+        "truck": 1
+      }
+    },
+    {
+      "filename": "Bellevue_150th_SE38th__2017-09-10_19-08-25__validation__slot_11__p_0.868182__t_3125.504733.jpg",
+      "annotation_id": "F0794",
+      "split": "Validation",
+      "source_video": "Bellevue_150th_SE38th__2017-09-10_19-08-25.mp4",
+      "intersection": "Bellevue_150th_SE38th",
+      "lighting": "Dawn/Dusk",
+      "traffic_level": "Medium",
+      "frame_qa_status": "QA_ACCEPTED",
+      "image_sha256": "afe90aa51b982de2357693df65aaad9022f8ef8a547de01dfe01bb304013f7e2",
+      "label_sha256": "a67d3978807a9a14071d9994bee9e877b4aaadf44befcccdb58708cb706a001a",
+      "gt_counts": {
+        "car": 3,
+        "motorcycle": 0,
+        "bus": 0,
+        "truck": 1
+      }
+    },
+    {
+      "filename": "Bellevue_150th_SE38th__2017-09-10_19-08-25__validation__slot_12__p_0.950000__t_3419.908367.jpg",
+      "annotation_id": "F0795",
+      "split": "Validation",
+      "source_video": "Bellevue_150th_SE38th__2017-09-10_19-08-25.mp4",
+      "intersection": "Bellevue_150th_SE38th",
+      "lighting": "Dawn/Dusk",
+      "traffic_level": "Medium",
+      "frame_qa_status": "QA_ACCEPTED",
+      "image_sha256": "a20737831d42b70dc2d9b663d553b6d96891ee0b7c93912effa0d247db7a1527",
+      "label_sha256": "408f4d65df8525543fb4945b2feecf9046faadf0b51f9754437dbb5585d9f90b",
+      "gt_counts": {
+        "car": 4,
+        "motorcycle": 0,
+        "bus": 0,
+        "truck": 0
+      }
+    },
+    {
+      "filename": "Bellevue_150th_SE38th__2017-09-10_20-08-25__validation__slot_01__p_0.050000__t_180.232689.jpg",
+      "annotation_id": "F0796",
+      "split": "Validation",
+      "source_video": "Bellevue_150th_SE38th__2017-09-10_20-08-25.mp4",
+      "intersection": "Bellevue_150th_SE38th",
+      "lighting": "Night",
+      "traffic_level": "Low",
+      "frame_qa_status": "QA_ACCEPTED",
+      "image_sha256": "bf3feda5fde436a832f347499211ed0b678e32daf405a550bc48c04c81214d7a",
+      "label_sha256": "f3c0a80bd24a3e8ad2e1e1cf1475a96fc0683c6ca9d6117346f2bdfda3459212",
+      "gt_counts": {
+        "car": 6,
+        "motorcycle": 0,
+        "bus": 0,
+        "truck": 0
+      }
+    },
+    {
+      "filename": "Bellevue_150th_SE38th__2017-09-10_20-08-25__validation__slot_02__p_0.131818__t_474.531644.jpg",
+      "annotation_id": "F0797",
+      "split": "Validation",
+      "source_video": "Bellevue_150th_SE38th__2017-09-10_20-08-25.mp4",
+      "intersection": "Bellevue_150th_SE38th",
+      "lighting": "Night",
+      "traffic_level": "Low",
+      "frame_qa_status": "QA_ACCEPTED",
+      "image_sha256": "c92e7f9ed68c868b9da14ed2b8c5d9b0008f9991d6519ed5b1154216ecadc5e0",
+      "label_sha256": "e2558d43ba4c882663ad08fe54f8c2bfb8c47438b3beddc7615ff0449ca46bfe",
+      "gt_counts": {
+        "car": 6,
+        "motorcycle": 0,
+        "bus": 0,
+        "truck": 2
+      }
+    },
+    {
+      "filename": "Bellevue_150th_SE38th__2017-09-10_20-08-25__validation__slot_03__p_0.213636__t_769.463911.jpg",
+      "annotation_id": "F0798",
+      "split": "Validation",
+      "source_video": "Bellevue_150th_SE38th__2017-09-10_20-08-25.mp4",
+      "intersection": "Bellevue_150th_SE38th",
+      "lighting": "Night",
+      "traffic_level": "Low",
+      "frame_qa_status": "QA_ACCEPTED",
+      "image_sha256": "fa5d27b55c18a756524ba6288405ff859544cbc9fb9c43592f0f97e5c2efcff4",
+      "label_sha256": "3e90f272dec5435b6838cb171ba8a6afab7b493cfa7b678261fd37de6d59968b",
+      "gt_counts": {
+        "car": 11,
+        "motorcycle": 0,
+        "bus": 0,
+        "truck": 0
+      }
+    },
+    {
+      "filename": "Bellevue_150th_SE38th__2017-09-10_20-08-25__validation__slot_04__p_0.295455__t_1034.541567.jpg",
+      "annotation_id": "F0799",
+      "split": "Validation",
+      "source_video": "Bellevue_150th_SE38th__2017-09-10_20-08-25.mp4",
+      "intersection": "Bellevue_150th_SE38th",
+      "lighting": "Night",
+      "traffic_level": "Low",
+      "frame_qa_status": "QA_ACCEPTED_WITH_TIMESTAMP_LIMITATION",
+      "image_sha256": "4879883b3456b08f80b1ba4133e6df77e6032596860e2a067cdbd8193e033bca",
+      "label_sha256": "fec5c971c0410e36a633c19ec06b6aafc9b4268dbf88e0905f25b3da76d553f1",
+      "gt_counts": {
+        "car": 6,
+        "motorcycle": 0,
+        "bus": 0,
+        "truck": 0
+      }
+    },
+    {
+      "filename": "Bellevue_150th_SE38th__2017-09-10_20-08-25__validation__slot_05__p_0.377273__t_1358.273756.jpg",
+      "annotation_id": "F0800",
+      "split": "Validation",
+      "source_video": "Bellevue_150th_SE38th__2017-09-10_20-08-25.mp4",
+      "intersection": "Bellevue_150th_SE38th",
+      "lighting": "Night",
+      "traffic_level": "Low",
+      "frame_qa_status": "QA_ACCEPTED",
+      "image_sha256": "e0b8085aa59b0877baf33d11f8256bf9fe4128f1b3f1f33de400176a14d7f01a",
+      "label_sha256": "bfa12d09fafd2f640f4bb5da6038c7263f47a4671ba18e752368e83618e40439",
+      "gt_counts": {
+        "car": 3,
+        "motorcycle": 0,
+        "bus": 0,
+        "truck": 0
+      }
+    },
+    {
+      "filename": "Bellevue_150th_SE38th__2017-09-10_20-08-25__validation__slot_06__p_0.459091__t_1652.689033.jpg",
+      "annotation_id": "F0801",
+      "split": "Validation",
+      "source_video": "Bellevue_150th_SE38th__2017-09-10_20-08-25.mp4",
+      "intersection": "Bellevue_150th_SE38th",
+      "lighting": "Night",
+      "traffic_level": "Low",
+      "frame_qa_status": "QA_ACCEPTED",
+      "image_sha256": "06aa63f1c8b3b92bbc43c42e702d4c47ecc0593be7d6cf4feb7b0bb5b9699fc1",
+      "label_sha256": "6c058219c116007b7f98cf143fa58a76b6339014381590fa513e37cfca85d7cc",
+      "gt_counts": {
+        "car": 7,
+        "motorcycle": 0,
+        "bus": 0,
+        "truck": 0
+      }
+    },
+    {
+      "filename": "Bellevue_150th_SE38th__2017-09-10_20-08-25__validation__slot_07__p_0.540909__t_1947.087978.jpg",
+      "annotation_id": "F0802",
+      "split": "Validation",
+      "source_video": "Bellevue_150th_SE38th__2017-09-10_20-08-25.mp4",
+      "intersection": "Bellevue_150th_SE38th",
+      "lighting": "Night",
+      "traffic_level": "Low",
+      "frame_qa_status": "QA_ACCEPTED",
+      "image_sha256": "74b08fe5c28eb686c7ce5e86be9b48980312351041524eff9faeb690cea46b24",
+      "label_sha256": "b638e4836d72fca321eaa36b8017e48df6309d304fc2109a8ce50890241f3dec",
+      "gt_counts": {
+        "car": 7,
+        "motorcycle": 0,
+        "bus": 0,
+        "truck": 0
+      }
+    },
+    {
+      "filename": "Bellevue_150th_SE38th__2017-09-10_20-08-25__validation__slot_08__p_0.622727__t_2241.496456.jpg",
+      "annotation_id": "F0803",
+      "split": "Validation",
+      "source_video": "Bellevue_150th_SE38th__2017-09-10_20-08-25.mp4",
+      "intersection": "Bellevue_150th_SE38th",
+      "lighting": "Night",
+      "traffic_level": "Low",
+      "frame_qa_status": "QA_ACCEPTED",
+      "image_sha256": "fb379895eb46bd4ee499e4e991101c1e410b8a8e7e9bf923a8c897f3364913c3",
+      "label_sha256": "fcb3eee4a7305be8e9b85754a0f34ef498c0c79ecc870847fbc0fd6a3e6a3c13",
+      "gt_counts": {
+        "car": 5,
+        "motorcycle": 0,
+        "bus": 0,
+        "truck": 1
+      }
+    },
+    {
+      "filename": "Bellevue_150th_SE38th__2017-09-10_20-08-25__validation__slot_09__p_0.704545__t_2535.895389.jpg",
+      "annotation_id": "F0804",
+      "split": "Validation",
+      "source_video": "Bellevue_150th_SE38th__2017-09-10_20-08-25.mp4",
+      "intersection": "Bellevue_150th_SE38th",
+      "lighting": "Night",
+      "traffic_level": "Low",
+      "frame_qa_status": "QA_ACCEPTED",
+      "image_sha256": "0aa1dce919fc52b7765f8e15cdbc1260e4e5bfb832c322ce838be4202739c438",
+      "label_sha256": "3fc47669484ca0b86d47ac21a812188a4304909f0234d0adf4d50ef9a6d6cd0d",
+      "gt_counts": {
+        "car": 5,
+        "motorcycle": 0,
+        "bus": 0,
+        "truck": 0
+      }
+    },
+    {
+      "filename": "Bellevue_150th_SE38th__2017-09-10_20-08-25__validation__slot_10__p_0.786364__t_2831.360989.jpg",
+      "annotation_id": "F0805",
+      "split": "Validation",
+      "source_video": "Bellevue_150th_SE38th__2017-09-10_20-08-25.mp4",
+      "intersection": "Bellevue_150th_SE38th",
+      "lighting": "Night",
+      "traffic_level": "Low",
+      "frame_qa_status": "QA_ACCEPTED",
+      "image_sha256": "ab5189b4caa6e29f4f85028344b94d6ff14dcd019c8314f22306dd3b943c0d2c",
+      "label_sha256": "70433041800409a6c0ef3bd7cffe7fd352ce8a5c86e293bd4e6c771a3ea13fd2",
+      "gt_counts": {
+        "car": 1,
+        "motorcycle": 0,
+        "bus": 0,
+        "truck": 0
+      }
+    },
+    {
+      "filename": "Bellevue_150th_SE38th__2017-09-10_20-08-25__validation__slot_11__p_0.868182__t_3125.759956.jpg",
+      "annotation_id": "F0806",
+      "split": "Validation",
+      "source_video": "Bellevue_150th_SE38th__2017-09-10_20-08-25.mp4",
+      "intersection": "Bellevue_150th_SE38th",
+      "lighting": "Night",
+      "traffic_level": "Low",
+      "frame_qa_status": "QA_ACCEPTED",
+      "image_sha256": "d29d6ddcf1313dc28e9eae7faec4e2d9698d1cba6a6f6aef37260f171c4f2f5b",
+      "label_sha256": "2de47ac9fa58a30a47ab5cc2c31ebac06e7a82583ef9cef028cd9dfdca556fea",
+      "gt_counts": {
+        "car": 2,
+        "motorcycle": 0,
+        "bus": 0,
+        "truck": 1
+      }
+    },
+    {
+      "filename": "Bellevue_150th_SE38th__2017-09-10_20-08-25__validation__slot_12__p_0.950000__t_3420.158889.jpg",
+      "annotation_id": "F0807",
+      "split": "Validation",
+      "source_video": "Bellevue_150th_SE38th__2017-09-10_20-08-25.mp4",
+      "intersection": "Bellevue_150th_SE38th",
+      "lighting": "Night",
+      "traffic_level": "Low",
+      "frame_qa_status": "QA_ACCEPTED",
+      "image_sha256": "78a5d23413db40bb6eacd5cf4a5196d3074f097faf819c9001becb75c9699a20",
+      "label_sha256": "5debc084252831b5ad85578c9ebc35e0a03e284824df8fb238c95e94cf0355e4",
+      "gt_counts": {
+        "car": 1,
+        "motorcycle": 0,
+        "bus": 0,
+        "truck": 0
+      }
+    },
+    {
+      "filename": "Bellevue_150th_SE38th__2017-09-11_01-08-30__validation__slot_01__p_0.050000__t_157.532833.jpg",
+      "annotation_id": "F0856",
+      "split": "Validation",
+      "source_video": "Bellevue_150th_SE38th__2017-09-11_01-08-30.mp4",
+      "intersection": "Bellevue_150th_SE38th",
+      "lighting": "Night",
+      "traffic_level": "Low",
+      "frame_qa_status": "QA_ACCEPTED",
+      "image_sha256": "d1d62cb64fdc235942b99a41b4ceaabb61eabc3b75190261217357543d63e312",
+      "label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "gt_counts": {
+        "car": 0,
+        "motorcycle": 0,
+        "bus": 0,
+        "truck": 0
+      }
+    },
+    {
+      "filename": "Bellevue_150th_SE38th__2017-09-11_01-08-30__validation__slot_02__p_0.131818__t_415.708356.jpg",
+      "annotation_id": "F0857",
+      "split": "Validation",
+      "source_video": "Bellevue_150th_SE38th__2017-09-11_01-08-30.mp4",
+      "intersection": "Bellevue_150th_SE38th",
+      "lighting": "Night",
+      "traffic_level": "Low",
+      "frame_qa_status": "QA_ACCEPTED",
+      "image_sha256": "b79452841822993dc5923c278cf03477289b2cafb74dea7f7da47879b79b3fb4",
+      "label_sha256": "8afa306d2b59ac3faf116c8c04e71f59fd09d88f2bb82d7131c75db82c0982e0",
+      "gt_counts": {
+        "car": 1,
+        "motorcycle": 0,
+        "bus": 0,
+        "truck": 0
+      }
+    },
+    {
+      "filename": "Bellevue_150th_SE38th__2017-09-11_01-08-30__validation__slot_03__p_0.213636__t_672.774167.jpg",
+      "annotation_id": "F0858",
+      "split": "Validation",
+      "source_video": "Bellevue_150th_SE38th__2017-09-11_01-08-30.mp4",
+      "intersection": "Bellevue_150th_SE38th",
+      "lighting": "Night",
+      "traffic_level": "Low",
+      "frame_qa_status": "QA_ACCEPTED",
+      "image_sha256": "ee37f109616742b2fe04685fa1a0495375814ec92d3117e7629bf0c5b9fa821b",
+      "label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "gt_counts": {
+        "car": 0,
+        "motorcycle": 0,
+        "bus": 0,
+        "truck": 0
+      }
+    },
+    {
+      "filename": "Bellevue_150th_SE38th__2017-09-11_01-08-30__validation__slot_04__p_0.295455__t_930.639978.jpg",
+      "annotation_id": "F0859",
+      "split": "Validation",
+      "source_video": "Bellevue_150th_SE38th__2017-09-11_01-08-30.mp4",
+      "intersection": "Bellevue_150th_SE38th",
+      "lighting": "Night",
+      "traffic_level": "Low",
+      "frame_qa_status": "QA_ACCEPTED",
+      "image_sha256": "cc6d95d03d7fb32856be4af55f7d693d3d32afeb583f2aa65dd5abfd52cfe0bb",
+      "label_sha256": "6e91bbac20fb909caddfe1c997ab643ff0d157a24671a0511925a2c8417295f1",
+      "gt_counts": {
+        "car": 2,
+        "motorcycle": 0,
+        "bus": 0,
+        "truck": 0
+      }
+    },
+    {
+      "filename": "Bellevue_150th_SE38th__2017-09-11_01-08-30__validation__slot_05__p_0.377273__t_1188.739133.jpg",
+      "annotation_id": "F0860",
+      "split": "Validation",
+      "source_video": "Bellevue_150th_SE38th__2017-09-11_01-08-30.mp4",
+      "intersection": "Bellevue_150th_SE38th",
+      "lighting": "Night",
+      "traffic_level": "Low",
+      "frame_qa_status": "QA_ACCEPTED",
+      "image_sha256": "ac8898f6ab6d57784ae95c6534c560b082f28e1f9920359464f97a1f5b75de5e",
+      "label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "gt_counts": {
+        "car": 0,
+        "motorcycle": 0,
+        "bus": 0,
+        "truck": 0
+      }
+    },
+    {
+      "filename": "Bellevue_150th_SE38th__2017-09-11_01-08-30__validation__slot_06__p_0.459091__t_1446.871611.jpg",
+      "annotation_id": "F0861",
+      "split": "Validation",
+      "source_video": "Bellevue_150th_SE38th__2017-09-11_01-08-30.mp4",
+      "intersection": "Bellevue_150th_SE38th",
+      "lighting": "Night",
+      "traffic_level": "Low",
+      "frame_qa_status": "QA_ACCEPTED",
+      "image_sha256": "d543b6c66af8c70f000b77e73b90589252a04fb12299d450b5c684ea45a8913b",
+      "label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "gt_counts": {
+        "car": 0,
+        "motorcycle": 0,
+        "bus": 0,
+        "truck": 0
+      }
+    },
+    {
+      "filename": "Bellevue_150th_SE38th__2017-09-11_01-08-30__validation__slot_07__p_0.540909__t_1704.370756.jpg",
+      "annotation_id": "F0862",
+      "split": "Validation",
+      "source_video": "Bellevue_150th_SE38th__2017-09-11_01-08-30.mp4",
+      "intersection": "Bellevue_150th_SE38th",
+      "lighting": "Night",
+      "traffic_level": "Low",
+      "frame_qa_status": "QA_ACCEPTED",
+      "image_sha256": "dc3823f2e3c0c013be76a8eb004805efe9e52ec971cf6eaed280a230b9f42770",
+      "label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "gt_counts": {
+        "car": 0,
+        "motorcycle": 0,
+        "bus": 0,
+        "truck": 0
+      }
+    },
+    {
+      "filename": "Bellevue_150th_SE38th__2017-09-11_01-08-30__validation__slot_08__p_0.622727__t_1962.503233.jpg",
+      "annotation_id": "F0863",
+      "split": "Validation",
+      "source_video": "Bellevue_150th_SE38th__2017-09-11_01-08-30.mp4",
+      "intersection": "Bellevue_150th_SE38th",
+      "lighting": "Night",
+      "traffic_level": "Low",
+      "frame_qa_status": "QA_ACCEPTED",
+      "image_sha256": "dcc370dff5d57b35e3faa7a4ab406da0cb193ff0ccef77583ba7edf512996525",
+      "label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "gt_counts": {
+        "car": 0,
+        "motorcycle": 0,
+        "bus": 0,
+        "truck": 0
+      }
+    },
+    {
+      "filename": "Bellevue_150th_SE38th__2017-09-11_01-08-30__validation__slot_09__p_0.704545__t_2220.202378.jpg",
+      "annotation_id": "F0864",
+      "split": "Validation",
+      "source_video": "Bellevue_150th_SE38th__2017-09-11_01-08-30.mp4",
+      "intersection": "Bellevue_150th_SE38th",
+      "lighting": "Night",
+      "traffic_level": "Low",
+      "frame_qa_status": "QA_ACCEPTED",
+      "image_sha256": "0f1f34066661b26b5ad74d77606fb073c7f0c10dc0a7674056c67c254cc0f181",
+      "label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "gt_counts": {
+        "car": 0,
+        "motorcycle": 0,
+        "bus": 0,
+        "truck": 0
+      }
+    },
+    {
+      "filename": "Bellevue_150th_SE38th__2017-09-11_01-08-30__validation__slot_10__p_0.786364__t_2477.701522.jpg",
+      "annotation_id": "F0865",
+      "split": "Validation",
+      "source_video": "Bellevue_150th_SE38th__2017-09-11_01-08-30.mp4",
+      "intersection": "Bellevue_150th_SE38th",
+      "lighting": "Night",
+      "traffic_level": "Low",
+      "frame_qa_status": "QA_ACCEPTED",
+      "image_sha256": "18ba94403a7d04e554967d2e911dc9bf0a35aabcab597ab1b9290dab78af0a97",
+      "label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "gt_counts": {
+        "car": 0,
+        "motorcycle": 0,
+        "bus": 0,
+        "truck": 0
+      }
+    },
+    {
+      "filename": "Bellevue_150th_SE38th__2017-09-11_01-08-30__validation__slot_11__p_0.868182__t_2735.909989.jpg",
+      "annotation_id": "F0866",
+      "split": "Validation",
+      "source_video": "Bellevue_150th_SE38th__2017-09-11_01-08-30.mp4",
+      "intersection": "Bellevue_150th_SE38th",
+      "lighting": "Night",
+      "traffic_level": "Low",
+      "frame_qa_status": "QA_ACCEPTED",
+      "image_sha256": "cceeb9117d07e7dae4eb7963428570a575fb8e07e4f065a12000b18958011da5",
+      "label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "gt_counts": {
+        "car": 0,
+        "motorcycle": 0,
+        "bus": 0,
+        "truck": 0
+      }
+    },
+    {
+      "filename": "Bellevue_150th_SE38th__2017-09-11_01-08-30__validation__slot_12__p_0.950000__t_2993.475800.jpg",
+      "annotation_id": "F0867",
+      "split": "Validation",
+      "source_video": "Bellevue_150th_SE38th__2017-09-11_01-08-30.mp4",
+      "intersection": "Bellevue_150th_SE38th",
+      "lighting": "Night",
+      "traffic_level": "Low",
+      "frame_qa_status": "QA_ACCEPTED",
+      "image_sha256": "f98a3380e26496991a5381642ecaa48bd419f8370d63140834aaa099e3d8ae0a",
+      "label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "gt_counts": {
+        "car": 0,
+        "motorcycle": 0,
+        "bus": 0,
+        "truck": 0
+      }
+    },
+    {
+      "filename": "Bellevue_150th_SE38th__2017-09-11_14-08-32__validation__slot_01__p_0.050000__t_180.232600.jpg",
+      "annotation_id": "F1008",
+      "split": "Validation",
+      "source_video": "Bellevue_150th_SE38th__2017-09-11_14-08-32.mp4",
+      "intersection": "Bellevue_150th_SE38th",
+      "lighting": "Day",
+      "traffic_level": "Medium",
+      "frame_qa_status": "QA_ACCEPTED",
+      "image_sha256": "6577d6c70b530d564b4369c504640931d551eda8b3e54efea4653fb1960701bf",
+      "label_sha256": "9450709df0a2fcd560a9880180aa9cfa38059b25d4fc884b408ece4efd7905ce",
+      "gt_counts": {
+        "car": 14,
+        "motorcycle": 0,
+        "bus": 0,
+        "truck": 0
+      }
+    },
+    {
+      "filename": "Bellevue_150th_SE38th__2017-09-11_14-08-32__validation__slot_02__p_0.131818__t_474.964744.jpg",
+      "annotation_id": "F1009",
+      "split": "Validation",
+      "source_video": "Bellevue_150th_SE38th__2017-09-11_14-08-32.mp4",
+      "intersection": "Bellevue_150th_SE38th",
+      "lighting": "Day",
+      "traffic_level": "Medium",
+      "frame_qa_status": "QA_ACCEPTED",
+      "image_sha256": "28b17a61832ad1b12e9f97911d1f4d8596fe56bb8592b983bb1692688534840a",
+      "label_sha256": "422a2caddbc0f85bbb075a429cc6f4816e58240a3dfa17f4ca667273c89fbb5f",
+      "gt_counts": {
+        "car": 9,
+        "motorcycle": 0,
+        "bus": 0,
+        "truck": 1
+      }
+    },
+    {
+      "filename": "Bellevue_150th_SE38th__2017-09-11_14-08-32__validation__slot_03__p_0.213636__t_769.363556.jpg",
+      "annotation_id": "F1010",
+      "split": "Validation",
+      "source_video": "Bellevue_150th_SE38th__2017-09-11_14-08-32.mp4",
+      "intersection": "Bellevue_150th_SE38th",
+      "lighting": "Day",
+      "traffic_level": "Medium",
+      "frame_qa_status": "QA_ACCEPTED",
+      "image_sha256": "e5a1b16c9aa61d85edbb865fa27351f65a4d6980473c20afbf194c80388e5033",
+      "label_sha256": "411670f21ed251c9a52f4f519e89b3a204a32eab6104ea85b46dc9df950dd91f",
+      "gt_counts": {
+        "car": 32,
+        "motorcycle": 0,
+        "bus": 0,
+        "truck": 2
+      }
+    },
+    {
+      "filename": "Bellevue_150th_SE38th__2017-09-11_14-08-32__validation__slot_04__p_0.295455__t_1063.776189.jpg",
+      "annotation_id": "F1011",
+      "split": "Validation",
+      "source_video": "Bellevue_150th_SE38th__2017-09-11_14-08-32.mp4",
+      "intersection": "Bellevue_150th_SE38th",
+      "lighting": "Day",
+      "traffic_level": "Medium",
+      "frame_qa_status": "QA_ACCEPTED",
+      "image_sha256": "f3648294961db06c45731af10a7670c003df004bbe4b795958875c8cb0525d0a",
+      "label_sha256": "8ae3c57b922ebba6b202e22498b169613fd1fd6e1c69019c55aac0451530f171",
+      "gt_counts": {
+        "car": 8,
+        "motorcycle": 0,
+        "bus": 0,
+        "truck": 0
+      }
+    },
+    {
+      "filename": "Bellevue_150th_SE38th__2017-09-11_14-08-32__validation__slot_05__p_0.377273__t_1358.208856.jpg",
+      "annotation_id": "F1012",
+      "split": "Validation",
+      "source_video": "Bellevue_150th_SE38th__2017-09-11_14-08-32.mp4",
+      "intersection": "Bellevue_150th_SE38th",
+      "lighting": "Day",
+      "traffic_level": "Medium",
+      "frame_qa_status": "QA_ACCEPTED",
+      "image_sha256": "5308b9f1a39e5c0bb67bf083e9bdca666e830449755e188bd97708c73bd50ab1",
+      "label_sha256": "67fc63323004a57d7a7165c0ef13914c191dd980f0815ada9bd7b1536739a32f",
+      "gt_counts": {
+        "car": 5,
+        "motorcycle": 0,
+        "bus": 0,
+        "truck": 4
+      }
+    },
+    {
+      "filename": "Bellevue_150th_SE38th__2017-09-11_14-08-32__validation__slot_06__p_0.459091__t_1652.607622.jpg",
+      "annotation_id": "F1013",
+      "split": "Validation",
+      "source_video": "Bellevue_150th_SE38th__2017-09-11_14-08-32.mp4",
+      "intersection": "Bellevue_150th_SE38th",
+      "lighting": "Day",
+      "traffic_level": "Medium",
+      "frame_qa_status": "QA_ACCEPTED",
+      "image_sha256": "68b255917aeb4a2603dfd009065b145ea0a2180a15451250a845655249b1c4a3",
+      "label_sha256": "483eaa8f3d4c563f6a8af972da35c80ba74c56d1f8bf4af59be94f6813039f48",
+      "gt_counts": {
+        "car": 14,
+        "motorcycle": 0,
+        "bus": 0,
+        "truck": 3
+      }
+    },
+    {
+      "filename": "Bellevue_150th_SE38th__2017-09-11_14-08-32__validation__slot_07__p_0.540909__t_1947.106478.jpg",
+      "annotation_id": "F1014",
+      "split": "Validation",
+      "source_video": "Bellevue_150th_SE38th__2017-09-11_14-08-32.mp4",
+      "intersection": "Bellevue_150th_SE38th",
+      "lighting": "Day",
+      "traffic_level": "Medium",
+      "frame_qa_status": "QA_ACCEPTED",
+      "image_sha256": "5f04e8e58e3d1295ff2ae4316064889bea5edba3d0b6c5ea076daff5aead8973",
+      "label_sha256": "c43a052ef04df01498b5752575eb84f600e4a424d223143b40e3242cef4f00b0",
+      "gt_counts": {
+        "car": 14,
+        "motorcycle": 0,
+        "bus": 0,
+        "truck": 0
+      }
+    },
+    {
+      "filename": "Bellevue_150th_SE38th__2017-09-11_14-08-32__validation__slot_08__p_0.622727__t_2241.505333.jpg",
+      "annotation_id": "F1015",
+      "split": "Validation",
+      "source_video": "Bellevue_150th_SE38th__2017-09-11_14-08-32.mp4",
+      "intersection": "Bellevue_150th_SE38th",
+      "lighting": "Day",
+      "traffic_level": "Medium",
+      "frame_qa_status": "QA_ACCEPTED",
+      "image_sha256": "6d10d66da5f72d8fd71efc13450267172e5dbef91b1dc4dadc51a4ed7f65f9d5",
+      "label_sha256": "5a7d7ff9ef20a44b251caae78e326739f65720981d155c2114935370afc55766",
+      "gt_counts": {
+        "car": 11,
+        "motorcycle": 0,
+        "bus": 0,
+        "truck": 0
+      }
+    },
+    {
+      "filename": "Bellevue_150th_SE38th__2017-09-11_14-08-32__validation__slot_09__p_0.704545__t_2535.967200.jpg",
+      "annotation_id": "F1016",
+      "split": "Validation",
+      "source_video": "Bellevue_150th_SE38th__2017-09-11_14-08-32.mp4",
+      "intersection": "Bellevue_150th_SE38th",
+      "lighting": "Day",
+      "traffic_level": "Medium",
+      "frame_qa_status": "QA_ACCEPTED",
+      "image_sha256": "13597217b7913ee1cb048c6d26c13158919f7cd6cafd15a6ca14d1da66b38f32",
+      "label_sha256": "48f0c8eec88b6a013aaa77079c1aeda4dc1b809ac924d27a89912f6883358134",
+      "gt_counts": {
+        "car": 19,
+        "motorcycle": 0,
+        "bus": 0,
+        "truck": 0
+      }
+    },
+    {
+      "filename": "Bellevue_150th_SE38th__2017-09-11_14-08-32__validation__slot_10__p_0.786364__t_2830.899378.jpg",
+      "annotation_id": "F1017",
+      "split": "Validation",
+      "source_video": "Bellevue_150th_SE38th__2017-09-11_14-08-32.mp4",
+      "intersection": "Bellevue_150th_SE38th",
+      "lighting": "Day",
+      "traffic_level": "Medium",
+      "frame_qa_status": "QA_ACCEPTED",
+      "image_sha256": "a007003983db26e8c9bbe294e88cfa2f8f044b072ddf156b93eed8ee52a94447",
+      "label_sha256": "763c5d6b25bc71d43954c8afceb62a412dd39c5d7bb41054bf0b3d1a9e735345",
+      "gt_counts": {
+        "car": 18,
+        "motorcycle": 0,
+        "bus": 0,
+        "truck": 2
+      }
+    },
+    {
+      "filename": "Bellevue_150th_SE38th__2017-09-11_14-08-32__validation__slot_11__p_0.868182__t_3125.831544.jpg",
+      "annotation_id": "F1018",
+      "split": "Validation",
+      "source_video": "Bellevue_150th_SE38th__2017-09-11_14-08-32.mp4",
+      "intersection": "Bellevue_150th_SE38th",
+      "lighting": "Day",
+      "traffic_level": "Medium",
+      "frame_qa_status": "QA_ACCEPTED",
+      "image_sha256": "34d87d8459e820b794bb7cb296746f8ffea1466617ae560b7404b76e05e5eea8",
+      "label_sha256": "f627c62e08b80c4b3c60322bcc37696e3a0b40947e090d4c1a4ff0a023c4bfd1",
+      "gt_counts": {
+        "car": 17,
+        "motorcycle": 0,
+        "bus": 0,
+        "truck": 2
+      }
+    },
+    {
+      "filename": "Bellevue_150th_SE38th__2017-09-11_14-08-32__validation__slot_12__p_0.950000__t_3420.263744.jpg",
+      "annotation_id": "F1019",
+      "split": "Validation",
+      "source_video": "Bellevue_150th_SE38th__2017-09-11_14-08-32.mp4",
+      "intersection": "Bellevue_150th_SE38th",
+      "lighting": "Day",
+      "traffic_level": "Medium",
+      "frame_qa_status": "QA_ACCEPTED",
+      "image_sha256": "ec415a163550f12c198bfc0439bec74ba9c0f111bd392ef0af0726fadfe0189d",
+      "label_sha256": "0e0215ba732386c84e59fcad64c213ebd8b118bb8c537e88844248569d047529",
+      "gt_counts": {
+        "car": 14,
+        "motorcycle": 0,
+        "bus": 0,
+        "truck": 1
+      }
+    },
+    {
+      "filename": "Bellevue_Bellevue_NE8th__2017-09-11_01-08-29__validation__slot_01__p_0.050000__t_161.068622.jpg",
+      "annotation_id": "F1120",
+      "split": "Validation",
+      "source_video": "Bellevue_Bellevue_NE8th__2017-09-11_01-08-29.mp4",
+      "intersection": "Bellevue_Bellevue_NE8th",
+      "lighting": "Night",
+      "traffic_level": "Low",
+      "frame_qa_status": "QA_ACCEPTED",
+      "image_sha256": "b90a1e6def4f14d03501ff6191d6b4f5d654f44a049a787abbc515b2b9147517",
+      "label_sha256": "dbfbf2f4c6f419583d90475dfd1f2a8f8dee67448dd3a09af76be54f5a222202",
+      "gt_counts": {
+        "car": 1,
+        "motorcycle": 0,
+        "bus": 0,
+        "truck": 0
+      }
+    },
+    {
+      "filename": "Bellevue_Bellevue_NE8th__2017-09-11_01-08-29__validation__slot_02__p_0.131818__t_423.530544.jpg",
+      "annotation_id": "F1121",
+      "split": "Validation",
+      "source_video": "Bellevue_Bellevue_NE8th__2017-09-11_01-08-29.mp4",
+      "intersection": "Bellevue_Bellevue_NE8th",
+      "lighting": "Night",
+      "traffic_level": "Low",
+      "frame_qa_status": "QA_ACCEPTED",
+      "image_sha256": "9e2ba259085b9b84c0c3c1703b2fc249c40f64ac23cd8b457f237d56b28f4148",
+      "label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "gt_counts": {
+        "car": 0,
+        "motorcycle": 0,
+        "bus": 0,
+        "truck": 0
+      }
+    },
+    {
+      "filename": "Bellevue_Bellevue_NE8th__2017-09-11_01-08-29__validation__slot_03__p_0.213636__t_685.967100.jpg",
+      "annotation_id": "F1122",
+      "split": "Validation",
+      "source_video": "Bellevue_Bellevue_NE8th__2017-09-11_01-08-29.mp4",
+      "intersection": "Bellevue_Bellevue_NE8th",
+      "lighting": "Night",
+      "traffic_level": "Low",
+      "frame_qa_status": "QA_ACCEPTED",
+      "image_sha256": "0ede69961eb385e1458c6adbda962a8d795bb039babd55bb8b4d9342e4f9ffb3",
+      "label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "gt_counts": {
+        "car": 0,
+        "motorcycle": 0,
+        "bus": 0,
+        "truck": 0
+      }
+    },
+    {
+      "filename": "Bellevue_Bellevue_NE8th__2017-09-11_01-08-29__validation__slot_04__p_0.295455__t_949.370333.jpg",
+      "annotation_id": "F1123",
+      "split": "Validation",
+      "source_video": "Bellevue_Bellevue_NE8th__2017-09-11_01-08-29.mp4",
+      "intersection": "Bellevue_Bellevue_NE8th",
+      "lighting": "Night",
+      "traffic_level": "Low",
+      "frame_qa_status": "QA_ACCEPTED",
+      "image_sha256": "3502d5a2b9161ce06a71bd27b6e0ba1cff3a98f2c99d62dd5f24a1869a691edc",
+      "label_sha256": "60602ad4d244e8f10433e1411ebe48f3649ad8144373390ad8792abbe292997b",
+      "gt_counts": {
+        "car": 1,
+        "motorcycle": 0,
+        "bus": 0,
+        "truck": 0
+      }
+    },
+    {
+      "filename": "Bellevue_Bellevue_NE8th__2017-09-11_01-08-29__validation__slot_05__p_0.377273__t_1211.773544.jpg",
+      "annotation_id": "F1124",
+      "split": "Validation",
+      "source_video": "Bellevue_Bellevue_NE8th__2017-09-11_01-08-29.mp4",
+      "intersection": "Bellevue_Bellevue_NE8th",
+      "lighting": "Night",
+      "traffic_level": "Low",
+      "frame_qa_status": "QA_ACCEPTED",
+      "image_sha256": "9aa985e1909d26f01bea85baea09d9705bcbf3b4b6b87db678d567dd87287ff3",
+      "label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "gt_counts": {
+        "car": 0,
+        "motorcycle": 0,
+        "bus": 0,
+        "truck": 0
+      }
+    },
+    {
+      "filename": "Bellevue_Bellevue_NE8th__2017-09-11_01-08-29__validation__slot_06__p_0.459091__t_1475.243433.jpg",
+      "annotation_id": "F1125",
+      "split": "Validation",
+      "source_video": "Bellevue_Bellevue_NE8th__2017-09-11_01-08-29.mp4",
+      "intersection": "Bellevue_Bellevue_NE8th",
+      "lighting": "Night",
+      "traffic_level": "Low",
+      "frame_qa_status": "QA_ACCEPTED",
+      "image_sha256": "ccaecf5ffa10f87d1f53c07c87e5812719ed844bb993fae6c6eaac81a31fd1bf",
+      "label_sha256": "c251b771842079b35c2cb334fa4e78dc71b3ef7d45dc892430d595425ccc1c3c",
+      "gt_counts": {
+        "car": 2,
+        "motorcycle": 0,
+        "bus": 0,
+        "truck": 0
+      }
+    },
+    {
+      "filename": "Bellevue_Bellevue_NE8th__2017-09-11_01-08-29__validation__slot_07__p_0.540909__t_1738.113322.jpg",
+      "annotation_id": "F1126",
+      "split": "Validation",
+      "source_video": "Bellevue_Bellevue_NE8th__2017-09-11_01-08-29.mp4",
+      "intersection": "Bellevue_Bellevue_NE8th",
+      "lighting": "Night",
+      "traffic_level": "Low",
+      "frame_qa_status": "QA_ACCEPTED",
+      "image_sha256": "1980144570bb90ba8aaaef687760e4c3377c0e908c0f6e89dceccd5c4aadebd8",
+      "label_sha256": "fa160e8609175f48869a31f6ff887212363e03af760c8549071196d1f7b740d1",
+      "gt_counts": {
+        "car": 1,
+        "motorcycle": 0,
+        "bus": 0,
+        "truck": 0
+      }
+    },
+    {
+      "filename": "Bellevue_Bellevue_NE8th__2017-09-11_01-08-29__validation__slot_08__p_0.622727__t_2001.106789.jpg",
+      "annotation_id": "F1127",
+      "split": "Validation",
+      "source_video": "Bellevue_Bellevue_NE8th__2017-09-11_01-08-29.mp4",
+      "intersection": "Bellevue_Bellevue_NE8th",
+      "lighting": "Night",
+      "traffic_level": "Low",
+      "frame_qa_status": "QA_ACCEPTED",
+      "image_sha256": "de33f2c1c527eecd55a1748088f03857f33290523f449c7fb9a13c7e6185037f",
+      "label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "gt_counts": {
+        "car": 0,
+        "motorcycle": 0,
+        "bus": 0,
+        "truck": 0
+      }
+    },
+    {
+      "filename": "Bellevue_Bellevue_NE8th__2017-09-11_01-08-29__validation__slot_09__p_0.704545__t_2263.576678.jpg",
+      "annotation_id": "F1128",
+      "split": "Validation",
+      "source_video": "Bellevue_Bellevue_NE8th__2017-09-11_01-08-29.mp4",
+      "intersection": "Bellevue_Bellevue_NE8th",
+      "lighting": "Night",
+      "traffic_level": "Low",
+      "frame_qa_status": "QA_ACCEPTED",
+      "image_sha256": "a50f11c0ad06d7a1608cd284e4f363c3532dd3753dc69b77a8864f9b0bdc56d4",
+      "label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "gt_counts": {
+        "car": 0,
+        "motorcycle": 0,
+        "bus": 0,
+        "truck": 0
+      }
+    },
+    {
+      "filename": "Bellevue_Bellevue_NE8th__2017-09-11_01-08-29__validation__slot_10__p_0.786364__t_2526.013200.jpg",
+      "annotation_id": "F1129",
+      "split": "Validation",
+      "source_video": "Bellevue_Bellevue_NE8th__2017-09-11_01-08-29.mp4",
+      "intersection": "Bellevue_Bellevue_NE8th",
+      "lighting": "Night",
+      "traffic_level": "Low",
+      "frame_qa_status": "QA_ACCEPTED",
+      "image_sha256": "914cc3b71d0303e1e2052f9169e138bbac0452dbc8a24f1bac3c20a634f8e132",
+      "label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "gt_counts": {
+        "car": 0,
+        "motorcycle": 0,
+        "bus": 0,
+        "truck": 0
+      }
+    },
+    {
+      "filename": "Bellevue_Bellevue_NE8th__2017-09-11_01-08-29__validation__slot_11__p_0.868182__t_2789.516411.jpg",
+      "annotation_id": "F1130",
+      "split": "Validation",
+      "source_video": "Bellevue_Bellevue_NE8th__2017-09-11_01-08-29.mp4",
+      "intersection": "Bellevue_Bellevue_NE8th",
+      "lighting": "Night",
+      "traffic_level": "Low",
+      "frame_qa_status": "QA_ACCEPTED",
+      "image_sha256": "19fe309289c05b6088a8be971a18219211145b271e7d28febddbde293590cd68",
+      "label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "gt_counts": {
+        "car": 0,
+        "motorcycle": 0,
+        "bus": 0,
+        "truck": 0
+      }
+    },
+    {
+      "filename": "Bellevue_Bellevue_NE8th__2017-09-11_01-08-29__validation__slot_12__p_0.950000__t_3052.619600.jpg",
+      "annotation_id": "F1131",
+      "split": "Validation",
+      "source_video": "Bellevue_Bellevue_NE8th__2017-09-11_01-08-29.mp4",
+      "intersection": "Bellevue_Bellevue_NE8th",
+      "lighting": "Night",
+      "traffic_level": "Low",
+      "frame_qa_status": "QA_ACCEPTED",
+      "image_sha256": "3afc41a39c846c7f65095fa8b4b14f2d8573ccdc5fae32d750101c21a00872d7",
+      "label_sha256": "d84f401cae08323dd3d0fd1db709c69dfa91f48ac46be39338a6dbb97d3b024e",
+      "gt_counts": {
+        "car": 1,
+        "motorcycle": 0,
+        "bus": 0,
+        "truck": 0
+      }
+    },
+    {
+      "filename": "Bellevue_Bellevue_NE8th__2017-09-11_02-08-29__validation__slot_01__p_0.050000__t_180.222356.jpg",
+      "annotation_id": "F1132",
+      "split": "Validation",
+      "source_video": "Bellevue_Bellevue_NE8th__2017-09-11_02-08-29.mp4",
+      "intersection": "Bellevue_Bellevue_NE8th",
+      "lighting": "Night",
+      "traffic_level": "Low",
+      "frame_qa_status": "QA_ACCEPTED",
+      "image_sha256": "7efe7bd76e17c0c94708b800fb9a23f90a1fcc479a0164f69b119b8055e7f550",
+      "label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "gt_counts": {
+        "car": 0,
+        "motorcycle": 0,
+        "bus": 0,
+        "truck": 0
+      }
+    },
+    {
+      "filename": "Bellevue_Bellevue_NE8th__2017-09-11_02-08-29__validation__slot_02__p_0.131818__t_474.625956.jpg",
+      "annotation_id": "F1133",
+      "split": "Validation",
+      "source_video": "Bellevue_Bellevue_NE8th__2017-09-11_02-08-29.mp4",
+      "intersection": "Bellevue_Bellevue_NE8th",
+      "lighting": "Night",
+      "traffic_level": "Low",
+      "frame_qa_status": "QA_ACCEPTED",
+      "image_sha256": "74551745075c8ecc0612975e25eb2ed8067b8763c9d0aa92bc4ec66c223e06a9",
+      "label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "gt_counts": {
+        "car": 0,
+        "motorcycle": 0,
+        "bus": 0,
+        "truck": 0
+      }
+    },
+    {
+      "filename": "Bellevue_Bellevue_NE8th__2017-09-11_02-08-29__validation__slot_03__p_0.213636__t_769.262933.jpg",
+      "annotation_id": "F1134",
+      "split": "Validation",
+      "source_video": "Bellevue_Bellevue_NE8th__2017-09-11_02-08-29.mp4",
+      "intersection": "Bellevue_Bellevue_NE8th",
+      "lighting": "Night",
+      "traffic_level": "Low",
+      "frame_qa_status": "QA_ACCEPTED",
+      "image_sha256": "fb0c6c3f525b78fc94c26c656282783c41624d7c3d24e8606355abde3a3eadbb",
+      "label_sha256": "dd2c814a493b5ee2924315fa72594a8755444e4ae10dc084f4a73a7a2ca9aed4",
+      "gt_counts": {
+        "car": 1,
+        "motorcycle": 0,
+        "bus": 0,
+        "truck": 0
+      }
+    },
+    {
+      "filename": "Bellevue_Bellevue_NE8th__2017-09-11_02-08-29__validation__slot_04__p_0.295455__t_1063.699911.jpg",
+      "annotation_id": "F1135",
+      "split": "Validation",
+      "source_video": "Bellevue_Bellevue_NE8th__2017-09-11_02-08-29.mp4",
+      "intersection": "Bellevue_Bellevue_NE8th",
+      "lighting": "Night",
+      "traffic_level": "Low",
+      "frame_qa_status": "QA_ACCEPTED",
+      "image_sha256": "9eb22845c64befaeac6aa38c541cfae6bffe55ba57366aedaf4b79c6a8a548ca",
+      "label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "gt_counts": {
+        "car": 0,
+        "motorcycle": 0,
+        "bus": 0,
+        "truck": 0
+      }
+    },
+    {
+      "filename": "Bellevue_Bellevue_NE8th__2017-09-11_02-08-29__validation__slot_05__p_0.377273__t_1357.903556.jpg",
+      "annotation_id": "F1136",
+      "split": "Validation",
+      "source_video": "Bellevue_Bellevue_NE8th__2017-09-11_02-08-29.mp4",
+      "intersection": "Bellevue_Bellevue_NE8th",
+      "lighting": "Night",
+      "traffic_level": "Low",
+      "frame_qa_status": "QA_ACCEPTED",
+      "image_sha256": "3569b38f2624cbd176ca076000e86a433d83e6b54e9b1634ca38e5f8397e82c4",
+      "label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "gt_counts": {
+        "car": 0,
+        "motorcycle": 0,
+        "bus": 0,
+        "truck": 0
+      }
+    },
+    {
+      "filename": "Bellevue_Bellevue_NE8th__2017-09-11_02-08-29__validation__slot_06__p_0.459091__t_1652.773889.jpg",
+      "annotation_id": "F1137",
+      "split": "Validation",
+      "source_video": "Bellevue_Bellevue_NE8th__2017-09-11_02-08-29.mp4",
+      "intersection": "Bellevue_Bellevue_NE8th",
+      "lighting": "Night",
+      "traffic_level": "Low",
+      "frame_qa_status": "QA_ACCEPTED",
+      "image_sha256": "94eccfa155d37888151f9390459acaa66c7451c2c4ac9eab78aebee5d6e3cd7c",
+      "label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "gt_counts": {
+        "car": 0,
+        "motorcycle": 0,
+        "bus": 0,
+        "truck": 0
+      }
+    },
+    {
+      "filename": "Bellevue_Bellevue_NE8th__2017-09-11_02-08-29__validation__slot_07__p_0.540909__t_1947.244222.jpg",
+      "annotation_id": "F1138",
+      "split": "Validation",
+      "source_video": "Bellevue_Bellevue_NE8th__2017-09-11_02-08-29.mp4",
+      "intersection": "Bellevue_Bellevue_NE8th",
+      "lighting": "Night",
+      "traffic_level": "Low",
+      "frame_qa_status": "QA_ACCEPTED",
+      "image_sha256": "c4325cbcc1395a9e08fa8d96f9ab39332b267bcf863d1678fceca1dc9ad13764",
+      "label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "gt_counts": {
+        "car": 0,
+        "motorcycle": 0,
+        "bus": 0,
+        "truck": 0
+      }
+    },
+    {
+      "filename": "Bellevue_Bellevue_NE8th__2017-09-11_02-08-29__validation__slot_08__p_0.622727__t_2241.747900.jpg",
+      "annotation_id": "F1139",
+      "split": "Validation",
+      "source_video": "Bellevue_Bellevue_NE8th__2017-09-11_02-08-29.mp4",
+      "intersection": "Bellevue_Bellevue_NE8th",
+      "lighting": "Night",
+      "traffic_level": "Low",
+      "frame_qa_status": "QA_ACCEPTED",
+      "image_sha256": "efae6a91d26e40cdb867ae5111d0d564f6a2ef92e5a966efceefa44679957ae0",
+      "label_sha256": "62c25247aee287b282918ec9506ca72a7c5c6a760c643a6a09d3f27d1f94d75a",
+      "gt_counts": {
+        "car": 1,
+        "motorcycle": 0,
+        "bus": 0,
+        "truck": 0
+      }
+    },
+    {
+      "filename": "Bellevue_Bellevue_NE8th__2017-09-11_02-08-29__validation__slot_09__p_0.704545__t_2536.184867.jpg",
+      "annotation_id": "F1140",
+      "split": "Validation",
+      "source_video": "Bellevue_Bellevue_NE8th__2017-09-11_02-08-29.mp4",
+      "intersection": "Bellevue_Bellevue_NE8th",
+      "lighting": "Night",
+      "traffic_level": "Low",
+      "frame_qa_status": "QA_ACCEPTED",
+      "image_sha256": "cb49db87cf642bd5654839f9b83271c81e8bf4ef8b244491f53d4dde8d7dc743",
+      "label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "gt_counts": {
+        "car": 0,
+        "motorcycle": 0,
+        "bus": 0,
+        "truck": 0
+      }
+    },
+    {
+      "filename": "Bellevue_Bellevue_NE8th__2017-09-11_02-08-29__validation__slot_10__p_0.786364__t_2830.574211.jpg",
+      "annotation_id": "F1141",
+      "split": "Validation",
+      "source_video": "Bellevue_Bellevue_NE8th__2017-09-11_02-08-29.mp4",
+      "intersection": "Bellevue_Bellevue_NE8th",
+      "lighting": "Night",
+      "traffic_level": "Low",
+      "frame_qa_status": "QA_ACCEPTED",
+      "image_sha256": "312d15227c44e07b6239c46cb3697bd3884f32d3b2006865ae73ef2814bf30c8",
+      "label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "gt_counts": {
+        "car": 0,
+        "motorcycle": 0,
+        "bus": 0,
+        "truck": 0
+      }
+    },
+    {
+      "filename": "Bellevue_Bellevue_NE8th__2017-09-11_02-08-29__validation__slot_11__p_0.868182__t_3124.977822.jpg",
+      "annotation_id": "F1142",
+      "split": "Validation",
+      "source_video": "Bellevue_Bellevue_NE8th__2017-09-11_02-08-29.mp4",
+      "intersection": "Bellevue_Bellevue_NE8th",
+      "lighting": "Night",
+      "traffic_level": "Low",
+      "frame_qa_status": "QA_ACCEPTED",
+      "image_sha256": "b528ea1530e31635079906ca9cd372bb7e945019e738beeb59bc4d9180ca98b9",
+      "label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "gt_counts": {
+        "car": 0,
+        "motorcycle": 0,
+        "bus": 0,
+        "truck": 0
+      }
+    },
+    {
+      "filename": "Bellevue_Bellevue_NE8th__2017-09-11_02-08-29__validation__slot_12__p_0.950000__t_3420.481433.jpg",
+      "annotation_id": "F1143",
+      "split": "Validation",
+      "source_video": "Bellevue_Bellevue_NE8th__2017-09-11_02-08-29.mp4",
+      "intersection": "Bellevue_Bellevue_NE8th",
+      "lighting": "Night",
+      "traffic_level": "Low",
+      "frame_qa_status": "QA_ACCEPTED",
+      "image_sha256": "1eeb556efc55620a6472e0220c0b47194f01b24d47a7fdc6fc62ddb2b69c00e7",
+      "label_sha256": "5a94af2802c0911cf2fea1ce34cc0db1035b76ab71043f1e61bd50ba1585a33c",
+      "gt_counts": {
+        "car": 1,
+        "motorcycle": 0,
+        "bus": 0,
+        "truck": 0
+      }
+    },
+    {
+      "filename": "Bellevue_Bellevue_NE8th__2017-09-11_12-08-31__validation__slot_01__p_0.050000__t_180.235200.jpg",
+      "annotation_id": "F1252",
+      "split": "Validation",
+      "source_video": "Bellevue_Bellevue_NE8th__2017-09-11_12-08-31.mp4",
+      "intersection": "Bellevue_Bellevue_NE8th",
+      "lighting": "Day",
+      "traffic_level": "High",
+      "frame_qa_status": "QA_ACCEPTED",
+      "image_sha256": "67beb447268450de400ba244fdd3743d25435ad13c7fb995baacf1b1f124f694",
+      "label_sha256": "443ad18c8695e999c7c844ef7f6b0f62ad32a055359217e47ccc0b9de3f3ce6b",
+      "gt_counts": {
+        "car": 37,
+        "motorcycle": 0,
+        "bus": 0,
+        "truck": 2
+      }
+    },
+    {
+      "filename": "Bellevue_Bellevue_NE8th__2017-09-11_12-08-31__validation__slot_02__p_0.131818__t_474.804900.jpg",
+      "annotation_id": "F1253",
+      "split": "Validation",
+      "source_video": "Bellevue_Bellevue_NE8th__2017-09-11_12-08-31.mp4",
+      "intersection": "Bellevue_Bellevue_NE8th",
+      "lighting": "Day",
+      "traffic_level": "High",
+      "frame_qa_status": "QA_ACCEPTED",
+      "image_sha256": "a0db38835fd73e4c71bea5f67952fc805fadfa385e26f23af6bc19b5d75bbdd6",
+      "label_sha256": "8dff75fb5aab73dcd4bc7f5a9e873a3477c35b1fe3805048a3cbf7eb8a3b65ce",
+      "gt_counts": {
+        "car": 31,
+        "motorcycle": 1,
+        "bus": 0,
+        "truck": 2
+      }
+    },
+    {
+      "filename": "Bellevue_Bellevue_NE8th__2017-09-11_12-08-31__validation__slot_03__p_0.213636__t_769.274611.jpg",
+      "annotation_id": "F1254",
+      "split": "Validation",
+      "source_video": "Bellevue_Bellevue_NE8th__2017-09-11_12-08-31.mp4",
+      "intersection": "Bellevue_Bellevue_NE8th",
+      "lighting": "Day",
+      "traffic_level": "High",
+      "frame_qa_status": "QA_ACCEPTED",
+      "image_sha256": "854cabc7bcf0e3f4e9fb17ce9ffef956f066537b4caf0cec793b45a86f98ad1a",
+      "label_sha256": "b91f3db3652674f18ee843e9dea0dcf2c8a24064eda15e142f3ee76e1f22a3b9",
+      "gt_counts": {
+        "car": 31,
+        "motorcycle": 0,
+        "bus": 0,
+        "truck": 1
+      }
+    },
+    {
+      "filename": "Bellevue_Bellevue_NE8th__2017-09-11_12-08-31__validation__slot_04__p_0.295455__t_1063.777667.jpg",
+      "annotation_id": "F1255",
+      "split": "Validation",
+      "source_video": "Bellevue_Bellevue_NE8th__2017-09-11_12-08-31.mp4",
+      "intersection": "Bellevue_Bellevue_NE8th",
+      "lighting": "Day",
+      "traffic_level": "High",
+      "frame_qa_status": "QA_ACCEPTED",
+      "image_sha256": "c5b84ef3060993d417da2d4c378bca5ae52b0be389ecd8fed907ac0b254291ee",
+      "label_sha256": "ebbfe96956968d5782abb32aa9afc1d6be3bbfff90cc2133075b5bc3920b546b",
+      "gt_counts": {
+        "car": 18,
+        "motorcycle": 0,
+        "bus": 0,
+        "truck": 1
+      }
+    },
+    {
+      "filename": "Bellevue_Bellevue_NE8th__2017-09-11_12-08-31__validation__slot_05__p_0.377273__t_1358.214111.jpg",
+      "annotation_id": "F1256",
+      "split": "Validation",
+      "source_video": "Bellevue_Bellevue_NE8th__2017-09-11_12-08-31.mp4",
+      "intersection": "Bellevue_Bellevue_NE8th",
+      "lighting": "Day",
+      "traffic_level": "High",
+      "frame_qa_status": "QA_ACCEPTED",
+      "image_sha256": "f864e4ec58ad543f41ed0cecd92b40502653919d6e93910e416a094539042970",
+      "label_sha256": "4d6dee604f1a2dd192867efa25e25709a7716de56a18531878a28538ea78dc6e",
+      "gt_counts": {
+        "car": 27,
+        "motorcycle": 0,
+        "bus": 0,
+        "truck": 3
+      }
+    },
+    {
+      "filename": "Bellevue_Bellevue_NE8th__2017-09-11_12-08-31__validation__slot_06__p_0.459091__t_1652.750578.jpg",
+      "annotation_id": "F1257",
+      "split": "Validation",
+      "source_video": "Bellevue_Bellevue_NE8th__2017-09-11_12-08-31.mp4",
+      "intersection": "Bellevue_Bellevue_NE8th",
+      "lighting": "Day",
+      "traffic_level": "High",
+      "frame_qa_status": "QA_ACCEPTED",
+      "image_sha256": "e8ae0a3e74f6e5a8ec54a4a569536058f75590c6014badde0dfb72212909fae6",
+      "label_sha256": "120537b0ebaa6547c2a6efe3f12d41504a4940827e66cc6a4ee2e0be0dd6f733",
+      "gt_counts": {
+        "car": 31,
+        "motorcycle": 0,
+        "bus": 0,
+        "truck": 1
+      }
+    },
+    {
+      "filename": "Bellevue_Bellevue_NE8th__2017-09-11_12-08-31__validation__slot_07__p_0.540909__t_1947.152422.jpg",
+      "annotation_id": "F1258",
+      "split": "Validation",
+      "source_video": "Bellevue_Bellevue_NE8th__2017-09-11_12-08-31.mp4",
+      "intersection": "Bellevue_Bellevue_NE8th",
+      "lighting": "Day",
+      "traffic_level": "High",
+      "frame_qa_status": "QA_ACCEPTED",
+      "image_sha256": "e4aaec93213c24c4844f8b77ab99a89ce151d4936d90717b96e9560c56508d30",
+      "label_sha256": "0b1eb2ea900dad06037d05a8c6d29d6d0afea91be22312d4301c7e575e10c1db",
+      "gt_counts": {
+        "car": 25,
+        "motorcycle": 0,
+        "bus": 0,
+        "truck": 3
+      }
+    },
+    {
+      "filename": "Bellevue_Bellevue_NE8th__2017-09-11_12-08-31__validation__slot_08__p_0.622727__t_2242.055533.jpg",
+      "annotation_id": "F1259",
+      "split": "Validation",
+      "source_video": "Bellevue_Bellevue_NE8th__2017-09-11_12-08-31.mp4",
+      "intersection": "Bellevue_Bellevue_NE8th",
+      "lighting": "Day",
+      "traffic_level": "High",
+      "frame_qa_status": "QA_ACCEPTED",
+      "image_sha256": "ee008a4e659d747ada46e56004969f37c8fdc910593a15b38a70bc9e4799c878",
+      "label_sha256": "7e4bf341216ee622929d2e84604ab6d42067e52d005d3dd1a1041620c1e40ff8",
+      "gt_counts": {
+        "car": 26,
+        "motorcycle": 0,
+        "bus": 0,
+        "truck": 3
+      }
+    },
+    {
+      "filename": "Bellevue_Bellevue_NE8th__2017-09-11_12-08-31__validation__slot_09__p_0.704545__t_2536.592033.jpg",
+      "annotation_id": "F1260",
+      "split": "Validation",
+      "source_video": "Bellevue_Bellevue_NE8th__2017-09-11_12-08-31.mp4",
+      "intersection": "Bellevue_Bellevue_NE8th",
+      "lighting": "Day",
+      "traffic_level": "High",
+      "frame_qa_status": "QA_ACCEPTED",
+      "image_sha256": "2c2df3ea9570aae407a79bc84c4d796fc26fd6d6ca5900808434e21bc52b2bea",
+      "label_sha256": "7418054ff3299967b4d8dce9bc889422ee312f8b43e41c2b659756c318bc8d95",
+      "gt_counts": {
+        "car": 35,
+        "motorcycle": 0,
+        "bus": 0,
+        "truck": 0
+      }
+    },
+    {
+      "filename": "Bellevue_Bellevue_NE8th__2017-09-11_12-08-31__validation__slot_10__p_0.786364__t_2831.093933.jpg",
+      "annotation_id": "F1261",
+      "split": "Validation",
+      "source_video": "Bellevue_Bellevue_NE8th__2017-09-11_12-08-31.mp4",
+      "intersection": "Bellevue_Bellevue_NE8th",
+      "lighting": "Day",
+      "traffic_level": "High",
+      "frame_qa_status": "QA_ACCEPTED",
+      "image_sha256": "20f29a8b9d88395d1aa9b28c12963a403449c2e3f1c2a40525380e09afcdb17b",
+      "label_sha256": "5ec7ba433d65fc14b59c73fb164d10b8250c4221066bc6c8cda710ce4b7fe122",
+      "gt_counts": {
+        "car": 28,
+        "motorcycle": 0,
+        "bus": 0,
+        "truck": 1
+      }
+    },
+    {
+      "filename": "Bellevue_Bellevue_NE8th__2017-09-11_12-08-31__validation__slot_11__p_0.868182__t_3125.530411.jpg",
+      "annotation_id": "F1262",
+      "split": "Validation",
+      "source_video": "Bellevue_Bellevue_NE8th__2017-09-11_12-08-31.mp4",
+      "intersection": "Bellevue_Bellevue_NE8th",
+      "lighting": "Day",
+      "traffic_level": "High",
+      "frame_qa_status": "QA_ACCEPTED",
+      "image_sha256": "d12ad7f0718b4529bbdc9d1453409297883005bbfdf5f07728f9fdeb6481fe30",
+      "label_sha256": "64424f44fb904707d922f66c37ee78ef072c0db221adb6d2cdf80d8f394074d6",
+      "gt_counts": {
+        "car": 27,
+        "motorcycle": 0,
+        "bus": 0,
+        "truck": 2
+      }
+    },
+    {
+      "filename": "Bellevue_Bellevue_NE8th__2017-09-11_12-08-31__validation__slot_12__p_0.950000__t_3419.967378.jpg",
+      "annotation_id": "F1263",
+      "split": "Validation",
+      "source_video": "Bellevue_Bellevue_NE8th__2017-09-11_12-08-31.mp4",
+      "intersection": "Bellevue_Bellevue_NE8th",
+      "lighting": "Day",
+      "traffic_level": "High",
+      "frame_qa_status": "QA_ACCEPTED",
+      "image_sha256": "b5dadd08eac43dc7b40b7be3e20b0540d6f6f456b0d54ab02ea36ffc807f8cf5",
+      "label_sha256": "d525b0aa3675f6d793faa184c03a79c61ba236fd2d88320f571c2bbf31245869",
+      "gt_counts": {
+        "car": 36,
+        "motorcycle": 0,
+        "bus": 0,
+        "truck": 3
+      }
+    }
+  ]
+}

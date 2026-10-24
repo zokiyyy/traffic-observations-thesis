@@ -1,0 +1,31 @@
+{
+  "status": "passed",
+  "checked_at_utc": "2026-09-27T06:01:53.075558+00:00",
+  "translation_only": true,
+  "previous_json_sha256": "25b9ded1a965ca6ba02c759359b3e1c7ec0a756dc14f86b560dbdc9fab773c25",
+  "json_sha256": "63e22138694531226fc4cd2fc31be104ab8a806f3bfc65c29f786dcc424ccd41",
+  "unity_json_sha256": "63e22138694531226fc4cd2fc31be104ab8a806f3bfc65c29f786dcc424ccd41",
+  "numeric_values_thresholds_parameters_and_state_enums_unchanged": true,
+  "source_and_timing_unchanged": true,
+  "window_count": 361,
+  "zone_window_count": 1444,
+  "translated_json_value_count": 4354,
+  "csv_nontext_fields_identical": true,
+  "formal_data_and_readme_language": "English",
+  "test_exit_code": 0,
+  "test_summary": [
+    "----------------------------------------------------------------------",
+    "Ran 18 tests in 0.001s",
+    "",
+    "OK"
+  ],
+  "state_counts": {
+    "no_persistent_signal": 1020,
+    "motion_insufficient": 230,
+    "high_count_persistent": 155,
+    "high_count_low_motion_persistent": 23,
+    "no_observed_vehicles": 12,
+    "insufficient_window": 4
+  },
+  "elapsed_seconds": 12.247865249984898
+}

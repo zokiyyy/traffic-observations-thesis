@@ -1,0 +1,3231 @@
+{
+  "schema": "paired_visual_evidence_v1",
+  "selection_rule": "First existing short-check contact frame near original source PTS 60 s; Newport original first rendered frame at or after 60 s. Chosen for consistent early context, not for numerical extremity or whole-source representativeness.",
+  "time_convention": "All displayed PTS values are original-source normalized timestamps in seconds, not preview playback seconds. Recordings are separate and are not synchronized signal cycles.",
+  "no_new_inference": true,
+  "no_new_manual_labels": true,
+  "no_main_test_media_read": true,
+  "pixel_policy": "Individual paired panels paste existing annotated images at native size. The overview is resized only for navigation. Raw lighting panels contain original existing source samples at native size. No brightness, contrast or geometry changes.",
+  "pairs": [
+    {
+      "intersection": "Newport",
+      "camera": "Bellevue_150th_Newport",
+      "entries": [
+        {
+          "role": "original",
+          "source_id": "Bellevue_150th_Newport__2017-09-11_08-08-31.mp4",
+          "split": "Validation",
+          "source_duration_seconds": 3600.0151444444446,
+          "source_sha256": "969af533145e1a1afaa8fb4afa754205c338171760ff02b97e2aef4f04094c93",
+          "source_timestamp_seconds": 60.000144444444445,
+          "source_pts_ticks": 5400013,
+          "time_base": "1/90000",
+          "frame_index": 1798,
+          "image_path": "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/paired_case_comparison_2026-09-28_v1/evidence/selected_frames/Newport_original.png",
+          "image_sha256": "d47373f7e293b69235048fd249a284c197b0ce1e30e1dd42d4bd32cb17b2eadf",
+          "annotated_video_path": "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/newport_full_v5_2026-09-24/presentation/complete_validation_v5.mp4",
+          "annotated_video_sha256": "ed38390a0b2c3f55146755b2f80767bcde33685f9a6f91b502b9422ee446acab",
+          "evidence_receipt_path": "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/newport_full_v5_2026-09-24/downloaded_server_results/presentation/render_receipt.json",
+          "evidence_receipt_sha256": "f1303fbe75cb11ef58fede8f2fecf70240bb46366f80ea0867993286a5cdee3d",
+          "frame_counts_path": "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/newport_full_v5_2026-09-24/downloaded_server_results/analysis/server_results/frame_counts.csv",
+          "extraction_command": [
+            "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/tools/full_video/ffmpeg_7_1_arm64/ffmpeg",
+            "-hide_banner",
+            "-loglevel",
+            "info",
+            "-threads",
+            "1",
+            "-y",
+            "-copyts",
+            "-ss",
+            "60",
+            "-i",
+            "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/newport_full_v5_2026-09-24/presentation/complete_validation_v5.mp4",
+            "-map",
+            "0:v:0",
+            "-frames:v",
+            "1",
+            "-vf",
+            "showinfo",
+            "-fps_mode",
+            "passthrough",
+            "-update",
+            "1",
+            "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/paired_case_comparison_2026-09-28_v1/evidence/selected_frames/Newport_original.png"
+          ],
+          "method": "Decode one frame from verified existing full annotated video; original PTS preserved"
+        },
+        {
+          "role": "supplementary",
+          "source_id": "Bellevue_150th_Newport__2017-09-10_18-08-24.mp4",
+          "split": "Validation",
+          "source_duration_seconds": 3600.030622222222,
+          "source_sha256": "5d7eff08712d5750a018b4fa82be85754d47c777a07754d54b3d54cb2dd3c587",
+          "source_timestamp_seconds": 60.00015555555556,
+          "frame_index": 1800,
+          "image_path": "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/paired_case_comparison_2026-09-28_v1/evidence/selected_frames/Newport_supplementary.png",
+          "source_image_path": "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/supplementary_five_2026-09-28_v3_repair/delivery/Bellevue_150th_Newport/summary_archive/contacts/frame-00001800.png",
+          "image_sha256": "e3d5ca0ed1a18f67119c3d84ae25887084512fe59cd24def379485c6b2bbd7b6",
+          "evidence_receipt_path": "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/supplementary_five_2026-09-28_v3_repair/delivery/Bellevue_150th_Newport/summary_archive/contacts/contact_receipt.json",
+          "evidence_receipt_sha256": "e09a70273f55b968af3d4eb2aa577b49541006867b35ceb86eafdf21c6406426",
+          "method": "Copy existing contact frame without changing pixels or overlays",
+          "preview_path": "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/supplementary_five_2026-09-28_v3_repair/delivery/Bellevue_150th_Newport/preview.mp4",
+          "preview_receipt_path": "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/supplementary_five_2026-09-28_v3_repair/delivery/Bellevue_150th_Newport/preview_receipt.json",
+          "preview_source_intervals": [
+            {
+              "source_start_seconds": 60.00015555555556,
+              "source_end_seconds": 90.00023333333333,
+              "first_source_frame_index": 1800,
+              "last_source_frame_index_inclusive": 2699,
+              "output_start_seconds": 0,
+              "output_end_seconds": 30.00007777777778
+            }
+          ]
+        }
+      ],
+      "original_roi_path": "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/newport_full_v5_2026-09-24/config/roi.json",
+      "supplementary_roi_path": "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/supplementary_five_2026-09-28_v3_repair/config/Bellevue_150th_Newport/roi.json",
+      "roi_geometry_identical": true,
+      "figure_path": "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/paired_case_comparison_2026-09-28_v1/evidence/Newport_pair.png"
+    },
+    {
+      "intersection": "NE12th",
+      "camera": "Bellevue_116th_NE12th",
+      "entries": [
+        {
+          "role": "original",
+          "source_id": "Bellevue_116th_NE12th__2017-09-10_23-08-29.mp4",
+          "split": "Validation",
+          "source_duration_seconds": 3600.0097666666666,
+          "source_sha256": "785fc1ed24a6a2aff94601b79474c88a63660a751a586697b6bfd9120fd371be",
+          "source_timestamp_seconds": 60.00474444444445,
+          "frame_index": 1802,
+          "image_path": "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/paired_case_comparison_2026-09-28_v1/evidence/selected_frames/NE12th_original.png",
+          "source_image_path": "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/five_intersections_2026-09-27_r2/delivery/Bellevue_116th_NE12th/summary_archive/contacts/frame-00001802.png",
+          "image_sha256": "08a45abc3f824c4186c7588574802edb1332a2beab1f7714776a53f709fbc75f",
+          "evidence_receipt_path": "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/five_intersections_2026-09-27_r2/delivery/Bellevue_116th_NE12th/summary_archive/contacts/contact_receipt.json",
+          "evidence_receipt_sha256": "67faeb53b71b2f5f9acc8c622ab9146784603e3588b29c2766e46db0905f60ec",
+          "method": "Copy existing contact frame without changing pixels or overlays"
+        },
+        {
+          "role": "supplementary",
+          "source_id": "Bellevue_116th_NE12th__2017-09-11_07-08-32.mp4",
+          "split": "Train",
+          "source_duration_seconds": 408.57685555555554,
+          "source_sha256": "4dde510ff91c2ec58e1cd06e27cbd923d8976c0156905a4625097653415eca4e",
+          "source_timestamp_seconds": 60.001488888888886,
+          "frame_index": 1801,
+          "image_path": "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/paired_case_comparison_2026-09-28_v1/evidence/selected_frames/NE12th_supplementary.png",
+          "source_image_path": "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/supplementary_five_2026-09-28_v3_repair/delivery/Bellevue_116th_NE12th/summary_archive/contacts/frame-00001801.png",
+          "image_sha256": "bb861dbc332634dde8ddcecacf4d4aed5422362715b808a1282a561f096f7ab5",
+          "evidence_receipt_path": "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/supplementary_five_2026-09-28_v3_repair/delivery/Bellevue_116th_NE12th/summary_archive/contacts/contact_receipt.json",
+          "evidence_receipt_sha256": "8561d4bfdee6d4f79059440bd91c9196107d63f5f5a62ba4234c3523400e6c01",
+          "method": "Copy existing contact frame without changing pixels or overlays",
+          "preview_path": "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/supplementary_five_2026-09-28_v3_repair/delivery/Bellevue_116th_NE12th/preview.mp4",
+          "preview_receipt_path": "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/supplementary_five_2026-09-28_v3_repair/delivery/Bellevue_116th_NE12th/preview_receipt.json",
+          "preview_source_intervals": [
+            {
+              "source_start_seconds": 60.001488888888886,
+              "source_end_seconds": 90.00224444444444,
+              "first_source_frame_index": 1801,
+              "last_source_frame_index_inclusive": 2700,
+              "output_start_seconds": 0,
+              "output_end_seconds": 30.000755555555557
+            }
+          ]
+        }
+      ],
+      "original_roi_path": "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/five_intersections_2026-09-27_r2/config/Bellevue_116th_NE12th/roi.json",
+      "supplementary_roi_path": "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/supplementary_five_2026-09-28_v3_repair/config/Bellevue_116th_NE12th/roi.json",
+      "roi_geometry_identical": true,
+      "figure_path": "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/paired_case_comparison_2026-09-28_v1/evidence/NE12th_pair.png"
+    },
+    {
+      "intersection": "Eastgate",
+      "camera": "Bellevue_150th_Eastgate",
+      "entries": [
+        {
+          "role": "original",
+          "source_id": "Bellevue_150th_Eastgate__2017-09-11_17-08-33.mp4",
+          "split": "Validation",
+          "source_duration_seconds": 3599.991,
+          "source_sha256": "8b5c1a2d013339b680362d17ce5e59bc7167c72d08e800556318947927ec07cd",
+          "source_timestamp_seconds": 60.03317777777778,
+          "frame_index": 1800,
+          "image_path": "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/paired_case_comparison_2026-09-28_v1/evidence/selected_frames/Eastgate_original.png",
+          "source_image_path": "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/five_intersections_2026-09-27_r2/delivery/Bellevue_150th_Eastgate/summary_archive/contacts/frame-00001800.png",
+          "image_sha256": "81fa6212cd6545b6ac4cac07ba66e4262bfb1e9b9913fad7e69b892a87d0d6b1",
+          "evidence_receipt_path": "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/five_intersections_2026-09-27_r2/delivery/Bellevue_150th_Eastgate/summary_archive/contacts/contact_receipt.json",
+          "evidence_receipt_sha256": "f19e94062fdf3cfa218f88fc6076c380a8c7fd99ce886bc3bb2dbecb2b51b52a",
+          "method": "Copy existing contact frame without changing pixels or overlays"
+        },
+        {
+          "role": "supplementary",
+          "source_id": "Bellevue_150th_Eastgate__2017-09-11_06-08-30.mp4",
+          "split": "Validation",
+          "source_duration_seconds": 3600.0039555555554,
+          "source_sha256": "5c101e5e3cb6f64e2304f9666337b9b3e3f46330ce5300c474c73f6a94dd6647",
+          "source_timestamp_seconds": 60.033211111111115,
+          "frame_index": 1801,
+          "image_path": "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/paired_case_comparison_2026-09-28_v1/evidence/selected_frames/Eastgate_supplementary.png",
+          "source_image_path": "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/supplementary_five_2026-09-28_v3_repair/delivery/Bellevue_150th_Eastgate/summary_archive/contacts/frame-00001801.png",
+          "image_sha256": "35f8ff3b14ebc43ea6dc39f03f261194d3d2dbec8b525a1d25feb7233b05ca33",
+          "evidence_receipt_path": "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/supplementary_five_2026-09-28_v3_repair/delivery/Bellevue_150th_Eastgate/summary_archive/contacts/contact_receipt.json",
+          "evidence_receipt_sha256": "dd0ff462406a2a1b8170a04f6762eea2c95a8641d7715a9b7e3c46823239f809",
+          "method": "Copy existing contact frame without changing pixels or overlays",
+          "preview_path": "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/supplementary_five_2026-09-28_v3_repair/delivery/Bellevue_150th_Eastgate/preview.mp4",
+          "preview_receipt_path": "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/supplementary_five_2026-09-28_v3_repair/delivery/Bellevue_150th_Eastgate/preview_receipt.json",
+          "preview_source_intervals": [
+            {
+              "source_start_seconds": 60.033211111111115,
+              "source_end_seconds": 90.03316666666667,
+              "first_source_frame_index": 1801,
+              "last_source_frame_index_inclusive": 2700,
+              "output_start_seconds": 0,
+              "output_end_seconds": 29.999955555555555
+            }
+          ]
+        }
+      ],
+      "original_roi_path": "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/five_intersections_2026-09-27_r2/config/Bellevue_150th_Eastgate/roi.json",
+      "supplementary_roi_path": "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/supplementary_five_2026-09-28_v3_repair/config/Bellevue_150th_Eastgate/roi.json",
+      "roi_geometry_identical": true,
+      "figure_path": "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/paired_case_comparison_2026-09-28_v1/evidence/Eastgate_pair.png"
+    },
+    {
+      "intersection": "SE38th",
+      "camera": "Bellevue_150th_SE38th",
+      "entries": [
+        {
+          "role": "original",
+          "source_id": "Bellevue_150th_SE38th__2017-09-11_14-08-32.mp4",
+          "split": "Validation",
+          "source_duration_seconds": 3600.0297333333333,
+          "source_sha256": "64049c93fd95320ed3736c516874119f2603623541a5255f79c38df37f0faf9c",
+          "source_timestamp_seconds": 60.03307777777778,
+          "frame_index": 1802,
+          "image_path": "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/paired_case_comparison_2026-09-28_v1/evidence/selected_frames/SE38th_original.png",
+          "source_image_path": "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/five_intersections_2026-09-27_r2/delivery/Bellevue_150th_SE38th/summary_archive/contacts/frame-00001802.png",
+          "image_sha256": "c7f08ed506e1a0f80fa41a8cb39ea135c06e82d710d91909dc0a7a55e7b0a1a6",
+          "evidence_receipt_path": "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/five_intersections_2026-09-27_r2/delivery/Bellevue_150th_SE38th/summary_archive/contacts/contact_receipt.json",
+          "evidence_receipt_sha256": "cb367a09a75ede4ee9b690ce92744a698f524332a1cbaefc052ce5da5425ff5c",
+          "method": "Copy existing contact frame without changing pixels or overlays"
+        },
+        {
+          "role": "supplementary",
+          "source_id": "Bellevue_150th_SE38th__2017-09-10_19-08-25.mp4",
+          "split": "Validation",
+          "source_duration_seconds": 3600.0105,
+          "source_sha256": "e0e4d9d1e69c2f8b2ef356bdfb99c0e37baafb96db0645952bab4bc7b40e09c4",
+          "source_timestamp_seconds": 60.033166666666666,
+          "frame_index": 1802,
+          "image_path": "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/paired_case_comparison_2026-09-28_v1/evidence/selected_frames/SE38th_supplementary.png",
+          "source_image_path": "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/supplementary_five_2026-09-28_v3_repair/delivery/Bellevue_150th_SE38th/summary_archive/contacts/frame-00001802.png",
+          "image_sha256": "4413fca2190aace33a28ba3906c5e1f165ab16ea650e8485ec80b74b8a964d05",
+          "evidence_receipt_path": "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/supplementary_five_2026-09-28_v3_repair/delivery/Bellevue_150th_SE38th/summary_archive/contacts/contact_receipt.json",
+          "evidence_receipt_sha256": "87c095dfd5bbf553c4f9b8c701c207b5dc68bed9fc20d7ba58b6060977c98c97",
+          "method": "Copy existing contact frame without changing pixels or overlays",
+          "preview_path": "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/supplementary_five_2026-09-28_v3_repair/delivery/Bellevue_150th_SE38th/preview.mp4",
+          "preview_receipt_path": "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/supplementary_five_2026-09-28_v3_repair/delivery/Bellevue_150th_SE38th/preview_receipt.json",
+          "preview_source_intervals": [
+            {
+              "source_start_seconds": 60.033166666666666,
+              "source_end_seconds": 90.03306666666667,
+              "first_source_frame_index": 1802,
+              "last_source_frame_index_inclusive": 2701,
+              "output_start_seconds": 0,
+              "output_end_seconds": 29.9999
+            }
+          ]
+        }
+      ],
+      "original_roi_path": "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/five_intersections_2026-09-27_r2/config/Bellevue_150th_SE38th/roi.json",
+      "supplementary_roi_path": "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/supplementary_five_2026-09-28_v3_repair/config/Bellevue_150th_SE38th/roi.json",
+      "roi_geometry_identical": true,
+      "figure_path": "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/paired_case_comparison_2026-09-28_v1/evidence/SE38th_pair.png"
+    },
+    {
+      "intersection": "NE8th",
+      "camera": "Bellevue_Bellevue_NE8th",
+      "entries": [
+        {
+          "role": "original",
+          "source_id": "Bellevue_Bellevue_NE8th__2017-09-11_12-08-31.mp4",
+          "split": "Validation",
+          "source_duration_seconds": 3600.0026666666668,
+          "source_sha256": "15c9b8478b0897f935ecd0d05d5e5407f771e05c7d2f70801180ff24a4d56a60",
+          "source_timestamp_seconds": 60.00063333333333,
+          "frame_index": 1801,
+          "image_path": "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/paired_case_comparison_2026-09-28_v1/evidence/selected_frames/NE8th_original.png",
+          "source_image_path": "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/five_intersections_2026-09-27_r2/delivery/Bellevue_Bellevue_NE8th/summary_archive/contacts/frame-00001801.png",
+          "image_sha256": "48dcc0662720c393cc385ae7de66181f063a109ef451c95dc72bdf46b5c58477",
+          "evidence_receipt_path": "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/five_intersections_2026-09-27_r2/delivery/Bellevue_Bellevue_NE8th/summary_archive/contacts/contact_receipt.json",
+          "evidence_receipt_sha256": "0b0a2137915dcfe2db4e96679bd61d8664a6f9dbfa1d13abaae2c04599092e52",
+          "method": "Copy existing contact frame without changing pixels or overlays"
+        },
+        {
+          "role": "supplementary",
+          "source_id": "Bellevue_Bellevue_NE8th__2017-09-11_02-08-29.mp4",
+          "split": "Validation",
+          "source_duration_seconds": 3600.016977777778,
+          "source_sha256": "f4492d61971979f21f7f09a5a90b0ed458ea7c4a9dd6fbe1ae30831c951fa5fb",
+          "source_timestamp_seconds": 60.00074444444444,
+          "frame_index": 1801,
+          "image_path": "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/paired_case_comparison_2026-09-28_v1/evidence/selected_frames/NE8th_supplementary.png",
+          "source_image_path": "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/supplementary_five_2026-09-28_v3_repair/delivery/Bellevue_Bellevue_NE8th/summary_archive/contacts/frame-00001801.png",
+          "image_sha256": "30689c136c77310ab0ca4200f734c5db8c27bcea83a37c9d47d486e3106cee03",
+          "evidence_receipt_path": "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/supplementary_five_2026-09-28_v3_repair/delivery/Bellevue_Bellevue_NE8th/summary_archive/contacts/contact_receipt.json",
+          "evidence_receipt_sha256": "311e58f46abb0ec31fdbfdbc3bf21ebdbfc99d0ee6c66f898360744866e1ab12",
+          "method": "Copy existing contact frame without changing pixels or overlays",
+          "preview_path": "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/supplementary_five_2026-09-28_v3_repair/delivery/Bellevue_Bellevue_NE8th/preview.mp4",
+          "preview_receipt_path": "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/supplementary_five_2026-09-28_v3_repair/delivery/Bellevue_Bellevue_NE8th/preview_receipt.json",
+          "preview_source_intervals": [
+            {
+              "source_start_seconds": 60.00074444444444,
+              "source_end_seconds": 90.0011,
+              "first_source_frame_index": 1801,
+              "last_source_frame_index_inclusive": 2700,
+              "output_start_seconds": 0,
+              "output_end_seconds": 30.000355555555554
+            }
+          ]
+        }
+      ],
+      "original_roi_path": "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/five_intersections_2026-09-27_r2/config/Bellevue_Bellevue_NE8th/roi.json",
+      "supplementary_roi_path": "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/supplementary_five_2026-09-28_v3_repair/config/Bellevue_Bellevue_NE8th/roi.json",
+      "roi_geometry_identical": true,
+      "figure_path": "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/paired_case_comparison_2026-09-28_v1/evidence/NE8th_pair.png"
+    }
+  ],
+  "within_source_light_evidence": [
+    {
+      "intersection": "Eastgate",
+      "source_id": "Bellevue_150th_Eastgate__2017-09-11_06-08-30.mp4",
+      "split": "Validation",
+      "figure_path": "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/paired_case_comparison_2026-09-28_v1/evidence/Eastgate_light_change.png",
+      "entries": [
+        {
+          "source_image_path": "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/supplementary_five_2026-09-28_v3_repair/source_review/Bellevue_150th_Eastgate/sample_00.png",
+          "local_image_path": "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/paired_case_comparison_2026-09-28_v1/evidence/selected_frames/Eastgate_supplementary_raw_00.png",
+          "source_timestamp_seconds": 0.0,
+          "image_sha256": "f2e31a5e3e9edbdafb7585e863d413f88b9c085b7c7b66112029dff6ba1c9a84",
+          "manifest_path": "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/supplementary_five_2026-09-28_v3_repair/source_review/Bellevue_150th_Eastgate/sample_manifest.json"
+        },
+        {
+          "source_image_path": "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/supplementary_five_2026-09-28_v3_repair/source_review/Bellevue_150th_Eastgate/sample_05.png",
+          "local_image_path": "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/paired_case_comparison_2026-09-28_v1/evidence/selected_frames/Eastgate_supplementary_raw_05.png",
+          "source_timestamp_seconds": 3599.037289,
+          "image_sha256": "e966cef16e5b8c26438f64f4442b0cb221f576d17d726a6a69b1ba48138f8367",
+          "manifest_path": "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/supplementary_five_2026-09-28_v3_repair/source_review/Bellevue_150th_Eastgate/sample_manifest.json"
+        }
+      ]
+    },
+    {
+      "intersection": "SE38th",
+      "source_id": "Bellevue_150th_SE38th__2017-09-10_19-08-25.mp4",
+      "split": "Validation",
+      "figure_path": "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/paired_case_comparison_2026-09-28_v1/evidence/SE38th_light_change.png",
+      "entries": [
+        {
+          "source_image_path": "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/supplementary_five_2026-09-28_v3_repair/source_review/Bellevue_150th_SE38th/sample_00.png",
+          "local_image_path": "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/paired_case_comparison_2026-09-28_v1/evidence/selected_frames/SE38th_supplementary_raw_00.png",
+          "source_timestamp_seconds": 0.0,
+          "image_sha256": "ebcf7c9b1dd57aea351200f9655ca777627d4fc51fdd8005af5c9f756800f23e",
+          "manifest_path": "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/supplementary_five_2026-09-28_v3_repair/source_review/Bellevue_150th_SE38th/sample_manifest.json"
+        },
+        {
+          "source_image_path": "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/supplementary_five_2026-09-28_v3_repair/source_review/Bellevue_150th_SE38th/sample_05.png",
+          "local_image_path": "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/paired_case_comparison_2026-09-28_v1/evidence/selected_frames/SE38th_supplementary_raw_05.png",
+          "source_timestamp_seconds": 3599.010522,
+          "image_sha256": "ef7b93d6303ae4edb4351e50190a7768012e4f8cb643bb255b9eb83b75a637e9",
+          "manifest_path": "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/supplementary_five_2026-09-28_v3_repair/source_review/Bellevue_150th_SE38th/sample_manifest.json"
+        }
+      ]
+    }
+  ],
+  "eastgate_analysis_interval_context": {
+    "intersection": "Eastgate",
+    "source_id": "Bellevue_150th_Eastgate__2017-09-11_06-08-30.mp4",
+    "source_path": "/Users/zoki/Desktop/traffic_projects/videos/original/Bellevue_150th_Eastgate/Bellevue_150th_Eastgate__2017-09-11_06-08-30.mp4",
+    "source_sha256": "5c101e5e3cb6f64e2304f9666337b9b3e3f46330ce5300c474c73f6a94dd6647",
+    "split": "Validation",
+    "selected_target_seconds": [
+      240,
+      2770
+    ],
+    "selection_basis": "Root quantitative analyst requested early and late raw-image contexts; no new model inference.",
+    "figure_path": "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/paired_case_comparison_2026-09-28_v1/evidence/Eastgate_analysis_interval_context.png",
+    "frame_counts_path": "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/supplementary_five_2026-09-28_v3_repair/delivery/Bellevue_150th_Eastgate/summary_archive/output/frame_counts.csv",
+    "entries": [
+      {
+        "source_timestamp_seconds": 240.0329,
+        "source_pts_ticks": 21602961,
+        "time_base": "1/90000",
+        "frame_index": 7197,
+        "image_path": "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/paired_case_comparison_2026-09-28_v1/evidence/selected_frames/Eastgate_supplementary_raw_240s.png",
+        "image_sha256": "5cb40c4f8dc2aa8c16cf9cc865378ee2a031b4ec4ee75cf3c08e843397550b0d",
+        "extraction_command": [
+          "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/tools/full_video/ffmpeg_7_1_arm64/ffmpeg",
+          "-hide_banner",
+          "-loglevel",
+          "info",
+          "-threads",
+          "1",
+          "-y",
+          "-copyts",
+          "-ss",
+          "240",
+          "-i",
+          "/Users/zoki/Desktop/traffic_projects/videos/original/Bellevue_150th_Eastgate/Bellevue_150th_Eastgate__2017-09-11_06-08-30.mp4",
+          "-map",
+          "0:v:0",
+          "-frames:v",
+          "1",
+          "-vf",
+          "showinfo",
+          "-fps_mode",
+          "passthrough",
+          "-update",
+          "1",
+          "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/paired_case_comparison_2026-09-28_v1/evidence/selected_frames/Eastgate_supplementary_raw_240s.png"
+        ],
+        "matched_frame_counts": {
+          "frame_index": "7197",
+          "source_timestamp_seconds": "240.03289999999998",
+          "duration_seconds": "0.033344444444480814",
+          "valid": "True",
+          "missing_reason": "",
+          "road_left": "0",
+          "road_upper_left": "0",
+          "road_top": "0",
+          "road_right": "0",
+          "junction_center": "1",
+          "total_in_zones": "1",
+          "outside_zone_count": "1",
+          "all_current_tracks": "2",
+          "raw_detection_count": "2",
+          "second_resolution_raw_count": "0",
+          "background_candidates": "0",
+          "background_removed": "0",
+          "cross_class_removed": "0",
+          "containment_removed": "0",
+          "unresolved_heavy_pairs": "0"
+        }
+      },
+      {
+        "source_timestamp_seconds": 2770.005188888889,
+        "source_pts_ticks": 249300467,
+        "time_base": "1/90000",
+        "frame_index": 82994,
+        "image_path": "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/paired_case_comparison_2026-09-28_v1/evidence/selected_frames/Eastgate_supplementary_raw_2770s.png",
+        "image_sha256": "d50e9fdb52a1752580431a2808bc4032a39d503af7affa3e7b11258631817bb8",
+        "extraction_command": [
+          "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/tools/full_video/ffmpeg_7_1_arm64/ffmpeg",
+          "-hide_banner",
+          "-loglevel",
+          "info",
+          "-threads",
+          "1",
+          "-y",
+          "-copyts",
+          "-ss",
+          "2770",
+          "-i",
+          "/Users/zoki/Desktop/traffic_projects/videos/original/Bellevue_150th_Eastgate/Bellevue_150th_Eastgate__2017-09-11_06-08-30.mp4",
+          "-map",
+          "0:v:0",
+          "-frames:v",
+          "1",
+          "-vf",
+          "showinfo",
+          "-fps_mode",
+          "passthrough",
+          "-update",
+          "1",
+          "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/paired_case_comparison_2026-09-28_v1/evidence/selected_frames/Eastgate_supplementary_raw_2770s.png"
+        ],
+        "matched_frame_counts": {
+          "frame_index": "82994",
+          "source_timestamp_seconds": "2770.005188888889",
+          "duration_seconds": "0.0333555555557723",
+          "valid": "True",
+          "missing_reason": "",
+          "road_left": "0",
+          "road_upper_left": "1",
+          "road_top": "9",
+          "road_right": "3",
+          "junction_center": "0",
+          "total_in_zones": "13",
+          "outside_zone_count": "9",
+          "all_current_tracks": "22",
+          "raw_detection_count": "28",
+          "second_resolution_raw_count": "0",
+          "background_candidates": "0",
+          "background_removed": "0",
+          "cross_class_removed": "0",
+          "containment_removed": "0",
+          "unresolved_heavy_pairs": "0"
+        }
+      }
+    ]
+  },
+  "input_hashes": {
+    "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/five_intersections_2026-09-27_r2/selection/selected_sources.json": {
+      "sha256": "602bf905f1fd60edeb31aa482b4e48aed80057bd1b93cd5f0a68961c1e18f6c5",
+      "bytes": 11487
+    },
+    "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/supplementary_five_2026-09-28_v3_repair/selection/selected_sources.json": {
+      "sha256": "5c12b09365207677efca4814ef5cddd1414cc4cd71946038b067dbaf0eb441ce",
+      "bytes": 11188
+    },
+    "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/five_intersections_2026-09-27_r2/five_video_results_index.json": {
+      "sha256": "b729ec9d07a26ea607880163d37eb531b6eaf8cdacce1726ab8893de759c9a95",
+      "bytes": 3673
+    },
+    "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/supplementary_five_2026-09-28_v3_repair/supplementary_results_index.json": {
+      "sha256": "3cb743963b83695c4031afbd2bf545fd4eacd762005d898601dc3eed391a39fb",
+      "bytes": 5993
+    },
+    "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/newport_full_v5_2026-09-24/downloaded_server_results/presentation/render_receipt.json": {
+      "sha256": "f1303fbe75cb11ef58fede8f2fecf70240bb46366f80ea0867993286a5cdee3d",
+      "bytes": 1435
+    },
+    "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/newport_full_v5_2026-09-24/presentation/complete_validation_v5.mp4": {
+      "sha256": "ed38390a0b2c3f55146755b2f80767bcde33685f9a6f91b502b9422ee446acab",
+      "bytes": 1431780108
+    },
+    "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/newport_full_v5_2026-09-24/downloaded_server_results/analysis/server_results/frame_counts.csv": {
+      "sha256": "dafeb65ee0ab962d0ce7d921b56f15e34041ae9703a6c4763fb7c9c3f5bb564d",
+      "bytes": 8931326
+    },
+    "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/paired_case_comparison_2026-09-28_v1/evidence/selected_frames/Newport_original.png": {
+      "sha256": "d47373f7e293b69235048fd249a284c197b0ce1e30e1dd42d4bd32cb17b2eadf",
+      "bytes": 1956816
+    },
+    "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/supplementary_five_2026-09-28_v3_repair/delivery/Bellevue_150th_Newport/summary_archive/contacts/contact_receipt.json": {
+      "sha256": "e09a70273f55b968af3d4eb2aa577b49541006867b35ceb86eafdf21c6406426",
+      "bytes": 1683
+    },
+    "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/supplementary_five_2026-09-28_v3_repair/delivery/Bellevue_150th_Newport/summary_archive/contacts/frame-00001800.png": {
+      "sha256": "e3d5ca0ed1a18f67119c3d84ae25887084512fe59cd24def379485c6b2bbd7b6",
+      "bytes": 1711309
+    },
+    "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/supplementary_five_2026-09-28_v3_repair/delivery/Bellevue_150th_Newport/preview_receipt.json": {
+      "sha256": "ee6bed3769d857f00251b078fa203558ee686e65cf2115ed9e783c2f4d6c3ea9",
+      "bytes": 346480
+    },
+    "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/newport_full_v5_2026-09-24/config/roi.json": {
+      "sha256": "8c3ea8b4206497e0e155aeff851093290952a83fa0c0ada70edeacf83376669a",
+      "bytes": 9310
+    },
+    "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/supplementary_five_2026-09-28_v3_repair/config/Bellevue_150th_Newport/roi.json": {
+      "sha256": "3b3585da967732f4c45dfb014cf6aa26e92c5d1c996091ab231ef3e0b90467c7",
+      "bytes": 9969
+    },
+    "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/supplementary_five_2026-09-28_v3_repair/config/Bellevue_150th_Newport/applicability.json": {
+      "sha256": "11ac01d69b525551689617e2099e4a0099ee1ee1caeb915af1f7bddfcf425e90",
+      "bytes": 9908
+    },
+    "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/five_intersections_2026-09-27_r2/delivery/Bellevue_116th_NE12th/summary_archive/contacts/contact_receipt.json": {
+      "sha256": "67faeb53b71b2f5f9acc8c622ab9146784603e3588b29c2766e46db0905f60ec",
+      "bytes": 1659
+    },
+    "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/five_intersections_2026-09-27_r2/delivery/Bellevue_116th_NE12th/summary_archive/contacts/frame-00001802.png": {
+      "sha256": "08a45abc3f824c4186c7588574802edb1332a2beab1f7714776a53f709fbc75f",
+      "bytes": 1336585
+    },
+    "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/supplementary_five_2026-09-28_v3_repair/delivery/Bellevue_116th_NE12th/summary_archive/contacts/contact_receipt.json": {
+      "sha256": "8561d4bfdee6d4f79059440bd91c9196107d63f5f5a62ba4234c3523400e6c01",
+      "bytes": 1678
+    },
+    "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/supplementary_five_2026-09-28_v3_repair/delivery/Bellevue_116th_NE12th/summary_archive/contacts/frame-00001801.png": {
+      "sha256": "bb861dbc332634dde8ddcecacf4d4aed5422362715b808a1282a561f096f7ab5",
+      "bytes": 1510779
+    },
+    "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/supplementary_five_2026-09-28_v3_repair/delivery/Bellevue_116th_NE12th/preview_receipt.json": {
+      "sha256": "d38dd848d76df55b3e3bdf47994e9e6df07a6b9aefa7b222a8b60b092a598145",
+      "bytes": 346430
+    },
+    "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/five_intersections_2026-09-27_r2/config/Bellevue_116th_NE12th/roi.json": {
+      "sha256": "080b7379ebbf83beacf3e5aba481adc269c2e5d43c259bce27830768317a4a83",
+      "bytes": 6042
+    },
+    "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/supplementary_five_2026-09-28_v3_repair/config/Bellevue_116th_NE12th/roi.json": {
+      "sha256": "f7e46b1e0c90b152f83306b37fe3de60cd8cd96610bcfba29af1ea5c9529eedd",
+      "bytes": 6575
+    },
+    "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/five_intersections_2026-09-27_r2/config/Bellevue_116th_NE12th/applicability.json": {
+      "sha256": "26296e088332587003bfa303334e154584b8a6bfa3258900e95792cca7f86891",
+      "bytes": 7708
+    },
+    "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/supplementary_five_2026-09-28_v3_repair/config/Bellevue_116th_NE12th/applicability.json": {
+      "sha256": "b397ce1a96ced1dcf1864da9437b0ba9e44c38cebd499bcdb614c2109df3e67c",
+      "bytes": 9868
+    },
+    "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/five_intersections_2026-09-27_r2/delivery/Bellevue_150th_Eastgate/summary_archive/contacts/contact_receipt.json": {
+      "sha256": "f19e94062fdf3cfa218f88fc6076c380a8c7fd99ce886bc3bb2dbecb2b51b52a",
+      "bytes": 1658
+    },
+    "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/five_intersections_2026-09-27_r2/delivery/Bellevue_150th_Eastgate/summary_archive/contacts/frame-00001800.png": {
+      "sha256": "81fa6212cd6545b6ac4cac07ba66e4262bfb1e9b9913fad7e69b892a87d0d6b1",
+      "bytes": 1473958
+    },
+    "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/supplementary_five_2026-09-28_v3_repair/delivery/Bellevue_150th_Eastgate/summary_archive/contacts/contact_receipt.json": {
+      "sha256": "dd0ff462406a2a1b8170a04f6762eea2c95a8641d7715a9b7e3c46823239f809",
+      "bytes": 1685
+    },
+    "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/supplementary_five_2026-09-28_v3_repair/delivery/Bellevue_150th_Eastgate/summary_archive/contacts/frame-00001801.png": {
+      "sha256": "35f8ff3b14ebc43ea6dc39f03f261194d3d2dbec8b525a1d25feb7233b05ca33",
+      "bytes": 1257753
+    },
+    "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/supplementary_five_2026-09-28_v3_repair/delivery/Bellevue_150th_Eastgate/preview_receipt.json": {
+      "sha256": "12fc2a18ab8e28b510eaf4c08ceb8b5ee7b5879b58ffdf538fba151983921c7b",
+      "bytes": 346809
+    },
+    "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/five_intersections_2026-09-27_r2/config/Bellevue_150th_Eastgate/roi.json": {
+      "sha256": "3fa231b5f7c9922e1332bd31ba24e8eb0fb10f7ab0e5d42a1223b5c8986d45b1",
+      "bytes": 5796
+    },
+    "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/supplementary_five_2026-09-28_v3_repair/config/Bellevue_150th_Eastgate/roi.json": {
+      "sha256": "9ff53089c1c15d7df150e575f6921405e06f25a390801224d9682ca2145c80b9",
+      "bytes": 6425
+    },
+    "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/five_intersections_2026-09-27_r2/config/Bellevue_150th_Eastgate/applicability.json": {
+      "sha256": "9c917cb7fa91d68088f788fc287c5dc48d0970de14852923b0c6f36e77f19f7c",
+      "bytes": 15570
+    },
+    "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/supplementary_five_2026-09-28_v3_repair/config/Bellevue_150th_Eastgate/applicability.json": {
+      "sha256": "cb5077dd9d29915e2d422467774e799a28c64f6038f5edb80a656dc8d41cf037",
+      "bytes": 9892
+    },
+    "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/five_intersections_2026-09-27_r2/delivery/Bellevue_150th_SE38th/summary_archive/contacts/contact_receipt.json": {
+      "sha256": "cb367a09a75ede4ee9b690ce92744a698f524332a1cbaefc052ce5da5425ff5c",
+      "bytes": 1657
+    },
+    "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/five_intersections_2026-09-27_r2/delivery/Bellevue_150th_SE38th/summary_archive/contacts/frame-00001802.png": {
+      "sha256": "c7f08ed506e1a0f80fa41a8cb39ea135c06e82d710d91909dc0a7a55e7b0a1a6",
+      "bytes": 1457299
+    },
+    "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/supplementary_five_2026-09-28_v3_repair/delivery/Bellevue_150th_SE38th/summary_archive/contacts/contact_receipt.json": {
+      "sha256": "87c095dfd5bbf553c4f9b8c701c207b5dc68bed9fc20d7ba58b6060977c98c97",
+      "bytes": 1683
+    },
+    "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/supplementary_five_2026-09-28_v3_repair/delivery/Bellevue_150th_SE38th/summary_archive/contacts/frame-00001802.png": {
+      "sha256": "4413fca2190aace33a28ba3906c5e1f165ab16ea650e8485ec80b74b8a964d05",
+      "bytes": 1424973
+    },
+    "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/supplementary_five_2026-09-28_v3_repair/delivery/Bellevue_150th_SE38th/preview_receipt.json": {
+      "sha256": "a0241376a65ea6e54c21b6510ea2c7b21057826069ea8b84693b0edc5da1d53b",
+      "bytes": 346530
+    },
+    "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/five_intersections_2026-09-27_r2/config/Bellevue_150th_SE38th/roi.json": {
+      "sha256": "3d02edffc839a9af7448a40ea3a3aae9782045281610cde383d48642051c8e5a",
+      "bytes": 5223
+    },
+    "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/supplementary_five_2026-09-28_v3_repair/config/Bellevue_150th_SE38th/roi.json": {
+      "sha256": "5af1f249174f67a239496ca095a8c10617e8fabe5d7b92df42ed7ef3f5f28c27",
+      "bytes": 5843
+    },
+    "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/five_intersections_2026-09-27_r2/config/Bellevue_150th_SE38th/applicability.json": {
+      "sha256": "14757451ceefc3a803aa2837bc8334de94b40200234f5b33e57a5aafbddef597",
+      "bytes": 7339
+    },
+    "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/supplementary_five_2026-09-28_v3_repair/config/Bellevue_150th_SE38th/applicability.json": {
+      "sha256": "46ff6ece51d554ff7987651855dc0066abc4565ec1ae57026d888d56135eaf60",
+      "bytes": 9772
+    },
+    "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/five_intersections_2026-09-27_r2/delivery/Bellevue_Bellevue_NE8th/summary_archive/contacts/contact_receipt.json": {
+      "sha256": "0b0a2137915dcfe2db4e96679bd61d8664a6f9dbfa1d13abaae2c04599092e52",
+      "bytes": 1649
+    },
+    "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/five_intersections_2026-09-27_r2/delivery/Bellevue_Bellevue_NE8th/summary_archive/contacts/frame-00001801.png": {
+      "sha256": "48dcc0662720c393cc385ae7de66181f063a109ef451c95dc72bdf46b5c58477",
+      "bytes": 1614405
+    },
+    "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/supplementary_five_2026-09-28_v3_repair/delivery/Bellevue_Bellevue_NE8th/summary_archive/contacts/contact_receipt.json": {
+      "sha256": "311e58f46abb0ec31fdbfdbc3bf21ebdbfc99d0ee6c66f898360744866e1ab12",
+      "bytes": 1685
+    },
+    "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/supplementary_five_2026-09-28_v3_repair/delivery/Bellevue_Bellevue_NE8th/summary_archive/contacts/frame-00001801.png": {
+      "sha256": "30689c136c77310ab0ca4200f734c5db8c27bcea83a37c9d47d486e3106cee03",
+      "bytes": 1305381
+    },
+    "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/supplementary_five_2026-09-28_v3_repair/delivery/Bellevue_Bellevue_NE8th/preview_receipt.json": {
+      "sha256": "0a10bb3554b701298dd54d448607d2bba4076b287729e7c6f66c9d750d761c8d",
+      "bytes": 346660
+    },
+    "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/five_intersections_2026-09-27_r2/config/Bellevue_Bellevue_NE8th/roi.json": {
+      "sha256": "f392319397b2718736ac2b73fe7f0e927ba368a36ab729b48a0fe6d5f89bd97a",
+      "bytes": 5233
+    },
+    "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/supplementary_five_2026-09-28_v3_repair/config/Bellevue_Bellevue_NE8th/roi.json": {
+      "sha256": "32a664036d57f9fc42511f20ae00e5e903278fa1a674fe875c5ec74df5f53614",
+      "bytes": 5856
+    },
+    "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/five_intersections_2026-09-27_r2/config/Bellevue_Bellevue_NE8th/applicability.json": {
+      "sha256": "6d73b796c23b5bb8aa2532db1b56c28883aba436539a49e7806184d5712ac3a1",
+      "bytes": 15752
+    },
+    "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/supplementary_five_2026-09-28_v3_repair/config/Bellevue_Bellevue_NE8th/applicability.json": {
+      "sha256": "405e9ebcc1df85d77326fd77559216e2dcee0420b24e71664a53477a7e7ec5e0",
+      "bytes": 9881
+    },
+    "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/supplementary_five_2026-09-28_v3_repair/source_review/Bellevue_150th_Eastgate/sample_manifest.json": {
+      "sha256": "2ed240ef27c8456ca9a28c3c704aeeb061c868794069b7c9ca2676f3a081b72b",
+      "bytes": 9018
+    },
+    "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/supplementary_five_2026-09-28_v3_repair/source_review/Bellevue_150th_Eastgate/sample_00.png": {
+      "sha256": "f2e31a5e3e9edbdafb7585e863d413f88b9c085b7c7b66112029dff6ba1c9a84",
+      "bytes": 1404152
+    },
+    "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/supplementary_five_2026-09-28_v3_repair/source_review/Bellevue_150th_Eastgate/sample_05.png": {
+      "sha256": "e966cef16e5b8c26438f64f4442b0cb221f576d17d726a6a69b1ba48138f8367",
+      "bytes": 1564409
+    },
+    "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/supplementary_five_2026-09-28_v3_repair/source_review/Bellevue_150th_SE38th/sample_manifest.json": {
+      "sha256": "5a333ff27c6f09b2784a4768d736e6ae01fdd7ca7db3185d257003545ebfabb6",
+      "bytes": 8918
+    },
+    "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/supplementary_five_2026-09-28_v3_repair/source_review/Bellevue_150th_SE38th/sample_00.png": {
+      "sha256": "ebcf7c9b1dd57aea351200f9655ca777627d4fc51fdd8005af5c9f756800f23e",
+      "bytes": 1417327
+    },
+    "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/supplementary_five_2026-09-28_v3_repair/source_review/Bellevue_150th_SE38th/sample_05.png": {
+      "sha256": "ef7b93d6303ae4edb4351e50190a7768012e4f8cb643bb255b9eb83b75a637e9",
+      "bytes": 1322811
+    },
+    "/Users/zoki/Desktop/traffic_projects/videos/original/Bellevue_150th_Eastgate/Bellevue_150th_Eastgate__2017-09-11_06-08-30.mp4": {
+      "sha256": "5c101e5e3cb6f64e2304f9666337b9b3e3f46330ce5300c474c73f6a94dd6647",
+      "bytes": 481654803
+    },
+    "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/supplementary_five_2026-09-28_v3_repair/delivery/Bellevue_150th_Eastgate/summary_archive/output/frame_counts.csv": {
+      "sha256": "d18fe7b507e1eaf14112c7cd133813b0242bd02833fbbc4629d755015f36f39a",
+      "bytes": 8846300
+    },
+    "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/paired_case_comparison_2026-09-28_v1/evidence/selected_frames/Eastgate_supplementary_raw_240s.png": {
+      "sha256": "5cb40c4f8dc2aa8c16cf9cc865378ee2a031b4ec4ee75cf3c08e843397550b0d",
+      "bytes": 1367227
+    },
+    "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/paired_case_comparison_2026-09-28_v1/evidence/selected_frames/Eastgate_supplementary_raw_2770s.png": {
+      "sha256": "d50e9fdb52a1752580431a2808bc4032a39d503af7affa3e7b11258631817bb8",
+      "bytes": 1464852
+    },
+    "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/newport_full_v5_2026-09-24/config/background_policy.json": {
+      "sha256": "5fc67c863e8f5f458fbbcc870ab49f0890d7aa569b046b0db0be0d824441a3eb",
+      "bytes": 2337
+    },
+    "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/supplementary_five_2026-09-28_v3_repair/config/Bellevue_150th_Newport/background_policy.json": {
+      "sha256": "5f86b6c25bb693ad07330c826cfea879a3eb4a39c40b170e8792751e20b00fb4",
+      "bytes": 2778
+    },
+    "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/supplementary_five_2026-09-28_v3_repair/config/Bellevue_150th_Newport/background_applicability.json": {
+      "sha256": "6330af149535ed63585f90e7c4b93d840d512fe61d77ce09f32f6aa6997576a2",
+      "bytes": 1206
+    },
+    "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/five_intersections_2026-09-27_r2/五路口完整结果与说明.md": {
+      "sha256": "f58fac58549414c10c4f39ec7d725b0a70dc57b7d93c02696396262be56e9360",
+      "bytes": 7673
+    },
+    "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/supplementary_five_2026-09-28_v3_repair/补充批次完整结果与说明.md": {
+      "sha256": "81ecedd4d5ccb2d53319ef63dbc47ef9011c0d74910c923f9b142b49b0b6dd4d",
+      "bytes": 6368
+    }
+  },
+  "checks": [
+    {
+      "check": "Newport original annotated video SHA256",
+      "passed": true,
+      "actual": "ed38390a0b2c3f55146755b2f80767bcde33685f9a6f91b502b9422ee446acab",
+      "expected": "ed38390a0b2c3f55146755b2f80767bcde33685f9a6f91b502b9422ee446acab"
+    },
+    {
+      "check": "Newport original source identity",
+      "passed": true,
+      "actual": "Bellevue_150th_Newport__2017-09-11_08-08-31.mp4",
+      "expected": "Bellevue_150th_Newport__2017-09-11_08-08-31.mp4"
+    },
+    {
+      "check": "Newport extracted PTS matches frame_counts",
+      "passed": true,
+      "actual": 5400013,
+      "expected": 5400013
+    },
+    {
+      "check": "Newport supplementary_five_2026-09-28_v3_repair source identity",
+      "passed": true,
+      "actual": "Bellevue_150th_Newport__2017-09-10_18-08-24.mp4",
+      "expected": "Bellevue_150th_Newport__2017-09-10_18-08-24.mp4"
+    },
+    {
+      "check": "Newport supplementary_five_2026-09-28_v3_repair contact image SHA256",
+      "passed": true,
+      "actual": "e3d5ca0ed1a18f67119c3d84ae25887084512fe59cd24def379485c6b2bbd7b6",
+      "expected": "e3d5ca0ed1a18f67119c3d84ae25887084512fe59cd24def379485c6b2bbd7b6"
+    },
+    {
+      "check": "Newport preview source identity",
+      "passed": true,
+      "actual": "Bellevue_150th_Newport__2017-09-10_18-08-24.mp4",
+      "expected": "Bellevue_150th_Newport__2017-09-10_18-08-24.mp4"
+    },
+    {
+      "check": "Newport preview first frame mapping",
+      "passed": true,
+      "actual": 1800,
+      "expected": 1800
+    },
+    {
+      "check": "Newport ROI coordinates, order, dimensions and anchor unchanged",
+      "passed": true,
+      "actual": {
+        "dimensions": [
+          1280,
+          720
+        ],
+        "assignment_point": "bottom_center",
+        "ordered_zones": [
+          [
+            "road_left",
+            [
+              [
+                8,
+                394
+              ],
+              [
+                101,
+                336
+              ],
+              [
+                222,
+                271
+              ],
+              [
+                353,
+                214
+              ],
+              [
+                375,
+                214
+              ],
+              [
+                335,
+                266
+              ],
+              [
+                270,
+                358
+              ],
+              [
+                203,
+                463
+              ],
+              [
+                177,
+                482
+              ],
+              [
+                115,
+                456
+              ],
+              [
+                81,
+                426
+              ],
+              [
+                29,
+                445
+              ],
+              [
+                8,
+                426
+              ]
+            ]
+          ],
+          [
+            "road_top",
+            [
+              [
+                518,
+                121
+              ],
+              [
+                545,
+                90
+              ],
+              [
+                569,
+                49
+              ],
+              [
+                585,
+                29
+              ],
+              [
+                638,
+                29
+              ],
+              [
+                659,
+                52
+              ],
+              [
+                688,
+                77
+              ],
+              [
+                728,
+                90
+              ],
+              [
+                748,
+                94
+              ],
+              [
+                673,
+                110
+              ],
+              [
+                592,
+                126
+              ],
+              [
+                533,
+                139
+              ]
+            ]
+          ],
+          [
+            "road_right",
+            [
+              [
+                783,
+                108
+              ],
+              [
+                806,
+                97
+              ],
+              [
+                853,
+                96
+              ],
+              [
+                906,
+                80
+              ],
+              [
+                937,
+                52
+              ],
+              [
+                962,
+                53
+              ],
+              [
+                983,
+                70
+              ],
+              [
+                1008,
+                92
+              ],
+              [
+                1022,
+                120
+              ],
+              [
+                1014,
+                154
+              ],
+              [
+                977,
+                176
+              ],
+              [
+                917,
+                197
+              ],
+              [
+                903,
+                205
+              ],
+              [
+                871,
+                168
+              ],
+              [
+                842,
+                137
+              ]
+            ]
+          ],
+          [
+            "junction_center",
+            [
+              [
+                375,
+                214
+              ],
+              [
+                407,
+                207
+              ],
+              [
+                528,
+                150
+              ],
+              [
+                533,
+                139
+              ],
+              [
+                592,
+                126
+              ],
+              [
+                673,
+                110
+              ],
+              [
+                748,
+                94
+              ],
+              [
+                783,
+                108
+              ],
+              [
+                842,
+                137
+              ],
+              [
+                871,
+                168
+              ],
+              [
+                903,
+                205
+              ],
+              [
+                882,
+                263
+              ],
+              [
+                878,
+                273
+              ],
+              [
+                240,
+                526
+              ],
+              [
+                220,
+                498
+              ],
+              [
+                177,
+                482
+              ],
+              [
+                203,
+                463
+              ],
+              [
+                270,
+                358
+              ],
+              [
+                335,
+                266
+              ]
+            ]
+          ]
+        ]
+      },
+      "expected": {
+        "dimensions": [
+          1280,
+          720
+        ],
+        "assignment_point": "bottom_center",
+        "ordered_zones": [
+          [
+            "road_left",
+            [
+              [
+                8,
+                394
+              ],
+              [
+                101,
+                336
+              ],
+              [
+                222,
+                271
+              ],
+              [
+                353,
+                214
+              ],
+              [
+                375,
+                214
+              ],
+              [
+                335,
+                266
+              ],
+              [
+                270,
+                358
+              ],
+              [
+                203,
+                463
+              ],
+              [
+                177,
+                482
+              ],
+              [
+                115,
+                456
+              ],
+              [
+                81,
+                426
+              ],
+              [
+                29,
+                445
+              ],
+              [
+                8,
+                426
+              ]
+            ]
+          ],
+          [
+            "road_top",
+            [
+              [
+                518,
+                121
+              ],
+              [
+                545,
+                90
+              ],
+              [
+                569,
+                49
+              ],
+              [
+                585,
+                29
+              ],
+              [
+                638,
+                29
+              ],
+              [
+                659,
+                52
+              ],
+              [
+                688,
+                77
+              ],
+              [
+                728,
+                90
+              ],
+              [
+                748,
+                94
+              ],
+              [
+                673,
+                110
+              ],
+              [
+                592,
+                126
+              ],
+              [
+                533,
+                139
+              ]
+            ]
+          ],
+          [
+            "road_right",
+            [
+              [
+                783,
+                108
+              ],
+              [
+                806,
+                97
+              ],
+              [
+                853,
+                96
+              ],
+              [
+                906,
+                80
+              ],
+              [
+                937,
+                52
+              ],
+              [
+                962,
+                53
+              ],
+              [
+                983,
+                70
+              ],
+              [
+                1008,
+                92
+              ],
+              [
+                1022,
+                120
+              ],
+              [
+                1014,
+                154
+              ],
+              [
+                977,
+                176
+              ],
+              [
+                917,
+                197
+              ],
+              [
+                903,
+                205
+              ],
+              [
+                871,
+                168
+              ],
+              [
+                842,
+                137
+              ]
+            ]
+          ],
+          [
+            "junction_center",
+            [
+              [
+                375,
+                214
+              ],
+              [
+                407,
+                207
+              ],
+              [
+                528,
+                150
+              ],
+              [
+                533,
+                139
+              ],
+              [
+                592,
+                126
+              ],
+              [
+                673,
+                110
+              ],
+              [
+                748,
+                94
+              ],
+              [
+                783,
+                108
+              ],
+              [
+                842,
+                137
+              ],
+              [
+                871,
+                168
+              ],
+              [
+                903,
+                205
+              ],
+              [
+                882,
+                263
+              ],
+              [
+                878,
+                273
+              ],
+              [
+                240,
+                526
+              ],
+              [
+                220,
+                498
+              ],
+              [
+                177,
+                482
+              ],
+              [
+                203,
+                463
+              ],
+              [
+                270,
+                358
+              ],
+              [
+                335,
+                266
+              ]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "check": "Newport original image dimensions",
+      "passed": true,
+      "actual": [
+        1280,
+        870
+      ],
+      "expected": [
+        1280,
+        870
+      ]
+    },
+    {
+      "check": "Newport supplementary image dimensions",
+      "passed": true,
+      "actual": [
+        1280,
+        870
+      ],
+      "expected": [
+        1280,
+        870
+      ]
+    },
+    {
+      "check": "NE12th five_intersections_2026-09-27_r2 source identity",
+      "passed": true,
+      "actual": "Bellevue_116th_NE12th__2017-09-10_23-08-29.mp4",
+      "expected": "Bellevue_116th_NE12th__2017-09-10_23-08-29.mp4"
+    },
+    {
+      "check": "NE12th five_intersections_2026-09-27_r2 contact image SHA256",
+      "passed": true,
+      "actual": "08a45abc3f824c4186c7588574802edb1332a2beab1f7714776a53f709fbc75f",
+      "expected": "08a45abc3f824c4186c7588574802edb1332a2beab1f7714776a53f709fbc75f"
+    },
+    {
+      "check": "NE12th supplementary_five_2026-09-28_v3_repair source identity",
+      "passed": true,
+      "actual": "Bellevue_116th_NE12th__2017-09-11_07-08-32.mp4",
+      "expected": "Bellevue_116th_NE12th__2017-09-11_07-08-32.mp4"
+    },
+    {
+      "check": "NE12th supplementary_five_2026-09-28_v3_repair contact image SHA256",
+      "passed": true,
+      "actual": "bb861dbc332634dde8ddcecacf4d4aed5422362715b808a1282a561f096f7ab5",
+      "expected": "bb861dbc332634dde8ddcecacf4d4aed5422362715b808a1282a561f096f7ab5"
+    },
+    {
+      "check": "NE12th preview source identity",
+      "passed": true,
+      "actual": "Bellevue_116th_NE12th__2017-09-11_07-08-32.mp4",
+      "expected": "Bellevue_116th_NE12th__2017-09-11_07-08-32.mp4"
+    },
+    {
+      "check": "NE12th preview first frame mapping",
+      "passed": true,
+      "actual": 1801,
+      "expected": 1801
+    },
+    {
+      "check": "NE12th ROI coordinates, order, dimensions and anchor unchanged",
+      "passed": true,
+      "actual": {
+        "dimensions": [
+          1280,
+          720
+        ],
+        "assignment_point": "bottom_center",
+        "ordered_zones": [
+          [
+            "road_left",
+            [
+              [
+                450,
+                235
+              ],
+              [
+                640,
+                670
+              ],
+              [
+                5,
+                685
+              ],
+              [
+                5,
+                495
+              ],
+              [
+                165,
+                393
+              ],
+              [
+                310,
+                306
+              ]
+            ]
+          ],
+          [
+            "road_top",
+            [
+              [
+                450,
+                235
+              ],
+              [
+                720,
+                155
+              ],
+              [
+                638,
+                80
+              ],
+              [
+                576,
+                61
+              ],
+              [
+                462,
+                56
+              ],
+              [
+                418,
+                90
+              ],
+              [
+                427,
+                145
+              ]
+            ]
+          ],
+          [
+            "road_right",
+            [
+              [
+                720,
+                155
+              ],
+              [
+                1050,
+                356
+              ],
+              [
+                1070,
+                285
+              ],
+              [
+                1088,
+                165
+              ],
+              [
+                1051,
+                100
+              ],
+              [
+                1000,
+                84
+              ],
+              [
+                970,
+                111
+              ],
+              [
+                889,
+                124
+              ],
+              [
+                800,
+                141
+              ]
+            ]
+          ],
+          [
+            "road_bottom",
+            [
+              [
+                1050,
+                356
+              ],
+              [
+                936,
+                480
+              ],
+              [
+                801,
+                583
+              ],
+              [
+                640,
+                670
+              ],
+              [
+                697,
+                696
+              ],
+              [
+                820,
+                696
+              ],
+              [
+                871,
+                691
+              ],
+              [
+                909,
+                670
+              ],
+              [
+                957,
+                651
+              ],
+              [
+                998,
+                652
+              ],
+              [
+                1035,
+                670
+              ],
+              [
+                1058,
+                696
+              ],
+              [
+                1216,
+                696
+              ],
+              [
+                1258,
+                657
+              ],
+              [
+                1218,
+                573
+              ],
+              [
+                1171,
+                497
+              ],
+              [
+                1113,
+                421
+              ]
+            ]
+          ],
+          [
+            "junction_center",
+            [
+              [
+                450,
+                235
+              ],
+              [
+                720,
+                155
+              ],
+              [
+                1050,
+                356
+              ],
+              [
+                936,
+                480
+              ],
+              [
+                801,
+                583
+              ],
+              [
+                640,
+                670
+              ]
+            ]
+          ]
+        ]
+      },
+      "expected": {
+        "dimensions": [
+          1280,
+          720
+        ],
+        "assignment_point": "bottom_center",
+        "ordered_zones": [
+          [
+            "road_left",
+            [
+              [
+                450,
+                235
+              ],
+              [
+                640,
+                670
+              ],
+              [
+                5,
+                685
+              ],
+              [
+                5,
+                495
+              ],
+              [
+                165,
+                393
+              ],
+              [
+                310,
+                306
+              ]
+            ]
+          ],
+          [
+            "road_top",
+            [
+              [
+                450,
+                235
+              ],
+              [
+                720,
+                155
+              ],
+              [
+                638,
+                80
+              ],
+              [
+                576,
+                61
+              ],
+              [
+                462,
+                56
+              ],
+              [
+                418,
+                90
+              ],
+              [
+                427,
+                145
+              ]
+            ]
+          ],
+          [
+            "road_right",
+            [
+              [
+                720,
+                155
+              ],
+              [
+                1050,
+                356
+              ],
+              [
+                1070,
+                285
+              ],
+              [
+                1088,
+                165
+              ],
+              [
+                1051,
+                100
+              ],
+              [
+                1000,
+                84
+              ],
+              [
+                970,
+                111
+              ],
+              [
+                889,
+                124
+              ],
+              [
+                800,
+                141
+              ]
+            ]
+          ],
+          [
+            "road_bottom",
+            [
+              [
+                1050,
+                356
+              ],
+              [
+                936,
+                480
+              ],
+              [
+                801,
+                583
+              ],
+              [
+                640,
+                670
+              ],
+              [
+                697,
+                696
+              ],
+              [
+                820,
+                696
+              ],
+              [
+                871,
+                691
+              ],
+              [
+                909,
+                670
+              ],
+              [
+                957,
+                651
+              ],
+              [
+                998,
+                652
+              ],
+              [
+                1035,
+                670
+              ],
+              [
+                1058,
+                696
+              ],
+              [
+                1216,
+                696
+              ],
+              [
+                1258,
+                657
+              ],
+              [
+                1218,
+                573
+              ],
+              [
+                1171,
+                497
+              ],
+              [
+                1113,
+                421
+              ]
+            ]
+          ],
+          [
+            "junction_center",
+            [
+              [
+                450,
+                235
+              ],
+              [
+                720,
+                155
+              ],
+              [
+                1050,
+                356
+              ],
+              [
+                936,
+                480
+              ],
+              [
+                801,
+                583
+              ],
+              [
+                640,
+                670
+              ]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "check": "NE12th original image dimensions",
+      "passed": true,
+      "actual": [
+        1280,
+        870
+      ],
+      "expected": [
+        1280,
+        870
+      ]
+    },
+    {
+      "check": "NE12th supplementary image dimensions",
+      "passed": true,
+      "actual": [
+        1280,
+        870
+      ],
+      "expected": [
+        1280,
+        870
+      ]
+    },
+    {
+      "check": "Eastgate five_intersections_2026-09-27_r2 source identity",
+      "passed": true,
+      "actual": "Bellevue_150th_Eastgate__2017-09-11_17-08-33.mp4",
+      "expected": "Bellevue_150th_Eastgate__2017-09-11_17-08-33.mp4"
+    },
+    {
+      "check": "Eastgate five_intersections_2026-09-27_r2 contact image SHA256",
+      "passed": true,
+      "actual": "81fa6212cd6545b6ac4cac07ba66e4262bfb1e9b9913fad7e69b892a87d0d6b1",
+      "expected": "81fa6212cd6545b6ac4cac07ba66e4262bfb1e9b9913fad7e69b892a87d0d6b1"
+    },
+    {
+      "check": "Eastgate supplementary_five_2026-09-28_v3_repair source identity",
+      "passed": true,
+      "actual": "Bellevue_150th_Eastgate__2017-09-11_06-08-30.mp4",
+      "expected": "Bellevue_150th_Eastgate__2017-09-11_06-08-30.mp4"
+    },
+    {
+      "check": "Eastgate supplementary_five_2026-09-28_v3_repair contact image SHA256",
+      "passed": true,
+      "actual": "35f8ff3b14ebc43ea6dc39f03f261194d3d2dbec8b525a1d25feb7233b05ca33",
+      "expected": "35f8ff3b14ebc43ea6dc39f03f261194d3d2dbec8b525a1d25feb7233b05ca33"
+    },
+    {
+      "check": "Eastgate preview source identity",
+      "passed": true,
+      "actual": "Bellevue_150th_Eastgate__2017-09-11_06-08-30.mp4",
+      "expected": "Bellevue_150th_Eastgate__2017-09-11_06-08-30.mp4"
+    },
+    {
+      "check": "Eastgate preview first frame mapping",
+      "passed": true,
+      "actual": 1801,
+      "expected": 1801
+    },
+    {
+      "check": "Eastgate ROI coordinates, order, dimensions and anchor unchanged",
+      "passed": true,
+      "actual": {
+        "dimensions": [
+          1280,
+          720
+        ],
+        "assignment_point": "bottom_center",
+        "ordered_zones": [
+          [
+            "road_left",
+            [
+              [
+                265,
+                350
+              ],
+              [
+                322,
+                480
+              ],
+              [
+                240,
+                496
+              ],
+              [
+                188,
+                534
+              ],
+              [
+                158,
+                590
+              ],
+              [
+                128,
+                666
+              ],
+              [
+                116,
+                681
+              ],
+              [
+                10,
+                681
+              ],
+              [
+                8,
+                620
+              ],
+              [
+                57,
+                538
+              ],
+              [
+                125,
+                485
+              ]
+            ]
+          ],
+          [
+            "road_upper_left",
+            [
+              [
+                265,
+                350
+              ],
+              [
+                577,
+                168
+              ],
+              [
+                537,
+                142
+              ],
+              [
+                457,
+                144
+              ],
+              [
+                379,
+                148
+              ],
+              [
+                325,
+                175
+              ],
+              [
+                278,
+                199
+              ],
+              [
+                249,
+                232
+              ],
+              [
+                230,
+                272
+              ]
+            ]
+          ],
+          [
+            "road_top",
+            [
+              [
+                577,
+                168
+              ],
+              [
+                857,
+                256
+              ],
+              [
+                858,
+                138
+              ],
+              [
+                830,
+                94
+              ],
+              [
+                817,
+                61
+              ],
+              [
+                778,
+                50
+              ],
+              [
+                714,
+                78
+              ],
+              [
+                632,
+                116
+              ]
+            ]
+          ],
+          [
+            "road_right",
+            [
+              [
+                857,
+                256
+              ],
+              [
+                794,
+                480
+              ],
+              [
+                1068,
+                510
+              ],
+              [
+                1220,
+                572
+              ],
+              [
+                1265,
+                606
+              ],
+              [
+                1265,
+                514
+              ],
+              [
+                1183,
+                431
+              ],
+              [
+                1050,
+                350
+              ]
+            ]
+          ],
+          [
+            "junction_center",
+            [
+              [
+                265,
+                350
+              ],
+              [
+                577,
+                168
+              ],
+              [
+                857,
+                256
+              ],
+              [
+                794,
+                480
+              ],
+              [
+                665,
+                666
+              ],
+              [
+                410,
+                681
+              ],
+              [
+                322,
+                480
+              ]
+            ]
+          ]
+        ]
+      },
+      "expected": {
+        "dimensions": [
+          1280,
+          720
+        ],
+        "assignment_point": "bottom_center",
+        "ordered_zones": [
+          [
+            "road_left",
+            [
+              [
+                265,
+                350
+              ],
+              [
+                322,
+                480
+              ],
+              [
+                240,
+                496
+              ],
+              [
+                188,
+                534
+              ],
+              [
+                158,
+                590
+              ],
+              [
+                128,
+                666
+              ],
+              [
+                116,
+                681
+              ],
+              [
+                10,
+                681
+              ],
+              [
+                8,
+                620
+              ],
+              [
+                57,
+                538
+              ],
+              [
+                125,
+                485
+              ]
+            ]
+          ],
+          [
+            "road_upper_left",
+            [
+              [
+                265,
+                350
+              ],
+              [
+                577,
+                168
+              ],
+              [
+                537,
+                142
+              ],
+              [
+                457,
+                144
+              ],
+              [
+                379,
+                148
+              ],
+              [
+                325,
+                175
+              ],
+              [
+                278,
+                199
+              ],
+              [
+                249,
+                232
+              ],
+              [
+                230,
+                272
+              ]
+            ]
+          ],
+          [
+            "road_top",
+            [
+              [
+                577,
+                168
+              ],
+              [
+                857,
+                256
+              ],
+              [
+                858,
+                138
+              ],
+              [
+                830,
+                94
+              ],
+              [
+                817,
+                61
+              ],
+              [
+                778,
+                50
+              ],
+              [
+                714,
+                78
+              ],
+              [
+                632,
+                116
+              ]
+            ]
+          ],
+          [
+            "road_right",
+            [
+              [
+                857,
+                256
+              ],
+              [
+                794,
+                480
+              ],
+              [
+                1068,
+                510
+              ],
+              [
+                1220,
+                572
+              ],
+              [
+                1265,
+                606
+              ],
+              [
+                1265,
+                514
+              ],
+              [
+                1183,
+                431
+              ],
+              [
+                1050,
+                350
+              ]
+            ]
+          ],
+          [
+            "junction_center",
+            [
+              [
+                265,
+                350
+              ],
+              [
+                577,
+                168
+              ],
+              [
+                857,
+                256
+              ],
+              [
+                794,
+                480
+              ],
+              [
+                665,
+                666
+              ],
+              [
+                410,
+                681
+              ],
+              [
+                322,
+                480
+              ]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "check": "Eastgate original image dimensions",
+      "passed": true,
+      "actual": [
+        1280,
+        870
+      ],
+      "expected": [
+        1280,
+        870
+      ]
+    },
+    {
+      "check": "Eastgate supplementary image dimensions",
+      "passed": true,
+      "actual": [
+        1280,
+        870
+      ],
+      "expected": [
+        1280,
+        870
+      ]
+    },
+    {
+      "check": "SE38th five_intersections_2026-09-27_r2 source identity",
+      "passed": true,
+      "actual": "Bellevue_150th_SE38th__2017-09-11_14-08-32.mp4",
+      "expected": "Bellevue_150th_SE38th__2017-09-11_14-08-32.mp4"
+    },
+    {
+      "check": "SE38th five_intersections_2026-09-27_r2 contact image SHA256",
+      "passed": true,
+      "actual": "c7f08ed506e1a0f80fa41a8cb39ea135c06e82d710d91909dc0a7a55e7b0a1a6",
+      "expected": "c7f08ed506e1a0f80fa41a8cb39ea135c06e82d710d91909dc0a7a55e7b0a1a6"
+    },
+    {
+      "check": "SE38th supplementary_five_2026-09-28_v3_repair source identity",
+      "passed": true,
+      "actual": "Bellevue_150th_SE38th__2017-09-10_19-08-25.mp4",
+      "expected": "Bellevue_150th_SE38th__2017-09-10_19-08-25.mp4"
+    },
+    {
+      "check": "SE38th supplementary_five_2026-09-28_v3_repair contact image SHA256",
+      "passed": true,
+      "actual": "4413fca2190aace33a28ba3906c5e1f165ab16ea650e8485ec80b74b8a964d05",
+      "expected": "4413fca2190aace33a28ba3906c5e1f165ab16ea650e8485ec80b74b8a964d05"
+    },
+    {
+      "check": "SE38th preview source identity",
+      "passed": true,
+      "actual": "Bellevue_150th_SE38th__2017-09-10_19-08-25.mp4",
+      "expected": "Bellevue_150th_SE38th__2017-09-10_19-08-25.mp4"
+    },
+    {
+      "check": "SE38th preview first frame mapping",
+      "passed": true,
+      "actual": 1802,
+      "expected": 1802
+    },
+    {
+      "check": "SE38th ROI coordinates, order, dimensions and anchor unchanged",
+      "passed": true,
+      "actual": {
+        "dimensions": [
+          1280,
+          720
+        ],
+        "assignment_point": "bottom_center",
+        "ordered_zones": [
+          [
+            "road_left",
+            [
+              [
+                155,
+                450
+              ],
+              [
+                426,
+                192
+              ],
+              [
+                336,
+                186
+              ],
+              [
+                258,
+                150
+              ],
+              [
+                185,
+                154
+              ],
+              [
+                91,
+                174
+              ],
+              [
+                48,
+                211
+              ],
+              [
+                58,
+                288
+              ],
+              [
+                112,
+                390
+              ]
+            ]
+          ],
+          [
+            "road_top",
+            [
+              [
+                426,
+                192
+              ],
+              [
+                871,
+                241
+              ],
+              [
+                835,
+                192
+              ],
+              [
+                815,
+                151
+              ],
+              [
+                854,
+                108
+              ],
+              [
+                806,
+                87
+              ],
+              [
+                751,
+                84
+              ],
+              [
+                649,
+                103
+              ],
+              [
+                551,
+                133
+              ],
+              [
+                479,
+                163
+              ]
+            ]
+          ],
+          [
+            "road_right",
+            [
+              [
+                871,
+                241
+              ],
+              [
+                810,
+                454
+              ],
+              [
+                831,
+                470
+              ],
+              [
+                881,
+                475
+              ],
+              [
+                925,
+                515
+              ],
+              [
+                970,
+                590
+              ],
+              [
+                985,
+                650
+              ],
+              [
+                1200,
+                675
+              ],
+              [
+                1270,
+                655
+              ],
+              [
+                1270,
+                365
+              ],
+              [
+                1151,
+                330
+              ],
+              [
+                997,
+                286
+              ]
+            ]
+          ],
+          [
+            "junction_center",
+            [
+              [
+                155,
+                450
+              ],
+              [
+                426,
+                192
+              ],
+              [
+                871,
+                241
+              ],
+              [
+                810,
+                454
+              ],
+              [
+                735,
+                488
+              ],
+              [
+                700,
+                590
+              ],
+              [
+                665,
+                683
+              ],
+              [
+                515,
+                640
+              ],
+              [
+                290,
+                550
+              ]
+            ]
+          ]
+        ]
+      },
+      "expected": {
+        "dimensions": [
+          1280,
+          720
+        ],
+        "assignment_point": "bottom_center",
+        "ordered_zones": [
+          [
+            "road_left",
+            [
+              [
+                155,
+                450
+              ],
+              [
+                426,
+                192
+              ],
+              [
+                336,
+                186
+              ],
+              [
+                258,
+                150
+              ],
+              [
+                185,
+                154
+              ],
+              [
+                91,
+                174
+              ],
+              [
+                48,
+                211
+              ],
+              [
+                58,
+                288
+              ],
+              [
+                112,
+                390
+              ]
+            ]
+          ],
+          [
+            "road_top",
+            [
+              [
+                426,
+                192
+              ],
+              [
+                871,
+                241
+              ],
+              [
+                835,
+                192
+              ],
+              [
+                815,
+                151
+              ],
+              [
+                854,
+                108
+              ],
+              [
+                806,
+                87
+              ],
+              [
+                751,
+                84
+              ],
+              [
+                649,
+                103
+              ],
+              [
+                551,
+                133
+              ],
+              [
+                479,
+                163
+              ]
+            ]
+          ],
+          [
+            "road_right",
+            [
+              [
+                871,
+                241
+              ],
+              [
+                810,
+                454
+              ],
+              [
+                831,
+                470
+              ],
+              [
+                881,
+                475
+              ],
+              [
+                925,
+                515
+              ],
+              [
+                970,
+                590
+              ],
+              [
+                985,
+                650
+              ],
+              [
+                1200,
+                675
+              ],
+              [
+                1270,
+                655
+              ],
+              [
+                1270,
+                365
+              ],
+              [
+                1151,
+                330
+              ],
+              [
+                997,
+                286
+              ]
+            ]
+          ],
+          [
+            "junction_center",
+            [
+              [
+                155,
+                450
+              ],
+              [
+                426,
+                192
+              ],
+              [
+                871,
+                241
+              ],
+              [
+                810,
+                454
+              ],
+              [
+                735,
+                488
+              ],
+              [
+                700,
+                590
+              ],
+              [
+                665,
+                683
+              ],
+              [
+                515,
+                640
+              ],
+              [
+                290,
+                550
+              ]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "check": "SE38th original image dimensions",
+      "passed": true,
+      "actual": [
+        1280,
+        870
+      ],
+      "expected": [
+        1280,
+        870
+      ]
+    },
+    {
+      "check": "SE38th supplementary image dimensions",
+      "passed": true,
+      "actual": [
+        1280,
+        870
+      ],
+      "expected": [
+        1280,
+        870
+      ]
+    },
+    {
+      "check": "NE8th five_intersections_2026-09-27_r2 source identity",
+      "passed": true,
+      "actual": "Bellevue_Bellevue_NE8th__2017-09-11_12-08-31.mp4",
+      "expected": "Bellevue_Bellevue_NE8th__2017-09-11_12-08-31.mp4"
+    },
+    {
+      "check": "NE8th five_intersections_2026-09-27_r2 contact image SHA256",
+      "passed": true,
+      "actual": "48dcc0662720c393cc385ae7de66181f063a109ef451c95dc72bdf46b5c58477",
+      "expected": "48dcc0662720c393cc385ae7de66181f063a109ef451c95dc72bdf46b5c58477"
+    },
+    {
+      "check": "NE8th supplementary_five_2026-09-28_v3_repair source identity",
+      "passed": true,
+      "actual": "Bellevue_Bellevue_NE8th__2017-09-11_02-08-29.mp4",
+      "expected": "Bellevue_Bellevue_NE8th__2017-09-11_02-08-29.mp4"
+    },
+    {
+      "check": "NE8th supplementary_five_2026-09-28_v3_repair contact image SHA256",
+      "passed": true,
+      "actual": "30689c136c77310ab0ca4200f734c5db8c27bcea83a37c9d47d486e3106cee03",
+      "expected": "30689c136c77310ab0ca4200f734c5db8c27bcea83a37c9d47d486e3106cee03"
+    },
+    {
+      "check": "NE8th preview source identity",
+      "passed": true,
+      "actual": "Bellevue_Bellevue_NE8th__2017-09-11_02-08-29.mp4",
+      "expected": "Bellevue_Bellevue_NE8th__2017-09-11_02-08-29.mp4"
+    },
+    {
+      "check": "NE8th preview first frame mapping",
+      "passed": true,
+      "actual": 1801,
+      "expected": 1801
+    },
+    {
+      "check": "NE8th ROI coordinates, order, dimensions and anchor unchanged",
+      "passed": true,
+      "actual": {
+        "dimensions": [
+          1280,
+          720
+        ],
+        "assignment_point": "bottom_center",
+        "ordered_zones": [
+          [
+            "road_left",
+            [
+              [
+                465,
+                247
+              ],
+              [
+                424,
+                584
+              ],
+              [
+                328,
+                572
+              ],
+              [
+                248,
+                568
+              ],
+              [
+                162,
+                541
+              ],
+              [
+                105,
+                493
+              ],
+              [
+                34,
+                480
+              ],
+              [
+                5,
+                451
+              ],
+              [
+                5,
+                362
+              ],
+              [
+                199,
+                304
+              ],
+              [
+                329,
+                279
+              ]
+            ]
+          ],
+          [
+            "road_top",
+            [
+              [
+                465,
+                247
+              ],
+              [
+                867,
+                226
+              ],
+              [
+                796,
+                181
+              ],
+              [
+                729,
+                157
+              ],
+              [
+                671,
+                119
+              ],
+              [
+                636,
+                87
+              ],
+              [
+                594,
+                68
+              ],
+              [
+                549,
+                65
+              ],
+              [
+                515,
+                94
+              ],
+              [
+                504,
+                137
+              ],
+              [
+                487,
+                190
+              ]
+            ]
+          ],
+          [
+            "road_right",
+            [
+              [
+                867,
+                226
+              ],
+              [
+                1070,
+                412
+              ],
+              [
+                1148,
+                491
+              ],
+              [
+                1183,
+                435
+              ],
+              [
+                1221,
+                365
+              ],
+              [
+                1202,
+                321
+              ],
+              [
+                1223,
+                284
+              ],
+              [
+                1165,
+                269
+              ],
+              [
+                1084,
+                250
+              ],
+              [
+                1004,
+                237
+              ]
+            ]
+          ],
+          [
+            "junction_center",
+            [
+              [
+                465,
+                247
+              ],
+              [
+                867,
+                226
+              ],
+              [
+                1070,
+                412
+              ],
+              [
+                1078,
+                542
+              ],
+              [
+                901,
+                612
+              ],
+              [
+                690,
+                657
+              ],
+              [
+                563,
+                674
+              ],
+              [
+                424,
+                584
+              ]
+            ]
+          ]
+        ]
+      },
+      "expected": {
+        "dimensions": [
+          1280,
+          720
+        ],
+        "assignment_point": "bottom_center",
+        "ordered_zones": [
+          [
+            "road_left",
+            [
+              [
+                465,
+                247
+              ],
+              [
+                424,
+                584
+              ],
+              [
+                328,
+                572
+              ],
+              [
+                248,
+                568
+              ],
+              [
+                162,
+                541
+              ],
+              [
+                105,
+                493
+              ],
+              [
+                34,
+                480
+              ],
+              [
+                5,
+                451
+              ],
+              [
+                5,
+                362
+              ],
+              [
+                199,
+                304
+              ],
+              [
+                329,
+                279
+              ]
+            ]
+          ],
+          [
+            "road_top",
+            [
+              [
+                465,
+                247
+              ],
+              [
+                867,
+                226
+              ],
+              [
+                796,
+                181
+              ],
+              [
+                729,
+                157
+              ],
+              [
+                671,
+                119
+              ],
+              [
+                636,
+                87
+              ],
+              [
+                594,
+                68
+              ],
+              [
+                549,
+                65
+              ],
+              [
+                515,
+                94
+              ],
+              [
+                504,
+                137
+              ],
+              [
+                487,
+                190
+              ]
+            ]
+          ],
+          [
+            "road_right",
+            [
+              [
+                867,
+                226
+              ],
+              [
+                1070,
+                412
+              ],
+              [
+                1148,
+                491
+              ],
+              [
+                1183,
+                435
+              ],
+              [
+                1221,
+                365
+              ],
+              [
+                1202,
+                321
+              ],
+              [
+                1223,
+                284
+              ],
+              [
+                1165,
+                269
+              ],
+              [
+                1084,
+                250
+              ],
+              [
+                1004,
+                237
+              ]
+            ]
+          ],
+          [
+            "junction_center",
+            [
+              [
+                465,
+                247
+              ],
+              [
+                867,
+                226
+              ],
+              [
+                1070,
+                412
+              ],
+              [
+                1078,
+                542
+              ],
+              [
+                901,
+                612
+              ],
+              [
+                690,
+                657
+              ],
+              [
+                563,
+                674
+              ],
+              [
+                424,
+                584
+              ]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "check": "NE8th original image dimensions",
+      "passed": true,
+      "actual": [
+        1280,
+        870
+      ],
+      "expected": [
+        1280,
+        870
+      ]
+    },
+    {
+      "check": "NE8th supplementary image dimensions",
+      "passed": true,
+      "actual": [
+        1280,
+        870
+      ],
+      "expected": [
+        1280,
+        870
+      ]
+    },
+    {
+      "check": "Eastgate source sample 0 SHA256",
+      "passed": true,
+      "actual": "f2e31a5e3e9edbdafb7585e863d413f88b9c085b7c7b66112029dff6ba1c9a84",
+      "expected": "f2e31a5e3e9edbdafb7585e863d413f88b9c085b7c7b66112029dff6ba1c9a84"
+    },
+    {
+      "check": "Eastgate source sample 5 SHA256",
+      "passed": true,
+      "actual": "e966cef16e5b8c26438f64f4442b0cb221f576d17d726a6a69b1ba48138f8367",
+      "expected": "e966cef16e5b8c26438f64f4442b0cb221f576d17d726a6a69b1ba48138f8367"
+    },
+    {
+      "check": "SE38th source sample 0 SHA256",
+      "passed": true,
+      "actual": "ebcf7c9b1dd57aea351200f9655ca777627d4fc51fdd8005af5c9f756800f23e",
+      "expected": "ebcf7c9b1dd57aea351200f9655ca777627d4fc51fdd8005af5c9f756800f23e"
+    },
+    {
+      "check": "SE38th source sample 5 SHA256",
+      "passed": true,
+      "actual": "ef7b93d6303ae4edb4351e50190a7768012e4f8cb643bb255b9eb83b75a637e9",
+      "expected": "ef7b93d6303ae4edb4351e50190a7768012e4f8cb643bb255b9eb83b75a637e9"
+    },
+    {
+      "check": "Eastgate supplementary original video SHA256",
+      "passed": true,
+      "actual": "5c101e5e3cb6f64e2304f9666337b9b3e3f46330ce5300c474c73f6a94dd6647",
+      "expected": "5c101e5e3cb6f64e2304f9666337b9b3e3f46330ce5300c474c73f6a94dd6647"
+    },
+    {
+      "check": "Eastgate 240 s original PTS matches frame_counts",
+      "passed": true,
+      "actual": 21602961,
+      "expected": 21602961
+    },
+    {
+      "check": "Eastgate 2770 s original PTS matches frame_counts",
+      "passed": true,
+      "actual": 249300467,
+      "expected": 249300467
+    }
+  ],
+  "all_checks_passed": true
+}

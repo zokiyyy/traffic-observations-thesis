@@ -1,0 +1,214 @@
+{
+  "passed": true,
+  "check_count": 52,
+  "checks": [
+    {
+      "check": "original state verification completed",
+      "passed": true
+    },
+    {
+      "check": "hash /Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/five_intersection_states_2026-09-28_v1/五路口交通状态分析总报告.md",
+      "passed": true
+    },
+    {
+      "check": "hash /Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/five_intersection_states_2026-09-28_v1/code/engine.py",
+      "passed": true
+    },
+    {
+      "check": "hash /Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/five_intersection_states_2026-09-28_v1/code/derive_states.py",
+      "passed": true
+    },
+    {
+      "check": "paired verification completed",
+      "passed": true
+    },
+    {
+      "check": "hash /Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/paired_case_comparison_2026-09-28_v1/五路口原案例与补充时段独立对比总报告.md",
+      "passed": true
+    },
+    {
+      "check": "hash /Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/paired_case_comparison_2026-09-28_v1/motion/verification.json",
+      "passed": true
+    },
+    {
+      "check": "hash /Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/paired_case_comparison_2026-09-28_v1/motion/independent_verification.json",
+      "passed": true
+    },
+    {
+      "check": "existing motion independent verification passed",
+      "passed": true
+    },
+    {
+      "check": "existing motion production completed",
+      "passed": true
+    },
+    {
+      "check": "30 second sensitivity baseline matched",
+      "passed": true
+    },
+    {
+      "check": "hash /Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/five_intersection_states_2026-09-28_v1/Newport/states_10s.json",
+      "passed": true
+    },
+    {
+      "check": "hash /Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/five_intersection_states_2026-09-28_v1/NE12th/states_10s.json",
+      "passed": true
+    },
+    {
+      "check": "hash /Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/five_intersection_states_2026-09-28_v1/Eastgate/states_10s.json",
+      "passed": true
+    },
+    {
+      "check": "hash /Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/five_intersection_states_2026-09-28_v1/SE38th/states_10s.json",
+      "passed": true
+    },
+    {
+      "check": "hash /Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/five_intersection_states_2026-09-28_v1/NE8th/states_10s.json",
+      "passed": true
+    },
+    {
+      "check": "hash /Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/paired_case_comparison_2026-09-28_v1/motion/Supplementary/Newport/motion_10s.json",
+      "passed": true
+    },
+    {
+      "check": "Newport: complete definition",
+      "passed": true
+    },
+    {
+      "check": "Newport/road_left: valid cached motion is finite",
+      "passed": true
+    },
+    {
+      "check": "Newport/road_top: valid cached motion is finite",
+      "passed": true
+    },
+    {
+      "check": "Newport/road_right: valid cached motion is finite",
+      "passed": true
+    },
+    {
+      "check": "Newport/junction_center: valid cached motion is finite",
+      "passed": true
+    },
+    {
+      "check": "hash /Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/paired_case_comparison_2026-09-28_v1/motion/Supplementary/NE12th/motion_10s.json",
+      "passed": true
+    },
+    {
+      "check": "NE12th: complete definition",
+      "passed": true
+    },
+    {
+      "check": "NE12th/road_left: valid cached motion is finite",
+      "passed": true
+    },
+    {
+      "check": "NE12th/road_top: valid cached motion is finite",
+      "passed": true
+    },
+    {
+      "check": "NE12th/road_right: valid cached motion is finite",
+      "passed": true
+    },
+    {
+      "check": "NE12th/road_bottom: valid cached motion is finite",
+      "passed": true
+    },
+    {
+      "check": "NE12th/junction_center: valid cached motion is finite",
+      "passed": true
+    },
+    {
+      "check": "hash /Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/paired_case_comparison_2026-09-28_v1/motion/Supplementary/Eastgate/motion_10s.json",
+      "passed": true
+    },
+    {
+      "check": "Eastgate: complete definition",
+      "passed": true
+    },
+    {
+      "check": "Eastgate/road_left: valid cached motion is finite",
+      "passed": true
+    },
+    {
+      "check": "Eastgate/road_upper_left: valid cached motion is finite",
+      "passed": true
+    },
+    {
+      "check": "Eastgate/road_top: valid cached motion is finite",
+      "passed": true
+    },
+    {
+      "check": "Eastgate/road_right: valid cached motion is finite",
+      "passed": true
+    },
+    {
+      "check": "Eastgate/junction_center: valid cached motion is finite",
+      "passed": true
+    },
+    {
+      "check": "hash /Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/paired_case_comparison_2026-09-28_v1/motion/Supplementary/SE38th/motion_10s.json",
+      "passed": true
+    },
+    {
+      "check": "SE38th: complete definition",
+      "passed": true
+    },
+    {
+      "check": "SE38th/road_left: valid cached motion is finite",
+      "passed": true
+    },
+    {
+      "check": "SE38th/road_top: valid cached motion is finite",
+      "passed": true
+    },
+    {
+      "check": "SE38th/road_right: valid cached motion is finite",
+      "passed": true
+    },
+    {
+      "check": "SE38th/junction_center: valid cached motion is finite",
+      "passed": true
+    },
+    {
+      "check": "hash /Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/paired_case_comparison_2026-09-28_v1/motion/Supplementary/NE8th/motion_10s.json",
+      "passed": true
+    },
+    {
+      "check": "NE8th: complete definition",
+      "passed": true
+    },
+    {
+      "check": "NE8th/road_left: valid cached motion is finite",
+      "passed": true
+    },
+    {
+      "check": "NE8th/road_top: valid cached motion is finite",
+      "passed": true
+    },
+    {
+      "check": "NE8th/road_right: valid cached motion is finite",
+      "passed": true
+    },
+    {
+      "check": "NE8th/junction_center: valid cached motion is finite",
+      "passed": true
+    },
+    {
+      "check": "NE8th all quantity thresholds collapse to zero",
+      "passed": true
+    },
+    {
+      "check": "NE8th road_top motion remains eligible for P25",
+      "passed": true
+    },
+    {
+      "check": "NE12th Train identity and 36 eligible windows",
+      "passed": true
+    },
+    {
+      "check": "NE12th only road_right motion calibration available",
+      "passed": true
+    }
+  ]
+}

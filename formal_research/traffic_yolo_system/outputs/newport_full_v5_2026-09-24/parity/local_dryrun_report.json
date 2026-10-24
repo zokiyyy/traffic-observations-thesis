@@ -1,0 +1,195 @@
+{
+  "command": "dry-run",
+  "rows": [
+    {
+      "source_id": "Bellevue_150th_Newport__2017-09-11_08-08-31.mp4",
+      "state": "ready",
+      "fingerprint": "f7b1ae90c67adc278ab895ca43f9c43ce63b2aabbca0c46dd153319a882964bb",
+      "task": {
+        "source_id": "Bellevue_150th_Newport__2017-09-11_08-08-31.mp4",
+        "split": "Validation",
+        "camera_id": "Bellevue_150th_Newport",
+        "manifest_duration_s": 3600,
+        "split_version": "Formal Split v1",
+        "input_path": "/Users/zoki/Desktop/traffic_projects/videos/original/Bellevue_150th_Newport/Bellevue_150th_Newport__2017-09-11_08-08-31.mp4"
+      },
+      "preflight": {
+        "source_id": "Bellevue_150th_Newport__2017-09-11_08-08-31.mp4",
+        "split": "Validation",
+        "camera_id": "Bellevue_150th_Newport",
+        "input_path": "/Users/zoki/Desktop/traffic_projects/videos/original/Bellevue_150th_Newport/Bellevue_150th_Newport__2017-09-11_08-08-31.mp4",
+        "input_sha256": "969af533145e1a1afaa8fb4afa754205c338171760ff02b97e2aef4f04094c93",
+        "input_stat": {
+          "size_bytes": 922656811,
+          "mtime_ns": 1645020802000000000
+        },
+        "input_frame_count": 107932,
+        "frame_count": 3598,
+        "first_frame_index": 47975,
+        "end_frame_index_exclusive": 51573,
+        "input_source_offset_seconds": 0.0,
+        "source_start_seconds": 1600.0067444444444,
+        "source_end_seconds": 1720.0070444444445,
+        "input_duration_seconds": 3600.0151444444446,
+        "input_duration_ticks": 324001363,
+        "input_first_pts_ticks": 0,
+        "input_last_pts_ticks": 323998363,
+        "input_first_pts_seconds": 0.0,
+        "input_last_pts_seconds": 3599.9818111111113,
+        "final_frame_duration_ticks": 3000,
+        "width": 1280,
+        "height": 720,
+        "container_duration_ticks": 323998363,
+        "container_duration_seconds": 3599.9818111111113,
+        "container_duration_semantics": "ends_at_final_pts_excluding_its_reported_duration",
+        "presentation_tail_beyond_container_seconds": 0.03333333333333333,
+        "fps": 29.981262590515,
+        "fps_num": 1094366573,
+        "fps_den": 36501684,
+        "fps_role": "container average metadata only; never timestamp or duration authority",
+        "time_base_num": 1,
+        "time_base_den": 90000,
+        "time_mode": "audited_pts",
+        "time_semantics": "(original integer PTS - first PTS) * time_base; original per-frame durations retained exactly",
+        "max_frame_duration_seconds": 0.11,
+        "decoder_timestamp_tolerance_seconds": 1.1111111111111112e-05,
+        "audit_summary_path": "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/full_video_preparation_newport_2026-09-24/time_audit/audit_runtime_envelope.json",
+        "audit_summary_sha256": "a75e4cde70996762281cf3d92faf04d0c943dec29892a16040e9a58878390d36",
+        "audit_summary_stat": {
+          "size_bytes": 10050,
+          "mtime_ns": 1790244716454460949
+        },
+        "frame_timing_path": "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/full_video_preparation_newport_2026-09-24/time_audit/timing_frames.jsonl",
+        "frame_timing_sha256": "dfa6d3043e14afffcbd19d139db58a0d614185e26ee219508434ce3c1ee8984d",
+        "frame_timing_stat": {
+          "size_bytes": 23437458,
+          "mtime_ns": 1790244591887055001
+        },
+        "pts_backend_sha256": "1b80549b6edf3059276c54d9a91ebbd330a46ad39753c749b3730679b63f1539",
+        "audited_evidence_files": {
+          "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/full_video_preparation_newport_2026-09-24/time_audit/audit_report.json": {
+            "sha256": "b14d85da2e8e921d52fb1ec14a9424c20ac664fb7148edc3a47f0ab298b9e8a7",
+            "stat": {
+              "size_bytes": 4579,
+              "mtime_ns": 1790244683425627756
+            }
+          },
+          "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/full_video_preparation_newport_2026-09-24/time_audit/decoder_differences.jsonl": {
+            "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "stat": {
+              "size_bytes": 0,
+              "mtime_ns": 1790244591984011612
+            }
+          },
+          "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/full_video_preparation_newport_2026-09-24/time_audit/decoder_summary.json": {
+            "sha256": "3c2db21c1ddb15468ea6c8e09aeab6e75b8663ff11c2b50c946f03ace997ba9f",
+            "stat": {
+              "size_bytes": 956,
+              "mtime_ns": 1790244683425336166
+            }
+          },
+          "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/full_video_preparation_newport_2026-09-24/time_audit/ffprobe_frames.stderr.log": {
+            "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "stat": {
+              "size_bytes": 0,
+              "mtime_ns": 1790244532896519855
+            }
+          },
+          "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/full_video_preparation_newport_2026-09-24/time_audit/prepare_time_audit.executed.py": {
+            "sha256": "95b177aa3db136e83869e3ce361009f79b6a99f85fbaa3dfee7cfed1b5713da3",
+            "stat": {
+              "size_bytes": 21004,
+              "mtime_ns": 1790244716277420353
+            }
+          },
+          "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/full_video_preparation_newport_2026-09-24/time_audit/pts_summary.json": {
+            "sha256": "2177fd07b1baa9f399aaaad40296f1a0aaec1b4facbebd3f6cf0e393214aff74",
+            "stat": {
+              "size_bytes": 2021,
+              "mtime_ns": 1790244591896545361
+            }
+          },
+          "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/full_video_preparation_newport_2026-09-24/time_audit/source_metadata.json": {
+            "sha256": "4c1528c79f61babe1291f43a33409f6d3d6a46fba4bfc7e28216a1eba5372c32",
+            "stat": {
+              "size_bytes": 2525,
+              "mtime_ns": 1790244532896243057
+            }
+          }
+        },
+        "audited_decoder": {
+          "backend": "FFMPEG",
+          "opencv_version": "5.0.0",
+          "requested_decoder_threads": 2
+        },
+        "maximum_frame_duration_ticks": 9002,
+        "maximum_frame_duration_seconds": 0.10002222222222222,
+        "pts_audit_frames": 107932,
+        "segment_start_ticks_from_first_pts": 144000607,
+        "segment_end_ticks_from_first_pts": 154800634,
+        "segment_selection": "exact_original_pts_boundaries_after_full_sidecar_validation",
+        "preflight_elapsed_seconds": 1.6422133749583736,
+        "model_path": "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/training/yolo11s_formal_a100_v1/weights/best.pt",
+        "model_sha256": "07e2280eda613c5d633196729f8716e9715000430171f49f6341afe573a2f334",
+        "model_stat": {
+          "size_bytes": 19160602,
+          "mtime_ns": 1790154157000000000
+        },
+        "versions": {
+          "python": "3.10.20",
+          "ultralytics": "8.4.115",
+          "torch": "2.13.0",
+          "opencv-python": "5.0.0.93",
+          "numpy": "2.2.6",
+          "ffprobe": "ffprobe version 7.1.1 Copyright (c) 2007-2025 the FFmpeg developers"
+        },
+        "ffprobe_path": "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/tools/full_video/ffprobe_7_1_1_arm64/ffprobe",
+        "tracker_implementation": {
+          "path": "/Users/zoki/anaconda3/envs/traffic-yolo/lib/python3.10/site-packages/ultralytics/trackers/byte_tracker.py",
+          "sha256": "3b4849d7dc042bebff2403c2797597b004be52a8919f1b357468408c4a64bef4"
+        },
+        "tracker_buffer_units": "frames, independent of source FPS; no hidden 30 FPS assumption",
+        "removed_track_history": "Terminal IDs absent from active/lost pools are pruned; active and lost tracker state is retained",
+        "method_provenance": {
+          "order": [
+            "background_confirmation",
+            "cross_class_duplicate_suppression",
+            "heavy_vehicle_containment",
+            "bytetrack"
+          ],
+          "background_confirmation": {
+            "mode": "live_second_resolution",
+            "policy_sha256": "5fc67c863e8f5f458fbbcc870ab49f0890d7aa569b046b0db0be0d824441a3eb",
+            "source_sha256": "969af533145e1a1afaa8fb4afa754205c338171760ff02b97e2aef4f04094c93",
+            "model_sha256": "07e2280eda613c5d633196729f8716e9715000430171f49f6341afe573a2f334",
+            "confirmation_imgsz": 1280,
+            "confirmation_schedule": "every_selected_decoded_frame",
+            "confirmation_detector_settings": {
+              "conf": 0.1,
+              "imgsz": 1280,
+              "iou": 0.7,
+              "half": false,
+              "agnostic_nms": false,
+              "max_det": 300,
+              "augment": false,
+              "rect": true,
+              "batch": 1,
+              "classes": null
+            },
+            "frame_digest": "sha256_of_C_order_decoded_BGR_uint8_pixels_before_inference"
+          },
+          "contained_vehicle_suppression": {
+            "policy_sha256": "b299d573ecfcf8e609fc216f29b65ebcb288347def0e520cda404b29dcbf0ff6"
+          }
+        },
+        "backend_sha256": "0a8d2e549b9b85efdcc7d6c9ae7a58bddf81f6f908c76b242b0e6ac7559d3db8",
+        "configuration_sha256": "d2803c887f94a63005cd7d475d41b170c7ec2f3781f8cffadae017c205a5741b"
+      },
+      "method_status": "same_original_frame_parity_required_before_full_run",
+      "readiness_scope": "input_preflight_only",
+      "inference_enabled": false,
+      "inference_started": false
+    }
+  ],
+  "failures": []
+}

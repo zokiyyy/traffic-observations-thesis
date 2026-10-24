@@ -1,0 +1,81 @@
+{
+  "checked_date": "2026-10-25",
+  "included_preview": {
+    "path": "docs/images/prototype-replay.png",
+    "source_project_relative_path": "formal_research/12_thesis_draft/revision_2026-10-19/figures/fig_4_2_replay_interface.png",
+    "sha256": "65829cb8781e42f8df2fda67ca6b0e0bffb5717af6fcb12499c8391d56977137",
+    "purpose": "Illustration of the thesis replay interface, not a dataset image or build resource",
+    "modified": false,
+    "source_footage": "City of Bellevue Traffic Video Dataset",
+    "source_url": "https://github.com/City-of-Bellevue/TrafficVideoDataset"
+  },
+  "excluded_unity_cases": [
+    {
+      "id": "F1018",
+      "title": "Correct matches retained",
+      "original_filename": "Bellevue_150th_SE38th__2017-09-11_14-08-32__validation__slot_11__p_0.868182__t_3125.831544.jpg",
+      "source": "formal_research/traffic_yolo_system/outputs/validation_tuning/yolo11s_confidence_val_v1_2026-09-23/review/05_reduction_without_tp_loss.jpg",
+      "source_sha256": "c5edfbdde98a2bbcaf107c371e67c29944e9fe5a8d7adfc3d1f8dd66ecbeee29",
+      "included": false,
+      "reason": "No explicit redistribution terms were located on the source dataset repository/README during this check.",
+      "image_sha256": "c5edfbdde98a2bbcaf107c371e67c29944e9fe5a8d7adfc3d1f8dd66ecbeee29",
+      "original_meta_sha256": "9a201be2cf86b3f280125efba23be9401e4038c007dd286b59999cadfe870d50",
+      "matches_documented_source_image": true,
+      "project_resource_hashes": {
+        "traffic_unity_demo": {
+          ".jpg": "c5edfbdde98a2bbcaf107c371e67c29944e9fe5a8d7adfc3d1f8dd66ecbeee29",
+          ".jpg.meta": "9a201be2cf86b3f280125efba23be9401e4038c007dd286b59999cadfe870d50"
+        },
+        "traffic_unity_web": {
+          ".jpg": "c5edfbdde98a2bbcaf107c371e67c29944e9fe5a8d7adfc3d1f8dd66ecbeee29",
+          ".jpg.meta": "165e7297892b528ac833bf8bbfdc079b758d56cde843d8d592ac15f4c848d3de"
+        }
+      }
+    },
+    {
+      "id": "F0178",
+      "title": "Motorcycle filtered at 0.35",
+      "original_filename": "Bellevue_116th_NE12th__2017-09-11_15-08-36__validation__slot_01__p_0.050000__t_4.233444.jpg",
+      "source": "formal_research/traffic_yolo_system/outputs/validation_tuning/yolo11s_confidence_val_v1_2026-09-23/review/06_motorcycle_crop.jpg",
+      "source_sha256": "93972384aed806af361e931f4311f36725ad7e728f93734903d2cf89f52cdebf",
+      "included": false,
+      "reason": "No explicit redistribution terms were located on the source dataset repository/README during this check.",
+      "image_sha256": "93972384aed806af361e931f4311f36725ad7e728f93734903d2cf89f52cdebf",
+      "original_meta_sha256": "3a40b4790d969902e3c6b36f65bfa08ed4267ad3c15f89c7cc4d2f6f75bf6a2d",
+      "matches_documented_source_image": true,
+      "project_resource_hashes": {
+        "traffic_unity_demo": {
+          ".jpg": "93972384aed806af361e931f4311f36725ad7e728f93734903d2cf89f52cdebf",
+          ".jpg.meta": "3a40b4790d969902e3c6b36f65bfa08ed4267ad3c15f89c7cc4d2f6f75bf6a2d"
+        },
+        "traffic_unity_web": {
+          ".jpg": "93972384aed806af361e931f4311f36725ad7e728f93734903d2cf89f52cdebf",
+          ".jpg.meta": "94aa02e0a03af43869b9c7d3f13825dc07cfcab3aae4923ce8e85de3351ea473"
+        }
+      }
+    },
+    {
+      "id": "F0794",
+      "title": "Correct truck class lost",
+      "original_filename": "Bellevue_150th_SE38th__2017-09-10_19-08-25__validation__slot_11__p_0.868182__t_3125.504733.jpg",
+      "source": "formal_research/traffic_yolo_system/outputs/validation_tuning/yolo11s_confidence_val_v1_2026-09-23/review/03_truck_tradeoff.jpg",
+      "source_sha256": "397ead007eb2679e1d0bbfac157a90705ae914c98301fe6bb19fb962cbe92308",
+      "included": false,
+      "reason": "No explicit redistribution terms were located on the source dataset repository/README during this check.",
+      "image_sha256": "397ead007eb2679e1d0bbfac157a90705ae914c98301fe6bb19fb962cbe92308",
+      "original_meta_sha256": "31b6fc07481b4c3cf781c47427ccc1fa9070b90929112b05830e37e23cef849e",
+      "matches_documented_source_image": true,
+      "project_resource_hashes": {
+        "traffic_unity_demo": {
+          ".jpg": "397ead007eb2679e1d0bbfac157a90705ae914c98301fe6bb19fb962cbe92308",
+          ".jpg.meta": "31b6fc07481b4c3cf781c47427ccc1fa9070b90929112b05830e37e23cef849e"
+        },
+        "traffic_unity_web": {
+          ".jpg": "397ead007eb2679e1d0bbfac157a90705ae914c98301fe6bb19fb962cbe92308",
+          ".jpg.meta": "da3a099624c3742b051e9ae26f1d262e4ebc250b8f3a472c11b288cb0abae57c"
+        }
+      }
+    }
+  ],
+  "publication_status": "Local preparation only; no upload or new licence granted."
+}

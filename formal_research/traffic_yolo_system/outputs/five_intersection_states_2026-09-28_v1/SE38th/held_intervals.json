@@ -1,0 +1,110 @@
+[
+  {
+    "frame_index": 23947,
+    "start_ticks": 71837711,
+    "end_ticks": 74426699,
+    "duration_s": 28.766533333333335
+  },
+  {
+    "frame_index": 27008,
+    "start_ticks": 83648661,
+    "end_ticks": 84122660,
+    "duration_s": 5.266655555555555
+  },
+  {
+    "frame_index": 40516,
+    "start_ticks": 124647786,
+    "end_ticks": 125790781,
+    "duration_s": 12.699944444444444
+  },
+  {
+    "frame_index": 41833,
+    "start_ticks": 129738765,
+    "end_ticks": 130110763,
+    "duration_s": 4.133311111111111
+  },
+  {
+    "frame_index": 41846,
+    "start_ticks": 130146763,
+    "end_ticks": 130206762,
+    "duration_s": 0.6666555555555556
+  },
+  {
+    "frame_index": 42054,
+    "start_ticks": 130878760,
+    "end_ticks": 130974759,
+    "duration_s": 1.0666555555555555
+  },
+  {
+    "frame_index": 70954,
+    "start_ticks": 217689089,
+    "end_ticks": 217965088,
+    "duration_s": 3.0666555555555557
+  },
+  {
+    "frame_index": 70955,
+    "start_ticks": 217965088,
+    "end_ticks": 218061088,
+    "duration_s": 1.0666666666666667
+  },
+  {
+    "frame_index": 73220,
+    "start_ticks": 224853061,
+    "end_ticks": 225645058,
+    "duration_s": 8.799966666666666
+  },
+  {
+    "frame_index": 79541,
+    "start_ticks": 244637986,
+    "end_ticks": 245900980,
+    "duration_s": 14.033266666666666
+  },
+  {
+    "frame_index": 82586,
+    "start_ticks": 255032943,
+    "end_ticks": 255308942,
+    "duration_s": 3.0666555555555557
+  },
+  {
+    "frame_index": 83966,
+    "start_ticks": 259448926,
+    "end_ticks": 259628925,
+    "duration_s": 1.9999888888888888
+  },
+  {
+    "frame_index": 83970,
+    "start_ticks": 259637925,
+    "end_ticks": 259724925,
+    "duration_s": 0.9666666666666667
+  },
+  {
+    "frame_index": 91879,
+    "start_ticks": 283448831,
+    "end_ticks": 284012829,
+    "duration_s": 6.266644444444444
+  },
+  {
+    "frame_index": 102029,
+    "start_ticks": 314489710,
+    "end_ticks": 314639712,
+    "duration_s": 1.6666888888888889
+  },
+  {
+    "frame_index": 104466,
+    "start_ticks": 321947682,
+    "end_ticks": 322031682,
+    "duration_s": 0.9333333333333333
+  },
+  {
+    "frame_index": 104555,
+    "start_ticks": 322298680,
+    "end_ticks": 322607680,
+    "duration_s": 3.433333333333333
+  },
+  {
+    "frame_index": 104563,
+    "start_ticks": 322628680,
+    "end_ticks": 322703680,
+    "duration_s": 0.8333333333333334
+  }
+]

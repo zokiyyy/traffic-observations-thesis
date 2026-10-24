@@ -1,0 +1,75 @@
+{
+  "passed": true,
+  "check_count": 52479,
+  "scope": "Saved small-output independent thresholds, recurrence, subset counts and UI evidence gating review",
+  "case_totals": [
+    {
+      "case": "Newport",
+      "split": "Validation",
+      "rows": 1444,
+      "high": 140,
+      "joint": 21,
+      "unknown": 659,
+      "high_and_unknown": 5
+    },
+    {
+      "case": "NE12th",
+      "split": "Train",
+      "rows": 205,
+      "high": 9,
+      "joint": 0,
+      "unknown": 173,
+      "high_and_unknown": 7
+    },
+    {
+      "case": "Eastgate",
+      "split": "Validation",
+      "rows": 1805,
+      "high": 212,
+      "joint": 18,
+      "unknown": 1036,
+      "high_and_unknown": 28
+    },
+    {
+      "case": "SE38th",
+      "split": "Validation",
+      "rows": 1444,
+      "high": 111,
+      "joint": 13,
+      "unknown": 486,
+      "high_and_unknown": 1
+    },
+    {
+      "case": "NE8th",
+      "split": "Validation",
+      "rows": 1444,
+      "high": 0,
+      "joint": 0,
+      "unknown": 1444,
+      "high_and_unknown": 0
+    }
+  ],
+  "totals": {
+    "rows": 6342,
+    "high": 472,
+    "joint": 52,
+    "unknown": 3798,
+    "high_and_unknown": 41
+  },
+  "unit": "region x 10-second window; contains short unclassified tail rows",
+  "joint_is_subset_of_high_count": true,
+  "high_and_unknown_retained_separately": true,
+  "traffic_accuracy_evaluated": false,
+  "full_video_or_frame_logs_read": false,
+  "input_sha256": {
+    "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/supplementary_states_2026-09-28_v1/research_notes/calibration_scope_probe.json": "760b9f0539c0fea5a78bee0678a927308936e2c839582c800f2998862efda103",
+    "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/supplementary_states_2026-09-28_v1/region_summary.json": "44c02da91268c8d40440ce5d8b0eb35973fad82f4f4abc03ceaa8bc3721e914d",
+    "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/supplementary_states_2026-09-28_v1/results_index.json": "10bcd9517ff9193eb4f61a4af1ad2bf3466cac499ddc29edf9646c1a401bd65e",
+    "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/supplementary_states_2026-09-28_v1/Newport/states_10s.json": "e43a1108cff23a889b5eaf016a24a52a90f31d223c6e852619336155dc0d0513",
+    "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/supplementary_states_2026-09-28_v1/NE12th/states_10s.json": "10715ae23c63604b825948f45863cfb4c4383f5586ab09e8edfba83da2de260a",
+    "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/supplementary_states_2026-09-28_v1/Eastgate/states_10s.json": "13294db71c434eb94cbbb69ff0a6d6d17e38c1d4d4d73eeaeda3b029b3378d5f",
+    "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/supplementary_states_2026-09-28_v1/SE38th/states_10s.json": "371d37ab2efda4b563d9d35deb29d55e74cac4cd376432fdd6b6efa5daaf6f0c",
+    "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/supplementary_states_2026-09-28_v1/NE8th/states_10s.json": "87dec7f9fc363696d7fbc5d2bc623013176023c5c14394b1c1f2b2af6111f14c"
+  },
+  "review_script_sha256": "9e95cba23c9fdb0806922ed3b3a10af6b47fdf24d777eb79578c2f5a3308ed6e"
+}

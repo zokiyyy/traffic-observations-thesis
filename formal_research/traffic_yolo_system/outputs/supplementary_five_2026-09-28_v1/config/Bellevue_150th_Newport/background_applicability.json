@@ -1,0 +1,19 @@
+{
+  "camera_id": "Bellevue_150th_Newport",
+  "source_id": "Bellevue_150th_Newport__2017-09-10_18-08-24.mp4",
+  "source_split": "Validation",
+  "source_sha256": "5d7eff08712d5750a018b4fa82be85754d47c777a07754d54b3d54cb2dd3c587",
+  "policy_sha256": "5f86b6c25bb693ad07330c826cfea879a3eb4a39c40b170e8792751e20b00fb4",
+  "previous_policy_sha256": "5fc67c863e8f5f458fbbcc870ab49f0890d7aa569b046b0db0be0d824441a3eb",
+  "geometry_and_thresholds_unchanged": true,
+  "scope": "Only exact September10 18:08:24 source SHA and full original PTS interval",
+  "sparse_wall_review": "Six existing source samples with frozen red polygon visually inspected: polygon remains over same wall/fence, above road; shadows change. Not proof of correct removals or all-frame stability.",
+  "contact_path": "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/supplementary_five_2026-09-28_v1/source_review/Bellevue_150th_Newport/background_polygon_contact.png",
+  "contact_sha256": "470663610c5e263d7466be8f3168f676e142c7307f2921a8f4825d8b8fb79044",
+  "allowed_source_interval_seconds": [
+    0,
+    3600.030622222222
+  ],
+  "inference_performed": false,
+  "numeric_or_logical_policy_changes": false
+}

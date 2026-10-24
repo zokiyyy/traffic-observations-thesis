@@ -1,0 +1,12 @@
+{
+  "automation_id": "automation",
+  "kind": "heartbeat",
+  "interval_minutes": 15,
+  "status": "ACTIVE",
+  "notify_only": [
+    "completion",
+    "important_failure",
+    "user_action_required"
+  ],
+  "do_not_repeat_start_when_live": true
+}

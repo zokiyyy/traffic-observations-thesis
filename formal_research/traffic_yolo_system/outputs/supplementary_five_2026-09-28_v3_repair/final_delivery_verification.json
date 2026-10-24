@@ -1,0 +1,116 @@
+{
+  "completed": true,
+  "checked_at": "2026-09-28T09:12:13.894167+00:00",
+  "local_verified_count": 5,
+  "preview_decode_checked": true,
+  "full_data_rehashed": true,
+  "model_accuracy_claimed": false,
+  "main_test_read": false,
+  "cameras": [
+    {
+      "camera": "Bellevue_150th_Newport",
+      "source_id": "Bellevue_150th_Newport__2017-09-10_18-08-24.mp4",
+      "split": "Validation",
+      "frames": 107977,
+      "duration_seconds": 3600.030622222222,
+      "preview": "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/supplementary_five_2026-09-28_v3_repair/delivery/Bellevue_150th_Newport/preview.mp4",
+      "data": "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/supplementary_five_2026-09-28_v3_repair/delivery/Bellevue_150th_Newport/data.tar.gz",
+      "qc": "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/supplementary_five_2026-09-28_v3_repair/delivery/Bellevue_150th_Newport/summary_archive/output/qc_summary.json",
+      "mean_in_selected_regions": 5.704190222997973,
+      "stages_minutes": {
+        "native": 4.6847268284172365,
+        "short": 1.2009781686996575,
+        "short_qc": 0.06041520286623078,
+        "short_contacts": 0.11807138865018109,
+        "full": 55.61053085918344,
+        "full_qc": 1.0423888923668225,
+        "preview": 0.7981304596498375
+      },
+      "local_complete": true
+    },
+    {
+      "camera": "Bellevue_116th_NE12th",
+      "source_id": "Bellevue_116th_NE12th__2017-09-11_07-08-32.mp4",
+      "split": "Train",
+      "frames": 11824,
+      "duration_seconds": 408.57685555555554,
+      "preview": "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/supplementary_five_2026-09-28_v3_repair/delivery/Bellevue_116th_NE12th/preview.mp4",
+      "data": "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/supplementary_five_2026-09-28_v3_repair/delivery/Bellevue_116th_NE12th/data.tar.gz",
+      "qc": "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/supplementary_five_2026-09-28_v3_repair/delivery/Bellevue_116th_NE12th/summary_archive/output/qc_summary.json",
+      "mean_in_selected_regions": 7.405318520652509,
+      "stages_minutes": {
+        "native": 0.49491410978371275,
+        "short": 0.636501178133767,
+        "short_qc": 0.037038915283240686,
+        "short_contacts": 0.08543820164923091,
+        "full": 3.484141871649384,
+        "full_qc": 0.12382519809956041,
+        "preview": 0.5164228819669613
+      },
+      "local_complete": true
+    },
+    {
+      "camera": "Bellevue_150th_Eastgate",
+      "source_id": "Bellevue_150th_Eastgate__2017-09-11_06-08-30.mp4",
+      "split": "Validation",
+      "frames": 107863,
+      "duration_seconds": 3600.0039555555554,
+      "preview": "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/supplementary_five_2026-09-28_v3_repair/delivery/Bellevue_150th_Eastgate/preview.mp4",
+      "data": "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/supplementary_five_2026-09-28_v3_repair/delivery/Bellevue_150th_Eastgate/data.tar.gz",
+      "qc": "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/supplementary_five_2026-09-28_v3_repair/delivery/Bellevue_150th_Eastgate/summary_archive/output/qc_summary.json",
+      "mean_in_selected_regions": 4.993791210525384,
+      "stages_minutes": {
+        "native": 3.9229351026170964,
+        "short": 0.7677526398173844,
+        "short_qc": 0.06125496644914771,
+        "short_contacts": 0.10048217399938343,
+        "full": 31.16601860668355,
+        "full_qc": 0.996754292116384,
+        "preview": 0.7350193432493446
+      },
+      "local_complete": true
+    },
+    {
+      "camera": "Bellevue_150th_SE38th",
+      "source_id": "Bellevue_150th_SE38th__2017-09-10_19-08-25.mp4",
+      "split": "Validation",
+      "frames": 107851,
+      "duration_seconds": 3600.0105,
+      "preview": "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/supplementary_five_2026-09-28_v3_repair/delivery/Bellevue_150th_SE38th/preview.mp4",
+      "data": "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/supplementary_five_2026-09-28_v3_repair/delivery/Bellevue_150th_SE38th/data.tar.gz",
+      "qc": "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/supplementary_five_2026-09-28_v3_repair/delivery/Bellevue_150th_SE38th/summary_archive/output/qc_summary.json",
+      "mean_in_selected_regions": 6.723895342340507,
+      "stages_minutes": {
+        "native": 3.886652355332626,
+        "short": 0.7727930614996391,
+        "short_qc": 0.05790127803338692,
+        "short_contacts": 0.09724559479994545,
+        "full": 30.68962690423262,
+        "full_qc": 0.8607011767502021,
+        "preview": 0.7065922408840076
+      },
+      "local_complete": true
+    },
+    {
+      "camera": "Bellevue_Bellevue_NE8th",
+      "source_id": "Bellevue_Bellevue_NE8th__2017-09-11_02-08-29.mp4",
+      "split": "Validation",
+      "frames": 107993,
+      "duration_seconds": 3600.016977777778,
+      "preview": "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/supplementary_five_2026-09-28_v3_repair/delivery/Bellevue_Bellevue_NE8th/preview.mp4",
+      "data": "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/supplementary_five_2026-09-28_v3_repair/delivery/Bellevue_Bellevue_NE8th/data.tar.gz",
+      "qc": "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/supplementary_five_2026-09-28_v3_repair/delivery/Bellevue_Bellevue_NE8th/summary_archive/output/qc_summary.json",
+      "mean_in_selected_regions": 0.26611870793399434,
+      "stages_minutes": {
+        "native": 3.5789070006498758,
+        "short": 0.6891348110832041,
+        "short_qc": 0.05207593068286466,
+        "short_contacts": 0.08045254924994273,
+        "full": 25.69130022581667,
+        "full_qc": 0.32657390456685487,
+        "preview": 0.5614799821002331
+      },
+      "local_complete": true
+    }
+  ]
+}

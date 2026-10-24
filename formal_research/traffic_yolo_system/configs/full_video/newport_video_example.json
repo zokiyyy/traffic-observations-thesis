@@ -1,0 +1,59 @@
+{
+  "schema_version": 1,
+  "development_only": true,
+  "run_version": "newport-live-entry-candidate-no-background-20260924",
+  "rules_version": "current-active-roi-duration-v1-state-not-computed",
+  "method_status": "engineering_example_not_final_method",
+  "split_manifest": "../../../03_full_dataset_design/splits/formal_source_video_split_manifest_v1_2026-08-24.csv",
+  "source_root": "../../../../videos/original",
+  "camera_registry": "camera_registry_live_example.json",
+  "output_root": "../../outputs/full_video_validation_2026-09-24/live_runs",
+  "model": {
+    "path": "../../outputs/training/yolo11s_formal_a100_v1/weights/best.pt",
+    "sha256": "07e2280eda613c5d633196729f8716e9715000430171f49f6341afe573a2f334",
+    "version": "yolo11s_formal_a100_v1_07e2280e"
+  },
+  "input": {
+    "kind": "video",
+    "source_offset_seconds": 0
+  },
+  "detector": {
+    "conf": 0.1,
+    "imgsz": 640,
+    "iou": 0.7,
+    "half": false,
+    "agnostic_nms": false,
+    "max_det": 300,
+    "augment": false,
+    "rect": true,
+    "batch": 1,
+    "classes": null
+  },
+  "tracker": {
+    "tracker_type": "bytetrack",
+    "track_high_thresh": 0.35,
+    "track_low_thresh": 0.1,
+    "new_track_thresh": 0.35,
+    "track_buffer": 30,
+    "match_thresh": 0.8,
+    "fuse_score": true
+  },
+  "dedup": {
+    "mode": "cross_class_greedy_iou",
+    "iou_threshold": 0.7
+  },
+  "aggregation": {
+    "window_seconds": 10,
+    "chunk_frames": 900
+  },
+  "progress_every_frames": 300,
+  "device": "cpu",
+  "segment": {
+    "start_seconds": 1600,
+    "end_seconds": 1720
+  },
+  "time": {
+    "mode": "audited_cfr",
+    "ffprobe_path": "ffprobe"
+  }
+}

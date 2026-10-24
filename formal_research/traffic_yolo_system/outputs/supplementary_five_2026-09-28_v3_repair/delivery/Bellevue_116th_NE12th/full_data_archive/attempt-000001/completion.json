@@ -1,0 +1,101 @@
+{
+  "schema_version": "full_video_completion_v1",
+  "fingerprint": "767a084a4cac1f45315ecc261b8e3beb2eca19948cca2a18b5348b517e6780fc",
+  "source_id": "Bellevue_116th_NE12th__2017-09-11_07-08-32.mp4",
+  "attempt": "attempt-000001",
+  "created_at": "2026-09-28T07:24:20.145574+00:00",
+  "files": {
+    "frames.jsonl": {
+      "bytes": 69367232,
+      "sha256": "00e2c00893db48edffe011f16952a940370f06ae9d4dfeafa99d2638b3e982fa"
+    },
+    "prepared.json": {
+      "bytes": 34177,
+      "sha256": "54f61ad5957abc3a320fd74cc3db52c8b5373ee403a5cd12a38d9c204557017a"
+    },
+    "progress.json": {
+      "bytes": 100,
+      "sha256": "da957e32cacce5db7223b69697e59d486690b7d1ea8beb4bc775a415ef03d0c4"
+    },
+    "provenance.json": {
+      "bytes": 34177,
+      "sha256": "54f61ad5957abc3a320fd74cc3db52c8b5373ee403a5cd12a38d9c204557017a"
+    },
+    "result_summary.json": {
+      "bytes": 4848,
+      "sha256": "82d8f2917a3da927121b9f22cb06c38151ab6b3033157f03519f4b8a90b01c3d"
+    },
+    "run_summary.json": {
+      "bytes": 4848,
+      "sha256": "82d8f2917a3da927121b9f22cb06c38151ab6b3033157f03519f4b8a90b01c3d"
+    },
+    "summary.json": {
+      "bytes": 3856,
+      "sha256": "7467a822904788a4a77b592a8423edd90f2e030621b5fb58ac1823192a1f1e8a"
+    },
+    "timeline/index.jsonl": {
+      "bytes": 18374,
+      "sha256": "b425752fd975c6b8b3ebbd5067d34ed2e22494c7b4d9a8acbd90328a259825db"
+    },
+    "timeline/part-000000.jsonl": {
+      "bytes": 1346062,
+      "sha256": "ee0c8ca09686bf4cfd9df048c77adff184ab1c1be66afd85b7ae7c20ce6e73b0"
+    },
+    "timeline/part-000001.jsonl": {
+      "bytes": 1347467,
+      "sha256": "4bbbb7e5dcdde2e5e84394a5ae672256a203f11d511c2ef11e3ebad67084c30c"
+    },
+    "timeline/part-000002.jsonl": {
+      "bytes": 1346791,
+      "sha256": "c0669bdee754f31e344bff9782af0bb69cc3893ea8d28a6d5e58b9811ffffaa2"
+    },
+    "timeline/part-000003.jsonl": {
+      "bytes": 1347615,
+      "sha256": "ee6a0be2debb91a6d771b5464269329f063a1b942c591c7df208d570db000d77"
+    },
+    "timeline/part-000004.jsonl": {
+      "bytes": 1347069,
+      "sha256": "394a545e0038ec795891f079c11cce266e8507f74e5010c138a8c05e77a6aa52"
+    },
+    "timeline/part-000005.jsonl": {
+      "bytes": 1347336,
+      "sha256": "a59cc9567512c82d1865fdc0feb96f942a1e3c0b8a85276abf54423a81a8598c"
+    },
+    "timeline/part-000006.jsonl": {
+      "bytes": 1348849,
+      "sha256": "3875899a728503f5872070a3c20c109e4bf526269e1c1e88d94d8547bf705409"
+    },
+    "timeline/part-000007.jsonl": {
+      "bytes": 1349718,
+      "sha256": "43b724c6f18317ca70d36f5393dab5c90f8907a090ba03191730cb8f688646b8"
+    },
+    "timeline/part-000008.jsonl": {
+      "bytes": 1348167,
+      "sha256": "e364d0c626975cb04c52aa1dad3220a848da283171c589b7b97afff02f7cecd7"
+    },
+    "timeline/part-000009.jsonl": {
+      "bytes": 1347369,
+      "sha256": "884fcbcc2cd977984c25bb6e09ddcbe87c71dcb20bb7f04d63336e908322511a"
+    },
+    "timeline/part-000010.jsonl": {
+      "bytes": 1348491,
+      "sha256": "bed9994ab8889c42e823054e8ea9e20c96ef40625f3764579d0fbcf130337bbb"
+    },
+    "timeline/part-000011.jsonl": {
+      "bytes": 1349437,
+      "sha256": "f98aa821e9d26a5ca24d2a89996bcf83c25579bc0644851b39c00532d7d36540"
+    },
+    "timeline/part-000012.jsonl": {
+      "bytes": 1350427,
+      "sha256": "e82c9d4cb2bb0490b3c1309a8154281aa280c6b37b05b092b991fb251b32e29a"
+    },
+    "timeline/part-000013.jsonl": {
+      "bytes": 185763,
+      "sha256": "4586646b37673fd4d0460048574fc4f9a6b63dfa93a9a013aec982658eedef6e"
+    },
+    "windows.jsonl": {
+      "bytes": 336597,
+      "sha256": "1a9aa4bf4360a62b523205237f1a3e8420f7668fe960580efc82cc75143bebbe"
+    }
+  }
+}

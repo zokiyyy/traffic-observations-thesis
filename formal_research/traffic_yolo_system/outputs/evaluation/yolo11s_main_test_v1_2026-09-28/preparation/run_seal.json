@@ -1,0 +1,11 @@
+{
+  "sealed_at_utc": "2026-09-28T07:00:00.519804+00:00",
+  "before_inference": true,
+  "sha256": {
+    "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/src/evaluate_main_test.py": "201ed3c2fcf095cb0b76057197b0daeac4e6b5f76395c98b928f5246a82455c4",
+    "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/evaluation/yolo11s_main_test_v1_2026-09-28/preparation/evaluation_config.json": "6eb49d6d85d715834615c501337940e9bc9e1ca67f09d0346e8f8916a6f9a80e",
+    "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/evaluation/yolo11s_main_test_v1_2026-09-28/preparation/dataset_manifest.json": "3ecbf8799274183ee46674298ea0cb968470d998b487106a83934e752660b12c",
+    "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/evaluation/yolo11s_main_test_v1_2026-09-28/preparation/data_test.yaml": "51b85a4c6af42a24dfaf95a687901ae870d351bf75e4e8429741a586625a4215",
+    "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/evaluation/yolo11s_main_test_v1_2026-09-28/冻结方案与评估范围.md": "bbc37985b2d4245c43c9327d4ecd68005380aaa79e2169ee6a45c5c8332ed2a0"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "at": "2026-09-28T09:12:08.326093+00:00",
+  "completed": true,
+  "new_local_verified_count": 5,
+  "cameras": [
+    "Bellevue_150th_Newport",
+    "Bellevue_116th_NE12th",
+    "Bellevue_150th_Eastgate",
+    "Bellevue_150th_SE38th",
+    "Bellevue_Bellevue_NE8th"
+  ],
+  "previous_five_sources_rerun": false,
+  "ne12th_split": "Train"
+}

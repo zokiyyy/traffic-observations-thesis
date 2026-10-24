@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "camera_id": "Bellevue_150th_Newport",
+  "source_ids": [
+    "Bellevue_150th_Newport__2017-09-10_18-08-24.mp4"
+  ],
+  "roi_version": "bellevue_150th_newport-supplementary-source-v1-20260928",
+  "layout_path": "roi.json",
+  "allowed_source_intervals_seconds": [
+    [
+      0,
+      3600.030622222222
+    ]
+  ],
+  "applicability_basis": "Six fixed actual-PTS screening samples independently reviewed; unchanged road coordinates. Local full decode supports time scope; native execution environment audit and short QC still required.",
+  "applicability_evidence": [
+    {
+      "path": "applicability.json",
+      "sha256": "11ac01d69b525551689617e2099e4a0099ee1ee1caeb915af1f7bddfcf425e90"
+    },
+    {
+      "path": "source_timing_evidence.json",
+      "sha256": "65db1fa22fa0d63a1e33622ce4de32c722b83b2263a983e49c37f577f6e6d2fb"
+    },
+    {
+      "path": "background_applicability.json",
+      "sha256": "6330af149535ed63585f90e7c4b93d840d512fe61d77ce09f32f6aa6997576a2"
+    }
+  ],
+  "status": "supplementary_source_bound_engineering_trial",
+  "background_filter": {
+    "mode": "live_second_resolution",
+    "policy_path": "background_policy.json",
+    "policy_sha256": "5f86b6c25bb693ad07330c826cfea879a3eb4a39c40b170e8792751e20b00fb4",
+    "confirmation_imgsz": 1280
+  },
+  "background_status": "Frozen Newport polygon/1280 confirmation/iou0.5/conf0.35; sparse source-bound geometry review, filtering accuracy unverified."
+}

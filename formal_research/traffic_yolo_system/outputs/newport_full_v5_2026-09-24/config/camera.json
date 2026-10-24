@@ -1,0 +1,42 @@
+{
+  "schema_version": 1,
+  "camera_id": "Bellevue_150th_Newport",
+  "source_ids": [
+    "Bellevue_150th_Newport__2017-09-11_08-08-31.mp4"
+  ],
+  "roi_version": "newport-v2-full-source-frozen-v5-20260924",
+  "layout_path": "roi.json",
+  "allowed_source_intervals_seconds": [
+    [
+      0,
+      3600.0151444444446
+    ]
+  ],
+  "applicability_basis": "预先固定13个原图/ROI抽样时点并由AI核查，辅以61个每分钟静态纹理配准样本；支持该完整来源同一v2几何候选，不排除稀疏样本之间短暂变化；非人工标注。时域由全帧PTS+解码审计限定。",
+  "applicability_evidence": [
+    {
+      "path": "sample_plan.json",
+      "sha256": "6d7914aca1e4f4a8d9f9c963c54b90f126b8894f6496bc14dcb30d74eda957c8"
+    },
+    {
+      "path": "extraction_evidence.json",
+      "sha256": "c06172d0947d08c6354a4e158b1c9b297aa22cba788da225aa7aa01b369143f7"
+    },
+    {
+      "path": "AI稀疏构图核查.json",
+      "sha256": "8b7b0c6983ee6fbb4da1a91cacb1a9ac66e68b4688dc9350523fe8d2bb5c41d2"
+    },
+    {
+      "path": "scope_binding.json",
+      "sha256": "fa304032ba74c3d61679041ee30d0683fe95cb5c84fe63fbeabfef8b7f4ad661"
+    }
+  ],
+  "status": "single_full_validation_trial_scope_checked",
+  "background_filter": {
+    "mode": "live_second_resolution",
+    "policy_path": "background_policy.json",
+    "policy_sha256": "5fc67c863e8f5f458fbbcc870ab49f0890d7aa569b046b0db0be0d824441a3eb",
+    "confirmation_imgsz": 1280
+  },
+  "background_status": "Frozen polygon and confirmation parameters; same-frame live second-resolution evidence"
+}

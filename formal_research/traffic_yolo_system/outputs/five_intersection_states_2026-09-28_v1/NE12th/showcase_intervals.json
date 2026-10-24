@@ -1,0 +1,14 @@
+[
+  {
+    "kind": "count_peak",
+    "start_s": 1490.0,
+    "end_s": 1500.0,
+    "combined_mean_count": 3.408957777777755
+  },
+  {
+    "kind": "held_evidence_example",
+    "start_s": 3001.0619,
+    "end_s": 3017.9623,
+    "held_duration_s": 16.9004
+  }
+]

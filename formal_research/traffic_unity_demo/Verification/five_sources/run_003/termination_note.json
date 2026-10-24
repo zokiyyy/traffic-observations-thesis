@@ -1,0 +1,27 @@
+{
+  "status": "interrupted_by_operator",
+  "recorded_utc": "2026-09-28T05:37:48.019305+00:00",
+  "reason": "Stopped the parallel-instance run after unexpected source selection and rate failures. Raw report retained. Final rerun uses one new instance with desktop input ignored during opt-in checks. Unique cause not established.",
+  "failed_checks_at_stop": [
+    {
+      "name": "source_initial_decoded_frame",
+      "source_index": 1
+    },
+    {
+      "name": "play_rate_2.0",
+      "source_index": 1
+    },
+    {
+      "name": "play_rate_4.0",
+      "source_index": 1
+    },
+    {
+      "name": "play_rate_0.5",
+      "source_index": 2
+    },
+    {
+      "name": "play_rate_2.0",
+      "source_index": 2
+    }
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "passed": true,
+  "cases": [
+    {
+      "case": "Eastgate",
+      "batch": "Original",
+      "source_id": "Bellevue_150th_Eastgate__2017-09-11_17-08-33.mp4",
+      "split": "Validation",
+      "rows": 1800,
+      "passed": true
+    },
+    {
+      "case": "NE12th",
+      "batch": "Original",
+      "source_id": "Bellevue_116th_NE12th__2017-09-10_23-08-29.mp4",
+      "split": "Validation",
+      "rows": 1805,
+      "passed": true
+    },
+    {
+      "case": "NE8th",
+      "batch": "Original",
+      "source_id": "Bellevue_Bellevue_NE8th__2017-09-11_12-08-31.mp4",
+      "split": "Validation",
+      "rows": 1444,
+      "passed": true
+    },
+    {
+      "case": "Newport",
+      "batch": "Original",
+      "source_id": "Bellevue_150th_Newport__2017-09-11_08-08-31.mp4",
+      "split": "Validation",
+      "rows": 1444,
+      "passed": true
+    },
+    {
+      "case": "SE38th",
+      "batch": "Original",
+      "source_id": "Bellevue_150th_SE38th__2017-09-11_14-08-32.mp4",
+      "split": "Validation",
+      "rows": 1444,
+      "passed": true
+    },
+    {
+      "case": "Eastgate",
+      "batch": "Supplementary",
+      "source_id": "Bellevue_150th_Eastgate__2017-09-11_06-08-30.mp4",
+      "split": "Validation",
+      "rows": 1805,
+      "passed": true
+    },
+    {
+      "case": "NE12th",
+      "batch": "Supplementary",
+      "source_id": "Bellevue_116th_NE12th__2017-09-11_07-08-32.mp4",
+      "split": "Train",
+      "rows": 205,
+      "passed": true
+    },
+    {
+      "case": "NE8th",
+      "batch": "Supplementary",
+      "source_id": "Bellevue_Bellevue_NE8th__2017-09-11_02-08-29.mp4",
+      "split": "Validation",
+      "rows": 1444,
+      "passed": true
+    },
+    {
+      "case": "Newport",
+      "batch": "Supplementary",
+      "source_id": "Bellevue_150th_Newport__2017-09-10_18-08-24.mp4",
+      "split": "Validation",
+      "rows": 1444,
+      "passed": true
+    },
+    {
+      "case": "SE38th",
+      "batch": "Supplementary",
+      "source_id": "Bellevue_150th_SE38th__2017-09-10_19-08-25.mp4",
+      "split": "Validation",
+      "rows": 1444,
+      "passed": true
+    }
+  ],
+  "zone_summary_rows": 44,
+  "zone_window_rows": 14279,
+  "null_motion_preserved": true,
+  "saved_motion_gates_checked_without_engine": true,
+  "summaries_checked_by_order_statistics": true,
+  "original_motion_fields_reused_bit_for_bit": true,
+  "output_hashes_verified": true,
+  "source_PTS_contiguity_and_duration_verified": true,
+  "no_relative_state_fields_in_motion_rows": true,
+  "NE12th_Train_preserved": true,
+  "script_sha256": "3c772884a01ce2a779c78f0249f6c94c079d584a42f9a458f67508d41d19d5c3"
+}

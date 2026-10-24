@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "original_frame_sha_verified": true,
+  "PTS_rowwise_match": true,
+  "source_split_checked_every_frame": true,
+  "ROI_and_configuration_checked_every_frame": true,
+  "original_10s_count_means_recomputed": true,
+  "held_intervals_match_PTS_gaps": true,
+  "missing_duration_s": 0.0
+}

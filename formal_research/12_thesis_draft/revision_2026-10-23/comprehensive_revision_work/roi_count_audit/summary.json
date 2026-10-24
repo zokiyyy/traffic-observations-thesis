@@ -1,0 +1,228 @@
+{
+  "evaluation": "Retrospective detector-only Validation diagnostic; not independently held-out, not filtered/tracked/windowed pipeline accuracy",
+  "confidence": 0.35,
+  "images": 197,
+  "source_videos": 17,
+  "cameras": 5,
+  "regions": 22,
+  "roi_image_pairs": 865,
+  "all_roi_image_metrics": {
+    "n": 865,
+    "gt_count_sum": 1413,
+    "pred_count_sum": 1460,
+    "absolute_error_sum": 183,
+    "signed_error_sum": 47,
+    "MAE": 0.2115606936416185,
+    "bias": 0.05433526011560694,
+    "RMSE": 0.6260251707805902,
+    "exact_count_n": 735,
+    "exact_count_fraction": 0.8497109826589595,
+    "gt_nonzero_n": 423
+  },
+  "in_roi_sum_per_image_metrics": {
+    "n": 197,
+    "gt_count_sum": 1413,
+    "pred_count_sum": 1460,
+    "absolute_error_sum": 127,
+    "signed_error_sum": 47,
+    "MAE": 0.6446700507614214,
+    "bias": 0.23857868020304568,
+    "RMSE": 1.2685176608299797,
+    "exact_count_n": 124,
+    "exact_count_fraction": 0.6294416243654822,
+    "gt_nonzero_n": 150
+  },
+  "whole_image_metrics": {
+    "n": 197,
+    "gt_count_sum": 1736,
+    "pred_count_sum": 1800,
+    "absolute_error_sum": 180,
+    "signed_error_sum": 64,
+    "MAE": 0.9137055837563451,
+    "bias": 0.3248730964467005,
+    "RMSE": 1.6309195189086922,
+    "exact_count_n": 106,
+    "exact_count_fraction": 0.5380710659898477,
+    "gt_nonzero_n": 151
+  },
+  "by_camera": [
+    {
+      "camera": "Bellevue_116th_NE12th",
+      "images": 41,
+      "source_videos": 4,
+      "regions": 5,
+      "roi_image_metrics": {
+        "n": 205,
+        "gt_count_sum": 128,
+        "pred_count_sum": 133,
+        "absolute_error_sum": 19,
+        "signed_error_sum": 5,
+        "MAE": 0.09268292682926829,
+        "bias": 0.024390243902439025,
+        "RMSE": 0.4131969352706687,
+        "exact_count_n": 191,
+        "exact_count_fraction": 0.9317073170731708,
+        "gt_nonzero_n": 40
+      },
+      "in_roi_sum_per_image_metrics": {
+        "n": 41,
+        "gt_count_sum": 128,
+        "pred_count_sum": 133,
+        "absolute_error_sum": 7,
+        "signed_error_sum": 5,
+        "MAE": 0.17073170731707318,
+        "bias": 0.12195121951219512,
+        "RMSE": 0.6048583789091339,
+        "exact_count_n": 37,
+        "exact_count_fraction": 0.9024390243902439,
+        "gt_nonzero_n": 21
+      }
+    },
+    {
+      "camera": "Bellevue_150th_Eastgate",
+      "images": 36,
+      "source_videos": 3,
+      "regions": 5,
+      "roi_image_metrics": {
+        "n": 180,
+        "gt_count_sum": 350,
+        "pred_count_sum": 342,
+        "absolute_error_sum": 46,
+        "signed_error_sum": -8,
+        "MAE": 0.25555555555555554,
+        "bias": -0.044444444444444446,
+        "RMSE": 0.7226494462892933,
+        "exact_count_n": 149,
+        "exact_count_fraction": 0.8277777777777777,
+        "gt_nonzero_n": 109
+      },
+      "in_roi_sum_per_image_metrics": {
+        "n": 36,
+        "gt_count_sum": 350,
+        "pred_count_sum": 342,
+        "absolute_error_sum": 28,
+        "signed_error_sum": -8,
+        "MAE": 0.7777777777777778,
+        "bias": -0.2222222222222222,
+        "RMSE": 1.3743685418725535,
+        "exact_count_n": 18,
+        "exact_count_fraction": 0.5,
+        "gt_nonzero_n": 36
+      }
+    },
+    {
+      "camera": "Bellevue_150th_Newport",
+      "images": 36,
+      "source_videos": 3,
+      "regions": 4,
+      "roi_image_metrics": {
+        "n": 144,
+        "gt_count_sum": 309,
+        "pred_count_sum": 335,
+        "absolute_error_sum": 50,
+        "signed_error_sum": 26,
+        "MAE": 0.3472222222222222,
+        "bias": 0.18055555555555555,
+        "RMSE": 0.7728015412913086,
+        "exact_count_n": 106,
+        "exact_count_fraction": 0.7361111111111112,
+        "gt_nonzero_n": 117
+      },
+      "in_roi_sum_per_image_metrics": {
+        "n": 36,
+        "gt_count_sum": 309,
+        "pred_count_sum": 335,
+        "absolute_error_sum": 40,
+        "signed_error_sum": 26,
+        "MAE": 1.1111111111111112,
+        "bias": 0.7222222222222222,
+        "RMSE": 1.6499158227686108,
+        "exact_count_n": 13,
+        "exact_count_fraction": 0.3611111111111111,
+        "gt_nonzero_n": 36
+      }
+    },
+    {
+      "camera": "Bellevue_150th_SE38th",
+      "images": 48,
+      "source_videos": 4,
+      "regions": 4,
+      "roi_image_metrics": {
+        "n": 192,
+        "gt_count_sum": 295,
+        "pred_count_sum": 304,
+        "absolute_error_sum": 35,
+        "signed_error_sum": 9,
+        "MAE": 0.18229166666666666,
+        "bias": 0.046875,
+        "RMSE": 0.535218024111047,
+        "exact_count_n": 165,
+        "exact_count_fraction": 0.859375,
+        "gt_nonzero_n": 103
+      },
+      "in_roi_sum_per_image_metrics": {
+        "n": 48,
+        "gt_count_sum": 295,
+        "pred_count_sum": 304,
+        "absolute_error_sum": 29,
+        "signed_error_sum": 9,
+        "MAE": 0.6041666666666666,
+        "bias": 0.1875,
+        "RMSE": 1.14564392373896,
+        "exact_count_n": 31,
+        "exact_count_fraction": 0.6458333333333334,
+        "gt_nonzero_n": 37
+      }
+    },
+    {
+      "camera": "Bellevue_Bellevue_NE8th",
+      "images": 36,
+      "source_videos": 3,
+      "regions": 4,
+      "roi_image_metrics": {
+        "n": 144,
+        "gt_count_sum": 331,
+        "pred_count_sum": 346,
+        "absolute_error_sum": 33,
+        "signed_error_sum": 15,
+        "MAE": 0.22916666666666666,
+        "bias": 0.10416666666666667,
+        "RMSE": 0.6922186552431729,
+        "exact_count_n": 124,
+        "exact_count_fraction": 0.8611111111111112,
+        "gt_nonzero_n": 54
+      },
+      "in_roi_sum_per_image_metrics": {
+        "n": 36,
+        "gt_count_sum": 331,
+        "pred_count_sum": 346,
+        "absolute_error_sum": 23,
+        "signed_error_sum": 15,
+        "MAE": 0.6388888888888888,
+        "bias": 0.4166666666666667,
+        "RMSE": 1.4240006242195884,
+        "exact_count_n": 25,
+        "exact_count_fraction": 0.6944444444444444,
+        "gt_nonzero_n": 20
+      }
+    }
+  ],
+  "outside_roi": {
+    "ground_truth_boxes": 323,
+    "prediction_boxes": 340
+  },
+  "ground_truth_class_counts": {
+    "car": 1621,
+    "truck": 85,
+    "motorcycle": 8,
+    "bus": 22
+  },
+  "independent_assignment_check": "Frozen float64 ray casting and independent winding-number implementation agreed for every GT and predicted bottom-centre point",
+  "label_integrity": "All 197 label hashes and every saved GT normalized/pixel box checked against retained human-corrected labels",
+  "new_training": false,
+  "new_inference": false,
+  "filters_or_tracking_evaluated": false,
+  "new_annotations": false,
+  "protocol_sha256": "a2bd6b6b689938e379a7519a3f8c6ed8e38bdc91205552b0caf9e725fc04036a",
+  "script_sha256": "2bd1061cd15a02ce36672a84b612ef9a673b6fad3ebabb18939350aa657b0ecd"
+}

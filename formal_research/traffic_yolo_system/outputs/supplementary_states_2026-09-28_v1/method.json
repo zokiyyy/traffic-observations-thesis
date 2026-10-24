@@ -1,0 +1,43 @@
+{
+  "version": "supplementary-source-relative-states-v1",
+  "threshold_scope": "same supplementary source and same ROI, offline descriptive calibration",
+  "parameters": {
+    "window_seconds": 10,
+    "motion_history_min_seconds": 1.0,
+    "motion_history_max_seconds": 1.2,
+    "motion_min_coverage": 0.5,
+    "motion_min_vehicle_seconds": 5.0,
+    "density_quantiles": [
+      0.33,
+      0.67
+    ],
+    "motion_low_quantile": 0.25,
+    "motion_min_calibration_windows": 30,
+    "persistent_seconds": 30.0,
+    "quantile_method": "linear interpolation at (n-1)*q",
+    "weighted_median_method": "smallest ordered value whose cumulative duration reaches half the total",
+    "calibration_scope": "same-source offline development; not held-out evaluation or road capacity",
+    "motion_history_reset": "missing observation, different assigned zone, invalid frame or nonconsecutive frame index",
+    "motion_unit": "source-image pixels per second; not km/h"
+  },
+  "long_hold_threshold_seconds": 0.5,
+  "calibration_eligibility": "only complete 10 s windows with valid coverage and no >0.5 s held frame overlap",
+  "count_calibration": "all eligible count means including zeros; P33/P67 linear interpolation (n-1)*q; equal thresholds cannot separate nonzero count levels",
+  "motion_calibration": "P25 from eligible windows with available motion; at least 30 such windows per region",
+  "frozen_rule_semantics": "unchanged count/joint conditions and 30 s persistence; lack of motion resets joint streak, not valid high-count-only streak",
+  "conservative_display_semantics": "evidence_state unknown whenever window incomplete/held/missing, count thresholds indistinguishable, motion unavailable, or P25 unavailable; preserves separate pure-count hint",
+  "zero_observations": "relative_count_level=empty is only zero observed count; evidence_state unknown, never free flow",
+  "null_semantics": "unavailable absolute motion remains null; available absolute motion remains numeric even if P25 is null; motion_low_relative is null if absolute motion or P25 unavailable",
+  "confirmation_time": "window end in original source PTS; thresholds use the whole source, so this is retrospective replay timing, not prospective real-time availability",
+  "transfer_experiment_performed": false,
+  "no_cross_source_relative_label_comparison": true,
+  "evidence_state_values": [
+    "unknown",
+    "no_persistent_hint",
+    "high_count_hint",
+    "joint_hint"
+  ],
+  "high_count_persistent_count_only": "boolean condition high-count duration >=30 s; includes joint hints as a subset; do not add counts",
+  "frozen_state_hint": "state_hint is exact frozen classifier output and must not override evidence_state unknown in future UI",
+  "accuracy_evaluated": false
+}

@@ -1,0 +1,52 @@
+{
+  "status": "software_integration_checks_passed",
+  "real_inference_performed_by_this_check": false,
+  "main_test_media_opened": false,
+  "method_parameters_changed": false,
+  "commands": [
+    {
+      "command": "/Users/zoki/anaconda3/envs/traffic-yolo/bin/python -m unittest discover -s tests/full_video -p 'test*.py' -q",
+      "tests": 147,
+      "failures": 0,
+      "errors": 0,
+      "elapsed_seconds": 1.881,
+      "exit_code": 0
+    },
+    {
+      "command": "/Users/zoki/anaconda3/envs/traffic-yolo/bin/python -m unittest discover -s tests -p 'test_vehicle_containment.py' -q",
+      "tests": 20,
+      "failures": 0,
+      "errors": 0,
+      "elapsed_seconds": 0.001,
+      "exit_code": 0
+    }
+  ],
+  "code_sha256": {
+    "src/full_video/video.py": "0a8d2e549b9b85efdcc7d6c9ae7a58bddf81f6f908c76b242b0e6ac7559d3db8",
+    "src/full_video/configuration.py": "47bdb564b22150aeb91306cc45ae06bfcef034ba1c06af53d123caf2adfdf2d4",
+    "src/full_video/cache.py": "4b3d2f0596bc55629a1af832578e19661ce581475868ae51e37d6aad4f861df6",
+    "tests/full_video/test_v5_integration.py": "7105e36440c5c7fbc46dc45cac09e0ef0f8fdae93ab63ba91ed77736c7295c05"
+  },
+  "new_v5_tests": 12,
+  "verified_behaviour": [
+    "Every selected source frame is passed first to 640 and then to 1280 using identical detector settings except image size",
+    "Decoded BGR uint8 pixel SHA256 is recorded before inference",
+    "Shared frozen background confirmation, cross-class suppression, containment suppression and fresh ByteTrack are applied in that order",
+    "Original 640 detection indices are preserved through background filtering, both suppression stages and tracker output",
+    "Raw 1280 detections, confirmation candidates, retained and removed indices, containment ambiguities and final tracker inputs remain in each frame record",
+    "Policy source, source SHA256, camera, dimensions and model SHA256 must match",
+    "Changed or missing policy files, unsupported modes and incomplete second-resolution inference fail closed",
+    "Policy files and vehicle_containment.py are included in run provenance fingerprints",
+    "Historical caches cannot silently discard containment or claim a rule not present in their stored records",
+    "Existing audited CFR/PTS, bounded tracking state, streaming outputs and Main Test exclusion regression tests passed"
+  ],
+  "limits": [
+    "Software tests are synthetic adapter and provenance checks, not detection or traffic-count accuracy measurements",
+    "Real same-frame parity and the one-hour run are separate required checks"
+  ],
+  "local_render_runtime": {
+    "python": "/Users/zoki/anaconda3/envs/traffic-yolo/bin/python",
+    "pyav_available": false,
+    "environment_changed": false
+  }
+}

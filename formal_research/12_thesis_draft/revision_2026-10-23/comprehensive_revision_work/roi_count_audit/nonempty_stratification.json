@@ -1,0 +1,190 @@
+{
+  "Validation": {
+    "GT_nonzero": {
+      "overall": {
+        "n": 423,
+        "MAE": 0.41371158392434987,
+        "bias": 0.09219858156028368,
+        "RMSE": 0.8845936412644422,
+        "abs_error_sum": 175
+      },
+      "by_camera": {
+        "Bellevue_116th_NE12th": {
+          "n": 40,
+          "MAE": 0.475,
+          "bias": 0.125,
+          "RMSE": 0.9354143466934853,
+          "abs_error_sum": 19
+        },
+        "Bellevue_150th_Eastgate": {
+          "n": 109,
+          "MAE": 0.41284403669724773,
+          "bias": -0.08256880733944955,
+          "RMSE": 0.9236942184372011,
+          "abs_error_sum": 45
+        },
+        "Bellevue_150th_Newport": {
+          "n": 117,
+          "MAE": 0.38461538461538464,
+          "bias": 0.1794871794871795,
+          "RMSE": 0.8320502943378437,
+          "abs_error_sum": 45
+        },
+        "Bellevue_150th_SE38th": {
+          "n": 103,
+          "MAE": 0.32038834951456313,
+          "bias": 0.06796116504854369,
+          "RMSE": 0.7173305422161506,
+          "abs_error_sum": 33
+        },
+        "Bellevue_Bellevue_NE8th": {
+          "n": 54,
+          "MAE": 0.6111111111111112,
+          "bias": 0.2777777777777778,
+          "RMSE": 1.130388330520878,
+          "abs_error_sum": 33
+        }
+      }
+    },
+    "GT_zero": {
+      "overall": {
+        "n": 442,
+        "MAE": 0.01809954751131222,
+        "bias": 0.01809954751131222,
+        "RMSE": 0.1345345587992625,
+        "abs_error_sum": 8
+      },
+      "by_camera": {
+        "Bellevue_116th_NE12th": {
+          "n": 165,
+          "MAE": 0.0,
+          "bias": 0.0,
+          "RMSE": 0.0,
+          "abs_error_sum": 0
+        },
+        "Bellevue_150th_Eastgate": {
+          "n": 71,
+          "MAE": 0.014084507042253521,
+          "bias": 0.014084507042253521,
+          "RMSE": 0.11867816581938534,
+          "abs_error_sum": 1
+        },
+        "Bellevue_150th_Newport": {
+          "n": 27,
+          "MAE": 0.18518518518518517,
+          "bias": 0.18518518518518517,
+          "RMSE": 0.4303314829119352,
+          "abs_error_sum": 5
+        },
+        "Bellevue_150th_SE38th": {
+          "n": 89,
+          "MAE": 0.02247191011235955,
+          "bias": 0.02247191011235955,
+          "RMSE": 0.14990633779917228,
+          "abs_error_sum": 2
+        },
+        "Bellevue_Bellevue_NE8th": {
+          "n": 90,
+          "MAE": 0.0,
+          "bias": 0.0,
+          "RMSE": 0.0,
+          "abs_error_sum": 0
+        }
+      }
+    }
+  },
+  "Main Test": {
+    "GT_nonzero": {
+      "overall": {
+        "n": 452,
+        "MAE": 0.3938053097345133,
+        "bias": -0.061946902654867256,
+        "RMSE": 0.8387728077428652,
+        "abs_error_sum": 178
+      },
+      "by_camera": {
+        "Bellevue_116th_NE12th": {
+          "n": 78,
+          "MAE": 0.4358974358974359,
+          "bias": -0.10256410256410256,
+          "RMSE": 0.8770580193070292,
+          "abs_error_sum": 34
+        },
+        "Bellevue_150th_Eastgate": {
+          "n": 66,
+          "MAE": 0.2878787878787879,
+          "bias": -0.07575757575757576,
+          "RMSE": 0.6853444168423419,
+          "abs_error_sum": 19
+        },
+        "Bellevue_150th_Newport": {
+          "n": 78,
+          "MAE": 0.41025641025641024,
+          "bias": -0.28205128205128205,
+          "RMSE": 0.7510676161988108,
+          "abs_error_sum": 32
+        },
+        "Bellevue_150th_SE38th": {
+          "n": 125,
+          "MAE": 0.464,
+          "bias": 0.032,
+          "RMSE": 1.0353743284435828,
+          "abs_error_sum": 58
+        },
+        "Bellevue_Bellevue_NE8th": {
+          "n": 105,
+          "MAE": 0.3333333333333333,
+          "bias": 0.02857142857142857,
+          "RMSE": 0.6831300510639732,
+          "abs_error_sum": 35
+        }
+      }
+    },
+    "GT_zero": {
+      "overall": {
+        "n": 344,
+        "MAE": 0.011627906976744186,
+        "bias": 0.011627906976744186,
+        "RMSE": 0.13206763594884358,
+        "abs_error_sum": 4
+      },
+      "by_camera": {
+        "Bellevue_116th_NE12th": {
+          "n": 102,
+          "MAE": 0.029411764705882353,
+          "bias": 0.029411764705882353,
+          "RMSE": 0.22140372138502382,
+          "abs_error_sum": 3
+        },
+        "Bellevue_150th_Eastgate": {
+          "n": 54,
+          "MAE": 0.018518518518518517,
+          "bias": 0.018518518518518517,
+          "RMSE": 0.13608276348795434,
+          "abs_error_sum": 1
+        },
+        "Bellevue_150th_Newport": {
+          "n": 66,
+          "MAE": 0.0,
+          "bias": 0.0,
+          "RMSE": 0.0,
+          "abs_error_sum": 0
+        },
+        "Bellevue_150th_SE38th": {
+          "n": 35,
+          "MAE": 0.0,
+          "bias": 0.0,
+          "RMSE": 0.0,
+          "abs_error_sum": 0
+        },
+        "Bellevue_Bellevue_NE8th": {
+          "n": 87,
+          "MAE": 0.0,
+          "bias": 0.0,
+          "RMSE": 0.0,
+          "abs_error_sum": 0
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "status": "passed",
+  "validation_unit_tests": 9,
+  "presentation_unit_tests": 6,
+  "total_tests": 15,
+  "actual_new_media_inference": false,
+  "note": "r2 fixed-source binding adapted; parser/QC/render tests passed. Actual native/short/full checks remain server requirements.",
+  "files": [
+    {
+      "path": "formal_research/traffic_yolo_system/outputs/five_intersections_2026-09-27_r2/validation/audit_selected_output.py",
+      "sha256": "ac1fd92a3f1d6251bfe3bab393ebc905c91e1574aa29a8e6b950bbda94e34c45"
+    },
+    {
+      "path": "formal_research/traffic_yolo_system/outputs/five_intersections_2026-09-27_r2/validation/prepare_selected_time_audit.py",
+      "sha256": "563f79ef49e96bbd4987b1e92c530af6742a5c01506501a0bfb052a51f84b0bc"
+    },
+    {
+      "path": "formal_research/traffic_yolo_system/outputs/five_intersections_2026-09-27_r2/validation/selection_binding.py",
+      "sha256": "63564e21cb43a3b7aab0ff6eb040b09474d6c6b9f33797bdc0b2166dfd6ff8ee"
+    },
+    {
+      "path": "formal_research/traffic_yolo_system/outputs/five_intersections_2026-09-27_r2/validation/test_selected_adapters.py",
+      "sha256": "3e9dba406eae0e38b832020456c3b7f1f9bf9b5ea3fc2d86a9259764de041240"
+    },
+    {
+      "path": "formal_research/traffic_yolo_system/outputs/five_intersections_2026-09-27_r2/presentation/render_selected_pts.py",
+      "sha256": "089cc3654d52423a405a959cad065f8dd589be3be9a274591a2da6930baccc72"
+    },
+    {
+      "path": "formal_research/traffic_yolo_system/outputs/five_intersections_2026-09-27_r2/presentation/smoke_generated_pts.py",
+      "sha256": "513f92829359b8e630e1a07274272e1854acdf8af3b2c1f5ed10648f65101150"
+    },
+    {
+      "path": "formal_research/traffic_yolo_system/outputs/five_intersections_2026-09-27_r2/presentation/test_render_selected_pts.py",
+      "sha256": "9cb447d14955be4534d5fabb304a1e344cd6edd97b2b684c65b47ff69a347245"
+    }
+  ]
+}

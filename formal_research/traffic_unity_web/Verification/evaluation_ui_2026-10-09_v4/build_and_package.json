@@ -1,0 +1,20 @@
+{
+  "version": "2026.10.09.4",
+  "mac_build": "UTC: 2026-10-09T04:30:08.2344240Z\nResult: Succeeded\nErrors: 0\nWarnings: 1\nOutput: /Users/zoki/Desktop/traffic_projects/formal_research/traffic_unity_demo/Builds/Evaluation_2026-10-09_v4/TrafficObservationsEvaluation.app\n",
+  "web_build": "UTC: 2026-10-09T04:30:23.8576230Z\nResult: Succeeded\nErrors: 0\nWarnings: 1\nOutput: /Users/zoki/Desktop/traffic_projects/formal_research/traffic_unity_web/Builds/Evaluation_2026-10-09_v4/Web\n",
+  "zip_path": "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_unity_web/Builds/Evaluation_2026-10-09_v4/TrafficObservationsEvaluation_UnityPlay.zip",
+  "zip_bytes": 38531118,
+  "zip_sha256": "5df3443a12c1a30d25e57902d5221490ebb39d08922e89980300919a02a8423a",
+  "recording_entries": 10,
+  "analysis_files_unchanged": 35,
+  "common_source_sha256": {
+    "Assets/TrafficDemo/Resources/TrafficEvaluation.json": "ec820f74136b8979bf8a1e0a76d2c8daa9b345bee25c8c5e05a6ff3ecd9c6a0a",
+    "Assets/TrafficDemo/Editor/TrafficDemoEvaluationBuild.cs": "70c04ebad2cf51eeacf73d2fe30f2924a4731c7f55e0efaf6813095e6154e0c7",
+    "Assets/TrafficDemo/Runtime/TrafficReplayEvaluation.cs": "e08dd176023c3e76d4d95c6b6d3c7bd4b1af3f8427103af3c232704650abc319"
+  },
+  "system_check_summary_added": false,
+  "online_updated": true,
+  "publication_status": "Updated existing Unity Play game; original URL preserved. User selected prepared ZIP in native chooser; assistant saved Update and checked published pages.",
+  "published_url": "https://play.unity.com/en/games/9c5f58ce-768e-4850-9f1e-20947121b19f/traffic-observations-10",
+  "published_verified_at": "2026-10-09T15:48:07.863641+11:00"
+}

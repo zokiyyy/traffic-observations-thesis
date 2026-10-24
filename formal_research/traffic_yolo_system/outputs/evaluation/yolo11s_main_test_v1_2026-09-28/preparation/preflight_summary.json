@@ -1,0 +1,26 @@
+{
+  "created_at_utc": "2026-09-28T06:55:34.880977+00:00",
+  "split": "test",
+  "image_count": 184,
+  "class_counts": [
+    1946,
+    4,
+    13,
+    89
+  ],
+  "empty_images": 23,
+  "source_counts": {
+    "Train": 81,
+    "Validation": 17,
+    "Main Test": 17
+  },
+  "source_video_overlap": 0,
+  "trainval_image_hash_overlap": 0,
+  "assembly_manifest_sha256": "719615c28ff9b08d5882485dbd580b375fe55766f575d708f0033e068dfc0b0a",
+  "canonical_manifest_sha256": "1bed24655a6fcc29fbf8430dbaa123a597e5a7a6ac009a5a3d783e0eb436dc08",
+  "model_sha256": "07e2280eda613c5d633196729f8716e9715000430171f49f6341afe573a2f334",
+  "config_sha256": "6eb49d6d85d715834615c501337940e9bc9e1ca67f09d0346e8f8916a6f9a80e",
+  "dataset_manifest_sha256": "3ecbf8799274183ee46674298ea0cb968470d998b487106a83934e752660b12c",
+  "runtime_chart_font": "DejaVuSans copied to isolated Arial.ttf cache, no font download",
+  "pre_inference_revision": "Added source inventories and nested evaluator schema; no model evaluation has run."
+}

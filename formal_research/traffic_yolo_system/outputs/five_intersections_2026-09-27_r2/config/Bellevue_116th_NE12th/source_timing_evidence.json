@@ -1,0 +1,55 @@
+{
+  "camera_id": "Bellevue_116th_NE12th",
+  "source_id": "Bellevue_116th_NE12th__2017-09-10_23-08-29.mp4",
+  "source_sha256": "785fc1ed24a6a2aff94601b79474c88a63660a751a586697b6bfd9120fd371be",
+  "split": "Validation",
+  "local_full_sequential_decoded_evidence": {
+    "source_id": "Bellevue_116th_NE12th__2017-09-10_23-08-29.mp4",
+    "source_path": "/Users/zoki/Desktop/traffic_projects/videos/original/Bellevue_116th_NE12th/Bellevue_116th_NE12th__2017-09-10_23-08-29.mp4",
+    "source_sha256": "785fc1ed24a6a2aff94601b79474c88a63660a751a586697b6bfd9120fd371be",
+    "source_bytes": 708631365,
+    "split": "Validation",
+    "lighting": "Night",
+    "selection_basis": "earliest >=3500s Night Validation metadata candidate; no inference used",
+    "command": [
+      "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/tools/full_video/ffprobe_7_1_1_arm64/ffprobe",
+      "-v",
+      "error",
+      "-select_streams",
+      "v:0",
+      "-show_frames",
+      "-show_entries",
+      "frame=pts,duration,pkt_duration,width,height,decode_error_flags",
+      "-of",
+      "json",
+      "/Users/zoki/Desktop/traffic_projects/videos/original/Bellevue_116th_NE12th/Bellevue_116th_NE12th__2017-09-10_23-08-29.mp4"
+    ],
+    "ffprobe_version": "ffprobe version 7.1.1 Copyright (c) 2007-2025 the FFmpeg developers",
+    "elapsed_seconds": 96.37158366601216,
+    "returncode": 0,
+    "stderr": "",
+    "stderr_empty": true,
+    "decoded_frame_count": 106460,
+    "dimensions": [
+      [
+        1280,
+        720
+      ]
+    ],
+    "first_pts_ticks": 0,
+    "last_pts_ticks": 323997879,
+    "source_end_seconds_exclusive": 3600.0097666666666,
+    "max_frame_duration_seconds": 16.9004,
+    "non_monotonic_pts_count": 0,
+    "pts_gap_over_0_5_seconds_count": 13,
+    "reported_error_flag_frames": [],
+    "passes_local_no_error_sequential_decode": true,
+    "limitations": [
+      "Local FFprobe7.1.1 evidence; actual native server decoder audit still required.",
+      "No model inference, count ground truth, or change to frozen selection/config."
+    ]
+  },
+  "declared_max_frame_duration_seconds": 17.0,
+  "duration_limit_basis": "Predeclared17.0s exceeds actual original decoded frame max16.9004s; no timing alteration. Server native decoder must independently confirm.",
+  "original_hold_warning": "One frame held for16.9004s is not16.9004s of newly observed traffic; preserve held-frame durations and unique observation counts."
+}

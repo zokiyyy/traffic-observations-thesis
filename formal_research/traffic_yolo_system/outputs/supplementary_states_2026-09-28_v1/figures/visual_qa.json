@@ -1,0 +1,131 @@
+{
+  "schema": "supplementary-state-figure-qa-v1",
+  "figure_count_png": 10,
+  "figure_count_pdf": 10,
+  "all_png_figures_ai_visually_reviewed": true,
+  "visual_findings": "Titles, source identifiers, legends, axis units and explanatory notes are readable without overlap after layout repair. Main evidence unknown and separate count-only lanes retained. No manual traffic ground truth claimed.",
+  "all_input_and_output_hashes_match": true,
+  "checks": [
+    {
+      "path": "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/supplementary_states_2026-09-28_v1/Newport/states_10s.json",
+      "sha256_matches": true
+    },
+    {
+      "path": "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/supplementary_states_2026-09-28_v1/Newport/rules_and_thresholds.json",
+      "sha256_matches": true
+    },
+    {
+      "path": "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/supplementary_states_2026-09-28_v1/NE12th/states_10s.json",
+      "sha256_matches": true
+    },
+    {
+      "path": "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/supplementary_states_2026-09-28_v1/NE12th/rules_and_thresholds.json",
+      "sha256_matches": true
+    },
+    {
+      "path": "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/supplementary_states_2026-09-28_v1/Eastgate/states_10s.json",
+      "sha256_matches": true
+    },
+    {
+      "path": "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/supplementary_states_2026-09-28_v1/Eastgate/rules_and_thresholds.json",
+      "sha256_matches": true
+    },
+    {
+      "path": "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/supplementary_states_2026-09-28_v1/SE38th/states_10s.json",
+      "sha256_matches": true
+    },
+    {
+      "path": "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/supplementary_states_2026-09-28_v1/SE38th/rules_and_thresholds.json",
+      "sha256_matches": true
+    },
+    {
+      "path": "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/supplementary_states_2026-09-28_v1/NE8th/states_10s.json",
+      "sha256_matches": true
+    },
+    {
+      "path": "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/supplementary_states_2026-09-28_v1/NE8th/rules_and_thresholds.json",
+      "sha256_matches": true
+    },
+    {
+      "path": "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/supplementary_states_2026-09-28_v1/figures/Newport_counts_motion.png",
+      "sha256_matches": true
+    },
+    {
+      "path": "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/supplementary_states_2026-09-28_v1/figures/Newport_counts_motion.pdf",
+      "sha256_matches": true
+    },
+    {
+      "path": "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/supplementary_states_2026-09-28_v1/figures/Newport_state_timeline.png",
+      "sha256_matches": true
+    },
+    {
+      "path": "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/supplementary_states_2026-09-28_v1/figures/Newport_state_timeline.pdf",
+      "sha256_matches": true
+    },
+    {
+      "path": "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/supplementary_states_2026-09-28_v1/figures/NE12th_counts_motion.png",
+      "sha256_matches": true
+    },
+    {
+      "path": "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/supplementary_states_2026-09-28_v1/figures/NE12th_counts_motion.pdf",
+      "sha256_matches": true
+    },
+    {
+      "path": "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/supplementary_states_2026-09-28_v1/figures/NE12th_state_timeline.png",
+      "sha256_matches": true
+    },
+    {
+      "path": "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/supplementary_states_2026-09-28_v1/figures/NE12th_state_timeline.pdf",
+      "sha256_matches": true
+    },
+    {
+      "path": "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/supplementary_states_2026-09-28_v1/figures/Eastgate_counts_motion.png",
+      "sha256_matches": true
+    },
+    {
+      "path": "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/supplementary_states_2026-09-28_v1/figures/Eastgate_counts_motion.pdf",
+      "sha256_matches": true
+    },
+    {
+      "path": "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/supplementary_states_2026-09-28_v1/figures/Eastgate_state_timeline.png",
+      "sha256_matches": true
+    },
+    {
+      "path": "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/supplementary_states_2026-09-28_v1/figures/Eastgate_state_timeline.pdf",
+      "sha256_matches": true
+    },
+    {
+      "path": "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/supplementary_states_2026-09-28_v1/figures/SE38th_counts_motion.png",
+      "sha256_matches": true
+    },
+    {
+      "path": "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/supplementary_states_2026-09-28_v1/figures/SE38th_counts_motion.pdf",
+      "sha256_matches": true
+    },
+    {
+      "path": "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/supplementary_states_2026-09-28_v1/figures/SE38th_state_timeline.png",
+      "sha256_matches": true
+    },
+    {
+      "path": "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/supplementary_states_2026-09-28_v1/figures/SE38th_state_timeline.pdf",
+      "sha256_matches": true
+    },
+    {
+      "path": "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/supplementary_states_2026-09-28_v1/figures/NE8th_counts_motion.png",
+      "sha256_matches": true
+    },
+    {
+      "path": "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/supplementary_states_2026-09-28_v1/figures/NE8th_counts_motion.pdf",
+      "sha256_matches": true
+    },
+    {
+      "path": "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/supplementary_states_2026-09-28_v1/figures/NE8th_state_timeline.png",
+      "sha256_matches": true
+    },
+    {
+      "path": "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/supplementary_states_2026-09-28_v1/figures/NE8th_state_timeline.pdf",
+      "sha256_matches": true
+    }
+  ],
+  "plotting_scope": "Read existing state/threshold data only; no states recomputed."
+}

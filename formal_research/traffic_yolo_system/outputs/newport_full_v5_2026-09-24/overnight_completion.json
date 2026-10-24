@@ -1,0 +1,18 @@
+{
+  "status": "completed",
+  "source_id": "Bellevue_150th_Newport__2017-09-11_08-08-31.mp4",
+  "full_frames": 107932,
+  "completed_at": "2026-09-24T20:10:43.845054+00:00",
+  "parity_attempt": "/home/ubuntu/traffic_projects/full_v5_20260924/formal_research/traffic_yolo_system/outputs/newport_full_v5_2026-09-24/parity_runs/Bellevue_150th_Newport__2017-09-11_08-08-31.mp4/93bf9c82b9e9b9f32cd7805bb2d8577c337c6083fa9d6a4098b5adae44e2b605/attempt-000001",
+  "parity_passed": true,
+  "full_attempt": "/home/ubuntu/traffic_projects/full_v5_20260924/formal_research/traffic_yolo_system/outputs/newport_full_v5_2026-09-24/full_runs/Bellevue_150th_Newport__2017-09-11_08-08-31.mp4/f979f0ea2ee5e16055e8b16108f71f776745083cace40096860d5f33684e8827/attempt-000001",
+  "full_output_audit_passed": true,
+  "render_verified": true,
+  "summary_archive": "/home/ubuntu/traffic_projects/full_v5_20260924/newport_full_v5_summary.tar.gz",
+  "summary_archive_sha256": "ca13484578d1696d838675f114f4f7b88d9090ef1159f95dcbed135cad6381de",
+  "full_data_archive": "/home/ubuntu/traffic_projects/full_v5_20260924/newport_full_v5_data.tar.gz",
+  "full_data_archive_sha256": "d8ac1cedc80688f4427d7035ae7716f745239dfc6d84c2fe6d06c875e2578b66",
+  "rendered_video": "/home/ubuntu/traffic_projects/full_v5_20260924/formal_research/traffic_yolo_system/outputs/newport_full_v5_2026-09-24/presentation/complete_validation_v5.mp4",
+  "rendered_video_sha256": "ed38390a0b2c3f55146755b2f80767bcde33685f9a6f91b502b9422ee446acab",
+  "report": "/home/ubuntu/traffic_projects/full_v5_20260924/formal_research/traffic_yolo_system/outputs/newport_full_v5_2026-09-24/一小时处理结果.md"
+}

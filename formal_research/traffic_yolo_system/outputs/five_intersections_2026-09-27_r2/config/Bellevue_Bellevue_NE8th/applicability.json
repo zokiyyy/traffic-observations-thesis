@@ -1,0 +1,448 @@
+{
+  "camera_id": "Bellevue_Bellevue_NE8th",
+  "source_id": "Bellevue_Bellevue_NE8th__2017-09-11_12-08-31.mp4",
+  "source_split": "Validation",
+  "source_sha256": "15c9b8478b0897f935ecd0d05d5e5407f771e05c7d2f70801180ff24a4d56a60",
+  "split_manifest_sha256": "8e1b8806f5a1f2f8280b71169d45ba5837bc710db26f0550610124fcc4f1f3cd",
+  "selection_sha256": "602bf905f1fd60edeb31aa482b4e48aed80057bd1b93cd5f0a68961c1e18f6c5",
+  "layout_sha256": "f392319397b2718736ac2b73fe7f0e927ba368a36ab729b48a0fe6d5f89bd97a",
+  "author": "AI assistant; no new human annotations",
+  "visual_review": "抽样中两侧建筑与道路保持同一总体构图，楼宇阴影随时间改变。初始外围ORB末点提示由静态建筑SIFT复核补充，不能用阴影边界当作道路分界。",
+  "sample_count": 13,
+  "unique_original_pts_count": 13,
+  "sample_frames": [
+    {
+      "source_seconds": 0.0,
+      "original_pts_ticks": 0,
+      "path": "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/five_intersections_2026-09-27_r2/source_review/Bellevue_Bellevue_NE8th/original_sample_00.png",
+      "sha256": "91ab8a6a61a20a614ad3974abbb6172d472a244f19d4b89f6a2286f6e2921065"
+    },
+    {
+      "source_seconds": 299.93643333333335,
+      "original_pts_ticks": 26994279,
+      "path": "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/five_intersections_2026-09-27_r2/source_review/Bellevue_Bellevue_NE8th/original_sample_01.png",
+      "sha256": "b41b41943695c31a76e2b68353937f936854125fd6e82737e8cf71d32cdccaab"
+    },
+    {
+      "source_seconds": 599.8395333333333,
+      "original_pts_ticks": 53985558,
+      "path": "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/five_intersections_2026-09-27_r2/source_review/Bellevue_Bellevue_NE8th/original_sample_02.png",
+      "sha256": "2f497f571d376d87982ce1cd784118f44f837db637992cc37edcf679ac09f2ff"
+    },
+    {
+      "source_seconds": 899.7426222222222,
+      "original_pts_ticks": 80976836,
+      "path": "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/five_intersections_2026-09-27_r2/source_review/Bellevue_Bellevue_NE8th/original_sample_03.png",
+      "sha256": "112f7ebda283d682ec5a32a6fcefc909bde40a552c5076f168ad80e5e8285ce2"
+    },
+    {
+      "source_seconds": 1199.679111111111,
+      "original_pts_ticks": 107971120,
+      "path": "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/five_intersections_2026-09-27_r2/source_review/Bellevue_Bellevue_NE8th/original_sample_04.png",
+      "sha256": "2ed0b2d090893d90fa6c2bd47a1756a1623c2c845a284fcaf33d88f2dab8d6f5"
+    },
+    {
+      "source_seconds": 1499.5822888888888,
+      "original_pts_ticks": 134962406,
+      "path": "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/five_intersections_2026-09-27_r2/source_review/Bellevue_Bellevue_NE8th/original_sample_05.png",
+      "sha256": "893413ebf79e615b69b5b43c6b8aba84dd52b43d32bd24da2a33eafaf831e1ff"
+    },
+    {
+      "source_seconds": 1799.5175333333334,
+      "original_pts_ticks": 161956578,
+      "path": "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/five_intersections_2026-09-27_r2/source_review/Bellevue_Bellevue_NE8th/original_sample_06.png",
+      "sha256": "92a1634c9eb2fe6b7ea455c2f32439fed353c09fc396367810f2a2cdb2c28ea8"
+    },
+    {
+      "source_seconds": 2099.4207,
+      "original_pts_ticks": 188947863,
+      "path": "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/five_intersections_2026-09-27_r2/source_review/Bellevue_Bellevue_NE8th/original_sample_07.png",
+      "sha256": "2ce7950a7c1f6203ea0fb69c2bc75c55a1d3174317f91213a486d56d981f5660"
+    },
+    {
+      "source_seconds": 2399.323888888889,
+      "original_pts_ticks": 215939150,
+      "path": "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/five_intersections_2026-09-27_r2/source_review/Bellevue_Bellevue_NE8th/original_sample_08.png",
+      "sha256": "10c1320075e51650cc089029635efd8bf83cc79563a95018beccb9da8692332d"
+    },
+    {
+      "source_seconds": 2699.2591666666667,
+      "original_pts_ticks": 242933325,
+      "path": "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/five_intersections_2026-09-27_r2/source_review/Bellevue_Bellevue_NE8th/original_sample_09.png",
+      "sha256": "55dd03ff4345006c94313192bedf4a0281c2103c59958d6a0b586ab7b4f3d0b6"
+    },
+    {
+      "source_seconds": 2999.1624,
+      "original_pts_ticks": 269924616,
+      "path": "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/five_intersections_2026-09-27_r2/source_review/Bellevue_Bellevue_NE8th/original_sample_10.png",
+      "sha256": "b951c90c9fd2656360b4abbce31f8b687abf274a4e62dc5e55be46e66632965d"
+    },
+    {
+      "source_seconds": 3299.066077777778,
+      "original_pts_ticks": 296915947,
+      "path": "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/five_intersections_2026-09-27_r2/source_review/Bellevue_Bellevue_NE8th/original_sample_11.png",
+      "sha256": "435817b0775c032d0a0bd7e652a5b93f82456ed5418487c4972f433f5dec001a"
+    },
+    {
+      "source_seconds": 3599.0026555555555,
+      "original_pts_ticks": 323910239,
+      "path": "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/five_intersections_2026-09-27_r2/source_review/Bellevue_Bellevue_NE8th/original_sample_12.png",
+      "sha256": "47158e54fa755516ae4d76258d37a0cc6f7f1413e4cbe2024fe4b8e708b61700"
+    }
+  ],
+  "initial_alignment_screen": {
+    "evaluated": 12,
+    "pass": 11,
+    "flagged": 1,
+    "maximum_displacement_pixels": 8.793100357055664,
+    "minimum_inliers": 48
+  },
+  "static_structure_followup": {
+    "camera_id": "Bellevue_Bellevue_NE8th",
+    "source_id": "Bellevue_Bellevue_NE8th__2017-09-11_12-08-31.mp4",
+    "split": "Validation",
+    "source_sha256": "15c9b8478b0897f935ecd0d05d5e5407f771e05c7d2f70801180ff24a4d56a60",
+    "purpose": "Follow-up to preserved peripheral ORB flags; uses visually identified static overpass/building structures, no detector results.",
+    "mask_polygons_xy": [
+      [
+        [
+          2,
+          2
+        ],
+        [
+          459,
+          2
+        ],
+        [
+          469,
+          170
+        ],
+        [
+          301,
+          233
+        ],
+        [
+          1,
+          297
+        ]
+      ],
+      [
+        [
+          689,
+          2
+        ],
+        [
+          1277,
+          2
+        ],
+        [
+          1277,
+          171
+        ],
+        [
+          1079,
+          168
+        ],
+        [
+          744,
+          102
+        ]
+      ]
+    ],
+    "method": "SIFT static-structure matches; RANSAC partial affine",
+    "initial_orb_flags_retained": true,
+    "samples": [
+      {
+        "sample_index": 1,
+        "source_seconds": 299.93643333333335,
+        "inliers": 706,
+        "matches": 749,
+        "affine_matrix": [
+          [
+            0.9999130430435134,
+            -0.00012083754598304958,
+            0.12002095091228246
+          ],
+          [
+            0.00012083754598304958,
+            0.9999130430435134,
+            0.04552234616401605
+          ]
+        ],
+        "maximum_grid_displacement_pixels": 0.17881403229148388,
+        "median_reprojection_error_pixels": 0.18262613356666024,
+        "screen_status": "within_3px"
+      },
+      {
+        "sample_index": 2,
+        "source_seconds": 599.8395333333333,
+        "inliers": 646,
+        "matches": 692,
+        "affine_matrix": [
+          [
+            0.9998097790058552,
+            -9.692234170375232e-05,
+            0.08243647641519543
+          ],
+          [
+            9.692234170375232e-05,
+            0.9998097790058552,
+            0.22804906113753923
+          ]
+        ],
+        "maximum_grid_displacement_pixels": 0.35626388222635497,
+        "median_reprojection_error_pixels": 0.21008814827711442,
+        "screen_status": "within_3px"
+      },
+      {
+        "sample_index": 3,
+        "source_seconds": 899.7426222222222,
+        "inliers": 567,
+        "matches": 616,
+        "affine_matrix": [
+          [
+            0.9998914084190336,
+            -0.0001874401259035175,
+            0.13488159490086787
+          ],
+          [
+            0.0001874401259035175,
+            0.9998914084190336,
+            0.1501719924139056
+          ]
+        ],
+        "maximum_grid_displacement_pixels": 0.3583036479762784,
+        "median_reprojection_error_pixels": 0.20879244915323225,
+        "screen_status": "within_3px"
+      },
+      {
+        "sample_index": 4,
+        "source_seconds": 1199.679111111111,
+        "inliers": 484,
+        "matches": 533,
+        "affine_matrix": [
+          [
+            0.999916246877099,
+            -7.330997815210895e-05,
+            0.11044035817285293
+          ],
+          [
+            7.330997815210895e-05,
+            0.999916246877099,
+            0.2585553958549443
+          ]
+        ],
+        "maximum_grid_displacement_pixels": 0.3370899983759662,
+        "median_reprojection_error_pixels": 0.2461038742033793,
+        "screen_status": "within_3px"
+      },
+      {
+        "sample_index": 5,
+        "source_seconds": 1499.5822888888888,
+        "inliers": 369,
+        "matches": 406,
+        "affine_matrix": [
+          [
+            0.9998155088978208,
+            -2.232335117660246e-05,
+            0.139574723202867
+          ],
+          [
+            2.232335117660246e-05,
+            0.9998155088978208,
+            0.4474185397469654
+          ]
+        ],
+        "maximum_grid_displacement_pixels": 0.46585802850888824,
+        "median_reprojection_error_pixels": 0.25211353777474166,
+        "screen_status": "within_3px"
+      },
+      {
+        "sample_index": 6,
+        "source_seconds": 1799.5175333333334,
+        "inliers": 347,
+        "matches": 388,
+        "affine_matrix": [
+          [
+            0.9997107539561566,
+            -0.00014130564824076653,
+            0.19091118939881394
+          ],
+          [
+            0.00014130564824076653,
+            0.9997107539561566,
+            0.5186168621983307
+          ]
+        ],
+        "maximum_grid_displacement_pixels": 0.6779439990506749,
+        "median_reprojection_error_pixels": 0.301666530827483,
+        "screen_status": "within_3px"
+      },
+      {
+        "sample_index": 7,
+        "source_seconds": 2099.4207,
+        "inliers": 344,
+        "matches": 411,
+        "affine_matrix": [
+          [
+            0.9998319119582899,
+            0.0002893943796364978,
+            0.01574191836312534
+          ],
+          [
+            -0.0002893943796364978,
+            0.9998319119582899,
+            0.726782568149144
+          ]
+        ],
+        "maximum_grid_displacement_pixels": 0.6778051442477476,
+        "median_reprojection_error_pixels": 0.31189676403764127,
+        "screen_status": "within_3px"
+      },
+      {
+        "sample_index": 8,
+        "source_seconds": 2399.323888888889,
+        "inliers": 267,
+        "matches": 317,
+        "affine_matrix": [
+          [
+            0.9999184629269883,
+            0.0006033495010965579,
+            -0.03214136301321071
+          ],
+          [
+            -0.0006033495010965579,
+            0.9999184629269883,
+            0.9689061315696961
+          ]
+        ],
+        "maximum_grid_displacement_pixels": 0.908312770967215,
+        "median_reprojection_error_pixels": 0.2580296889356425,
+        "screen_status": "within_3px"
+      },
+      {
+        "sample_index": 9,
+        "source_seconds": 2699.2591666666667,
+        "inliers": 225,
+        "matches": 255,
+        "affine_matrix": [
+          [
+            0.9999866230575334,
+            0.0008684630847852944,
+            -0.09813084656423994
+          ],
+          [
+            -0.0008684630847852944,
+            0.9999866230575334,
+            1.0873044019355294
+          ]
+        ],
+        "maximum_grid_displacement_pixels": 1.07252020410312,
+        "median_reprojection_error_pixels": 0.2740778562838511,
+        "screen_status": "within_3px"
+      },
+      {
+        "sample_index": 10,
+        "source_seconds": 2999.1624,
+        "inliers": 160,
+        "matches": 193,
+        "affine_matrix": [
+          [
+            0.9998507177036093,
+            0.001123821966458572,
+            0.07399834318181672
+          ],
+          [
+            -0.001123821966458572,
+            0.9998507177036093,
+            1.306487493461202
+          ]
+        ],
+        "maximum_grid_displacement_pixels": 1.3226630759339297,
+        "median_reprojection_error_pixels": 0.2340303924324387,
+        "screen_status": "within_3px"
+      },
+      {
+        "sample_index": 11,
+        "source_seconds": 3299.066077777778,
+        "inliers": 174,
+        "matches": 217,
+        "affine_matrix": [
+          [
+            0.9998178103873446,
+            0.001182934921548945,
+            0.14618319956518705
+          ],
+          [
+            -0.001182934921548945,
+            0.9998178103873446,
+            1.192529288055553
+          ]
+        ],
+        "maximum_grid_displacement_pixels": 1.281823269383359,
+        "median_reprojection_error_pixels": 0.27359586500865574,
+        "screen_status": "within_3px"
+      },
+      {
+        "sample_index": 12,
+        "source_seconds": 3599.0026555555555,
+        "inliers": 142,
+        "matches": 187,
+        "affine_matrix": [
+          [
+            1.0000467941655278,
+            0.0012515692308762642,
+            -0.13612338451800493
+          ],
+          [
+            -0.0012515692308762642,
+            1.0000467941655278,
+            1.0677578060492086
+          ]
+        ],
+        "maximum_grid_displacement_pixels": 1.1589736464705593,
+        "median_reprojection_error_pixels": 0.25880706781732565,
+        "screen_status": "within_3px"
+      }
+    ],
+    "maximum_displacement_pixels": 1.3226630759339297,
+    "minimum_inliers": 142,
+    "limitations": [
+      "Post-screen diagnostic does not erase original flags.",
+      "Only sampled images; not proof of all-frame stability or correct object counts."
+    ]
+  },
+  "allowed_source_interval_seconds": [
+    0,
+    3600.0026666666668
+  ],
+  "original_scope_evidence": {
+    "sparse_review_sha256": "5f5316f51b8b4986149ca804afd18e1d1c96758a7f40172109aa7a378fefb217",
+    "tail_evidence_sha256": "15ee73f88ef45450695fee4b0c35501bd0aa2c39c744a6fd48f4dc6325a5eaf8"
+  },
+  "limitations": [
+    "Supports a source-bound development geometry trial, not proof of all-frame applicability or count accuracy.",
+    "Strong moving shadows and glare can change detector behavior while static geometry remains similar.",
+    "Near-camera occluded approach and unselected road margins remain outside these ROIs.",
+    "Counts describe model-estimated vehicles whose box bottom-centers fall inside the coloured selected-road ROIs; they are not all vehicles in the physical intersection. Full-frame raw detections are retained separately."
+  ],
+  "sparse_visual_review": {
+    "status": "passed_for_development",
+    "reviewers": [
+      "source_review_AI_agent",
+      "root_AI_agent_independent_review"
+    ],
+    "reviewed_artifacts": [
+      "roi_reference_overlay.png",
+      "roi_contact.jpg"
+    ],
+    "coverage": "First original frame and 13 original-PTS sampling targets; NE12th has 12 distinct sampled PTS.",
+    "decision": "Conservative selected-road geometry is acceptable for the authorized source-bound development trial.",
+    "not_claimed": [
+      "human ground-truth approval",
+      "all-frame stability",
+      "detection or count accuracy",
+      "complete physical intersection coverage"
+    ]
+  }
+}

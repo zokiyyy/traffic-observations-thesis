@@ -1,0 +1,276 @@
+{
+  "schema": "supplementary-state-figure-v1",
+  "state_markers_at": "window_end_s",
+  "threshold_scope": "same-source offline relative calibration",
+  "figures": [
+    {
+      "path": "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/supplementary_states_2026-09-28_v1/figures/Newport_counts_motion.png",
+      "sha256": "5a43edd96312855761ae67da4ce9e066a7154c066e49a43ba1b824958805c5d0",
+      "bytes": 588091
+    },
+    {
+      "path": "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/supplementary_states_2026-09-28_v1/figures/Newport_counts_motion.pdf",
+      "sha256": "8ae903246cf563d147eaf7c2bf6f957e7b336f8885c97e52dad060731bb65f49",
+      "bytes": 72086
+    },
+    {
+      "path": "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/supplementary_states_2026-09-28_v1/figures/Newport_state_timeline.png",
+      "sha256": "eaa7628bc532128539bcdd8912bdd08e9c548c7e2214b25bfc59932177eb9b86",
+      "bytes": 265569
+    },
+    {
+      "path": "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/supplementary_states_2026-09-28_v1/figures/Newport_state_timeline.pdf",
+      "sha256": "1841e391ab30b5694c8b5d72d3ee7231bb92f52981ef2c9ee30612b0fc8acd01",
+      "bytes": 40354
+    },
+    {
+      "path": "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/supplementary_states_2026-09-28_v1/figures/NE12th_counts_motion.png",
+      "sha256": "e3e6416d18b505ff99e0369b37e558f7d216eb944220d25ec68a6313c055dacf",
+      "bytes": 552559
+    },
+    {
+      "path": "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/supplementary_states_2026-09-28_v1/figures/NE12th_counts_motion.pdf",
+      "sha256": "aa11c8c634884116f1d2ed64fdc4860f302632bad727138badbadd03140aa4eb",
+      "bytes": 43227
+    },
+    {
+      "path": "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/supplementary_states_2026-09-28_v1/figures/NE12th_state_timeline.png",
+      "sha256": "a18aa8665b422f2f55f8178ff89d8083b0c1fcbb8819c5f626395f8584000b51",
+      "bytes": 287593
+    },
+    {
+      "path": "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/supplementary_states_2026-09-28_v1/figures/NE12th_state_timeline.pdf",
+      "sha256": "790347f4bb7448fb14065c43f0a7e6c24167a76e31ae8c5e5f9f5916b2f084d8",
+      "bytes": 35081
+    },
+    {
+      "path": "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/supplementary_states_2026-09-28_v1/figures/Eastgate_counts_motion.png",
+      "sha256": "3348ef099fd2ab98868166507e09454e6f622e1ff84d70369fb07bf3a681cef1",
+      "bytes": 707857
+    },
+    {
+      "path": "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/supplementary_states_2026-09-28_v1/figures/Eastgate_counts_motion.pdf",
+      "sha256": "38ad911689377cfb0498736a51a60b6854b9a6ebc030cf3f9edfcf9e786f7a3e",
+      "bytes": 75402
+    },
+    {
+      "path": "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/supplementary_states_2026-09-28_v1/figures/Eastgate_state_timeline.png",
+      "sha256": "7f74a2bfc6c3e2aa51c60d5e748c9eb7985c09acc05fe9bb1975a59183d190c5",
+      "bytes": 299500
+    },
+    {
+      "path": "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/supplementary_states_2026-09-28_v1/figures/Eastgate_state_timeline.pdf",
+      "sha256": "3209966af3bde1b5ee6b27011aa86780def1ea90c79f1c20ca7fd1cd62365b5e",
+      "bytes": 41609
+    },
+    {
+      "path": "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/supplementary_states_2026-09-28_v1/figures/SE38th_counts_motion.png",
+      "sha256": "ff1b6716657ed38b1b4c1b8b0798613cc271e22ec1438ec3c55f3507fb7b7407",
+      "bytes": 642056
+    },
+    {
+      "path": "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/supplementary_states_2026-09-28_v1/figures/SE38th_counts_motion.pdf",
+      "sha256": "a0c49e38991f4b729ef5ada762cbeb35617148230745f64813f914cb10d75019",
+      "bytes": 76308
+    },
+    {
+      "path": "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/supplementary_states_2026-09-28_v1/figures/SE38th_state_timeline.png",
+      "sha256": "ffcfe03ae0ab22e5b8425b33e6d1f969e23e58b8567237925a8fca9bec740270",
+      "bytes": 262933
+    },
+    {
+      "path": "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/supplementary_states_2026-09-28_v1/figures/SE38th_state_timeline.pdf",
+      "sha256": "7611c681f31d86e131d2ac80aadb0c8c90cb96cbba7995672b96cb9e1d6b4d76",
+      "bytes": 40941
+    },
+    {
+      "path": "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/supplementary_states_2026-09-28_v1/figures/NE8th_counts_motion.png",
+      "sha256": "a503680c5d16b5aac1735b79e72412dc20adce1e6e10a544032fb1a305e0f7bf",
+      "bytes": 396328
+    },
+    {
+      "path": "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/supplementary_states_2026-09-28_v1/figures/NE8th_counts_motion.pdf",
+      "sha256": "80cfcf39b83ff62cf072f072eb262d64c552bc10915ee2f2463544c9357a6410",
+      "bytes": 41591
+    },
+    {
+      "path": "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/supplementary_states_2026-09-28_v1/figures/NE8th_state_timeline.png",
+      "sha256": "9911383362d8986c08d9c90f4ae2de8d60bc9966b7d0fe151ca9f21f1510a008",
+      "bytes": 277346
+    },
+    {
+      "path": "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/supplementary_states_2026-09-28_v1/figures/NE8th_state_timeline.pdf",
+      "sha256": "5ae1efb0665404841cbf50ee3708214ef9c2b488d3aade12e6764e3471baecc8",
+      "bytes": 33465
+    }
+  ],
+  "cases": [
+    {
+      "case": "Newport",
+      "source": {
+        "id": "Bellevue_150th_Newport__2017-09-10_18-08-24.mp4",
+        "split": "Validation",
+        "sha256": "5d7eff08712d5750a018b4fa82be85754d47c777a07754d54b3d54cb2dd3c587",
+        "duration_s": 3600.030622222222,
+        "frame_count": 107977,
+        "width": 1280,
+        "height": 720,
+        "time_base": {
+          "num": 1,
+          "den": 90000
+        }
+      },
+      "zones": [
+        "road_left",
+        "road_top",
+        "road_right",
+        "junction_center"
+      ],
+      "windows": 361,
+      "schema_checks_passed": true
+    },
+    {
+      "case": "NE12th",
+      "source": {
+        "id": "Bellevue_116th_NE12th__2017-09-11_07-08-32.mp4",
+        "split": "Train",
+        "sha256": "4dde510ff91c2ec58e1cd06e27cbd923d8976c0156905a4625097653415eca4e",
+        "duration_s": 408.57685555555554,
+        "frame_count": 11824,
+        "width": 1280,
+        "height": 720,
+        "time_base": {
+          "num": 1,
+          "den": 90000
+        }
+      },
+      "zones": [
+        "road_left",
+        "road_top",
+        "road_right",
+        "road_bottom",
+        "junction_center"
+      ],
+      "windows": 41,
+      "schema_checks_passed": true
+    },
+    {
+      "case": "Eastgate",
+      "source": {
+        "id": "Bellevue_150th_Eastgate__2017-09-11_06-08-30.mp4",
+        "split": "Validation",
+        "sha256": "5c101e5e3cb6f64e2304f9666337b9b3e3f46330ce5300c474c73f6a94dd6647",
+        "duration_s": 3600.0039555555554,
+        "frame_count": 107863,
+        "width": 1280,
+        "height": 720,
+        "time_base": {
+          "num": 1,
+          "den": 90000
+        }
+      },
+      "zones": [
+        "road_left",
+        "road_upper_left",
+        "road_top",
+        "road_right",
+        "junction_center"
+      ],
+      "windows": 361,
+      "schema_checks_passed": true
+    },
+    {
+      "case": "SE38th",
+      "source": {
+        "id": "Bellevue_150th_SE38th__2017-09-10_19-08-25.mp4",
+        "split": "Validation",
+        "sha256": "e0e4d9d1e69c2f8b2ef356bdfb99c0e37baafb96db0645952bab4bc7b40e09c4",
+        "duration_s": 3600.0105,
+        "frame_count": 107851,
+        "width": 1280,
+        "height": 720,
+        "time_base": {
+          "num": 1,
+          "den": 90000
+        }
+      },
+      "zones": [
+        "road_left",
+        "road_top",
+        "road_right",
+        "junction_center"
+      ],
+      "windows": 361,
+      "schema_checks_passed": true
+    },
+    {
+      "case": "NE8th",
+      "source": {
+        "id": "Bellevue_Bellevue_NE8th__2017-09-11_02-08-29.mp4",
+        "split": "Validation",
+        "sha256": "f4492d61971979f21f7f09a5a90b0ed458ea7c4a9dd6fbe1ae30831c951fa5fb",
+        "duration_s": 3600.016977777778,
+        "frame_count": 107993,
+        "width": 1280,
+        "height": 720,
+        "time_base": {
+          "num": 1,
+          "den": 90000
+        }
+      },
+      "zones": [
+        "road_left",
+        "road_top",
+        "road_right",
+        "junction_center"
+      ],
+      "windows": 361,
+      "schema_checks_passed": true
+    }
+  ],
+  "inputs": [
+    {
+      "path": "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/supplementary_states_2026-09-28_v1/Newport/states_10s.json",
+      "sha256": "e43a1108cff23a889b5eaf016a24a52a90f31d223c6e852619336155dc0d0513"
+    },
+    {
+      "path": "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/supplementary_states_2026-09-28_v1/Newport/rules_and_thresholds.json",
+      "sha256": "781371d5ae4ccaa543baf07b2b10eba9637e617bda55ffb69349ca009e82197b"
+    },
+    {
+      "path": "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/supplementary_states_2026-09-28_v1/NE12th/states_10s.json",
+      "sha256": "10715ae23c63604b825948f45863cfb4c4383f5586ab09e8edfba83da2de260a"
+    },
+    {
+      "path": "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/supplementary_states_2026-09-28_v1/NE12th/rules_and_thresholds.json",
+      "sha256": "a748e99d2cfa0b12421b2f9059c1ae5bfe62aa25b8d2a36c4b656d56222893d0"
+    },
+    {
+      "path": "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/supplementary_states_2026-09-28_v1/Eastgate/states_10s.json",
+      "sha256": "13294db71c434eb94cbbb69ff0a6d6d17e38c1d4d4d73eeaeda3b029b3378d5f"
+    },
+    {
+      "path": "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/supplementary_states_2026-09-28_v1/Eastgate/rules_and_thresholds.json",
+      "sha256": "6d7ff170e974be5c553102d6ae7aee77f96773324031aba57613537aa4d6b0e4"
+    },
+    {
+      "path": "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/supplementary_states_2026-09-28_v1/SE38th/states_10s.json",
+      "sha256": "371d37ab2efda4b563d9d35deb29d55e74cac4cd376432fdd6b6efa5daaf6f0c"
+    },
+    {
+      "path": "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/supplementary_states_2026-09-28_v1/SE38th/rules_and_thresholds.json",
+      "sha256": "a5021bcda24d643366bba5e1e253d42b57a1dfbd8cfd458d84a14eba80cef9ce"
+    },
+    {
+      "path": "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/supplementary_states_2026-09-28_v1/NE8th/states_10s.json",
+      "sha256": "87dec7f9fc363696d7fbc5d2bc623013176023c5c14394b1c1f2b2af6111f14c"
+    },
+    {
+      "path": "/Users/zoki/Desktop/traffic_projects/formal_research/traffic_yolo_system/outputs/supplementary_states_2026-09-28_v1/NE8th/rules_and_thresholds.json",
+      "sha256": "b6c7434a1bdd58ab1548beeca07c2772d587ee7dc22df5dbfaaa4d1ea5817470"
+    }
+  ],
+  "no_states_recomputed": true,
+  "unknown_motion_replaced_by_zero": false,
+  "script_sha256": "3bae92364f6cf9865a2ab73e8eec591d97d50812a380edf2261c8f8af0d121e8"
+}

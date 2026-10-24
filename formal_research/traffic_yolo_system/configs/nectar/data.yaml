@@ -1,0 +1,10 @@
+# Training and validation only. Main Test is kept in a separate configuration.
+path: /home/ubuntu/traffic_projects/datasets/formal_yolo_trainval_v1
+train: images/train
+val: images/val
+
+names:
+  0: car
+  1: motorcycle
+  2: bus
+  3: truck

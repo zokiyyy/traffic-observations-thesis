@@ -1,0 +1,22 @@
+{
+  "passed": true,
+  "sealed_state_hash_verified": true,
+  "motion_values_reused_exactly": true,
+  "original_prior_validation": {
+    "passed": true,
+    "zone_window_rows": 1444,
+    "coverage_ticks": 324001363,
+    "count_means_exactly_reused": true,
+    "time_boundaries_match_authoritative": true,
+    "persistence_independently_recomputed": true,
+    "null_motion_not_zero": true,
+    "accuracy_evaluated": false,
+    "frame_pts_checked_against_audit": true,
+    "original_frame_hash_verified": true,
+    "hold_intervals_match_audit": true,
+    "missing_duration_s": 0.0,
+    "existing_state_sha_verified": true
+  },
+  "evidence_gates_independently_checked": true,
+  "missing_duration_s": 0.0
+}

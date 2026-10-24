@@ -1,0 +1,30 @@
+[
+  {
+    "zone": "road_top",
+    "kind": "joint",
+    "start_s": 1160.0,
+    "end_s": 1220.0,
+    "duration_s": 60.0,
+    "confirmation_available_at_s": 1190.0
+  },
+  {
+    "zone": "road_top",
+    "kind": "high",
+    "start_s": 670.0,
+    "end_s": 770.0,
+    "duration_s": 100.0,
+    "confirmation_available_at_s": 700.0
+  },
+  {
+    "kind": "count_peak",
+    "start_s": 750.0,
+    "end_s": 760.0,
+    "combined_mean_count": 30.050304444444443
+  },
+  {
+    "kind": "held_evidence_example",
+    "start_s": 798.1967888888889,
+    "end_s": 826.9633222222222,
+    "held_duration_s": 28.766533333333335
+  }
+]

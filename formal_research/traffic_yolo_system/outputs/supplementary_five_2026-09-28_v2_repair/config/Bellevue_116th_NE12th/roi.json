@@ -1,0 +1,296 @@
+{
+  "schema_version": 2,
+  "camera_id": "Bellevue_116th_NE12th",
+  "source_video": "Bellevue_116th_NE12th__2017-09-11_07-08-32.mp4",
+  "source_split": "Train",
+  "source_sha256": "4dde510ff91c2ec58e1cd06e27cbd923d8976c0156905a4625097653415eca4e",
+  "split_manifest_sha256": "8e1b8806f5a1f2f8280b71169d45ba5837bc710db26f0550610124fcc4f1f3cd",
+  "frame_width": 1280,
+  "frame_height": 720,
+  "assignment_point": "bottom_center",
+  "boundary_tie_break": "zone_order",
+  "zones": [
+    {
+      "zone_name": "road_left",
+      "polygon_points": [
+        [
+          450,
+          235
+        ],
+        [
+          640,
+          670
+        ],
+        [
+          5,
+          685
+        ],
+        [
+          5,
+          495
+        ],
+        [
+          165,
+          393
+        ],
+        [
+          310,
+          306
+        ]
+      ],
+      "color_bgr": [
+        0,
+        215,
+        255
+      ],
+      "label_anchor": [
+        100,
+        480
+      ],
+      "description": "Visible image-space road area; both travel directions may be present. Geographic direction is not assigned.",
+      "status": "provisional_AI_geometry",
+      "direction": "not_assigned"
+    },
+    {
+      "zone_name": "road_top",
+      "polygon_points": [
+        [
+          450,
+          235
+        ],
+        [
+          720,
+          155
+        ],
+        [
+          638,
+          80
+        ],
+        [
+          576,
+          61
+        ],
+        [
+          462,
+          56
+        ],
+        [
+          418,
+          90
+        ],
+        [
+          427,
+          145
+        ]
+      ],
+      "color_bgr": [
+        80,
+        220,
+        90
+      ],
+      "label_anchor": [
+        470,
+        153
+      ],
+      "description": "Visible image-space road area; both travel directions may be present. Geographic direction is not assigned.",
+      "status": "provisional_AI_geometry",
+      "direction": "not_assigned"
+    },
+    {
+      "zone_name": "road_right",
+      "polygon_points": [
+        [
+          720,
+          155
+        ],
+        [
+          1050,
+          356
+        ],
+        [
+          1070,
+          285
+        ],
+        [
+          1088,
+          165
+        ],
+        [
+          1051,
+          100
+        ],
+        [
+          1000,
+          84
+        ],
+        [
+          970,
+          111
+        ],
+        [
+          889,
+          124
+        ],
+        [
+          800,
+          141
+        ]
+      ],
+      "color_bgr": [
+        255,
+        150,
+        65
+      ],
+      "label_anchor": [
+        870,
+        190
+      ],
+      "description": "Visible image-space road area; both travel directions may be present. Geographic direction is not assigned.",
+      "status": "provisional_AI_geometry",
+      "direction": "not_assigned"
+    },
+    {
+      "zone_name": "road_bottom",
+      "polygon_points": [
+        [
+          1050,
+          356
+        ],
+        [
+          936,
+          480
+        ],
+        [
+          801,
+          583
+        ],
+        [
+          640,
+          670
+        ],
+        [
+          697,
+          696
+        ],
+        [
+          820,
+          696
+        ],
+        [
+          871,
+          691
+        ],
+        [
+          909,
+          670
+        ],
+        [
+          957,
+          651
+        ],
+        [
+          998,
+          652
+        ],
+        [
+          1035,
+          670
+        ],
+        [
+          1058,
+          696
+        ],
+        [
+          1216,
+          696
+        ],
+        [
+          1258,
+          657
+        ],
+        [
+          1218,
+          573
+        ],
+        [
+          1171,
+          497
+        ],
+        [
+          1113,
+          421
+        ]
+      ],
+      "color_bgr": [
+        60,
+        145,
+        250
+      ],
+      "label_anchor": [
+        1035,
+        586
+      ],
+      "description": "Visible image-space road area; both travel directions may be present. Geographic direction is not assigned.",
+      "status": "provisional_AI_geometry",
+      "direction": "not_assigned"
+    },
+    {
+      "zone_name": "junction_center",
+      "polygon_points": [
+        [
+          450,
+          235
+        ],
+        [
+          720,
+          155
+        ],
+        [
+          1050,
+          356
+        ],
+        [
+          936,
+          480
+        ],
+        [
+          801,
+          583
+        ],
+        [
+          640,
+          670
+        ]
+      ],
+      "color_bgr": [
+        230,
+        90,
+        210
+      ],
+      "label_anchor": [
+        610,
+        420
+      ],
+      "description": "Visible image-space road area; both travel directions may be present. Geographic direction is not assigned.",
+      "status": "provisional_AI_geometry",
+      "direction": "not_assigned"
+    }
+  ],
+  "layout_version": "bellevue_116th_ne12th-supplementary-source-v1-20260928",
+  "status": "sparse_AI_reviewed_development_candidate",
+  "purpose": "Model-estimated instantaneous visible vehicles in selected image-space road areas; no calibrated density, flow, speed, queue or congestion labels.",
+  "limitations": [
+    "Outer bounds intentionally exclude sidewalks, buildings, vegetation and near-camera hardware/occluded road portions; this is not complete physical intersection coverage.",
+    "Box bottom-center can be displaced by occlusion, oversized detections and perspective.",
+    "No new human ground truth or exhaustive frame review. Cross-camera counts cover different image-space areas.",
+    "Newport wall background filter is not applicable here and is disabled. Frozen heavy-vehicle rules are a cross-camera development trial, not validated accuracy.",
+    "6点构图稳定，原5区总体与道路对齐；晨间阴影、前景杆线及右下设备遮挡保留。夜间旧适用性凭据不能直接覆盖本次白天Train来源。"
+  ],
+  "assignment_policy": "Shared edges have identical endpoints; boundary ties choose the first zone in the zones list, with road approaches before center. Polygon interiors do not overlap; outside stays outside.",
+  "review_basis": "Six predetermined actual-PTS source frames reviewed during screening; no full-frame visual or 60-second registration audit was performed on this supplementary source.",
+  "supplementary_provenance": {
+    "reference_layout_sha256": "080b7379ebbf83beacf3e5aba481adc269c2e5d43c259bce27830768317a4a83",
+    "coordinate_and_assignment_changes": false,
+    "scope": "Six screened actual-PTS frames reviewed by root and independent AI; source-specific engineering trial only."
+  }
+}

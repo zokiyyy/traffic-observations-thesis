@@ -1,0 +1,164 @@
+{
+  "status": "initial public source publication prepared; source originals unchanged",
+  "copied_bytes": 273755551,
+  "copied_MiB": 261.07,
+  "source_unchanged_files_verified": 1537,
+  "python_version_used": "3.12.14 (main, Aug 25 2026, 13:50:33) [Clang 22.1.3 ]",
+  "checks_passed": true,
+  "historical_absolute_path_inventory_files": 284,
+  "credential_pattern_scan": {
+    "private_key_headers": 0,
+    "github_token_patterns": 0,
+    "aws_AKIA_patterns": 0,
+    "openai_key_patterns": 0,
+    "signed_url_patterns": 0,
+    "note": "Pattern screening only; not a guarantee or public-release approval."
+  },
+  "not_included": [
+    "raw videos",
+    "extracted images and original manual label files",
+    "Unity evaluation-case images",
+    "large raw frame/track logs",
+    "Unity Library/Builds",
+    "private deployment workflows"
+  ],
+  "not_verified": [
+    "full training or inference",
+    "raw video pipeline",
+    "image-based regional-count audit",
+    "Unity build/playback",
+    "online demo availability"
+  ],
+  "category_sizes": {
+    "extraction protocol": {
+      "files": 1,
+      "bytes": 8177
+    },
+    "source split": {
+      "files": 1,
+      "bytes": 28164
+    },
+    "extraction evidence": {
+      "files": 12,
+      "bytes": 615601
+    },
+    "image source manifest": {
+      "files": 1,
+      "bytes": 632487
+    },
+    "regional count audit": {
+      "files": 14,
+      "bytes": 1580892
+    },
+    "traffic_unity_demo": {
+      "files": 124,
+      "bytes": 79870273
+    },
+    "historical prototype verification": {
+      "files": 69,
+      "bytes": 5933962
+    },
+    "traffic_unity_web": {
+      "files": 133,
+      "bytes": 79845748
+    },
+    "detector and video pipeline": {
+      "files": 68,
+      "bytes": 698112
+    },
+    "Main Test evaluation records": {
+      "files": 566,
+      "bytes": 1433795
+    },
+    "state and evaluation records": {
+      "files": 202,
+      "bytes": 48686189
+    },
+    "frozen video run dependencies": {
+      "files": 251,
+      "bytes": 2283073
+    },
+    "retained video aggregates": {
+      "files": 27,
+      "bytes": 21168244
+    },
+    "video run summaries": {
+      "files": 31,
+      "bytes": 136936
+    },
+    "Newport state inputs": {
+      "files": 13,
+      "bytes": 1767115
+    },
+    "training records": {
+      "files": 4,
+      "bytes": 27007
+    },
+    "model checkpoint; local Release attachment candidate": {
+      "files": 2,
+      "bytes": 24616756
+    },
+    "Validation threshold records": {
+      "files": 16,
+      "bytes": 4417072
+    },
+    "recorded dependencies": {
+      "files": 1,
+      "bytes": 133
+    },
+    "annotation guideline": {
+      "files": 1,
+      "bytes": 5815
+    }
+  },
+  "latest_check": "release_checks/run_003",
+  "copied_files_including_optional_models": 1537,
+  "repository_required_research_files": 1535,
+  "optional_checkpoint_files": 2,
+  "git_simulation": "Performed only in a temporary copy; release and original research directories were not initialized as repositories.",
+  "distribution_tests": {
+    "repository_payload_check_passed": true,
+    "required_files": 1535,
+    "missing_required_files": [],
+    "extraction_records_included": 12,
+    "optional_models_excluded_from_git": 2,
+    "strict_missing_model_rejected": true,
+    "corrupt_present_model_rejected": true,
+    "local_models_strict_check_passed": true,
+    "unity_missing_image_folders_preserved": true,
+    "config_generation_passed": true,
+    "image_label_files_present": 0,
+    "image_label_files_required": 368,
+    "generated_configs_preserve_original_hashes_and_training_parameters": true,
+    "overwrite_refused": true,
+    "git_selected_files_at_test": 1561,
+    "git_selected_bytes_at_test": 250313638,
+    "no_remote_or_upload": true
+  },
+  "documentation_preview": {
+    "path": "docs/images/prototype-replay.png",
+    "source_unchanged": true,
+    "case_images_added": false,
+    "notes": "MEDIA_NOTES.md"
+  },
+  "preview_checks": {
+    "scope": "Git-selected file verification after README preview addition",
+    "passed": true,
+    "preview_included": true,
+    "preview_source_unchanged": true,
+    "readme_and_media_links_resolve": true,
+    "original_research_and_checkpoint_hashes_verified": 1537,
+    "unity_case_images_external": 3,
+    "case_source_hashes_verified_in_both_original_projects": true,
+    "models_not_in_git_payload": true,
+    "no_upload": true,
+    "note": "Final report/docs/checksum additions were checked separately after functional verification; original code and numerical evidence were unchanged."
+  },
+  "repository": {
+    "url": "https://github.com/zokiyyy/traffic-observations-thesis",
+    "visibility": "public",
+    "branch": "main",
+    "package_version": "thesis-source-package-v1",
+    "models_published": false
+  }
+}

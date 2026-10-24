@@ -1,0 +1,25 @@
+{
+  "status": "passed",
+  "changed_paths_count": 51,
+  "changed_fields_only": [
+    "notes",
+    "traffic_state_label",
+    "reason",
+    "milestones.label"
+  ],
+  "all_numeric_values_and_state_enums_unchanged": true,
+  "source_unchanged": true,
+  "thresholds_unchanged": true,
+  "windows": 361,
+  "zone_windows": 1444,
+  "json_sha256": "25b9ded1a965ca6ba02c759359b3e1c7ec0a756dc14f86b560dbdc9fab773c25",
+  "delivered_unity_sha256": "25b9ded1a965ca6ba02c759359b3e1c7ec0a756dc14f86b560dbdc9fab773c25",
+  "test_exit_code": 0,
+  "tests_summary": [
+    "----------------------------------------------------------------------",
+    "Ran 18 tests in 0.001s",
+    "",
+    "OK"
+  ],
+  "elapsed_seconds": 13.881823958014138
+}
